@@ -1,0 +1,3091 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<title>新品日报-vis - 视觉信号追踪</title>
+<script>
+  // 最后更新时间 - 每次更新时修改这个值
+  window.lastUpdated = '2026-06-04 22:00';
+</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230f1419'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%2322d3ee' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%2322d3ee'/%3E%3Cline x1='50' y1='28' x2='50' y2='38' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='50' y1='62' x2='50' y2='72' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='28' y1='50' x2='38' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='62' y1='50' x2='72' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-primary: #0f1419;
+    --bg-secondary: #1a1f2e;
+    --bg-card: #1e2530;
+    --bg-card-hover: #252d3a;
+    --bg-input: #1e2530;
+    --text-primary: #e6e6e6;
+    --text-secondary: #8b949e;
+    --text-muted: #6b7280;
+    --accent-cyan: #22d3ee;
+    --accent-cyan-dark: #06b6d4;
+    --accent-green: #22c55e;
+    --accent-gold: #fbbf24;
+    --accent-blue: #3b82f6;
+    --accent-purple: #a855f7;
+    --accent-pink: #ec4899;
+    --accent-red: #ef4444;
+    --accent-orange: #f97316;
+    --border-color: rgba(255,255,255,0.06);
+    --border-hover: rgba(255,255,255,0.1);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* 左侧导航栏 */
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 240px;
+    height: 100vh;
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border-color);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+  }
+
+  .logo {
+    padding: 0 20px 24px;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 16px;
+  }
+
+  .logo-text {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .logo-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--accent-cyan);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+
+  .logo-text span {
+    color: var(--accent-cyan);
+  }
+
+  .version-badge {
+    font-size: 10px;
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 4px;
+  }
+
+  .nav-menu {
+    flex: 1;
+    padding: 0 12px;
+    overflow-y: auto;
+    padding-bottom: 50px; /* 为底部更新时间留空间 */
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    margin-bottom: 4px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .nav-item:hover {
+    background: rgba(255,255,255,0.04);
+    color: var(--text-primary);
+  }
+
+  .nav-item.active {
+    background: rgba(34, 211, 238, 0.1);
+    color: var(--accent-cyan);
+  }
+
+  .nav-item.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 20px;
+    background: var(--accent-cyan);
+    border-radius: 0 2px 2px 0;
+  }
+
+  /* 品牌管理折叠 */
+  .nav-collapsible {
+    margin-top: 4px;
+  }
+  .nav-arrow {
+    margin-left: auto;
+    font-size: 10px;
+    color: var(--text-muted);
+    transition: transform 0.2s;
+  }
+  .nav-arrow.open {
+    transform: rotate(90deg);
+  }
+  .nav-collapsible-content {
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+    margin: 4px 8px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .brand-inline-actions {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  .brand-inline-btn {
+    flex: 1;
+    padding: 4px 8px;
+    font-size: 11px;
+    border: 1px solid var(--border-color);
+    background: transparent;
+    color: var(--text-secondary);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .brand-inline-btn:hover {
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+    border-color: var(--accent-cyan);
+  }
+  .brand-inline-search input {
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 12px;
+    background: var(--bg-input);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: var(--text-primary);
+    outline: none;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+  }
+  .brand-inline-search input:focus {
+    border-color: var(--accent-cyan);
+  }
+  .brand-inline-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .brand-inline-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    cursor: default;
+    transition: background 0.15s;
+  }
+  .brand-inline-item:hover {
+    background: rgba(255,255,255,0.05);
+  }
+  .brand-inline-item .brand-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .brand-inline-item .brand-remove {
+    margin-left: auto;
+    opacity: 0;
+    cursor: pointer;
+    color: var(--text-muted);
+    font-size: 14px;
+    transition: opacity 0.15s;
+  }
+  .brand-inline-item:hover .brand-remove {
+    opacity: 1;
+  }
+  .brand-inline-item .brand-remove:hover {
+    color: #ef4444;
+  }
+
+  /* 侧边栏底部更新时间 */
+  .sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 16px;
+    border-top: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+  }
+  .sidebar-update-time {
+    font-size: 11px;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .nav-icon {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  .nav-badge {
+    margin-left: auto;
+    font-size: 11px;
+    background: var(--accent-red);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 10px;
+    min-width: 18px;
+    text-align: center;
+  }
+
+  /* 第二列侧边栏 - 品牌管理 */
+  .brand-panel {
+    position: fixed;
+    left: 240px;
+    top: 0;
+    width: 280px;
+    height: 100vh;
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border-color);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+  }
+
+  .brand-panel-header {
+    padding: 0 16px 12px;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 12px;
+  }
+
+  .brand-panel-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+
+  .brand-count {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-muted);
+    background: rgba(255,255,255,0.06);
+    padding: 2px 8px;
+    border-radius: 10px;
+  }
+
+  .brand-actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .brand-btn {
+    flex: 1;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .brand-btn-primary {
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+  }
+
+  .brand-btn-primary:hover {
+    opacity: 0.9;
+  }
+
+  .brand-btn-secondary {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+  }
+
+  .brand-btn-secondary:hover {
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+  }
+
+  .brand-sync-status {
+    font-size: 11px;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .brand-sync-status.synced {
+    color: var(--accent-green);
+  }
+
+  .brand-sync-status.syncing::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--accent-cyan);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  .brand-search {
+    margin: 8px 16px;
+    padding: 8px 12px;
+    background: var(--bg-input);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 13px;
+    width: calc(100% - 32px);
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .brand-search::placeholder {
+    color: var(--text-muted);
+  }
+
+  .brand-search:focus {
+    border-color: var(--accent-cyan);
+  }
+
+  .brand-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0 8px;
+  }
+
+  .brand-category-label {
+    padding: 8px 8px 4px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .brand-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 2px;
+  }
+
+  .brand-item:hover {
+    background: rgba(255,255,255,0.04);
+  }
+
+  .brand-item:hover .brand-actions-inline {
+    opacity: 1;
+  }
+
+  .brand-item.disabled {
+    opacity: 0.4;
+  }
+
+  .brand-toggle {
+    width: 32px;
+    height: 18px;
+    background: var(--border-color);
+    border-radius: 9px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+
+  .brand-toggle.active {
+    background: var(--accent-cyan);
+  }
+
+  .brand-toggle::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: white;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.2s;
+  }
+
+  .brand-toggle.active::after {
+    transform: translateX(14px);
+  }
+
+  .brand-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+  }
+
+  .brand-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .brand-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .brand-type {
+    font-size: 10px;
+    color: var(--text-muted);
+  }
+
+  .brand-actions-inline {
+    display: flex;
+    gap: 4px;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .brand-action-btn {
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand-action-btn:hover {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--accent-red);
+  }
+
+  /* 主内容区 */
+  .main-content {
+    margin-left: 240px;
+    min-height: 100vh;
+    padding: 24px 32px;
+  }
+
+  .page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  .page-title-group {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .page-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .page-subtitle {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .notification-btn {
+    padding: 10px 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s;
+  }
+
+  .notification-btn:hover {
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+  }
+
+  .notification-btn.enabled {
+    background: rgba(34, 211, 238, 0.1);
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+  }
+
+  /* 筛选栏 */
+  .filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+
+  .filter-tabs {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .filter-tab {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+  }
+
+  .filter-tab:hover {
+    background: rgba(255,255,255,0.06);
+    color: var(--text-primary);
+  }
+
+  .filter-tab.active {
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+  }
+
+  .search-box {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+  }
+
+  .search-input {
+    padding: 8px 16px;
+    background: var(--bg-input);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 14px;
+    width: 240px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-input::placeholder {
+    color: var(--text-muted);
+  }
+
+  .search-input:focus {
+    border-color: var(--accent-cyan);
+  }
+
+  .search-btn {
+    padding: 8px 16px;
+    background: var(--accent-cyan);
+    border: none;
+    border-radius: 8px;
+    color: var(--bg-primary);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+
+  .search-btn:hover {
+    opacity: 0.9;
+  }
+
+  /* 时间轴 */
+  .timeline {
+    position: relative;
+    padding-left: 80px;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 60px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--border-color);
+  }
+
+  .date-group {
+    margin-bottom: 32px;
+  }
+
+  .date-label {
+    position: relative;
+    left: -80px;
+    width: 80px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+
+  /* ===== 骨架屏 ===== */
+  .skeleton-card {
+    background: var(--bg-card);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    animation: skeleton-pulse 1.5s ease-in-out infinite;
+  }
+  .skeleton-line {
+    height: 14px;
+    background: linear-gradient(90deg, var(--bg-secondary) 25%, var(--bg-card-hover) 50%, var(--bg-secondary) 75%);
+    background-size: 200% 100%;
+    animation: skeleton-shimmer 1.5s ease-in-out infinite;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .skeleton-line.short { width: 60%; }
+  .skeleton-line.medium { width: 80%; }
+  .skeleton-line.long { width: 95%; }
+  @keyframes skeleton-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+  @keyframes skeleton-shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+
+  /* ===== 焦点样式 ===== */
+  :focus-visible {
+    outline: 2px solid var(--accent-cyan);
+    outline-offset: 2px;
+  }
+  .nav-item:focus-visible, .filter-tab:focus-visible, .card:focus-visible {
+    outline: 2px solid var(--accent-cyan);
+    outline-offset: 2px;
+  }
+
+  /* ===== 搜索高亮 ===== */
+  .highlight {
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+    padding: 0 2px;
+    border-radius: 2px;
+  }
+
+  /* ===== 排序按钮 ===== */
+  .sort-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .sort-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .sort-btn:hover {
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+  }
+  .sort-btn.active {
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+    border-color: var(--accent-cyan);
+  }
+
+  /* ===== 错误提示 ===== */
+  .error-toast {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--accent-red);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    animation: slideUp 0.3s ease;
+  }
+  .error-toast .retry-btn {
+    background: white;
+    color: var(--accent-red);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  /* ===== 移动端底部导航 ===== */
+  .mobile-nav {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    padding: 8px 0;
+    padding-bottom: calc(8px + env(safe-area-inset-bottom, 0px));
+    z-index: 100;
+  }
+  .mobile-nav-items {
+    display: flex;
+    justify-content: space-around;
+  }
+  .mobile-nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 16px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  .mobile-nav-item.active {
+    color: var(--accent-cyan);
+  }
+  .mobile-nav-item svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* 卡片样式 */
+  .card {
+    position: relative;
+    background: var(--bg-card);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+    transition: all 0.2s;
+    border: 1px solid transparent;
+  }
+
+  .card:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--border-hover);
+  }
+
+  .card.duplicate {
+    opacity: 0.6;
+    border-left: 3px solid var(--accent-orange);
+  }
+
+  .card-time {
+    position: absolute;
+    left: -80px;
+    width: 50px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .card-time::after {
+    content: '';
+    position: absolute;
+    right: -26px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background: var(--accent-cyan);
+    border-radius: 50%;
+    border: 2px solid var(--bg-primary);
+  }
+
+  .card-image {
+    width: 100%;
+    height: 180px;
+    background: var(--bg-input);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  .card:hover .card-image img {
+    transform: scale(1.02);
+  }
+
+  .card-image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+
+  .card-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    flex-shrink: 0;
+  }
+
+  .card-source {
+    flex: 1;
+  }
+
+  .card-source-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+
+  .card-source-type {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .card-badges {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .badge-featured {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    background: linear-gradient(135deg, var(--accent-gold), #f59e0b);
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--bg-primary);
+  }
+
+  .badge-score {
+    padding: 4px 10px;
+    background: rgba(34, 211, 238, 0.15);
+    border: 1px solid rgba(34, 211, 238, 0.3);
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent-cyan);
+  }
+
+  .badge-source {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .badge-source-official {
+    background: rgba(34, 197, 94, 0.15);
+    color: var(--accent-green);
+  }
+
+  .badge-source-media {
+    background: rgba(59, 130, 246, 0.15);
+    color: var(--accent-blue);
+  }
+
+  .badge-source-secondary {
+    background: rgba(107, 114, 128, 0.15);
+    color: var(--text-muted);
+  }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+
+  .card-title a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .card-title a:hover {
+    color: var(--accent-cyan);
+  }
+
+  .card-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 12px;
+  }
+
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+
+  .tag {
+    padding: 4px 10px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 4px;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .tag-cyan { background: rgba(34, 211, 238, 0.1); color: var(--accent-cyan); }
+  .tag-green { background: rgba(34, 197, 94, 0.1); color: var(--accent-green); }
+  .tag-blue { background: rgba(59, 130, 246, 0.1); color: var(--accent-blue); }
+  .tag-purple { background: rgba(168, 85, 247, 0.1); color: var(--accent-purple); }
+  .tag-pink { background: rgba(236, 72, 153, 0.1); color: var(--accent-pink); }
+  .tag-orange { background: rgba(249, 115, 22, 0.1); color: var(--accent-orange); }
+
+  .card-reason {
+    padding: 12px 16px;
+    background: rgba(34, 197, 94, 0.08);
+    border-left: 3px solid var(--accent-green);
+    border-radius: 0 8px 8px 0;
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+
+  .card-reason strong {
+    color: var(--accent-green);
+    font-weight: 600;
+  }
+
+  .score-breakdown {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 6px;
+    font-size: 11px;
+  }
+
+  .score-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--text-muted);
+  }
+
+  .score-item-value {
+    color: var(--accent-cyan);
+    font-weight: 600;
+  }
+
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .card-meta {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .card-link {
+    font-size: 12px;
+    color: var(--accent-cyan);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .card-link:hover {
+    text-decoration: underline;
+  }
+
+  .duplicate-notice {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background: rgba(249, 115, 22, 0.1);
+    border-radius: 6px;
+    font-size: 12px;
+    color: var(--accent-orange);
+    margin-bottom: 12px;
+  }
+
+  .duplicate-toggle {
+    margin-left: auto;
+    font-size: 11px;
+    color: var(--accent-cyan);
+    cursor: pointer;
+  }
+
+  /* 页脚统计 */
+  .footer-stats {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 32px;
+    border-top: 1px solid var(--border-color);
+    margin-top: 40px;
+  }
+
+  .stat-item {
+    text-align: center;
+  }
+
+  .stat-num {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .stat-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  .footer-text {
+    text-align: center;
+    padding: 16px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  /* 弹窗 */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-overlay.show {
+    display: flex;
+  }
+
+  .modal {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 28px;
+    width: 420px;
+    max-width: 90vw;
+  }
+
+  .modal-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+  }
+
+  .modal-field {
+    margin-bottom: 16px;
+  }
+
+  .modal-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+  }
+
+  .modal-input, .modal-select {
+    width: 100%;
+    padding: 10px 14px;
+    background: var(--bg-input);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+    font-family: inherit;
+  }
+
+  .modal-input:focus, .modal-select:focus {
+    border-color: var(--accent-cyan);
+  }
+
+  .modal-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: 24px;
+  }
+
+  .modal-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    font-family: inherit;
+  }
+
+  .modal-btn-cancel {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+  }
+
+  .modal-btn-confirm {
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+  }
+
+  /* 通知 */
+  .notification-toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 2000;
+    transform: translateX(400px);
+    transition: transform 0.3s ease;
+    max-width: 360px;
+  }
+
+  .notification-toast.show {
+    transform: translateX(0);
+  }
+
+  .notification-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent-gold), #f59e0b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+
+  .notification-content {
+    flex: 1;
+  }
+
+  .notification-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+  }
+
+  .notification-text {
+    font-size: 12px;
+    color: var(--text-secondary);
+  }
+
+  /* 响应式 */
+  @media (max-width: 1200px) {
+    .brand-panel {
+      display: none;
+    }
+    .main-content {
+      margin-left: 240px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .sidebar {
+      width: 200px;
+    }
+    .main-content {
+      margin-left: 200px;
+      padding: 20px;
+    }
+    .timeline {
+      padding-left: 60px;
+    }
+    .card-time {
+      left: -60px;
+      width: 40px;
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+    .main-content {
+      margin-left: 0;
+      padding: 16px;
+      padding-bottom: 80px; /* 为底部导航留空间 */
+    }
+    .timeline {
+      padding-left: 0;
+    }
+    .timeline::before {
+      display: none;
+    }
+    .card-time {
+      position: static;
+      width: auto;
+      text-align: left;
+      margin-bottom: 8px;
+      font-size: 11px;
+    }
+    .mobile-nav {
+      display: block;
+    }
+    .filter-bar {
+      flex-wrap: wrap;
+    }
+    .filter-tab {
+      padding: 6px 10px;
+      font-size: 11px;
+    }
+  }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg-primary); }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<!-- 左侧导航栏 -->
+<aside class="sidebar">
+  <div class="logo">
+    <div class="logo-text">新品日报<span>-vis</span><div class="logo-dot"></div></div>
+    <div style="font-size: 10px; color: var(--text-muted); padding: 4px 20px 0;">视觉信号追踪</div>
+  </div>
+  
+  <nav class="nav-menu">
+    <a class="nav-item active" onclick="switchSection('featured', this)">
+      <span class="nav-icon">⭐</span>
+      精选
+      <span class="nav-badge" id="featuredCount">6</span>
+    </a>
+    <a class="nav-item" onclick="switchSection('all', this)">
+      <span class="nav-icon">📋</span>
+      全部动态
+      <span class="nav-badge" id="allCount">6</span>
+    </a>
+    <a class="nav-item" onclick="switchSection('today', this)">
+      <span class="nav-icon">📅</span>
+      今日更新
+      <span class="nav-badge" id="todayCount" style="display:none;">0</span>
+    </a>
+    <a class="nav-item" onclick="switchSection('crowdfunding', this)">
+      <span class="nav-icon">🔥</span>
+      众筹追踪
+      <span class="nav-badge" id="crowdfundingCount" style="display:none;">0</span>
+    </a>
+    <!-- 品牌管理 - 折叠式 -->
+    <div class="nav-collapsible" id="brandManagerToggle">
+      <a class="nav-item" onclick="toggleBrandManager()">
+        <span class="nav-icon">🏷️</span>
+        品牌管理
+        <span class="nav-badge" id="brandCountNav">27</span>
+        <span class="nav-arrow" id="brandArrow">▸</span>
+      </a>
+      <div class="nav-collapsible-content" id="brandManagerContent" style="display:none;">
+        <div class="brand-inline-actions">
+          <button class="brand-inline-btn" onclick="openAddBrandModal()">+ 添加</button>
+          <button class="brand-inline-btn" onclick="saveBrands()">保存</button>
+        </div>
+        <div class="brand-inline-search">
+          <input type="text" placeholder="搜索品牌..." id="brandSearchInline" oninput="filterBrandList()">
+        </div>
+        <div class="brand-inline-list" id="brandInlineList">
+          <!-- 品牌列表由JS渲染 -->
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="sidebar-footer">
+    <div class="sidebar-update-time">🕐 <span id="sidebarUpdateTime">加载中...</span></div>
+  </div>
+</aside>
+
+<!-- 第二列侧边栏 - 品牌管理（已移至左侧导航折叠） -->
+<aside class="brand-panel" style="display:none;">
+  <div class="brand-panel-header">
+    <div class="brand-panel-title">
+      品牌管理
+      <span class="brand-count" id="brandCount">0</span>
+    </div>
+    <div class="brand-actions">
+      <button class="brand-btn brand-btn-primary" onclick="saveBrandsToFile()">
+        💾 保存配置
+      </button>
+      <button class="brand-btn brand-btn-secondary" onclick="loadBrandsFromFile()">
+        🔄 刷新
+      </button>
+    </div>
+    <div class="brand-sync-status" id="syncStatus">
+      等待同步...
+    </div>
+  </div>
+  
+  <input type="file" id="brandFileInput" accept=".json" style="display:none;" onchange="handleFileSelect(event)">
+  
+  <input type="text" class="brand-search" placeholder="搜索品牌…" oninput="filterBrands(this.value)">
+
+  <div class="brand-list" id="brandList">
+    <!-- 品牌列表将通过JS动态加载 -->
+  </div>
+</aside>
+
+<!-- 主内容区 -->
+<main class="main-content">
+  <header class="page-header">
+    <div class="page-title-group">
+      <h1 class="page-title" id="pageTitle">精选</h1>
+      <span class="page-subtitle">视觉信号追踪 - 追踪改变消费电子视觉约束的源头</span>
+    </div>
+    <button class="notification-btn" id="notifyBtn" onclick="toggleNotification()">
+      🔔 开启新品提醒
+    </button>
+  </header>
+
+  <div class="filter-bar">
+    <div class="filter-tabs" id="filterTabs">
+      <button class="filter-tab active" onclick="filterCategory(this, 'all')">全部</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'car')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M5 17a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1l2-3h8l2 3h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2M5 17a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2M15 17a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2M9 9h1M14 9h1"/></svg> 汽车</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'phone')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18.01"/></svg> 手机/平板</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'wearable')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><polyline points="12 9 12 12 13.5 13.5"/><path d="M16.51 17.35l-.35 3.83a2 2 0 0 1-2 1.82H9.83a2 2 0 0 1-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 0 1 9.83 1h4.35a2 2 0 0 1 2 1.82l.35 3.83"/></svg> 可穿戴</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'audio')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg> 音频</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'mobility')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/></svg> 出行工具</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'smart')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 智能家居</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'accessory')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 充电配件</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'camera')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> 影像设备</button>
+    </div>
+    <div class="search-box">
+      <input type="text" class="search-input" placeholder="搜索标题/摘要…" id="searchInput">
+      <button class="search-btn" onclick="searchContent()">搜索</button>
+    </div>
+  </div>
+
+  <!-- 排序栏 -->
+  <div class="sort-bar">
+    <span style="font-size:12px;color:var(--text-muted);">排序：</span>
+    <button class="sort-btn active" onclick="sortProducts('time', this)" data-sort="time">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> 时间
+    </button>
+    <button class="sort-btn" onclick="sortProducts('score', this)" data-sort="score">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 评分
+    </button>
+    <button class="sort-btn" onclick="sortProducts('brand', this)" data-sort="brand">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg> 品牌
+    </button>
+  </div>
+
+  <!-- 时间轴内容 -->
+  <div class="timeline" id="timeline">
+    <!-- 内容将通过JS动态加载 -->
+  </div>
+
+  <!-- 加载历史归档 -->
+  <div id="archiveSection" style="text-align:center;padding:20px 0;display:none;">
+    <button id="loadArchiveBtn" onclick="loadArchive()" style="padding:10px 24px;background:transparent;border:1px solid var(--border-color);color:var(--text-secondary);border-radius:8px;cursor:pointer;font-size:13px;transition:all 0.2s;">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:6px;"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+      加载历史归档数据
+    </button>
+    <div id="archiveStatus" style="font-size:12px;color:var(--text-muted);margin-top:8px;"></div>
+  </div>
+
+  <!-- 页脚统计 -->
+  <footer class="footer-stats">
+    <div class="stat-item">
+      <div class="stat-num" id="statTotal">6</div>
+      <div class="stat-label">视觉约束信号</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="statFeatured">6</div>
+      <div class="stat-label">精选推荐</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="statBrands">27+</div>
+      <div class="stat-label">覆盖品牌</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="statMonitored">27</div>
+      <div class="stat-label">监控中</div>
+    </div>
+  </footer>
+  <p class="footer-text">
+    新品日报-vis · 视觉信号追踪 · 每日21:00自动更新<br>
+    最后更新时间：<span id="lastUpdatedTime">加载中...</span>
+    <span id="dataSourceBadge" style="margin-left:8px;font-size:11px;padding:2px 6px;border-radius:4px;display:none;"></span>
+  </p>
+  <script>
+    // 显示最后更新时间
+    const updateTime = window.lastUpdated || '未知';
+    document.getElementById('lastUpdatedTime').textContent = updateTime;
+    const sidebarTime = document.getElementById('sidebarUpdateTime');
+    if (sidebarTime) sidebarTime.textContent = '更新: ' + updateTime;
+    // 数据来源标记函数
+    function updateDataSourceBadge() {
+      const badge = document.getElementById('dataSourceBadge');
+      if (!badge) return;
+      if (window.dataSource === 'fallback') {
+        badge.textContent = '备用数据';
+        badge.style.background = '#ef4444';
+        badge.style.color = '#fff';
+        badge.style.display = 'inline';
+      } else if (window.dataSource === 'recent.json') {
+        badge.textContent = '实时数据';
+        badge.style.background = '#22c55e';
+        badge.style.color = '#000';
+        badge.style.display = 'inline';
+      }
+    }
+  </script>
+</main>
+
+<!-- 新增品牌弹窗 -->
+<div class="modal-overlay" id="addBrandModal">
+  <div class="modal">
+    <div class="modal-title">新增监控品牌</div>
+    <div class="modal-field">
+      <label class="modal-label">品牌名称</label>
+      <input type="text" class="modal-input" id="newBrandName" placeholder="例如：大疆 DJI">
+    </div>
+    <div class="modal-field">
+      <label class="modal-label">品牌分类</label>
+      <select class="modal-select" id="newBrandCategory">
+        <option value="car">🚗 汽车</option>
+        <option value="phone">📱 手机/平板</option>
+        <option value="wearable">⌚ 可穿戴</option>
+        <option value="audio">🎧 音频</option>
+        <option value="smart">🏠 智能家居</option>
+        <option value="mobility">🛴 出行工具</option>
+        <option value="accessory">🔌 充电配件</option>
+        <option value="camera">📷 影像设备</option>
+      </select>
+    </div>
+    <div class="modal-field">
+      <label class="modal-label">品牌类型描述</label>
+      <input type="text" class="modal-input" id="newBrandType" placeholder="例如：无人机 / 智能电动车">
+    </div>
+    <div class="modal-actions">
+      <button class="modal-btn modal-btn-cancel" onclick="closeAddBrandModal()">取消</button>
+      <button class="modal-btn modal-btn-confirm" onclick="addBrand()">添加品牌</button>
+    </div>
+  </div>
+</div>
+
+<!-- 通知Toast -->
+<div class="notification-toast" id="notificationToast">
+  <div class="notification-icon">⭐</div>
+  <div class="notification-content">
+    <div class="notification-title">发现高评分新品！</div>
+    <div class="notification-text" id="notificationText">小米 SU7 Ultra 评分 96</div>
+  </div>
+</div>
+
+<script>
+// ==================== 全局数据 ====================
+let brandsData = {
+  lastUpdated: new Date().toISOString().split('T')[0],
+  sourcePriority: {
+    description: "信息源金字塔：约束源头 > 设计师前沿 > 范式确立 > 跟随者",
+    tier0_constraint: "材料实验室/工艺创新/供应链趋势/头部品牌实验",
+    tier1_designer: "Nothing/Teenage Engineering/Dyson/B&O",
+    tier2_paradigm: "华为/Apple/三星（范式确立者）",
+    tier3_follower: "扩散跟随者（仅保留高VIS）",
+    block_list: ["今日头条自媒体", "百家号", "搜狐号", "网易号", "企鹅号"]
+  },
+  brands: [],
+  categories: {
+    "car": "🚗 汽车",
+    "phone": "📱 手机/平板",
+    "wearable": "⌚ 可穿戴",
+    "audio": "🎧 音频",
+    "smart": "🏠 智能家居",
+    "mobility": "🛴 出行工具",
+    "accessory": "🔌 充电配件",
+    "camera": "📷 影像设备"
+  }
+};
+
+let productsData = [];
+let notificationEnabled = false;
+
+// ==================== 初始化 ====================
+document.addEventListener('DOMContentLoaded', async function() {
+  // 显示骨架屏
+  showSkeleton();
+  
+  try {
+    await loadDefaultBrands();
+    await loadDefaultProducts();
+    renderBrandList();
+    applyViewStateAndRender();
+    checkNewProducts();
+    checkArchive();
+  } catch (e) {
+    console.error('[BrandPulse] 初始化失败:', e);
+    showError('数据加载失败', 'location.reload');
+  }
+});
+
+// ==================== 品牌管理 ====================
+async function loadDefaultBrands() {
+  // 优先从 brands.json 动态加载，保证实时同步
+  try {
+    const response = await fetch('./brands.json');
+    if (response.ok) {
+      const data = await response.json();
+      if (data.brands && Array.isArray(data.brands)) {
+        brandsData.brands = data.brands.map(b => ({
+          name: b.name,
+          nameEn: b.nameEn || b.name,
+          category: b.category,
+          type: b.type || '',
+          monitored: b.monitored !== false,
+          officialSources: b.officialSources || []
+        }));
+        // 同步分类
+        if (data.categories && typeof data.categories === 'object') {
+          for (const [key, value] of Object.entries(data.categories)) {
+            brandsData.categories[key] = value;
+          }
+        }
+        console.log(`[BrandPulse] 已从 brands.json 加载 ${brandsData.brands.length} 个品牌`);
+        return;
+      }
+    }
+  } catch (e) {
+    console.warn('[BrandPulse] 无法加载 brands.json，使用内置数据:', e.message);
+  }
+
+  // Fallback: 内嵌品牌数据（file:// 本地打开或网络不可用时使用）
+  brandsData.brands = [
+    {name:"小米汽车",nameEn:"Xiaomi Auto",category:"car",type:"智能电动车",monitored:true,officialSources:["https://www.mi.com/news","https://auto.mi.com/news","雷军微博"]},
+    {name:"特斯拉",nameEn:"Tesla",category:"car",type:"智能电动车",monitored:true,officialSources:["https://www.tesla.cn/about/news","https://ir.tesla.com"]},
+    {name:"享界",nameEn:"Stelato",category:"car",type:"华为智选智能电动车",monitored:true,officialSources:["https://www.stelato.com","华为官方"]},
+    {name:"华为",nameEn:"Huawei",category:"phone",type:"智能手机/笔记本/可穿戴",monitored:true,officialSources:["https://consumer.huawei.com/cn/press/","华为官方微博"]},
+    {name:"OPPO",nameEn:"OPPO",category:"phone",type:"智能手机",monitored:true,officialSources:["https://www.oppo.com/cn/newsroom","OPPO官方微博"]},
+    {name:"三星",nameEn:"Samsung",category:"phone",type:"智能手机",monitored:true,officialSources:["https://news.samsung.com/cn","https://www.samsung.com/cn"]},
+    {name:"联想moto",nameEn:"Motorola",category:"phone",type:"折叠屏手机",monitored:true,officialSources:["https://www.motorola.com.cn","联想官方"]},
+    {name:"Nothing",nameEn:"Nothing",category:"phone",type:"透明设计手机/耳机",monitored:true,officialSources:["https://nothing.tech/blog","Nothing官方Twitter"]},
+    {name:"Ulefone",nameEn:"Ulefone",category:"phone",type:"三防手机/热成像手机",monitored:true,officialSources:["https://www.ulefone.com","Ulefone官方"]},
+    {name:"索尼",nameEn:"Sony",category:"audio",type:"头戴降噪耳机",monitored:true,officialSources:["https://www.sony.com.cn/news","https://www.sony.com/electronics"]},
+    {name:"韶音",nameEn:"Shokz",category:"audio",type:"骨传导耳机",monitored:true,officialSources:["https://www.shokz.com.cn","韶音官方微博"]},
+    {name:"微软",nameEn:"Microsoft",category:"smart",type:"二合一PC",monitored:true,officialSources:["https://news.microsoft.com","https://www.microsoft.com/zh-cn/surface"]},
+    {name:"追觅",nameEn:"Dreame",category:"robot",type:"洗地机/扫地机器人",monitored:true,officialSources:["https://www.dreame.com","追觅官方微博"]},
+    {name:"石头科技",nameEn:"Roborock",category:"robot",type:"扫地机器人",monitored:true,officialSources:["https://www.roborock.com","石头科技官方微博"]},
+    {name:"科沃斯",nameEn:"Ecovacs",category:"robot",type:"扫地机器人",monitored:true,officialSources:["https://www.ecovacs.com/cn/news","科沃斯官方微博"]},
+    {name:"云鲸",nameEn:"Narwal",category:"robot",type:"扫地机器人",monitored:true,officialSources:["https://www.narwal.com","云鲸官方微博"]},
+    {name:"库犸科技",nameEn:"Mammotion",category:"lawn",type:"智能割草机器人",monitored:true,officialSources:["https://www.mammotion.com","Mammotion官方"]},
+    {name:"Segway割草机",nameEn:"Segway Navimow",category:"lawn",type:"无边界割草机器人",monitored:true,officialSources:["https://www.segway.com/navimow","Segway官方"]},
+    {name:"Worx割草机",nameEn:"Worx Landroid",category:"lawn",type:"智能割草机器人",monitored:true,officialSources:["https://www.worx.com","Worx官方"]},
+    {name:"Beatbot",nameEn:"Beatbot",category:"pool",type:"泳池清洁机器人",monitored:true,officialSources:["https://beatbot.com","Beatbot官方"]},
+    {name:"Aiper",nameEn:"Aiper",category:"pool",type:"泳池清洁机器人",monitored:true,officialSources:["https://www.aiper.com","Aiper官方"]},
+    {name:"Bluetti",nameEn:"Bluetti",category:"power",type:"户外储能电站",monitored:true,officialSources:["https://www.bluettipower.com","Bluetti官方"]},
+    {name:"正浩",nameEn:"EcoFlow",category:"power",type:"户外电源/储能",monitored:true,officialSources:["https://www.ecoflow.com","正浩官方"]},
+    {name:"Oura",nameEn:"Oura",category:"wearable",type:"智能戒指",monitored:true,officialSources:["https://ouraring.com","Oura官方"]},
+    {name:"WHOOP",nameEn:"WHOOP",category:"wearable",type:"无屏健康手环",monitored:true,officialSources:["https://www.whoop.com","WHOOP官方"]},
+    {name:"佳明",nameEn:"Garmin",category:"wearable",type:"运动手表/健康穿戴",monitored:true,officialSources:["https://www.garmin.com.cn","佳明官方"]},
+    {name:"极米",nameEn:"XGIMI",category:"projector",type:"智能投影仪",monitored:true,officialSources:["https://www.xgimi.com","极米官方微博"]},
+    {name:"坚果",nameEn:"JMGO",category:"projector",type:"智能投影仪",monitored:true,officialSources:["https://www.jmgo.com","坚果官方微博"]},
+    {name:"玩家国度",nameEn:"ROG ASUS",category:"gaming",type:"电竞笔记本/显示器/外设",monitored:true,officialSources:["https://rog.asus.com","ROG官方微博"]},
+    {name:"九号",nameEn:"Ninebot",category:"mobility",type:"电动车/电摩",monitored:true,officialSources:["https://www.ninebot.cn","九号官方微博"]},
+    {name:"小牛",nameEn:"NIU",category:"mobility",type:"电动车",monitored:true,officialSources:["https://www.niu.com","小牛官方微博"]},
+    {name:"安克",nameEn:"Anker",category:"accessory",type:"无线充/充电器",monitored:true,officialSources:["https://www.anker.com/about/press","安克官方微博"]},
+    {name:"倍思",nameEn:"Baseus",category:"accessory",type:"三合一无线充/伸缩线充",monitored:true,officialSources:["https://www.baseus.com","倍思官方微博"]},
+    {name:"绿联",nameEn:"UGREEN",category:"accessory",type:"扩展坞/屏显充电器",monitored:true,officialSources:["https://www.ugreen.com","绿联官方微博"]},
+    {name:"贝尔金",nameEn:"Belkin",category:"accessory",type:"MagSafe无线充",monitored:true,officialSources:["https://www.belkin.com/about/press","贝尔金官方"]},
+    {name:"酷态科",nameEn:"CUKTECH",category:"accessory",type:"快充充电宝",monitored:true,officialSources:["https://www.cuktech.com","酷态科官方微博"]},
+    {name:"罗马仕",nameEn:"ROMOSS",category:"accessory",type:"大容量充电宝",monitored:true,officialSources:["https://www.romoss.com","罗马仕官方微博"]},
+    {name:"闪极",nameEn:"Sharge",category:"accessory",type:"复古设计充电器",monitored:true,officialSources:["https://www.sharge.com","闪极官方微博"]},
+    {name:"优越者",nameEn:"UNITEK",category:"accessory",type:"扩展坞/数据线",monitored:true,officialSources:["https://www.unitek.com","优越者官方"]},
+    {name:"维奥技术",nameEn:"VEOUT",category:"accessory",type:"便携显示器",monitored:true,officialSources:["https://www.veout.com","维奥技术官方"]},
+    {name:"艾欧提",nameEn:"iOttie",category:"accessory",type:"车载无线充",monitored:true,officialSources:["https://www.iottie.com"]},
+    {name:"大疆",nameEn:"DJI",category:"camera",type:"无人机/手持云台",monitored:true,officialSources:["https://www.dji.com/cn/news","大疆官方微博"]},
+    {name:"影石",nameEn:"Insta360",category:"camera",type:"全景相机/运动相机",monitored:true,officialSources:["https://www.insta360.com","影石官方微博"]},
+    {name:"GoPro",nameEn:"GoPro",category:"camera",type:"运动相机",monitored:true,officialSources:["https://gopro.com/newsroom"]}
+  ];
+}
+
+async function loadDefaultProducts() {
+  // ===== 从 recent.json 加载新品数据 =====
+  try {
+    const response = await fetch('./products/recent.json');
+    if (response.ok) {
+      const data = await response.json();
+      if (Array.isArray(data) && data.length > 0) {
+        productsData = data;
+        window.dataSource = 'recent.json';
+        console.log(`[BrandPulse] 已从 recent.json 加载 ${productsData.length} 个产品`);
+        if (typeof updateDataSourceBadge === 'function') updateDataSourceBadge();
+        return;
+      }
+    }
+  } catch (e) {
+    console.warn('[BrandPulse] 无法加载 recent.json:', e.message);
+  }
+  // Fallback: 内嵌产品数据（从 recent.json 同步）
+  window.dataSource = 'fallback';
+  console.warn('[BrandPulse] 使用备用内嵌数据');
+  if (typeof updateDataSourceBadge === 'function') updateDataSourceBadge();
+  productsData = [
+  {
+    "id": "oppo-reno16-20260524",
+    "brand": "OPPO",
+    "category": "phone",
+    "title": "OPPO Reno16 — 3D冰透悬浮工艺，裸眼3D星球纹理",
+    "summary": "行业首创3D冰透悬浮工艺，微米级工艺打造裸眼3D效果星球纹理，手机后壳从平面装饰走向动态光学效果。",
+    "constraintChange": "行业首创3D冰透悬浮工艺，手机后壳从平面走向裸眼3D动态光学",
+    "time": "2026-05-25 18:00",
+    "score": 88,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {"recognition": 20, "paradigmShift": 23, "cmfInnovation": 23, "transferability": 12, "diffusionPotential": 10},
+    "facts": [
+      "发布时间：2026年5月25日",
+      "行业首创3D冰透悬浮工艺",
+      "微米级工艺打造裸眼3D效果星球纹理",
+      "主打配色怦然星动",
+      "全系标配金属中框",
+      "天玑9500s芯片，2亿像素三摄"
+    ],
+    "analysis": {
+      "whyItMatters": "手机后壳从平面装饰走向裸眼3D动态光学效果，CMF层面的创新跃迁",
+      "transferability": "3D光学纹理工艺可迁移到耳机盒、平板背板、智能穿戴外壳",
+      "risk": "目前主要来自官方预热，缺少第三方实物验证"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "OPPO官方发布",
+      "url": "https://www.oppo.com/cn/smartphones/series-reno/reno16/",
+      "capturedAt": "2026-05-25T18:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "媒体报道",
+        "url": "http://m.toutiao.com/group/7643793301803467291/",
+        "supports": ["product_exists", "visual_design", "release_time"]
+      }
+    ],
+    "tags": ["Reno16", "3D冰透悬浮", "裸眼3D", "怦然星动"],
+    "image": "https://aka.doubaocdn.com/s/HSbP1wTfne",
+    "duplicateOf": null,
+    "createdAt": "2025-05-24T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "https://www.oppo.com/cn/smartphones/series-reno/reno16/"
+  },
+  {
+    "id": "xiaomi-yu7-gt-20260525",
+    "brand": "小米汽车",
+    "category": "car",
+    "title": "小米 YU7 GT — 宽体低趴纯血GT轿跑SUV",
+    "summary": "定位纯血GT跑车级轿跑SUV，宽体低趴设计语言开创小米汽车形态新范式。五款外观配色含钛金属色金属漆，纽北7分34秒931刷新SUV圈速纪录。",
+    "constraintChange": "宽体低趴GT形态，小米汽车设计范式新尝试，钛金属色金属漆车漆工艺",
+    "time": "2026-05-21 14:00",
+    "score": 75,
+    "confidence": 80,
+    "reviewStatus": "verified",
+    "visBreakdown": {"recognition": 18, "paradigmShift": 16, "cmfInnovation": 15, "transferability": 13, "diffusionPotential": 13},
+    "facts": [
+      "发布时间：2026年5月21日",
+      "宽体低趴设计语言，纯血GT轿跑SUV定位",
+      "五款外观配色：车厘子红、火山灰（全新首发）、曜石黑、珍珠白、钛金属色金属漆",
+      "两套21英寸轮毂+米其林轮胎组合",
+      "纽北7分34秒931刷新SUV圈速纪录"
+    ],
+    "analysis": {
+      "whyItMatters": "小米汽车从家用SUV向GT跑车级形态拓展，宽体低趴设计代表品牌设计语言新方向",
+      "transferability": "GT设计语言可迁移到小米汽车后续产品线",
+      "risk": "更偏向性能定位而非CMF突破，创新强度相对有限"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "小米汽车官方发布",
+      "url": "https://www.mi.com/yu7gt",
+      "capturedAt": "2026-05-21T14:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "IT之家报道",
+        "url": "http://m.toutiao.com/group/7641863852631523882/",
+        "supports": ["product_exists", "design", "specs"]
+      }
+    ],
+    "tags": ["YU7 GT", "宽体低趴", "钛金属色车漆", "GT轿跑SUV"],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-25T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "https://www.mi.com/yu7gt"
+  },
+  {
+    "id": "moto-razr-ultra-2026-20260525",
+    "brand": "联想moto",
+    "category": "phone",
+    "title": "moto Razr Ultra 2026 — Alcantara麂皮+木质后盖",
+    "summary": "提供Alcantara麂皮和木质等高端天然材质版本，属于生物基/天然材料在折叠屏手机上的高端应用。外屏升级至最大4英寸165Hz高刷，进一步推动外屏即主屏的范式转变。",
+    "constraintChange": "Alcantara麂皮+木质后盖天然材料创新，4英寸大外屏推动外屏即主屏范式",
+    "time": "2026-05-21 10:00",
+    "score": 83,
+    "confidence": 82,
+    "reviewStatus": "verified",
+    "visBreakdown": {"recognition": 18, "paradigmShift": 20, "cmfInnovation": 20, "transferability": 13, "diffusionPotential": 12},
+    "facts": [
+      "发布时间：2026年5月21日全球上市",
+      "Alcantara麂皮和木质后盖材质版本",
+      "三款配色：赤铁矿色、运动绿、亮白",
+      "外屏升级至最大4英寸165Hz高刷",
+      "第七代超强硬星轨转轴"
+    ],
+    "analysis": {
+      "whyItMatters": "Alcantara麂皮和木质后盖将天然/生物基材料引入折叠屏手机，突破传统玻璃/素皮框架",
+      "transferability": "天然材料工艺可迁移到平板背板、智能穿戴等设备",
+      "risk": "天然材料的耐久性和维护成本"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "联想moto官方",
+      "url": "https://www.motorola.com.cn/products/razr-ultra-2026",
+      "capturedAt": "2026-05-21T10:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "媒体报道",
+        "url": "http://m.toutiao.com/group/7643076930330083881/",
+        "supports": ["product_exists", "materials", "design"]
+      }
+    ],
+    "tags": ["Razr Ultra 2026", "Alcantara麂皮", "木质后盖", "4英寸外屏"],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-25T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "https://www.motorola.com.cn/products/razr-ultra-2026"
+  },
+  {
+    "id": "moto-razr-fold-2026-20260525",
+    "brand": "联想moto",
+    "category": "phone",
+    "title": "moto razr Fold — 首创颜色+丝绸布料复合工艺",
+    "summary": "联想moto首款横向大折叠屏，首创颜色+丝绸布料复合工艺（珠光锦白配色），表面呈现浅金色温润质感，触感类似高档丝织品，兼具皮质阻尼感与抗指纹特性。展开厚度仅4.43mm。",
+    "constraintChange": "首创颜色+丝绸布料复合工艺，后盖材质触感范式级创新，展开厚度4.43mm",
+    "time": "2026-05-19 14:00",
+    "score": 87,
+    "confidence": 84,
+    "reviewStatus": "verified",
+    "visBreakdown": {"recognition": 20, "paradigmShift": 22, "cmfInnovation": 22, "transferability": 13, "diffusionPotential": 10},
+    "facts": [
+      "发布时间：2026年5月19日，5月21日全球上市",
+      "首创颜色+丝绸布料复合工艺（珠光锦白配色）",
+      "触感类似高档丝织品，兼具皮质阻尼感与抗指纹特性",
+      "三款配色：绅墨雅黑、珠光锦白、2026 FIFA世界杯鎏金限定版（限量2000台）",
+      "展开厚度仅4.43mm，折叠厚度9.89mm",
+      "第七代超强硬星轨转轴，折痕近乎不可见"
+    ],
+    "analysis": {
+      "whyItMatters": "颜色+丝绸布料复合工艺突破传统玻璃/素皮/陶瓷后盖框架，开创仿生触感材料新方向",
+      "transferability": "丝绸布料复合工艺可迁移到耳机盒、平板背板、智能穿戴外壳",
+      "risk": "布料材质的耐久性和清洁维护"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "联想moto官方",
+      "url": "https://www.motorola.com.cn/products/razr-fold-2026",
+      "capturedAt": "2026-05-19T14:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "媒体报道",
+        "url": "http://m.toutiao.com/group/7643483630035108402/",
+        "supports": ["product_exists", "materials", "design", "specs"]
+      }
+    ],
+    "tags": ["razr Fold", "丝绸布料", "珠光锦白", "4.43mm超薄", "鎏金限定"],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-25T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "https://www.motorola.com.cn/products/razr-fold-2026"
+  },
+  {
+    "id": "rog-xreal-r1-20260525",
+    "brand": "ROG",
+    "category": "gaming",
+    "title": "ROG XREAL R1 AR眼镜 — 电致变色镜片，240Hz电竞AR",
+    "summary": "ROG与XREAL联合打造，搭载电致变色镜片可自动调节透明度，无需摘镜即可与现实交互。91g超轻设计，MicroOLED屏幕0.01ms响应，240Hz高刷，171英寸虚拟巨幕，红点设计大奖获奖外观。",
+    "constraintChange": "电致变色镜片在消费级AR眼镜中的应用，91g超轻量化设计",
+    "time": "2026-05-15 14:00",
+    "score": 86,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {"recognition": 20, "paradigmShift": 20, "cmfInnovation": 20, "transferability": 13, "diffusionPotential": 13},
+    "facts": [
+      "发布时间：2026年5月15日（ROG DAY 2026），6月12日开售",
+      "电致变色镜片，可自动调节透明度",
+      "91g超轻量化设计",
+      "MicroOLED屏幕，0.01ms响应，240Hz高刷",
+      "4米投射距离呈现171英寸虚拟巨幕",
+      "红点设计大奖获奖外观",
+      "首发价5999元"
+    ],
+    "analysis": {
+      "whyItMatters": "电致变色镜片在消费级AR眼镜中的前沿应用，实现虚实无缝切换",
+      "transferability": "电致变色技术可迁移到智能眼镜、汽车天窗、建筑玻璃",
+      "risk": "AR眼镜品类整体成熟度有限，定价较高"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "ROG DAY 2026发布会",
+      "url": "https://rog.asus.com.cn/xreal-r1/",
+      "capturedAt": "2026-05-15T14:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "媒体报道",
+        "url": "http://m.toutiao.com/group/7643761163817206312/",
+        "supports": ["product_exists", "materials", "specs", "price"]
+      }
+    ],
+    "tags": ["ROG XREAL R1", "电致变色", "AR眼镜", "240Hz", "91g超轻"],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-25T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "https://rog.asus.com.cn/xreal-r1/"
+  },
+  {
+    "id": "rog-crosshair-2006-20260525",
+    "brand": "ROG",
+    "category": "gaming",
+    "title": "ROG CROSSHAIR 2006 复刻版 — 复古铜色金属背板，20周年典藏",
+    "summary": "ROG 20周年复刻版主板，复古铜色金属背板搭配蓝白配色插槽，初代ROG LOGO标识。主M.2散热装甲搭载2英寸OLED显示屏，支持自定义动画和硬件监控。首发价5206元。",
+    "constraintChange": "复古铜色金属背板CMF方案+主板OLED屏显集成，PC硬件领域罕见的复古回归设计",
+    "time": "2026-05-15 14:00",
+    "score": 80,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {"recognition": 18, "paradigmShift": 16, "cmfInnovation": 20, "transferability": 13, "diffusionPotential": 13},
+    "facts": [
+      "发布时间：2026年5月15日（ROG DAY 2026）",
+      "复古铜色金属背板，蓝白配色插槽",
+      "初代ROG LOGO标识，高度还原2006年初代设计",
+      "2英寸OLED主板屏显，支持自定义动画和硬件监控",
+      "20+2+2相110A旗舰供电",
+      "首发价5206元"
+    ],
+    "analysis": {
+      "whyItMatters": "PC主板领域罕见的复古回归CMF策略，与一贯赛博未来风格形成差异化",
+      "transferability": "复古CMF策略可影响其他PC硬件品牌的设计方向",
+      "risk": "复刻版定位小众，对主流市场影响有限"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "ROG DAY 2026发布会",
+      "url": "https://rog.asus.com.cn/motherboards/rog-crosshair-2006/",
+      "capturedAt": "2026-05-15T14:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "媒体报道",
+        "url": "http://m.toutiao.com/group/7640454330897678882/",
+        "supports": ["product_exists", "design", "price"]
+      }
+    ],
+    "tags": ["CROSSHAIR 2006", "复古铜色", "OLED主板屏", "20周年复刻"],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-25T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "https://rog.asus.com.cn/motherboards/rog-crosshair-2006/"
+  },
+  {
+    "id": "shokz-opendots-air-20260525",
+    "brand": "韶音Shokz",
+    "category": "audio",
+    "title": "韶音 OpenDots Air — 0.28mm超薄钛片耳夹式耳机",
+    "summary": "自研流星弧耳夹设计，0.28mm超薄钛片与柔软硅胶一体成型，兼顾贴合度与支撑性。破晓紫、午夜黑配色，将钛金属从高端手表/眼镜下放到百元级音频配件。",
+    "constraintChange": "0.28mm超薄钛片+硅胶一体成型，钛金属下放到百元级耳夹式耳机",
+    "time": "2026-05-15 14:00",
+    "score": 84,
+    "confidence": 82,
+    "reviewStatus": "verified",
+    "visBreakdown": {"recognition": 18, "paradigmShift": 18, "cmfInnovation": 20, "transferability": 14, "diffusionPotential": 14},
+    "facts": [
+      "发布时间：2026年5月15日（深圳2026 Shokz Day）",
+      "自研流星弧耳夹设计",
+      "0.28mm超薄钛片与柔软硅胶一体成型",
+      "破晓紫、午夜黑配色",
+      "将钛金属从高端手表下放到百元级音频配件"
+    ],
+    "analysis": {
+      "whyItMatters": "0.28mm超薄钛片在耳夹式耳机中的应用，将钛金属从高端手表/眼镜下放到普及价位音频配件",
+      "transferability": "超薄钛片工艺可迁移到其他可穿戴设备和小型电子配件",
+      "risk": "耳夹式耳机品类受众相对有限"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "韶音2026 Shokz Day",
+      "url": "https://www.shokz.com/products/opendots-air",
+      "capturedAt": "2026-05-15T14:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "媒体报道",
+        "url": "https://i.ifeng.com/c/8t9aKODg0Ay",
+        "supports": ["product_exists", "materials", "design"]
+      }
+    ],
+    "tags": ["OpenDots Air", "0.28mm超薄钛片", "耳夹式耳机", "流星弧"],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-25T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "https://www.shokz.com/products/opendots-air"
+  },
+  {
+    "id": "shokz-opendots2-20260525",
+    "brand": "韶音Shokz",
+    "category": "audio",
+    "title": "韶音 OpenDots 2 — 七涂七烤珠光涂层，金缮美学",
+    "summary": "白金缮配色采用七涂七烤工艺，实现珠光质感表面处理，灵感源自东方金缮（Kintsugi）美学。银雪松、黑芒星三款配色兼顾质感与时尚。延续动钛弧+不等距硅胶佩戴结构，新增骨导麦克风。",
+    "constraintChange": "七涂七烤珠光涂层工艺，消费电子引入传统手工艺金缮美学灵感",
+    "time": "2026-05-15 14:00",
+    "score": 83,
+    "confidence": 82,
+    "reviewStatus": "verified",
+    "visBreakdown": {"recognition": 18, "paradigmShift": 17, "cmfInnovation": 22, "transferability": 14, "diffusionPotential": 12},
+    "facts": [
+      "发布时间：2026年5月15日（深圳2026 Shokz Day）",
+      "白金缮配色采用七涂七烤工艺",
+      "灵感源自东方金缮（Kintsugi）美学",
+      "银雪松、黑芒星配色",
+      "与设计师Matteo Menotto合作艺术礼盒",
+      "延续动钛弧+不等距硅胶佩戴结构"
+    ],
+    "analysis": {
+      "whyItMatters": "消费电子产品引入传统手工艺金缮灵感，多涂多烤珠光涂层提升质感",
+      "transferability": "多涂多烤工艺可迁移到耳机盒、手机背板等消费电子产品",
+      "risk": "工艺复杂度可能导致成本和产能挑战"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "韶音2026 Shokz Day",
+      "url": "https://www.shokz.com/products/opendots-2",
+      "capturedAt": "2026-05-15T14:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "媒体报道",
+        "url": "https://i.ifeng.com/c/8t9aKODg0Ay",
+        "supports": ["product_exists", "cmf_process", "design"]
+      }
+    ],
+    "tags": ["OpenDots 2", "七涂七烤", "金缮美学", "珠光涂层"],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-25T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "https://www.shokz.com/products/opendots-2"
+  },
+  {
+    "id": "dji-pocket-4p-20260525",
+    "brand": "大疆DJI",
+    "category": "camera",
+    "title": "大疆 Osmo Pocket 4P — 口袋级双摄云台相机",
+    "summary": "Pocket系列首款双摄机型，132x31x38mm/191g口袋级机身内首次集成1英寸5000万像素主摄（f/1.7-f/2.8可变光圈）+3倍光学长焦（1/1.5英寸4800万像素）。2.5英寸OLED翻转触控屏，哈苏HNCS色彩调校，6K/60fps录制。",
+    "constraintChange": "口袋级机身首次实现双摄系统，可变光圈+光学长焦集成到191g云台相机",
+    "time": "2026-05-14 23:00",
+    "score": 86,
+    "confidence": 88,
+    "reviewStatus": "verified",
+    "visBreakdown": {"recognition": 20, "paradigmShift": 22, "cmfInnovation": 16, "transferability": 14, "diffusionPotential": 14},
+    "facts": [
+      "发布时间：2026年5月14日（戛纳电影节专场品鉴会）",
+      "Pocket系列首款双摄机型",
+      "1英寸5000万像素主摄（f/1.7-f/2.8可变光圈）",
+      "3倍光学长焦（1/1.5英寸4800万像素）",
+      "132x31x38mm/191g超轻机身",
+      "2.5英寸OLED翻转触控屏，峰值亮度1000尼特",
+      "哈苏HNCS色彩调校，6K/60fps、4K/120fps",
+      "基础防泼溅能力"
+    ],
+    "analysis": {
+      "whyItMatters": "口袋级机身首次实现双摄系统，将可变光圈+光学长焦集成到191g云台相机中，属于品类级形态突破",
+      "transferability": "微型化双摄集成技术可迁移到运动相机、无人机等品类",
+      "risk": "定价较高，与Insta360 Luna Ultra形成直接竞争"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "大疆戛纳电影节发布会",
+      "url": "https://www.dji.com/cn/products/osmo-pocket-4p",
+      "capturedAt": "2026-05-14T23:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "媒体报道",
+        "url": "http://m.toutiao.com/group/7643028171314496027/",
+        "supports": ["product_exists", "specs", "design"]
+      }
+    ],
+    "tags": ["Osmo Pocket 4P", "双摄云台", "1英寸", "可变光圈", "191g"],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-25T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "https://www.dji.com/cn/products/osmo-pocket-4p"
+  },
+  {
+    "id": "anker-prime-trifold-charger-20260525",
+    "brand": "安克Anker",
+    "category": "charger",
+    "title": "安克 Prime 三折叠风冷多合一无线充电器",
+    "summary": "采用三折叠便携设计，折叠后约魔方大小，展开后可同时为手机、手表、耳机三台设备充电。在折叠式无线充电器中集成主动风冷散热，噪音低至19dB，通过10000+次折叠测试。售价799元。",
+    "constraintChange": "三折叠结构在无线充电器品类的形态创新，折叠便携+主动风冷集成",
+    "time": "2026-05-13 10:00",
+    "score": 82,
+    "confidence": 84,
+    "reviewStatus": "verified",
+    "visBreakdown": {"recognition": 18, "paradigmShift": 22, "cmfInnovation": 16, "transferability": 14, "diffusionPotential": 12},
+    "facts": [
+      "发布时间：2026年5月13日发布，5月21日开售",
+      "三折叠便携设计，折叠后约魔方大小",
+      "同时为手机、手表、耳机三台设备充电",
+      "主动风冷散热集成，噪音低至19dB",
+      "10000+次折叠测试验证",
+      "重量约230g，总功率35W",
+      "售价799元"
+    ],
+    "analysis": {
+      "whyItMatters": "三折叠结构在无线充电器品类中属于形态创新，将多设备充电与折叠便携性结合",
+      "transferability": "三折叠结构可迁移到其他多设备充电/桌面配件场景",
+      "risk": "折叠结构的长期耐用性和充电效率"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "安克官方发布",
+      "url": "https://www.anker.com/prime-trifold-charger",
+      "capturedAt": "2026-05-13T10:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "IT之家报道",
+        "url": "http://m.toutiao.com/group/7642232432644653622/",
+        "supports": ["product_exists", "design", "specs", "price"]
+      }
+    ],
+    "tags": ["Anker Prime", "三折叠", "无线充电器", "风冷散热"],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-25T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "https://www.anker.com/prime-trifold-charger"
+  },
+  {
+    "id": "insta360-luna-ultra-20260525",
+    "brand": "影石Insta360",
+    "category": "camera",
+    "title": "影石 Luna Ultra — 分离式屏幕模块化双摄口袋云台相机",
+    "summary": "首创Twist Modular扭转式模块化结构，手柄前端2英寸OLED触控屏可磁吸拆卸作遥控器使用。徕卡联名光学系统，1英寸F1.8主摄+3倍光学长焦，150g以内超轻机身，三轴机械云台+AI防抖双重系统。",
+    "constraintChange": "分离式屏幕模块化设计颠覆云台相机品类形态，磁吸拆卸屏幕远程操控",
+    "time": "2026-05-09 10:00",
+    "score": 88,
+    "confidence": 80,
+    "reviewStatus": "needs_source",
+    "visBreakdown": {"recognition": 20, "paradigmShift": 24, "cmfInnovation": 16, "transferability": 14, "diffusionPotential": 14},
+    "facts": [
+      "首次公开：2026年5月9日（CEO刘靖康微博）",
+      "首创Twist Modular扭转式模块化结构",
+      "2英寸OLED触控屏可磁吸拆卸作遥控器",
+      "徕卡联名光学系统",
+      "1英寸F1.8主摄+3倍光学长焦（1/1.3英寸）",
+      "支持6倍无损/12倍混合变焦",
+      "8K/24fps、4K/240fps录制",
+      "150g以内超轻机身"
+    ],
+    "analysis": {
+      "whyItMatters": "分离式屏幕模块化设计彻底颠覆传统云台相机屏幕固定的形态范式",
+      "transferability": "模块化设计理念可迁移到运动相机、手持稳定器等品类",
+      "risk": "目前主要通过CEO微博和UP主视频曝光，尚未正式发布"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "影视飓风视频曝光",
+      "url": "http://m.toutiao.com/group/7637713887504171563/",
+      "capturedAt": "2026-05-09T10:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "凤凰网科技报道",
+        "url": "https://tech.ifeng.com/c/8t7dcidjN3k",
+        "supports": ["product_exists", "design", "specs"]
+      }
+    ],
+    "tags": ["Luna Ultra", "分离式屏幕", "模块化", "徕卡联名", "双摄云台"],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-25T21:00:00+08:00",
+    "updatedAt": "2026-05-25T21:00:00+08:00",
+    "url": "http://www.toutiao.com/group/7637713887504171563/"
+  }
+]
+;
+  console.log('[BrandPulse] 使用内嵌产品数据');
+}
+
+function renderBrandList() {
+  const list = document.getElementById('brandList');
+  const categories = {};
+  
+  // 按分类分组
+  brandsData.brands.forEach(brand => {
+    if (!categories[brand.category]) {
+      categories[brand.category] = [];
+    }
+    categories[brand.category].push(brand);
+  });
+  
+  let html = '';
+  for (const [cat, brands] of Object.entries(categories)) {
+    html += `<div class="brand-category-label">${brandsData.categories[cat]}</div>`;
+    brands.forEach(brand => {
+      const initial = brand.name.charAt(0);
+      const colors = [
+        ['#ff6b6b', '#ee5a24'], ['#a29bfe', '#6c5ce7'], ['#55efc4', '#00b894'],
+        ['#fdcb6e', '#f39c12'], ['#74b9ff', '#0984e3'], ['#fd79a8', '#e84393']
+      ];
+      const color = colors[brand.name.length % colors.length];
+      
+      html += `
+        <div class="brand-item" data-name="${brand.name}">
+          <div class="brand-avatar" style="background: linear-gradient(135deg, ${color[0]}, ${color[1]});">${initial}</div>
+          <div class="brand-info">
+            <div class="brand-name">${brand.name}</div>
+            <div class="brand-type">${brand.type}</div>
+          </div>
+          <div class="brand-actions-inline">
+            <button class="brand-action-btn" onclick="removeBrand('${brand.name}')" title="移除">×</button>
+          </div>
+        </div>
+      `;
+    });
+  }
+  
+  list.innerHTML = html;
+  document.getElementById('brandCount').textContent = brandsData.brands.length;
+  
+  const monitoredCount = brandsData.brands.filter(b => b.monitored).length;
+  document.getElementById('statMonitored').textContent = monitoredCount;
+}
+
+function toggleBrandMonitor(name) {
+  const brand = brandsData.brands.find(b => b.name === name);
+  if (brand) {
+    brand.monitored = !brand.monitored;
+    renderBrandList();
+    applyViewStateAndRender();
+    updateSyncStatus('已修改，请保存');
+  }
+}
+
+// ==================== 侧边栏品牌管理折叠 ====================
+const brandColors = {
+  '小米汽车': '#ff6900', '特斯拉': '#e82127', '享界': '#cf0a2c',
+  '华为': '#cf0a2c', 'Apple': '#a2aaad', 'OPPO': '#1ba784',
+  '三星': '#1428a0', '联想moto': '#4ecdc4', 'Nothing': '#333',
+  '康宁': '#00a3e0', '天工国际': '#6366f1',
+  '索尼': '#000', '韶音': '#00b4d8',
+  '微软': '#00a4ef', '追觅': '#7c3aed',
+  '九号': '#f59e0b', '小牛': '#22c55e',
+  '安克': '#0a84ff', '倍思': '#f97316', '绿联': '#22c55e',
+  '贝尔金': '#64748b', '酷态科': '#8b5cf6', '罗马仕': '#ef4444',
+  '闪极': '#f59e0b', '大疆': '#1a86ff', '影石': '#ff6b35', 'GoPro': '#000'
+};
+
+function toggleBrandManager() {
+  const content = document.getElementById('brandManagerContent');
+  const arrow = document.getElementById('brandArrow');
+  if (content.style.display === 'none') {
+    content.style.display = 'block';
+    arrow.classList.add('open');
+    renderBrandInlineList();
+  } else {
+    content.style.display = 'none';
+    arrow.classList.remove('open');
+  }
+}
+
+function renderBrandInlineList(filter = '') {
+  const list = document.getElementById('brandInlineList');
+  if (!list) return;
+  const filtered = brandsData.brands.filter(b =>
+    b.name.toLowerCase().includes(filter.toLowerCase()) ||
+    (b.nameEn && b.nameEn.toLowerCase().includes(filter.toLowerCase()))
+  );
+  list.innerHTML = filtered.map(b => {
+    const color = brandColors[b.name] || '#6b7280';
+    return `<div class="brand-inline-item">
+      <span class="brand-dot" style="background:${color}"></span>
+      <span>${b.name}</span>
+      <span class="brand-remove" onclick="removeBrandInline('${b.name}')">×</span>
+    </div>`;
+  }).join('');
+  // 更新导航栏品牌计数
+  const navCount = document.getElementById('brandCountNav');
+  if (navCount) navCount.textContent = brandsData.brands.length;
+}
+
+function removeBrandInline(name) {
+  brandsData.brands = brandsData.brands.filter(b => b.name !== name);
+  renderBrandInlineList();
+  renderBrandList();
+  applyViewStateAndRender();
+}
+
+function filterBrandList() {
+  const input = document.getElementById('brandSearchInline');
+  renderBrandInlineList(input ? input.value : '');
+}
+
+function openAddBrandModal() {
+  document.getElementById('addBrandModal').style.display = 'flex';
+}
+
+function saveBrands() {
+  saveBrandsToFile();
+}
+
+function removeBrand(name) {
+  if (confirm(`确认移除品牌「${name}」？`)) {
+    brandsData.brands = brandsData.brands.filter(b => b.name !== name);
+    renderBrandList();
+    applyViewStateAndRender();
+    updateSyncStatus('已修改，请保存');
+  }
+}
+
+function updateSyncStatus(status) {
+  const el = document.getElementById('syncStatus');
+  el.textContent = status;
+  el.className = 'brand-sync-status';
+  if (status === '已同步') {
+    el.classList.add('synced');
+  } else if (status === '同步中...') {
+    el.classList.add('syncing');
+  }
+}
+
+// ==================== 文件操作 ====================
+function saveBrandsToFile() {
+  updateSyncStatus('同步中...');
+  
+  const dataStr = JSON.stringify(brandsData, null, 2);
+  const blob = new Blob([dataStr], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'brands.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  
+  setTimeout(() => {
+    updateSyncStatus('已同步');
+  }, 1000);
+}
+
+function loadBrandsFromFile() {
+  document.getElementById('brandFileInput').click();
+}
+
+function handleFileSelect(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (data.brands && Array.isArray(data.brands)) {
+        brandsData = {...brandsData, ...data};
+        renderBrandList();
+        updateSyncStatus('已同步');
+        alert('品牌配置已加载！');
+      } else {
+        alert('配置文件格式错误！');
+      }
+    } catch (err) {
+      alert('文件解析失败：' + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function filterBrands(keyword) {
+  const items = document.querySelectorAll('.brand-item');
+  keyword = keyword.toLowerCase();
+  
+  items.forEach(item => {
+    const name = item.querySelector('.brand-name').textContent.toLowerCase();
+    const type = item.querySelector('.brand-type').textContent.toLowerCase();
+    item.style.display = (name.includes(keyword) || type.includes(keyword)) ? '' : 'none';
+  });
+}
+
+// ==================== 产品展示 ====================
+function renderTimeline(productsToRender) {
+  const timeline = document.getElementById('timeline');
+  const products = productsToRender || productsData;
+  
+  // 按日期分组
+  const groups = {};
+  products.forEach(product => {
+    const date = product.time.split(' ')[0];
+    if (!groups[date]) groups[date] = [];
+    groups[date].push(product);
+  });
+  
+  // 按日期排序（最新的在前）
+  const sortedDates = Object.keys(groups).sort((a, b) => {
+    const parseDate = (str) => {
+      const parts = str.split('-');
+      if (parts.length === 3 && (parts[2] === '00' || parts[2] === '0')) {
+        return new Date(`${parts[0]}-${parts[1]}-01`);
+      }
+      return new Date(str);
+    };
+    return parseDate(b) - parseDate(a);
+  });
+  
+  let html = '';
+  sortedDates.forEach(date => {
+    const dateProducts = groups[date];
+    html += `<div class="date-group" data-date="${date}">`;
+    html += `<div class="date-label">${formatDate(date)}</div>`;
+    dateProducts.forEach(product => { html += renderProductCard(product); });
+    html += '</div>';
+  });
+  
+  timeline.innerHTML = html;
+  if (products.length === 0) showEmptyState(true, '暂无符合条件的产品');
+  else showEmptyState(false);
+}
+
+function renderProductCard(product) {
+  const time = product.time.split(' ')[1];
+  
+  // 审核状态标签
+  const getReviewStatusBadge = () => {
+    const status = product.reviewStatus || 'needs_review';
+    const statusMap = {
+      'verified': { text: '✓ 已验证', class: 'badge-verified', color: '#22c55e' },
+      'needs_image': { text: '⚠ 待补图', class: 'badge-needs-image', color: '#fbbf24' },
+      'needs_source': { text: '⚠ 待补源', class: 'badge-needs-source', color: '#f97316' },
+      'needs_review': { text: '⏳ 待复核', class: 'badge-needs-review', color: '#ef4444' },
+      'rejected': { text: '✗ 已拒绝', class: 'badge-rejected', color: '#6b7280' }
+    };
+    const s = statusMap[status] || statusMap['needs_review'];
+    return `<span class="badge-review ${s.class}" style="background: ${s.color}20; color: ${s.color}; border: 1px solid ${s.color}40;">${s.text}</span>`;
+  };
+  
+  // 可信度徽章颜色
+  const getConfidenceColor = (conf) => {
+    if (conf >= 80) return '#22c55e';
+    if (conf >= 60) return '#fbbf24';
+    return '#ef4444';
+  };
+  
+  // 图片区域状态
+  const getImageArea = () => {
+    if (product.image) {
+      return `<img src="${product.image}" alt="${product.title}" loading="lazy" onclick="window.open('${product.primarySource?.url || product.url}','_blank')" style="cursor:pointer;">`;
+    }
+    const status = product.reviewStatus;
+    if (status === 'needs_image' || !product.image) {
+      return `<div class="card-image-placeholder" style="background: rgba(251, 191, 36, 0.1); border: 2px dashed rgba(251, 191, 36, 0.3);">
+        <div style="font-size:28px;margin-bottom:4px;">🖼️</div>
+        <div style="font-size:11px;color:var(--accent-gold);font-weight:500;">待补图</div>
+        ${product.primarySource?.url ? `<div style="font-size:9px;color:var(--text-muted);margin-top:4px;">点击查看来源</div>` : ''}
+      </div>`;
+    }
+    return `<div class="card-image-placeholder">📷 暂无图片</div>`;
+  };
+  
+  // 约束变化（核心展示）
+  const constraintChangeHtml = product.constraintChange ? 
+    `<div class="constraint-change" style="margin: 12px 0; padding: 10px 12px; background: rgba(168, 85, 247, 0.08); border-left: 3px solid var(--accent-purple); border-radius: 0 6px 6px 0;">
+      <div style="font-size: 11px; color: var(--accent-purple); font-weight: 600; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px;">视觉约束变化</div>
+      <div style="font-size: 13px; color: var(--text-primary); line-height: 1.5;">${product.constraintChange}</div>
+    </div>` : '';
+  
+  // 证据数量
+  const evidenceCount = product.evidence?.length || 0;
+  
+  // 详情折叠区域
+  const detailsHtml = `
+    <div class="card-details" style="display:none; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-color);">
+      <div class="card-desc" style="margin-bottom: 12px; font-size: 13px; color: var(--text-secondary);">${product.desc || product.summary || ''}</div>
+      
+      ${product.facts?.length ? `
+        <div style="margin-bottom: 12px;">
+          <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 6px; font-weight: 500;">事实要点</div>
+          <ul style="margin: 0; padding-left: 16px; font-size: 12px; color: var(--text-secondary);">
+            ${product.facts.map(f => `<li style="margin-bottom: 4px;">${f}</li>`).join('')}
+          </ul>
+        </div>
+      ` : ''}
+      
+      ${product.analysis ? `
+        <div style="margin-bottom: 12px;">
+          <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 6px; font-weight: 500;">分析</div>
+          ${product.analysis.whyItMatters ? `<div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 6px;"><strong style="color: var(--text-primary);">重要性：</strong>${product.analysis.whyItMatters}</div>` : ''}
+          ${product.analysis.transferability ? `<div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 6px;"><strong style="color: var(--text-primary);">可迁移性：</strong>${product.analysis.transferability}</div>` : ''}
+          ${product.analysis.risk ? `<div style="font-size: 12px; color: var(--text-secondary);"><strong style="color: var(--text-primary);">风险：</strong>${product.analysis.risk}</div>` : ''}
+        </div>
+      ` : ''}
+      
+      ${product.evidence?.length ? `
+        <div style="margin-bottom: 12px;">
+          <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 6px; font-weight: 500;">证据链 (${evidenceCount}条)</div>
+          ${product.evidence.map(e => `
+            <div style="font-size: 11px; margin-bottom: 6px; padding: 6px 8px; background: var(--bg-secondary); border-radius: 4px;">
+              <div style="display:flex;align-items:center;gap:6px;margin-bottom:2px;">
+                <span style="color: ${e.tier?.includes('tier0') ? '#22c55e' : e.tier?.includes('tier1') ? '#3b82f6' : '#8b949e'};">●</span>
+                <a href="${e.url}" target="_blank" style="color: var(--accent-cyan); text-decoration: none; font-weight: 500;">${e.name}</a>
+              </div>
+              <div style="color: var(--text-muted); padding-left: 14px;">${e.supports?.join(' · ') || ''}</div>
+            </div>
+          `).join('')}
+        </div>
+      ` : ''}
+      
+      <div class="card-footer" style="margin-top: 12px;">
+        <span class="card-meta">发布时间：${product.time}</span>
+        ${product.primarySource?.url ? `<a href="${product.primarySource.url}" target="_blank" class="card-link">查看主来源 →</a>` : ''}
+      </div>
+    </div>
+  `;
+  
+  return `
+    <div class="card ${product.duplicateOf ? 'duplicate' : ''}" data-category="${product.category}" data-product-id="${product.id}" data-review-status="${product.reviewStatus || 'needs_review'}">
+      
+      <div class="card-image">
+        ${getImageArea()}
+      </div>
+      
+      <div class="card-header" style="margin-top: 12px;">
+        <div class="card-avatar" style="background: linear-gradient(135deg, #22d3ee, #06b6d4);">${product.brand.charAt(0)}</div>
+        <div class="card-source">
+          <div class="card-source-name">${product.brand}</div>
+          <div class="card-source-type">${getCategoryName(product.category)} · ${time}</div>
+        </div>
+        <div class="card-badges">
+          ${((product.score >= 75) || (product.visTotal >= 7)) ? '<span class="badge-featured">⭐ 精选</span>' : ''}
+          ${getReviewStatusBadge()}
+        </div>
+      </div>
+      
+      <h3 class="card-title" style="font-size: 15px; margin: 10px 0 8px;">${product.title}</h3>
+      
+      ${constraintChangeHtml}
+      
+      <div style="display: flex; align-items: center; gap: 12px; margin: 12px 0; flex-wrap: wrap;">
+        <div style="display: flex; align-items: center; gap: 6px;">
+          <span style="font-size: 20px; font-weight: 700; color: var(--accent-cyan);">${product.visTotal || product.score}</span>
+          <span style="font-size: 11px; color: var(--text-muted);">VIS总分</span>
+        </div>
+        <div style="width: 1px; height: 20px; background: var(--border-color);"></div>
+        <div style="display: flex; align-items: center; gap: 6px;">
+          <span style="font-size: 16px; font-weight: 600; color: ${getConfidenceColor(product.confidence || 0)};">${product.confidence || 0}</span>
+          <span style="font-size: 11px; color: var(--text-muted);">可信度</span>
+        </div>
+        <div style="width: 1px; height: 20px; background: var(--border-color);"></div>
+        <div style="font-size: 11px; color: var(--text-muted);">${evidenceCount}条证据</div>
+      </div>
+
+      <div style="font-size: 10px; color: var(--text-muted); margin-bottom: 6px; padding: 4px 8px; background: rgba(168, 85, 247, 0.1); border-radius: 4px; display: inline-block;">
+        权重: 识别度30% | 范式25% | CMF20% | 迁移15% | 扩散10%
+      </div>
+
+      <div class="score-breakdown" style="flex-wrap: wrap; margin: 8px 0;">
+        <div class="score-item" style="font-size: 11px;">识别度 <span class="score-item-value">${product.visWeighted?.recognition || ((product.visBreakdown?.recognition || 0) * 0.3).toFixed(2)}</span><span style="color:var(--text-muted);font-size:9px;">/7.5</span></div>
+        <div class="score-item" style="font-size: 11px;">范式变化 <span class="score-item-value">${product.visWeighted?.paradigmShift || ((product.visBreakdown?.paradigmShift || 0) * 0.25).toFixed(2)}</span><span style="color:var(--text-muted);font-size:9px;">/6.25</span></div>
+        <div class="score-item" style="font-size: 11px;">CMF创新 <span class="score-item-value">${product.visWeighted?.cmfInnovation || ((product.visBreakdown?.cmfInnovation || 0) * 0.2).toFixed(2)}</span><span style="color:var(--text-muted);font-size:9px;">/4</span></div>
+        <div class="score-item" style="font-size: 11px;">可迁移性 <span class="score-item-value">${product.visWeighted?.transferability || ((product.visBreakdown?.transferability || 0) * 0.15).toFixed(2)}</span><span style="color:var(--text-muted);font-size:9px;">/2.25</span></div>
+        <div class="score-item" style="font-size: 11px;">扩散潜力 <span class="score-item-value">${product.visWeighted?.diffusionPotential || ((product.visBreakdown?.diffusionPotential || 0) * 0.1).toFixed(2)}</span><span style="color:var(--text-muted);font-size:9px;">/1.5</span></div>
+      </div>
+      
+      <div class="card-tags" style="margin-top: 10px;">
+        ${product.tags?.map(tag => `<span class="tag tag-cyan" style="font-size: 10px; padding: 2px 8px;">${tag}</span>`).join('') || ''}
+      </div>
+      
+      ${detailsHtml}
+      
+      <div style="margin-top: 12px; text-align: center;">
+        <button onclick="toggleCardDetails(this)" style="background: none; border: none; color: var(--accent-cyan); font-size: 12px; cursor: pointer; padding: 4px 12px; border-radius: 4px; hover: background: rgba(34, 211, 238, 0.1);">
+          展开详情 ↓
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+function toggleCardDetails(btn) {
+  const card = btn.closest('.card');
+  const details = card.querySelector('.card-details');
+  if (details.style.display === 'none') {
+    details.style.display = 'block';
+    btn.textContent = '收起详情 ↑';
+  } else {
+    details.style.display = 'none';
+    btn.textContent = '展开详情 ↓';
+  }
+}
+
+function formatDate(dateStr) {
+  // 处理无效日期格式 (如 2026-09-00)
+  const parts = dateStr.split('-');
+  if (parts.length === 3) {
+    const year = parts[0];
+    const month = parseInt(parts[1]) || 1;
+    const day = parseInt(parts[2]) || 1;
+    // 如果日期是00，显示为月份
+    if (parts[2] === '00' || parts[2] === '0') {
+      return `${year}年${month}月`;
+    }
+    return `${month}月${day}日`;
+  }
+  const date = new Date(dateStr);
+  if (isNaN(date.getTime())) {
+    return dateStr;
+  }
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  return `${month}月${day}日`;
+}
+
+function getCategoryName(cat) {
+  return brandsData.categories[cat] || cat;
+}
+
+function toggleDuplicate(el) {
+  const card = el.closest('.card');
+  const isCollapsed = el.textContent === '展开';
+  el.textContent = isCollapsed ? '收起' : '展开';
+  card.style.opacity = isCollapsed ? '1' : '0.6';
+}
+
+// ==================== 统一状态管理 ====================
+const viewState = {
+  category: 'all',
+  sortBy: 'time',
+  search: '',
+  section: 'all'
+};
+
+// 统一渲染：根据 viewState 过滤、排序并渲染
+function applyViewStateAndRender() {
+  // 防御性检查：确保 brandsData.brands 存在
+  if (!brandsData || !Array.isArray(brandsData.brands)) {
+    console.error('[BrandPulse] brandsData.brands 不可用');
+    renderTimeline([]);
+    updateStats(0);
+    return;
+  }
+
+  let filtered = [...productsData];
+  // 按监控品牌过滤
+  const monitoredBrands = brandsData.brands
+    .filter(b => b.monitored).map(b => b.name);
+  filtered = filtered.filter(p =>
+    monitoredBrands.some(b => p.brand === b || p.brand.includes(b) || b.includes(p.brand))
+  );
+  // 按 section 过滤
+  if (viewState.section === 'today') {
+    const now = new Date();
+    const today = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+    filtered = filtered.filter(p => p.time && p.time.startsWith(today));
+  } else if (viewState.section === 'featured') {
+    filtered = filtered.filter(p => (p.score >= 75) || (p.visTotal >= 7));
+  }
+  // 按 category 过滤
+  if (viewState.category !== 'all') {
+    filtered = filtered.filter(p => p.category === viewState.category);
+  }
+  // 按 search 过滤
+  if (viewState.search) {
+    const kw = viewState.search.toLowerCase();
+    filtered = filtered.filter(p => {
+      return (p.title||'').toLowerCase().includes(kw) ||
+             (p.summary||'').toLowerCase().includes(kw) ||
+             (p.brand||'').toLowerCase().includes(kw);
+    });
+  }
+  // 按 sortBy 排序
+  if (viewState.sortBy === 'time') {
+    filtered.sort((a, b) => new Date(b.time || 0) - new Date(a.time || 0));
+  } else if (viewState.sortBy === 'score') {
+    filtered.sort((a, b) => (b.score || 0) - (a.score || 0));
+  } else if (viewState.sortBy === 'brand') {
+    filtered.sort((a, b) => (a.brand || '').localeCompare(b.brand || '', 'zh-CN'));
+  }
+  // 渲染
+  renderTimeline(filtered);
+  updateStats(filtered.length);
+}
+
+// ==================== 筛选与搜索 ====================
+function filterCategory(btn, category) {
+  document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  viewState.category = category;
+  applyViewStateAndRender();
+}
+
+function filterByCategory(category) {
+  const tabs = document.querySelectorAll('.filter-tab');
+  tabs.forEach(tab => {
+    if (tab.textContent.includes(getCategoryName(category).replace(/[^\u4e00-\u9fa5]/g, ''))) {
+      filterCategory(tab, category);
+    }
+  });
+}
+
+function switchSection(section, el) {
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  if (el) el.classList.add('active');
+  const titles = { 'featured': '精选', 'all': '全部动态', 'today': '今日更新' };
+  document.getElementById('pageTitle').textContent = titles[section] || '精选';
+  viewState.section = section;
+  applyViewStateAndRender();
+}
+
+// 空状态提示
+function showEmptyState(show, message) {
+  let empty = document.getElementById('emptyState');
+  if (show) {
+    if (!empty) {
+      empty = document.createElement('div');
+      empty.id = 'emptyState';
+      empty.style.cssText = 'text-align:center;padding:60px 20px;color:var(--text-muted);font-size:14px;';
+      document.getElementById('timeline').appendChild(empty);
+    }
+    empty.innerHTML = `<div style="font-size:32px;margin-bottom:12px;">🔍</div>${message}`;
+    empty.style.display = '';
+  } else if (empty) {
+    empty.style.display = 'none';
+  }
+}
+
+// ==================== 搜索功能（实时搜索+高亮） ====================
+let searchDebounceTimer = null;
+let currentSearchKeyword = '';
+
+function searchContent() {
+  const keyword = document.getElementById('searchInput').value.toLowerCase().trim();
+  currentSearchKeyword = keyword;
+  viewState.search = keyword;
+  applyViewStateAndRender();
+}
+
+// 实时搜索（防抖）
+document.getElementById('searchInput').addEventListener('input', function() {
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(searchContent, 300);
+});
+
+// ==================== 排序功能 ====================
+function sortProducts(sortBy, btn) {
+  viewState.sortBy = sortBy;
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  applyViewStateAndRender();
+}
+
+// ==================== 骨架屏 ====================
+function showSkeleton() {
+  const timeline = document.getElementById('timeline');
+  timeline.innerHTML = `
+    <div class="skeleton-card"><div class="skeleton-line long"></div><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div>
+    <div class="skeleton-card"><div class="skeleton-line long"></div><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div>
+    <div class="skeleton-card"><div class="skeleton-line long"></div><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div>
+  `;
+}
+
+function hideSkeleton() {
+  // 骨架屏会在renderTimeline时被替换
+}
+
+// ==================== 错误提示 ====================
+function showError(message, retryFn) {
+  const existing = document.querySelector('.error-toast');
+  if (existing) existing.remove();
+  
+  const toast = document.createElement('div');
+  toast.className = 'error-toast';
+  toast.innerHTML = `${message}<button class="retry-btn" onclick="this.parentElement.remove(); (${retryFn})();">重试</button>`;
+  document.body.appendChild(toast);
+  
+  setTimeout(() => toast.remove(), 5000);
+}
+
+// ==================== 移动端搜索切换 ====================
+// ==================== 加载历史归档 ====================
+let archiveLoaded = false;
+
+async function loadArchive() {
+  if (archiveLoaded) return;
+  const btn = document.getElementById('loadArchiveBtn');
+  const status = document.getElementById('archiveStatus');
+  btn.textContent = '加载中...';
+  btn.disabled = true;
+  
+  try {
+    // 尝试加载归档文件列表
+    const months = ['2026-05', '2026-04', '2026-03', '2026-02', '2026-01'];
+    let totalLoaded = 0;
+    
+    for (const month of months) {
+      try {
+        const res = await fetch(`./products/archive/archive_${month}.json`);
+        if (res.ok) {
+          const data = await res.json();
+          if (Array.isArray(data)) {
+            productsData.push(...data);
+            totalLoaded += data.length;
+          }
+        }
+      } catch (e) {
+        // 该月份无归档文件，跳过
+      }
+    }
+    
+    if (totalLoaded > 0) {
+      archiveLoaded = true;
+      applyViewStateAndRender();
+      btn.textContent = `已加载 ${totalLoaded} 条历史数据`;
+      btn.style.borderColor = 'var(--accent-green)';
+      btn.style.color = 'var(--accent-green)';
+      status.textContent = '历史归档数据已合并到当前列表';
+    } else {
+      btn.textContent = '暂无历史归档';
+      btn.disabled = false;
+      status.textContent = '还没有超过30天的归档数据';
+    }
+  } catch (e) {
+    btn.textContent = '加载失败，点击重试';
+    btn.disabled = false;
+    status.textContent = '网络错误: ' + e.message;
+  }
+}
+
+// 页面加载后显示归档按钮
+function checkArchive() {
+  const section = document.getElementById('archiveSection');
+  if (section) section.style.display = 'block';
+}
+
+function toggleMobileSearch() {
+  const searchInput = document.getElementById('searchInput');
+  searchInput.focus();
+  searchInput.scrollIntoView({ behavior: 'smooth' });
+}
+
+// ==================== 通知系统 ====================
+function toggleNotification() {
+  notificationEnabled = !notificationEnabled;
+  const btn = document.getElementById('notifyBtn');
+  
+  if (notificationEnabled) {
+    btn.classList.add('enabled');
+    btn.innerHTML = '🔔 新品提醒已开启';
+    
+    if ('Notification' in window) {
+      Notification.requestPermission();
+    }
+  } else {
+    btn.classList.remove('enabled');
+    btn.innerHTML = '🔔 开启新品提醒';
+  }
+}
+
+function showNotification(product) {
+  // 页面内Toast
+  const toast = document.getElementById('notificationToast');
+  document.getElementById('notificationText').textContent = 
+    `${product.brand} ${product.title.substring(0, 20)}... 评分 ${product.score}`;
+  toast.classList.add('show');
+  
+  setTimeout(() => {
+    toast.classList.remove('show');
+  }, 5000);
+  
+  // 系统通知
+  if (notificationEnabled && 'Notification' in window && Notification.permission === 'granted') {
+    new Notification('BrandPulse Pro - 发现高评分新品！', {
+      body: `${product.brand}: ${product.title} (评分: ${product.score})`,
+      icon: '⭐'
+    });
+  }
+}
+
+function checkNewProducts() {
+  // 检查是否有高评分新品
+  const highScoreProducts = productsData.filter(p => p.score >= 90);
+  if (highScoreProducts.length > 0 && notificationEnabled) {
+    showNotification(highScoreProducts[0]);
+  }
+}
+
+// ==================== 新增品牌弹窗 ====================
+function openAddBrandModal() {
+  document.getElementById('addBrandModal').classList.add('show');
+  document.getElementById('newBrandName').focus();
+}
+
+function closeAddBrandModal() {
+  document.getElementById('addBrandModal').classList.remove('show');
+}
+
+function addBrand() {
+  const name = document.getElementById('newBrandName').value.trim();
+  const category = document.getElementById('newBrandCategory').value;
+  const type = document.getElementById('newBrandType').value.trim();
+  
+  if (!name) {
+    alert('请输入品牌名称');
+    return;
+  }
+  
+  // 检查重复品牌
+  if (brandsData.brands.some(b => b.name === name)) {
+    alert('品牌「' + name + '」已存在');
+    return;
+  }
+  
+  brandsData.brands.push({
+    name: name,
+    nameEn: name,
+    category: category,
+    type: type || '新品牌',
+    monitored: true,
+    officialSources: []
+  });
+  
+  renderBrandList();
+  renderBrandInlineList(); // 更新侧边栏内联品牌列表
+  applyViewStateAndRender();
+  closeAddBrandModal();
+  updateSyncStatus('已修改，请保存');
+  
+  // 清空输入
+  document.getElementById('newBrandName').value = '';
+  document.getElementById('newBrandType').value = '';
+}
+
+// ==================== 统计更新 ====================
+function updateStats(filteredCount) {
+  // 如果传入了已过滤的数量，直接使用；否则重新计算
+  let total;
+  if (typeof filteredCount === 'number') {
+    total = filteredCount;
+  } else {
+    const monitoredBrands = brandsData.brands
+      .filter(b => b.monitored)
+      .map(b => b.name);
+    total = productsData.filter(product => {
+      return monitoredBrands.some(brand =>
+        product.brand === brand ||
+        product.brand.includes(brand) ||
+        brand.includes(product.brand)
+      );
+    }).length;
+  }
+
+  // 精选数：基于当前视图状态计算，保持阈值一致
+  const monitoredBrands = brandsData.brands
+    .filter(b => b.monitored)
+    .map(b => b.name);
+  const filteredProducts = productsData.filter(product => {
+    return monitoredBrands.some(brand =>
+      product.brand === brand ||
+      product.brand.includes(brand) ||
+      brand.includes(product.brand)
+    );
+  });
+  const featured = filteredProducts.filter(p => (p.score >= 75) || (p.visTotal >= 7)).length;
+  const brands = brandsData.brands.length;
+  const monitored = brandsData.brands.filter(b => b.monitored).length;
+
+  document.getElementById('statTotal').textContent = total;
+  document.getElementById('statFeatured').textContent = featured;
+  document.getElementById('statBrands').textContent = brands + '+';
+  document.getElementById('statMonitored').textContent = monitored;
+  document.getElementById('featuredCount').textContent = featured;
+  document.getElementById('allCount').textContent = total;
+}
+
+// ==================== 事件监听 ====================
+document.getElementById('searchInput').addEventListener('keypress', function(e) {
+  if (e.key === 'Enter') searchContent();
+});
+
+document.getElementById('addBrandModal').addEventListener('click', function(e) {
+  if (e.target === this) closeAddBrandModal();
+});
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeAddBrandModal();
+});
+</script>
+
+<!-- 移动端底部导航 -->
+<nav class="mobile-nav" id="mobileNav">
+  <div class="mobile-nav-items">
+    <a class="mobile-nav-item active" onclick="switchSection('featured', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span>精选</span>
+    </a>
+    <a class="mobile-nav-item" onclick="switchSection('all', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      <span>全部</span>
+    </a>
+    <a class="mobile-nav-item" onclick="switchSection('today', this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      <span>今日</span>
+    </a>
+    <a class="mobile-nav-item" onclick="toggleMobileSearch()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span>搜索</span>
+    </a>
+  </div>
+</nav>
+
+</body>
+</html>
