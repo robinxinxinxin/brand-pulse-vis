@@ -1,0 +1,322 @@
+[
+  {
+    "id": "ninebot-qz3-20260429",
+    "brand": "九号",
+    "category": "mobility",
+    "title": "九号 Qz3 — 百变橱窗奶茶系电动车",
+    "summary": "2026年4月29日发布，首发价3799元起。\"奶茶系\"配色主打温柔时尚色调。车头设计\"百变橱窗\"，允许用户自行装饰随车摆件（个性化DIY设计）。搭载RideyFun智驾系统，4.3英寸彩色仪表屏。标配HHC坡道驻车/TCS防滑/一键倒车。同场发布九号x泡泡玛特联名款。",
+    "constraintChange": "个性化定制理念从手机壳向出行工具扩展",
+    "time": "2026-04-29 10:00",
+    "score": 76,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 16,
+      "paradigmShift": 15,
+      "cmfInnovation": 17,
+      "transferability": 14,
+      "diffusionPotential": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.08,
+      "recognition": 1.6,
+      "transferability": 1.12,
+      "cmfInnovation": 1.02,
+      "paradigmShift": 0.6
+    },
+    "visTotal": 5.42,
+    "facts": [
+      "2026年4月29日发布，首发价3799元起。\"奶茶系\"配色主打温柔时尚色调。车头设计\"百变橱窗\"，允许用户自行装饰随车摆件（个性化DIY设计）。搭载RideyFun智驾系统，4.3英寸彩色仪表屏。标配HHC坡道驻车/TCS防滑/一键倒车。同场发布九号x泡泡玛特联名款。",
+      "\"百变橱窗\"设计将电动车仪表台变为个性化展示空间，奶茶系配色+泡泡玛特联名瞄准年轻女性市场。"
+    ],
+    "analysis": {
+      "whyItMatters": "\"百变橱窗\"设计将电动车仪表台变为个性化展示空间，奶茶系配色+泡泡玛特联名瞄准年轻女性市场。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "IT之家",
+      "url": "https://www.ninebot.cn/products/Qz3",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "IT之家",
+        "url": "https://www.ninebot.cn/products/Qz3",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "百变橱窗",
+      "奶茶系配色",
+      "泡泡玛特联名",
+      "个性化DIY"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-04-29T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.ninebot.cn/products/Qz3"
+  },
+  {
+    "id": "moto-razr-2026-20260429",
+    "brand": "联想moto",
+    "category": "phone",
+    "title": "moto razr 2026系列 — 潘通联名折叠屏",
+    "summary": "三款机型齐发（razr/razr Plus/razr Ultra）。与潘通(Pantone)深度联名配色：赤铁矿灰(织物触感纹理)、运动绿(碳纤维纹理)、亮白、冰紫(绗缝皮革)。Ultra版本木纹后盖回归，新增东方蓝Alcantara翻毛皮材质。全系搭载5000mAh硅碳电池，美国市场首个硅碳电池折叠屏品牌。",
+    "constraintChange": "Alcantara等高端材质从汽车内饰向消费电子扩散",
+    "time": "2026-04-29 09:00",
+    "score": 83,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 18,
+      "paradigmShift": 16,
+      "cmfInnovation": 19,
+      "transferability": 15,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 1.8,
+      "transferability": 1.2,
+      "cmfInnovation": 1.14,
+      "paradigmShift": 0.64
+    },
+    "visTotal": 5.98,
+    "facts": [
+      "三款机型齐发（razr/razr Plus/razr Ultra）。与潘通(Pantone)深度联名配色：赤铁矿灰(织物触感纹理)、运动绿(碳纤维纹理)、亮白、冰紫(绗缝皮革)。Ultra版本木纹后盖回归，新增东方蓝Alcantara翻毛皮材质。全系搭载5000mAh硅碳电池，美国市场首个硅碳电池折叠屏品牌。",
+      "潘通联名配色体系+Alcantara翻毛皮+木纹后盖，折叠屏手机CMF材质多元化探索的标杆。"
+    ],
+    "analysis": {
+      "whyItMatters": "潘通联名配色体系+Alcantara翻毛皮+木纹后盖，折叠屏手机CMF材质多元化探索的标杆。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "IT之家",
+      "url": "https://www.motorola.com/us/smartphones-motorola-razr-2026-collection/p",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "IT之家",
+        "url": "https://www.motorola.com/us/smartphones-motorola-razr-2026-collection/p",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "潘通联名",
+      "Alcantara翻毛皮",
+      "木纹后盖",
+      "硅碳电池"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-04-29T09:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.motorola.com/us/smartphones-motorola-razr-2026-collection/p"
+  },
+  {
+    "id": "oppo-find-x9-ultra-20260421",
+    "brand": "OPPO",
+    "category": "phone",
+    "title": "OPPO Find X9 Ultra — 哈苏X2D灵感相机旗舰",
+    "summary": "设计灵感源自哈苏X2D相机，采用环保素皮(vegan leather)后盖，OPPO与Hasselblad双logo横向排列。镜头模组引入Master Lens Design，内部六边形细节模拟专业相机光圈叶片。两款配色：Tundra Umber(冰川棕，北欧极简风)和Canyon Orange(峡谷橙，航空级纤维材质)。IP66/IP68/IP69三防认证。搭载50MP 10x光学长焦+双200MP传感器。",
+    "constraintChange": "专业相机设计语言向手机完整迁移",
+    "time": "2026-04-21 14:00",
+    "score": 89,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 20,
+      "cmfInnovation": 18,
+      "transferability": 14,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 2.2,
+      "transferability": 1.12,
+      "cmfInnovation": 1.08,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 6.4,
+    "facts": [
+      "设计灵感源自哈苏X2D相机，采用环保素皮(vegan leather)后盖，OPPO与Hasselblad双logo横向排列。镜头模组引入Master Lens Design，内部六边形细节模拟专业相机光圈叶片。两款配色：Tundra Umber(冰川棕，北欧极简风)和Canyon Orange(峡谷橙，航空级纤维材质)。IP66/IP68/IP69三防认证。搭载50MP 10x光学长焦+双200MP传感器。",
+      "哈苏X2D相机设计语言完整移植到手机，Master Lens Design六边形光圈叶片细节，手机摄影向专业相机美学靠拢。"
+    ],
+    "analysis": {
+      "whyItMatters": "哈苏X2D相机设计语言完整移植到手机，Master Lens Design六边形光圈叶片细节，手机摄影向专业相机美学靠拢。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "OPPO官方",
+      "url": "https://www.oppo.com/sg/newsroom/press/oppo-find-x9-ultra-launches-globally-meet-your-next-camera",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "OPPO官方",
+        "url": "https://www.oppo.com/sg/newsroom/press/oppo-find-x9-ultra-launches-globally-meet-your-next-camera",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "哈苏联名",
+      "Master Lens Design",
+      "环保素皮",
+      "航空级纤维"
+    ],
+    "image": "https://aka.doubaocdn.com/s/RemM1wRrSd",
+    "duplicateOf": null,
+    "createdAt": "2026-04-21T14:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.oppo.com/sg/newsroom/press/oppo-find-x9-ultra-launches-globally-meet-your-next-camera"
+  },
+  {
+    "id": "huawei-pura90-20260420",
+    "brand": "华为",
+    "category": "phone",
+    "title": "华为 Pura 90系列 — 双色渐变金属中框直屏旗舰",
+    "summary": "2026年4月20日广州发布。全系回归纯平直屏设计，告别曲面屏。Pro Max业界首发双色渐变金属中框；主打配色\"橘子海\"为橙蓝双色渐变，模拟日落海面光影；Pro款\"橘子汽水\"采用渐变AG玻璃工艺，\"无断点\"一体化视觉。标准版铝合金中框+铝硅玻璃后盖。",
+    "constraintChange": "金属中框双色渐变工艺突破，手机CMF从平面走向立体渐变",
+    "time": "2026-04-20 14:00",
+    "score": 91,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 22,
+      "cmfInnovation": 20,
+      "transferability": 13,
+      "diffusionPotential": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.08,
+      "recognition": 2.2,
+      "transferability": 1.04,
+      "cmfInnovation": 1.2,
+      "paradigmShift": 0.88
+    },
+    "visTotal": 6.4,
+    "facts": [
+      "2026年4月20日广州发布。全系回归纯平直屏设计，告别曲面屏。Pro Max业界首发双色渐变金属中框；主打配色\"橘子海\"为橙蓝双色渐变，模拟日落海面光影；Pro款\"橘子汽水\"采用渐变AG玻璃工艺，\"无断点\"一体化视觉。标准版铝合金中框+铝硅玻璃后盖。",
+      "双色渐变金属中框是手机CMF的重大突破——金属中框不再是单一色调，\"橘子海\"配色将自然光影凝固在工业产品上。直屏回归引领新趋势。"
+    ],
+    "analysis": {
+      "whyItMatters": "双色渐变金属中框是手机CMF的重大突破——金属中框不再是单一色调，\"橘子海\"配色将自然光影凝固在工业产品上。直屏回归引领新趋势。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "华为官方",
+      "url": "https://consumer.huawei.com/cn/phones/pura-90/",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "华为官方",
+        "url": "https://consumer.huawei.com/cn/phones/pura-90/",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "双色渐变中框",
+      "橘子海配色",
+      "纯平直屏",
+      "AG玻璃工艺"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-04-20T14:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://consumer.huawei.com/cn/phones/pura-90/"
+  },
+  {
+    "id": "gopro-mission1-20260414",
+    "brand": "GoPro",
+    "category": "camera",
+    "title": "GoPro Mission 1 — 可换镜头运动相机",
+    "summary": "GoPro史上最大产品线变革，彻底告别沿用20年的Hero命名体系。首次推出可换镜头运动相机，三款机型：Mission 1（599美元）、Mission 1 Pro（699美元）、Mission 1 Pro ILS（支持M4/3卡口可换镜头，699美元）。全系搭载5000万像素1英寸传感器、GP3处理器，支持8K/60fps视频、960fps慢动作、10-bit色深、14档动态范围。",
+    "constraintChange": "可换镜头卡口微型化，运动相机向专业影像设备演进",
+    "time": "2026-04-14 09:00",
+    "score": 87,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 24,
+      "cmfInnovation": 15,
+      "transferability": 13,
+      "diffusionPotential": 8
+    },
+    "visWeighted": {
+      "diffusionPotential": 0.96,
+      "recognition": 2.2,
+      "transferability": 1.04,
+      "cmfInnovation": 0.9,
+      "paradigmShift": 0.96
+    },
+    "visTotal": 6.06,
+    "facts": [
+      "GoPro史上最大产品线变革，彻底告别沿用20年的Hero命名体系。首次推出可换镜头运动相机，三款机型：Mission 1（599美元）、Mission 1 Pro（699美元）、Mission 1 Pro ILS（支持M4/3卡口可换镜头，699美元）。全系搭载5000万像素1英寸传感器、GP3处理器，支持8K/60fps视频、960fps慢动作、10-bit色深、14档动态范围。",
+      "GoPro告别Hero命名、首次支持可换镜头，运动相机从封闭系统向开放生态转型。M4/3卡口版本直接打通专业镜头生态。"
+    ],
+    "analysis": {
+      "whyItMatters": "GoPro告别Hero命名、首次支持可换镜头，运动相机从封闭系统向开放生态转型。M4/3卡口版本直接打通专业镜头生态。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "GoPro官方",
+      "url": "https://gopro.com/zh/cn/shop/cameras/buy/mission-1-pro/CHDHW-011-master.html",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "GoPro官方",
+        "url": "https://gopro.com/zh/cn/shop/cameras/buy/mission-1-pro/CHDHW-011-master.html",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "可换镜头",
+      "1英寸传感器",
+      "8K/60fps",
+      "Mission系列"
+    ],
+    "image": "https://aka.doubaocdn.com/s/BmRo1wRrTJ",
+    "duplicateOf": null,
+    "createdAt": "2026-04-14T09:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://gopro.com/zh/cn/shop/cameras/buy/mission-1-pro/CHDHW-011-master.html"
+  }
+]

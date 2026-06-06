@@ -1,0 +1,1697 @@
+[
+  {
+    "id": "huawei-nova16-pro-wave-kunlun-20260606",
+    "brand": "华为",
+    "category": "phone",
+    "title": "HUAWEI nova 16 Pro — 双层逐浪纹理与昆仑玻璃纳米镀晶",
+    "summary": "nova 16 Pro 把夏季波纹视觉、AG丝绒玻璃、航空级铝合金中框和昆仑玻璃纳米镀晶组合到同一机身，强化了中高端手机的外观纹理与可靠性表达。",
+    "constraintChange": "把背板纹理、触感玻璃和耐摔镀晶组合成可被感知的 CMF 信号，不再只是堆影像和性能参数。",
+    "time": "2026-06-06 22:00",
+    "score": 82,
+    "confidence": 88,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 19,
+      "paradigmShift": 12,
+      "cmfInnovation": 24,
+      "transferability": 16,
+      "diffusionPotential": 14
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.68,
+      "recognition": 1.9,
+      "transferability": 1.28,
+      "cmfInnovation": 1.44,
+      "paradigmShift": 0.48
+    },
+    "visTotal": 6.78,
+    "facts": [
+      "官方页面描述双层逐浪纹理、AG丝绒玻璃与航空级铝合金中框。",
+      "官方页面描述昆仑玻璃搭配长效纳米镀晶工艺，整机耐摔能力提升。"
+    ],
+    "analysis": {
+      "whyItMatters": "它把手机后盖从单纯配色变成纹理、触感、结构可靠性的组合信号，对中端到中高端机型有可迁移价值。",
+      "transferability": "波纹纹理、AG触感玻璃和镀晶可靠性叙事可迁移到平板、穿戴后盖、充电宝等小型消费电子。",
+      "risk": "核心仍是手机背板 CMF 升级，范式变化不算激进，需观察后续系列是否延续。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "华为官网",
+      "url": "https://consumer.huawei.com/cn/phones/nova16-pro/",
+      "capturedAt": "2026-06-06T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "华为官网 nova 16 Pro 产品页",
+        "url": "https://consumer.huawei.com/cn/phones/nova16-pro/",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials",
+          "cmf_process"
+        ]
+      }
+    ],
+    "tags": [
+      "双层逐浪纹理",
+      "AG丝绒玻璃",
+      "昆仑玻璃",
+      "纳米镀晶",
+      "航空级铝合金"
+    ],
+    "image": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/phones/nova16-pro/imgs/huawei-nova-16-pro-reliability1-blur.jpg",
+    "duplicateOf": null,
+    "createdAt": "2026-06-06T22:00:00+08:00",
+    "updatedAt": "2026-06-06T22:00:00+08:00",
+    "url": "https://consumer.huawei.com/cn/phones/nova16-pro/"
+  },
+  {
+    "id": "oppo-reno16-3d-ice-glass-20260606",
+    "brand": "OPPO",
+    "category": "phone",
+    "title": "OPPO Reno16 — 3D 冰透悬浮工艺与高亮冰透玻璃",
+    "summary": "Reno16 把 3D 悬浮星球、微纳米级精密工艺、一体冷雕镜组和高亮冰透玻璃放在小直屏机身上，形成更强的背板识别信号。",
+    "constraintChange": "把后盖图案从平面装饰推进到 3D 悬浮视觉，并强调微纳米工艺和玻璃质感，属于更明确的 CMF 工艺动作。",
+    "time": "2026-06-06 22:00",
+    "score": 86,
+    "confidence": 90,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 16,
+      "cmfInnovation": 25,
+      "transferability": 17,
+      "diffusionPotential": 15
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.8,
+      "recognition": 2.2,
+      "transferability": 1.36,
+      "cmfInnovation": 1.5,
+      "paradigmShift": 0.64
+    },
+    "visTotal": 7.5,
+    "facts": [
+      "官方页面称 Reno16 采用梦核星球美学和 3D 冰透悬浮工艺。",
+      "官方页面称其有行业首创 3D 悬浮星球、微纳米级精密工艺，并展示高亮冰透玻璃与一体冷雕镜组。"
+    ],
+    "analysis": {
+      "whyItMatters": "它把年轻化手机背板从颜色竞争拉到立体视觉工艺竞争，对小型消费电子背壳装饰有参考价值。",
+      "transferability": "3D悬浮视觉、冰透玻璃和镜组一体化处理可迁移到耳机盒、充电宝、穿戴外壳等透明/半透明 CMF 方向。",
+      "risk": "审美表达偏年轻化和梦核风，可能有圈层限制；需要观察量产质感和耐久性。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "OPPO 官方网站",
+      "url": "https://www.oppo.com/cn/smartphones/series-reno/reno16/",
+      "capturedAt": "2026-06-06T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "OPPO Reno16 官方产品页",
+        "url": "https://www.oppo.com/cn/smartphones/series-reno/reno16/",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials",
+          "cmf_process"
+        ]
+      }
+    ],
+    "tags": [
+      "3D冰透悬浮工艺",
+      "3D悬浮星球",
+      "高亮冰透玻璃",
+      "一体冷雕镜组",
+      "微纳米工艺"
+    ],
+    "image": "https://www.oppo.com/content/dam/oppo_com/oppo/product-asset-library/reno/reno16-series/cn/reno16/assets/images-design-card-3-c2-1-40b359.jpg.webp",
+    "duplicateOf": null,
+    "createdAt": "2026-06-06T22:00:00+08:00",
+    "updatedAt": "2026-06-06T22:00:00+08:00",
+    "url": "https://www.oppo.com/cn/smartphones/series-reno/reno16/"
+  },
+  {
+    "id": "xiaomi-yu7-gt-20260521",
+    "brand": "小米汽车",
+    "category": "car",
+    "title": "小米YU7 GT — 纯血GT跑车级SUV，38.99万元",
+    "summary": "2026年5月21日，小米人车家全生态新品发布会发布。小米YU7 GT定位纯血GT跑车级SUV，有4大色系5款颜色，最大马力超1000PS，零百加速进入3秒级。三季度开始交付。",
+    "constraintChange": "小米YU7 GT以千匹马力+3秒级零百加速进入高性能SUV市场，设计语言延续SU7的运动基因，5款配色覆盖不同用户群体。",
+    "time": "2026-05-21 19:00",
+    "score": 94,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 24,
+      "cmfInnovation": 18,
+      "transferability": 14,
+      "diffusionPotential": 12
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.44,
+      "recognition": 2.2,
+      "transferability": 1.12,
+      "cmfInnovation": 1.08,
+      "paradigmShift": 0.96
+    },
+    "visTotal": 6.8,
+    "facts": [
+      "2026年5月21日，小米人车家全生态新品发布会发布。小米YU7 GT定位纯血GT跑车级SUV，有4大色系5款颜色，最大马力超1000PS，零百加速进入3秒级。三季度开始交付。",
+      "小米YU7 GT以千匹马力+3秒级零百加速进入高性能SUV市场，设计语言延续SU7的运动基因，5款配色覆盖不同用户群体。"
+    ],
+    "analysis": {
+      "whyItMatters": "小米YU7 GT以千匹马力+3秒级零百加速进入高性能SUV市场，设计语言延续SU7的运动基因，5款配色覆盖不同用户群体。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "小米官方",
+      "url": "https://www.mi.com/auto",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "小米官方",
+        "url": "https://www.mi.com/auto",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "YU7 GT",
+      "跑车级SUV",
+      "千匹马力",
+      "小米汽车"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T19:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.mi.com/auto"
+  },
+  {
+    "id": "xiaomi-yu7-standard-20260521",
+    "brand": "小米汽车",
+    "category": "car",
+    "title": "小米YU7 标准版 — 真·标准版SUV，23.35万元",
+    "summary": "2026年5月21日发布，小米YU7真·标准版定位亲民市场，小电池、低定价策略。与YU7 GT同场发布，形成高低搭配的产品矩阵。",
+    "constraintChange": "YU7标准版以23.35万元切入主流SUV市场，与GT版形成完整产品矩阵，覆盖从入门到高性能的不同需求。",
+    "time": "2026-05-21 19:00",
+    "score": 88,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 20,
+      "paradigmShift": 20,
+      "cmfInnovation": 16,
+      "transferability": 14,
+      "diffusionPotential": 14
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.68,
+      "recognition": 2,
+      "transferability": 1.12,
+      "cmfInnovation": 0.96,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 6.56,
+    "facts": [
+      "2026年5月21日发布，小米YU7真·标准版定位亲民市场，小电池、低定价策略。与YU7 GT同场发布，形成高低搭配的产品矩阵。",
+      "YU7标准版以23.35万元切入主流SUV市场，与GT版形成完整产品矩阵，覆盖从入门到高性能的不同需求。"
+    ],
+    "analysis": {
+      "whyItMatters": "YU7标准版以23.35万元切入主流SUV市场，与GT版形成完整产品矩阵，覆盖从入门到高性能的不同需求。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "小米官方",
+      "url": "https://www.mi.com/auto",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "小米官方",
+        "url": "https://www.mi.com/auto",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "YU7标准版",
+      "亲民定价",
+      "SUV",
+      "小米汽车"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T19:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.mi.com/auto"
+  },
+  {
+    "id": "xiaomi-17-max-20260521",
+    "brand": "小米",
+    "category": "phone",
+    "title": "小米17 Max — 重新定义大屏标准版旗舰，4299元起",
+    "summary": "2026年5月21日发布，定位全方位升级大屏旗舰。6.9英寸2K屏幕，8000mAh电池，2亿像素主摄。国补到手价4299元起，首销4799元起。",
+    "constraintChange": "6.9英寸巨幕+8000mAh超大电池，小米在大屏手机市场的重磅产品。2亿像素主摄提升影像能力，国补后4299元起具有较强竞争力。",
+    "time": "2026-05-21 19:00",
+    "score": 89,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 20,
+      "cmfInnovation": 17,
+      "transferability": 14,
+      "diffusionPotential": 12
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.44,
+      "recognition": 2.2,
+      "transferability": 1.12,
+      "cmfInnovation": 1.02,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 6.58,
+    "facts": [
+      "2026年5月21日发布，定位全方位升级大屏旗舰。6.9英寸2K屏幕，8000mAh电池，2亿像素主摄。国补到手价4299元起，首销4799元起。",
+      "6.9英寸巨幕+8000mAh超大电池，小米在大屏手机市场的重磅产品。2亿像素主摄提升影像能力，国补后4299元起具有较强竞争力。"
+    ],
+    "analysis": {
+      "whyItMatters": "6.9英寸巨幕+8000mAh超大电池，小米在大屏手机市场的重磅产品。2亿像素主摄提升影像能力，国补后4299元起具有较强竞争力。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "小米官方",
+      "url": "https://www.mi.com",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "小米官方",
+        "url": "https://www.mi.com",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "小米17 Max",
+      "大屏旗舰",
+      "2亿像素",
+      "8000mAh"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T19:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.mi.com"
+  },
+  {
+    "id": "xiaomi-band-10-pro-20260521",
+    "brand": "小米",
+    "category": "wearable",
+    "title": "小米手环10 Pro — 真彩大屏手环，399元",
+    "summary": "2026年5月21日发布，小米手环10 Pro首销标准版399元。搭载真彩大屏，支持更多运动模式和健康监测功能。",
+    "constraintChange": "小米手环系列迭代升级，真彩大屏提升视觉体验，399元定价保持性价比优势。",
+    "time": "2026-05-21 19:00",
+    "score": 78,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 16,
+      "paradigmShift": 14,
+      "cmfInnovation": 16,
+      "transferability": 16,
+      "diffusionPotential": 12
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.44,
+      "recognition": 1.6,
+      "transferability": 1.28,
+      "cmfInnovation": 0.96,
+      "paradigmShift": 0.56
+    },
+    "visTotal": 5.84,
+    "facts": [
+      "2026年5月21日发布，小米手环10 Pro首销标准版399元。搭载真彩大屏，支持更多运动模式和健康监测功能。",
+      "小米手环系列迭代升级，真彩大屏提升视觉体验，399元定价保持性价比优势。"
+    ],
+    "analysis": {
+      "whyItMatters": "小米手环系列迭代升级，真彩大屏提升视觉体验，399元定价保持性价比优势。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "小米官方",
+      "url": "https://www.mi.com",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "小米官方",
+        "url": "https://www.mi.com",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "小米手环",
+      "10 Pro",
+      "真彩大屏",
+      "399元"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T19:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.mi.com"
+  },
+  {
+    "id": "xiaomi-earclip-earbuds-20260521",
+    "brand": "小米",
+    "category": "audio",
+    "title": "小米耳夹式耳机 — 首款耳夹形态耳机",
+    "summary": "2026年5月21日发布，小米首款耳夹式耳机，采用开放式设计，佩戴舒适，适合运动场景。与小米17 Max、YU7 GT同场发布。",
+    "constraintChange": "小米首次进入耳夹式耳机市场，开放式设计满足运动场景需求，与韶音、华为FreeClip形成竞争。",
+    "time": "2026-05-21 19:00",
+    "score": 76,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 16,
+      "paradigmShift": 16,
+      "cmfInnovation": 16,
+      "transferability": 14,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 1.6,
+      "transferability": 1.12,
+      "cmfInnovation": 0.96,
+      "paradigmShift": 0.64
+    },
+    "visTotal": 5.52,
+    "facts": [
+      "2026年5月21日发布，小米首款耳夹式耳机，采用开放式设计，佩戴舒适，适合运动场景。与小米17 Max、YU7 GT同场发布。",
+      "小米首次进入耳夹式耳机市场，开放式设计满足运动场景需求，与韶音、华为FreeClip形成竞争。"
+    ],
+    "analysis": {
+      "whyItMatters": "小米首次进入耳夹式耳机市场，开放式设计满足运动场景需求，与韶音、华为FreeClip形成竞争。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "小米官方",
+      "url": "https://www.mi.com",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "小米官方",
+        "url": "https://www.mi.com",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "耳夹式耳机",
+      "开放式",
+      "小米",
+      "运动耳机"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T19:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.mi.com"
+  },
+  {
+    "id": "ugreen-dxp4800gt-20260521",
+    "brand": "绿联",
+    "category": "accessory",
+    "title": "绿联DXP4800 GT — 双万兆NAS私有云，2463.1元起",
+    "summary": "2026年5月21日10:00京东首发，绿联NAS私有云新品DXP4800 GT。搭载AMD锐龙嵌入式R2514处理器（四核Zen+），4个3.5英寸盘位，双万兆网口，主打企业级存储能力。国补叠加平台优惠后到手价2463.1元起。",
+    "constraintChange": "双万兆网口+AMD锐龙处理器，绿联NAS向专业级存储市场进军。2463.1元起售价在NAS市场具有竞争力。",
+    "time": "2026-05-21 10:00",
+    "score": 85,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 18,
+      "paradigmShift": 20,
+      "cmfInnovation": 16,
+      "transferability": 14,
+      "diffusionPotential": 11
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.32,
+      "recognition": 1.8,
+      "transferability": 1.12,
+      "cmfInnovation": 0.96,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 6,
+    "facts": [
+      "2026年5月21日10:00京东首发，绿联NAS私有云新品DXP4800 GT。搭载AMD锐龙嵌入式R2514处理器（四核Zen+），4个3.5英寸盘位，双万兆网口，主打企业级存储能力。国补叠加平台优惠后到手价2463.1元起。",
+      "双万兆网口+AMD锐龙处理器，绿联NAS向专业级存储市场进军。2463.1元起售价在NAS市场具有竞争力。"
+    ],
+    "analysis": {
+      "whyItMatters": "双万兆网口+AMD锐龙处理器，绿联NAS向专业级存储市场进军。2463.1元起售价在NAS市场具有竞争力。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "绿联官方/IT之家",
+      "url": "https://www.ugreen.com",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "绿联官方/IT之家",
+        "url": "https://www.ugreen.com",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "DXP4800 GT",
+      "NAS私有云",
+      "双万兆",
+      "AMD处理器"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.ugreen.com"
+  },
+  {
+    "id": "shokz-opendots2-20260521",
+    "brand": "韶音",
+    "category": "audio",
+    "title": "韶音OpenDots 2 — 金缮工艺耳夹耳机",
+    "summary": "2026年5月21日Shokz Day发布，延续动钛弧与不等距硅胶结构设计，搭载BassSphere 2.0低频聚合技术与杜比音效。三款配色：白金缮（七涂七烤锻光处理）、银雪松、黑芒星。定价1298元。",
+    "constraintChange": "将东方金缮修缮美学融入耳夹耳机CMF设计，七涂七烤缎光工艺呈现珠宝级质感，韶音开放式耳机产品线的重要迭代。",
+    "time": "2026-05-21 14:00",
+    "score": 84,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 18,
+      "paradigmShift": 16,
+      "cmfInnovation": 19,
+      "transferability": 15,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 1.8,
+      "transferability": 1.2,
+      "cmfInnovation": 1.14,
+      "paradigmShift": 0.64
+    },
+    "visTotal": 5.98,
+    "facts": [
+      "2026年5月21日Shokz Day发布，延续动钛弧与不等距硅胶结构设计，搭载BassSphere 2.0低频聚合技术与杜比音效。三款配色：白金缮（七涂七烤锻光处理）、银雪松、黑芒星。定价1298元。",
+      "将东方金缮修缮美学融入耳夹耳机CMF设计，七涂七烤缎光工艺呈现珠宝级质感，韶音开放式耳机产品线的重要迭代。"
+    ],
+    "analysis": {
+      "whyItMatters": "将东方金缮修缮美学融入耳夹耳机CMF设计，七涂七烤缎光工艺呈现珠宝级质感，韶音开放式耳机产品线的重要迭代。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "韶音官方",
+      "url": "https://www.shokz.com.cn/OpenDots2",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "韶音官方",
+        "url": "https://www.shokz.com.cn/OpenDots2",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "OpenDots 2",
+      "金缮工艺",
+      "耳夹耳机",
+      "七涂七烤"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T14:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.shokz.com.cn/OpenDots2"
+  },
+  {
+    "id": "shokz-opendots-air-20260521",
+    "brand": "韶音",
+    "category": "audio",
+    "title": "韶音OpenDots Air — 流星弧耳夹耳机",
+    "summary": "2026年5月21日Shokz Day发布，采用自研'流星弧'结构，柔软硅胶一体成型，内层0.28mm超薄钛片兼顾贴合度与支撑性。搭载BassSphere低频聚合技术与OpenBass 2.0+动态调音算法。两款配色：破晓紫、午夜黑。",
+    "constraintChange": "'流星弧'结构命名与造型设计，将耳夹耳机的佩戴舒适度与视觉辨识度同时提升，破晓紫配色瞄准年轻用户。",
+    "time": "2026-05-21 14:00",
+    "score": 80,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 16,
+      "paradigmShift": 15,
+      "cmfInnovation": 17,
+      "transferability": 15,
+      "diffusionPotential": 11
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.32,
+      "recognition": 1.6,
+      "transferability": 1.2,
+      "cmfInnovation": 1.02,
+      "paradigmShift": 0.6
+    },
+    "visTotal": 5.74,
+    "facts": [
+      "2026年5月21日Shokz Day发布，采用自研'流星弧'结构，柔软硅胶一体成型，内层0.28mm超薄钛片兼顾贴合度与支撑性。搭载BassSphere低频聚合技术与OpenBass 2.0+动态调音算法。两款配色：破晓紫、午夜黑。",
+      "'流星弧'结构命名与造型设计，将耳夹耳机的佩戴舒适度与视觉辨识度同时提升，破晓紫配色瞄准年轻用户。"
+    ],
+    "analysis": {
+      "whyItMatters": "'流星弧'结构命名与造型设计，将耳夹耳机的佩戴舒适度与视觉辨识度同时提升，破晓紫配色瞄准年轻用户。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "韶音官方",
+      "url": "https://www.shokz.com.cn/OpenDotsAir",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "韶音官方",
+        "url": "https://www.shokz.com.cn/OpenDotsAir",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "OpenDots Air",
+      "流星弧结构",
+      "耳夹耳机",
+      "超薄钛片"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T14:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.shokz.com.cn/OpenDotsAir"
+  },
+  {
+    "id": "shokz-openswim-pro2-20260521",
+    "brand": "韶音",
+    "category": "audio",
+    "title": "韶音OpenSwim Pro 2 — 50米级防水骨传导耳机",
+    "summary": "2026年5月21日Shokz Day发布，50米级深度防水（5ATM/IP68/IP69），内置64GB内存支持QQ音乐无线导入离线播放。首次引入游泳数据智能监测与语音播报，搭载6nm芯片与九轴传感器。双色交锋设计：琉璃海与鲸鱼灰。",
+    "constraintChange": "双色交锋的金属流动光泽设计，50米级防水树立游泳耳机新标杆，QQ音乐无线导入功能提升使用体验。",
+    "time": "2026-05-21 14:00",
+    "score": 83,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 18,
+      "paradigmShift": 16,
+      "cmfInnovation": 18,
+      "transferability": 14,
+      "diffusionPotential": 11
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.32,
+      "recognition": 1.8,
+      "transferability": 1.12,
+      "cmfInnovation": 1.08,
+      "paradigmShift": 0.64
+    },
+    "visTotal": 5.96,
+    "facts": [
+      "2026年5月21日Shokz Day发布，50米级深度防水（5ATM/IP68/IP69），内置64GB内存支持QQ音乐无线导入离线播放。首次引入游泳数据智能监测与语音播报，搭载6nm芯片与九轴传感器。双色交锋设计：琉璃海与鲸鱼灰。",
+      "双色交锋的金属流动光泽设计，50米级防水树立游泳耳机新标杆，QQ音乐无线导入功能提升使用体验。"
+    ],
+    "analysis": {
+      "whyItMatters": "双色交锋的金属流动光泽设计，50米级防水树立游泳耳机新标杆，QQ音乐无线导入功能提升使用体验。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "韶音官方",
+      "url": "https://www.shokz.com.cn/OpenSwimPro2",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "韶音官方",
+        "url": "https://www.shokz.com.cn/OpenSwimPro2",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "OpenSwim Pro 2",
+      "50米防水",
+      "骨传导",
+      "游泳耳机"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T14:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.shokz.com.cn/OpenSwimPro2"
+  },
+  {
+    "id": "rog-day-2026-20260521",
+    "brand": "玩家国度",
+    "category": "gaming",
+    "title": "ROG DAY 2026 — 20周年多款旗舰新品",
+    "summary": "2026年5月21日ROG DAY 2026举办，发布多款20周年纪念新品：ROG NUC 2026迷你主机（Intel Core Ultra HX Plus+RTX 5080）、ROG魔霸新锐2026（AMD锐龙9 8940HX/酷睿Ultra 7 255HX双平台）、ROG CROSSHAIR 2006复刻版主板、ROG幻刃DDR5 20周年版内存等。",
+    "constraintChange": "ROG 20周年庆典发布多款旗舰，NUC迷你主机性能升级，魔霸新锐双平台可选，复刻版主板致敬经典。",
+    "time": "2026-05-21 14:00",
+    "score": 87,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 20,
+      "paradigmShift": 20,
+      "cmfInnovation": 17,
+      "transferability": 14,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 2,
+      "transferability": 1.12,
+      "cmfInnovation": 1.02,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 6.14,
+    "facts": [
+      "2026年5月21日ROG DAY 2026举办，发布多款20周年纪念新品：ROG NUC 2026迷你主机（Intel Core Ultra HX Plus+RTX 5080）、ROG魔霸新锐2026（AMD锐龙9 8940HX/酷睿Ultra 7 255HX双平台）、ROG CROSSHAIR 2006复刻版主板、ROG幻刃DDR5 20周年版内存等。",
+      "ROG 20周年庆典发布多款旗舰，NUC迷你主机性能升级，魔霸新锐双平台可选，复刻版主板致敬经典。"
+    ],
+    "analysis": {
+      "whyItMatters": "ROG 20周年庆典发布多款旗舰，NUC迷你主机性能升级，魔霸新锐双平台可选，复刻版主板致敬经典。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "ROG官方",
+      "url": "https://rog.asus.com",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "ROG官方",
+        "url": "https://rog.asus.com",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "ROG DAY",
+      "20周年",
+      "NUC 2026",
+      "魔霸新锐"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T14:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://rog.asus.com"
+  },
+  {
+    "id": "insta360-luna-20260521",
+    "brand": "影石",
+    "category": "camera",
+    "title": "影石Insta360 Luna — 首款双摄云台相机",
+    "summary": "2026年5月，影石Insta360 Luna正式发布，这是品牌首款双摄云台相机，采用双摄外观设计，聚焦多项原创性技术。同期官宣李现成为Insta360云台相机全球代言人。",
+    "constraintChange": "影石首款云台相机产品，双摄设计对标大疆Osmo Pocket系列，李现代言提升品牌知名度，与大疆形成直接竞争。",
+    "time": "2026-05-21 10:00",
+    "score": 86,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 20,
+      "paradigmShift": 20,
+      "cmfInnovation": 17,
+      "transferability": 14,
+      "diffusionPotential": 11
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.32,
+      "recognition": 2,
+      "transferability": 1.12,
+      "cmfInnovation": 1.02,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 6.26,
+    "facts": [
+      "2026年5月，影石Insta360 Luna正式发布，这是品牌首款双摄云台相机，采用双摄外观设计，聚焦多项原创性技术。同期官宣李现成为Insta360云台相机全球代言人。",
+      "影石首款云台相机产品，双摄设计对标大疆Osmo Pocket系列，李现代言提升品牌知名度，与大疆形成直接竞争。"
+    ],
+    "analysis": {
+      "whyItMatters": "影石首款云台相机产品，双摄设计对标大疆Osmo Pocket系列，李现代言提升品牌知名度，与大疆形成直接竞争。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "影石官方",
+      "url": "https://www.insta360.com",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "影石官方",
+        "url": "https://www.insta360.com",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "Insta360 Luna",
+      "双摄云台",
+      "李现代言",
+      "口袋相机"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-21T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.insta360.com"
+  },
+  {
+    "id": "3dprint-titanium-consumer-electronics-20260519",
+    "brand": "天工国际",
+    "category": "phone",
+    "title": "3D打印钛合金消费电子全面落地 — 2026关键节点，从形象工程走向结构标配",
+    "summary": "2026年被市场普遍视为3D打印钛合金在消费电子中全面落地的关键节点。天工国际与大族激光深化战略合作，围绕激光装备、3D打印技术及钛合金粉末材料在3C行业应用达成共识。苹果折叠屏或引爆3D打印浪潮，预计2027年成本追平CNC加工。钛合金产品销量同比增长14%，2025Q4大客户已开启新品批量供货。",
+    "constraintChange": "3D打印钛合金成本从高端专属走向中端可及，预计2027年追平CNC加工成本，打开消费电子钛合金普及的供应链约束",
+    "time": "2026-05-19 10:00",
+    "score": 91,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 15,
+      "paradigmShift": 26,
+      "cmfInnovation": 18,
+      "transferability": 15,
+      "diffusionPotential": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.08,
+      "recognition": 1.5,
+      "transferability": 1.2,
+      "cmfInnovation": 1.08,
+      "paradigmShift": 1.04
+    },
+    "visTotal": 5.9,
+    "facts": [
+      "2026年被市场普遍视为3D打印钛合金在消费电子中全面落地的关键节点。天工国际与大族激光深化战略合作，围绕激光装备、3D打印技术及钛合金粉末材料在3C行业应用达成共识。苹果折叠屏或引爆3D打印浪潮，预计2027年成本追平CNC加工。钛合金产品销量同比增长14%，2025Q4大客户已开启新品批量供货。",
+      "3D打印钛合金从'形象工程'走向'结构标配'是供应链层面的根本约束变化。当天工国际等供应商产能成熟后，钛合金中框/结构件的成本将大幅下降，中端产品也能使用钛合金，这将改变整个消费电子的CMF可能性空间。"
+    ],
+    "analysis": {
+      "whyItMatters": "3D打印钛合金从'形象工程'走向'结构标配'是供应链层面的根本约束变化。当天工国际等供应商产能成熟后，钛合金中框/结构件的成本将大幅下降，中端产品也能使用钛合金，这将改变整个消费电子的CMF可能性空间。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "供应链/投资分析",
+      "url": "",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "供应链/投资分析",
+        "url": "",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "3D打印",
+      "钛合金",
+      "供应链",
+      "成本下降",
+      "粉末冶金"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-19T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": ""
+  },
+  {
+    "id": "samsung-z-trifold2-sppen-hinge-20260519",
+    "brand": "三星",
+    "category": "phone",
+    "title": "三星 Galaxy Z TriFold2 — 铰链内置S Pen，功能集成于结构创新",
+    "summary": "三星三折叠专利曝光：Galaxy Z TriFold2创新性地将S Pen手写笔收纳于铰链内部，弥补初代缺乏手写笔支持的问题。专利图揭示减少携带负担的设计方案。铰链从纯结构部件进化为功能集成载体。",
+    "constraintChange": "铰链从纯结构部件进化为功能集成载体，折叠屏的结构设计约束从'如何折叠'扩展到'折叠时能集成什么功能'",
+    "time": "2026-05-10 00:00",
+    "score": 78,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 16,
+      "paradigmShift": 20,
+      "cmfInnovation": 13,
+      "transferability": 14,
+      "diffusionPotential": 7
+    },
+    "visWeighted": {
+      "diffusionPotential": 0.84,
+      "recognition": 1.6,
+      "transferability": 1.12,
+      "cmfInnovation": 0.78,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 5.14,
+    "facts": [
+      "三星三折叠专利曝光：Galaxy Z TriFold2创新性地将S Pen手写笔收纳于铰链内部，弥补初代缺乏手写笔支持的问题。专利图揭示减少携带负担的设计方案。铰链从纯结构部件进化为功能集成载体。",
+      "铰链从'纯结构部件'进化为'功能集成载体'（内置S Pen），这是折叠屏结构设计约束的重要变化。如果量产成功，铰链将不再只是折叠机构，而成为产品功能的一部分，改变折叠屏的工业设计语言。"
+    ],
+    "analysis": {
+      "whyItMatters": "铰链从'纯结构部件'进化为'功能集成载体'（内置S Pen），这是折叠屏结构设计约束的重要变化。如果量产成功，铰链将不再只是折叠机构，而成为产品功能的一部分，改变折叠屏的工业设计语言。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "专利/行业分析",
+      "url": "https://www.sohu.com/a/1021560790_122066678",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "专利/行业分析",
+        "url": "https://www.sohu.com/a/1021560790_122066678",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "三折叠",
+      "铰链集成",
+      "S Pen",
+      "结构创新",
+      "专利"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-10T00:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.sohu.com/a/1021560790_122066678"
+  },
+  {
+    "id": "sony-1000x-collexion-20260519",
+    "brand": "索尼",
+    "category": "audio",
+    "title": "索尼 1000X The ColleXion Edition — 10周年纪念版头戴耳机",
+    "summary": "1000X系列十周年纪念旗舰款，疑似采用金属框架头梁取代树脂主体，转轴为同色金属质感材质。麦克风开孔改为长条形贯穿式设计，耳罩实体按键布局更突出便于盲操。提供黑色与白色双色，收纳盒改为软质束口包设计。美国售价649美元，定位高于WH-1000XM6。",
+    "constraintChange": "金属框架从奢侈品腕表向消费音频扩散",
+    "time": "2026-05-19 09:00",
+    "score": 85,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 20,
+      "paradigmShift": 18,
+      "cmfInnovation": 17,
+      "transferability": 15,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 2,
+      "transferability": 1.2,
+      "cmfInnovation": 1.02,
+      "paradigmShift": 0.72
+    },
+    "visTotal": 6.14,
+    "facts": [
+      "1000X系列十周年纪念旗舰款，疑似采用金属框架头梁取代树脂主体，转轴为同色金属质感材质。麦克风开孔改为长条形贯穿式设计，耳罩实体按键布局更突出便于盲操。提供黑色与白色双色，收纳盒改为软质束口包设计。美国售价649美元，定位高于WH-1000XM6。",
+      "1000X系列十年一遇的纪念款，金属框架头梁+贯穿式麦克风设计，索尼降噪耳机工业设计的一次重要升级。"
+    ],
+    "analysis": {
+      "whyItMatters": "1000X系列十年一遇的纪念款，金属框架头梁+贯穿式麦克风设计，索尼降噪耳机工业设计的一次重要升级。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "CNMO/IT之家",
+      "url": "https://www.ithome.com/0/952/060.htm",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "CNMO/IT之家",
+        "url": "https://www.ithome.com/0/952/060.htm",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "10周年纪念",
+      "金属框架头梁",
+      "高端降噪耳机"
+    ],
+    "image": "https://aka.doubaocdn.com/s/bmUg1wRrT2",
+    "duplicateOf": null,
+    "createdAt": "2026-05-19T09:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.ithome.com/0/952/060.htm"
+  },
+  {
+    "id": "shokz-openswim-pro2-20260515",
+    "brand": "韶音",
+    "category": "audio",
+    "title": "韶音 OpenSwim Pro 2 — 50米级防水骨传导耳机",
+    "summary": "Shokz Day旗舰新品，50米级深度防水（5ATM/IP68/IP69），内置64GB内存支持QQ音乐无线导入离线播放。首次引入游泳数据智能监测与语音播报，搭载6nm芯片与九轴传感器。双色交锋设计：琉璃海与鲸鱼灰，金属流动光泽。自研PremiumPitch 3.0新一代骨传导技术。",
+    "constraintChange": "深度防水技术下放，运动耳机向潜水场景扩展",
+    "time": "2026-05-15 10:00",
+    "score": 82,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 18,
+      "paradigmShift": 16,
+      "cmfInnovation": 18,
+      "transferability": 14,
+      "diffusionPotential": 11
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.32,
+      "recognition": 1.8,
+      "transferability": 1.12,
+      "cmfInnovation": 1.08,
+      "paradigmShift": 0.64
+    },
+    "visTotal": 5.96,
+    "facts": [
+      "Shokz Day旗舰新品，50米级深度防水（5ATM/IP68/IP69），内置64GB内存支持QQ音乐无线导入离线播放。首次引入游泳数据智能监测与语音播报，搭载6nm芯片与九轴传感器。双色交锋设计：琉璃海与鲸鱼灰，金属流动光泽。自研PremiumPitch 3.0新一代骨传导技术。",
+      "双色交锋的金属流动光泽设计，将运动耳机从功能性向时尚配饰推进。50米级防水树立行业新标杆。"
+    ],
+    "analysis": {
+      "whyItMatters": "双色交锋的金属流动光泽设计，将运动耳机从功能性向时尚配饰推进。50米级防水树立行业新标杆。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "韶音官方",
+      "url": "https://www.shokz.com.cn/OpenSwimPro2",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "韶音官方",
+        "url": "https://www.shokz.com.cn/OpenSwimPro2",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "50米防水",
+      "骨传导",
+      "双色交锋设计",
+      "QQ音乐无线导入"
+    ],
+    "image": "https://aka.doubaocdn.com/s/29eD1wRrTC",
+    "duplicateOf": null,
+    "createdAt": "2026-05-15T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.shokz.com.cn/OpenSwimPro2"
+  },
+  {
+    "id": "shokz-opendots-air-20260515",
+    "brand": "韶音",
+    "category": "audio",
+    "title": "韶音 OpenDots Air — 流星弧耳夹耳机",
+    "summary": "Shokz Day新品，采用自研\"流星弧\"结构，柔软硅胶一体成型，内层0.28mm超薄钛片兼顾贴合度与支撑性。搭载BassSphere低频聚合技术与OpenBass 2.0+动态调音算法，新增\"听书模式\"增强人声频段。两款配色：破晓紫、午夜黑。",
+    "constraintChange": "钛合金超薄加工工艺成熟，耳夹形态向极致轻薄演进",
+    "time": "2026-05-15 10:00",
+    "score": 78,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 16,
+      "paradigmShift": 15,
+      "cmfInnovation": 17,
+      "transferability": 15,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 1.6,
+      "transferability": 1.2,
+      "cmfInnovation": 1.02,
+      "paradigmShift": 0.6
+    },
+    "visTotal": 5.62,
+    "facts": [
+      "Shokz Day新品，采用自研\"流星弧\"结构，柔软硅胶一体成型，内层0.28mm超薄钛片兼顾贴合度与支撑性。搭载BassSphere低频聚合技术与OpenBass 2.0+动态调音算法，新增\"听书模式\"增强人声频段。两款配色：破晓紫、午夜黑。",
+      "\"流星弧\"结构命名与造型设计，将耳夹耳机的佩戴舒适度与视觉辨识度同时提升。"
+    ],
+    "analysis": {
+      "whyItMatters": "\"流星弧\"结构命名与造型设计，将耳夹耳机的佩戴舒适度与视觉辨识度同时提升。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "韶音官方",
+      "url": "https://www.shokz.com.cn/OpenDotsAir",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "韶音官方",
+        "url": "https://www.shokz.com.cn/OpenDotsAir",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "流星弧结构",
+      "耳夹耳机",
+      "超薄钛片",
+      "破晓紫"
+    ],
+    "image": "https://aka.doubaocdn.com/s/grJR1wRrSw",
+    "duplicateOf": null,
+    "createdAt": "2026-05-15T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.shokz.com.cn/OpenDotsAir"
+  },
+  {
+    "id": "dji-osmo-pocket-4p-20260514",
+    "brand": "大疆",
+    "category": "camera",
+    "title": "大疆 Osmo Pocket 4P — 双摄旗舰口袋云台相机",
+    "summary": "戛纳电影节全球首发，口袋系列首款双摄旗舰。搭载1英寸主摄+等效70mm 3倍光学长焦双镜头，打破八年单镜头传统。支持6K/60fps、4K/120fps视频拍摄，长焦支持4K/240fps慢动作。17级动态范围、10-bit D-Log2专业色彩曲线。2000mAh电池，2.5英寸1000尼特高亮屏。智能跟随7.0。",
+    "constraintChange": "多摄模组小型化突破，专业影像设备口袋化",
+    "time": "2026-05-14 23:00",
+    "score": 88,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 22,
+      "cmfInnovation": 16,
+      "transferability": 13,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 2.2,
+      "transferability": 1.04,
+      "cmfInnovation": 0.96,
+      "paradigmShift": 0.88
+    },
+    "visTotal": 6.28,
+    "facts": [
+      "戛纳电影节全球首发，口袋系列首款双摄旗舰。搭载1英寸主摄+等效70mm 3倍光学长焦双镜头，打破八年单镜头传统。支持6K/60fps、4K/120fps视频拍摄，长焦支持4K/240fps慢动作。17级动态范围、10-bit D-Log2专业色彩曲线。2000mAh电池，2.5英寸1000尼特高亮屏。智能跟随7.0。",
+      "口袋云台相机从单摄到双摄的范式跃迁，在戛纳电影节首发彰显影像专业定位。双摄设计将成为口袋相机新标配。"
+    ],
+    "analysis": {
+      "whyItMatters": "口袋云台相机从单摄到双摄的范式跃迁，在戛纳电影节首发彰显影像专业定位。双摄设计将成为口袋相机新标配。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "大疆官方（戛纳首发）",
+      "url": "https://www.dji.com/cn/mobile/media-center/announcements/dji-debuts-osmo-pocket-4p-cannes-cn",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "大疆官方（戛纳首发）",
+        "url": "https://www.dji.com/cn/mobile/media-center/announcements/dji-debuts-osmo-pocket-4p-cannes-cn",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "双摄云台",
+      "1英寸大底",
+      "戛纳电影节首发",
+      "6K视频"
+    ],
+    "image": "https://aka.doubaocdn.com/s/IO0x1wRrSz",
+    "duplicateOf": null,
+    "createdAt": "2026-05-14T23:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.dji.com/cn/mobile/media-center/announcements/dji-debuts-osmo-pocket-4p-cannes-cn"
+  },
+  {
+    "id": "cuktech-lpb200nc-20260514",
+    "brand": "酷态科",
+    "category": "accessory",
+    "title": "酷态科 LPB200NC — 55W双自带线充电宝",
+    "summary": "20000mAh容量，最高55W输出功率。双自带线设计（两根Type-C线），四口输出（Type-C x1 + 自带线Type-C x2 + USB-A x1）。支持45W自充。2026年5月14日通过3C认证，即将正式发布。",
+    "constraintChange": "内置线材集成度提升，充电配件一体化趋势",
+    "time": "2026-05-14 10:00",
+    "score": 65,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 12,
+      "paradigmShift": 12,
+      "cmfInnovation": 13,
+      "transferability": 14,
+      "diffusionPotential": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.08,
+      "recognition": 1.2,
+      "transferability": 1.12,
+      "cmfInnovation": 0.78,
+      "paradigmShift": 0.48
+    },
+    "visTotal": 4.66,
+    "facts": [
+      "20000mAh容量，最高55W输出功率。双自带线设计（两根Type-C线），四口输出（Type-C x1 + 自带线Type-C x2 + USB-A x1）。支持45W自充。2026年5月14日通过3C认证，即将正式发布。",
+      "双自带线设计解决用户\"忘带线\"痛点，充电宝向一体化集成方向演进。"
+    ],
+    "analysis": {
+      "whyItMatters": "双自带线设计解决用户\"忘带线\"痛点，充电宝向一体化集成方向演进。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/951/339.htm",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "IT之家",
+        "url": "https://www.ithome.com/0/951/339.htm",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "双自带线",
+      "55W快充",
+      "20000mAh",
+      "3C认证"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-14T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.ithome.com/0/951/339.htm"
+  },
+  {
+    "id": "anker-prime-trifold-20260513",
+    "brand": "安克",
+    "category": "accessory",
+    "title": "安克 Prime 三折叠风冷多合一无线充电器",
+    "summary": "三折叠结构设计，展开同时为手机/Apple Watch/AirPods充电，折叠后仅约230g。手机充电模块支持0-60度无极调节倾斜角度，适配iOS StandBy模式。Apple Watch充电器采用隐藏式弹出设计。内置AirCool主动散热系统（微型风扇+散热孔），运行噪音仅19dB。通过Qi2.2磁吸技术认证，总输出35W。定价799元。",
+    "constraintChange": "精密折叠机构成本下降，从手机向充电配件扩散",
+    "time": "2026-05-13 10:00",
+    "score": 86,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 20,
+      "paradigmShift": 20,
+      "cmfInnovation": 16,
+      "transferability": 15,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 2,
+      "transferability": 1.2,
+      "cmfInnovation": 0.96,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 6.16,
+    "facts": [
+      "三折叠结构设计，展开同时为手机/Apple Watch/AirPods充电，折叠后仅约230g。手机充电模块支持0-60度无极调节倾斜角度，适配iOS StandBy模式。Apple Watch充电器采用隐藏式弹出设计。内置AirCool主动散热系统（微型风扇+散热孔），运行噪音仅19dB。通过Qi2.2磁吸技术认证，总输出35W。定价799元。",
+      "三折叠结构+隐藏式弹出Watch充电器+风冷散热，无线充电器从平面配件向精密机械结构演进。折叠机构通过10000次测试。"
+    ],
+    "analysis": {
+      "whyItMatters": "三折叠结构+隐藏式弹出Watch充电器+风冷散热，无线充电器从平面配件向精密机械结构演进。折叠机构通过10000次测试。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "IT之家/充电头网",
+      "url": "https://www.ithome.com/0/949/582.htm",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "IT之家/充电头网",
+        "url": "https://www.ithome.com/0/949/582.htm",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "三折叠结构",
+      "风冷散热",
+      "Qi2.2磁吸",
+      "多合一充电"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-13T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.ithome.com/0/949/582.htm"
+  },
+  {
+    "id": "insta360-luna-ultra-20260606",
+    "brand": "影石",
+    "category": "camera",
+    "title": "影石 Luna Ultra — Twist Modular模块化双摄口袋云台相机正式发布",
+    "summary": "2026年6月6日正式发布，影石首款旗舰级口袋云台相机。行业首创Twist Modular扭转式模块化设计：云台头部可与手柄磁吸分离，2英寸1000尼特OLED触控屏可拆卸为独立无线遥控器。黑白熊猫配色（乳白色机身+黑色按键/转轴）。搭载1英寸CMOS主摄（f/1.8，等效20mm）+1/1.3英寸长焦（f/2.8，等效70mm）徕卡联合调校双摄，支持6倍无损光学变焦、8K/24fps、4K/240fps。全球首创第一人称头追模块（耳挂形态，镜头随头动）。单机5299元，全能套装6499元。",
+    "constraintChange": "Twist Modular扭转式模块化设计开创口袋相机新形态，磁吸可拆卸云台+独立遥控屏幕重新定义单人创作工作流；黑白熊猫撞色设计提升视觉辨识度；第一人称头追模块实现\"看哪拍哪\"的沉浸式体验",
+    "time": "2026-06-06 10:00",
+    "score": 88,
+    "confidence": 90,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 24,
+      "cmfInnovation": 18,
+      "transferability": 14,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 2.2,
+      "transferability": 1.12,
+      "cmfInnovation": 1.08,
+      "paradigmShift": 0.96
+    },
+    "visTotal": 6.56,
+    "facts": [
+      "2026年6月6日正式发布，影石首款旗舰级口袋云台相机",
+      "行业首创Twist Modular扭转式模块化设计：云台头部可与手柄磁吸分离",
+      "2英寸1000尼特OLED触控屏可拆卸为独立无线遥控器，支持数米内低延迟监看",
+      "黑白熊猫配色：乳白色机身框架+深邃黑色按键组件与云台转轴",
+      "1英寸CMOS主摄（f/1.8，等效20mm）+1/1.3英寸长焦（f/2.8，等效70mm）",
+      "影石与徕卡(Leica)联合色彩调校，支持6倍无损光学变焦",
+      "支持8K/24fps、4K/240fps、10-bit色深、14档动态范围、杜比视界HDR",
+      "全球首创第一人称头追模块：耳挂形态，镜头随头动，双手全解放",
+      "FlowState 5.0超级防抖+DeepTrack 3.0智能追踪",
+      "单机5299元，全能套装6499元",
+      "重量不到150克，续航约150-180分钟，支持电池热插拔"
+    ],
+    "analysis": {
+      "whyItMatters": "Twist Modular模块化设计将口袋相机从固定形态推进到乐高式组合形态，磁吸可拆卸云台+独立遥控屏幕彻底解决了单人创作中的盲拍痛点。第一人称头追模块实现了'看哪拍哪'的沉浸式POV体验，这是口袋相机交互范式的重大创新。",
+      "transferability": "模块化磁吸连接设计可迁移到运动相机、无人机挂载、穿戴拍摄等场景；头追模块的头部追踪技术可拓展到AR/VR设备。",
+      "risk": "5299元起售价高于大疆Pocket 4标准版（2999元），市场接受度待验证；模块化设计的长期耐久性需要观察。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "IT之家/智迅文化",
+      "url": "https://www.insta360.com",
+      "capturedAt": "2026-06-06T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "智迅文化报道",
+        "url": "http://m.toutiao.com/group/7647182495913493042/",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials",
+          "cmf_process"
+        ]
+      },
+      {
+        "tier": "tier1_media",
+        "name": "数码大白话",
+        "url": "http://m.toutiao.com/group/7638811773734339124/",
+        "supports": [
+          "product_exists",
+          "specs",
+          "design"
+        ]
+      }
+    ],
+    "tags": [
+      "Twist Modular",
+      "模块化设计",
+      "可拆卸云台",
+      "可分离屏幕",
+      "徕卡联调",
+      "1英寸大底",
+      "头追模块",
+      "熊猫配色"
+    ],
+    "image": "https://aka.doubaocdn.com/s/Emvv1wYN0V",
+    "duplicateOf": null,
+    "createdAt": "2026-06-06T22:00:00+08:00",
+    "updatedAt": "2026-06-06T22:00:00+08:00",
+    "url": "https://www.insta360.com"
+  },
+  {
+    "id": "shokz-opendots2-20260508",
+    "brand": "韶音",
+    "category": "audio",
+    "title": "韶音 OpenDots 2 — 金缮工艺耳夹耳机",
+    "summary": "延续动钛弧与不等距硅胶结构设计，搭载BassSphere 2.0低频聚合技术与杜比音效，失真优化70%。新增骨导麦克风支持AI通话降噪。三款配色：白金缮（灵感源自金缮工艺，经七涂七烤锻光处理，呈现细腻珠光质感）、银雪松、黑芒星。定价1298元。特邀国际设计大师Matteo Menotto（曾服务于宝格丽）打造艺术限定礼盒。",
+    "constraintChange": "奢侈品级表面处理工艺向消费电子下放",
+    "time": "2026-05-08 10:00",
+    "score": 83,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 18,
+      "paradigmShift": 16,
+      "cmfInnovation": 19,
+      "transferability": 15,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 1.8,
+      "transferability": 1.2,
+      "cmfInnovation": 1.14,
+      "paradigmShift": 0.64
+    },
+    "visTotal": 5.98,
+    "facts": [
+      "延续动钛弧与不等距硅胶结构设计，搭载BassSphere 2.0低频聚合技术与杜比音效，失真优化70%。新增骨导麦克风支持AI通话降噪。三款配色：白金缮（灵感源自金缮工艺，经七涂七烤锻光处理，呈现细腻珠光质感）、银雪松、黑芒星。定价1298元。特邀国际设计大师Matteo Menotto（曾服务于宝格丽）打造艺术限定礼盒。",
+      "将东方金缮修缮美学融入耳夹耳机CMF设计，七涂七烤缎光工艺呈现珠宝级质感。前宝格丽设计师联名提升品牌调性。"
+    ],
+    "analysis": {
+      "whyItMatters": "将东方金缮修缮美学融入耳夹耳机CMF设计，七涂七烤缎光工艺呈现珠宝级质感。前宝格丽设计师联名提升品牌调性。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "韶音官方",
+      "url": "https://www.shokz.com.cn/OpenDots2",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "韶音官方",
+        "url": "https://www.shokz.com.cn/OpenDots2",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "金缮工艺",
+      "七涂七烤",
+      "耳夹耳机",
+      "Matteo Menotto联名"
+    ],
+    "image": "https://aka.doubaocdn.com/s/7OAM1wRrSw",
+    "duplicateOf": null,
+    "createdAt": "2026-05-08T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.shokz.com.cn/OpenDots2"
+  },
+  {
+    "id": "huawei-matepad-pro-max-20260507",
+    "brand": "华为",
+    "category": "phone",
+    "title": "华为 MatePad Pro Max — 4.7mm超薄旗舰平板",
+    "summary": "华为曼谷发布会旗舰产品。仅4.7mm厚、499g重，搭载13.2英寸柔性OLED PaperMatte显示屏，94%屏占比，3.55mm超窄边框。采用华为云鹰架构实现超薄全金属机身，通过TÜV莱茵超薄抗弯认证。背板采用流光质感处理，光影随角度变换。Blue与Space Gray双色。",
+    "constraintChange": "柔性OLED+超薄金属机身工艺成熟，平板向纸态轻薄演进",
+    "time": "2026-05-07 14:00",
+    "score": 90,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 24,
+      "cmfInnovation": 17,
+      "transferability": 12,
+      "diffusionPotential": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.2,
+      "recognition": 2.2,
+      "transferability": 0.96,
+      "cmfInnovation": 1.02,
+      "paradigmShift": 0.96
+    },
+    "visTotal": 6.34,
+    "facts": [
+      "华为曼谷发布会旗舰产品。仅4.7mm厚、499g重，搭载13.2英寸柔性OLED PaperMatte显示屏，94%屏占比，3.55mm超窄边框。采用华为云鹰架构实现超薄全金属机身，通过TÜV莱茵超薄抗弯认证。背板采用流光质感处理，光影随角度变换。Blue与Space Gray双色。",
+      "4.7mm厚度+499g重量刷新平板轻薄记录，流光质感背板实现光影随角度变换。超薄全金属机身通过抗弯认证，工业设计标杆。"
+    ],
+    "analysis": {
+      "whyItMatters": "4.7mm厚度+499g重量刷新平板轻薄记录，流光质感背板实现光影随角度变换。超薄全金属机身通过抗弯认证，工业设计标杆。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "华为官方",
+      "url": "https://consumer.huawei.com/en/tablets/matepad-pro-max/",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "华为官方",
+        "url": "https://consumer.huawei.com/en/tablets/matepad-pro-max/",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "4.7mm超薄",
+      "柔性OLED",
+      "流光质感",
+      "94%屏占比"
+    ],
+    "image": "https://aka.doubaocdn.com/s/IO0x1wRrSz",
+    "duplicateOf": null,
+    "createdAt": "2026-05-07T14:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://consumer.huawei.com/en/tablets/matepad-pro-max/"
+  },
+  {
+    "id": "huawei-watch-ultimate-design-spring-20260507",
+    "brand": "华为",
+    "category": "wearable",
+    "title": "华为 WATCH ULTIMATE DESIGN Spring Edition — 非凡大师春季版",
+    "summary": "由国际珠宝设计师Francesca Amfitheatrof操刀设计。灵感取自春天万物复苏，以斐波那契黄金比例为设计语言。60面切割蓝宝石水晶表镜，表冠镶嵌天然钻石并雕刻花瓣曲线。表带采用藤蔓 motif 设计，高抛光镜面镶嵌99颗天然钻石。四款表盘：Scents of Spring、Universal Law、Monochrome、Encounters in Bloom。",
+    "constraintChange": "珠宝级钻石镶嵌工艺与智能穿戴融合，科技奢侈品品类确立",
+    "time": "2026-05-07 14:00",
+    "score": 93,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 23,
+      "paradigmShift": 22,
+      "cmfInnovation": 20,
+      "transferability": 11,
+      "diffusionPotential": 12
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.44,
+      "recognition": 2.3,
+      "transferability": 0.88,
+      "cmfInnovation": 1.2,
+      "paradigmShift": 0.88
+    },
+    "visTotal": 6.7,
+    "facts": [
+      "由国际珠宝设计师Francesca Amfitheatrof操刀设计。灵感取自春天万物复苏，以斐波那契黄金比例为设计语言。60面切割蓝宝石水晶表镜，表冠镶嵌天然钻石并雕刻花瓣曲线。表带采用藤蔓 motif 设计，高抛光镜面镶嵌99颗天然钻石。四款表盘：Scents of Spring、Universal Law、Monochrome、Encounters in Bloom。",
+      "国际珠宝设计师操刀+99颗天然钻石镶嵌+斐波那契黄金比例，智能手表向高级珠宝领域正式进军。藤蔓motif表带设计将自然几何融入科技产品。"
+    ],
+    "analysis": {
+      "whyItMatters": "国际珠宝设计师操刀+99颗天然钻石镶嵌+斐波那契黄金比例，智能手表向高级珠宝领域正式进军。藤蔓motif表带设计将自然几何融入科技产品。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "华为官方",
+      "url": "https://consumer.huawei.com/en/wearables/watch-ultimate-design-spring-edition/",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "华为官方",
+        "url": "https://consumer.huawei.com/en/wearables/watch-ultimate-design-spring-edition/",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "99颗钻石",
+      "蓝宝石水晶",
+      "斐波那契比例",
+      "Francesca Amfitheatrof"
+    ],
+    "image": "https://aka.doubaocdn.com/s/bmUg1wRrT2",
+    "duplicateOf": null,
+    "createdAt": "2026-05-07T14:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://consumer.huawei.com/en/wearables/watch-ultimate-design-spring-edition/"
+  },
+  {
+    "id": "huawei-nova15-max-20260507",
+    "brand": "华为",
+    "category": "phone",
+    "title": "华为 nova 15 Max — 8500mAh巨鲸电池大屏手机",
+    "summary": "华为曼谷发布会中端新品。6.84英寸OLED大屏直板设计，定位海外中端大屏续航机型。三款配色：浅绿、浅金、深色系。主打8500mAh硅碳负极巨鲸电池，机身设计偏实用取向。",
+    "constraintChange": "硅碳负极电池能量密度突破，手机续航焦虑缓解",
+    "time": "2026-05-07 14:00",
+    "score": 62,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 12,
+      "paradigmShift": 10,
+      "cmfInnovation": 14,
+      "transferability": 13,
+      "diffusionPotential": 8
+    },
+    "visWeighted": {
+      "diffusionPotential": 0.96,
+      "recognition": 1.2,
+      "transferability": 1.04,
+      "cmfInnovation": 0.84,
+      "paradigmShift": 0.4
+    },
+    "visTotal": 4.44,
+    "facts": [
+      "华为曼谷发布会中端新品。6.84英寸OLED大屏直板设计，定位海外中端大屏续航机型。三款配色：浅绿、浅金、深色系。主打8500mAh硅碳负极巨鲸电池，机身设计偏实用取向。",
+      "8500mAh硅碳负极电池技术下放到中端机型，预示大容量电池将成为手机标配。"
+    ],
+    "analysis": {
+      "whyItMatters": "8500mAh硅碳负极电池技术下放到中端机型，预示大容量电池将成为手机标配。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "华为官方",
+      "url": "https://consumer.huawei.com/en/press/events/2026/huawei-innovative-product-launch-may-07/",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "华为官方",
+        "url": "https://consumer.huawei.com/en/press/events/2026/huawei-innovative-product-launch-may-07/",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "8500mAh巨鲸电池",
+      "大屏手机",
+      "硅碳负极"
+    ],
+    "image": "https://aka.doubaocdn.com/s/BK051wRrSd",
+    "duplicateOf": null,
+    "createdAt": "2026-05-07T14:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://consumer.huawei.com/en/press/events/2026/huawei-innovative-product-launch-may-07/"
+  }
+]

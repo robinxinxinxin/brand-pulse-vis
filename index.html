@@ -7,7 +7,7 @@
 <title>新品日报-vis - 视觉信号追踪</title>
 <script>
   // 最后更新时间 - 每次更新时修改这个值
-  window.lastUpdated = '2026-06-04 22:00';
+  window.lastUpdated = '2026-06-06 22:00';
 </script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230f1419'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%2322d3ee' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%2322d3ee'/%3E%3Cline x1='50' y1='28' x2='50' y2='38' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='50' y1='62' x2='50' y2='72' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='28' y1='50' x2='38' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='62' y1='50' x2='72' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -836,6 +836,10 @@
   /* 卡片样式 */
   .card {
     position: relative;
+    display: grid;
+    grid-template-columns: minmax(180px, 260px) minmax(0, 1fr);
+    gap: 18px;
+    align-items: start;
     background: var(--bg-card);
     border-radius: 12px;
     padding: 20px;
@@ -880,18 +884,24 @@
 
   .card-image {
     width: 100%;
-    height: 180px;
-    background: var(--bg-input);
+    aspect-ratio: 1 / 1;
+    height: auto;
+    min-height: 210px;
+    background: #f3f6f8;
     border-radius: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 0;
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .card-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    padding: 10px;
     transition: transform 0.3s;
   }
 
@@ -907,6 +917,10 @@
     justify-content: center;
     color: var(--text-muted);
     font-size: 14px;
+  }
+
+  .card-content {
+    min-width: 0;
   }
 
   .card-header {
@@ -1344,6 +1358,13 @@
       text-align: left;
       margin-bottom: 8px;
       font-size: 11px;
+    }
+    .card {
+      display: block;
+    }
+    .card-image {
+      min-height: 220px;
+      margin-bottom: 16px;
     }
     .mobile-nav {
       display: block;
@@ -2598,6 +2619,8 @@ function renderProductCard(product) {
       <div class="card-image">
         ${getImageArea()}
       </div>
+
+      <div class="card-content">
       
       <div class="card-header" style="margin-top: 12px;">
         <div class="card-avatar" style="background: linear-gradient(135deg, #22d3ee, #06b6d4);">${product.brand.charAt(0)}</div>
@@ -2651,6 +2674,7 @@ function renderProductCard(product) {
         <button onclick="toggleCardDetails(this)" style="background: none; border: none; color: var(--accent-cyan); font-size: 12px; cursor: pointer; padding: 4px 12px; border-radius: 4px; hover: background: rgba(34, 211, 238, 0.1);">
           展开详情 ↓
         </button>
+      </div>
       </div>
     </div>
   `;

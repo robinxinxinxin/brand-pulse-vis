@@ -1,0 +1,67 @@
+[
+  {
+    "id": "apple-iphone-fold-liquidmetal-20260519",
+    "brand": "Apple",
+    "category": "phone",
+    "title": "Apple iPhone Fold — 液态金属铰链+钛铝混合机身，折叠屏材料范式跃迁",
+    "summary": "苹果首款折叠iPhone定档2026年9月，采用液态金属(Liquidmetal)铰链实现近乎无折痕效果，机身使用改良版钛铝混合材质。液态金属通过压铸工艺提升耐用性，铰链良率约65%成为量产关键挑战。三星定制LTPO OLED柔性屏，富士康独家组装，首批订单700-800万台。仅推2款低调配色，复刻iPhone X策略。",
+    "constraintChange": "液态金属(Liquidmetal)从航天/医疗级材料首次进入消费电子大规模量产，打破折叠屏铰链材料约束；钛铝混合工艺降低纯钛成本约束",
+    "time": "2026-09-01 00:00",
+    "score": 97,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 23,
+      "paradigmShift": 28,
+      "cmfInnovation": 19,
+      "transferability": 14,
+      "diffusionPotential": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.08,
+      "recognition": 2.3,
+      "transferability": 1.12,
+      "cmfInnovation": 1.14,
+      "paradigmShift": 1.12
+    },
+    "visTotal": 6.76,
+    "facts": [
+      "苹果首款折叠iPhone定档2026年9月，采用液态金属(Liquidmetal)铰链实现近乎无折痕效果，机身使用改良版钛铝混合材质。液态金属通过压铸工艺提升耐用性，铰链良率约65%成为量产关键挑战。三星定制LTPO OLED柔性屏，富士康独家组装，首批订单700-800万台。仅推2款低调配色，复刻iPhone X策略。",
+      "液态金属从实验室材料首次走向消费电子大规模量产（700-800万台订单），这是材料约束的根本性变化。一旦苹果验证量产路径，液态金属将从铰链扩散到中框、表壳等全品类。同时钛铝混合工艺解决了纯钛成本过高的约束。"
+    ],
+    "analysis": {
+      "whyItMatters": "液态金属从实验室材料首次走向消费电子大规模量产（700-800万台订单），这是材料约束的根本性变化。一旦苹果验证量产路径，液态金属将从铰链扩散到中框、表壳等全品类。同时钛铝混合工艺解决了纯钛成本过高的约束。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "供应链综合消息",
+      "url": "https://www.sohu.com/a/942367196_122004016",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "供应链综合消息",
+        "url": "https://www.sohu.com/a/942367196_122004016",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "液态金属",
+      "折叠屏",
+      "钛铝混合",
+      "铰链创新",
+      "材料范式"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-09-01T00:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.sohu.com/a/942367196_122004016"
+  }
+]

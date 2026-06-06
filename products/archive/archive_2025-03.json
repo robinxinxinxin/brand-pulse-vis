@@ -1,0 +1,67 @@
+[
+  {
+    "id": "corning-ggc3-motorola-razr-fold-20260519",
+    "brand": "康宁",
+    "category": "phone",
+    "title": "康宁 Gorilla Glass Ceramic 3 — 玻璃陶瓷材料首次商用，抗摔性提升75%",
+    "summary": "康宁发布第三代大猩猩玻璃陶瓷(Gorilla Glass Ceramic 3)，系列中抗跌落性能最强的材料，已在摩托罗拉razr fold大折叠手机首发商用。razr fold展开厚度仅4.6mm，闭合9.9mm。实测1米跌落无划痕。玻璃陶瓷材料兼具玻璃的透光性和陶瓷的强度，是盖板材料的重要约束突破。",
+    "constraintChange": "玻璃陶瓷材料首次商用化，打破'透光性vs耐摔性'的二元约束，盖板可以同时做到又薄又强",
+    "time": "2025-03-03 10:00",
+    "score": 88,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 14,
+      "paradigmShift": 22,
+      "cmfInnovation": 18,
+      "transferability": 16,
+      "diffusionPotential": 8
+    },
+    "visWeighted": {
+      "diffusionPotential": 0.96,
+      "recognition": 1.4,
+      "transferability": 1.28,
+      "cmfInnovation": 1.08,
+      "paradigmShift": 0.88
+    },
+    "visTotal": 5.6,
+    "facts": [
+      "康宁发布第三代大猩猩玻璃陶瓷(Gorilla Glass Ceramic 3)，系列中抗跌落性能最强的材料，已在摩托罗拉razr fold大折叠手机首发商用。razr fold展开厚度仅4.6mm，闭合9.9mm。实测1米跌落无划痕。玻璃陶瓷材料兼具玻璃的透光性和陶瓷的强度，是盖板材料的重要约束突破。",
+      "玻璃陶瓷(Glass Ceramic)是盖板材料从'要么透光要么耐摔'到'既透光又耐摔'的约束突破。康宁GGC3首次商用标志着这种材料从实验室走向量产。一旦成本下降，将改变所有消费电子的盖板设计约束。"
+    ],
+    "analysis": {
+      "whyItMatters": "玻璃陶瓷(Glass Ceramic)是盖板材料从'要么透光要么耐摔'到'既透光又耐摔'的约束突破。康宁GGC3首次商用标志着这种材料从实验室走向量产。一旦成本下降，将改变所有消费电子的盖板设计约束。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "PChome/康宁官方",
+      "url": "",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "PChome/康宁官方",
+        "url": "",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "玻璃陶瓷",
+      "康宁",
+      "折叠屏",
+      "材料商用",
+      "抗摔"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2025-03-03T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": ""
+  }
+]

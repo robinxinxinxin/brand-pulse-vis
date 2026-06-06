@@ -1,0 +1,66 @@
+[
+  {
+    "id": "huawei-mate-xt2-trifold-20260519",
+    "brand": "华为",
+    "category": "phone",
+    "title": "华为 Mate XT 2 第二代三折叠 — 从炫酷尝鲜到生产力工具的形态确立",
+    "summary": "华为第二代三折叠旗舰Mate XT 2定档2026年10月与Mate 90系列同台发布。铰链黑科技升级，续航大幅改善，补齐初代短板。初代Mate XT非凡大师已在MWC 2025引发全球关注，海外网红实测海水浸泡毫发无伤。第三代已锁定2026年9月发布节点，彻底转向高效生产力定位。",
+    "constraintChange": "三折叠铰链良率和耐用性约束持续解除，形态从'炫酷尝鲜'走向'生产力工具'的范式确立阶段",
+    "time": "2026-10-01 00:00",
+    "score": 85,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 20,
+      "paradigmShift": 24,
+      "cmfInnovation": 14,
+      "transferability": 12,
+      "diffusionPotential": 8
+    },
+    "visWeighted": {
+      "diffusionPotential": 0.96,
+      "recognition": 2,
+      "transferability": 0.96,
+      "cmfInnovation": 0.84,
+      "paradigmShift": 0.96
+    },
+    "visTotal": 5.72,
+    "facts": [
+      "华为第二代三折叠旗舰Mate XT 2定档2026年10月与Mate 90系列同台发布。铰链黑科技升级，续航大幅改善，补齐初代短板。初代Mate XT非凡大师已在MWC 2025引发全球关注，海外网红实测海水浸泡毫发无伤。第三代已锁定2026年9月发布节点，彻底转向高效生产力定位。",
+      "三折叠从华为一代的'炫酷尝鲜'到二代的'生产力工具'，标志着这种形态正在从实验性产品走向范式确立。铰链技术的持续迭代正在解除折叠屏的工程约束，三星也跟进三折叠专利。"
+    ],
+    "analysis": {
+      "whyItMatters": "三折叠从华为一代的'炫酷尝鲜'到二代的'生产力工具'，标志着这种形态正在从实验性产品走向范式确立。铰链技术的持续迭代正在解除折叠屏的工程约束，三星也跟进三折叠专利。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "供应链综合消息",
+      "url": "",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "供应链综合消息",
+        "url": "",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "三折叠",
+      "铰链升级",
+      "形态确立",
+      "生产力"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-10-01T00:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": ""
+  }
+]

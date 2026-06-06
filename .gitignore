@@ -1,0 +1,31 @@
+# Private automation core. Keep these local or move them to a private repo.
+AGENTS.md
+SKILL.md
+agents/
+scripts/
+vis-scoring-config.json
+
+# Daily working data. These are model/search intermediates, not public site assets.
+data/
+
+# Public site data can be committed intentionally if you want the GitHub site to load JSON.
+!products/
+!products/recent.json
+!products/archive/
+!products/archive/*.json
+!brands.json
+
+data/search-keywords-*.json
+data/candidates.raw.json
+data/candidates.scored.json
+data/candidates.review.json
+data/candidates.rejected.json
+data/candidates.scored.example.json
+data/candidates.review.example.json
+data/candidates.rejected.example.json
+data/personal-value-review.json
+data/personal-value-rejected.json
+data/r1-intake.raw.json
+data/r1-intake.review.json
+data/r1-intake.rejected.json
+data/r1-intake.raw.example.json

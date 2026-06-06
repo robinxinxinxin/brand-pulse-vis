@@ -1,0 +1,191 @@
+[
+  {
+    "id": "huawei-matebook-pro-20250519",
+    "brand": "华为",
+    "category": "phone",
+    "title": "华为 MateBook Pro — 业界首款鸿蒙笔记本电脑",
+    "summary": "首款搭载 HarmonyOS 5 的笔记本电脑，采用 OLED 护眼云晰柔光屏，整机重量仅970克，厚度13.5mm。无界微边框设计，屏占比高达92%。",
+    "constraintChange": "超轻材料商用化，笔记本形态趋薄",
+    "time": "2025-05-19 14:00",
+    "score": 95,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 20,
+      "paradigmShift": 26,
+      "cmfInnovation": 17,
+      "transferability": 13,
+      "diffusionPotential": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.08,
+      "recognition": 2,
+      "transferability": 1.04,
+      "cmfInnovation": 1.02,
+      "paradigmShift": 1.04
+    },
+    "visTotal": 6.18,
+    "facts": [
+      "首款搭载 HarmonyOS 5 的笔记本电脑，采用 OLED 护眼云晰柔光屏，整机重量仅970克，厚度13.5mm。无界微边框设计，屏占比高达92%。",
+      "970g超轻机身+92%屏占比的无界微边框设计，华为在笔记本工业设计上直接对标MacBook Air。"
+    ],
+    "analysis": {
+      "whyItMatters": "970g超轻机身+92%屏占比的无界微边框设计，华为在笔记本工业设计上直接对标MacBook Air。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "华为官方",
+      "url": "https://consumer.huawei.com/cn/laptops/matebook-pro/",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "华为官方",
+        "url": "https://consumer.huawei.com/cn/laptops/matebook-pro/",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "工业设计",
+      "鸿蒙OS",
+      "970g超轻"
+    ],
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+    "duplicateOf": null,
+    "createdAt": "2025-05-19T14:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://consumer.huawei.com/cn/laptops/matebook-pro/"
+  },
+  {
+    "id": "xiaomi-su7-ultra-20250519",
+    "brand": "小米汽车",
+    "category": "car",
+    "title": "小米 SU7 Ultra — 24K金碳纤维车标",
+    "summary": "小米SU7高性能版本，采用更具运动风格的车身套件。前包围U形风刀设计，标配24K金碳纤维车标。车尾碳纤维固定式大扰流板，运动座椅。",
+    "constraintChange": "碳纤维成本下降，从高端汽车向消费电子扩散",
+    "time": "2025-05-19 10:00",
+    "score": 96,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 25,
+      "cmfInnovation": 18,
+      "transferability": 12,
+      "diffusionPotential": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.08,
+      "recognition": 2.2,
+      "transferability": 0.96,
+      "cmfInnovation": 1.08,
+      "paradigmShift": 1
+    },
+    "visTotal": 6.32,
+    "facts": [
+      "小米SU7高性能版本，采用更具运动风格的车身套件。前包围U形风刀设计，标配24K金碳纤维车标。车尾碳纤维固定式大扰流板，运动座椅。",
+      "24K金碳纤维车标+全碳纤维空气动力学套件，小米SU7 Ultra把国产电动车的工业设计推向了超跑级别。碳纤维从汽车向消费电子扩散的信号。"
+    ],
+    "analysis": {
+      "whyItMatters": "24K金碳纤维车标+全碳纤维空气动力学套件，小米SU7 Ultra把国产电动车的工业设计推向了超跑级别。碳纤维从汽车向消费电子扩散的信号。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "小米官方",
+      "url": "https://www.mi.com/auto",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "小米官方",
+        "url": "https://www.mi.com/auto",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "智能电动车",
+      "24K金车标",
+      "碳纤维套件"
+    ],
+    "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&q=80",
+    "duplicateOf": null,
+    "createdAt": "2025-05-19T10:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.mi.com/auto"
+  },
+  {
+    "id": "nothing-phone-20250518",
+    "brand": "Nothing",
+    "category": "phone",
+    "title": "Nothing Phone (3) — 透明设计语言系统",
+    "summary": "第三代透明设计，Glyph灯带系统升级。透明背板结构可视化，去logo后仍可识别。CMF与功能完美融合。",
+    "constraintChange": "透明材料工艺成熟，从手机向多品类扩散",
+    "time": "2025-05-18 09:00",
+    "score": 92,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 24,
+      "paradigmShift": 22,
+      "cmfInnovation": 19,
+      "transferability": 14,
+      "diffusionPotential": 8
+    },
+    "visWeighted": {
+      "diffusionPotential": 0.96,
+      "recognition": 2.4,
+      "transferability": 1.12,
+      "cmfInnovation": 1.14,
+      "paradigmShift": 0.88
+    },
+    "visTotal": 6.5,
+    "facts": [
+      "第三代透明设计，Glyph灯带系统升级。透明背板结构可视化，去logo后仍可识别。CMF与功能完美融合。",
+      "透明结构设计语言，去logo可识别。推动消费电子透明化趋势，高可迁移性设计语言。"
+    ],
+    "analysis": {
+      "whyItMatters": "透明结构设计语言，去logo可识别。推动消费电子透明化趋势，高可迁移性设计语言。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "Nothing官方",
+      "url": "https://nothing.tech/blog",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "Nothing官方",
+        "url": "https://nothing.tech/blog",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "透明设计",
+      "视觉语言系统",
+      "Glyph灯带"
+    ],
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
+    "duplicateOf": null,
+    "createdAt": "2025-05-18T09:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://nothing.tech/blog"
+  }
+]
