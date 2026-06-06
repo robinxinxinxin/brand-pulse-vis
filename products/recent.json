@@ -1,5 +1,88 @@
 [
   {
+    "id": "rog-edition20-computex2026-20260606",
+    "brand": "玩家国度ROG",
+    "category": "gaming",
+    "title": "ROG Edition 20 — Crystal Lens透明材质+Radiant Gold金色工艺的\"黑透金\"视觉体系",
+    "summary": "ROG在COMPUTEX 2026发布20周年Edition 20全系列硬件，以影曜黑(70%)+澈影透Crystal Lens(18%)+矅金光Radiant Gold(10%)+ROG红(2%)构建统一视觉语言。核心亮点包括：透明玻璃背板显卡(Astral RTX 5090 Edition 20)、纯铜散热主板(Crosshair X870E Edition 20)、开放式铝制机箱(GR20 Edition 20)、3000W GaN MOSFET电源、曲面AMOLED显卡屏、AIO Q-Connector无缆线安装系统。",
+    "constraintChange": "将电竞硬件的CMF从\"黑红塑料\"推进到\"透明+金色+纯铜\"的材质组合，Crystal Lens透明玻璃背板让显卡内部结构成为视觉资产，开放式铝制机箱GR20重新定义机箱形态，属于电竞硬件领域罕见的全品类视觉体系重构。",
+    "time": "2026-06-06 23:30",
+    "score": 88,
+    "confidence": 92,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 22,
+      "paradigmShift": 20,
+      "cmfInnovation": 24,
+      "transferability": 14,
+      "diffusionPotential": 16
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.92,
+      "recognition": 2.2,
+      "transferability": 1.12,
+      "cmfInnovation": 1.44,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 7.48,
+    "facts": [
+      "ROG官方页面称Edition 20系列采用影曜黑、ROG红、澈影透Crystal Lens、矅金光Radiant Gold四色构建视觉体系。",
+      "ROG Astral RTX 5090 Edition 20采用透明玻璃背板(transparent glass backplate)展示GPU内部工程结构。",
+      "ROG GR20 Edition 20机箱采用开放式模块化铝制设计(open-frame modular design)，支持垂直/倾斜/水平三种放置模式。",
+      "ROG Crosshair X870E Edition 20主板使用纯铜散热器(pure copper heatsinks)和3D VC均热板M.2散热。",
+      "ROG Thor 3000W Titanium III Edition 20电源采用GaN MOSFET，效率比标准MOSFET提升30%。"
+    ],
+    "analysis": {
+      "whyItMatters": "ROG作为电竞硬件顶级品牌，其20周年系列将透明材质(Crystal Lens)和金色工艺(Radiant Gold)作为统一视觉语言下放到全品类，从显卡到主板到机箱到电源，这标志着电竞硬件CMF从单点创新进入体系化设计阶段。",
+      "transferability": "透明背板+金色点缀的CMF组合可迁移到充电宝、移动硬盘、耳机充电盒等3C配件；开放式铝制机箱理念可影响桌面音箱、显示器支架等外设形态。",
+      "risk": "Edition 20为限量纪念系列，部分工艺(如透明玻璃背板显卡)可能不会下放到常规产品线；3000W电源面向极端玩家，大众市场参考价值有限。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "ROG官网",
+      "url": "https://rog.asus.com/content/rog-edition-20",
+      "capturedAt": "2026-06-06T23:30:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "ROG Edition 20官方产品页",
+        "url": "https://rog.asus.com/content/rog-edition-20",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials",
+          "cmf_process"
+        ]
+      },
+      {
+        "tier": "tier0_official",
+        "name": "ROG官方Edition 20设计故事",
+        "url": "https://rog.asus.com/articles/gaming/innovate-perform-dominate-celebrate-20-years-of-gaming-with-the-rog-edition-20-lineup-of-pc-components-and-gear/",
+        "supports": [
+          "design",
+          "materials",
+          "cmf_process"
+        ]
+      }
+    ],
+    "tags": [
+      "Crystal Lens澈影透",
+      "Radiant Gold矅金光",
+      "透明玻璃背板",
+      "纯铜散热",
+      "开放式铝制机箱",
+      "GaN MOSFET",
+      "曲面AMOLED",
+      "黑透金视觉体系"
+    ],
+    "image": "https://aka.doubaocdn.com/s/fXWh1wYOyG",
+    "duplicateOf": null,
+    "createdAt": "2026-06-06T23:30:00+08:00",
+    "updatedAt": "2026-06-06T23:30:00+08:00",
+    "url": "https://rog.asus.com/content/rog-edition-20"
+  },
+  {
     "id": "huawei-nova16-pro-wave-kunlun-20260606",
     "brand": "华为",
     "category": "phone",
