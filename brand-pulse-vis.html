@@ -1396,12 +1396,12 @@
     <a class="nav-item active" onclick="switchSection('featured', this)">
       <span class="nav-icon">⭐</span>
       精选
-      <span class="nav-badge" id="featuredCount">6</span>
+      <span class="nav-badge" id="featuredCount">-</span>
     </a>
     <a class="nav-item" onclick="switchSection('all', this)">
       <span class="nav-icon">📋</span>
       全部动态
-      <span class="nav-badge" id="allCount">6</span>
+      <span class="nav-badge" id="allCount">-</span>
     </a>
     <a class="nav-item" onclick="switchSection('today', this)">
       <span class="nav-icon">📅</span>
@@ -1413,7 +1413,7 @@
       <a class="nav-item" onclick="toggleBrandManager()">
         <span class="nav-icon">🏷️</span>
         品牌管理
-        <span class="nav-badge" id="brandCountNav">27</span>
+        <span class="nav-badge" id="brandCountNav">-</span>
         <span class="nav-arrow" id="brandArrow">▸</span>
       </a>
       <div class="nav-collapsible-content" id="brandManagerContent" style="display:none;">
@@ -1614,6 +1614,7 @@
 
 <script>
 // ==================== 全局数据 ====================
+// <BRANDPULSE-DATA-BRANDS-START>
 let brandsData = {
   "lastUpdated": "2026-06-05",
   "sourcePriority": {
@@ -2083,7 +2084,9 @@ let brandsData = {
     }
   ]
 };
+// <BRANDPULSE-DATA-BRANDS-END>
 
+// <BRANDPULSE-DATA-PRODUCTS-START>
 let productsData = [
   {
     "id": "rog-edition20-computex2026-20260606",
@@ -3866,7 +3869,9 @@ let productsData = [
 ]
 ;
   defaultProductsData = productsData;
-  console.log('[BrandPulse] 使用内嵌产品数据')function renderBrandList() {
+  console.log('[BrandPulse] Using embedded product data');
+// <BRANDPULSE-DATA-PRODUCTS-END>
+function renderBrandList() {
   const list = document.getElementById('brandList');
   const categories = {};
   

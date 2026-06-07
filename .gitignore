@@ -29,3 +29,11 @@ data/r1-intake.raw.json
 data/r1-intake.review.json
 data/r1-intake.rejected.json
 data/r1-intake.raw.example.json
+
+# Runtime logs and temporary files
+*.log
+server*.log
+node-start*.log
+server-cmd.log
+start-brandpulse-server.cmd
+start-brandpulse-server.ps1
