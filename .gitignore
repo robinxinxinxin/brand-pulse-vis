@@ -1,5 +1,4 @@
 # Private automation core. Keep these local or move them to a private repo.
-AGENTS.md
 SKILL.md
 agents/
 scripts/
