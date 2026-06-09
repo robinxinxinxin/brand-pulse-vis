@@ -1,5 +1,59 @@
 [
   {
+    "id": "no-signal-20260609",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-06-09)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。",
+    "constraintChange": "无",
+    "time": "2026-06-09 22:06",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌",
+      "信息源优先级：品牌官方 > 权威科技媒体 > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "近期已收录信号：影石Luna Ultra（6月6日）、ROG Edition 20（6月6日）、华为nova 16 Pro（6月6日）"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号，说明当日无显著视觉约束变化，确保数据完整性。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-06-09T22:06:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-06-09T22:06:00+08:00",
+    "updatedAt": "2026-06-09T22:06:00+08:00",
+    "url": ""
+  },
+  {
     "id": "no-signal-20260607",
     "brand": "-",
     "category": "none",
@@ -1575,69 +1629,5 @@
     "createdAt": "2026-06-06T22:00:00+08:00",
     "updatedAt": "2026-06-06T22:00:00+08:00",
     "url": "https://www.insta360.com"
-  },
-  {
-    "id": "shokz-opendots2-20260508",
-    "brand": "韶音",
-    "category": "audio",
-    "title": "韶音 OpenDots 2 — 金缮工艺耳夹耳机",
-    "summary": "延续动钛弧与不等距硅胶结构设计，搭载BassSphere 2.0低频聚合技术与杜比音效，失真优化70%。新增骨导麦克风支持AI通话降噪。三款配色：白金缮（灵感源自金缮工艺，经七涂七烤锻光处理，呈现细腻珠光质感）、银雪松、黑芒星。定价1298元。特邀国际设计大师Matteo Menotto（曾服务于宝格丽）打造艺术限定礼盒。",
-    "constraintChange": "奢侈品级表面处理工艺向消费电子下放",
-    "time": "2026-05-08 10:00",
-    "score": 83,
-    "confidence": 85,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "recognition": 18,
-      "paradigmShift": 16,
-      "cmfInnovation": 19,
-      "transferability": 15,
-      "diffusionPotential": 10
-    },
-    "visWeighted": {
-      "diffusionPotential": 1.2,
-      "recognition": 1.8,
-      "transferability": 1.2,
-      "cmfInnovation": 1.14,
-      "paradigmShift": 0.64
-    },
-    "visTotal": 5.98,
-    "facts": [
-      "延续动钛弧与不等距硅胶结构设计，搭载BassSphere 2.0低频聚合技术与杜比音效，失真优化70%。新增骨导麦克风支持AI通话降噪。三款配色：白金缮（灵感源自金缮工艺，经七涂七烤锻光处理，呈现细腻珠光质感）、银雪松、黑芒星。定价1298元。特邀国际设计大师Matteo Menotto（曾服务于宝格丽）打造艺术限定礼盒。",
-      "将东方金缮修缮美学融入耳夹耳机CMF设计，七涂七烤缎光工艺呈现珠宝级质感。前宝格丽设计师联名提升品牌调性。"
-    ],
-    "analysis": {
-      "whyItMatters": "将东方金缮修缮美学融入耳夹耳机CMF设计，七涂七烤缎光工艺呈现珠宝级质感。前宝格丽设计师联名提升品牌调性。",
-      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
-      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
-    },
-    "primarySource": {
-      "tier": "tier0_official",
-      "name": "韶音官方",
-      "url": "https://www.shokz.com.cn/OpenDots2",
-      "capturedAt": "2026-06-05T22:00:00+08:00"
-    },
-    "evidence": [
-      {
-        "tier": "tier0_official",
-        "name": "韶音官方",
-        "url": "https://www.shokz.com.cn/OpenDots2",
-        "supports": [
-          "product_exists",
-          "design_signal"
-        ]
-      }
-    ],
-    "tags": [
-      "金缮工艺",
-      "七涂七烤",
-      "耳夹耳机",
-      "Matteo Menotto联名"
-    ],
-    "image": "https://aka.doubaocdn.com/s/7OAM1wRrSw",
-    "duplicateOf": null,
-    "createdAt": "2026-05-08T10:00:00+08:00",
-    "updatedAt": "2026-06-05T22:00:00+08:00",
-    "url": "https://www.shokz.com.cn/OpenDots2"
   }
 ]
