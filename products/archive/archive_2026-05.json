@@ -1,5 +1,70 @@
 [
   {
+    "id": "samsung-z-trifold2-sppen-hinge-20260519",
+    "brand": "三星",
+    "category": "phone",
+    "title": "三星 Galaxy Z TriFold2 — 铰链内置S Pen，功能集成于结构创新",
+    "summary": "三星三折叠专利曝光：Galaxy Z TriFold2创新性地将S Pen手写笔收纳于铰链内部，弥补初代缺乏手写笔支持的问题。专利图揭示减少携带负担的设计方案。铰链从纯结构部件进化为功能集成载体。",
+    "constraintChange": "铰链从纯结构部件进化为功能集成载体，折叠屏的结构设计约束从'如何折叠'扩展到'折叠时能集成什么功能'",
+    "time": "2026-05-10 00:00",
+    "score": 78,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "recognition": 16,
+      "paradigmShift": 20,
+      "cmfInnovation": 13,
+      "transferability": 14,
+      "diffusionPotential": 7
+    },
+    "visWeighted": {
+      "diffusionPotential": 0.84,
+      "recognition": 1.6,
+      "transferability": 1.12,
+      "cmfInnovation": 0.78,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 5.14,
+    "facts": [
+      "三星三折叠专利曝光：Galaxy Z TriFold2创新性地将S Pen手写笔收纳于铰链内部，弥补初代缺乏手写笔支持的问题。专利图揭示减少携带负担的设计方案。铰链从纯结构部件进化为功能集成载体。",
+      "铰链从'纯结构部件'进化为'功能集成载体'（内置S Pen），这是折叠屏结构设计约束的重要变化。如果量产成功，铰链将不再只是折叠机构，而成为产品功能的一部分，改变折叠屏的工业设计语言。"
+    ],
+    "analysis": {
+      "whyItMatters": "铰链从'纯结构部件'进化为'功能集成载体'（内置S Pen），这是折叠屏结构设计约束的重要变化。如果量产成功，铰链将不再只是折叠机构，而成为产品功能的一部分，改变折叠屏的工业设计语言。",
+      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
+      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "专利/行业分析",
+      "url": "https://www.sohu.com/a/1021560790_122066678",
+      "capturedAt": "2026-06-05T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "专利/行业分析",
+        "url": "https://www.sohu.com/a/1021560790_122066678",
+        "supports": [
+          "product_exists",
+          "design_signal"
+        ]
+      }
+    ],
+    "tags": [
+      "三折叠",
+      "铰链集成",
+      "S Pen",
+      "结构创新",
+      "专利"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-05-10T00:00:00+08:00",
+    "updatedAt": "2026-06-05T22:00:00+08:00",
+    "url": "https://www.sohu.com/a/1021560790_122066678"
+  },
+  {
     "id": "shokz-opendots2-20260508",
     "brand": "韶音",
     "category": "audio",
