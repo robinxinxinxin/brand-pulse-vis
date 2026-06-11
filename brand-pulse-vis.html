@@ -5,9 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
 <title>新品日报-vis - 视觉信号追踪</title>
+<script src="./products/ks-recent.js"></script>
 <script>
   // 最后更新时间 - 每次更新时修改这个值
-  window.lastUpdated = '2026-06-10 20:55';
+  window.lastUpdated = '2026-06-11 20:00';
 </script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230f1419'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%2322d3ee' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%2322d3ee'/%3E%3Cline x1='50' y1='28' x2='50' y2='38' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='50' y1='62' x2='50' y2='72' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='28' y1='50' x2='38' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='62' y1='50' x2='72' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -106,6 +107,24 @@
     padding: 0 12px;
     overflow-y: auto;
     padding-bottom: 50px; /* 为底部更新时间留空间 */
+  }
+
+  .nav-section-label {
+    padding: 14px 16px 6px;
+    font-size: 11px;
+    color: var(--text-muted);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .nav-section-group {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .nav-section-group .nav-item {
+    margin-left: 8px;
   }
 
   .nav-item {
@@ -1393,20 +1412,29 @@
   </div>
   
   <nav class="nav-menu">
-    <a class="nav-item active" onclick="switchSection('featured', this)">
-      <span class="nav-icon">⭐</span>
-      精选
-      <span class="nav-badge" id="featuredCount">-</span>
-    </a>
-    <a class="nav-item" onclick="switchSection('all', this)">
-      <span class="nav-icon">📋</span>
-      全部动态
-      <span class="nav-badge" id="allCount">-</span>
-    </a>
-    <a class="nav-item" onclick="switchSection('today', this)">
-      <span class="nav-icon">📅</span>
-      今日更新
-      <span class="nav-badge" id="todayCount" style="display:none;">0</span>
+    <div class="nav-section-label">每日新品日报</div>
+    <div class="nav-section-group">
+      <a class="nav-item active" onclick="switchSection('featured', this)">
+        <span class="nav-icon">⭐</span>
+        精选
+        <span class="nav-badge" id="featuredCount">-</span>
+      </a>
+      <a class="nav-item" onclick="switchSection('all', this)">
+        <span class="nav-icon">📋</span>
+        全部动态
+        <span class="nav-badge" id="allCount">-</span>
+      </a>
+      <a class="nav-item" onclick="switchSection('today', this)">
+        <span class="nav-icon">📅</span>
+        今日更新
+        <span class="nav-badge" id="todayCount" style="display:none;">0</span>
+      </a>
+    </div>
+    <div class="nav-section-label">众筹分支</div>
+    <a class="nav-item" onclick="switchSection('crowdfunding', this)">
+      <span class="nav-icon">🔥</span>
+      众筹追踪
+      <span class="nav-badge" id="crowdfundingCount" style="display:none;">0</span>
     </a>
     <!-- 品牌管理 - 折叠式 -->
     <div class="nav-collapsible" id="brandManagerToggle">
@@ -1526,19 +1554,19 @@
   <footer class="footer-stats">
     <div class="stat-item">
       <div class="stat-num" id="statTotal">-</div>
-      <div class="stat-label">视觉约束信号</div>
+      <div class="stat-label" id="statTotalLabel">视觉约束信号</div>
     </div>
     <div class="stat-item">
       <div class="stat-num" id="statFeatured">-</div>
-      <div class="stat-label">精选推荐</div>
+      <div class="stat-label" id="statFeaturedLabel">精选推荐</div>
     </div>
     <div class="stat-item">
       <div class="stat-num" id="statBrands">-</div>
-      <div class="stat-label">覆盖品牌</div>
+      <div class="stat-label" id="statBrandsLabel">覆盖品牌</div>
     </div>
     <div class="stat-item">
       <div class="stat-num" id="statMonitored">-</div>
-      <div class="stat-label">监控中</div>
+      <div class="stat-label" id="statMonitoredLabel">监控中</div>
     </div>
   </footer>
   <p class="footer-text">
@@ -2088,6 +2116,63 @@ let brandsData = {
 
 // <BRANDPULSE-DATA-PRODUCTS-START>
 let productsData = [
+  {
+    "id": "no-signal-20260611",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-06-11)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。11次搜索覆盖全部44品牌。",
+    "constraintChange": "无",
+    "time": "2026-06-11 20:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共11次批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "三星Galaxy S26/S26+正式发布（6月11日）：氛围岛相机模组设计属设计语言演进，装甲铝边框+GG Victus 2为标准材质延续，S26 Ultra放弃钛金属回归装甲铝属材料回归而非创新，防窥显示屏为屏幕技术非CMF约束变化，不收录",
+      "影石Luna Ultra 6月10日正式开售，但已于6月6日收录（id: insta360-luna-ultra-20260606），不重复收录",
+      "大疆Pocket 4系列为4月发布旧品，不收录",
+      "享界S9新增流光银/仙踪绿配色属小幅配色扩展，无新工艺，不收录"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。三星S26系列今日发布但视觉约束变化不显著，说明手机行业CMF创新节奏放缓，当前创新焦点在AI和屏幕技术而非材料工艺。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-06-11T20:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-06-11T20:00:00+08:00",
+    "updatedAt": "2026-06-11T20:00:00+08:00",
+    "url": ""
+  },
   {
     "id": "no-signal-20260610",
     "brand": "无",
@@ -3716,6 +3801,72 @@ let productsData = [
   defaultProductsData = productsData;
   console.log('[BrandPulse] Using embedded product data');
 // <BRANDPULSE-DATA-PRODUCTS-END>
+async function loadCrowdfundingProducts() {
+  if (crowdfundingLoaded) return crowdfundingData;
+
+  try {
+    const response = await fetch('./products/ks-recent.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const data = await response.json();
+    crowdfundingData = Array.isArray(data) ? data : (Array.isArray(data.products) ? data.products : []);
+    crowdfundingData = crowdfundingData.map(normalizeCrowdfundingProduct);
+    crowdfundingLoaded = true;
+
+    const badge = document.getElementById('crowdfundingCount');
+    if (badge) {
+      badge.textContent = crowdfundingData.length;
+      badge.style.display = crowdfundingData.length ? '' : 'none';
+    }
+    console.log(`[BrandPulse] 已从 ks-recent.json 加载 ${crowdfundingData.length} 个众筹项目`);
+  } catch (e) {
+    const fallbackData = window.__crowdfundingData;
+    if (fallbackData && Array.isArray(fallbackData.products)) {
+      crowdfundingData = fallbackData.products.map(normalizeCrowdfundingProduct);
+      crowdfundingLoaded = true;
+
+      const badge = document.getElementById('crowdfundingCount');
+      if (badge) {
+        badge.textContent = crowdfundingData.length;
+        badge.style.display = crowdfundingData.length ? '' : 'none';
+      }
+      console.log(`[BrandPulse] 已从 ks-recent.js 加载 ${crowdfundingData.length} 个众筹项目`);
+    } else {
+      console.warn('[BrandPulse] 无法加载 ks-recent.json:', e.message);
+      crowdfundingData = [];
+      crowdfundingLoaded = true;
+    }
+  }
+
+  return crowdfundingData;
+}
+
+function normalizeCrowdfundingProduct(product) {
+  const ks = product.ksData || {};
+  const toNumber = (value) => {
+    const number = Number(value);
+    return Number.isFinite(number) ? number : 0;
+  };
+  const usdPledged = toNumber(ks.usdPledged);
+  const goal = toNumber(ks.usdGoal || ks.goal);
+  const percentFunded = toNumber(ks.percentFunded) || (goal > 0 ? Math.round((usdPledged / goal) * 100) : 0);
+
+  return {
+    ...product,
+    source: 'kickstarter',
+    sourceName: 'Kickstarter',
+    ksData: {
+      ...ks,
+      usdPledged,
+      goal: toNumber(ks.goal),
+      usdGoal: goal,
+      backersCount: toNumber(ks.backersCount),
+      percentFunded,
+      daysSinceLaunch: toNumber(ks.daysSinceLaunch)
+    }
+  };
+}
+
 function renderBrandList() {
   const list = document.getElementById('brandList');
   const categories = {};
@@ -3925,7 +4076,7 @@ function renderTimeline(productsToRender) {
   // 按日期分组
   const groups = {};
   products.forEach(product => {
-    const date = product.time.split(' ')[0];
+    const date = (product.time || product.ksData?.launchDate || '未知日期').split(' ')[0];
     if (!groups[date]) groups[date] = [];
     groups[date].push(product);
   });
@@ -3957,7 +4108,11 @@ function renderTimeline(productsToRender) {
 }
 
 function renderProductCard(product) {
-  const time = product.time.split(' ')[1];
+  if (product.source === 'kickstarter' || product.sourceName === 'Kickstarter' || product.ksData) {
+    return renderCrowdfundingCard(product);
+  }
+
+  const time = (product.time || '').split(' ')[1] || '--:--';
   
   // 审核状态标签
   const getReviewStatusBadge = () => {
@@ -4118,6 +4273,109 @@ function renderProductCard(product) {
   `;
 }
 
+function renderCrowdfundingCard(product) {
+  const ks = product.ksData || {};
+  const time = (product.time || '').split(' ')[1] || '--:--';
+  const score = product.score || product.visTotal || 0;
+  const state = ks.state || 'unknown';
+  const stateText = state === 'live' ? '进行中' : state === 'successful' ? '已成功' : state;
+  const isLive = state === 'live';
+  const isStaffPick = Boolean(ks.staffPick);
+  const backers = Number(ks.backersCount || 0);
+  const pledged = Number(ks.usdPledged || 0);
+  const goal = Number(ks.usdGoal || ks.goal || 0);
+  const percentFunded = Number(ks.percentFunded || (goal > 0 ? Math.round((pledged / goal) * 100) : 0));
+  const daysSinceLaunch = Number(ks.daysSinceLaunch || 0);
+  const categoryName = getCategoryName(product.category);
+
+  const formatMoney = (value) => {
+    const amount = Number(value || 0);
+    if (amount >= 1000000) return `$${(amount / 1000000).toFixed(1)}M`;
+    if (amount >= 1000) return `$${(amount / 1000).toFixed(1)}K`;
+    return `$${Math.round(amount).toLocaleString()}`;
+  };
+
+  const imageHtml = product.image ?
+    `<img src="${product.image}" alt="${product.title || 'Kickstarter project'}" loading="lazy" onclick="window.open('${product.url || '#'}','_blank')" style="cursor:pointer;" onerror="this.outerHTML='<div class=\\'card-image-placeholder\\' style=\\'background:rgba(34,197,94,.08);border:2px dashed rgba(34,197,94,.25);\\'><div style=\\'font-size:28px;margin-bottom:4px;\\'>🔥</div><div style=\\'font-size:11px;color:#22c55e;font-weight:500;\\'>Kickstarter</div></div>';">` :
+    `<div class="card-image-placeholder" style="background:rgba(34,197,94,.08);border:2px dashed rgba(34,197,94,.25);">
+      <div style="font-size:28px;margin-bottom:4px;">🔥</div>
+      <div style="font-size:11px;color:#22c55e;font-weight:500;">Kickstarter</div>
+    </div>`;
+
+  const detailsHtml = `
+    <div class="card-details" style="display:none; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-color);">
+      <div class="card-desc" style="margin-bottom: 12px; font-size: 13px; color: var(--text-secondary);">${product.desc || product.summary || ''}</div>
+      <div style="margin-bottom: 12px;">
+        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 6px; font-weight: 500;">众筹数据</div>
+        <ul style="margin: 0; padding-left: 16px; font-size: 12px; color: var(--text-secondary);">
+          <li style="margin-bottom: 4px;">目标金额：${formatMoney(goal)} ${ks.currency || 'USD'}</li>
+          <li style="margin-bottom: 4px;">已筹金额：${formatMoney(pledged)} USD</li>
+          <li style="margin-bottom: 4px;">达成率：${percentFunded.toLocaleString()}%</li>
+          <li style="margin-bottom: 4px;">支持者：${backers.toLocaleString()} 人</li>
+          <li style="margin-bottom: 4px;">上线天数：${daysSinceLaunch} 天</li>
+          <li style="margin-bottom: 4px;">项目状态：${stateText}</li>
+        </ul>
+      </div>
+      ${product.reason ? `<div style="font-size: 12px; color: var(--text-secondary); margin-bottom: 12px;">${product.reason}</div>` : ''}
+      <div class="card-footer" style="margin-top: 12px;">
+        <span class="card-meta">上线时间：${product.time || '未知'}</span>
+        ${product.url ? `<a href="${product.url}" target="_blank" class="card-link">查看 Kickstarter →</a>` : ''}
+      </div>
+    </div>
+  `;
+
+  return `
+    <div class="card crowdfunding-card" data-category="${state}" data-product-id="${product.id || ''}">
+      <div class="card-image">
+        ${imageHtml}
+      </div>
+      <div class="card-content">
+        <div class="card-header" style="margin-top: 12px;">
+          <div class="card-avatar" style="background: linear-gradient(135deg, #22c55e, #16a34a);">${(product.brand || '?').charAt(0)}</div>
+          <div class="card-source">
+            <div class="card-source-name">${product.brand || '未知品牌'}</div>
+            <div class="card-source-type">${categoryName} · ${time}</div>
+          </div>
+          <div class="card-badges">
+            <span class="badge-featured" style="background:${isLive ? 'rgba(34,197,94,.14)' : 'rgba(59,130,246,.14)'};color:${isLive ? '#22c55e' : '#60a5fa'};">${stateText}</span>
+            ${isStaffPick ? '<span class="badge-featured" style="background:rgba(251,191,36,.14);color:#fbbf24;">Staff Pick</span>' : ''}
+          </div>
+        </div>
+
+        <h3 class="card-title" style="font-size: 15px; margin: 10px 0 8px;">${product.title || '无标题项目'}</h3>
+
+        <div style="display: flex; align-items: center; gap: 12px; margin: 12px 0; flex-wrap: wrap;">
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <span style="font-size: 20px; font-weight: 700; color: #22c55e;">${score}</span>
+            <span style="font-size: 11px; color: var(--text-muted);">VIS总分</span>
+          </div>
+          <div style="width: 1px; height: 20px; background: var(--border-color);"></div>
+          <div style="font-size: 11px; color: var(--text-muted);">${backers.toLocaleString()} 支持者</div>
+          <div style="width: 1px; height: 20px; background: var(--border-color);"></div>
+          <div style="font-size: 11px; color: var(--text-muted);">${formatMoney(pledged)} 已筹</div>
+        </div>
+
+        <div style="height: 8px; background: var(--bg-secondary); border-radius: 999px; overflow: hidden; margin: 10px 0 8px;">
+          <div style="height: 100%; width: ${Math.min(percentFunded, 100)}%; background: linear-gradient(90deg, #22c55e, #84cc16);"></div>
+        </div>
+        <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 8px;">达成率 ${percentFunded.toLocaleString()}% · 目标 ${formatMoney(goal)} · 上线 ${daysSinceLaunch} 天</div>
+
+        <div class="card-tags" style="margin-top: 10px;">
+          ${(product.tags || []).map(tag => `<span class="tag tag-green" style="font-size: 10px; padding: 2px 8px;">${tag}</span>`).join('')}
+        </div>
+
+        ${detailsHtml}
+
+        <div style="margin-top: 12px; text-align: center;">
+          <button onclick="toggleCardDetails(this)" style="background: none; border: none; color: #22c55e; font-size: 12px; cursor: pointer; padding: 4px 12px; border-radius: 4px;">
+            展开详情 ↓
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
 function toggleCardDetails(btn) {
   const card = btn.closest('.card');
   const details = card.querySelector('.card-details');
@@ -4153,6 +4411,21 @@ function formatDate(dateStr) {
 }
 
 function getCategoryName(cat) {
+  const crowdfundingCategories = {
+    product_design: 'Product Design',
+    technology: 'Technology',
+    gadgets: 'Gadgets',
+    hardware: 'Hardware',
+    wearables: 'Wearables',
+    camera: 'Cameras',
+    audio: 'Audio',
+    gaming: 'Gaming',
+    robots: 'Robots',
+    flight: 'Flight',
+    three_d_printing: '3D Printing',
+    fabrication_tools: 'Fabrication Tools'
+  };
+  if (isCrowdfundingView() && crowdfundingCategories[cat]) return crowdfundingCategories[cat];
   return brandsData.categories[cat] || cat;
 }
 
@@ -4171,25 +4444,110 @@ const viewState = {
   section: 'all'
 };
 
+function isCrowdfundingView() {
+  return viewState.section === 'crowdfunding';
+}
+
+function getActiveProducts() {
+  return isCrowdfundingView() ? crowdfundingData : defaultProductsData;
+}
+
+function sortByCrowdfundingPriority(items) {
+  const num = (value) => {
+    const number = Number(value);
+    return Number.isFinite(number) ? number : 0;
+  };
+  const timeValue = (product) => new Date(product.time || 0).getTime() || 0;
+
+  return items.sort((a, b) => {
+    const aKs = a.ksData || {};
+    const bKs = b.ksData || {};
+    return (num(b.score || b.visTotal) - num(a.score || a.visTotal)) ||
+      (num(bKs.backersCount) - num(aKs.backersCount)) ||
+      (num(bKs.percentFunded) - num(aKs.percentFunded)) ||
+      ((bKs.state === 'live' ? 1 : 0) - (aKs.state === 'live' ? 1 : 0)) ||
+      (timeValue(b) - timeValue(a));
+  });
+}
+
+function updateCrowdfundingControls(enabled) {
+  const filterTabs = document.getElementById('filterTabs');
+  const sortBar = document.querySelector('.sort-bar');
+  if (!filterTabs || !sortBar) return;
+
+  if (enabled) {
+    filterTabs.innerHTML = `
+      <button class="filter-tab active" onclick="filterCategory(this, 'all')">全部</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'top_score')">高VIS</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'live')">进行中</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'successful')">已成功</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'staff_pick')">Staff Pick</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'high_backers')">高支持者</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'million')">百万美元</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'breakout')">高达成率</button>
+      <button class="filter-tab" onclick="filterCategory(this, 'new_launch')">新近上线</button>
+    `;
+    sortBar.innerHTML = `
+      <span style="font-size:12px;color:var(--text-muted);">排序：</span>
+      <button class="sort-btn active" onclick="sortProducts('crowdfunding', this)" data-sort="crowdfunding">综合</button>
+      <button class="sort-btn" onclick="sortProducts('funded', this)" data-sort="funded">达成率</button>
+      <button class="sort-btn" onclick="sortProducts('backers', this)" data-sort="backers">支持者</button>
+      <button class="sort-btn" onclick="sortProducts('days', this)" data-sort="days">上线天数</button>
+    `;
+    return;
+  }
+
+  if (defaultFilterHtml) filterTabs.innerHTML = defaultFilterHtml;
+  if (defaultSortHtml) sortBar.innerHTML = defaultSortHtml;
+}
+
+function matchesCrowdfundingFilter(product, filter) {
+  const ks = product.ksData || {};
+  const score = Number(product.score || product.visTotal || 0);
+  const backers = Number(ks.backersCount || 0);
+  const pledged = Number(ks.usdPledged || 0);
+  const funded = Number(ks.percentFunded || 0);
+  const days = Number(ks.daysSinceLaunch || 0);
+
+  if (filter === 'all') return true;
+  if (filter === 'top_score') return score >= 80;
+  if (filter === 'live' || filter === 'successful') return (ks.state || '') === filter;
+  if (filter === 'staff_pick') return Boolean(ks.staffPick);
+  if (filter === 'high_backers') return backers >= 5000;
+  if (filter === 'million') return pledged >= 1000000;
+  if (filter === 'breakout') return funded >= 1000;
+  if (filter === 'new_launch') return days > 0 && days <= 30;
+  return true;
+}
+
 // 统一渲染：根据 viewState 过滤、排序并渲染
 function applyViewStateAndRender() {
   // 防御性检查：确保 brandsData.brands 存在
-  if (!brandsData || !Array.isArray(brandsData.brands)) {
+  if (!isCrowdfundingView() && (!brandsData || !Array.isArray(brandsData.brands))) {
     console.error('[BrandPulse] brandsData.brands 不可用');
     renderTimeline([]);
     updateStats(0);
     return;
   }
 
+  productsData = getActiveProducts();
   let filtered = [...productsData];
-  // 按监控品牌过滤
-  const monitoredBrands = brandsData.brands
-    .filter(b => b.monitored).map(b => b.name);
-  filtered = filtered.filter(p =>
-    monitoredBrands.some(b => p.brand === b || p.brand.includes(b) || b.includes(p.brand))
-  );
+
+  if (!isCrowdfundingView()) {
+    // 按监控品牌过滤
+    const monitoredBrands = brandsData.brands
+      .filter(b => b.monitored).map(b => b.name);
+    filtered = filtered.filter(p =>
+      monitoredBrands.some(b => p.brand === b || p.brand.includes(b) || b.includes(p.brand))
+    );
+  }
+
   // 按 section 过滤
-  if (viewState.section === 'today') {
+  if (isCrowdfundingView()) {
+    if (viewState.category !== 'all') {
+      filtered = filtered.filter(p => matchesCrowdfundingFilter(p, viewState.category));
+    }
+  } else if (viewState.section === 'today') {
     const now = new Date();
     const today = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
     filtered = filtered.filter(p => p.time && p.time.startsWith(today));
@@ -4197,7 +4555,7 @@ function applyViewStateAndRender() {
     filtered = filtered.filter(p => (p.score >= 75) || (p.visTotal >= 7));
   }
   // 按 category 过滤
-  if (viewState.category !== 'all') {
+  if (!isCrowdfundingView() && viewState.category !== 'all') {
     filtered = filtered.filter(p => p.category === viewState.category);
   }
   // 按 search 过滤
@@ -4206,11 +4564,21 @@ function applyViewStateAndRender() {
     filtered = filtered.filter(p => {
       return (p.title||'').toLowerCase().includes(kw) ||
              (p.summary||'').toLowerCase().includes(kw) ||
-             (p.brand||'').toLowerCase().includes(kw);
+             (p.desc||'').toLowerCase().includes(kw) ||
+             (p.brand||'').toLowerCase().includes(kw) ||
+             (p.tags || []).some(tag => String(tag).toLowerCase().includes(kw));
     });
   }
   // 按 sortBy 排序
-  if (viewState.sortBy === 'time') {
+  if (isCrowdfundingView() && viewState.sortBy === 'crowdfunding') {
+    sortByCrowdfundingPriority(filtered);
+  } else if (viewState.sortBy === 'funded') {
+    filtered.sort((a, b) => (b.ksData?.percentFunded || 0) - (a.ksData?.percentFunded || 0));
+  } else if (viewState.sortBy === 'backers') {
+    filtered.sort((a, b) => (b.ksData?.backersCount || 0) - (a.ksData?.backersCount || 0));
+  } else if (viewState.sortBy === 'days') {
+    filtered.sort((a, b) => (a.ksData?.daysSinceLaunch || 0) - (b.ksData?.daysSinceLaunch || 0));
+  } else if (viewState.sortBy === 'time') {
     filtered.sort((a, b) => new Date(b.time || 0) - new Date(a.time || 0));
   } else if (viewState.sortBy === 'score') {
     filtered.sort((a, b) => (b.score || 0) - (a.score || 0));
@@ -4239,12 +4607,27 @@ function filterByCategory(category) {
   });
 }
 
-function switchSection(section, el) {
+async function switchSection(section, el) {
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   if (el) el.classList.add('active');
-  const titles = { 'featured': '精选', 'all': '全部动态', 'today': '今日更新' };
+  const titles = { 'featured': '精选', 'all': '全部动态', 'today': '今日更新', 'crowdfunding': '众筹追踪' };
   document.getElementById('pageTitle').textContent = titles[section] || '精选';
   viewState.section = section;
+
+  if (section === 'crowdfunding') {
+    showSkeleton();
+    await loadCrowdfundingProducts();
+    updateCrowdfundingControls(true);
+    viewState.category = 'all';
+    viewState.sortBy = 'crowdfunding';
+  } else {
+    updateCrowdfundingControls(false);
+    productsData = defaultProductsData;
+    viewState.category = 'all';
+    viewState.sortBy = section === 'featured' ? 'score' : 'time';
+  }
+
+  viewState.search = document.getElementById('searchInput')?.value.toLowerCase().trim() || '';
   applyViewStateAndRender();
 }
 
@@ -4473,6 +4856,28 @@ function addBrand() {
 
 // ==================== 统计更新 ====================
 function updateStats(filteredCount) {
+  if (isCrowdfundingView()) {
+    const total = typeof filteredCount === 'number' ? filteredCount : crowdfundingData.length;
+    const featured = crowdfundingData.filter(p => (p.score || p.visTotal || 0) >= 75).length;
+    const live = crowdfundingData.filter(p => p.ksData?.state === 'live').length;
+    const successful = crowdfundingData.filter(p => p.ksData?.state === 'successful').length;
+
+    document.getElementById('statTotal').textContent = total;
+    document.getElementById('statFeatured').textContent = featured;
+    document.getElementById('statBrands').textContent = live;
+    document.getElementById('statMonitored').textContent = successful;
+    document.getElementById('statTotalLabel').textContent = '众筹项目';
+    document.getElementById('statFeaturedLabel').textContent = '高分项目';
+    document.getElementById('statBrandsLabel').textContent = '进行中';
+    document.getElementById('statMonitoredLabel').textContent = '已成功';
+    const crowdfundingCount = document.getElementById('crowdfundingCount');
+    if (crowdfundingCount) {
+      crowdfundingCount.textContent = crowdfundingData.length;
+      crowdfundingCount.style.display = crowdfundingData.length ? '' : 'none';
+    }
+    return;
+  }
+
   // 如果传入了已过滤的数量，直接使用；否则重新计算
   let total;
   if (typeof filteredCount === 'number') {
@@ -4509,8 +4914,20 @@ function updateStats(filteredCount) {
   document.getElementById('statFeatured').textContent = featured;
   document.getElementById('statBrands').textContent = brands + '+';
   document.getElementById('statMonitored').textContent = monitored;
+  document.getElementById('statTotalLabel').textContent = '视觉约束信号';
+  document.getElementById('statFeaturedLabel').textContent = '精选推荐';
+  document.getElementById('statBrandsLabel').textContent = '覆盖品牌';
+  document.getElementById('statMonitoredLabel').textContent = '监控中';
   document.getElementById('featuredCount').textContent = featured;
   document.getElementById('allCount').textContent = total;
+  const todayCount = document.getElementById('todayCount');
+  if (todayCount) {
+    const now = new Date();
+    const today = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+    const todayTotal = filteredProducts.filter(p => p.time && p.time.startsWith(today)).length;
+    todayCount.textContent = todayTotal;
+    todayCount.style.display = todayTotal ? '' : 'none';
+  }
 }
 
 // ==================== 事件监听 ====================

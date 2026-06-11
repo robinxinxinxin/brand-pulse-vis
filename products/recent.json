@@ -1,5 +1,62 @@
 [
   {
+    "id": "no-signal-20260611",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-06-11)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。11次搜索覆盖全部44品牌。",
+    "constraintChange": "无",
+    "time": "2026-06-11 20:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共11次批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "三星Galaxy S26/S26+正式发布（6月11日）：氛围岛相机模组设计属设计语言演进，装甲铝边框+GG Victus 2为标准材质延续，S26 Ultra放弃钛金属回归装甲铝属材料回归而非创新，防窥显示屏为屏幕技术非CMF约束变化，不收录",
+      "影石Luna Ultra 6月10日正式开售，但已于6月6日收录（id: insta360-luna-ultra-20260606），不重复收录",
+      "大疆Pocket 4系列为4月发布旧品，不收录",
+      "享界S9新增流光银/仙踪绿配色属小幅配色扩展，无新工艺，不收录"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。三星S26系列今日发布但视觉约束变化不显著，说明手机行业CMF创新节奏放缓，当前创新焦点在AI和屏幕技术而非材料工艺。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-06-11T20:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-06-11T20:00:00+08:00",
+    "updatedAt": "2026-06-11T20:00:00+08:00",
+    "url": ""
+  },
+  {
     "id": "no-signal-20260610",
     "brand": "无",
     "category": "none",
