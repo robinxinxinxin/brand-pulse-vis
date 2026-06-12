@@ -37,7 +37,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 6357.5,
-                "daysSinceLaunch": 743
+                "daysSinceLaunch": 744
             }
         },
         {
@@ -107,7 +107,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 3302.2,
-                "daysSinceLaunch": 261
+                "daysSinceLaunch": 262
             }
         },
         {
@@ -212,7 +212,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 3004.5,
-                "daysSinceLaunch": 121
+                "daysSinceLaunch": 122
             }
         },
         {
@@ -282,7 +282,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 8951.8,
-                "daysSinceLaunch": 506
+                "daysSinceLaunch": 507
             }
         },
         {
@@ -457,7 +457,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 633.3,
-                "daysSinceLaunch": 808
+                "daysSinceLaunch": 809
             }
         },
         {
@@ -492,7 +492,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 3195.9,
-                "daysSinceLaunch": 93
+                "daysSinceLaunch": 94
             }
         },
         {
@@ -527,7 +527,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 13264.3,
-                "daysSinceLaunch": 171
+                "daysSinceLaunch": 172
             }
         },
         {
@@ -737,7 +737,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1860.7,
-                "daysSinceLaunch": 218
+                "daysSinceLaunch": 219
             }
         },
         {
@@ -807,7 +807,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 523.7,
-                "daysSinceLaunch": 266
+                "daysSinceLaunch": 267
             }
         },
         {
@@ -842,7 +842,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 27424.2,
-                "daysSinceLaunch": 192
+                "daysSinceLaunch": 193
             }
         },
         {
@@ -912,7 +912,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 7134.0,
-                "daysSinceLaunch": 828
+                "daysSinceLaunch": 829
             }
         },
         {
@@ -947,7 +947,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 3883.7,
-                "daysSinceLaunch": 358
+                "daysSinceLaunch": 359
             }
         },
         {
@@ -1157,7 +1157,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1602.0,
-                "daysSinceLaunch": 1435
+                "daysSinceLaunch": 1436
             }
         },
         {
@@ -1192,7 +1192,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1393.7,
-                "daysSinceLaunch": 156
+                "daysSinceLaunch": 157
             }
         },
         {
@@ -1367,7 +1367,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1115.2,
-                "daysSinceLaunch": 72
+                "daysSinceLaunch": 73
             }
         },
         {
@@ -1577,7 +1577,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1383.2,
-                "daysSinceLaunch": 230
+                "daysSinceLaunch": 231
             }
         },
         {
@@ -1787,7 +1787,7 @@ window.__crowdfundingData = {
                 "state": "live",
                 "staffPick": false,
                 "percentFunded": 267.8,
-                "daysSinceLaunch": 34
+                "daysSinceLaunch": 35
             }
         },
         {
@@ -1927,7 +1927,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 810.0,
-                "daysSinceLaunch": 1409
+                "daysSinceLaunch": 1410
             }
         },
         {
@@ -2137,7 +2137,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 241.7,
-                "daysSinceLaunch": 604
+                "daysSinceLaunch": 605
             }
         },
         {
@@ -2592,7 +2592,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 16588.9,
-                "daysSinceLaunch": 245
+                "daysSinceLaunch": 246
             }
         },
         {
@@ -2662,7 +2662,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 10529.4,
-                "daysSinceLaunch": 771
+                "daysSinceLaunch": 772
             }
         },
         {
@@ -2697,7 +2697,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 259.5,
-                "daysSinceLaunch": 1353
+                "daysSinceLaunch": 1354
             }
         },
         {
@@ -2802,7 +2802,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 946.6,
-                "daysSinceLaunch": 639
+                "daysSinceLaunch": 640
             }
         },
         {
@@ -2872,7 +2872,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 295.5,
-                "daysSinceLaunch": 140
+                "daysSinceLaunch": 141
             }
         },
         {
@@ -3082,7 +3082,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 3881.8,
-                "daysSinceLaunch": 597
+                "daysSinceLaunch": 598
             }
         },
         {
@@ -3152,7 +3152,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1155.5,
-                "daysSinceLaunch": 582
+                "daysSinceLaunch": 583
             }
         },
         {
@@ -3432,7 +3432,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 8508.2,
-                "daysSinceLaunch": 296
+                "daysSinceLaunch": 297
             }
         },
         {
@@ -3537,7 +3537,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 670.7,
-                "daysSinceLaunch": 625
+                "daysSinceLaunch": 626
             }
         },
         {
@@ -3572,7 +3572,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 9352.5,
-                "daysSinceLaunch": 408
+                "daysSinceLaunch": 409
             }
         },
         {
@@ -3607,7 +3607,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 461.0,
-                "daysSinceLaunch": 121
+                "daysSinceLaunch": 122
             }
         },
         {
@@ -3817,7 +3817,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 12906.2,
-                "daysSinceLaunch": 448
+                "daysSinceLaunch": 449
             }
         },
         {
@@ -3852,7 +3852,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 953.7,
-                "daysSinceLaunch": 366
+                "daysSinceLaunch": 367
             }
         },
         {
@@ -3957,7 +3957,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1730.3,
-                "daysSinceLaunch": 772
+                "daysSinceLaunch": 773
             }
         },
         {
@@ -4062,7 +4062,7 @@ window.__crowdfundingData = {
                 "state": "live",
                 "staffPick": false,
                 "percentFunded": 940.5,
-                "daysSinceLaunch": 34
+                "daysSinceLaunch": 35
             }
         },
         {
@@ -4202,7 +4202,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2337.7,
-                "daysSinceLaunch": 450
+                "daysSinceLaunch": 451
             }
         },
         {
@@ -4482,7 +4482,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 3489.8,
-                "daysSinceLaunch": 730
+                "daysSinceLaunch": 731
             }
         },
         {
@@ -4587,7 +4587,7 @@ window.__crowdfundingData = {
                 "state": "canceled",
                 "staffPick": true,
                 "percentFunded": 545.7,
-                "daysSinceLaunch": 457
+                "daysSinceLaunch": 458
             }
         },
         {
@@ -4832,7 +4832,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 2558.8,
-                "daysSinceLaunch": 722
+                "daysSinceLaunch": 723
             }
         },
         {
@@ -5042,7 +5042,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 2184.2,
-                "daysSinceLaunch": 380
+                "daysSinceLaunch": 381
             }
         },
         {
@@ -5112,7 +5112,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 649.0,
-                "daysSinceLaunch": 63
+                "daysSinceLaunch": 64
             }
         },
         {
@@ -5147,7 +5147,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 536.9,
-                "daysSinceLaunch": 633
+                "daysSinceLaunch": 634
             }
         },
         {
@@ -5182,7 +5182,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 557.8,
-                "daysSinceLaunch": 62
+                "daysSinceLaunch": 63
             }
         },
         {
@@ -5217,7 +5217,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 862.4,
-                "daysSinceLaunch": 469
+                "daysSinceLaunch": 470
             }
         },
         {
@@ -5252,7 +5252,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 560.1,
-                "daysSinceLaunch": 1470
+                "daysSinceLaunch": 1471
             }
         },
         {
@@ -5322,7 +5322,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 807.6,
-                "daysSinceLaunch": 359
+                "daysSinceLaunch": 360
             }
         },
         {
@@ -5392,7 +5392,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 7671.7,
-                "daysSinceLaunch": 276
+                "daysSinceLaunch": 277
             }
         },
         {
@@ -5462,7 +5462,7 @@ window.__crowdfundingData = {
                 "state": "live",
                 "staffPick": false,
                 "percentFunded": 730.4,
-                "daysSinceLaunch": 44
+                "daysSinceLaunch": 45
             }
         },
         {
@@ -5532,7 +5532,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 3000.1,
-                "daysSinceLaunch": 289
+                "daysSinceLaunch": 290
             }
         },
         {
@@ -5602,7 +5602,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 400.9,
-                "daysSinceLaunch": 1690
+                "daysSinceLaunch": 1691
             }
         },
         {
@@ -5882,7 +5882,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 16550.0,
-                "daysSinceLaunch": 121
+                "daysSinceLaunch": 122
             }
         },
         {
@@ -6057,7 +6057,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 904.0,
-                "daysSinceLaunch": 219
+                "daysSinceLaunch": 220
             }
         },
         {
@@ -6337,7 +6337,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 312.6,
-                "daysSinceLaunch": 167
+                "daysSinceLaunch": 168
             }
         },
         {
@@ -6372,7 +6372,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 329.0,
-                "daysSinceLaunch": 352
+                "daysSinceLaunch": 353
             }
         },
         {
@@ -6477,7 +6477,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2431.4,
-                "daysSinceLaunch": 133
+                "daysSinceLaunch": 134
             }
         },
         {
@@ -6547,7 +6547,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1480.0,
-                "daysSinceLaunch": 604
+                "daysSinceLaunch": 605
             }
         },
         {
@@ -6617,7 +6617,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 3010.7,
-                "daysSinceLaunch": 856
+                "daysSinceLaunch": 857
             }
         },
         {
@@ -6652,7 +6652,7 @@ window.__crowdfundingData = {
                 "state": "canceled",
                 "staffPick": true,
                 "percentFunded": 48.6,
-                "daysSinceLaunch": 578
+                "daysSinceLaunch": 579
             }
         },
         {
@@ -6687,7 +6687,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 18500.2,
-                "daysSinceLaunch": 198
+                "daysSinceLaunch": 199
             }
         },
         {
@@ -6722,7 +6722,7 @@ window.__crowdfundingData = {
                 "state": "live",
                 "staffPick": false,
                 "percentFunded": 474.1,
-                "daysSinceLaunch": 34
+                "daysSinceLaunch": 35
             }
         },
         {
@@ -6757,7 +6757,7 @@ window.__crowdfundingData = {
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 4078.5,
-                "daysSinceLaunch": 190
+                "daysSinceLaunch": 191
             }
         },
         {
