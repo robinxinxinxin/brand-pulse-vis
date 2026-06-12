@@ -8,7 +8,7 @@
 <script src="./products/ks-recent.js"></script>
 <script>
   // 最后更新时间 - 每次更新时修改这个值
-  window.lastUpdated = '2026-06-12 20:00';
+  window.lastUpdated = '2026-06-12 22:00';
 </script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230f1419'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%2322d3ee' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%2322d3ee'/%3E%3Cline x1='50' y1='28' x2='50' y2='38' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='50' y1='62' x2='50' y2='72' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='28' y1='50' x2='38' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='62' y1='50' x2='72' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -2123,7 +2123,7 @@ let productsData = [
     "title": "今日无视觉约束变化信号 (2026-06-12)",
     "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。10次批次搜索覆盖全部44品牌。大疆诉影石专利侵权属法律纠纷非新品，惠普×法拉利联名AI PC不在监控品牌列表。",
     "constraintChange": "无",
-    "time": "2026-06-12 20:00",
+    "time": "2026-06-12 22:00",
     "score": 0,
     "confidence": 100,
     "reviewStatus": "verified",
@@ -2162,7 +2162,7 @@ let productsData = [
       "tier": "tier0_official",
       "name": "系统",
       "url": "",
-      "capturedAt": "2026-06-12T20:00:00+08:00"
+      "capturedAt": "2026-06-12T22:00:00+08:00"
     },
     "evidence": [],
     "tags": [
@@ -2172,7 +2172,7 @@ let productsData = [
     "image": "",
     "duplicateOf": null,
     "createdAt": "2026-06-12T20:00:00+08:00",
-    "updatedAt": "2026-06-12T20:00:00+08:00",
+    "updatedAt": "2026-06-12T22:00:00+08:00",
     "url": ""
   },
   {
@@ -3857,12 +3857,7 @@ let productsData = [
   }
 ]
 ;
-  let defaultProductsData = productsData;
-  let crowdfundingData = [];
-  let crowdfundingLoaded = false;
-  let crowdfundingLoadError = '';
-  const defaultFilterHtml = document.getElementById('filterTabs')?.innerHTML || '';
-  const defaultSortHtml = document.querySelector('.sort-bar')?.innerHTML || '';
+  defaultProductsData = productsData;
   console.log('[BrandPulse] Using embedded product data');
 // <BRANDPULSE-DATA-PRODUCTS-END>
 async function loadCrowdfundingProducts() {
