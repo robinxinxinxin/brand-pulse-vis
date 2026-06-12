@@ -291,6 +291,7 @@ git reset origin/main
 | 2026-06-04 | SOLO | 3 | 华为nova16 Ultra、ROG COMPUTEX 2026 20周年系列、九号2026四款新车 |
 | 2026-06-06 | SOLO | 1 | ROG Edition 20系列（Crystal Lens透明材质+Radiant Gold金色工艺） |
 | 2026-06-07 | SOLO | 0 | 自动化链路优化：标记区同步、前端语法检查、精选口径统一、静态数字修复 |
+| 2026-06-12 | 人工 | — | 修复一级菜单切换刷新契约：①「今日更新」不再被品牌监控过滤误杀（shouldApplyMonitoredBrandFilter 仅精选生效）；②切换菜单时 resetSectionTransientState 清空搜索词+品类筛选；③众筹加载失败显示 crowdfundingLoadError 明确文案；④allCount/todayCount 统计逻辑修正（改用 defaultProductsData.length）；⑤提取 getTodayKey/matchesMonitoredBrand/getEmptyStateMessage 等辅助函数 |
 
 ---
 

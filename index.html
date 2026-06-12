@@ -3857,13 +3857,19 @@ let productsData = [
   }
 ]
 ;
-  defaultProductsData = productsData;
+  let defaultProductsData = productsData;
+  let crowdfundingData = [];
+  let crowdfundingLoaded = false;
+  let crowdfundingLoadError = '';
+  const defaultFilterHtml = document.getElementById('filterTabs')?.innerHTML || '';
+  const defaultSortHtml = document.querySelector('.sort-bar')?.innerHTML || '';
   console.log('[BrandPulse] Using embedded product data');
 // <BRANDPULSE-DATA-PRODUCTS-END>
 async function loadCrowdfundingProducts() {
   if (crowdfundingLoaded) return crowdfundingData;
 
   try {
+    crowdfundingLoadError = '';
     const response = await fetch('./products/ks-recent.json');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
@@ -3881,6 +3887,7 @@ async function loadCrowdfundingProducts() {
   } catch (e) {
     const fallbackData = window.__crowdfundingData;
     if (fallbackData && Array.isArray(fallbackData.products)) {
+      crowdfundingLoadError = '';
       crowdfundingData = fallbackData.products.map(normalizeCrowdfundingProduct);
       crowdfundingLoaded = true;
 
@@ -3892,6 +3899,7 @@ async function loadCrowdfundingProducts() {
       console.log(`[BrandPulse] 已从 ks-recent.js 加载 ${crowdfundingData.length} 个众筹项目`);
     } else {
       console.warn('[BrandPulse] 无法加载 ks-recent.json:', e.message);
+      crowdfundingLoadError = e.message || '数据加载失败';
       crowdfundingData = [];
       crowdfundingLoaded = true;
     }
@@ -4162,7 +4170,7 @@ function renderTimeline(productsToRender) {
   });
   
   timeline.innerHTML = html;
-  if (products.length === 0) showEmptyState(true, '暂无符合条件的产品');
+  if (products.length === 0) showEmptyState(true, getEmptyStateMessage());
   else showEmptyState(false);
 }
 
@@ -4511,6 +4519,51 @@ function getActiveProducts() {
   return isCrowdfundingView() ? crowdfundingData : defaultProductsData;
 }
 
+function getTodayKey() {
+  const now = new Date();
+  return `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+}
+
+function isNoSignalProduct(product) {
+  return product?.id?.startsWith('no-signal-') || product?.category === 'none';
+}
+
+function matchesMonitoredBrand(product, monitoredBrands) {
+  if (isNoSignalProduct(product)) return true;
+  return monitoredBrands.some(brand =>
+    product.brand === brand ||
+    product.brand?.includes(brand) ||
+    brand.includes(product.brand || '')
+  );
+}
+
+function shouldApplyMonitoredBrandFilter() {
+  return viewState.section === 'featured';
+}
+
+function resetSectionTransientState() {
+  viewState.category = 'all';
+  viewState.search = '';
+  currentSearchKeyword = '';
+
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) searchInput.value = '';
+
+  document.querySelectorAll('.filter-tab').forEach((tab, index) => {
+    tab.classList.toggle('active', index === 0);
+  });
+}
+
+function getEmptyStateMessage() {
+  if (isCrowdfundingView() && crowdfundingLoadError) {
+    return `众筹数据加载失败：${crowdfundingLoadError}`;
+  }
+  if (viewState.section === 'today') return '今日暂无视觉约束变化信号';
+  if (viewState.section === 'featured') return '暂无达到精选阈值的产品';
+  if (isCrowdfundingView()) return '暂无符合条件的众筹项目';
+  return '暂无符合条件的产品';
+}
+
 function sortByCrowdfundingPriority(items) {
   const num = (value) => {
     const number = Number(value);
@@ -4592,13 +4645,11 @@ function applyViewStateAndRender() {
   productsData = getActiveProducts();
   let filtered = [...productsData];
 
-  if (!isCrowdfundingView()) {
+  if (!isCrowdfundingView() && shouldApplyMonitoredBrandFilter()) {
     // 按监控品牌过滤
     const monitoredBrands = brandsData.brands
       .filter(b => b.monitored).map(b => b.name);
-    filtered = filtered.filter(p =>
-      monitoredBrands.some(b => p.brand === b || p.brand.includes(b) || b.includes(p.brand))
-    );
+    filtered = filtered.filter(p => matchesMonitoredBrand(p, monitoredBrands));
   }
 
   // 按 section 过滤
@@ -4607,8 +4658,7 @@ function applyViewStateAndRender() {
       filtered = filtered.filter(p => matchesCrowdfundingFilter(p, viewState.category));
     }
   } else if (viewState.section === 'today') {
-    const now = new Date();
-    const today = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+    const today = getTodayKey();
     filtered = filtered.filter(p => p.time && p.time.startsWith(today));
   } else if (viewState.section === 'featured') {
     filtered = filtered.filter(p => (p.score >= 75) || (p.visTotal >= 7));
@@ -4640,7 +4690,7 @@ function applyViewStateAndRender() {
   } else if (viewState.sortBy === 'time') {
     filtered.sort((a, b) => new Date(b.time || 0) - new Date(a.time || 0));
   } else if (viewState.sortBy === 'score') {
-    filtered.sort((a, b) => (b.score || 0) - (a.score || 0));
+    filtered.sort((a, b) => (b.score || b.visTotal || 0) - (a.score || a.visTotal || 0));
   } else if (viewState.sortBy === 'brand') {
     filtered.sort((a, b) => (a.brand || '').localeCompare(b.brand || '', 'zh-CN'));
   }
@@ -4672,21 +4722,20 @@ async function switchSection(section, el) {
   const titles = { 'featured': '精选', 'all': '全部动态', 'today': '今日更新', 'crowdfunding': '众筹追踪' };
   document.getElementById('pageTitle').textContent = titles[section] || '精选';
   viewState.section = section;
+  resetSectionTransientState();
 
   if (section === 'crowdfunding') {
     showSkeleton();
     await loadCrowdfundingProducts();
     updateCrowdfundingControls(true);
-    viewState.category = 'all';
     viewState.sortBy = 'crowdfunding';
   } else {
     updateCrowdfundingControls(false);
     productsData = defaultProductsData;
-    viewState.category = 'all';
     viewState.sortBy = section === 'featured' ? 'score' : 'time';
+    resetSectionTransientState();
   }
 
-  viewState.search = document.getElementById('searchInput')?.value.toLowerCase().trim() || '';
   applyViewStateAndRender();
 }
 
@@ -4958,13 +5007,7 @@ function updateStats(filteredCount) {
   const monitoredBrands = brandsData.brands
     .filter(b => b.monitored)
     .map(b => b.name);
-  const filteredProducts = productsData.filter(product => {
-    return monitoredBrands.some(brand =>
-      product.brand === brand ||
-      product.brand.includes(brand) ||
-      brand.includes(product.brand)
-    );
-  });
+  const filteredProducts = productsData.filter(product => matchesMonitoredBrand(product, monitoredBrands));
   const featured = filteredProducts.filter(p => (p.score >= 75) || (p.visTotal >= 7)).length;
   const brands = brandsData.brands.length;
   const monitored = brandsData.brands.filter(b => b.monitored).length;
@@ -4978,12 +5021,11 @@ function updateStats(filteredCount) {
   document.getElementById('statBrandsLabel').textContent = '覆盖品牌';
   document.getElementById('statMonitoredLabel').textContent = '监控中';
   document.getElementById('featuredCount').textContent = featured;
-  document.getElementById('allCount').textContent = total;
+  document.getElementById('allCount').textContent = defaultProductsData.length;
   const todayCount = document.getElementById('todayCount');
   if (todayCount) {
-    const now = new Date();
-    const today = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
-    const todayTotal = filteredProducts.filter(p => p.time && p.time.startsWith(today)).length;
+    const today = getTodayKey();
+    const todayTotal = defaultProductsData.filter(p => p.time && p.time.startsWith(today)).length;
     todayCount.textContent = todayTotal;
     todayCount.style.display = todayTotal ? '' : 'none';
   }
