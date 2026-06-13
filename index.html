@@ -4850,7 +4850,11 @@ async function switchSection(section, el) {
   const titles = { 'featured': '精选', 'all': '全部动态', 'today': '今日更新', 'crowdfunding': '众筹追踪' };
   document.getElementById('pageTitle').textContent = titles[section] || '精选';
   viewState.section = section;
-  sessionStorage.setItem('bpVisSection', section);
+  // URL hash 同步 — 支持分享链接和刷新恢复
+  var newHash = '#/' + section;
+  if (window.location.hash !== newHash) {
+    window.location.hash = newHash;
+  }
   resetSectionTransientState();
 
   if (section === 'crowdfunding') {
@@ -5179,10 +5183,10 @@ document.addEventListener('keydown', function(e) {
 
 function initializeDashboard() {
   defaultProductsData = productsData;
-  // 恢复上次浏览的栏目（sessionStorage 跨刷新持久化）
-  var savedSection = sessionStorage.getItem('bpVisSection');
+  // 从 URL hash 恢复栏目（格式: #/featured, #/all, #/today, #/crowdfunding）
+  var hashSection = window.location.hash.replace('#/', '');
   var validSections = ['featured','all','today','crowdfunding'];
-  viewState.section = (savedSection && validSections.indexOf(savedSection) >= 0) ? savedSection : 'featured';
+  viewState.section = (hashSection && validSections.indexOf(hashSection) >= 0) ? hashSection : 'featured';
   viewState.category = 'all';
   viewState.sortBy = viewState.section === 'crowdfunding' ? 'crowdfunding' : (viewState.section === 'featured' ? 'score' : 'time');
   renderBrandList();
@@ -5219,6 +5223,16 @@ function initializeDashboard() {
 }
 
 initializeDashboard();
+
+// 监听 hash 变化 — 支持浏览器前进/后退 + 直接修改 URL
+window.addEventListener('hashchange', function() {
+  var hashSection = window.location.hash.replace('#/', '');
+  var validSections = ['featured','all','today','crowdfunding'];
+  if (hashSection && validSections.indexOf(hashSection) >= 0 && hashSection !== viewState.section) {
+    var el = document.querySelector('.nav-item[onclick*="' + hashSection + '"]');
+    switchSection(hashSection, el);
+  }
+});
 </script>
 
 <!-- 移动端底部导航 -->
