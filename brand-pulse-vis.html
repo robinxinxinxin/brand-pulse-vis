@@ -3897,9 +3897,18 @@ let productsData = [
 async function loadCrowdfundingProducts() {
   if (crowdfundingLoaded) return crowdfundingData;
 
+  var controller, timeoutId;
   try {
     crowdfundingLoadError = '';
-    const response = await fetch('./products/ks-recent.json');
+    // 设置 8 秒超时，避免 fetch 长时间挂起
+    controller = new AbortController();
+    timeoutId = setTimeout(function() { controller.abort(); }, 8000);
+    var response;
+    try {
+      response = await fetch('./products/ks-recent.json', { signal: controller.signal });
+    } finally {
+      clearTimeout(timeoutId);
+    }
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
     const data = await response.json();
@@ -3914,18 +3923,21 @@ async function loadCrowdfundingProducts() {
     }
     console.log(`[BrandPulse] 已从 ks-recent.json 加载 ${crowdfundingData.length} 个众筹项目`);
   } catch (e) {
-    const fallbackData = window.__crowdfundingData;
+    // fetch 失败或超时 → 回退到内嵌的 ks-recent.js 数据
+    if (timeoutId) clearTimeout(timeoutId);
+    if (controller) controller.abort();
+    var fallbackData = window.__crowdfundingData;
     if (fallbackData && Array.isArray(fallbackData.products)) {
       crowdfundingLoadError = '';
       crowdfundingData = fallbackData.products.map(normalizeCrowdfundingProduct);
       crowdfundingLoaded = true;
 
-      const badge = document.getElementById('crowdfundingCount');
+      var badge = document.getElementById('crowdfundingCount');
       if (badge) {
         badge.textContent = crowdfundingData.length;
         badge.style.display = crowdfundingData.length ? '' : 'none';
       }
-      console.log(`[BrandPulse] 已从 ks-recent.js 加载 ${crowdfundingData.length} 个众筹项目`);
+      console.log(`[BrandPulse] 已从 ks-recent.js 加载 ${crowdfundingData.length} 个众筹项目 (fetch回退)`);
     } else {
       console.warn('[BrandPulse] 无法加载 ks-recent.json:', e.message);
       crowdfundingLoadError = e.message || '数据加载失败';
@@ -4592,6 +4604,10 @@ const viewState = {
   section: 'all'
 };
 
+var crowdfundingData = [];
+var crowdfundingLoaded = false;
+var crowdfundingLoadError = '';
+
 function isCrowdfundingView() {
   return viewState.section === 'crowdfunding';
 }
@@ -5140,9 +5156,30 @@ function initializeDashboard() {
   viewState.sortBy = viewState.section === 'crowdfunding' ? 'crowdfunding' : (viewState.section === 'featured' ? 'score' : 'time');
   renderBrandList();
   renderBrandInlineList();
+
+  // 恢复导航高亮 + 页面标题（避免走 switchSection 的异步/副作用路径）
+  (function setActiveNav() {
+    var navItems = document.querySelectorAll('.nav-item');
+    for (var i = 0; i < navItems.length; i++) navItems[i].classList.remove('active');
+    var targetNav = document.querySelector('.nav-item[onclick*="' + viewState.section + '"]');
+    if (targetNav) targetNav.classList.add('active');
+    var titles = { 'featured': '精选', 'all': '全部动态', 'today': '今日更新', 'crowdfunding': '众筹追踪' };
+    var titleEl = document.getElementById('pageTitle');
+    if (titleEl) titleEl.textContent = titles[viewState.section] || '精选';
+  })();
+
   if (viewState.section === 'crowdfunding') {
-    // 众筹栏目需要异步加载，延迟渲染
-    switchSection('crowdfunding', document.querySelector('.nav-item[onclick*="crowdfunding"]'));
+    showSkeleton();
+    loadCrowdfundingProducts().then(function() {
+      updateCrowdfundingControls(true);
+      applyViewStateAndRender();
+    }).catch(function(e) {
+      console.error('[BrandPulse] 众筹初始化异常:', e);
+      crowdfundingLoadError = e.message || '初始化失败';
+      crowdfundingLoaded = true;
+      crowdfundingData = [];
+      applyViewStateAndRender();
+    });
   } else {
     applyViewStateAndRender();
   }
