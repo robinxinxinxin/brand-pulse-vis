@@ -877,6 +877,20 @@
     border-left: 3px solid var(--accent-orange);
   }
 
+  .card.no-signal-card {
+    display: block;
+    background: linear-gradient(135deg, rgba(107,114,128,0.06), rgba(107,114,128,0.03));
+    border: 1px dashed rgba(107,114,128,0.2);
+    border-left: none;
+    border-radius: 12px;
+    padding: 20px;
+    cursor: default;
+  }
+  .card.no-signal-card:hover {
+    background: linear-gradient(135deg, rgba(107,114,128,0.08), rgba(107,114,128,0.04));
+    border-color: rgba(107,114,128,0.3);
+  }
+
   .card-time {
     position: absolute;
     left: -80px;
@@ -1010,6 +1024,17 @@
     border-radius: 4px;
     font-size: 11px;
     font-weight: 500;
+  }
+
+  .badge-review {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    white-space: nowrap;
   }
 
   .badge-source-official {
@@ -1568,10 +1593,12 @@
       <div class="stat-num" id="statMonitored">-</div>
       <div class="stat-label" id="statMonitoredLabel">监控中</div>
     </div>
+    <div id="statContextHint" style="text-align:center;font-size:11px;color:var(--text-muted);margin-top:8px;">日报数据 · 全局统计</div>
   </footer>
   <p class="footer-text">
     新品日报-vis · 视觉信号追踪 · 每日21:00自动更新<br>
-    最后更新时间：<span id="lastUpdatedTime">加载中...</span>
+    日报更新：<span id="lastUpdatedTime">加载中...</span><br>
+    众筹数据：<span id="ksUpdateTime">加载中...</span>
     <span id="dataSourceBadge" style="margin-left:8px;font-size:11px;padding:2px 6px;border-radius:4px;display:none;"></span>
   </p>
   <script>
@@ -1580,6 +1607,13 @@
     document.getElementById('lastUpdatedTime').textContent = updateTime;
     const sidebarTime = document.getElementById('sidebarUpdateTime');
     if (sidebarTime) sidebarTime.textContent = '更新: ' + updateTime;
+    // KS 数据更新时间 (从 window.__crowdfundingData 中读取)
+    try {
+      const ksSourceDate = window.__crowdfundingData?.sourceDate || window.__crowdfundingData?.lastUpdated || '未知';
+      document.getElementById('ksUpdateTime').textContent = ksSourceDate;
+    } catch(e) {
+      document.getElementById('ksUpdateTime').textContent = '加载失败';
+    }
     // 数据来源标记函数
     function updateDataSourceBadge() {
       const badge = document.getElementById('dataSourceBadge');
@@ -4160,7 +4194,13 @@ function renderTimeline(productsToRender) {
     const dateProducts = groups[date];
     html += `<div class="date-group" data-date="${date}">`;
     html += `<div class="date-label">${formatDate(date)}</div>`;
-    dateProducts.forEach(product => { html += renderProductCard(product); });
+    dateProducts.forEach(product => {
+      if (isNoSignalProduct(product)) {
+        html += renderNoSignalCard(product);
+      } else {
+        html += renderProductCard(product);
+      }
+    });
     html += '</div>';
   });
   
@@ -4169,12 +4209,45 @@ function renderTimeline(productsToRender) {
   else showEmptyState(false);
 }
 
+function renderNoSignalCard(product) {
+  const date = (product.time || '').split(' ')[0] || '未知日期';
+  return `
+    <div class="card no-signal-card" data-product-id="${product.id || ''}">
+      <div class="card-content" style="text-align:center;padding:32px 20px;">
+        <div style="font-size:40px;margin-bottom:8px;opacity:0.4;">📭</div>
+        <div style="font-size:14px;color:var(--text-secondary);margin-bottom:4px;">${date}</div>
+        <div style="font-size:12px;color:var(--text-muted);">今日暂无视觉约束变化信号</div>
+        ${product.summary ? `<div style="font-size:11px;color:var(--text-muted);margin-top:4px;font-style:italic;">— ${product.summary}</div>` : ''}
+      </div>
+    </div>
+  `;
+}
+
 function renderProductCard(product) {
   if (product.source === 'kickstarter' || product.sourceName === 'Kickstarter' || product.ksData) {
     return renderCrowdfundingCard(product);
   }
 
   const time = (product.time || '').split(' ')[1] || '--:--';
+
+  // 视觉约束标签生成
+  const visBreakdown = product.visBreakdown || {};
+  const visTags = [];
+  const tagDefs = [
+    { key: 'cmfInnovation', label: '材料突破', color: '#a855f7', icon: '🎨', min: 8 },
+    { key: 'paradigmShift', label: '范式变化', color: '#3b82f6', icon: '🔄', min: 8 },
+    { key: 'recognition', label: '高辨识度', color: '#fbbf24', icon: '👁', min: 8 },
+    { key: 'transferability', label: '可迁移', color: '#22c55e', icon: '🔗', min: 8 },
+    { key: 'diffusionPotential', label: '扩散潜质', color: '#f97316', icon: '📡', min: 8 }
+  ];
+  tagDefs.forEach(def => {
+    if ((visBreakdown[def.key] || 0) >= def.min) {
+      visTags.push(`<span style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;background:${def.color}15;color:${def.color};border:1px solid ${def.color}30;">${def.icon} ${def.label}</span>`);
+    }
+  });
+  const visTagsHtml = visTags.length
+    ? `<div style="display:flex;gap:6px;flex-wrap:wrap;margin:8px 0;">${visTags.join('')}</div>`
+    : '';
   
   // 审核状态标签
   const getReviewStatusBadge = () => {
@@ -4288,6 +4361,8 @@ function renderProductCard(product) {
           ${getReviewStatusBadge()}
         </div>
       </div>
+      
+      ${visTagsHtml}
       
       <h3 class="card-title" style="font-size: 15px; margin: 10px 0 8px;">${product.title}</h3>
       
@@ -4403,6 +4478,17 @@ function renderCrowdfundingCard(product) {
             ${isStaffPick ? '<span class="badge-featured" style="background:rgba(251,191,36,.14);color:#fbbf24;">Staff Pick</span>' : ''}
           </div>
         </div>
+
+        ${(() => {
+          const vb = product.visBreakdown || {};
+          const tags = [];
+          if ((vb.cmfInnovation || 0) >= 8) tags.push('<span style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;background:#a855f715;color:#a855f7;border:1px solid #a855f730;">🎨 材料突破</span>');
+          if ((vb.paradigmShift || 0) >= 8) tags.push('<span style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;background:#3b82f615;color:#3b82f6;border:1px solid #3b82f630;">🔄 范式变化</span>');
+          if ((vb.recognition || 0) >= 8) tags.push('<span style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;background:#fbbf2415;color:#fbbf24;border:1px solid #fbbf2430;">👁 高辨识度</span>');
+          if ((vb.transferability || 0) >= 8) tags.push('<span style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;background:#22c55e15;color:#22c55e;border:1px solid #22c55e30;">🔗 可迁移</span>');
+          if ((vb.diffusionPotential || 0) >= 8) tags.push('<span style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:500;background:#f9731615;color:#f97316;border:1px solid #f9731630;">📡 扩散潜质</span>');
+          return tags.length ? `<div style="display:flex;gap:6px;flex-wrap:wrap;margin:8px 0;">${tags.join('')}</div>` : '';
+        })()}
 
         <h3 class="card-title" style="font-size: 15px; margin: 10px 0 8px;">${product.title || '无标题项目'}</h3>
 
@@ -4973,6 +5059,8 @@ function updateStats(filteredCount) {
     document.getElementById('statFeaturedLabel').textContent = '高分项目';
     document.getElementById('statBrandsLabel').textContent = '进行中';
     document.getElementById('statMonitoredLabel').textContent = '已成功';
+    const hint = document.getElementById('statContextHint');
+    if (hint) hint.textContent = `众筹数据 · 共 ${crowdfundingData.length} 个项目`;
     const crowdfundingCount = document.getElementById('crowdfundingCount');
     if (crowdfundingCount) {
       crowdfundingCount.textContent = crowdfundingData.length;
@@ -4981,7 +5069,9 @@ function updateStats(filteredCount) {
     return;
   }
 
-  // 如果传入了已过滤的数量，直接使用；否则重新计算
+  // 非众筹：日报统计
+  const hint = document.getElementById('statContextHint');
+  if (hint) hint.textContent = '日报数据 · 全局统计';
   let total;
   if (typeof filteredCount === 'number') {
     total = filteredCount;
