@@ -109,6 +109,12 @@
     padding-bottom: 50px; /* 为底部更新时间留空间 */
   }
 
+  .nav-section-divider {
+    margin: 4px 12px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border-color), transparent);
+  }
+
   .nav-section-label {
     padding: 14px 16px 6px;
     font-size: 11px;
@@ -117,10 +123,32 @@
     letter-spacing: 0.02em;
   }
 
+  .nav-section-label-crowdfunding {
+    color: var(--accent-cyan);
+    opacity: 0.7;
+  }
+
   .nav-section-group {
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--border-color);
+  }
+
+  .nav-section-group-crowdfunding {
+    border-left: 2px solid rgba(34, 211, 238, 0.15);
+    margin-left: 4px;
+    margin-right: 0;
+    padding-bottom: 14px;
+    border-bottom: none;
+  }
+
+  .nav-section-group-crowdfunding .nav-item {
+    margin-left: 4px;
+  }
+
+  .nav-section-group-crowdfunding .nav-item.active {
+    background: rgba(34, 211, 238, 0.12);
+    color: var(--accent-cyan);
   }
 
   .nav-section-group .nav-item {
@@ -1455,30 +1483,33 @@
         <span class="nav-badge" id="todayCount" style="display:none;">0</span>
       </a>
     </div>
-    <div class="nav-section-label">众筹分支</div>
-    <a class="nav-item" onclick="switchSection('crowdfunding', this)">
-      <span class="nav-icon">🔥</span>
-      众筹追踪
-      <span class="nav-badge" id="crowdfundingCount" style="display:none;">0</span>
-    </a>
-    <!-- 品牌管理 - 折叠式 -->
-    <div class="nav-collapsible" id="brandManagerToggle">
-      <a class="nav-item" onclick="toggleBrandManager()">
-        <span class="nav-icon">🏷️</span>
-        品牌管理
-        <span class="nav-badge" id="brandCountNav">-</span>
-        <span class="nav-arrow" id="brandArrow">▸</span>
+    <div class="nav-section-divider"></div>
+    <div class="nav-section-label nav-section-label-crowdfunding">众筹分支</div>
+    <div class="nav-section-group nav-section-group-crowdfunding">
+      <a class="nav-item" onclick="switchSection('crowdfunding', this)">
+        <span class="nav-icon">🔥</span>
+        众筹追踪
+        <span class="nav-badge" id="crowdfundingCount" style="display:none;">0</span>
       </a>
-      <div class="nav-collapsible-content" id="brandManagerContent" style="display:none;">
-        <div class="brand-inline-actions">
-          <button class="brand-inline-btn" onclick="openAddBrandModal()">+ 添加</button>
-          <button class="brand-inline-btn" onclick="saveBrands()">保存</button>
-        </div>
-        <div class="brand-inline-search">
-          <input type="text" placeholder="搜索品牌..." id="brandSearchInline" oninput="filterBrandList()">
-        </div>
-        <div class="brand-inline-list" id="brandInlineList">
-          <!-- 品牌列表由JS渲染 -->
+      <!-- 品牌管理 - 折叠式 -->
+      <div class="nav-collapsible" id="brandManagerToggle">
+        <a class="nav-item" onclick="toggleBrandManager()">
+          <span class="nav-icon">🏷️</span>
+          品牌管理
+          <span class="nav-badge" id="brandCountNav">-</span>
+          <span class="nav-arrow" id="brandArrow">▸</span>
+        </a>
+        <div class="nav-collapsible-content" id="brandManagerContent" style="display:none;">
+          <div class="brand-inline-actions">
+            <button class="brand-inline-btn" onclick="openAddBrandModal()">+ 添加</button>
+            <button class="brand-inline-btn" onclick="saveBrands()">保存</button>
+          </div>
+          <div class="brand-inline-search">
+            <input type="text" placeholder="搜索品牌..." id="brandSearchInline" oninput="filterBrandList()">
+          </div>
+          <div class="brand-inline-list" id="brandInlineList">
+            <!-- 品牌列表由JS渲染 -->
+          </div>
         </div>
       </div>
     </div>
