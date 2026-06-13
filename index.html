@@ -4803,6 +4803,7 @@ async function switchSection(section, el) {
   const titles = { 'featured': '精选', 'all': '全部动态', 'today': '今日更新', 'crowdfunding': '众筹追踪' };
   document.getElementById('pageTitle').textContent = titles[section] || '精选';
   viewState.section = section;
+  sessionStorage.setItem('bpVisSection', section);
   resetSectionTransientState();
 
   if (section === 'crowdfunding') {
@@ -5131,12 +5132,20 @@ document.addEventListener('keydown', function(e) {
 
 function initializeDashboard() {
   defaultProductsData = productsData;
-  viewState.section = 'featured';
+  // 恢复上次浏览的栏目（sessionStorage 跨刷新持久化）
+  var savedSection = sessionStorage.getItem('bpVisSection');
+  var validSections = ['featured','all','today','crowdfunding'];
+  viewState.section = (savedSection && validSections.indexOf(savedSection) >= 0) ? savedSection : 'featured';
   viewState.category = 'all';
-  viewState.sortBy = 'score';
+  viewState.sortBy = viewState.section === 'crowdfunding' ? 'crowdfunding' : (viewState.section === 'featured' ? 'score' : 'time');
   renderBrandList();
   renderBrandInlineList();
-  applyViewStateAndRender();
+  if (viewState.section === 'crowdfunding') {
+    // 众筹栏目需要异步加载，延迟渲染
+    switchSection('crowdfunding', document.querySelector('.nav-item[onclick*="crowdfunding"]'));
+  } else {
+    applyViewStateAndRender();
+  }
   checkArchive();
   if (typeof updateDataSourceBadge === 'function') updateDataSourceBadge();
 }
