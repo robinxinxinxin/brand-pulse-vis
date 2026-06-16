@@ -8,7 +8,7 @@
 <script src="./products/ks-recent.js"></script>
 <script>
   // 最后更新时间 - 每次更新时修改这个值
-  window.lastUpdated = '2026-06-13 22:00';
+  window.lastUpdated = '2026-06-16 22:00';
 </script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230f1419'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%2322d3ee' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%2322d3ee'/%3E%3Cline x1='50' y1='28' x2='50' y2='38' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='50' y1='62' x2='50' y2='72' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='28' y1='50' x2='38' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='62' y1='50' x2='72' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1450,6 +1450,115 @@
     }
   }
 
+  /* 小众上新模块样式 */
+  .social-lead-card {
+    border-left: 3px solid var(--accent-orange);
+  }
+  .social-lead-card.confirmed {
+    border-left-color: var(--accent-green);
+  }
+  .social-lead-card.rejected {
+    border-left-color: var(--accent-red);
+    opacity: 0.6;
+  }
+  .social-lead-card.converted {
+    border-left-color: var(--accent-cyan);
+  }
+  .lead-status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .lead-status-pending { background: rgba(249, 115, 22, 0.15); color: var(--accent-orange); }
+  .lead-status-watching { background: rgba(59, 130, 246, 0.15); color: var(--accent-blue); }
+  .lead-status-confirmed { background: rgba(34, 197, 94, 0.15); color: var(--accent-green); }
+  .lead-status-converted { background: rgba(34, 211, 238, 0.15); color: var(--accent-cyan); }
+  .lead-status-rejected { background: rgba(239, 68, 68, 0.15); color: var(--accent-red); }
+  .lead-status-duplicate { background: rgba(107, 114, 128, 0.15); color: var(--text-muted); }
+  .evidence-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .evidence-s1 { background: rgba(34, 197, 94, 0.15); color: var(--accent-green); }
+  .evidence-s2 { background: rgba(34, 211, 238, 0.15); color: var(--accent-cyan); }
+  .evidence-s3 { background: rgba(251, 191, 36, 0.15); color: var(--accent-gold); }
+  .evidence-s4 { background: rgba(239, 68, 68, 0.15); color: var(--accent-red); }
+  .lead-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+    align-items: center;
+  }
+  .lead-platform-icon {
+    font-size: 14px;
+  }
+  .lead-confidence {
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+  .lead-confidence-bar {
+    width: 40px;
+    height: 4px;
+    background: var(--bg-primary);
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+  .lead-confidence-bar-fill {
+    height: 100%;
+    border-radius: 2px;
+  }
+  .lead-next-action {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 6px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    border-left: 2px solid var(--accent-cyan);
+  }
+  .lead-visual-change {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--accent-cyan);
+  }
+  .lead-why-it-matters {
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+  .lead-source-link {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .lead-source-link a {
+    color: var(--accent-cyan);
+    text-decoration: none;
+  }
+  .lead-source-link a:hover {
+    text-decoration: underline;
+  }
+  .lead-notes {
+    margin-top: 8px;
+    font-size: 11px;
+    color: var(--text-muted);
+    padding: 6px 10px;
+    background: rgba(255,255,255,0.02);
+    border-radius: 4px;
+  }
+
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-track { background: var(--bg-primary); }
   ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
@@ -1484,12 +1593,17 @@
       </a>
     </div>
     <div class="nav-section-divider"></div>
-    <div class="nav-section-label nav-section-label-crowdfunding">众筹分支</div>
+    <div class="nav-section-label nav-section-label-crowdfunding">分支雷达</div>
     <div class="nav-section-group nav-section-group-crowdfunding">
       <a class="nav-item" onclick="switchSection('crowdfunding', this)">
         <span class="nav-icon">🔥</span>
         众筹追踪
         <span class="nav-badge" id="crowdfundingCount" style="display:none;">0</span>
+      </a>
+      <a class="nav-item" onclick="switchSection('social-leads', this)">
+        <span class="nav-icon">🔍</span>
+        小众上新
+        <span class="nav-badge" id="socialLeadsCount" style="display:none;">0</span>
       </a>
       <!-- 品牌管理 - 折叠式 -->
       <div class="nav-collapsible" id="brandManagerToggle">
@@ -1629,7 +1743,8 @@
   <p class="footer-text">
     新品日报-vis · 视觉信号追踪 · 每日21:00自动更新<br>
     日报更新：<span id="lastUpdatedTime">加载中...</span><br>
-    众筹数据：<span id="ksUpdateTime">加载中...</span>
+    众筹数据：<span id="ksUpdateTime">加载中...</span><br>
+    小众上新：<span id="slUpdateTime">加载中...</span>
     <span id="dataSourceBadge" style="margin-left:8px;font-size:11px;padding:2px 6px;border-radius:4px;display:none;"></span>
   </p>
   <script>
@@ -1645,6 +1760,20 @@
     } catch(e) {
       document.getElementById('ksUpdateTime').textContent = '加载失败';
     }
+    // 显示小众上新数据更新时间
+    try {
+      const slData = socialLeadsData;
+      if (slData && slData.length > 0) {
+        const latest = slData.sort((a, b) => new Date(b.discoveredAt || b.capturedAt) - new Date(a.discoveredAt || a.capturedAt))[0];
+        const slDate = latest ? (latest.discoveredAt || latest.capturedAt || '未知').split('T')[0] : '暂无数据';
+        document.getElementById('slUpdateTime').textContent = slDate;
+      } else {
+        document.getElementById('slUpdateTime').textContent = '暂无数据';
+      }
+    } catch(e) {
+      document.getElementById('slUpdateTime').textContent = '加载失败';
+    }
+
     // 数据来源标记函数
     function updateDataSourceBadge() {
       const badge = document.getElementById('dataSourceBadge');
@@ -2181,6 +2310,105 @@ let brandsData = {
 
 // <BRANDPULSE-DATA-PRODUCTS-START>
 let productsData = [
+  {
+    "id": "huawei-freeclip2-diancangban-20260615",
+    "brand": "华为",
+    "category": "audio",
+    "title": "华为 FreeClip 2 典藏版 — 鎏光美学真空镀膜+50道精细喷涂工艺耳夹耳机",
+    "summary": "华为FreeClip 2典藏版以鎏光美学设计语言重构耳夹耳机CMF：充电盒采用真空镀膜工艺打造鎏光宝盒（百余道工序），C形桥历经50道精细工序将鎏光质感喷涂工艺与液态硅胶亲肤材质结合，柔软度提升25%，单只5.1克。同步推出与周大福联名配饰，将耳机从科技产品推向珠宝配饰定位。",
+    "constraintChange": "将耳夹耳机充电盒从塑胶/金属常规CMF推进到真空镀膜珠宝盒质感，C形桥从单一硅胶升级为鎏光喷涂+液态硅胶双层工艺，周大福联名配饰将耳机品类推向珠宝配饰赛道，开辟科技产品珠宝化的视觉约束新路径。",
+    "time": "2026-06-15 10:08",
+    "score": 70.5,
+    "confidence": 90,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 7,
+      "recognition": 8,
+      "transferability": 7,
+      "cmfInnovation": 7,
+      "paradigmShift": 5
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.1,
+      "recognition": 2,
+      "transferability": 1.4,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.5
+    },
+    "visTotal": 7.05,
+    "facts": [
+      "华为FreeClip 2典藏版于2026年6月15日正式开售，售价1499元（标准版1299元）",
+      "充电盒采用全新鎏光宝盒设计，历经百余道工序打磨，将光影揉进圆润盒身",
+      "充电舱采用真空镀膜工艺（IT之家/CNMO报道），呈现珠宝盒璀璨质感",
+      "C形桥历经50道精细工序，将柔软亲肤硅胶材质和鎏光质感喷涂工艺相结合",
+      "液态硅胶亲肤材质，柔软度提升25%，单只耳机轻至5.1克",
+      "两色：星海蓝（放眼星海，私藏一片湛蓝）、珠光银（浮潜白滩，捕捉贝母流光）",
+      "与周大福合作打造专属配饰方案，科技产品珠宝化定位",
+      "搭载自研第三代音频芯片+NPU AI处理器，算力提升10倍，支持星闪E2.0",
+      "自研超澎湃双擎发声单元，响度与低频能量均提升100%",
+      "整机续航38小时，IP57防尘抗水，支持AI键一键唤醒智能体"
+    ],
+    "analysis": {
+      "whyItMatters": "鎏光美学将耳夹耳机从功能性配件推进到珠宝级CMF赛道：真空镀膜充电盒+50道精细喷涂C形桥+周大福联名配饰，三重信号指向科技产品珠宝化趋势。华为用典藏版验证耳夹耳机的奢侈品定价逻辑，若成功将引导行业跟进。",
+      "transferability": "真空镀膜工艺可迁移到TWS耳机充电盒、智能手表表壳等小尺寸产品；鎏光喷涂+液态硅胶双层工艺可迁移到运动手环、AR眼镜腿等佩戴类产品；珠宝品牌联名模式可迁移到其他品类（如智能手表×珠宝联名）。",
+      "risk": "典藏版为限定款，真空镀膜和50道喷涂工艺成本高昂，短期内难以下放到大众价位；周大福联名配饰为独立配件，核心产品CMF创新集中在表面处理而非结构/材料突破；1499元定价在耳夹耳机市场偏高端，市场接受度待验证。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "华为官网",
+      "url": "https://consumer.huawei.com/cn/headphones/freeclip2-diancangban/",
+      "capturedAt": "2026-06-16T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "华为FreeClip 2典藏版官方产品页",
+        "url": "https://consumer.huawei.com/cn/headphones/freeclip2-diancangban/",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials",
+          "cmf_process"
+        ]
+      },
+      {
+        "tier": "tier1_media",
+        "name": "ZOL中关村在线",
+        "url": "https://dcdv.zol.com.cn/1199/11995934.html",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials",
+          "cmf_process"
+        ]
+      },
+      {
+        "tier": "tier1_media",
+        "name": "快科技/腾讯新闻",
+        "url": "https://news.qq.com/rain/a/20260615A03XQ400",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials"
+        ]
+      }
+    ],
+    "tags": [
+      "鎏光美学",
+      "真空镀膜",
+      "鎏光宝盒",
+      "50道精细喷涂",
+      "液态硅胶",
+      "周大福联名",
+      "珠宝化",
+      "耳夹耳机"
+    ],
+    "image": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/headphones/freeclip2-diancangban/assets/imgs/huawei-freeclip-2-diancangban-dual-way-noise-free-calls-1.svg",
+    "duplicateOf": null,
+    "createdAt": "2026-06-15T10:08:00+08:00",
+    "updatedAt": "2026-06-16T22:00:00+08:00",
+    "url": "https://consumer.huawei.com/cn/headphones/freeclip2-diancangban/"
+  },
   {
     "id": "no-signal-20260613",
     "brand": "无",
@@ -3572,262 +3800,6 @@ let productsData = [
     "url": "https://www.ithome.com/0/952/060.htm"
   },
   {
-    "id": "shokz-openswim-pro2-20260515",
-    "brand": "韶音",
-    "category": "audio",
-    "title": "韶音 OpenSwim Pro 2 — 50米级防水骨传导耳机",
-    "summary": "Shokz Day旗舰新品，50米级深度防水（5ATM/IP68/IP69），内置64GB内存支持QQ音乐无线导入离线播放。首次引入游泳数据智能监测与语音播报，搭载6nm芯片与九轴传感器。双色交锋设计：琉璃海与鲸鱼灰，金属流动光泽。自研PremiumPitch 3.0新一代骨传导技术。",
-    "constraintChange": "深度防水技术下放，运动耳机向潜水场景扩展",
-    "time": "2026-05-15 10:00",
-    "score": 82,
-    "confidence": 85,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "recognition": 18,
-      "paradigmShift": 16,
-      "cmfInnovation": 18,
-      "transferability": 14,
-      "diffusionPotential": 11
-    },
-    "visWeighted": {
-      "diffusionPotential": 1.32,
-      "recognition": 1.8,
-      "transferability": 1.12,
-      "cmfInnovation": 1.08,
-      "paradigmShift": 0.64
-    },
-    "visTotal": 5.96,
-    "facts": [
-      "Shokz Day旗舰新品，50米级深度防水（5ATM/IP68/IP69），内置64GB内存支持QQ音乐无线导入离线播放。首次引入游泳数据智能监测与语音播报，搭载6nm芯片与九轴传感器。双色交锋设计：琉璃海与鲸鱼灰，金属流动光泽。自研PremiumPitch 3.0新一代骨传导技术。",
-      "双色交锋的金属流动光泽设计，将运动耳机从功能性向时尚配饰推进。50米级防水树立行业新标杆。"
-    ],
-    "analysis": {
-      "whyItMatters": "双色交锋的金属流动光泽设计，将运动耳机从功能性向时尚配饰推进。50米级防水树立行业新标杆。",
-      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
-      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
-    },
-    "primarySource": {
-      "tier": "tier0_official",
-      "name": "韶音官方",
-      "url": "https://www.shokz.com.cn/OpenSwimPro2",
-      "capturedAt": "2026-06-05T22:00:00+08:00"
-    },
-    "evidence": [
-      {
-        "tier": "tier0_official",
-        "name": "韶音官方",
-        "url": "https://www.shokz.com.cn/OpenSwimPro2",
-        "supports": [
-          "product_exists",
-          "design_signal"
-        ]
-      }
-    ],
-    "tags": [
-      "50米防水",
-      "骨传导",
-      "双色交锋设计",
-      "QQ音乐无线导入"
-    ],
-    "image": "https://aka.doubaocdn.com/s/29eD1wRrTC",
-    "duplicateOf": null,
-    "createdAt": "2026-05-15T10:00:00+08:00",
-    "updatedAt": "2026-06-05T22:00:00+08:00",
-    "url": "https://www.shokz.com.cn/OpenSwimPro2"
-  },
-  {
-    "id": "shokz-opendots-air-20260515",
-    "brand": "韶音",
-    "category": "audio",
-    "title": "韶音 OpenDots Air — 流星弧耳夹耳机",
-    "summary": "Shokz Day新品，采用自研\"流星弧\"结构，柔软硅胶一体成型，内层0.28mm超薄钛片兼顾贴合度与支撑性。搭载BassSphere低频聚合技术与OpenBass 2.0+动态调音算法，新增\"听书模式\"增强人声频段。两款配色：破晓紫、午夜黑。",
-    "constraintChange": "钛合金超薄加工工艺成熟，耳夹形态向极致轻薄演进",
-    "time": "2026-05-15 10:00",
-    "score": 78,
-    "confidence": 85,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "recognition": 16,
-      "paradigmShift": 15,
-      "cmfInnovation": 17,
-      "transferability": 15,
-      "diffusionPotential": 10
-    },
-    "visWeighted": {
-      "diffusionPotential": 1.2,
-      "recognition": 1.6,
-      "transferability": 1.2,
-      "cmfInnovation": 1.02,
-      "paradigmShift": 0.6
-    },
-    "visTotal": 5.62,
-    "facts": [
-      "Shokz Day新品，采用自研\"流星弧\"结构，柔软硅胶一体成型，内层0.28mm超薄钛片兼顾贴合度与支撑性。搭载BassSphere低频聚合技术与OpenBass 2.0+动态调音算法，新增\"听书模式\"增强人声频段。两款配色：破晓紫、午夜黑。",
-      "\"流星弧\"结构命名与造型设计，将耳夹耳机的佩戴舒适度与视觉辨识度同时提升。"
-    ],
-    "analysis": {
-      "whyItMatters": "\"流星弧\"结构命名与造型设计，将耳夹耳机的佩戴舒适度与视觉辨识度同时提升。",
-      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
-      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
-    },
-    "primarySource": {
-      "tier": "tier0_official",
-      "name": "韶音官方",
-      "url": "https://www.shokz.com.cn/OpenDotsAir",
-      "capturedAt": "2026-06-05T22:00:00+08:00"
-    },
-    "evidence": [
-      {
-        "tier": "tier0_official",
-        "name": "韶音官方",
-        "url": "https://www.shokz.com.cn/OpenDotsAir",
-        "supports": [
-          "product_exists",
-          "design_signal"
-        ]
-      }
-    ],
-    "tags": [
-      "流星弧结构",
-      "耳夹耳机",
-      "超薄钛片",
-      "破晓紫"
-    ],
-    "image": "https://aka.doubaocdn.com/s/grJR1wRrSw",
-    "duplicateOf": null,
-    "createdAt": "2026-05-15T10:00:00+08:00",
-    "updatedAt": "2026-06-05T22:00:00+08:00",
-    "url": "https://www.shokz.com.cn/OpenDotsAir"
-  },
-  {
-    "id": "dji-osmo-pocket-4p-20260514",
-    "brand": "大疆",
-    "category": "camera",
-    "title": "大疆 Osmo Pocket 4P — 双摄旗舰口袋云台相机",
-    "summary": "戛纳电影节全球首发，口袋系列首款双摄旗舰。搭载1英寸主摄+等效70mm 3倍光学长焦双镜头，打破八年单镜头传统。支持6K/60fps、4K/120fps视频拍摄，长焦支持4K/240fps慢动作。17级动态范围、10-bit D-Log2专业色彩曲线。2000mAh电池，2.5英寸1000尼特高亮屏。智能跟随7.0。",
-    "constraintChange": "多摄模组小型化突破，专业影像设备口袋化",
-    "time": "2026-05-14 23:00",
-    "score": 88,
-    "confidence": 85,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "recognition": 22,
-      "paradigmShift": 22,
-      "cmfInnovation": 16,
-      "transferability": 13,
-      "diffusionPotential": 10
-    },
-    "visWeighted": {
-      "diffusionPotential": 1.2,
-      "recognition": 2.2,
-      "transferability": 1.04,
-      "cmfInnovation": 0.96,
-      "paradigmShift": 0.88
-    },
-    "visTotal": 6.28,
-    "facts": [
-      "戛纳电影节全球首发，口袋系列首款双摄旗舰。搭载1英寸主摄+等效70mm 3倍光学长焦双镜头，打破八年单镜头传统。支持6K/60fps、4K/120fps视频拍摄，长焦支持4K/240fps慢动作。17级动态范围、10-bit D-Log2专业色彩曲线。2000mAh电池，2.5英寸1000尼特高亮屏。智能跟随7.0。",
-      "口袋云台相机从单摄到双摄的范式跃迁，在戛纳电影节首发彰显影像专业定位。双摄设计将成为口袋相机新标配。"
-    ],
-    "analysis": {
-      "whyItMatters": "口袋云台相机从单摄到双摄的范式跃迁，在戛纳电影节首发彰显影像专业定位。双摄设计将成为口袋相机新标配。",
-      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
-      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
-    },
-    "primarySource": {
-      "tier": "tier0_official",
-      "name": "大疆官方（戛纳首发）",
-      "url": "https://www.dji.com/cn/mobile/media-center/announcements/dji-debuts-osmo-pocket-4p-cannes-cn",
-      "capturedAt": "2026-06-05T22:00:00+08:00"
-    },
-    "evidence": [
-      {
-        "tier": "tier0_official",
-        "name": "大疆官方（戛纳首发）",
-        "url": "https://www.dji.com/cn/mobile/media-center/announcements/dji-debuts-osmo-pocket-4p-cannes-cn",
-        "supports": [
-          "product_exists",
-          "design_signal"
-        ]
-      }
-    ],
-    "tags": [
-      "双摄云台",
-      "1英寸大底",
-      "戛纳电影节首发",
-      "6K视频"
-    ],
-    "image": "https://aka.doubaocdn.com/s/IO0x1wRrSz",
-    "duplicateOf": null,
-    "createdAt": "2026-05-14T23:00:00+08:00",
-    "updatedAt": "2026-06-05T22:00:00+08:00",
-    "url": "https://www.dji.com/cn/mobile/media-center/announcements/dji-debuts-osmo-pocket-4p-cannes-cn"
-  },
-  {
-    "id": "cuktech-lpb200nc-20260514",
-    "brand": "酷态科",
-    "category": "accessory",
-    "title": "酷态科 LPB200NC — 55W双自带线充电宝",
-    "summary": "20000mAh容量，最高55W输出功率。双自带线设计（两根Type-C线），四口输出（Type-C x1 + 自带线Type-C x2 + USB-A x1）。支持45W自充。2026年5月14日通过3C认证，即将正式发布。",
-    "constraintChange": "内置线材集成度提升，充电配件一体化趋势",
-    "time": "2026-05-14 10:00",
-    "score": 65,
-    "confidence": 85,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "recognition": 12,
-      "paradigmShift": 12,
-      "cmfInnovation": 13,
-      "transferability": 14,
-      "diffusionPotential": 9
-    },
-    "visWeighted": {
-      "diffusionPotential": 1.08,
-      "recognition": 1.2,
-      "transferability": 1.12,
-      "cmfInnovation": 0.78,
-      "paradigmShift": 0.48
-    },
-    "visTotal": 4.66,
-    "facts": [
-      "20000mAh容量，最高55W输出功率。双自带线设计（两根Type-C线），四口输出（Type-C x1 + 自带线Type-C x2 + USB-A x1）。支持45W自充。2026年5月14日通过3C认证，即将正式发布。",
-      "双自带线设计解决用户\"忘带线\"痛点，充电宝向一体化集成方向演进。"
-    ],
-    "analysis": {
-      "whyItMatters": "双自带线设计解决用户\"忘带线\"痛点，充电宝向一体化集成方向演进。",
-      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
-      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
-    },
-    "primarySource": {
-      "tier": "tier1_media",
-      "name": "IT之家",
-      "url": "https://www.ithome.com/0/951/339.htm",
-      "capturedAt": "2026-06-05T22:00:00+08:00"
-    },
-    "evidence": [
-      {
-        "tier": "tier1_media",
-        "name": "IT之家",
-        "url": "https://www.ithome.com/0/951/339.htm",
-        "supports": [
-          "product_exists",
-          "design_signal"
-        ]
-      }
-    ],
-    "tags": [
-      "双自带线",
-      "55W快充",
-      "20000mAh",
-      "3C认证"
-    ],
-    "image": "",
-    "duplicateOf": null,
-    "createdAt": "2026-05-14T10:00:00+08:00",
-    "updatedAt": "2026-06-05T22:00:00+08:00",
-    "url": "https://www.ithome.com/0/951/339.htm"
-  },
-  {
     "id": "insta360-luna-ultra-20260606",
     "brand": "影石",
     "category": "camera",
@@ -4650,6 +4622,9 @@ const viewState = {
 var crowdfundingData = [];
 var crowdfundingLoaded = false;
 var crowdfundingLoadError = '';
+var defaultProductsData = productsData;
+var defaultFilterHtml = document.getElementById('filterTabs')?.innerHTML || '';
+var defaultSortHtml = document.querySelector('.sort-bar')?.innerHTML || '';
 
 function isCrowdfundingView() {
   return viewState.section === 'crowdfunding';
@@ -4753,6 +4728,209 @@ function updateCrowdfundingControls(enabled) {
   if (defaultSortHtml) sortBar.innerHTML = defaultSortHtml;
 }
 
+function updateSocialLeadsControls(enabled) {
+  const filterTabs = document.getElementById('filterTabs');
+  const sortBar = document.querySelector('.sort-bar');
+  if (!filterTabs || !sortBar) return;
+
+  if (enabled) {
+    filterTabs.innerHTML = `
+      <button class="filter-tab active" onclick="filterSocialLeads(this, 'all')">全部</button>
+      <button class="filter-tab" onclick="filterSocialLeads(this, 'pending_verify')">待验证</button>
+      <button class="filter-tab" onclick="filterSocialLeads(this, 'watching')">观察中</button>
+      <button class="filter-tab" onclick="filterSocialLeads(this, 'confirmed')">已确认</button>
+      <button class="filter-tab" onclick="filterSocialLeads(this, 'converted')">可转正</button>
+      <button class="filter-tab" onclick="filterSocialLeads(this, 'rejected')">已排除</button>
+      <button class="filter-tab" onclick="filterSocialLeads(this, 'xiaohongshu')">小红书</button>
+      <button class="filter-tab" onclick="filterSocialLeads(this, 'weibo')">微博</button>
+      <button class="filter-tab" onclick="filterSocialLeads(this, 'store')">门店</button>
+      <button class="filter-tab" onclick="filterSocialLeads(this, 'ecommerce')">电商</button>
+    `;
+    sortBar.innerHTML = `
+      <span style="font-size:12px;color:var(--text-muted);">排序：</span>
+      <button class="sort-btn active" onclick="sortSocialLeads('discovered', this)" data-sort="discovered">最新发现</button>
+      <button class="sort-btn" onclick="sortSocialLeads('confidence', this)" data-sort="confidence">可信度</button>
+      <button class="sort-btn" onclick="sortSocialLeads('evidence', this)" data-sort="evidence">证据等级</button>
+      <button class="sort-btn" onclick="sortSocialLeads('brand', this)" data-sort="brand">品牌</button>
+    `;
+    return;
+  }
+
+  if (defaultFilterHtml) filterTabs.innerHTML = defaultFilterHtml;
+  if (defaultSortHtml) sortBar.innerHTML = defaultSortHtml;
+}
+
+// ==================== 小众上新数据加载与渲染 ====================
+var socialLeadsData = [];
+var socialLeadsLoaded = false;
+var socialLeadsLoadError = '';
+
+async function loadSocialLeads() {
+  if (socialLeadsLoaded) return socialLeadsData;
+
+  var controller, timeoutId;
+  try {
+    socialLeadsLoadError = '';
+    controller = new AbortController();
+    timeoutId = setTimeout(function() { controller.abort(); }, 8000);
+    var response;
+    try {
+      response = await fetch('./products/social-leads.json', { signal: controller.signal });
+    } finally {
+      clearTimeout(timeoutId);
+    }
+    if (!response.ok) throw new Error('HTTP ' + response.status);
+
+    const data = await response.json();
+    socialLeadsData = Array.isArray(data) ? data : [];
+    socialLeadsLoaded = true;
+
+    const badge = document.getElementById('socialLeadsCount');
+    if (badge) {
+      const pendingCount = socialLeadsData.filter(l => ['pending_verify', 'watching', 'confirmed'].includes(l.leadStatus)).length;
+      badge.textContent = pendingCount;
+      badge.style.display = pendingCount ? '' : 'none';
+    }
+    console.log('[BrandPulse] 已从 social-leads.json 加载 ' + socialLeadsData.length + ' 条小众上新线索');
+  } catch (e) {
+    if (timeoutId) clearTimeout(timeoutId);
+    if (controller) controller.abort();
+    console.warn('[BrandPulse] 无法加载 social-leads.json:', e.message);
+    socialLeadsLoadError = e.message || '数据加载失败';
+    socialLeadsData = [];
+    socialLeadsLoaded = true;
+  }
+
+  return socialLeadsData;
+}
+
+function renderSocialLeads(leads) {
+  if (!leads || leads.length === 0) {
+    showEmptyState(true, '暂无小众上新线索<br><span style="font-size:12px;color:var(--text-muted);">当小红书、微博、门店等渠道出现新品线索时，将显示在这里</span>');
+    return;
+  }
+  showEmptyState(false);
+
+  const timeline = document.getElementById('timeline');
+  timeline.innerHTML = leads.map(renderSocialLeadCard).join('');
+}
+
+function renderSocialLeadCard(lead) {
+  const statusMap = {
+    'pending_verify': { label: '待验证', class: 'lead-status-pending' },
+    'watching': { label: '观察中', class: 'lead-status-watching' },
+    'confirmed': { label: '已确认', class: 'lead-status-confirmed' },
+    'converted': { label: '已转正', class: 'lead-status-converted' },
+    'rejected': { label: '已排除', class: 'lead-status-rejected' },
+    'duplicate': { label: '重复', class: 'lead-status-duplicate' }
+  };
+  const status = statusMap[lead.leadStatus] || statusMap['pending_verify'];
+
+  const evidenceMap = {
+    'S1': { label: 'S1 官方', class: 'evidence-s1' },
+    'S2': { label: 'S2 高可信', class: 'evidence-s2' },
+    'S3': { label: 'S3 普通', class: 'evidence-s3' },
+    'S4': { label: 'S4 低可信', class: 'evidence-s4' }
+  };
+  const evidence = evidenceMap[lead.evidenceLevel] || evidenceMap['S3'];
+
+  const platformIcons = {
+    'xiaohongshu': '🍠',
+    'weibo': '📢',
+    'douyin': '🎵',
+    'bilibili': '📺',
+    'store': '🏪',
+    'ecommerce': '🛒',
+    'offline': '📍'
+  };
+  const platformIcon = platformIcons[lead.platform] || '🔍';
+
+  const confidenceColor = lead.confidence >= 70 ? 'var(--accent-green)' : (lead.confidence >= 40 ? 'var(--accent-gold)' : 'var(--accent-red)');
+
+  const sourceLink = lead.sourceUrl ? `<a href="${lead.sourceUrl}" target="_blank" rel="noopener noreferrer">查看来源 →</a>` : '<span style="color:var(--text-muted);">无来源链接</span>';
+
+  const convertedBadge = lead.convertedToProductId ? '<span style="display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:4px;font-size:11px;background:rgba(34,211,238,0.15);color:var(--accent-cyan);">✓ 已转正</span>' : '';
+
+  return `
+    <div class="card social-lead-card ${lead.leadStatus}" data-lead-id="${lead.id}" data-lead-status="${lead.leadStatus}" data-platform="${lead.platform}" data-evidence="${lead.evidenceLevel}">
+      <div class="card-content">
+        <div class="card-header">
+          <div class="card-brand">
+            <span class="lead-platform-icon">${platformIcon}</span>
+            ${lead.brand}
+            ${lead.productName ? ' · ' + lead.productName : ''}
+          </div>
+          <div class="lead-meta">
+            <span class="lead-status-badge ${status.class}">${status.label}</span>
+            <span class="evidence-badge ${evidence.class}">${evidence.label}</span>
+            ${convertedBadge}
+          </div>
+        </div>
+        <div class="card-title">${lead.leadTitle}</div>
+        <div class="card-summary">${lead.summary}</div>
+        <div class="lead-visual-change">🔍 视觉变化：${lead.visualChange || '未说明'}</div>
+        <div class="lead-why-it-matters">💡 为什么值得关注：${lead.whyItMatters || '未说明'}</div>
+        <div class="lead-next-action">📌 下一步：${lead.nextAction || '暂无'}</div>
+        <div class="lead-source-link">🔗 ${sourceLink}</div>
+        <div class="lead-confidence">
+          可信度：${lead.confidence}%
+          <span class="lead-confidence-bar"><span class="lead-confidence-bar-fill" style="width:${lead.confidence}%;background:${confidenceColor};"></span></span>
+        </div>
+        ${lead.notes ? `<div class="lead-notes">📝 ${lead.notes}</div>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+function filterSocialLeads(btn, filter) {
+  document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  viewState.socialLeadsFilter = filter;
+  applySocialLeadsFilter();
+}
+
+function sortSocialLeads(sortBy, btn) {
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  viewState.socialLeadsSort = sortBy;
+  applySocialLeadsFilter();
+}
+
+function applySocialLeadsFilter() {
+  var filtered = socialLeadsData.slice();
+  const filter = viewState.socialLeadsFilter || 'all';
+  const sortBy = viewState.socialLeadsSort || 'discovered';
+
+  // 筛选
+  if (filter !== 'all') {
+    const statusFilters = ['pending_verify', 'watching', 'confirmed', 'converted', 'rejected'];
+    const platformFilters = ['xiaohongshu', 'weibo', 'douyin', 'bilibili', 'store', 'ecommerce', 'offline'];
+    if (statusFilters.includes(filter)) {
+      filtered = filtered.filter(l => l.leadStatus === filter);
+    } else if (platformFilters.includes(filter)) {
+      filtered = filtered.filter(l => l.platform === filter);
+    }
+  }
+
+  // 排序
+  if (sortBy === 'discovered') {
+    filtered.sort((a, b) => new Date(b.discoveredAt || b.capturedAt) - new Date(a.discoveredAt || a.capturedAt));
+  } else if (sortBy === 'confidence') {
+    filtered.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
+  } else if (sortBy === 'evidence') {
+    const evidenceOrder = { 'S1': 4, 'S2': 3, 'S3': 2, 'S4': 1 };
+    filtered.sort((a, b) => (evidenceOrder[b.evidenceLevel] || 0) - (evidenceOrder[a.evidenceLevel] || 0));
+  } else if (sortBy === 'brand') {
+    filtered.sort((a, b) => (a.brand || '').localeCompare(b.brand || ''));
+  }
+
+  renderSocialLeads(filtered);
+}
+
+function isSocialLeadsView() {
+  return viewState.section === 'social-leads';
+}
+
 function matchesCrowdfundingFilter(product, filter) {
   const ks = product.ksData || {};
   const score = Number(product.score || product.visTotal || 0);
@@ -4775,10 +4953,17 @@ function matchesCrowdfundingFilter(product, filter) {
 // 统一渲染：根据 viewState 过滤、排序并渲染
 function applyViewStateAndRender() {
   // 防御性检查：确保 brandsData.brands 存在
-  if (!isCrowdfundingView() && (!brandsData || !Array.isArray(brandsData.brands))) {
+  if (!isCrowdfundingView() && !isSocialLeadsView() && (!brandsData || !Array.isArray(brandsData.brands))) {
     console.error('[BrandPulse] brandsData.brands 不可用');
     renderTimeline([]);
     updateStats(0);
+    return;
+  }
+
+  // 小众上新视图单独处理
+  if (isSocialLeadsView()) {
+    applySocialLeadsFilter();
+    updateStats(socialLeadsData.length);
     return;
   }
 
@@ -4859,7 +5044,7 @@ function filterByCategory(category) {
 async function switchSection(section, el) {
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   if (el) el.classList.add('active');
-  const titles = { 'featured': '精选', 'all': '全部动态', 'today': '今日更新', 'crowdfunding': '众筹追踪' };
+  const titles = { 'featured': '精选', 'all': '全部动态', 'today': '今日更新', 'crowdfunding': '众筹追踪', 'social-leads': '小众上新' };
   document.getElementById('pageTitle').textContent = titles[section] || '精选';
   viewState.section = section;
   // URL hash 同步 — 支持分享链接和刷新恢复
@@ -4873,9 +5058,17 @@ async function switchSection(section, el) {
     showSkeleton();
     await loadCrowdfundingProducts();
     updateCrowdfundingControls(true);
+    updateSocialLeadsControls(false);
     viewState.sortBy = 'crowdfunding';
+  } else if (section === 'social-leads') {
+    showSkeleton();
+    await loadSocialLeads();
+    updateCrowdfundingControls(false);
+    updateSocialLeadsControls(true);
+    viewState.sortBy = 'social-leads';
   } else {
     updateCrowdfundingControls(false);
+    updateSocialLeadsControls(false);
     productsData = defaultProductsData;
     viewState.sortBy = section === 'featured' ? 'score' : 'time';
     resetSectionTransientState();
@@ -5133,6 +5326,31 @@ function updateStats(filteredCount) {
     return;
   }
 
+  if (isSocialLeadsView()) {
+    const total = typeof filteredCount === 'number' ? filteredCount : socialLeadsData.length;
+    const confirmed = socialLeadsData.filter(l => l.leadStatus === 'confirmed').length;
+    const watching = socialLeadsData.filter(l => l.leadStatus === 'watching').length;
+    const pending = socialLeadsData.filter(l => l.leadStatus === 'pending_verify').length;
+
+    document.getElementById('statTotal').textContent = total;
+    document.getElementById('statFeatured').textContent = confirmed;
+    document.getElementById('statBrands').textContent = watching;
+    document.getElementById('statMonitored').textContent = pending;
+    document.getElementById('statTotalLabel').textContent = '线索总数';
+    document.getElementById('statFeaturedLabel').textContent = '已确认';
+    document.getElementById('statBrandsLabel').textContent = '观察中';
+    document.getElementById('statMonitoredLabel').textContent = '待验证';
+    const hint = document.getElementById('statContextHint');
+    if (hint) hint.textContent = `小众上新 · 共 ${socialLeadsData.length} 条线索`;
+    const socialLeadsCount = document.getElementById('socialLeadsCount');
+    if (socialLeadsCount) {
+      const pendingCount = socialLeadsData.filter(l => ['pending_verify', 'watching', 'confirmed'].includes(l.leadStatus)).length;
+      socialLeadsCount.textContent = pendingCount;
+      socialLeadsCount.style.display = pendingCount ? '' : 'none';
+    }
+    return;
+  }
+
   // 非众筹：日报统计
   const hint = document.getElementById('statContextHint');
   if (hint) hint.textContent = '日报数据 · 全局统计';
@@ -5225,6 +5443,18 @@ function initializeDashboard() {
       crowdfundingLoadError = e.message || '初始化失败';
       crowdfundingLoaded = true;
       crowdfundingData = [];
+      applyViewStateAndRender();
+    });
+  } else if (viewState.section === 'social-leads') {
+    showSkeleton();
+    loadSocialLeads().then(function() {
+      updateSocialLeadsControls(true);
+      applyViewStateAndRender();
+    }).catch(function(e) {
+      console.error('[BrandPulse] 小众上新初始化异常:', e);
+      socialLeadsLoadError = e.message || '初始化失败';
+      socialLeadsLoaded = true;
+      socialLeadsData = [];
       applyViewStateAndRender();
     });
   } else {

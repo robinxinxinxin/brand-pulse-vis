@@ -1,5 +1,104 @@
 [
   {
+    "id": "huawei-freeclip2-diancangban-20260615",
+    "brand": "华为",
+    "category": "audio",
+    "title": "华为 FreeClip 2 典藏版 — 鎏光美学真空镀膜+50道精细喷涂工艺耳夹耳机",
+    "summary": "华为FreeClip 2典藏版以鎏光美学设计语言重构耳夹耳机CMF：充电盒采用真空镀膜工艺打造鎏光宝盒（百余道工序），C形桥历经50道精细工序将鎏光质感喷涂工艺与液态硅胶亲肤材质结合，柔软度提升25%，单只5.1克。同步推出与周大福联名配饰，将耳机从科技产品推向珠宝配饰定位。",
+    "constraintChange": "将耳夹耳机充电盒从塑胶/金属常规CMF推进到真空镀膜珠宝盒质感，C形桥从单一硅胶升级为鎏光喷涂+液态硅胶双层工艺，周大福联名配饰将耳机品类推向珠宝配饰赛道，开辟科技产品珠宝化的视觉约束新路径。",
+    "time": "2026-06-15 10:08",
+    "score": 70.5,
+    "confidence": 90,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 7,
+      "recognition": 8,
+      "transferability": 7,
+      "cmfInnovation": 7,
+      "paradigmShift": 5
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.10,
+      "recognition": 2.00,
+      "transferability": 1.40,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.50
+    },
+    "visTotal": 7.05,
+    "facts": [
+      "华为FreeClip 2典藏版于2026年6月15日正式开售，售价1499元（标准版1299元）",
+      "充电盒采用全新鎏光宝盒设计，历经百余道工序打磨，将光影揉进圆润盒身",
+      "充电舱采用真空镀膜工艺（IT之家/CNMO报道），呈现珠宝盒璀璨质感",
+      "C形桥历经50道精细工序，将柔软亲肤硅胶材质和鎏光质感喷涂工艺相结合",
+      "液态硅胶亲肤材质，柔软度提升25%，单只耳机轻至5.1克",
+      "两色：星海蓝（放眼星海，私藏一片湛蓝）、珠光银（浮潜白滩，捕捉贝母流光）",
+      "与周大福合作打造专属配饰方案，科技产品珠宝化定位",
+      "搭载自研第三代音频芯片+NPU AI处理器，算力提升10倍，支持星闪E2.0",
+      "自研超澎湃双擎发声单元，响度与低频能量均提升100%",
+      "整机续航38小时，IP57防尘抗水，支持AI键一键唤醒智能体"
+    ],
+    "analysis": {
+      "whyItMatters": "鎏光美学将耳夹耳机从功能性配件推进到珠宝级CMF赛道：真空镀膜充电盒+50道精细喷涂C形桥+周大福联名配饰，三重信号指向科技产品珠宝化趋势。华为用典藏版验证耳夹耳机的奢侈品定价逻辑，若成功将引导行业跟进。",
+      "transferability": "真空镀膜工艺可迁移到TWS耳机充电盒、智能手表表壳等小尺寸产品；鎏光喷涂+液态硅胶双层工艺可迁移到运动手环、AR眼镜腿等佩戴类产品；珠宝品牌联名模式可迁移到其他品类（如智能手表×珠宝联名）。",
+      "risk": "典藏版为限定款，真空镀膜和50道喷涂工艺成本高昂，短期内难以下放到大众价位；周大福联名配饰为独立配件，核心产品CMF创新集中在表面处理而非结构/材料突破；1499元定价在耳夹耳机市场偏高端，市场接受度待验证。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "华为官网",
+      "url": "https://consumer.huawei.com/cn/headphones/freeclip2-diancangban/",
+      "capturedAt": "2026-06-16T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier0_official",
+        "name": "华为FreeClip 2典藏版官方产品页",
+        "url": "https://consumer.huawei.com/cn/headphones/freeclip2-diancangban/",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials",
+          "cmf_process"
+        ]
+      },
+      {
+        "tier": "tier1_media",
+        "name": "ZOL中关村在线",
+        "url": "https://dcdv.zol.com.cn/1199/11995934.html",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials",
+          "cmf_process"
+        ]
+      },
+      {
+        "tier": "tier1_media",
+        "name": "快科技/腾讯新闻",
+        "url": "https://news.qq.com/rain/a/20260615A03XQ400",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials"
+        ]
+      }
+    ],
+    "tags": [
+      "鎏光美学",
+      "真空镀膜",
+      "鎏光宝盒",
+      "50道精细喷涂",
+      "液态硅胶",
+      "周大福联名",
+      "珠宝化",
+      "耳夹耳机"
+    ],
+    "image": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/headphones/freeclip2-diancangban/assets/imgs/huawei-freeclip-2-diancangban-dual-way-noise-free-calls-1.svg",
+    "duplicateOf": null,
+    "createdAt": "2026-06-15T10:08:00+08:00",
+    "updatedAt": "2026-06-16T22:00:00+08:00",
+    "url": "https://consumer.huawei.com/cn/headphones/freeclip2-diancangban/"
+  },
+  {
     "id": "no-signal-20260613",
     "brand": "无",
     "category": "none",
@@ -1388,262 +1487,6 @@
     "createdAt": "2026-05-19T09:00:00+08:00",
     "updatedAt": "2026-06-05T22:00:00+08:00",
     "url": "https://www.ithome.com/0/952/060.htm"
-  },
-  {
-    "id": "shokz-openswim-pro2-20260515",
-    "brand": "韶音",
-    "category": "audio",
-    "title": "韶音 OpenSwim Pro 2 — 50米级防水骨传导耳机",
-    "summary": "Shokz Day旗舰新品，50米级深度防水（5ATM/IP68/IP69），内置64GB内存支持QQ音乐无线导入离线播放。首次引入游泳数据智能监测与语音播报，搭载6nm芯片与九轴传感器。双色交锋设计：琉璃海与鲸鱼灰，金属流动光泽。自研PremiumPitch 3.0新一代骨传导技术。",
-    "constraintChange": "深度防水技术下放，运动耳机向潜水场景扩展",
-    "time": "2026-05-15 10:00",
-    "score": 82,
-    "confidence": 85,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "recognition": 18,
-      "paradigmShift": 16,
-      "cmfInnovation": 18,
-      "transferability": 14,
-      "diffusionPotential": 11
-    },
-    "visWeighted": {
-      "diffusionPotential": 1.32,
-      "recognition": 1.8,
-      "transferability": 1.12,
-      "cmfInnovation": 1.08,
-      "paradigmShift": 0.64
-    },
-    "visTotal": 5.96,
-    "facts": [
-      "Shokz Day旗舰新品，50米级深度防水（5ATM/IP68/IP69），内置64GB内存支持QQ音乐无线导入离线播放。首次引入游泳数据智能监测与语音播报，搭载6nm芯片与九轴传感器。双色交锋设计：琉璃海与鲸鱼灰，金属流动光泽。自研PremiumPitch 3.0新一代骨传导技术。",
-      "双色交锋的金属流动光泽设计，将运动耳机从功能性向时尚配饰推进。50米级防水树立行业新标杆。"
-    ],
-    "analysis": {
-      "whyItMatters": "双色交锋的金属流动光泽设计，将运动耳机从功能性向时尚配饰推进。50米级防水树立行业新标杆。",
-      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
-      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
-    },
-    "primarySource": {
-      "tier": "tier0_official",
-      "name": "韶音官方",
-      "url": "https://www.shokz.com.cn/OpenSwimPro2",
-      "capturedAt": "2026-06-05T22:00:00+08:00"
-    },
-    "evidence": [
-      {
-        "tier": "tier0_official",
-        "name": "韶音官方",
-        "url": "https://www.shokz.com.cn/OpenSwimPro2",
-        "supports": [
-          "product_exists",
-          "design_signal"
-        ]
-      }
-    ],
-    "tags": [
-      "50米防水",
-      "骨传导",
-      "双色交锋设计",
-      "QQ音乐无线导入"
-    ],
-    "image": "https://aka.doubaocdn.com/s/29eD1wRrTC",
-    "duplicateOf": null,
-    "createdAt": "2026-05-15T10:00:00+08:00",
-    "updatedAt": "2026-06-05T22:00:00+08:00",
-    "url": "https://www.shokz.com.cn/OpenSwimPro2"
-  },
-  {
-    "id": "shokz-opendots-air-20260515",
-    "brand": "韶音",
-    "category": "audio",
-    "title": "韶音 OpenDots Air — 流星弧耳夹耳机",
-    "summary": "Shokz Day新品，采用自研\"流星弧\"结构，柔软硅胶一体成型，内层0.28mm超薄钛片兼顾贴合度与支撑性。搭载BassSphere低频聚合技术与OpenBass 2.0+动态调音算法，新增\"听书模式\"增强人声频段。两款配色：破晓紫、午夜黑。",
-    "constraintChange": "钛合金超薄加工工艺成熟，耳夹形态向极致轻薄演进",
-    "time": "2026-05-15 10:00",
-    "score": 78,
-    "confidence": 85,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "recognition": 16,
-      "paradigmShift": 15,
-      "cmfInnovation": 17,
-      "transferability": 15,
-      "diffusionPotential": 10
-    },
-    "visWeighted": {
-      "diffusionPotential": 1.2,
-      "recognition": 1.6,
-      "transferability": 1.2,
-      "cmfInnovation": 1.02,
-      "paradigmShift": 0.6
-    },
-    "visTotal": 5.62,
-    "facts": [
-      "Shokz Day新品，采用自研\"流星弧\"结构，柔软硅胶一体成型，内层0.28mm超薄钛片兼顾贴合度与支撑性。搭载BassSphere低频聚合技术与OpenBass 2.0+动态调音算法，新增\"听书模式\"增强人声频段。两款配色：破晓紫、午夜黑。",
-      "\"流星弧\"结构命名与造型设计，将耳夹耳机的佩戴舒适度与视觉辨识度同时提升。"
-    ],
-    "analysis": {
-      "whyItMatters": "\"流星弧\"结构命名与造型设计，将耳夹耳机的佩戴舒适度与视觉辨识度同时提升。",
-      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
-      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
-    },
-    "primarySource": {
-      "tier": "tier0_official",
-      "name": "韶音官方",
-      "url": "https://www.shokz.com.cn/OpenDotsAir",
-      "capturedAt": "2026-06-05T22:00:00+08:00"
-    },
-    "evidence": [
-      {
-        "tier": "tier0_official",
-        "name": "韶音官方",
-        "url": "https://www.shokz.com.cn/OpenDotsAir",
-        "supports": [
-          "product_exists",
-          "design_signal"
-        ]
-      }
-    ],
-    "tags": [
-      "流星弧结构",
-      "耳夹耳机",
-      "超薄钛片",
-      "破晓紫"
-    ],
-    "image": "https://aka.doubaocdn.com/s/grJR1wRrSw",
-    "duplicateOf": null,
-    "createdAt": "2026-05-15T10:00:00+08:00",
-    "updatedAt": "2026-06-05T22:00:00+08:00",
-    "url": "https://www.shokz.com.cn/OpenDotsAir"
-  },
-  {
-    "id": "dji-osmo-pocket-4p-20260514",
-    "brand": "大疆",
-    "category": "camera",
-    "title": "大疆 Osmo Pocket 4P — 双摄旗舰口袋云台相机",
-    "summary": "戛纳电影节全球首发，口袋系列首款双摄旗舰。搭载1英寸主摄+等效70mm 3倍光学长焦双镜头，打破八年单镜头传统。支持6K/60fps、4K/120fps视频拍摄，长焦支持4K/240fps慢动作。17级动态范围、10-bit D-Log2专业色彩曲线。2000mAh电池，2.5英寸1000尼特高亮屏。智能跟随7.0。",
-    "constraintChange": "多摄模组小型化突破，专业影像设备口袋化",
-    "time": "2026-05-14 23:00",
-    "score": 88,
-    "confidence": 85,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "recognition": 22,
-      "paradigmShift": 22,
-      "cmfInnovation": 16,
-      "transferability": 13,
-      "diffusionPotential": 10
-    },
-    "visWeighted": {
-      "diffusionPotential": 1.2,
-      "recognition": 2.2,
-      "transferability": 1.04,
-      "cmfInnovation": 0.96,
-      "paradigmShift": 0.88
-    },
-    "visTotal": 6.28,
-    "facts": [
-      "戛纳电影节全球首发，口袋系列首款双摄旗舰。搭载1英寸主摄+等效70mm 3倍光学长焦双镜头，打破八年单镜头传统。支持6K/60fps、4K/120fps视频拍摄，长焦支持4K/240fps慢动作。17级动态范围、10-bit D-Log2专业色彩曲线。2000mAh电池，2.5英寸1000尼特高亮屏。智能跟随7.0。",
-      "口袋云台相机从单摄到双摄的范式跃迁，在戛纳电影节首发彰显影像专业定位。双摄设计将成为口袋相机新标配。"
-    ],
-    "analysis": {
-      "whyItMatters": "口袋云台相机从单摄到双摄的范式跃迁，在戛纳电影节首发彰显影像专业定位。双摄设计将成为口袋相机新标配。",
-      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
-      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
-    },
-    "primarySource": {
-      "tier": "tier0_official",
-      "name": "大疆官方（戛纳首发）",
-      "url": "https://www.dji.com/cn/mobile/media-center/announcements/dji-debuts-osmo-pocket-4p-cannes-cn",
-      "capturedAt": "2026-06-05T22:00:00+08:00"
-    },
-    "evidence": [
-      {
-        "tier": "tier0_official",
-        "name": "大疆官方（戛纳首发）",
-        "url": "https://www.dji.com/cn/mobile/media-center/announcements/dji-debuts-osmo-pocket-4p-cannes-cn",
-        "supports": [
-          "product_exists",
-          "design_signal"
-        ]
-      }
-    ],
-    "tags": [
-      "双摄云台",
-      "1英寸大底",
-      "戛纳电影节首发",
-      "6K视频"
-    ],
-    "image": "https://aka.doubaocdn.com/s/IO0x1wRrSz",
-    "duplicateOf": null,
-    "createdAt": "2026-05-14T23:00:00+08:00",
-    "updatedAt": "2026-06-05T22:00:00+08:00",
-    "url": "https://www.dji.com/cn/mobile/media-center/announcements/dji-debuts-osmo-pocket-4p-cannes-cn"
-  },
-  {
-    "id": "cuktech-lpb200nc-20260514",
-    "brand": "酷态科",
-    "category": "accessory",
-    "title": "酷态科 LPB200NC — 55W双自带线充电宝",
-    "summary": "20000mAh容量，最高55W输出功率。双自带线设计（两根Type-C线），四口输出（Type-C x1 + 自带线Type-C x2 + USB-A x1）。支持45W自充。2026年5月14日通过3C认证，即将正式发布。",
-    "constraintChange": "内置线材集成度提升，充电配件一体化趋势",
-    "time": "2026-05-14 10:00",
-    "score": 65,
-    "confidence": 85,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "recognition": 12,
-      "paradigmShift": 12,
-      "cmfInnovation": 13,
-      "transferability": 14,
-      "diffusionPotential": 9
-    },
-    "visWeighted": {
-      "diffusionPotential": 1.08,
-      "recognition": 1.2,
-      "transferability": 1.12,
-      "cmfInnovation": 0.78,
-      "paradigmShift": 0.48
-    },
-    "visTotal": 4.66,
-    "facts": [
-      "20000mAh容量，最高55W输出功率。双自带线设计（两根Type-C线），四口输出（Type-C x1 + 自带线Type-C x2 + USB-A x1）。支持45W自充。2026年5月14日通过3C认证，即将正式发布。",
-      "双自带线设计解决用户\"忘带线\"痛点，充电宝向一体化集成方向演进。"
-    ],
-    "analysis": {
-      "whyItMatters": "双自带线设计解决用户\"忘带线\"痛点，充电宝向一体化集成方向演进。",
-      "transferability": "基于视觉语言、材料工艺或供应链下放能力判断，需在每日复核中更新。",
-      "risk": "旧数据迁移项，建议后续用官方或权威媒体证据补强。"
-    },
-    "primarySource": {
-      "tier": "tier1_media",
-      "name": "IT之家",
-      "url": "https://www.ithome.com/0/951/339.htm",
-      "capturedAt": "2026-06-05T22:00:00+08:00"
-    },
-    "evidence": [
-      {
-        "tier": "tier1_media",
-        "name": "IT之家",
-        "url": "https://www.ithome.com/0/951/339.htm",
-        "supports": [
-          "product_exists",
-          "design_signal"
-        ]
-      }
-    ],
-    "tags": [
-      "双自带线",
-      "55W快充",
-      "20000mAh",
-      "3C认证"
-    ],
-    "image": "",
-    "duplicateOf": null,
-    "createdAt": "2026-05-14T10:00:00+08:00",
-    "updatedAt": "2026-06-05T22:00:00+08:00",
-    "url": "https://www.ithome.com/0/951/339.htm"
   },
   {
     "id": "insta360-luna-ultra-20260606",
