@@ -1,5 +1,66 @@
 [
   {
+    "id": "no-signal-20260617",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-06-17)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。10批次搜索覆盖全部44品牌。",
+    "constraintChange": "无",
+    "time": "2026-06-17 22:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共10次批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "大疆Osmo Pocket 4P（6/15发布，6/16开售预约）：首次双摄系统属于光学/功能升级，珠光白新配色属小幅配色扩展，无CMF/材质/工艺创新，不收录",
+      "小米17T系列（6/8发布）：天玑9500+徕卡影像纯配置升级，无视觉约束变化，不收录",
+      "享界MPV谍照曝光（预计2026年发布）：尚处测试阶段无设计细节，不收录",
+      "华为GT6/GT5 Pro对比讨论：均为2025年9月旧品，无新品发布",
+      "库犸Mammotion/Segway Navimow/Worx Landroid割草机器人：CES 2026（1月）旧品无6月新品",
+      "大疆vs影石专利战持续（6/12-6/17）：法律纠纷非新品CMF信号",
+      "扫地机器人618促销（追觅/石头/科沃斯/云鲸）：市场活动非新品发布",
+      "连续无信号（6/14、6/17），6月下半月消费电子CMF创新节奏持续放缓"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。6月下半月消费电子新品节奏持续放缓，行业焦点转向618促销季（价格战而非CMF创新）、大疆vs影石专利战延续、以及AI端侧化技术演进等非视觉约束领域。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-06-17T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-06-17T22:00:00+08:00",
+    "updatedAt": "2026-06-17T22:00:00+08:00",
+    "url": ""
+  },
+  {
     "id": "huawei-freeclip2-diancangban-20260615",
     "brand": "华为",
     "category": "audio",
@@ -18,11 +79,11 @@
       "paradigmShift": 5
     },
     "visWeighted": {
-      "diffusionPotential": 2.10,
-      "recognition": 2.00,
-      "transferability": 1.40,
+      "diffusionPotential": 2.1,
+      "recognition": 2,
+      "transferability": 1.4,
       "cmfInnovation": 1.05,
-      "paradigmShift": 0.50
+      "paradigmShift": 0.5
     },
     "visTotal": 7.05,
     "facts": [
