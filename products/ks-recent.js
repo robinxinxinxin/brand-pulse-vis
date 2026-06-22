@@ -1,7409 +1,7405 @@
 window.__crowdfundingData = {
-    "lastUpdated": "2026-06-19",
-    "sourceDate": "2026-05-12",
-    "source": "crowd-pulse/products/ks-recent.json",
-    "ingestPolicy": "多平台来源（kickstarter），过滤非视觉产品，usdPledged >= 5000（众筹）/ 视觉信号过滤（销售平台）",
-    "sortPolicy": "score desc, backersCount desc, percentFunded desc, live state, launch time",
-    "products": [
-        {
-            "id": "ks-292015878",
-            "brand": "YAT-Design",
-            "category": "wearable",
-            "title": "Y-Glasses Pro: Redefining the Smart Glasses Experience",
-            "titleZh": "Y-Glasses 专业版: 重新定义 智能眼镜 体验",
-            "desc": "Magnetic function/Smart glasses/Bluetooth 5.3/Support customization/Three styles to switch at will/Titanium /Voice control/ TWS",
-            "time": "2024-05-29 12:00",
-            "score": 85.9,
-            "visBreakdown": {
-                "recognition": 9.6,
-                "paradigmShift": 8.5,
-                "cmfInnovation": 8.5,
-                "transferability": 6.9,
-                "diffusionPotential": 8.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/y-glasses/y-glasses-pro",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/045/380/874/32b0605b03e461e2947c9b54573a1698_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1718284482&width=560&sig=tR6cBLZXhHDieGkJMf03XbazaqZ3VSLJp1O33oiKvOQ%3D",
-            "reason": "Y-Glasses Pro: Redefining the Smart Glasses Experi，在technology/wearables领域，获得490人支持，筹得$63,575，Kickstarter Staff Pick，达成率6357.5%，视觉亮点：高端材质、AI驱动、模块化/磁吸",
-            "ksData": {
-                "goal": 1000.0,
-                "pledged": 63575.0,
-                "usdPledged": 63575.0,
-                "backersCount": 490,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 6357.5,
-                "daysSinceLaunch": 751
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1434627831",
-            "brand": "BEAVERLAB TECH",
-            "category": "wearable",
-            "title": "Neomix AI Glasses: Fastest Capture with World's Largest CMOS",
-            "titleZh": "Neomix AI眼镜: 最快 捕捉 配备 世界的 最大 CMOS",
-            "desc": "Nod-Controlled 8K UItra HD & Call | Recording | 35g Airwear | 30-Day Standby | 24 Optional Styles | HiFi Audio | 30000 Photos Storage",
-            "time": "2025-09-23 13:00",
-            "score": 77.8,
-            "visBreakdown": {
-                "recognition": 9.0,
-                "paradigmShift": 9.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 9.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/beaverlab/neomix-ai-glasses-nod-to-shoot-2kpowered-by-minimax",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/571/688/e716052ae9ff82e249fab5aef74eddcf_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1762511261&width=560&sig=Glhd45jIgHwCaek5%2Boqr3BhhoxQb9ZENNl012QjIkyw%3D",
-            "reason": "Neomix AI Glasses: Fastest Capture with World's La，在technology/wearables领域，获得1,449人支持，筹得$330,220，Kickstarter Staff Pick，达成率3302.2%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 330220.0,
-                "usdPledged": 330220.0,
-                "backersCount": 1449,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 3302.2,
-                "daysSinceLaunch": 269
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-34735284",
-            "brand": "BleeqUp",
-            "category": "wearable",
-            "title": "BleeqUp - AI Sports Camera Glasses",
-            "titleZh": "BleeqUp - AI 运动 拍照眼镜",
-            "desc": "4-in-1 Smart Glasses | First-Person Capture | Open-Ear Audio | 5-Hour Recording | AI One-Click Highlights | Multiple Replaceable Lenses",
-            "time": "2025-04-10 13:59",
-            "score": 77.3,
-            "visBreakdown": {
-                "recognition": 9.0,
-                "paradigmShift": 9.3,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 9.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/961658469/bleequp-ai-cycling-camera-glasses",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/414/731/cc5b27038c9dfcc7cac052e32e48e98d_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1748181862&width=560&sig=lYpA%2BSfhmuj5lBveYdwRzq7XnRWEf1WgTQj3HDDVzpw%3D",
-            "reason": "BleeqUp - AI Sports Camera Glasses，在technology/wearables领域，获得663人支持，筹得$519,102，Kickstarter Staff Pick，达成率20151.2%，视觉亮点：AI驱动、开放式音频",
-            "ksData": {
-                "goal": 20000.0,
-                "pledged": 4030239.0,
-                "usdPledged": 519101.79581586,
-                "backersCount": 663,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 20151.2,
-                "daysSinceLaunch": 435
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-457872709",
-            "brand": "LAWK",
-            "category": "wearable",
-            "title": "LAWK ONE：AR Glasses for Outdoor Adventure",
-            "titleZh": "LAWK ONE：AR眼镜 为 户外 冒险",
-            "desc": "Navigator&Bike Computer&Sports Camera&Headphone&AI Voice Control&Head-up Display&Hands-free Safety for Outdoor Adventures",
-            "time": "2023-09-26 14:46",
-            "score": 74.8,
-            "visBreakdown": {
-                "recognition": 8.5,
-                "paradigmShift": 9.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/lawkone/lawk-one-ar-glasses-design-for-the-utimate-outdoor-eyewear",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/042/747/735/6545d09a1002647494a2486011468b13_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1697685573&width=560&sig=e7h7JShwtGmpgs%2BWrEXDZaWdhaVh3l3FTNNEyq4DtkI%3D",
-            "reason": "LAWK ONE：AR Glasses for Outdoor Adventure，在technology/wearables领域，获得148人支持，筹得$54,259，Kickstarter Staff Pick，达成率540.9%，视觉亮点：新交互",
-            "ksData": {
-                "goal": 78402.0,
-                "pledged": 424105.0,
-                "usdPledged": 54258.73410815,
-                "backersCount": 148,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 540.9,
-                "daysSinceLaunch": 996
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-704230244",
-            "brand": "DevosHub",
-            "category": "wearable",
-            "title": "FusionLink G1 Smart Glasses: That Truly Connect Life with AI",
-            "titleZh": "FusionLink G1 智能眼镜: 能 真正 连接 生活 配备 AI",
-            "desc": "Powered by ChatGPT 4o & DeepSeek R1｜Instant voice control｜real-time translation｜AI assistance｜Hi-Fi immersive audio.",
-            "time": "2025-06-24 11:31",
-            "score": 74.2,
-            "visBreakdown": {
-                "recognition": 8.3,
-                "paradigmShift": 9.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/duoslim/fusionlink-g1-smart-glasses-that-truly-connect-life-with-ai",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/811/952/88da538089117bd1ce84ada3634dc4f8_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750859658&width=560&sig=TI4YbOop7odSygFgINRmdBz%2BxQd83kiKzNZnJDPHogY%3D",
-            "reason": "FusionLink G1 Smart Glasses: That Truly Connect Li，在technology/wearables领域，获得137人支持，筹得$19,050，达成率1495.4%，视觉亮点：AI驱动、新交互",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 149544.0,
-                "usdPledged": 19050.41016,
-                "backersCount": 137,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1495.4,
-                "daysSinceLaunch": 360
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1079720921",
-            "brand": "Shuhu",
-            "category": "design",
-            "title": "Shuhu Foldable Woodburning Titanium Stove. Set up in seconds",
-            "titleZh": "Shuhu 可折叠 燃木 钛合金 炉. 秒装",
-            "desc": "1-Piece Folding｜Set up in Seconds｜BBQ Grill｜4-Level Vent｜Smoke Seal｜Titanium/Stainless Steel｜Multi-Fuel Support Wood/Coal/Gas",
-            "time": "2025-01-21 13:00",
-            "score": 73.6,
-            "visBreakdown": {
-                "recognition": 8.6,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 8.5,
-                "transferability": 6.7,
-                "diffusionPotential": 7.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/shuhu/shuhu-foldable-woodburning-titanium-stove-set-up-in-seconds",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/259/290/c2fd15a1e1d631982a967d8aa079d80c_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1740121471&width=560&sig=NrYvjrnnUs%2BZpZi%2Bcndnzj07z3Bb72Sh4Mm74RbENPI%3D",
-            "reason": "Shuhu Foldable Woodburning Titanium Stove. Set up ，在design/product/design领域，获得168人支持，筹得$44,768，达成率8951.8%，视觉亮点：高端材质、可折叠",
-            "ksData": {
-                "goal": 3892.0,
-                "pledged": 348405.0,
-                "usdPledged": 44768.1959535,
-                "backersCount": 168,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 8951.8,
-                "daysSinceLaunch": 514
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-290391283",
-            "brand": "Nik Shevchenko",
-            "category": "wearable",
-            "title": "Friend: Open Source AI Wearable Recording Device",
-            "titleZh": "Friend: 开源 AI 穿戴式 录音 设备",
-            "desc": "Wear It, Record Your Conversations, Get Helpful Summaries and Advice. Customize the AI wearable for any use case you want",
-            "time": "2024-04-25 17:46",
-            "score": 73.2,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 8.3,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 8.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/kodjima333/friend-open-source-ai-wearable-recording-device",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/044/744/997/3ad89655387f7a7a486c1d6258b37501_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1713495863&width=560&sig=lwUHR9nRiIjNhSrYmgRFw794aqkA2ST1tYVp8WfVkq4%3D",
-            "reason": "Friend: Open Source AI Wearable Recording Device，在technology/wearables领域，获得712人支持，筹得$49,868，Kickstarter Staff Pick，达成率997.4%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 49868.0,
-                "usdPledged": 49868.0,
-                "backersCount": 712,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 997.4,
-                "daysSinceLaunch": 784
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1833503790",
-            "brand": "Iqbal Khan",
-            "category": "wearable",
-            "title": "Your Freedom Mask: Show your Face!",
-            "titleZh": "你的 Freedom Mask: 展示 你的 面容!",
-            "desc": "The New Innovative, US Patent Pending Design. Incorporates 2 High Efficiency KN95 Filters. Fully Transparent.",
-            "time": "2020-07-15 14:29",
-            "score": 72.7,
-            "visBreakdown": {
-                "recognition": 9.3,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 6.7,
-                "transferability": 5.8,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/yourfreedommask/your-freedom-mask-show-your-face",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/029/738/292/209cd117e369ce89c31c793cc248bcff_original.JPG?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1594144418&width=560&sig=wmbJWGXUyhOThp4LFIbYhIm8y3ZtTTHX315iVV0OU%2Fc%3D",
-            "reason": "Your Freedom Mask: Show your Face!，在technology/wearables领域，获得189人支持，筹得$18,270，达成率182.7%，视觉亮点：透明设计",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 18270.0,
-                "usdPledged": 18270.0,
-                "backersCount": 189,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 182.7,
-                "daysSinceLaunch": 2164
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1317374875",
-            "brand": "YSMART LONDON",
-            "category": "design",
-            "title": "YSMART MQ5: Magnetic Quick-Release Rechargeable Flashlight",
-            "titleZh": "YSMART MQ5: 磁吸 快拆 可充电 手电筒",
-            "desc": "Pop to Light, Snap to Charge | Magnetic Base | Super Bright | Super Tiny | Brass or Grade 5 Titanium | Lighting Made Simple & Fast",
-            "time": "2024-02-06 11:24",
-            "score": 72.2,
-            "visBreakdown": {
-                "recognition": 8.0,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 7.9,
-                "transferability": 7.4,
-                "diffusionPotential": 8.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/ysmartlondon/ysmart-mq5-magnetic-quick-release-rechargeable-flashlight",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/044/261/498/8e63a1289e33ac4fe02ba6ab3457b159_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1709803723&width=560&sig=grNMF806PYYwtEXFqP5lMs46404fDnEmgzEJui6LZrA%3D",
-            "reason": "YSMART MQ5: Magnetic Quick-Release Rechargeable Fl，在design/product/design领域，获得1,510人支持，筹得$134,685，达成率2136.5%，视觉亮点：高端材质、AI驱动、模块化/磁吸",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 106824.0,
-                "usdPledged": 134685.43295352,
-                "backersCount": 1510,
-                "currency": "GBP",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 2136.5,
-                "daysSinceLaunch": 864
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1051324994",
-            "brand": "FancyView",
-            "category": "wearable",
-            "title": "FancyView Y2: Capture Your World in 4K with Built-in AI",
-            "titleZh": "FancyView Y2: 捕捉 你的 世界 于 4K 配备 内置AI",
-            "desc": "The Future is Here. Capture in 4K and control your day with ChatGPT & Gemini. Connect hands-free with FancyView Y2 AI Glasses.",
-            "time": "2026-03-10 13:50",
-            "score": 72.1,
-            "visBreakdown": {
-                "recognition": 8.6,
-                "paradigmShift": 8.3,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/fancyview/fancyview-y2-capture-your-world-in-4k-with-built-in-ai",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/278/495/721eded768bea0ff022cad5c23ae52fe_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1768906099&width=560&sig=K%2BwaKq0SG39KmXD4v%2BDfj6b%2Bj7xkGoV4LdOsYvZYKc4%3D",
-            "reason": "FancyView Y2: Capture Your World in 4K with Built-，在technology/wearables领域，获得288人支持，筹得$61,354，达成率3195.9%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 479383.0,
-                "usdPledged": 61354.30784417,
-                "backersCount": 288,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 3195.9,
-                "daysSinceLaunch": 101
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-734420700",
-            "brand": "Keebmon",
-            "category": "design",
-            "title": "Keebmon : Powerful Core + Touch Screen + Mechanical Keyboard",
-            "titleZh": "Keebmon : 强大 Core + Touch 屏幕 + 机械键盘",
-            "desc": "Ryzen AI 9 HX 370 | Max.128GB DDR5 RAM | Max.8TB SSD | 13\" Touch Screen | RGB Low Profile Mechanical Keyboard | Portable | 1.3kg",
-            "time": "2025-12-22 13:48",
-            "score": 71.7,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 6.7,
-                "transferability": 6.7,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/332313376/keebmon-powerful-core-touch-screen-mechanical-keyboard",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/143/804/56c9f269752225aa3e521e286396c4d3_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1767793404&width=560&sig=VXahJiX3RXJbMOSpSw1VsZot3loxBwq42CC3PrOOLoc%3D",
-            "reason": "Keebmon : Powerful Core + Touch Screen + Mechanica，在design/product/design领域，获得1,181人支持，筹得$852,291，Kickstarter Staff Pick，达成率13264.3%",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 6632149.0,
-                "usdPledged": 852291.4990559,
-                "backersCount": 1181,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 13264.3,
-                "daysSinceLaunch": 179
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1527619277",
-            "brand": "Orioners Team",
-            "category": "design",
-            "title": "Orioners T6: Gr5 Titanium Compact Keyring Modular EDC System",
-            "titleZh": "Orioners T6: Gr5 钛合金 紧凑 钥匙圈 模块化 EDC 系统",
-            "desc": "Embrace the future of organization|Unlock a world of convenience|Bid farewell to cluttered gear|Your gear, your way—Modular EDC System",
-            "time": "2025-03-04 14:00",
-            "score": 71.6,
-            "visBreakdown": {
-                "recognition": 8.3,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 7.9,
-                "transferability": 7.4,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/455737531/orioners-gr5-titanium-and-damascus-knife-modular-edc-system",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/343/493/b4d2ba4d216103809a2e9d175476587d_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1740723555&width=560&sig=BUqOmrGX4ovaXTjECMsqKsLMK2ff6BPBftMrQyluCkw%3D",
-            "reason": "Orioners T6: Gr5 Titanium Compact Keyring Modular ，在design/product/design领域，获得350人支持，筹得$18,494，达成率719.1%，视觉亮点：高端材质、模块化/磁吸",
-            "ksData": {
-                "goal": 20000.0,
-                "pledged": 143826.0,
-                "usdPledged": 18493.72813704,
-                "backersCount": 350,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 719.1,
-                "daysSinceLaunch": 471
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-29597276",
-            "brand": "Colton",
-            "category": "wearable",
-            "title": "Carbon Fiber Collar Stays",
-            "titleZh": "碳纤维 领撑",
-            "desc": "Ever wanted to own something made out of carbon fiber? Now you can!",
-            "time": "2016-07-13 00:37",
-            "score": 71.2,
-            "visBreakdown": {
-                "recognition": 8.7,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 6.9,
-                "transferability": 5.8,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1148765081/carbon-fiber-collar-stays",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/013/025/536/d82ddb14cccf37b300b4ccb238cc876c_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1468292251&width=560&sig=pylXJUeFO1U5DBeACf66gIDjk83qv3RPpt%2BITsEHUPk%3D",
-            "reason": "Carbon Fiber Collar Stays，在technology/wearables领域，获得237人支持，筹得$5,574，达成率278.7%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 2000.0,
-                "pledged": 5574.0,
-                "usdPledged": 5574.0,
-                "backersCount": 237,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 278.7,
-                "daysSinceLaunch": 3628
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-290460056",
-            "brand": "Aurora Blade & EDC",
-            "category": "design",
-            "title": "Aurora Pen - Simple All In One Titanium/Aluminum Pen",
-            "titleZh": "Aurora 笔 - 简单 一体式 钛合金/铝合金 笔",
-            "desc": "A Sleek, All-in-one Pen Designed for Everyday Challenges, Crafted from Aluminum and Titanium for Unmatched Durability and Styles",
-            "time": "2025-01-28 17:57",
-            "score": 71.1,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 8.5,
-                "transferability": 6.7,
-                "diffusionPotential": 7.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/aurorapen/aurora-pen-simple-all-in-one-titanium-aluminum-pen",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/047/632/798/842dd076626979c3f7846b6181e2076a_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1734760185&width=560&sig=fQFgUVZj8dUUf1xlHbUd%2Bms4EFpsGZXHdACfwHr%2Bq6A%3D",
-            "reason": "Aurora Pen - Simple All In One Titanium/Aluminum P，在design/product/design领域，获得303人支持，筹得$18,472，Kickstarter Staff Pick，达成率2656.7%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 1000.0,
-                "pledged": 26567.0,
-                "usdPledged": 18472.42164985,
-                "backersCount": 303,
-                "currency": "CAD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 2656.7,
-                "daysSinceLaunch": 506
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-869067420",
-            "brand": "Titaner-QYW",
-            "category": "design",
-            "title": "Titaner T-Capsule: Titanium Razor & Brush Travel System",
-            "titleZh": "Titaner T-Capsule: 钛合金 剃须刀 & 刷 旅行 系统",
-            "desc": "Engineered in GR5 titanium with a patented Snap-Lock modular architecture — palm-sized and built for seamless home and travel use.",
-            "time": "2026-03-03 13:59",
-            "score": 70.5,
-            "visBreakdown": {
-                "recognition": 8.3,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 7.9,
-                "transferability": 7.0,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1125463963/titaner-t-capsule-worlds-1st-ti-razorandbrush-travel-system",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/802/500/59f9a3d508a771a0bfbc4f2892326776_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772504918&width=560&sig=XmJUX7MDEYkaKyp47mEjlCf2n8ICXag4LUKbv%2BM8CyU%3D",
-            "reason": "Titaner T-Capsule: Titanium Razor & Brush Travel S，在design/product/design领域，获得148人支持，筹得$42,550，达成率283.7%，视觉亮点：高端材质、模块化/磁吸",
-            "ksData": {
-                "goal": 117339.0,
-                "pledged": 332857.0,
-                "usdPledged": 42549.6428812,
-                "backersCount": 148,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 283.7,
-                "daysSinceLaunch": 108
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-853652493",
-            "brand": "TiConsumption",
-            "category": "design",
-            "title": "LiteMyKeys V2 – Magnetic, Stretchy, Titanium EDC System",
-            "titleZh": "LiteMyKeys V2 – 磁吸, 弹性, 钛合金 EDC 系统",
-            "desc": "Ultimate solution to lanyard your keys & carries: connect, release, attach! Say goodbye to losing the keys, biting nail bed, or messy.",
-            "time": "2025-11-27 11:59",
-            "score": 70.2,
-            "visBreakdown": {
-                "recognition": 7.7,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 7.9,
-                "transferability": 7.4,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/ticonsumption/litemykeys-v2-magnetic-stretchy-titanium-edc-system",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/571/745/e866f0e402725decaca2fab278dc261b_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1762511559&width=560&sig=4hudIdDWv6SDnNFqaeKTHlSqmZ3V6DZd9xTWPRA9SUY%3D",
-            "reason": "LiteMyKeys V2 – Magnetic, Stretchy, Titanium EDC S，在design/product/design领域，获得446人支持，筹得$52,102，达成率1042.0%，视觉亮点：高端材质、模块化/磁吸",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 52102.0,
-                "usdPledged": 52102.0,
-                "backersCount": 446,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1042.0,
-                "daysSinceLaunch": 204
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-790438285",
-            "brand": "Hart Welles",
-            "category": "wearable",
-            "title": "Bluum - Music and Dance Reactive LED Flower Crown",
-            "titleZh": "Bluum - 音乐 和 Dance Reactive LED Flower Crown",
-            "desc": "Light up the night with the world's most advanced flower crown. Custom colors, app control, sound & motion reactivity, rechargeable.",
-            "time": "2019-03-23 00:59",
-            "score": 70.2,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 7.3,
-                "transferability": 5.8,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/bluum/bluum-music-and-dance-reactive-led-flower-crown",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/024/509/203/e4a2c084bf7e9b111d7d29bb22b256e7_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1553298207&width=560&sig=aS1O4ype4LCmQ4bRuFL%2BfZCJE1RaPvH4H9pt4Ffs4pg%3D",
-            "reason": "Bluum - Music and Dance Reactive LED Flower Crown，在technology/wearables领域，获得176人支持，筹得$11,643，达成率116.4%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 11643.0,
-                "usdPledged": 11643.0,
-                "backersCount": 176,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 116.4,
-                "daysSinceLaunch": 2645
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-218435039",
-            "brand": "Bifrost Biotech, Inc.",
-            "category": "wearable",
-            "title": "Backbone: The world's FIRST complete smart posture support!",
-            "titleZh": "Backbone: 全球首款 完整 智能 姿势 支撑!",
-            "desc": "Perfect posture effortlessly: Backbone aligns & supports your posture, notifies you whenever you slouch, & reminds you to take a break!",
-            "time": "2016-03-31 16:00",
-            "score": 70.0,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 7.3,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 8.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/gobackbone/backbone-the-smart-easy-way-to-a-healthy-back",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/390/881/e411cfadcf67667d01663bbd45f2aecb_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463758641&width=560&sig=fPic7DMwPifnTm572iKP3oYWXm7%2FMPae9ptLNxU%2BG%2BQ%3D",
-            "reason": "Backbone: The world's FIRST complete smart posture，在technology/wearables领域，获得6,146人支持，筹得$467,833，达成率1871.4%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 24999.0,
-                "pledged": 467833.01,
-                "usdPledged": 467833.01,
-                "backersCount": 6146,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1871.4,
-                "daysSinceLaunch": 3731
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2053544333",
-            "brand": "Martian Watches",
-            "category": "wearable",
-            "title": "mVoice G2: World's First \"Watch\" with Voice & Full Display",
-            "titleZh": "mVoice G2: 全球首款 \"Watch\" 配备 语音 & 全 显示",
-            "desc": "Martian, a smartwatch with analog hands & time markers Initiate Calls & Commands, access Siri, Google & Alexa. Smart Movement & Crown.",
-            "time": "2017-10-31 07:02",
-            "score": 70.0,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 7.3,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 8.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/martianwatches/mvoice-g2-worlds-first-watch-with-voice-and-full-d",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/017/298/050/dc789bfb3d0fe56c9094d310dbd8aaef_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1512175422&width=560&sig=qVVpBBnPMpSqi4I42XDLf0Cp8w6M5%2Fhayugsv82khQ8%3D",
-            "reason": "mVoice G2: World's First \"Watch\" with Voice & Full，在technology/wearables领域，获得2,034人支持，筹得$336,976，达成率1123.3%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 336976.0,
-                "usdPledged": 336976.0,
-                "backersCount": 2034,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1123.3,
-                "daysSinceLaunch": 3153
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-229052874",
-            "brand": "septem studio",
-            "category": "design",
-            "title": "EATi One — 10-in-1 Titanium Adventure Utensil",
-            "titleZh": "EATi One — 10-in-1 钛合金 冒险 餐具",
-            "desc": "Cook. Prep. Eat — anywhere, without the bulk.",
-            "time": "2026-04-01 10:31",
-            "score": 70.0,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 7.9,
-                "transferability": 6.7,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/septemstudio/eati-one-all-in-one-titanium-adventure-utensil",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/431/287/03e15d23c78d60a44284df57b232a4ee_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776798387&width=560&sig=pcX1zCJs7xhiMPJVgyFatQ4zYXhmUD7WIan8eKgid6A%3D",
-            "reason": "EATi One — 10-in-1 Titanium Adventure Utensil，在design/product/design领域，获得1,067人支持，筹得$68,051，Kickstarter Staff Pick，达成率1718.4%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 3000.0,
-                "pledged": 51553.0,
-                "usdPledged": 68050.56677881,
-                "backersCount": 1067,
-                "currency": "GBP",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1718.4,
-                "daysSinceLaunch": 79
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-516693899",
-            "brand": "StressLess",
-            "category": "wearable",
-            "title": "Tully: AI bracelet to improve child’s emotional awareness",
-            "titleZh": "Tully: AI 手环 to improve child’s emotional awareness",
-            "desc": "Helps children of all ages recognize, manage & deal with emotions properly. AI-powered. Discreet. LED & Vibration alerts",
-            "time": "2022-06-28 14:22",
-            "score": 70.0,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 8.3,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 6.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/mytully/tully-wearable-for-childs-emotional-awareness-manage-stress",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/038/171/717/0ed4a49477c89603a699fb71aed92468_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1659596834&width=560&sig=7yuuqyOhHPxLal5tKNDNPxQQphdM15yFavTJr2nXOAc%3D",
-            "reason": "Tully: AI bracelet to improve child’s emotional aw，在technology/wearables领域，获得335人支持，筹得$59,232，达成率592.3%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 59232.0,
-                "usdPledged": 59232.0,
-                "backersCount": 335,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 592.3,
-                "daysSinceLaunch": 1451
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-958449317",
-            "brand": "Mindset",
-            "category": "wearable",
-            "title": "Mindset: smart headphones that improve your concentration",
-            "titleZh": "Mindset: 智能 耳机 能 improve 你的 concentration",
-            "desc": "Become your most productive self with Mindset: EEG headphones that coach you to reach deeper levels of focus.\nAudio powered by Onkyo.",
-            "time": "2017-03-01 12:49",
-            "score": 69.8,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 9.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/mindset/headphones",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/015/625/687/4477ce3d6e4ad5e7c0d61c1bdfd114ea_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1491514197&width=560&sig=mFtQbl%2BGUEtgefHCwr1FFqejlWoLK%2FDTrPMJnb5VvQk%3D",
-            "reason": "Mindset: smart headphones that improve your concen，在technology/wearables领域，获得3,829人支持，筹得$1,045,190，Kickstarter Staff Pick，达成率1045.2%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 100000.0,
-                "pledged": 1045190.01,
-                "usdPledged": 1045190.01,
-                "backersCount": 3829,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1045.2,
-                "daysSinceLaunch": 3397
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-375907129",
-            "brand": "Specdrums",
-            "category": "wearable",
-            "title": "Specdrums: Music at Your Fingertips",
-            "titleZh": "Specdrums: 音乐 at 你的 Fingertips",
-            "desc": "App-connected rings that turn color into sound, making the world your sound machine. Tap anywhere to create musical beats and sounds.",
-            "time": "2017-08-16 12:44",
-            "score": 69.8,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 9.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/364756202/specdrums-music-at-your-fingertips",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/017/137/783/f643d03d52627cef9eaa4c29f621d812_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1498458836&width=560&sig=evPIlWnXO4uEPp1QgHFTc84gHIQgEqSC8mhN62kWIY0%3D",
-            "reason": "Specdrums: Music at Your Fingertips，在technology/wearables领域，获得1,921人支持，筹得$188,944，Kickstarter Staff Pick，达成率1259.6%",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 188944.0,
-                "usdPledged": 188944.0,
-                "backersCount": 1921,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1259.6,
-                "daysSinceLaunch": 3229
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-80963633",
-            "brand": "Firefly",
-            "category": "design",
-            "title": "TiScope: The Compact Titanium Zoom Light for Everyday Carry",
-            "titleZh": "TiScope: 紧凑 钛合金 Zoom 照亮 为 日常携带",
-            "desc": "Zoomable Optics｜Gr5 Titanium｜320 Lumens｜8H Runtime｜IPX6 Waterproof｜Magnetic Quick-Release｜Dual-Directional Clip｜Keychain Hole｜And More",
-            "time": "2025-09-18 13:45",
-            "score": 69.8,
-            "visBreakdown": {
-                "recognition": 7.7,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 7.9,
-                "transferability": 7.4,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/729503280/tiscope-the-zoomable-titanium-flashlight-for-everyday-carry",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/923/734/744ab8b2c8dbaf71d7cfe4713f5e7a81_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1758507563&width=560&sig=IOeRMQudMy3SMZ4nTO1TbLRKS8Dy4HDqw8oUz5GoUSM%3D",
-            "reason": "TiScope: The Compact Titanium Zoom Light for Every，在design/product/design领域，获得132人支持，筹得$15,711，达成率523.7%，视觉亮点：高端材质、模块化/磁吸",
-            "ksData": {
-                "goal": 3000.0,
-                "pledged": 15711.0,
-                "usdPledged": 15711.0,
-                "backersCount": 132,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 523.7,
-                "daysSinceLaunch": 274
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1672844282",
-            "brand": "Coman",
-            "category": "camera",
-            "title": "Coman Go! Series T1 Snap-Open Carbon Fiber Tripod",
-            "titleZh": "Coman Go! 系列 T1 Snap-打开 碳纤维 三脚架",
-            "desc": "Snap-Open to Adjust Height | 1750mm | 4 sections | 2.4~3.5KG | Payload 20KG | Easy-release Module",
-            "time": "2025-12-01 13:40",
-            "score": 69.6,
-            "visBreakdown": {
-                "recognition": 8.9,
-                "paradigmShift": 5.0,
-                "cmfInnovation": 6.9,
-                "transferability": 5.7,
-                "diffusionPotential": 8.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/coman/coman-go-series-t1-snap-open-carbon-fiber-tripod",
-            "tags": [
-                "technology/camera equipment"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/827/416/6ae750c07b77cb0d57a2a171b1559537_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1764581117&width=560&sig=WvG6NvhLE1cTXU5qNW93j2UVpWUkFgaF4IxKxPKz2yo%3D",
-            "reason": "Coman Go! Series T1 Snap-Open Carbon Fiber Tripod，在technology/camera/equipment领域，获得473人支持，筹得$176,135，Kickstarter Staff Pick，达成率27424.2%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 1371210.0,
-                "usdPledged": 176134.8726015,
-                "backersCount": 473,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 27424.2,
-                "daysSinceLaunch": 200
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-140664037",
-            "brand": "Leitners Watch",
-            "category": "wearable",
-            "title": "Leitners Hybrid Smartwatch - The Future of Automatic Watches",
-            "titleZh": "Leitners 混合 智能手表 - 未来的 自动 Watches",
-            "desc": "The unique symbiosis of a classic timepiece with smart functions to manage your time - wherever you are and whatever you are doing",
-            "time": "2020-11-04 15:58",
-            "score": 69.3,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 6.9,
-                "transferability": 5.4,
-                "diffusionPotential": 6.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/leitners/leitners-hybrid-smartwatch-the-future-of-automatic-watches",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/031/044/354/2a2acc778f02a6aae939bdf694d3257c_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1602943486&width=560&sig=gKzu5J09%2FxkVk1kAsZXo2BOQiAMnx8pTXo6TfYeq%2BFc%3D",
-            "reason": "Leitners Hybrid Smartwatch - The Future of Automat，在technology/wearables领域，获得460人支持，筹得$257,025，达成率732.0%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 219594.0,
-                "usdPledged": 257024.7744933,
-                "backersCount": 460,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 732.0,
-                "daysSinceLaunch": 2052
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1648019353",
-            "brand": "Embr Wave",
-            "category": "wearable",
-            "title": "Embr Wave: A Thermostat For Your Body",
-            "titleZh": "Embr Wave: 温控器 为 你的 Body",
-            "desc": "Warm up or cool down when you need it most. Founded at MIT, backed by Bose Ventures & Intel Capital.",
-            "time": "2017-09-27 10:14",
-            "score": 69.2,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 8.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/embrwave/embr-wave-a-thermostat-for-your-body",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/018/051/165/a9f4635f1cefec869f095b392e5b5a3c_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1506475623&width=560&sig=fP57pco8zyvsJQGs4Gk7%2Fcv90jrfa0uWLMmg8rlMXak%3D",
-            "reason": "Embr Wave: A Thermostat For Your Body，在technology/wearables领域，获得2,837人支持，筹得$629,856，Kickstarter Staff Pick，达成率629.9%",
-            "ksData": {
-                "goal": 100000.0,
-                "pledged": 629856.02,
-                "usdPledged": 629856.02,
-                "backersCount": 2837,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 629.9,
-                "daysSinceLaunch": 3187
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1858894815",
-            "brand": "Lief Therapeutics",
-            "category": "wearable",
-            "title": "Lief | Smart patch that fights stress",
-            "titleZh": "Lief | 智能 补丁 能 fights stress",
-            "desc": "Stay calm and focused by learning to control your body's natural stress response.",
-            "time": "2016-11-29 16:05",
-            "score": 69.2,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 8.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/getlief/lief-smart-patch-that-fights-stress",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/014/548/244/cc8eeca38fd1df3a7c44ff0a3eb9688e_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1479422218&width=560&sig=%2BGs3dXJOpCDkG0rXYcwUYnZuandj3ZlyeXXRX3EYXUY%3D",
-            "reason": "Lief | Smart patch that fights stress，在technology/wearables领域，获得1,895人支持，筹得$405,922，Kickstarter Staff Pick，达成率811.8%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 405922.0,
-                "usdPledged": 405922.0,
-                "backersCount": 1895,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 811.8,
-                "daysSinceLaunch": 3488
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1323667743",
-            "brand": "Vie Style Inc.",
-            "category": "wearable",
-            "title": "VIE FIT2 : the soft, custom-fit, true wireless earphones",
-            "titleZh": "VIE FIT2 : 柔软, custom-fit, 真无线 earphones",
-            "desc": "VIE FIT2 is  the soft, custom-fitting, true wireless earphone, made from the soft silicone seamlessly conforms to your ear's shape.",
-            "time": "2020-05-20 20:18",
-            "score": 69.2,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 8.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/viestyle/vie-fit2-the-soft-custom-fit-true-wireless-earphones",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/029/123/423/5d4313964484af1a7ab467c68ecd27bc_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1589767826&width=560&sig=OVLWg3IfLFBL2LfAqBd0ntZ3ASZ4DOWIe7Zj1jY6%2FoI%3D",
-            "reason": "VIE FIT2 : the soft, custom-fit, true wireless ear，在technology/wearables领域，获得947人支持，筹得$102,067，Kickstarter Staff Pick，达成率2041.3%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 102067.0,
-                "usdPledged": 102067.0,
-                "backersCount": 947,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 2041.3,
-                "daysSinceLaunch": 2220
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2118052479",
-            "brand": "GOOVIS",
-            "category": "wearable",
-            "title": "GOOVIS G3X- Ready for an immersive journey anywhere anytime",
-            "titleZh": "GOOVIS G3X- Ready 为 immersive journey anywhere anytime",
-            "desc": "Elevate your entertainment, work, and gaming experiences with a device that's lighter, slimmer, and freer than ever before.",
-            "time": "2024-03-05 12:31",
-            "score": 69.2,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 8.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/goovis/goovis-g3x-ready-for-an-immersive-journey-anywhere-anytime",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/044/175/221/ce82debe06bfba29d29695079c1555fa_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1709185285&width=560&sig=QV9%2BwowLrLzgxrIE74Ax%2Fe%2BeAWqH5PUGn20UUNO7tOs%3D",
-            "reason": "GOOVIS G3X- Ready for an immersive journey anywher，在technology/wearables领域，获得422人支持，筹得$273,414，Kickstarter Staff Pick，达成率7134.0%",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 2140213.0,
-                "usdPledged": 273414.32956087,
-                "backersCount": 422,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 7134.0,
-                "daysSinceLaunch": 836
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2048443610",
-            "brand": "PATH Design",
-            "category": "wearable",
-            "title": "PATH Breath+Band: uses breath to measure how you burn fat",
-            "titleZh": "PATH Breath+腕带: uses breath to measure how you burn fat",
-            "desc": "Helps you get a better workout by measuring exactly how you burn fat. Tracks your breath then uses AI to recommend optimal exercise.",
-            "time": "2016-11-28 17:26",
-            "score": 69.0,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 8.3,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/978573555/path-breath-fat-band-measures-fat-burn-from-your-b",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/014/542/451/31d0588b80665c7d1f056d75454ae1e0_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1480311640&width=560&sig=Zg2NACvZmX9ozUPU37yvWa%2FckLHIV%2FSFFk9gSQwJbvw%3D",
-            "reason": "PATH Breath+Band: uses breath to measure how you b，在technology/wearables领域，获得421人支持，筹得$103,580，达成率345.3%",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 103580.01,
-                "usdPledged": 103580.01,
-                "backersCount": 421,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 345.3,
-                "daysSinceLaunch": 3489
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1153811581",
-            "brand": "SNRGY Studios",
-            "category": "design",
-            "title": "Flossr - a better way to floss.",
-            "titleZh": "Flossr - 更好 way to floss.",
-            "desc": "Works with Any Floss | Built to Last a Lifetime | Stainless Steel | Dentist-approved | Zero Plastic",
-            "time": "2026-05-06 16:59",
-            "score": 68.8,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.9,
-                "transferability": 6.3,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/snrgystudios/flossr",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/634/877/3f623e3c41b90dcbadbe319aaa8ec36a_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1778163653&width=560&sig=HaJ2VbI4xQm9PI%2F3flpvlOccJE0sOptnDvgP6wxpNdk%3D",
-            "reason": "Flossr - a better way to floss.，在design/product/design领域，获得5,377人支持，筹得$308,580，Kickstarter Staff Pick，达成率2934.5%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 9000.0,
-                "pledged": 264109.0,
-                "usdPledged": 308580.36802667,
-                "backersCount": 5377,
-                "currency": "EUR",
-                "state": "live",
-                "staffPick": true,
-                "percentFunded": 2934.5,
-                "daysSinceLaunch": 43
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1739646499",
-            "brand": "B.KNIGHT",
-            "category": "design",
-            "title": "Mini Master: Micro Titanium Keychain Knife & EDC Multitool",
-            "titleZh": "迷你 Master: Micro 钛合金 钥匙扣 Knife & EDC 多功能工具",
-            "desc": "7-in-1 Gr5 Titanium Keychain Tool--Craft Blade|Pry Bar & Bottle Opener|Magnetic-Lock Bit Storage|Screwdriver|Tritium Slot| Much More...",
-            "time": "2025-05-13 14:13",
-            "score": 68.7,
-            "visBreakdown": {
-                "recognition": 7.7,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 7.9,
-                "transferability": 7.0,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1544878064/mini-master-micro-titanium-keychain-knife-and-edc-multitool",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/021/538/be85a7a41ba292209078b86a7e7f2cf3_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1745476136&width=560&sig=fVgVmNMlUdfcuQNUFv7oPih79LNUV9%2Fe27U%2FLClfQxk%3D",
-            "reason": "Mini Master: Micro Titanium Keychain Knife & EDC M，在design/product/design领域，获得157人支持，筹得$12,995，达成率433.2%，视觉亮点：高端材质、模块化/磁吸",
-            "ksData": {
-                "goal": 3000.0,
-                "pledged": 12995.0,
-                "usdPledged": 12995.0,
-                "backersCount": 157,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 433.2,
-                "daysSinceLaunch": 401
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-823710292",
-            "brand": "Fit Pay Inc.",
-            "category": "wearable",
-            "title": "Pagaré NFC Payment Smartstraps for Pebble Smartwatches",
-            "titleZh": "Pagaré NFC Payment Smartstraps 为 Pebble Smartwatches",
-            "desc": "The coolest, easiest way to pay at millions of retailers using your Pebble smartwatch. Leave the phone behind. Just tap and go!",
-            "time": "2016-02-08 12:00",
-            "score": 68.2,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 8.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/fitpay/pagare-contactless-payment-smartstraps-for-pebble",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/327/697/f5e89e23ef92b330caf81146766c4da4_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463755753&width=560&sig=NEmEe%2F7nfccrsKoFFpgATn12zYalITC8tf04sObRuSs%3D",
-            "reason": "Pagaré NFC Payment Smartstraps for Pebble Smartwat，在technology/wearables领域，获得2,777人支持，筹得$208,164，Kickstarter Staff Pick，达成率173.5%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 120000.0,
-                "pledged": 208164.5,
-                "usdPledged": 208164.5,
-                "backersCount": 2777,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 173.5,
-                "daysSinceLaunch": 3784
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1733584662",
-            "brand": "FMTwo Game Inc.",
-            "category": "wearable",
-            "title": "Gameband: The First Smartwatch for Gamers",
-            "titleZh": "Gameband: First 智能手表 为 Gamers",
-            "desc": "A powerful Smartwatch with a built-in upgradable MicroSD drive, gaming design and exclusive content.",
-            "time": "2017-02-08 14:02",
-            "score": 68.2,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 8.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/gameband/gameband-the-first-smartwatch-for-gamers",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/015/335/747/4db52dd7751f20fe9b29cd0f6453e08e_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1489129371&width=560&sig=w8kZM2BgSUjSYzpA%2BEVFmknZjHnxxbWV4OE4rvvDp98%3D",
-            "reason": "Gameband: The First Smartwatch for Gamers，在technology/wearables领域，获得1,708人支持，筹得$325,996，Kickstarter Staff Pick，达成率434.7%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 75000.0,
-                "pledged": 325996.0,
-                "usdPledged": 325996.0,
-                "backersCount": 1708,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 434.7,
-                "daysSinceLaunch": 3417
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-584739574",
-            "brand": "Tom Lawton",
-            "category": "wearable",
-            "title": "Next generation battery-free active light, now for everyone!",
-            "titleZh": "新一代 电池-free active 照亮, now 为 每个人!",
-            "desc": "Our new Million Mile Light, powered by motion & guaranteed for a million miles to keep everyone visible whilst you walk, hike or run.",
-            "time": "2017-08-07 15:22",
-            "score": 68.2,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 8.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/millionmilelight/next-generation-battery-free-safety-light-now-for",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/016/931/373/eb3755d5bb1a2898bde57768ffac9767_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1505919325&width=560&sig=CaxhJE9xe0Lo70%2BfX3Wey%2BmW2AYKHXCz44sMoKlx3bc%3D",
-            "reason": "Next generation battery-free active light, now for，在technology/wearables领域，获得1,231人支持，筹得$63,289，Kickstarter Staff Pick，达成率121.4%",
-            "ksData": {
-                "goal": 40000.0,
-                "pledged": 48547.0,
-                "usdPledged": 63288.87862853,
-                "backersCount": 1231,
-                "currency": "GBP",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 121.4,
-                "daysSinceLaunch": 3237
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1952394678",
-            "brand": "Charles Lethaby",
-            "category": "design",
-            "title": "ION MATHEMATICS: Formulas for Life",
-            "titleZh": "ION MATHEMATICS: Formulas 为 生活",
-            "desc": "A beefcake of a fountain pen machined in Titanium and Aluminium",
-            "time": "2025-12-09 17:59",
-            "score": 68.1,
-            "visBreakdown": {
-                "recognition": 8.0,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 7.9,
-                "transferability": 6.7,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/ionbp/ion-mathematics-formulas-for-life",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/590/662/76197f746f7a471080dbcf8fae3d2cee_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1762697441&width=560&sig=%2FXrN3xRZa6muCpkzpSz5UKa3tJH3jnaG27svSsIJlYw%3D",
-            "reason": "ION MATHEMATICS: Formulas for Life，在design/product/design领域，获得83人支持，筹得$10,027，达成率7516.0%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 100.0,
-                "pledged": 7516.0,
-                "usdPledged": 10026.761138,
-                "backersCount": 83,
-                "currency": "GBP",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 7516.0,
-                "daysSinceLaunch": 191
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1853329378",
-            "brand": "Lyssa Neel, Ph.D.",
-            "category": "wearable",
-            "title": "Linkitz: Smart, code-able friendship bracelets",
-            "titleZh": "Linkitz: 智能, code-able friendship bracelets",
-            "desc": "Linkitz empower girls to explore technology and build amazing things.",
-            "time": "2015-05-05 16:00",
-            "score": 67.7,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 7.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/996821255/linkitz-wearable-code-able-toys-for-girls",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/011/872/103/8018d6a2d9826d5c3ab8ecbbd0aca153_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463707945&width=560&sig=Un%2Bzq9UtXHx7mTFpxOwobTPAURv8ZVbyROpMOfMO9EU%3D",
-            "reason": "Linkitz: Smart, code-able friendship bracelets，在technology/wearables领域，获得686人支持，筹得$100,687，Kickstarter Staff Pick，达成率106.0%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 95000.0,
-                "pledged": 100687.0,
-                "usdPledged": 100687.0,
-                "backersCount": 686,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 106.0,
-                "daysSinceLaunch": 4062
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1563725880",
-            "brand": "What? Watch",
-            "category": "wearable",
-            "title": "Calendar Watch",
-            "titleZh": "Calendar Watch",
-            "desc": "Calendar Watch combines iconic watch design with your favorite digital calendar",
-            "time": "2016-02-24 18:00",
-            "score": 67.7,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 7.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1540240985/calendar-watch",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/381/607/0060a8c5131fcf0a85fca23e8dcdb659_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463758087&width=560&sig=fT9NYvZym0QlouuMJCm7HYm83j8kttZcnmYP65OJFPg%3D",
-            "reason": "Calendar Watch，在technology/wearables领域，获得624人支持，筹得$170,835，Kickstarter Staff Pick，达成率162.8%",
-            "ksData": {
-                "goal": 95000.0,
-                "pledged": 154677.0,
-                "usdPledged": 170834.53003137,
-                "backersCount": 624,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 162.8,
-                "daysSinceLaunch": 3767
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-223075211",
-            "brand": "Remidi T8 Wearable Instrument",
-            "category": "wearable",
-            "title": "Remidi: First Wearable Instrument to Record, Play & Perform",
-            "titleZh": "Remidi: First 穿戴式 Instrument to 录制, 播放 & Perform",
-            "desc": "Sensors in fingers & palm trigger custom sounds while connected wrist-controller/hand gestures control effects with reverb, echo, etc.",
-            "time": "2016-02-16 17:21",
-            "score": 67.7,
-            "visBreakdown": {
-                "recognition": 8.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 7.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/376537646/remidi-first-wearable-instrument-to-record-play-an",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/285/181/480e22334c0a39fd9ebcc48f4316e9d4_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463750617&width=560&sig=A3Ini%2B%2FHtS4EIADGHPh%2Fb8hfIQC7%2B65NDMgIIJEdQ%2Fs%3D",
-            "reason": "Remidi: First Wearable Instrument to Record, Play ，在technology/wearables领域，获得530人支持，筹得$137,326，Kickstarter Staff Pick，达成率274.7%，视觉亮点：新交互",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 137325.78,
-                "usdPledged": 137325.78,
-                "backersCount": 530,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 274.7,
-                "daysSinceLaunch": 3775
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1683642535",
-            "brand": "Peter Marx",
-            "category": "wearable",
-            "title": "VR Lens Lab - Glasses for Virtual Reality Headsets",
-            "titleZh": "VR Lens Lab - Glasses 为 Virtual Reality Headsets",
-            "desc": "We build glasses for your virtual reality headset inside your virtual reality headset.",
-            "time": "2016-04-07 15:48",
-            "score": 67.5,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/451454651/vr-lens-lab-glasses-for-virtual-reality-headsets",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/415/596/72f9780ee4eb83d440d7dbbe4f35bb24_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463760106&width=560&sig=0N8wdAl3%2FaZqkLWxkw%2BA%2FkoUvL4tgi%2FbrkEuNM1Ckm4%3D",
-            "reason": "VR Lens Lab - Glasses for Virtual Reality Headsets，在technology/wearables领域，获得1,306人支持，筹得$49,177，达成率864.7%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 43234.0,
-                "usdPledged": 49177.10214708,
-                "backersCount": 1306,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 864.7,
-                "daysSinceLaunch": 3724
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-92791598",
-            "brand": "TQSKY",
-            "category": "wearable",
-            "title": "TQSKY T1-Your Personal Audiovisual AR Glasses",
-            "titleZh": "TQSKY T1-你的 Personal Audiovisual AR眼镜",
-            "desc": "PS, Xbox, PC Remote Play | Switch & Steam Deck support | Drone vision| Myopia Friendly| 150\" HD Screen | AR/XR Glasses",
-            "time": "2022-07-07 12:00",
-            "score": 67.5,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/tqksy/tqsky-t1-your-own-portable-and-private-cinema",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/037/880/044/45f5388a7fa7135d821fab01e03c5e57_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1657164552&width=560&sig=bxAxAAn13bViLTP5VU73wc52TSWWLcRK61D9%2FJiyd%2Bk%3D",
-            "reason": "TQSKY T1-Your Personal Audiovisual AR Glasses，在technology/wearables领域，获得699人支持，筹得$319,509，达成率1602.0%",
-            "ksData": {
-                "goal": 28000.0,
-                "pledged": 448574.0,
-                "usdPledged": 319509.2121424,
-                "backersCount": 699,
-                "currency": "SGD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1602.0,
-                "daysSinceLaunch": 1443
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2049044225",
-            "brand": "Xynavo",
-            "category": "wearable",
-            "title": "Xynavo — Lightweight AR Glasses for Cinema-Scale Immersion",
-            "titleZh": "Xynavo — 轻量 AR眼镜 为 Cinema-Scale Immersion",
-            "desc": "70° Wide FOV | Dual 4K | 95g | Zero-Leak Audio | Dual 3D SBS Modes | +2D to -6D Diopter | Expandable Thermal & Night Vision",
-            "time": "2026-01-06 12:53",
-            "score": 67.5,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/798790151/xynavo-lightweight-ar-glasses-for-cinema-scale-immersion",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/082/383/c4ff8b5128cbb44edc3cee9ec5b0640a_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1767174870&width=560&sig=76%2Bxsk8y%2BNjcwSfhTDknij5enyQhI5ihhMiUTp%2F42v8%3D",
-            "reason": "Xynavo — Lightweight AR Glasses for Cinema-Scale I，在technology/wearables领域，获得665人支持，筹得$209,055，达成率1393.7%",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 209055.0,
-                "usdPledged": 209055.0,
-                "backersCount": 665,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1393.7,
-                "daysSinceLaunch": 164
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-45764830",
-            "brand": "Koushicare",
-            "category": "wearable",
-            "title": "LuminEyes: World’s First Dual Light & Heat Eye Care Device",
-            "titleZh": "LuminEyes: 世界’s First Dual 照亮 & 加热 Eye Care 设备",
-            "desc": "Designed to soothe dry, gritty eyes, KoushiCare LuminEyes locks in moisture for lasting comfort while revitalizing your look.",
-            "time": "2025-11-25 14:44",
-            "score": 67.5,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/koushicare/lumineyes-moisturizing-comfort-enhancing-eye-massager",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/082/476/98f60da5b896d66bbb15ba95a28ae9e1_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1767175780&width=560&sig=oKmZ5N5l4TjAXxMhwLNArUtV2q%2Bp%2FBCk42mKezyLYp4%3D",
-            "reason": "LuminEyes: World’s First Dual Light & Heat Eye Car，在technology/wearables领域，获得586人支持，筹得$212,017，达成率4243.7%",
-            "ksData": {
-                "goal": 38886.0,
-                "pledged": 1650216.0,
-                "usdPledged": 212016.96281496,
-                "backersCount": 586,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 4243.7,
-                "daysSinceLaunch": 205
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-139367753",
-            "brand": "Vimai",
-            "category": "wearable",
-            "title": "V-Powerbuds Pro: TWS Earbuds That Tracks Heart Rate & Oxygen",
-            "titleZh": "V-Powerbuds 专业版: TWS 耳机 能 Tracks Heart Rate & Oxygen",
-            "desc": "TWS Sport Earbuds | Heart Rate Monitoring | Oxygen & Respiration Rate Tracking | Exercise Feedback | Online & Offline Voice Control",
-            "time": "2020-01-08 13:00",
-            "score": 67.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 7.7,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/vimai/v-powerbuds-the-heart-rate-and-oxygen-tracking-tws-earbuds",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/027/995/093/37c27d3fc089930e8861ceaab0f75b9d_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1580993967&width=560&sig=smF0IaiBxNLIDDnLQOKU%2FCGLWjxEpMj90%2F0c0GOdT%2FA%3D",
-            "reason": "V-Powerbuds Pro: TWS Earbuds That Tracks Heart Rat，在technology/wearables领域，获得144人支持，筹得$18,152，达成率181.5%，视觉亮点：新交互",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 18152.0,
-                "usdPledged": 18152.0,
-                "backersCount": 144,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 181.5,
-                "daysSinceLaunch": 2354
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-475919287",
-            "brand": "UNA Watch",
-            "category": "design",
-            "title": "Meet UNA - The Modular GPS Sports Watch",
-            "titleZh": "Meet UNA - 模块化 GPS 运动 Watch",
-            "desc": "With Its Fully Repairable & Upgradable Components, UNA Is The Next Generation Of GPS Sports Watches.",
-            "time": "2025-04-02 09:04",
-            "score": 67.3,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 6.6,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/unawatch/meet-una-the-modular-gps-sports-watch",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/127/683/677b40612007554a3b6fd1ddcdd92cde_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1746182230&width=560&sig=l7i0rtD43kpxYrYb9qxn%2BICQvKpSkOUaYb6QrESoCKs%3D",
-            "reason": "Meet UNA - The Modular GPS Sports Watch，在design/product/design领域，获得1,293人支持，筹得$337,533，Kickstarter Staff Pick，达成率2610.0%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 261002.0,
-                "usdPledged": 337532.84722878,
-                "backersCount": 1293,
-                "currency": "GBP",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 2610.0,
-                "daysSinceLaunch": 443
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-148660995",
-            "brand": "VERSUS",
-            "category": "design",
-            "title": "Ice Device | The Any-Way Tray for 1\" Ice & 2\" Cocktail Cubes",
-            "titleZh": "Ice 设备 | Any-Way Tray 为 1\" Ice & 2\" Cocktail Cubes",
-            "desc": "Effortless, everyday, bar-quality ice. 1\" or 2\" cubes, sealed and stackable. One sleek, interchangeable design. No smells. No mess.",
-            "time": "2025-04-15 15:30",
-            "score": 67.2,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.8,
-                "transferability": 6.6,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/versuswww/ice-device",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/935/157/b2ec20a87b08fd7ef96287966c2d3df6_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1744837822&width=560&sig=WAvpantqJc%2FN94RmFYG0erczHmOlVuWP0XqO6JOwpLE%3D",
-            "reason": "Ice Device | The Any-Way Tray for 1\" Ice & 2\" Cock，在design/product/design领域，获得2,806人支持，筹得$213,364，Kickstarter Staff Pick，达成率15240.3%",
-            "ksData": {
-                "goal": 1400.0,
-                "pledged": 213364.0,
-                "usdPledged": 213364.0,
-                "backersCount": 2806,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 15240.3,
-                "daysSinceLaunch": 429
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1509068695",
-            "brand": "Arohi Jain",
-            "category": "wearable",
-            "title": "The BreezeBubble UltraProtect Mask",
-            "titleZh": "BreezeBubble UltraProtect Mask",
-            "desc": "BreezeBubble is an innovative mask with a flexible edge design that provides high protection and comfort for healthy breathing.",
-            "time": "2020-10-15 03:02",
-            "score": 67.0,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/b-b/the-breezebubble-mask",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/031/068/338/fa093792f85a3673b90424615515d889_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1603123939&width=560&sig=G%2Bg4TdV2%2FlMwzdZldcyacQcqYuVctknlpGuhOJbHSOw%3D",
-            "reason": "The BreezeBubble UltraProtect Mask，在technology/wearables领域，获得657人支持，筹得$51,995，达成率519.9%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 51995.0,
-                "usdPledged": 51995.0,
-                "backersCount": 657,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 519.9,
-                "daysSinceLaunch": 2073
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1620921855",
-            "brand": "Project Ratchet",
-            "category": "wearable",
-            "title": "Ratchet Ring: A Tool For Satisfying Stimulation",
-            "titleZh": "棘轮扳手 戒指: 工具 为 Satisfying Stimulation",
-            "desc": "The Ratchet Ring turns and clicks in one direction, producing soothing tactile feedback that helps you relax & focus.",
-            "time": "2022-10-18 15:59",
-            "score": 67.0,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/project-ratchet/ratchet-ring-a-tool-for-satisfying-stimulation",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/038/841/599/0db8883319732d95c6dbdde87d95f083_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1665254266&width=560&sig=8yvb8k8ZyQqONJHWTmT8fpL2YBjGvX1KksYzdUaN3vo%3D",
-            "reason": "Ratchet Ring: A Tool For Satisfying Stimulation，在technology/wearables领域，获得597人支持，筹得$90,449，达成率619.1%",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 92863.11,
-                "usdPledged": 90448.9375143879,
-                "backersCount": 597,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 619.1,
-                "daysSinceLaunch": 1339
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1521256071",
-            "brand": "Adrian Cornish and Nathan Roy",
-            "category": "wearable",
-            "title": "Apex  Bionic Resistance Shorts. Enhance Workouts by 100%+",
-            "titleZh": "Apex Bionic Resistance Shorts. Enhance Workouts by 100%+",
-            "desc": "Whether you're a weekend warrior, fitness enthusiast or serious athlete, the BRS will accelerate your exercise and training goals!",
-            "time": "2015-10-20 14:03",
-            "score": 66.9,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 6.9,
-                "transferability": 5.0,
-                "diffusionPotential": 5.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/2139514385/bionic-resistance-shorts-by-apex-resistance-and-co",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/011/730/800/060b2475920283441de12a8bb1a0e53b_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463687502&width=560&sig=%2BTbhLMrS3nEjg5l%2FMo0cWxqX9hFZZlU%2FSSyJSvBlYXA%3D",
-            "reason": "Apex  Bionic Resistance Shorts. Enhance Workouts b，在technology/wearables领域，获得78人支持，筹得$24,847，达成率124.2%",
-            "ksData": {
-                "goal": 20000.0,
-                "pledged": 24847.0,
-                "usdPledged": 24847.0,
-                "backersCount": 78,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 124.2,
-                "daysSinceLaunch": 3894
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-41188927",
-            "brand": "HEYii",
-            "category": "design",
-            "title": "HEYtrace+ | the Eternal Tracing Paper",
-            "titleZh": "HEYtrace+ | Eternal Tracing Paper",
-            "desc": "Draw, Erase, Repeat✍️ | Tearproof & Foldable💫 | Works with Various Pens | Includes Pen & Cloth🖊️🧼| HEYii™– On-the-Go Creativity!",
-            "time": "2024-12-23 12:00",
-            "score": 66.8,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/heyiiofficial/heytrace",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/047/939/152/869324d79f9f8011a6ca550ab1a72a82_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1737683090&width=560&sig=BFE5AcbDlLcYolKpOh%2BKV21tM96Cam9F3pLmk90dWKU%3D",
-            "reason": "HEYtrace+ | the Eternal Tracing Paper，在design/product/design领域，获得1,271人支持，筹得$85,197，Kickstarter Staff Pick，达成率8519.7%，视觉亮点：可折叠",
-            "ksData": {
-                "goal": 1000.0,
-                "pledged": 85197.0,
-                "usdPledged": 85197.0,
-                "backersCount": 1271,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 8519.7,
-                "daysSinceLaunch": 543
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1076191565",
-            "brand": "Arcanium",
-            "category": "design",
-            "title": "340 End Table | The dream home for your gear",
-            "titleZh": "340 End Table | dream 家庭 为 你的 装备",
-            "desc": "A sleek, modular way to store, charge, and access your peripherals.",
-            "time": "2026-02-24 14:50",
-            "score": 66.8,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 6.6,
-                "diffusionPotential": 8.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/arcanium/340-end-table-the-dream-home-for-your-gear",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/713/843/823df22c4751ad9b0256628b5f7dcc55_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1771916040&width=560&sig=wVCbG0Cybg%2BOhqS9%2BbVVKnaV6PjL1tSrN2F2X3Tl8Gs%3D",
-            "reason": "340 End Table | The dream home for your gear，在design/product/design领域，获得945人支持，筹得$477,644，Kickstarter Staff Pick，达成率4776.4%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 477644.0,
-                "usdPledged": 477644.0,
-                "backersCount": 945,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 4776.4,
-                "daysSinceLaunch": 114
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1754379371",
-            "brand": "Ussa Design",
-            "category": "design",
-            "title": "The All-New Pioneer Trim Router Jig System",
-            "titleZh": "所有-全新 Pioneer Trim 路由器 Jig 系统",
-            "desc": "Multiple Versions with Modular Attachments Expanded Lineup: New Pioneer Jigs, New Capabilities",
-            "time": "2025-10-24 13:30",
-            "score": 66.8,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 6.6,
-                "diffusionPotential": 8.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/ussa/the-all-new-pioneer-trim-router-jig-system",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/084/003/e9d7c41c62b9f1eac14fc701cb9993cf_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1759407824&width=560&sig=7lU5yJtymiJKGv%2Fe1U6%2BVqZAHJKLIyBZiKjkspPHVho%3D",
-            "reason": "The All-New Pioneer Trim Router Jig System，在design/product/design领域，获得891人支持，筹得$142,392，Kickstarter Staff Pick，达成率1383.2%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 80000.0,
-                "pledged": 1106594.0,
-                "usdPledged": 142392.3108628,
-                "backersCount": 891,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1383.2,
-                "daysSinceLaunch": 238
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1679476754",
-            "brand": "Subcube",
-            "category": "design",
-            "title": "The World’s First Magnetic Modular System",
-            "titleZh": "世界’s First 磁吸 模块化 系统",
-            "desc": "Snap. Stack. Organize. Smarter storage for your car, home, and adventures.",
-            "time": "2025-09-16 15:00",
-            "score": 66.8,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 6.6,
-                "diffusionPotential": 8.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/subcube/the-worlds-first-magnetic-modular-system",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/943/603/29fad50350994bfcb0fe830cfec484b9_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1758618622&width=560&sig=%2Fa6hRylVpDfe0wqkHc%2FjjG9tU2jeJlG95ag5hUR6p4U%3D",
-            "reason": "The World’s First Magnetic Modular System，在design/product/design领域，获得888人支持，筹得$252,912，Kickstarter Staff Pick，达成率2521.1%，视觉亮点：AI驱动、模块化/磁吸",
-            "ksData": {
-                "goal": 78000.0,
-                "pledged": 1966434.0,
-                "usdPledged": 252911.61106356,
-                "backersCount": 888,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 2521.1,
-                "daysSinceLaunch": 275
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-263497740",
-            "brand": "Transparent",
-            "category": "design",
-            "title": "Transparent Aroma Diffuser",
-            "titleZh": "透明 Aroma 香薰机",
-            "desc": "An ultrasonic diffuser that spreads fragrance safely and elegantly in the home, designed to last a lifetime.",
-            "time": "2025-11-06 11:46",
-            "score": 66.8,
-            "visBreakdown": {
-                "recognition": 8.7,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.7,
-                "transferability": 6.3,
-                "diffusionPotential": 6.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/transparent/aroma-diffuser",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/570/461/f4f2ac023c6f55c8ce45e0e6886d8108_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1762503817&width=560&sig=gtDaaRLqlYo1MpcAQCH%2B0b14mo6Bcgj0uOsgI2E6wDY%3D",
-            "reason": "Transparent Aroma Diffuser，在design/product/design领域，获得275人支持，筹得$68,621，Kickstarter Staff Pick，达成率228.7%，视觉亮点：透明设计",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 68621.0,
-                "usdPledged": 68621.0,
-                "backersCount": 275,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 228.7,
-                "daysSinceLaunch": 225
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1118742741",
-            "brand": "retimer",
-            "category": "wearable",
-            "title": "retimer 3 - A wearable to not just track, but FIX YOUR SLEEP",
-            "titleZh": "retimer 3 - 穿戴式 to not 只需 track, but 修复 你的 睡眠",
-            "desc": "Your every day companion to fix sleep, fatigue, winter blues, jet lag & shift work. See results in just 7 days.",
-            "time": "2024-08-21 10:12",
-            "score": 66.4,
-            "visBreakdown": {
-                "recognition": 8.2,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/retimer/retimer-3-kickstart-the-sleep-revolution",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/046/560/480/4057c069aade7e7542ae33ccd195c3cc_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1726913750&width=560&sig=MRfRQSqL2Qx%2FX5g6g9jIcTzr%2FbDUWgMTxGXCv9D0dLk%3D",
-            "reason": "retimer 3 - A wearable to not just track, but FIX ，在technology/wearables领域，获得400人支持，筹得$83,592，Kickstarter Staff Pick，达成率541.1%",
-            "ksData": {
-                "goal": 23000.0,
-                "pledged": 124448.0,
-                "usdPledged": 83591.71413312,
-                "backersCount": 400,
-                "currency": "AUD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 541.1,
-                "daysSinceLaunch": 667
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1002763525",
-            "brand": "Omaxs",
-            "category": "design",
-            "title": "Omaxs Solderbot:World's 1st 18-in-1 Soldering Bot For Makers",
-            "titleZh": "Omaxs Solderbot:世界的 1st 18-in-1 Soldering Bot 为 Makers",
-            "desc": "Work-Ready in 2s|Compact & Portable|Filtered Fan For Safer Soldering|Foldable LED Light|20–40× Magnification and more",
-            "time": "2026-02-05 14:20",
-            "score": 66.3,
-            "visBreakdown": {
-                "recognition": 8.4,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/omaxs/omaxs-solderbot-worlds-1st-18-in-1-soldering-bot-for-makers",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/806/147/9e3ebb1095e03707b385f57b114f8f85_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772526115&width=560&sig=W%2Fs4EzzzryiIAhzBm3%2FlZqtVvidj%2FxcpLsyvcea%2F7sg%3D",
-            "reason": "Omaxs Solderbot:World's 1st 18-in-1 Soldering Bot ，在design/product/design领域，获得910人支持，筹得$131,945，Kickstarter Staff Pick，达成率26389.0%，视觉亮点：可折叠",
-            "ksData": {
-                "goal": 500.0,
-                "pledged": 131945.0,
-                "usdPledged": 131945.0,
-                "backersCount": 910,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 26389.0,
-                "daysSinceLaunch": 133
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-677920647",
-            "brand": "CapLab GmbH",
-            "category": "wearable",
-            "title": "Bcon | World's Most Competitive Gaming Wearable",
-            "titleZh": "Bcon | 世界的 Most Competitive Gaming 穿戴式",
-            "desc": "Fast. Precise. Steady. Increased performance in all games for all gamers.",
-            "time": "2018-05-15 07:05",
-            "score": 66.2,
-            "visBreakdown": {
-                "recognition": 8.5,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1782246871/bcon-the-first-ever-gaming-wearable",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/021/116/275/f0d18eefff3e79a280c3cbe1e480d0f3_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1528555820&width=560&sig=jEiw9bT6HrYjveKP9o9ONCz83MdfkXa0WTdzYlyiG%2FU%3D",
-            "reason": "Bcon | World's Most Competitive Gaming Wearable，在technology/wearables领域，获得321人支持，筹得$61,956，Kickstarter Staff Pick，达成率103.6%",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 51777.0,
-                "usdPledged": 61955.55410319,
-                "backersCount": 321,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 103.6,
-                "daysSinceLaunch": 2957
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-916479869",
-            "brand": "Dr.-Ing. Johannes Kreuzer",
-            "category": "wearable",
-            "title": "degree° - continuous in-ear thermometer for children",
-            "titleZh": "degree° - continuous in-ear 体温计 为 children",
-            "desc": "Continuously monitor the temperature of your child during a fever.\nGet an alarm if the temperature is too high or rising too fast.",
-            "time": "2017-04-26 12:45",
-            "score": 66.2,
-            "visBreakdown": {
-                "recognition": 8.5,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/690312019/degree-continuous-in-ear-thermometer-for-children",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/015/490/291/3e40f7db5a32f0e73c70a2517c5a8f3f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1493109852&width=560&sig=RI2qg6DRPkGpVyKP8IOh1UWcmPKrvK6kUrF9s2IAsc8%3D",
-            "reason": "degree° - continuous in-ear thermometer for childr，在technology/wearables领域，获得296人支持，筹得$58,872，Kickstarter Staff Pick，达成率108.4%",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 54212.5,
-                "usdPledged": 58872.04594275,
-                "backersCount": 296,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 108.4,
-                "daysSinceLaunch": 3341
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-883582859",
-            "brand": "Blade Legend & EDC Tool",
-            "category": "design",
-            "title": "TiSnap: Nano-Hardened Titanium EDC Quick-Release Connector",
-            "titleZh": "TiSnap: 纳米版-Hardened 钛合金 EDC 快拆 连接器",
-            "desc": "Nano-Hardened TC4 Titanium Quick-Release EDC Key Connector | Anti-Accidental Lock, Hidden Cutter, 360° Swivel, Anti-Loss Security",
-            "time": "2026-05-08 12:21",
-            "score": 66.1,
-            "visBreakdown": {
-                "recognition": 7.7,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 7.9,
-                "transferability": 6.3,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/462484306/tisnap-titanium-quick-release-keychain-connector-edc",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/495/923/a2efbc3902958440cef27413cb4aed5b_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1777270775&width=560&sig=HiIGmlYbBqXuNMwO92LAecHmgPWoZ7vyE5qWhnRc3Fg%3D",
-            "reason": "TiSnap: Nano-Hardened Titanium EDC Quick-Release C，在design/product/design领域，获得109人支持，筹得$10,258，达成率267.8%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 80340.0,
-                "usdPledged": 10257.8441394,
-                "backersCount": 109,
-                "currency": "HKD",
-                "state": "live",
-                "staffPick": false,
-                "percentFunded": 267.8,
-                "daysSinceLaunch": 42
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-508438682",
-            "brand": "Kolari",
-            "category": "wearable",
-            "title": "Kolari Shades: Actual GLASS Sunglasses with IR blocking",
-            "titleZh": "Kolari Shades: Actual GLASS Sunglasses 配备 IR blocking",
-            "desc": "Providing unparalleled clarity and spectral protection through superior optics.",
-            "time": "2024-01-09 14:01",
-            "score": 66.0,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 7.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/kolarivision/kolari-shades-the-worlds-sharpest-sunglasses",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/043/904/431/8cd4ce0e078fad46c53b6ef979d33970_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1707153922&width=560&sig=9R1jad5gbBdo0RyLIlT3CwQAYfpIi%2F8ioz6EkcAFkis%3D",
-            "reason": "Kolari Shades: Actual GLASS Sunglasses with IR blo，在technology/wearables领域，获得178人支持，筹得$35,623，达成率1017.8%",
-            "ksData": {
-                "goal": 3500.0,
-                "pledged": 35623.0,
-                "usdPledged": 35623.0,
-                "backersCount": 178,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1017.8,
-                "daysSinceLaunch": 891
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-303823466",
-            "brand": "Pawswing",
-            "category": "design",
-            "title": "Tired of Endless Cat Fur Vacuuming? Meet PawSwing Neo",
-            "titleZh": "Tired 的 Endless 猫 Fur Vacuuming? Meet PawSwing Neo",
-            "desc": "World’s First Auto Cat Groomer: Effortless, Non-Electric Bionic Design, 360° Comfort, All Sizes, Trusted By 8000+ Parents",
-            "time": "2025-11-18 16:33",
-            "score": 65.9,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.9,
-                "transferability": 5.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/pawswing/pawswing-neo-self-grooming-cat-house",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/010/321/632013123de3cb9ad2efd42e0fff593b_original.webp?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1766311039&width=560&sig=REZs72zyqpx1BzJiYWk0d4BYJRhit4h06AJcSmM%2BR5M%3D",
-            "reason": "Tired of Endless Cat Fur Vacuuming? Meet PawSwing ，在design/product/design领域，获得1,487人支持，筹得$386,920，Kickstarter Staff Pick，达成率3869.2%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 386920.0,
-                "usdPledged": 386920.0,
-                "backersCount": 1487,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 3869.2,
-                "daysSinceLaunch": 212
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1159981169",
-            "brand": "SAVIOR Design",
-            "category": "design",
-            "title": "TwistPen- Titanium Retractable Tip Pencil (Canceled)",
-            "titleZh": "TwistPen- 钛合金 可伸缩 Tip Pencil (Canceled)",
-            "desc": "Titanium mechanism,Retractable twist mechanism,Comfortable grip, Mechanical pencil+Free Special Wooden Box",
-            "time": "2024-05-03 22:00",
-            "score": 65.6,
-            "visBreakdown": {
-                "recognition": 7.7,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 7.9,
-                "transferability": 6.3,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/rulerv3/twistpen-retractable-pencil",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/044/908/060/37cbda0a654862fa3c4ef3a65e7d5587_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1714693253&width=560&sig=RGOFSl2yqbKfPbwZu2FfCFy%2FNDMM15Z1pGOCdo%2F5Q1k%3D",
-            "reason": "TwistPen- Titanium Retractable Tip Pencil (Cancele，在design/product/design领域，获得75人支持，筹得$6,209，达成率620.9%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 1000.0,
-                "pledged": 6209.0,
-                "usdPledged": 6209.0,
-                "backersCount": 75,
-                "currency": "USD",
-                "state": "canceled",
-                "staffPick": false,
-                "percentFunded": 620.9,
-                "daysSinceLaunch": 776
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-980040326",
-            "brand": "GUANGLI",
-            "category": "wearable",
-            "title": "Holoswim 2: AR Smart Swim Goggles",
-            "titleZh": "Holoswim 2: AR 智能 Swim Goggles",
-            "desc": "Swim Smart with Metrics Tracking & Real-time Display, Your Personal Swimming Partner Anytime, Anywhere",
-            "time": "2022-08-02 12:59",
-            "score": 65.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 6.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/holoswim/holoswim-2-ar-smart-swim-goggles",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/038/152/041/6690676f73eb3350a0843d9af1c52e42_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1659453844&width=560&sig=oMivQlYS8VmiPac5GwrhTHGn3oGI7xxxlLKszxIQUAk%3D",
-            "reason": "Holoswim 2: AR Smart Swim Goggles，在technology/wearables领域，获得360人支持，筹得$51,596，达成率810.0%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 405024.0,
-                "usdPledged": 51595.61043648,
-                "backersCount": 360,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 810.0,
-                "daysSinceLaunch": 1417
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-763404288",
-            "brand": "DURAN",
-            "category": "wearable",
-            "title": "DURAN: The Most Slim Cozy Heated Base Layer",
-            "titleZh": "DURAN: Most Slim Cozy Heated 底座 Layer",
-            "desc": "Weaved-in heating fiber | Warm up to 7 hrs | Heat In Seconds | 3 Heating Levels & 5 Heated Zone | 100% Washer Safe",
-            "time": "2019-04-26 18:29",
-            "score": 65.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.4,
-                "diffusionPotential": 6.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/9327152/duran-the-most-slim-cozy-heated-base-layer-0",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/024/751/537/ae0b5b725c0746327e630054e5f57eec_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1555095555&width=560&sig=vS%2Fr8kNWi1eYF9Z%2BGqcVFRsiKVw3kQ9fQ0XA9Be1V5U%3D",
-            "reason": "DURAN: The Most Slim Cozy Heated Base Layer，在technology/wearables领域，获得301人支持，筹得$34,108，达成率682.2%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 34108.0,
-                "usdPledged": 34108.0,
-                "backersCount": 301,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 682.2,
-                "daysSinceLaunch": 2610
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1425172986",
-            "brand": "Lukasz Cegla",
-            "category": "design",
-            "title": "Stylish Miniature City Models by Urbanette Designs",
-            "titleZh": "Stylish Miniature City Models by Urbanette Designs",
-            "desc": "Intricate miniature cityscapes featuring buildings, infrastructure, and geography. 20+ available cities in multiple color options.",
-            "time": "2024-03-30 19:00",
-            "score": 65.5,
-            "visBreakdown": {
-                "recognition": 7.5,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 7.3,
-                "transferability": 6.7,
-                "diffusionPotential": 7.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/urbanette-designs/stylish-miniature-city-models-by-urbanette-designs",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/044/231/696/63f331b327a332b0734a439498a5c351_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1709608359&width=560&sig=esrQ%2FC%2FZqCZGC8RFvCTk3oSLg%2FnXmmsW3AK31InlZ3o%3D",
-            "reason": "Stylish Miniature City Models by Urbanette Designs，在design/product/design领域，获得107人支持，筹得$11,636，Kickstarter Staff Pick，达成率581.8%",
-            "ksData": {
-                "goal": 2000.0,
-                "pledged": 11636.0,
-                "usdPledged": 11636.0,
-                "backersCount": 107,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 581.8,
-                "daysSinceLaunch": 810
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-771602004",
-            "brand": "Larry Tiefenbrunn",
-            "category": "camera",
-            "title": "Platypod Bracket & Bounce — Modular Flash & Lighting System",
-            "titleZh": "Platypod 支架 & 反射 — 模块化 闪光灯 & 灯光 系统",
-            "desc": "Designed for photographers and videographers to create clean, flattering light anywhere - from family gatherings to formal events.",
-            "time": "2026-03-26 17:34",
-            "score": 65.1,
-            "visBreakdown": {
-                "recognition": 8.9,
-                "paradigmShift": 5.8,
-                "cmfInnovation": 4.5,
-                "transferability": 5.2,
-                "diffusionPotential": 7.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/platyball/platypod-bracket-and-bounce-modular-flash-and-lighting-system",
-            "tags": [
-                "technology/camera equipment"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/359/330/7ecb5775fffd8831964654b7968ed494_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776308704&width=560&sig=D6OEsT2WpWR7jnpc4Kegke5dZWOV3x3Svb0meqbcX%2Bw%3D",
-            "reason": "Platypod Bracket & Bounce — Modular Flash & Lighti，在technology/camera/equipment领域，获得523人支持，筹得$93,150，Kickstarter Staff Pick，达成率266.1%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 35000.0,
-                "pledged": 93150.0,
-                "usdPledged": 93150.0,
-                "backersCount": 523,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 266.1,
-                "daysSinceLaunch": 84
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1340496398",
-            "brand": "AuroraSync",
-            "category": "design",
-            "title": "SynchroSound R7 Pro : Where Time Meets Translation and AI",
-            "titleZh": "SynchroSound R7 专业版 : Where Time Meets Translation 和 AI",
-            "desc": "Innovative Design of Watch and Earbuds in One|Real-Time Translation|AI Chat|Meeting Recording|Sleep Earbuds|Full Touch Screen",
-            "time": "2025-01-29 14:01",
-            "score": 65.1,
-            "visBreakdown": {
-                "recognition": 7.5,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 7.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/150738284/synchrosound-r7-pro-where-time-meets-translation-and-ai",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/106/969/e32dd91abe7e19d2462f1f15d5b5ad7f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1738996438&width=560&sig=semiRA6mzQCektYQB8q2Vqe4FRflDObdha%2BMHIPgJxI%3D",
-            "reason": "SynchroSound R7 Pro : Where Time Meets Translation，在design/product/design领域，获得410人支持，筹得$41,967，Kickstarter Staff Pick，达成率1634.3%",
-            "ksData": {
-                "goal": 20000.0,
-                "pledged": 326854.0,
-                "usdPledged": 41966.63505364,
-                "backersCount": 410,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1634.3,
-                "daysSinceLaunch": 505
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1134624910",
-            "brand": "solos",
-            "category": "wearable",
-            "title": "Solos Smart Glasses: Wellbeing & Fashion Styles All in One",
-            "titleZh": "Solos 智能眼镜: Wellbeing & Fashion Styles 一体式",
-            "desc": "Two Styles in One Glasses! Argon collection has more surprising features that you have ever imagined.",
-            "time": "2019-12-21 00:23",
-            "score": 65.1,
-            "visBreakdown": {
-                "recognition": 8.3,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/solostechnology/solos-smart-glasses-wellbeing-and-fashion-styles-all-in-one",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/027/620/660/ef1ca6be4fe44b929d0a1b55f979c618_original.jfif?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1577775746&width=560&sig=CSapmt1dhtdAlJRgu6T%2B7alrYPj%2Fc9J%2FElLOkuRnvHE%3D",
-            "reason": "Solos Smart Glasses: Wellbeing & Fashion Styles Al，在technology/wearables领域，获得290人支持，筹得$65,630，达成率102.3%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 500000.0,
-                "pledged": 511370.0,
-                "usdPledged": 65629.7576248,
-                "backersCount": 290,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 102.3,
-                "daysSinceLaunch": 2372
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-636930044",
-            "brand": "EndlessID LLC",
-            "category": "wearable",
-            "title": "EndlessID - The most innovative NFC wearables ever!",
-            "titleZh": "EndlessID - most 创新 NFC 穿戴设备 ever!",
-            "desc": "EID keeps your cell phone secured even when unlocked providing privacy & allows you to share your contact info w/ just a tap! Get yours",
-            "time": "2015-09-28 12:01",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/endlessid/endlessid-simplifies-your-life-with-just-a-tap",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/204/305/5fd56e705879d9d084d6b23ed8fb7a3d_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463741844&width=560&sig=VAWxKXgqOXyWdbNqlLM7GnEsYXCUgG6PLd%2BxAUhhhzo%3D",
-            "reason": "EndlessID - The most innovative NFC wearables ever，在technology/wearables领域，获得391人支持，筹得$29,741，达成率119.0%",
-            "ksData": {
-                "goal": 25000.0,
-                "pledged": 29741.0,
-                "usdPledged": 29741.0,
-                "backersCount": 391,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 119.0,
-                "daysSinceLaunch": 3917
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1314100597",
-            "brand": "Christopher Dobbing",
-            "category": "wearable",
-            "title": "Smart Cambridge Mask: You & Clean Air, Connected",
-            "titleZh": "智能 Cambridge Mask: You & 清洁 Air, Connected",
-            "desc": "Our respirator measures breathing activity, pollutants around you and pairs with our app, which tells you when to wear your mask!",
-            "time": "2017-05-30 08:44",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1302396957/smart-cambridge-mask-you-and-clean-air-connected",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/016/593/003/c8c71f0f1686dcdb75c836db63cf8d68_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1496375165&width=560&sig=MJmieuTYbzegZX8a8mCK3KtkVi1P3lRt0WHECTG37NI%3D",
-            "reason": "Smart Cambridge Mask: You & Clean Air, Connected，在technology/wearables领域，获得322人支持，筹得$42,970，达成率134.1%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 25000.0,
-                "pledged": 33522.0,
-                "usdPledged": 42969.65141592,
-                "backersCount": 322,
-                "currency": "GBP",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 134.1,
-                "daysSinceLaunch": 3307
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1490484514",
-            "brand": "Waterfi",
-            "category": "wearable",
-            "title": "Waterfi Swimcast: Streaming Music Player for Swimming",
-            "titleZh": "Waterfi Swimcast: Streaming 音乐 播放器 为 Swimming",
-            "desc": "Stream music from your favorite apps in the pool with a built-in waterproof Chromecast Audio that does what Bluetooth headphones can’t",
-            "time": "2018-03-20 19:51",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/waterfi/waterfi-swimcast-streaming-music-player-for-swimmi",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/020/565/379/6875ec2c4b9d3a84d717d41622d69036_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1521572587&width=560&sig=haHgytqyiFfaXNNgoOzkNzmepVsKzbxQnlT84CCeqEc%3D",
-            "reason": "Waterfi Swimcast: Streaming Music Player for Swimm，在technology/wearables领域，获得277人支持，筹得$33,693，达成率112.3%",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 33693.0,
-                "usdPledged": 33693.0,
-                "backersCount": 277,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 112.3,
-                "daysSinceLaunch": 3012
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1506219554",
-            "brand": "Ty Srey",
-            "category": "wearable",
-            "title": "Neorings secures, mounts, stands, your smartphone and tablet",
-            "titleZh": "Neorings secures, mounts, stands, 你的 smartphone 和 tablet",
-            "desc": "Secure your smartphone in your hand without worry of drops, perfect to mount in your car or anywhere else; makes the most useful stand.",
-            "time": "2015-06-24 03:51",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/2040423593/the-middle-finger-ring",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/170/139/31612e819678256a133659b1b2a70e74_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463739373&width=560&sig=1PlOAcTZrAgndqMa9kfOIF2oThyEw5GXGX1GgMGku4E%3D",
-            "reason": "Neorings secures, mounts, stands, your smartphone ，在technology/wearables领域，获得276人支持，筹得$30,177，达成率104.5%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 28888.0,
-                "pledged": 30177.0,
-                "usdPledged": 30177.0,
-                "backersCount": 276,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 104.5,
-                "daysSinceLaunch": 4013
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2090311973",
-            "brand": "Pocuter",
-            "category": "wearable",
-            "title": "Spectra - The hackable smartwatch built for developers",
-            "titleZh": "Spectra - hackable 智能手表 打造 为 developers",
-            "desc": "Merging high end smartwatches with maker freedom and right to repair.",
-            "time": "2024-10-15 12:01",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/pocuter/spectra",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/046/956/924/17f4b3904c4ec7e93606fc49c4059559_original.JPG?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1729461628&width=560&sig=iyX4uZMAgO5BPRJGcK%2FUkCz%2BdZEXmnbmddIAlEXD3sk%3D",
-            "reason": "Spectra - The hackable smartwatch built for develo，在technology/wearables领域，获得255人支持，筹得$79,238，达成率241.7%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 72524.0,
-                "usdPledged": 79237.64748836,
-                "backersCount": 255,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 241.7,
-                "daysSinceLaunch": 612
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2042355245",
-            "brand": "Doug Monahan",
-            "category": "wearable",
-            "title": "iBackPack 2.0 - 4G MiFI, HiTech Batteries - Smart Cables",
-            "titleZh": "iBackPack 2.0 - 4G MiFI, HiTech Batteries - 智能 Cables",
-            "desc": "iBackPack 2.0  - 3G/4G Wi-Fi/Mi-Fi, Bluetooth Audio, Massive Batteries, 6 USB, Wireless/Car Charger, 50 Pockets, Bulletproof Options",
-            "time": "2016-03-09 12:01",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/ibackpack/ibackpack-20-3g-4g-mi-fi-bulletproof-bluetooth-aud",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/233/312/859c1410cbb68ea1c3225133c124f5f7_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463744726&width=560&sig=DNXsgMQ7B6CMWn934NICWWwDCqIHqtPwm7vaLhxLR7A%3D",
-            "reason": "iBackPack 2.0 - 4G MiFI, HiTech Batteries - Smart ，在technology/wearables领域，获得252人支持，筹得$76,694，达成率153.4%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 76694.0,
-                "usdPledged": 76694.0,
-                "backersCount": 252,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 153.4,
-                "daysSinceLaunch": 3754
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-436569651",
-            "brand": "Mr Blinky Bling",
-            "category": "wearable",
-            "title": "2017 WiFi Badge",
-            "titleZh": "2017 WiFi 徽章",
-            "desc": "Our unofficial DefCon badge; ESP8266 + Arduino + LEDs. Scan for SSIDs and add your own code. Capacitive touch buttons.",
-            "time": "2017-06-26 17:04",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/666360536/2017-wifi-badge",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/017/244/118/f76eae8c5c71b907f30b2ce96237b6f3_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1498343186&width=560&sig=IvyDHuhqrOz%2FqXoQnSpwU7X0Kb4Hu8VvEGG%2BV8V7igA%3D",
-            "reason": "2017 WiFi Badge，在technology/wearables领域，获得241人支持，筹得$13,465，达成率299.2%",
-            "ksData": {
-                "goal": 4500.0,
-                "pledged": 13464.66,
-                "usdPledged": 13464.66,
-                "backersCount": 241,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 299.2,
-                "daysSinceLaunch": 3279
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-220610288",
-            "brand": "Lisa R. Tamayo",
-            "category": "wearable",
-            "title": "Scollar Mini - Expandable smart collar for small dogs & cats",
-            "titleZh": "Scollar 迷你 - Expandable 智能 collar 为 small dogs & cats",
-            "desc": "Scollar Mini is built on an open platform to grow and change with the dynamic needs of your pets, for every stage of their lives.",
-            "time": "2017-01-24 16:09",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/scollar/scollar-mini-for-small-dogs-and-cats",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/015/228/506/c295557d668fe9590fae24bcf8deebf8_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1487446637&width=560&sig=rC6bkfRjLTFiaO3RFuaHzGdsJZTWWja3tLSQ1vglJuw%3D",
-            "reason": "Scollar Mini - Expandable smart collar for small d，在technology/wearables领域，获得237人支持，筹得$38,872，达成率259.1%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 38871.5,
-                "usdPledged": 38871.5,
-                "backersCount": 237,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 259.1,
-                "daysSinceLaunch": 3432
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1729136375",
-            "brand": "Niports, Inc",
-            "category": "wearable",
-            "title": "Specter: Safe and Stylish Device for Night Runners &Athletes",
-            "titleZh": "Specter: Safe 和 Stylish 设备 为 夜间 Runners &Athletes",
-            "desc": "Fully customizable athletic safety device with high quality LED lights that create text or an image as you move.",
-            "time": "2016-07-27 07:00",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1034136906/specter-safe-and-stylish-device-for-night-runners",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/013/127/504/5efb812f9de948a65bc2e281077097e8_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1469140612&width=560&sig=TObtjLnMs3EMZj7bfGU3jZWGEivxLMv1UhvC4HaQejw%3D",
-            "reason": "Specter: Safe and Stylish Device for Night Runners，在technology/wearables领域，获得232人支持，筹得$30,568，达成率101.9%",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 30568.0,
-                "usdPledged": 30568.0,
-                "backersCount": 232,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 101.9,
-                "daysSinceLaunch": 3614
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1354576699",
-            "brand": "Metadox",
-            "category": "wearable",
-            "title": "The PHASMA! A Soundproof Mask for Gaming",
-            "titleZh": "PHASMA! Soundproof Mask 为 Gaming",
-            "desc": "Metadox presents the PHASMA, a comfortable, easy-to-breathe soundproof mask that allows you to play games anywhere, anytime",
-            "time": "2021-04-19 22:01",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/metadox/the-phasma-a-voice-dampening-mask-for-gamers",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/033/191/220/85581c26195d3b94e3042a3f2d869131_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1618867664&width=560&sig=MVk8MjpN8RZnRuYMBhV2Cz2adDl%2FZ1BGcNv8o8tClNg%3D",
-            "reason": "The PHASMA! A Soundproof Mask for Gaming，在technology/wearables领域，获得208人支持，筹得$24,309，达成率202.9%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 20288.0,
-                "usdPledged": 24308.97123328,
-                "backersCount": 208,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 202.9,
-                "daysSinceLaunch": 1886
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1396078529",
-            "brand": "GPTracks UG",
-            "category": "wearable",
-            "title": "GPCATS - Life saving GPS tracker made specifically for cats",
-            "titleZh": "GPCATS - 生活 saving GPS 追踪器 制作 specifically 为 cats",
-            "desc": "Designed by a veterinarian, GPCats finally gives you peace and comfort while your cuddly friend is exploring the world.",
-            "time": "2015-11-09 18:00",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/gpcats/gpcats-life-saving-gps-tracker-made-specifically-f",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/270/785/3676d13e261f1a744bc5c6d7ba0c230d_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463748976&width=560&sig=Y9S%2Bv1XQP5%2FJZkuYaeop7Ho6AMwA7mmrL8Kuk9tPNO8%3D",
-            "reason": "GPCATS - Life saving GPS tracker made specifically，在technology/wearables领域，获得206人支持，筹得$43,107，达成率100.3%",
-            "ksData": {
-                "goal": 40000.0,
-                "pledged": 40132.0,
-                "usdPledged": 43106.52243804,
-                "backersCount": 206,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 100.3,
-                "daysSinceLaunch": 3874
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1120859700",
-            "brand": "Michael",
-            "category": "wearable",
-            "title": "Rally: Smart Wearable Safety that Prevents Assaults",
-            "titleZh": "Rally: 智能 穿戴式 Safety 能 Prevents Assaults",
-            "desc": "With the tap of a button, you’re connected to family and friends, 911, and the Rally community when you are in need. Safety on demand.",
-            "time": "2018-06-20 16:44",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1270316379/rally-wearable-safety-button-keeping-your-loved-on",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/017/807/966/84d278102710f292de6a7829bb513405_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1532315345&width=560&sig=g9IeiC%2BCdrMXv1sYTnMJy981%2FXVFw4hDsprNwx0AokU%3D",
-            "reason": "Rally: Smart Wearable Safety that Prevents Assault，在technology/wearables领域，获得204人支持，筹得$16,936，达成率112.9%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 16936.0,
-                "usdPledged": 16936.0,
-                "backersCount": 204,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 112.9,
-                "daysSinceLaunch": 2920
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-167674794",
-            "brand": "ExerWise Team",
-            "category": "wearable",
-            "title": "ExerWise - Encouraging Children To Be Active",
-            "titleZh": "ExerWise - Encouraging Children To Be Active",
-            "desc": "ExerWise is Informing and Educating Children about the Importance of Exercise and it's benefits, with our Wearable Activity Tracker",
-            "time": "2016-04-29 16:46",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/exerwise/exerwise-encouraging-children-to-be-active",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/406/436/5ae26dbd4c0210bc2ac0391d11f61460_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463759645&width=560&sig=63dDO0lOp2qJzdAe5b37pJCEbZSvzfAFVCvWcDyDaGs%3D",
-            "reason": "ExerWise - Encouraging Children To Be Active，在technology/wearables领域，获得158人支持，筹得$12,328，达成率108.8%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 10878.0,
-                "usdPledged": 12328.11974646,
-                "backersCount": 158,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 108.8,
-                "daysSinceLaunch": 3702
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1845530720",
-            "brand": "Dennis J Solomon",
-            "category": "wearable",
-            "title": "AR for Everyone Augmented/Mixed/Virtual Reality Headset",
-            "titleZh": "AR 为 每个人 Augmented/Mixed/虚拟现实头显",
-            "desc": "AR for Everyone enables  Augmented/Mixed/Virtual Reality from the simplest to the most sophisticated. Visit AR IN ACTION at MIT",
-            "time": "2017-11-18 22:27",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/holodeckstrangeness/ar-for-everyone-augmented-mixed-virtual-reality-he",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/018/358/101/8e66afcc2e6faef7f53907ec862f0c82_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1515117318&width=560&sig=aobIprGVByCJIQOPBqk8kVSZqKVUp7g4DpxxZ9SgYuw%3D",
-            "reason": "AR for Everyone Augmented/Mixed/Virtual Reality He，在technology/wearables领域，获得136人支持，筹得$6,831，达成率136.6%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 6831.0,
-                "usdPledged": 6831.0,
-                "backersCount": 136,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 136.6,
-                "daysSinceLaunch": 3134
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-194067692",
-            "brand": "MAD Gaze",
-            "category": "wearable",
-            "title": "MAD Glass: The World's Most Advanced Smart Glass & Ecosystem",
-            "titleZh": "MAD Glass: 世界的 Most 高级 智能 Glass & Ecosystem",
-            "desc": "Hands in the air! Catching ALL - Social, Translation, Navigation and Entertainment, at ONE GLIMPSE.",
-            "time": "2015-12-12 11:46",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/madgaze/mad-glass-see-things-in-a-new-angle",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/306/772/53e4293318a0adc94fbb28b0fb08fec4_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463755091&width=560&sig=0JxQayn%2BZXpcjjXExcBotr1OS68Ncdta42TviSM4Ssk%3D",
-            "reason": "MAD Glass: The World's Most Advanced Smart Glass &，在technology/wearables领域，获得130人支持，筹得$79,706，达成率110.0%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 100000.0,
-                "pledged": 109977.0,
-                "usdPledged": 79705.60749669,
-                "backersCount": 130,
-                "currency": "AUD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 110.0,
-                "daysSinceLaunch": 3842
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-654028328",
-            "brand": "General Neuro",
-            "category": "wearable",
-            "title": "NeuroLingo: Neurotech for Language Learning",
-            "titleZh": "NeuroLingo: Neurotech 为 Language Learning",
-            "desc": "NeuroLingo is a non-invasive headset developed by Yale neuroscientists to enhance foreign language acquisition.",
-            "time": "2025-10-26 21:40",
-            "score": 64.5,
-            "visBreakdown": {
-                "recognition": 8.1,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/generalneuro/neurolingo-neurotech-for-your-second-language",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/349/737/1301a9216cfc6176b15654513ce2530a_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1761073658&width=560&sig=kWVQyo2BqzyHI8Fqc55vOVKMjTUSS%2BGuYYp1ACK%2BFQs%3D",
-            "reason": "NeuroLingo: Neurotech for Language Learning，在technology/wearables领域，获得120人支持，筹得$21,338，达成率118.5%",
-            "ksData": {
-                "goal": 18000.0,
-                "pledged": 21338.0,
-                "usdPledged": 21338.0,
-                "backersCount": 120,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 118.5,
-                "daysSinceLaunch": 235
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-15996438",
-            "brand": "Sentien",
-            "category": "hardware",
-            "title": "Sentien Audio — Your New Superpower.",
-            "titleZh": "Sentien 音频 — 你的 全新 超能力.",
-            "desc": "The open-ear headset that merges offline and online realities.\nSmart glasses for your ears.",
-            "time": "2021-03-16 14:01",
-            "score": 64.4,
-            "visBreakdown": {
-                "recognition": 8.6,
-                "paradigmShift": 5.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/sentien/sentien-audio",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/032/748/635/31afec9c8ab4ee7afeceddd64f6b6dfb_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1615835342&width=560&sig=5KtPat5SWOv9PFpOBXzSLzGMElXh%2Bv5hrBro%2B749wRI%3D",
-            "reason": "Sentien Audio — Your New Superpower.，在technology/hardware领域，获得3,333人支持，筹得$787,374，达成率7873.7%，视觉亮点：AI驱动、开放式音频",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 787374.01,
-                "usdPledged": 787374.01,
-                "backersCount": 3333,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 7873.7,
-                "daysSinceLaunch": 1920
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-235978012",
-            "brand": "Makera",
-            "category": "hardware",
-            "title": "Makera Z1 Desktop CNC: Entry-level CNC, Pro-level Power",
-            "titleZh": "Makera Z1 桌面 CNC: 入门 CNC, 专业版-level 供电",
-            "desc": "Metal / Wood / Endless Materials | Industrial-Grade Accuracy | Smart CNC Workflow | One-Click CAM Software | AI-Powered CNC Modeling",
-            "time": "2025-10-28 15:00",
-            "score": 63.4,
-            "visBreakdown": {
-                "recognition": 5.8,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 6.9,
-                "transferability": 4.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/makera-inc/makera-z1-entry-level-cnc-pro-level-power",
-            "tags": [
-                "technology/fabrication tools"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/502/264/b1ed20a4392251aaf51cd08c15242056_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1777308676&width=560&sig=%2F5z%2Fx5VEECZnYq84MYIK69nJGuCsmpGgQlhSNDdsJuc%3D",
-            "reason": "Makera Z1 Desktop CNC: Entry-level CNC, Pro-level ，在technology/fabrication/tools领域，获得8,284人支持，筹得$12,432,267，Kickstarter Staff Pick，达成率12432.6%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 776800.0,
-                "pledged": 96576146.0,
-                "usdPledged": 12432266.5898092,
-                "backersCount": 8284,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 12432.6,
-                "daysSinceLaunch": 233
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-818943325",
-            "brand": "Domitree",
-            "category": "design",
-            "title": "Domitree ALT: 10-in-1 Electric Standing Desk+Hidden Storage",
-            "titleZh": "Domitree ALT: 10-in-1 电动 升降桌+Hidden Storage",
-            "desc": "Smart Lift System, Hidden Pegboard Storage, Height Adjustment, Built-in Charging, Three-Tier Workspace, Lighting & More.",
-            "time": "2025-10-09 13:48",
-            "score": 63.0,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/domitree/domitre-the-transformable-lift-desk-and-pegboard-storage",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/070/971/5d5aa1a4cee8657d86d84db72365d21e_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1767062693&width=560&sig=tu6NByUMBqPVCRSXddlBHE514fe6LvMd4nxynBC8rIs%3D",
-            "reason": "Domitree ALT: 10-in-1 Electric Standing Desk+Hidde，在design/product/design领域，获得2,842人支持，筹得$1,658,886，Kickstarter Staff Pick，达成率16588.9%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 1658886.0,
-                "usdPledged": 1658886.0,
-                "backersCount": 2842,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 16588.9,
-                "daysSinceLaunch": 253
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1636978172",
-            "brand": "Nick Sjolinder",
-            "category": "design",
-            "title": "BYOK: The Ultimate Distraction-Free Writing Tool",
-            "titleZh": "BYOK: 终极 Distraction-Free Writing 工具",
-            "desc": "Achieve writing zen with a streamlined, distraction-free environment using your own keyboard.",
-            "time": "2024-08-21 15:02",
-            "score": 63.0,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/byok/byok-the-ultimate-distraction-free-writing-tool",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/047/565/489/d619f6588355e8f574fd86eee33c40ee_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1734066810&width=560&sig=uq7VsLNjJ5%2FWGY3qWL7Tv2V%2B8zSwrIX5nJaLKmsG6lg%3D",
-            "reason": "BYOK: The Ultimate Distraction-Free Writing Tool，在design/product/design领域，获得2,377人支持，筹得$373,571，Kickstarter Staff Pick，达成率7471.4%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 373571.0,
-                "usdPledged": 373571.0,
-                "backersCount": 2377,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 7471.4,
-                "daysSinceLaunch": 666
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-203902567",
-            "brand": "Sparkle Team",
-            "category": "wearable",
-            "title": "SPARKLE TORNADO: YOUR 360° WEARABLE WAIST AIR-CONDITIONER",
-            "titleZh": "SPARKLE TORNADO: 你的 360° 穿戴式 WAIST AIR-CONDITIONER",
-            "desc": "All Around Cooling | Gentle Air Volume | Skin-friendly | Adjustable Buckle | Ultra-Quiet Operation | 3.5 H Runtime | Lightweight Design",
-            "time": "2022-09-27 13:03",
-            "score": 63.0,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 5.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/sparkle-team/sparkle-tornado-your-360-wearable-waist-air-conditioner",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/038/632/382/7d722d844348038530ee4cf43e938c01_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1663573347&width=560&sig=OUOIe6jSmd7DccxuHJcIstvYMPuqzaPL%2FIlagZYpGhE%3D",
-            "reason": "SPARKLE TORNADO: YOUR 360° WEARABLE WAIST AIR-COND，在technology/wearables领域，获得82人支持，筹得$13,158，达成率259.5%",
-            "ksData": {
-                "goal": 39800.0,
-                "pledged": 103288.0,
-                "usdPledged": 13158.37372712,
-                "backersCount": 82,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 259.5,
-                "daysSinceLaunch": 1361
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1096228284",
-            "brand": "UFIRST Inc.",
-            "category": "wearable",
-            "title": "NUGUNA Neckband for people with hearing loss",
-            "titleZh": "NUGUNA Neckband 为 people 配备 hearing loss",
-            "desc": "Designed for people with some trouble hearing, it detects high pitched sounds and informs the user to its direction.",
-            "time": "2017-06-22 14:18",
-            "score": 63.0,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 5.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1381554034/nuguna-neckband-for-people-with-hearing-loss",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/016/864/552/c0adf368de618295d653adf233e9a1f2_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1499786327&width=560&sig=pw05MGa3RRGYbYpBxGjx5Dj%2BDxt8tVrBlxtR%2FYZaiBw%3D",
-            "reason": "NUGUNA Neckband for people with hearing loss，在technology/wearables领域，获得63人支持，筹得$32,077，达成率106.9%",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 32077.0,
-                "usdPledged": 32077.0,
-                "backersCount": 63,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 106.9,
-                "daysSinceLaunch": 3283
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1555439130",
-            "brand": "Alaya",
-            "category": "design",
-            "title": "Aerogel Quilt: Where Cosmic Warmth Meets Earthly Comfort",
-            "titleZh": "Aerogel Quilt: Where Cosmic Warmth Meets Earthly 舒适",
-            "desc": "Aerospace Materials，Aerogel，keep Warm and Resist Cold，Won't Deform After Washing， Smooth And Not Sticky，Good Breathability，Lightweight",
-            "time": "2024-09-10 12:59",
-            "score": 62.9,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.9,
-                "transferability": 6.7,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1922584962/aerospace-materials-resistant-to-temperatures-down-to-40c",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/046/392/488/847e2231b8b257978f2bdebafeac956a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1725878506&width=560&sig=m%2BFj9vvnKRQMynyjdrwGrE8L5JGLrDJqT7pMC0njio8%3D",
-            "reason": "Aerogel Quilt: Where Cosmic Warmth Meets Earthly C，在design/product/design领域，获得166人支持，筹得$36,427，达成率946.6%",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 283985.0,
-                "usdPledged": 36426.74175075,
-                "backersCount": 166,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 946.6,
-                "daysSinceLaunch": 647
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-270310055",
-            "brand": "AKEEYO",
-            "category": "camera",
-            "title": "EYES: Your AI Driving Assistant for Safer, Smarter Journeys",
-            "titleZh": "EYES: 你的 AI 驾驶 Assistant 为 Safer, Smarter Journeys",
-            "desc": "2K HD Triple-Lens | Voice Control | Parking Monitoring | Proactive Alerts | ADAS & BSD | 5G WI-FI | App | OTA Updates",
-            "time": "2024-09-03 14:01",
-            "score": 62.6,
-            "visBreakdown": {
-                "recognition": 7.3,
-                "paradigmShift": 8.0,
-                "cmfInnovation": 4.5,
-                "transferability": 4.5,
-                "diffusionPotential": 5.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/akeeyo/bionic-ai-dashcam-adas-and-bsd-dual-assistance-systems",
-            "tags": [
-                "technology/camera equipment"
-            ],
-            "image": "https://i.kickstarter.com/assets/046/270/644/c604debea03973dd8e3ff50f8f46c574_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1725012707&width=560&sig=RYwcbyvm%2B2nZ%2BQKQIXKYkP3Bhi1C5%2BjW6D%2FspUsfJbg%3D",
-            "reason": "EYES: Your AI Driving Assistant for Safer, Smarter，在technology/camera/equipment领域，获得35人支持，筹得$9,162，达成率343.1%，视觉亮点：AI驱动、新交互",
-            "ksData": {
-                "goal": 20821.0,
-                "pledged": 71439.0,
-                "usdPledged": 9161.84171934,
-                "backersCount": 35,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 343.1,
-                "daysSinceLaunch": 653
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-892333433",
-            "brand": "Somni",
-            "category": "design",
-            "title": "SomniBuds™ - Battery-Free Sleep Earbuds",
-            "titleZh": "SomniBuds™ - 电池-Free 睡眠 耳机",
-            "desc": "SomniBuds™ are the world’s smallest and most comfortable earbuds designed for sleep—with limitless streaming and zero recharging",
-            "time": "2025-09-09 15:02",
-            "score": 62.5,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/somnibuds/somnibuds-battery-free-sleep-earbuds",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/069/409/f6f606d7e4adde185f0bc34122187d92_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1759327584&width=560&sig=u7cUT%2BfDpwxgvc9akOKrLT5aU2JykQPjwU7MQ0oX8uU%3D",
-            "reason": "SomniBuds™ - Battery-Free Sleep Earbuds，在design/product/design领域，获得1,176人支持，筹得$269,003，Kickstarter Staff Pick，达成率1993.3%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 199328.0,
-                "usdPledged": 269003.36949952,
-                "backersCount": 1176,
-                "currency": "GBP",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1993.3,
-                "daysSinceLaunch": 282
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1919562921",
-            "brand": "Bache Life",
-            "category": "design",
-            "title": "Ultralight Speed Tarp - by Bâche",
-            "titleZh": "Ultralight Speed Tarp - by Bâche",
-            "desc": "Setting up a tarp at camp has never been so easy. Designed for campers to be lightweight, fast, and efficient.",
-            "time": "2025-06-10 15:05",
-            "score": 62.5,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/bache/speed-tarp",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/218/758/6e8fc6fbfa30b0d01eb58e329cef41ba_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1746817194&width=560&sig=vsNSHgjLTAXe3KNwNoPP%2F7QeAC1QaouZdqj3zVSMtvg%3D",
-            "reason": "Ultralight Speed Tarp - by Bâche，在design/product/design领域，获得1,035人支持，筹得$168,210，Kickstarter Staff Pick，达成率2302.2%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 230219.0,
-                "usdPledged": 168210.04876027,
-                "backersCount": 1035,
-                "currency": "CAD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 2302.2,
-                "daysSinceLaunch": 373
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1124935314",
-            "brand": "SAJA ENERGY",
-            "category": "wearable",
-            "title": "ENEGY BIKE",
-            "titleZh": "ENEGY BIKE",
-            "desc": "Smart handlebar with built-in rechargeable battery with your movement",
-            "time": "2022-07-03 02:23",
-            "score": 62.5,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 6.5,
-                "cmfInnovation": 5.0,
-                "transferability": 5.0,
-                "diffusionPotential": 5.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1964513429/smart-handlebar",
-            "tags": [
-                "technology/wearables"
-            ],
-            "image": "https://i.kickstarter.com/assets/037/876/401/e52d920ffbae80bfc4568c3adcdc570d_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1657138797&width=560&sig=M6GUx8zxkoYrEYYSg3fZ%2FoKKvyJoXtjVAbK8wrUnS2c%3D",
-            "reason": "ENEGY BIKE，在technology/wearables领域，获得42人支持，筹得$50,472，达成率100.9%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 50472.0,
-                "usdPledged": 50472.0,
-                "backersCount": 42,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 100.9,
-                "daysSinceLaunch": 1447
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-900671550",
-            "brand": "REEFLEX",
-            "category": "camera",
-            "title": "Super Telephoto 240mm — Boost Your Smartphone Reach to 10x",
-            "titleZh": "超长焦 240mm — Boost 你的 Smartphone Reach to 10x",
-            "desc": "Capture distant subjects, stunning portraits, and magic macro shots with our patent-backed lens engineered for the 5x Telephoto Cameras",
-            "time": "2024-10-22 12:29",
-            "score": 62.4,
-            "visBreakdown": {
-                "recognition": 8.3,
-                "paradigmShift": 5.0,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/reeflex/super-telephoto-240mm-reach-further-capture-sharper",
-            "tags": [
-                "technology/camera equipment"
-            ],
-            "image": "https://i.kickstarter.com/assets/046/984/198/b2b7463d9c2d76826993ddf91ac4520e_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1729610792&width=560&sig=3fkpx0tqGRBjrr0l%2Bpd6Rxgjqb0vRe41JClGMk2n%2Bq8%3D",
-            "reason": "Super Telephoto 240mm — Boost Your Smartphone Reac，在technology/camera/equipment领域，获得1,193人支持，筹得$421,762，Kickstarter Staff Pick，达成率3881.8%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 388181.0,
-                "usdPledged": 421762.12295633,
-                "backersCount": 1193,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 3881.8,
-                "daysSinceLaunch": 605
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-280743671",
-            "brand": "KUN",
-            "category": "design",
-            "title": "KUN : Modular All-in-One Multifunction Cooker",
-            "titleZh": "KUN : 模块化 一体式 Multifunction Cooker",
-            "desc": "Super-sized intelligent oven/ multi-function/Dual Sensor Prob/1800W flat cast iron heating plate /Cooking is now easy/fun/Social",
-            "time": "2024-03-07 16:40",
-            "score": 62.1,
-            "visBreakdown": {
-                "recognition": 7.7,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 6.6,
-                "diffusionPotential": 5.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1399492710/kun-smart-oven-modular-multi-functional-cooking-oven",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/044/263/505/44d36c06bf47f2a54cd624b961e73e84_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1709817683&width=560&sig=mevN7HKJGyeyWHgWLS5fMnPtYyCi2OQX8b0lolUbXBs%3D",
-            "reason": "KUN : Modular All-in-One Multifunction Cooker，在design/product/design领域，获得45人支持，筹得$16,513，达成率861.3%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 129193.0,
-                "usdPledged": 16513.08364381,
-                "backersCount": 45,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 861.3,
-                "daysSinceLaunch": 833
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1426313714",
-            "brand": "Drip Design",
-            "category": "design",
-            "title": "Grizzie 247 | Travel Wear That Doesn't Smell or Wrinkle ✈️",
-            "titleZh": "Grizzie 247 | 旅行 Wear 能 Doesn't Smell 或 Wrinkle ✈️",
-            "desc": "120 Hour Odor Control | Anti Pilling & Wrinkle Free Fibers | 230GSM Water/Stain-Proof Shell | 6 XL Pockets | 4X Performance Stretch.",
-            "time": "2026-04-14 15:45",
-            "score": 62.0,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 8.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/grizzie/grizzie-247-travel-wear-that-doesnt-smell-or-wrinkle",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/060/452/99076be5ee7976637ca615f7a8594a8a_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1774271710&width=560&sig=EtT%2F8ppfprP7LQaInqrVBX%2BOPJQbOzuJizR8w4GVQf4%3D",
-            "reason": "Grizzie 247 | Travel Wear That Doesn't Smell or Wr，在design/product/design领域，获得912人支持，筹得$145,922，Kickstarter Staff Pick，达成率2084.6%",
-            "ksData": {
-                "goal": 7000.0,
-                "pledged": 145922.0,
-                "usdPledged": 145922.0,
-                "backersCount": 912,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 2084.6,
-                "daysSinceLaunch": 65
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-658631843",
-            "brand": "NIID",
-            "category": "design",
-            "title": "NEO N2 & N1L | Tablet • Camera • Console • Drone Capable",
-            "titleZh": "NEO N2 & N1L | Tablet • Camera • Console • 无人机 Capable",
-            "desc": "Compact Size. Bigger Journeys. Zero Clutter. Your Studio, Gaming & Flight On the Go.",
-            "time": "2026-03-16 14:30",
-            "score": 62.0,
-            "visBreakdown": {
-                "recognition": 7.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 8.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/485414743/neo-n2-and-n1l-evolve-your-everyday-carry",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/990/544/f680c7106e64e0339c0e87cfc7a52673_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1773760797&width=560&sig=uJ9Cb0ZNl65UDXhEuEmTTv8GZ0%2BKT3RvelFhGbBJZZ0%3D",
-            "reason": "NEO N2 & N1L | Tablet • Camera • Console • Drone C，在design/product/design领域，获得701人支持，筹得$79,596，Kickstarter Staff Pick，达成率1591.9%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 79596.0,
-                "usdPledged": 79596.0,
-                "backersCount": 701,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1591.9,
-                "daysSinceLaunch": 94
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-625332027",
-            "brand": "Robin Petersen",
-            "category": "design",
-            "title": "Modular Tree Table with Accessory Ecosystem - by Kimberlite",
-            "titleZh": "模块化 Tree Table 配备 配件 Ecosystem - by Kimberlite",
-            "desc": "Light weight tree table that converts into a ground table, with an ever growing ecosystem of accessories, elevating outdoor experiences",
-            "time": "2025-11-23 17:02",
-            "score": 62.0,
-            "visBreakdown": {
-                "recognition": 7.7,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 6.2,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/kimberlitetech/modular-tree-table-with-accessory-ecosystem-by-kimberlite",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/483/600/bdf783a4ede5fdf4e07405108400249f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1761913937&width=560&sig=aWdRFkBQDhZ9wp0xkkdMyygEpJaG6KqvKRBjMtI1LP8%3D",
-            "reason": "Modular Tree Table with Accessory Ecosystem - by K，在design/product/design领域，获得143人支持，筹得$20,797，达成率138.6%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 20797.0,
-                "usdPledged": 20797.0,
-                "backersCount": 143,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 138.6,
-                "daysSinceLaunch": 207
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1165378628",
-            "brand": "Team LuxCEO",
-            "category": "gadget",
-            "title": "Luxceo M8: Smallest Wireless Stereo Mic 2-in-1 Charging Case",
-            "titleZh": "Luxceo M8: 最小 Wireless 立体声 麦克风 2-in-1 充电仓",
-            "desc": "Compact / 20 Hrs Battery / Up to 100m / Plug & Play / 7 RGB Light / Noise Reduction / Magnetic / Wireless Charging Case / Monitoring",
-            "time": "2024-02-01 13:12",
-            "score": 61.9,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 6.7,
-                "transferability": 6.4,
-                "diffusionPotential": 7.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/luxceo/luxceo-m8-smallest-wireless-stereo-mic-2-in-1-charging-case",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/043/845/941/af9ee0faeb8494aa49521c40cf286a33_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1706701857&width=560&sig=wu1gJEMHCIDPHuC6PT079OEMZY6pxYwNBA9cHkjXPSA%3D",
-            "reason": "Luxceo M8: Smallest Wireless Stereo Mic 2-in-1 Cha，在technology/gadgets领域，获得416人支持，筹得$34,483，达成率5391.4%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 269568.0,
-                "usdPledged": 34482.95794944,
-                "backersCount": 416,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 5391.4,
-                "daysSinceLaunch": 869
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-93458371",
-            "brand": "FaceAI",
-            "category": "gadget",
-            "title": "FaceAl: Your Personal Holographic AI Assistant",
-            "titleZh": "FaceAl: 你的 Personal 全息 AI助手",
-            "desc": "Boost productivity, connect effortlessly, and experience seamless communication with a cutting-edge holographic, multilingual AI",
-            "time": "2025-02-24 10:13",
-            "score": 61.9,
-            "visBreakdown": {
-                "recognition": 5.6,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 6.7,
-                "transferability": 5.7,
-                "diffusionPotential": 7.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/faceai/faceal-your-personal-holographic-ai-assistant",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/338/920/9c12be5e106a2fdbf8ef107037623ef4_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1740689516&width=560&sig=dD4ERVOYe96mjUkg7nwLa0HmDw8dwAxec0j0aC5z1ms%3D",
-            "reason": "FaceAl: Your Personal Holographic AI Assistant，在technology/gadgets领域，获得357人支持，筹得$69,632，达成率1331.5%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 66576.0,
-                "usdPledged": 69631.86369888,
-                "backersCount": 357,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1331.5,
-                "daysSinceLaunch": 480
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-874493898",
-            "brand": "SHARE3DCAM",
-            "category": "camera",
-            "title": "SHARE C1 — World’s 1st Personal 3D LiDAR Spatial Camera",
-            "titleZh": "分享 C1 — 世界’s 1st Personal 3D LiDAR Spatial Camera",
-            "desc": "360° LiDAR Capture | Dual Wide Cameras | Better Than 1cm Accuracy | Real-Time SLAM Mapping | Up to 70m Range | Free 3DGS Function Usage",
-            "time": "2025-11-04 14:00",
-            "score": 61.9,
-            "visBreakdown": {
-                "recognition": 8.3,
-                "paradigmShift": 5.0,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/share3dcam/share-c1-worlds-1st-personal-3d-lidar-spatial-camera",
-            "tags": [
-                "technology/camera equipment"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/998/883/f2d99e668f325f358dbccd576648ddb9_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1766152365&width=560&sig=rRTORTVbDolGH4XUGz0X0G%2BAjhQTX8nwfkuO2SZCRIY%3D",
-            "reason": "SHARE C1 — World’s 1st Personal 3D LiDAR Spatial C，在technology/camera/equipment领域，获得255人支持，筹得$592,467，Kickstarter Staff Pick，达成率5923.6%",
-            "ksData": {
-                "goal": 77740.0,
-                "pledged": 4605005.0,
-                "usdPledged": 592467.2334862,
-                "backersCount": 255,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 5923.6,
-                "daysSinceLaunch": 226
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-345244814",
-            "brand": "Litejam Guitars",
-            "category": "hardware",
-            "title": "The Smart Guitar with a Full-Spectrum RGB Fretboard",
-            "titleZh": "智能 Guitar 配备 全-Spectrum RGB Fretboard",
-            "desc": "See what you're playing. Learn faster. Perform with confidence",
-            "time": "2025-08-19 13:09",
-            "score": 61.2,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.7,
-                "transferability": 5.7,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/litejam/the-worlds-first-rgb-fretboard-smart-guitar",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/748/044/9540c9749a2a1bc839ab8f5e4dcbc932_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750394471&width=560&sig=lcmdihr2walvednWP%2FlvFoLM4Z6klzolTvlyd3Az6CM%3D",
-            "reason": "The Smart Guitar with a Full-Spectrum RGB Fretboar，在technology/hardware领域，获得2,481人支持，筹得$1,087,026，Kickstarter Staff Pick，达成率8508.2%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 100000.0,
-                "pledged": 8508152.0,
-                "usdPledged": 1087026.08807928,
-                "backersCount": 2481,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 8508.2,
-                "daysSinceLaunch": 304
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1196636600",
-            "brand": "Claur",
-            "category": "design",
-            "title": "Claur Lacquerware: Designed to Last and Age Beautifully",
-            "titleZh": "Claur Lacquerware: 专为 to Last 和 Age Beautifully",
-            "desc": "Crafted by artisans in Aizu, Japan, using only natural wood and Japanese lacquer, designed to elevate everyday meals",
-            "time": "2026-02-24 10:45",
-            "score": 61.2,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.9,
-                "transferability": 5.9,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/claur/claur-tableware-let-your-food-shine-with-japanese-lacquer",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/740/601/5d480b386b72af99c7248c66694fbb05_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772075355&width=560&sig=SzDB5qEvbbdtcB81l9oaWzE4uMDgTZ72Fuj9gTni2FU%3D",
-            "reason": "Claur Lacquerware: Designed to Last and Age Beauti，在design/product/design领域，获得41人支持，筹得$26,701，达成率1374.2%",
-            "ksData": {
-                "goal": 300000.0,
-                "pledged": 4122510.0,
-                "usdPledged": 26700.9613437,
-                "backersCount": 41,
-                "currency": "JPY",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1374.2,
-                "daysSinceLaunch": 115
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1812062326",
-            "brand": "eufyMake",
-            "category": "hardware",
-            "title": "eufyMake E1: the First Personal 3D-Texture UV Printer",
-            "titleZh": "eufyMake E1: First Personal 3D-Texture UV 打印机",
-            "desc": "All-in-One Modular|Compact Size|3D Texture|True Colors That Last|300+ Materials|AI-Powered|Self-Cleaning|SMB|Precise Positioning",
-            "time": "2025-04-29 13:57",
-            "score": 61.0,
-            "visBreakdown": {
-                "recognition": 5.6,
-                "paradigmShift": 7.1,
-                "cmfInnovation": 4.5,
-                "transferability": 5.6,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/ankermake/eufymake-e1-the-first-personal-3d-textured-uv-printer",
-            "tags": [
-                "technology/diy electronics"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/087/041/6591177d0f21b3b8ec35a4bbd294296a_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1745934103&width=560&sig=PcQkKMqKsOatyCVl3dQoeSpvChj%2Bjjlas9lv46bR0E4%3D",
-            "reason": "eufyMake E1: the First Personal 3D-Texture UV Prin，在technology/diy/electronics领域，获得17,822人支持，筹得$46,762,258，Kickstarter Staff Pick，达成率9352.5%，视觉亮点：AI驱动、模块化/磁吸",
-            "ksData": {
-                "goal": 500000.0,
-                "pledged": 46762258.0,
-                "usdPledged": 46762258.0,
-                "backersCount": 17822,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 9352.5,
-                "daysSinceLaunch": 416
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-529127115",
-            "brand": "Vokken",
-            "category": "design",
-            "title": "Vokken Nonstick Series",
-            "titleZh": "Vokken Nonstick 系列",
-            "desc": "A new standard in nonstick, built to last, engineered for safe everyday cooking.",
-            "time": "2026-03-17 14:03",
-            "score": 60.7,
-            "visBreakdown": {
-                "recognition": 7.4,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 8.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/vokken/vokken-ultrashieldtm-nonstick-pan",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/349/433/ff49f23c63f95f74cc1f5f6f02234168_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776253254&width=560&sig=vRhzQrUvyO1IfNJBSl6B31RxcA02O9UTtsYOqo9RwHc%3D",
-            "reason": "Vokken Nonstick Series，在design/product/design领域，获得1,171人支持，筹得$159,347，达成率3186.9%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 159347.0,
-                "usdPledged": 159347.0,
-                "backersCount": 1171,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 3186.9,
-                "daysSinceLaunch": 93
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1816771370",
-            "brand": "Ddiin",
-            "category": "design",
-            "title": "Exlicon L Brass - Golden Ratio Ruler for Art and Geometry",
-            "titleZh": "Exlicon L 黄铜 - Golden Ratio Ruler 为 Art 和 Geometry",
-            "desc": "Multifunctional solid brass drawing tools for golden spirals, circles, and shapes with versatile, accurate ruler. Card Size | Measures",
-            "time": "2025-06-23 02:02",
-            "score": 60.7,
-            "visBreakdown": {
-                "recognition": 7.4,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 8.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/ddiin/exlicon-l-brass-golden-ratio-ruler-for-art-and-geometry",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/358/395/e25605713b5b24796def8f07ef34de3e_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1754728220&width=560&sig=wloA6A6iuV1ZSgnm8KL0RY8E6XonfoXSdTmoxIwRmu4%3D",
-            "reason": "Exlicon L Brass - Golden Ratio Ruler for Art and G，在design/product/design领域，获得568人支持，筹得$60,542，达成率6789.5%",
-            "ksData": {
-                "goal": 7000.0,
-                "pledged": 475268.0,
-                "usdPledged": 60541.88110496,
-                "backersCount": 568,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 6789.5,
-                "daysSinceLaunch": 361
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1118461725",
-            "brand": "IONA",
-            "category": "design",
-            "title": "IONA01 🏅 EDC Modular Power Bank ⚡ Never Runs Out",
-            "titleZh": "IONA01 🏅 EDC 模块化 移动电源 ⚡ 再也不 Runs Out",
-            "desc": "Powered by replaceable 4*21700 batteries, with 15W wireless & 22.5W USB-C fast charging — built for outdoor and everyday use.",
-            "time": "2026-02-12 10:57",
-            "score": 60.7,
-            "visBreakdown": {
-                "recognition": 7.4,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 6.2,
-                "diffusionPotential": 5.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/iona01/iona01-edc-modular-power-bank-never-runs-out",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/560/369/617751abbe7cc58e002fd990c17edeb5_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770781703&width=560&sig=uNZeKeAFTLGFOFZr4x5oWnpOf0y37UsDIgz5ASpWv%2Bo%3D",
-            "reason": "IONA01 🏅 EDC Modular Power Bank ⚡ Never Runs Out，在design/product/design领域，获得71人支持，筹得$5,098，达成率398.4%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 39843.0,
-                "usdPledged": 5098.11465087,
-                "backersCount": 71,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 398.4,
-                "daysSinceLaunch": 127
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1784453607",
-            "brand": "Asterisk Watches",
-            "category": "design",
-            "title": "Happiness is Fleeting | New Asterisk Jump Hour Automatic",
-            "titleZh": "Happiness is Fleeting | 全新 Asterisk Jump Hour 自动",
-            "desc": "This unfortunate zombie has lost his balloon as well as a limb. Illustrated dial art by the uber-talented Kerry Callen.",
-            "time": "2026-02-10 17:59",
-            "score": 60.6,
-            "visBreakdown": {
-                "recognition": 7.5,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 7.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/asteriskwatches/asterisk-happiness-is-fleeting-jump-hour-automatic-watch",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/557/696/e8002bbdf984850878a6ea55e45654f2_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770764733&width=560&sig=wJsRE1pvKSUICfn%2B2edy2W5B%2BUgnr5vW7Jd95j4gpXg%3D",
-            "reason": "Happiness is Fleeting | New Asterisk Jump Hour Aut，在design/product/design领域，获得384人支持，筹得$93,958，Kickstarter Staff Pick，达成率1879.2%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 93958.0,
-                "usdPledged": 93958.0,
-                "backersCount": 384,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1879.2,
-                "daysSinceLaunch": 128
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-659438290",
-            "brand": "Hello.it",
-            "category": "design",
-            "title": "Hello.it|World's 1st Energy Recovery&Electronic Brake Leash",
-            "titleZh": "Hello.it|世界的 1st Energy Recovery&Electronic Brake Leash",
-            "desc": "KERS charging | Electronic Emergency Braking | Night-safe Light | Pet Position Light | Gesture Recognition | Anti-barking Device",
-            "time": "2025-03-11 14:00",
-            "score": 60.6,
-            "visBreakdown": {
-                "recognition": 7.5,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 7.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/hellodotit/helloit-self-charging-dog-leash-with-recycling-power",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/626/219/6b629d3d0cd3b130bd17a971ed9f773e_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1742695466&width=560&sig=Dq9UlVQ0YKnaEHFy%2Bi%2BhEfvQqjJy9mCblnIUI0wc8Jc%3D",
-            "reason": "Hello.it|World's 1st Energy Recovery&Electronic Br，在design/product/design领域，获得201人支持，筹得$21,528，Kickstarter Staff Pick，达成率1673.0%，视觉亮点：新交互",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 167297.0,
-                "usdPledged": 21527.51530371,
-                "backersCount": 201,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1673.0,
-                "daysSinceLaunch": 464
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-139240954",
-            "brand": "HiDock",
-            "category": "gadget",
-            "title": "HiDock P1 & P1 mini-AI Voice Recorder for Bluetooth Earphone",
-            "titleZh": "HiDock P1 & P1 迷你-AI 语音 录音机 为 Bluetooth 耳机",
-            "desc": "Record with Bluetooth Earphones | Studio-level ECM Mic | Lightening-Fast Audio Transfer | Lifetime Free Transcription",
-            "time": "2025-03-20 13:46",
-            "score": 60.5,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/hidock/hidock-p1-ai-voice-recorder-for-meeting-anywhere",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/132/339/3633dbfd542c9d8a00375bfc82a6d2ab_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1753194850&width=560&sig=xGBiM2cEvOu6J%2BzbV89gr%2FS8k7oz%2BE4442GWa32Zkm0%3D",
-            "reason": "HiDock P1 & P1 mini-AI Voice Recorder for Bluetoot，在technology/gadgets领域，获得10,027人支持，筹得$1,290,573，Kickstarter Staff Pick，达成率12906.2%",
-            "ksData": {
-                "goal": 77707.0,
-                "pledged": 10029010.0,
-                "usdPledged": 1290573.12284,
-                "backersCount": 10027,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 12906.2,
-                "daysSinceLaunch": 456
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2071858268",
-            "brand": "TintoSports",
-            "category": "design",
-            "title": "Tinto - The Revolutionary Portable Tennis Training Companion",
-            "titleZh": "Tinto - 革命性 便携 Tennis 训练 伴侣",
-            "desc": "Top Speed 80 MPH｜82ft Baseline Distance｜100+ Ball Capacity｜ Lightweight 17 lbs｜240Wh Large Capacity Battery｜Multiple Training Drills",
-            "time": "2025-06-10 12:02",
-            "score": 60.3,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/tintosports/the-worlds-most-portable-and-professional-ball-machine",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/719/740/f149d2eb71981ff9277c4f7d65479e5a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750208603&width=560&sig=HJKCCyn9z3bKi79a2CIJXJP2vcdXVkq1ParT3lbYrks%3D",
-            "reason": "Tinto - The Revolutionary Portable Tennis Training，在design/product/design领域，获得168人支持，筹得$85,072，达成率953.7%",
-            "ksData": {
-                "goal": 70000.0,
-                "pledged": 667606.0,
-                "usdPledged": 85072.17136826,
-                "backersCount": 168,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 953.7,
-                "daysSinceLaunch": 374
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-444201493",
-            "brand": "BOLTZMINI",
-            "category": "design",
-            "title": "BOLTZ MINI- Portable Mini Electric Tool",
-            "titleZh": "BOLTZ 迷你- 便携 迷你 电动 工具",
-            "desc": "Unlimited Expansion | All-in One Design | Magnetize | 10 Handy Tools | Lightweight & Portable | USB-C Fast Charge",
-            "time": "2024-04-30 12:59",
-            "score": 60.2,
-            "visBreakdown": {
-                "recognition": 7.4,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 7.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/boltzmini/boltz-mini-portable-mini-electric-tool",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/045/283/758/07ae91a537b6c7f5271246b20fa510e8_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1717561560&width=560&sig=SbccyWqxBoe0ZCekKg2iJ8jvZhVNdh8KIoeIjHeP2f0%3D",
-            "reason": "BOLTZ MINI- Portable Mini Electric Tool，在design/product/design领域，获得831人支持，筹得$66,337，达成率1730.3%",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 519093.0,
-                "usdPledged": 66336.96565107,
-                "backersCount": 831,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1730.3,
-                "daysSinceLaunch": 780
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1142847695",
-            "brand": "TGTOWFC",
-            "category": "design",
-            "title": "Indoor Hydroponic Tower – Grow 48 Plants at Once",
-            "titleZh": "室内 Hydroponic Tower – Grow 48 Plants at Once",
-            "desc": "Grow fresh, pesticide-free veggies year-round with a smart hydroponic tower that brings green living into your home.",
-            "time": "2025-09-04 08:03",
-            "score": 60.2,
-            "visBreakdown": {
-                "recognition": 7.4,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 7.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/94692295/indoor-hydroponic-tower-grow-48-plants-at-once",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/619/494/49c6d45d54f57f254205319d6ec203bc_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1756455666&width=560&sig=TsQwqXAyICV3KWs%2BPzz4YPcqkvkC6PiRqJAm1%2FnHcTk%3D",
-            "reason": "Indoor Hydroponic Tower – Grow 48 Plants at Once，在design/product/design领域，获得276人支持，筹得$131,778，达成率6588.9%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 2000.0,
-                "pledged": 131778.0,
-                "usdPledged": 131778.0,
-                "backersCount": 276,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 6588.9,
-                "daysSinceLaunch": 288
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1137400432",
-            "brand": "Orico",
-            "category": "hardware",
-            "title": "ORICO CyberData AI-powered NAS with GPU Dock & RAID Cabinet",
-            "titleZh": "ORICO CyberData AI驱动 NAS 配备 GPU 底座 & RAID Cabinet",
-            "desc": "Up to 256TB｜i5-1240P｜Dual 10GbE & USB4 Ports｜RAlD 50/60 Support｜ZFS for Extra Security｜Cross Platform OS｜AI Features with Local LLM",
-            "time": "2025-07-08 13:59",
-            "score": 60.1,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/oricotechs/orico-cyberdata-ai-powered-nas-with-gpu-dock-and-raid-cabinet",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/792/932/a964f0af9625644c5d57cbd21c738350_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750753234&width=560&sig=cJYBWHm0YgeF1mxuZWn1ynZVHeSahcpJ97sdxOxIbpU%3D",
-            "reason": "ORICO CyberData AI-powered NAS with GPU Dock & RAI，在technology/hardware领域，获得1,214人支持，筹得$971,363，Kickstarter Staff Pick，达成率9817.4%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 77670.0,
-                "pledged": 7625153.0,
-                "usdPledged": 971363.28432055,
-                "backersCount": 1214,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 9817.4,
-                "daysSinceLaunch": 346
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1649584753",
-            "brand": "Pixelmug",
-            "category": "gadget",
-            "title": "PixelMug P1: AI-Enhanced Mug with Pixel Display",
-            "titleZh": "PixelMug P1: AI-增强 Mug 配备 Pixel 显示",
-            "desc": "DIY Pixel Art | AI-Powered Creation | Interactive Fun | Coffee Temp. | Display in Porcelain | Smart Reminders | WiFi | Message Sharing",
-            "time": "2025-03-18 12:58",
-            "score": 60.0,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/pixelmug-p1/pixelmug-p1-ai-enhanced-smart-mug-with-interactive-screen",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/167/799/09cc199f2a00485c589bd4cadafd34cf_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1746499809&width=560&sig=jZW7kMLtTmfWh9RkaFmHkuzO%2FK%2BfHtGev0aYNTgxrR8%3D",
-            "reason": "PixelMug P1: AI-Enhanced Mug with Pixel Display，在technology/gadgets领域，获得2,838人支持，筹得$300,787，Kickstarter Staff Pick，达成率2337.7%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 100000.0,
-                "pledged": 2337684.0,
-                "usdPledged": 300787.2288276,
-                "backersCount": 2838,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 2337.7,
-                "daysSinceLaunch": 458
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-543801398",
-            "brand": "FYTA",
-            "category": "gadget",
-            "title": "FYTA 2.0: Smart Fitness Tracker for Your Plants",
-            "titleZh": "FYTA 2.0: 智能 健身追踪器 为 你的 Plants",
-            "desc": "Tracks 13 plant health metrics | 4 devices | Modular | In- & Outdoor | Smart Home Integrations | Flexible Connectivity",
-            "time": "2025-04-03 13:58",
-            "score": 59.9,
-            "visBreakdown": {
-                "recognition": 6.9,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 5.6,
-                "diffusionPotential": 8.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/fyta/fyta-20-smart-fitness-tracker-for-your-plants",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/771/274/b12348fa3cc10524ca065362e3964ef9_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1743681037&width=560&sig=qMrdnGbw014uqbkacnFVo6KAVUsFIJ3o5JVCJPQx9bs%3D",
-            "reason": "FYTA 2.0: Smart Fitness Tracker for Your Plants，在technology/gadgets领域，获得807人支持，筹得$199,441，Kickstarter Staff Pick，达成率1847.4%，视觉亮点：AI驱动、模块化/磁吸",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 184737.0,
-                "usdPledged": 199441.20063084,
-                "backersCount": 807,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1847.4,
-                "daysSinceLaunch": 442
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-683356883",
-            "brand": "Das Keyboard",
-            "category": "hardware",
-            "title": "DeltaForce 65: Full Metal Kamo Mechanical Keyboard",
-            "titleZh": "DeltaForce 65: 全 Metal Kamo 机械键盘",
-            "desc": "Stunning camo design | Sublimation PBT keycaps | Compact 65% | Hot-swappable Gateron red | RGB | QMK/VIA | Gasket mount | CNC aluminum",
-            "time": "2024-04-23 10:51",
-            "score": 59.9,
-            "visBreakdown": {
-                "recognition": 5.6,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 6.9,
-                "transferability": 6.4,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/daskeyboard/deltaforce-65-full-metal-kamo-keyboard",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/044/572/040/39f4e86d333e9429d73330e83315ed09_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1712165268&width=560&sig=FE%2BKwa5kkh89LRhTIQcqL09KPfIh7nqizZt4ZfpHe1M%3D",
-            "reason": "DeltaForce 65: Full Metal Kamo Mechanical Keyboard，在technology/hardware领域，获得497人支持，筹得$55,140，达成率787.7%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 7000.0,
-                "pledged": 55140.0,
-                "usdPledged": 55140.0,
-                "backersCount": 497,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 787.7,
-                "daysSinceLaunch": 787
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1458548804",
-            "brand": "Luke's Laboratory",
-            "category": "hardware",
-            "title": "The Pika Hotend - Durable High Performance Bambu Lab Hotend",
-            "titleZh": "Pika Hotend - 耐用 High Performance Bambu Lab Hotend",
-            "desc": "Titanium construction, extended melt zone, and replaceable components for superior performance in Bambu Lab's 3D printers and beyond.",
-            "time": "2025-05-01 19:56",
-            "score": 59.8,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 7.9,
-                "transferability": 5.3,
-                "diffusionPotential": 7.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/lukeslabonline/pika-hotend-durable-high-performance-bambu-hotend-for-all",
-            "tags": [
-                "technology/3d printing"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/195/016/b7aa1f701589c67d7888cb23c5308a27_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1746656896&width=560&sig=yLHkYXnDdsOnhF1Dj%2By0PqAVOrtyLidqUinDN9N94JA%3D",
-            "reason": "The Pika Hotend - Durable High Performance Bambu L，在technology/3d/printing领域，获得523人支持，筹得$85,720，Kickstarter Staff Pick，达成率285.7%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 85720.0,
-                "usdPledged": 85720.0,
-                "backersCount": 523,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 285.7,
-                "daysSinceLaunch": 413
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-780883711",
-            "brand": "MODERNSOLID",
-            "category": "design",
-            "title": "ARES Monitor Arm｜Compact, flexible and always in balance",
-            "titleZh": "ARES 显示器支架臂｜紧凑, 灵活 和 始终 于 balance",
-            "desc": "Ergonomic design with Static Equilibrium tech enables effortless adjustment. Compatible with various screen sizes wider motion movement",
-            "time": "2024-06-11 13:02",
-            "score": 59.7,
-            "visBreakdown": {
-                "recognition": 7.4,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/aresmonitorarm/ares-monitor-arm-compact-flexible-and-always-in-balance",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/045/847/049/dd1911e272b36784da909b7f29544a18_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1721924405&width=560&sig=XkQudj8eA5S5PIhoz0gSKNKEvhpTfUt0bLc7JoiY8VI%3D",
-            "reason": "ARES Monitor Arm｜Compact, flexible and always in b，在design/product/design领域，获得381人支持，筹得$111,681，达成率3489.8%",
-            "ksData": {
-                "goal": 25000.0,
-                "pledged": 872461.0,
-                "usdPledged": 111680.51322891,
-                "backersCount": 381,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 3489.8,
-                "daysSinceLaunch": 738
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-457041523",
-            "brand": "EZCast",
-            "category": "camera",
-            "title": "CamCast, Turn Your Camera Into a Smart, Connected System",
-            "titleZh": "CamCast, 转化 你的 Camera 进入 智能, Connected 系统",
-            "desc": "Multi-Screen Monitoring | USB-C Camera Control | Dual Backup · Low Latency · Dual Power",
-            "time": "2026-02-03 14:00",
-            "score": 59.6,
-            "visBreakdown": {
-                "recognition": 7.9,
-                "paradigmShift": 5.0,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/camcast/camcast-ct-1-turn-any-camera-into-a-smart-connected-system",
-            "tags": [
-                "technology/camera equipment"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/466/261/8ba3de63a34a313a0dd5b455371d97ef_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770173459&width=560&sig=%2FV%2B5KlzY1UOfF489EKm%2FjNW%2FkfBxnXV5pFQN81WFtY0%3D",
-            "reason": "CamCast, Turn Your Camera Into a Smart, Connected ，在technology/camera/equipment领域，获得358人支持，筹得$60,750，达成率2025.0%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 3000.0,
-                "pledged": 60750.0,
-                "usdPledged": 60750.0,
-                "backersCount": 358,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 2025.0,
-                "daysSinceLaunch": 135
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2099837483",
-            "brand": "Christoffer Immanuel",
-            "category": "design",
-            "title": "Folke: One sofa. Four modules. Endless combinations.",
-            "titleZh": "Folke: One sofa. Four modules. Endless combinations.",
-            "desc": "Flat-packed Danish design. A sofa in 4 modules that assembles in seconds, ships in parcel to your door, and upgrades as life changes.",
-            "time": "2026-03-31 14:02",
-            "score": 59.6,
-            "visBreakdown": {
-                "recognition": 7.5,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 6.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/folkefurniture/folke-one-sofa-four-modules-infinite-combinations",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/162/196/11811ae6f4bfa0b777fc59cfafc3a21a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1774959420&width=560&sig=udy%2BjujxZUSar6TNb1Lfz%2Bg4KaJX5UCa8s9Prl7PI3k%3D",
-            "reason": "Folke: One sofa. Four modules. Endless combination，在design/product/design领域，获得78人支持，筹得$134,019，Kickstarter Staff Pick，达成率579.7%",
-            "ksData": {
-                "goal": 150000.0,
-                "pledged": 869620.0,
-                "usdPledged": 134018.9470096,
-                "backersCount": 78,
-                "currency": "DKK",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 579.7,
-                "daysSinceLaunch": 79
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1071802252",
-            "brand": "KEYKRUSH",
-            "category": "gadget",
-            "title": "KEYKRUSH ORCA - Split Ergonomic Keyboard",
-            "titleZh": "KEYKRUSH ORCA - Split 人体工学键盘",
-            "desc": "Ergonomic Design | Wireless Connectivity | Hot-swappable | RGB Lighting | 40% Layout | Customizable Keymap | Environmental-friendly|",
-            "time": "2025-02-18 22:09",
-            "score": 59.4,
-            "visBreakdown": {
-                "recognition": 5.6,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 6.7,
-                "transferability": 6.4,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/keykrush/keykrush-orca-split-ergonomic-keyboard",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/047/951/318/7abdc2017aa63431a29e4186ced2443a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1737780574&width=560&sig=jCu158Zm7gWNgktjR1hdQ9e8b05IuYGTbDt9AcQjVaU%3D",
-            "reason": "KEYKRUSH ORCA - Split Ergonomic Keyboard，在technology/gadgets领域，获得86人支持，筹得$32,915，达成率512.2%",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 256082.0,
-                "usdPledged": 32914.83149598,
-                "backersCount": 86,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 512.2,
-                "daysSinceLaunch": 485
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2023177031",
-            "brand": "KNZ Technology",
-            "category": "audio",
-            "title": "Stylish Earphones with Truly Wireless Sound | Euphony (Canceled)",
-            "titleZh": "Stylish Earphones 配备 真正 Wireless 声音 | Euphony (Canceled)",
-            "desc": "Truly Wireless | Enhanced Stereo | Interference Resistance Technology | Ergonomic Design | Carbon Fiber | Premium Crystal |  Sound |",
-            "time": "2017-10-17 15:26",
-            "score": 59.2,
-            "visBreakdown": {
-                "recognition": 6.9,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.9,
-                "transferability": 5.3,
-                "diffusionPotential": 5.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/394498731/stylish-earphones-with-truly-wireless-sound-euphon",
-            "tags": [
-                "technology/sound"
-            ],
-            "image": "https://i.kickstarter.com/assets/018/713/952/f12cf901feca3febe174934e6d207974_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1507906340&width=560&sig=H4h9Yuo9ZCX1c85aly21sItVy1v90Y0yv7JLkiPc1Kc%3D",
-            "reason": "Stylish Earphones with Truly Wireless Sound | Euph，在technology/sound领域，获得67人支持，筹得$6,001，达成率120.0%，视觉亮点：高端材质",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 6001.0,
-                "usdPledged": 6001.0,
-                "backersCount": 67,
-                "currency": "USD",
-                "state": "canceled",
-                "staffPick": false,
-                "percentFunded": 120.0,
-                "daysSinceLaunch": 3166
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-886418028",
-            "brand": "ThunderBoost",
-            "category": "hardware",
-            "title": "Turn Your PC & Handheld into a Gaming & Graphics Powerhouse",
-            "titleZh": "转化 你的 PC & Handheld 进入 Gaming & Graphics Powerhouse",
-            "desc": "Thunderbolt 5 | OCulink | 80Gbps | Nvidia Geforce 5080M | 16GB VRAM | 1334 AI TOPS | HDMI | DP | 330W PSU | USB-A | M.2 SSD: 7000MB/s",
-            "time": "2025-03-14 11:24",
-            "score": 59.1,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/thunderboost/turn-your-pc-and-handheld-into-a-gaming-and-graphics-powerhouse",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/529/285/788b8d1e25ed33b6ee33ead8d51dda1f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1742002002&width=560&sig=M5cNxuoTAdatbRVgb57xO4YzTn6y6UmZ8bQBJ%2FaZEpc%3D",
-            "reason": "Turn Your PC & Handheld into a Gaming & Graphics P，在technology/hardware领域，获得509人支持，筹得$325,081，Kickstarter Staff Pick，达成率4355.9%",
-            "ksData": {
-                "goal": 58000.0,
-                "pledged": 2526445.0,
-                "usdPledged": 325080.83620625,
-                "backersCount": 509,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 4355.9,
-                "daysSinceLaunch": 462
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1330792907",
-            "brand": "MacEffects, LLC",
-            "category": "hardware",
-            "title": "New Molded Clear Case for Apple Macintosh Mac SE/30",
-            "titleZh": "全新 Molded Clear 保护壳 为 Apple Macintosh Mac SE/30",
-            "desc": "Revised custom designed transparent rear case for the Apple Macintosh SE and SE/30",
-            "time": "2025-02-21 16:55",
-            "score": 59.0,
-            "visBreakdown": {
-                "recognition": 6.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.7,
-                "transferability": 5.3,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/maceffects/new-molded-clear-case-for-apple-macintosh-mac-se-30",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/040/100/161417e3ee7ceb91519caaeb012a59d3_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1738523411&width=560&sig=ob0yH55SwRwjYknuUPeCGDdJJuolZsSEWaDLNU8Xpfg%3D",
-            "reason": "New Molded Clear Case for Apple Macintosh Mac SE/3，在technology/hardware领域，获得141人支持，筹得$72,626，达成率382.2%，视觉亮点：透明设计",
-            "ksData": {
-                "goal": 19000.0,
-                "pledged": 72626.0,
-                "usdPledged": 72626.0,
-                "backersCount": 141,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 382.2,
-                "daysSinceLaunch": 482
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1919909980",
-            "brand": "Mudita",
-            "category": "design",
-            "title": "Mudita Radiant - A field watch for every story.",
-            "titleZh": "Mudita Radiant - field watch 为 每个 story.",
-            "desc": "Legible. Reliable. Ready for everyday adventures.",
-            "time": "2025-10-20 16:00",
-            "score": 59.0,
-            "visBreakdown": {
-                "recognition": 7.5,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 6.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/mudita/radiant-watch",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/392/725/4507f3543515d5fad7fdeff8ae065166_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1761324149&width=560&sig=fKLNcYFnZWlQK%2BcFCesCdumVJ585pSFtRjEAU2ALjLc%3D",
-            "reason": "Mudita Radiant - A field watch for every story.，在design/product/design领域，获得104人支持，筹得$66,585，Kickstarter Staff Pick，达成率380.8%",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 57120.0,
-                "usdPledged": 66584.7565824,
-                "backersCount": 104,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 380.8,
-                "daysSinceLaunch": 241
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1168063006",
-            "brand": "MIG",
-            "category": "design",
-            "title": "4D Pen & Pencil by MIG",
-            "titleZh": "4D 笔 & Pencil by MIG",
-            "desc": "A click pen and mechanical pencil that's robust, sleek and classy.",
-            "time": "2026-01-30 21:00",
-            "score": 58.8,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/migpen/click-pen-and-pencil-by-mig",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/364/209/753070989e31d2f452855235df9c7eba_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1769500836&width=560&sig=OA6HhjI%2FKuRNDvTAJ0yV9QQYcvUQvKNBwMGWydpkwH4%3D",
-            "reason": "4D Pen & Pencil by MIG，在design/product/design领域，获得260人支持，筹得$54,014，达成率1015.7%",
-            "ksData": {
-                "goal": 7500.0,
-                "pledged": 76181.0,
-                "usdPledged": 54013.71701782,
-                "backersCount": 260,
-                "currency": "AUD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1015.7,
-                "daysSinceLaunch": 139
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-991459123",
-            "brand": "OYOTOKO Team",
-            "category": "design",
-            "title": "OEL: Rechargeable, Fire-Starting Lamp for Outdoor Adventures",
-            "titleZh": "OEL: 可充电, Fire-Starting Lamp 为 户外 Adventures",
-            "desc": "Generate electricity by adding acidic or alkaline liquids such as seawater; Support charging and making fire in the wild",
-            "time": "2024-06-20 14:02",
-            "score": 58.8,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/164781641/emergency-light-green-energy-saltwater-diy-lamp",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/045/600/480/e46196ac49c9e41b8270fd4b289d4be8_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1719976561&width=560&sig=UgEpUexAidKfJlxxLTYxfB9q09ZIQUTYOl%2FPcJiTThE%3D",
-            "reason": "OEL: Rechargeable, Fire-Starting Lamp for Outdoor ，在design/product/design领域，获得209人支持，筹得$14,295，达成率1116.2%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 111620.0,
-                "usdPledged": 14295.2972982,
-                "backersCount": 209,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1116.2,
-                "daysSinceLaunch": 728
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1730330861",
-            "brand": "Toasterz",
-            "category": "design",
-            "title": "SourFriend: Peak Time Starters for Sourdough Perfection",
-            "titleZh": "SourFriend: Peak Time Starters 为 Sourdough Perfection",
-            "desc": "Take the guesswork out of your sourdough starter with app-controlled smart fermentation. For first time bakers and sourdough pros alike",
-            "time": "2025-11-24 06:12",
-            "score": 58.8,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/toasterz/sourfriend-peak-time-starters-for-sourdough-perfection",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/598/410/b3c10fecdeb5df9ff52359ce7a109b19_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1762758023&width=560&sig=oLCMBbK5hjTMzYHyP0rgUcocrD3JnjSoKnTBI57WJ04%3D",
-            "reason": "SourFriend: Peak Time Starters for Sourdough Perfe，在design/product/design领域，获得101人支持，筹得$32,836，达成率1641.8%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 2000.0,
-                "pledged": 32836.0,
-                "usdPledged": 32836.0,
-                "backersCount": 101,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1641.8,
-                "daysSinceLaunch": 207
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1878820756",
-            "brand": "MoziGuard",
-            "category": "gadget",
-            "title": "MoziGuard: Your Ultimate Outdoor Mosquito Repeller Solution",
-            "titleZh": "MoziGuard: 你的 终极 户外 Mosquito Repeller Solution",
-            "desc": "MCH Ceramic Rapid Heating | Dual Temperature Modes | 20h Heating Time | 3 Adjustable Light Modes | 10000mAh Battery| 10-30ft Protection",
-            "time": "2024-06-19 13:00",
-            "score": 58.7,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.9,
-                "transferability": 5.7,
-                "diffusionPotential": 7.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1175576428/moziguard-your-ultimate-outdoor-mosquito-repeller-solution",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/045/495/335/c391866d9e9ed54a8c5065ce79c8cec7_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1719200465&width=560&sig=zOmRAFIIdvHi8cf3zjKGt0M6%2Bujm%2FDpu4N9DyIuMYME%3D",
-            "reason": "MoziGuard: Your Ultimate Outdoor Mosquito Repeller，在technology/gadgets领域，获得378人支持，筹得$32,753，达成率2558.8%",
-            "ksData": {
-                "goal": 1280.0,
-                "pledged": 32753.0,
-                "usdPledged": 32753.0,
-                "backersCount": 378,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 2558.8,
-                "daysSinceLaunch": 730
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2055101753",
-            "brand": "ChargeUltra",
-            "category": "gadget",
-            "title": "ChargeUltra: 360° Rotating Foldable 3-in-1 Wireless Charger",
-            "titleZh": "ChargeUltra: 360° Rotating 可折叠 3-in-1 无线充电器",
-            "desc": "Wireless Fast Charger | Charge 3 Devices at Once | MagSafe & Qi 2 Compatible | Portable Foldable Design | Ultra-Durable Alloy Shell",
-            "time": "2025-02-21 06:36",
-            "score": 58.5,
-            "visBreakdown": {
-                "recognition": 6.5,
-                "paradigmShift": 6.1,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 7.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1062523922/chargeultra-gen-2-360-rotating-3-in-1-wireless-charger",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/257/801/90fb3775168d300f1e9d202d6bcb0da8_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1740107539&width=560&sig=5t79vrKZmsgdpzj8gfPl2jfbfXdIxvvgxjXH01TwlTM%3D",
-            "reason": "ChargeUltra: 360° Rotating Foldable 3-in-1 Wireles，在technology/gadgets领域，获得337人支持，筹得$23,371，达成率3636.2%，视觉亮点：模块化/磁吸、可折叠",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 181809.0,
-                "usdPledged": 23370.71790096,
-                "backersCount": 337,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 3636.2,
-                "daysSinceLaunch": 483
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1622132321",
-            "brand": "Nutr",
-            "category": "gadget",
-            "title": "Gen N by Nutr: Smart Home Plant-based Milk Maker",
-            "titleZh": "Gen N by Nutr: 智能 家庭 植物基 Milk Maker",
-            "desc": "Fresh Plant-based Milk Made at Home Without Stabilizers, Thickeners, Preservatives, or Additives",
-            "time": "2024-12-20 18:37",
-            "score": 58.4,
-            "visBreakdown": {
-                "recognition": 6.0,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.9,
-                "transferability": 4.9,
-                "diffusionPotential": 8.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/nutr/gen-n-by-nutr-smart-home-plant-based-milk-maker",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/047/592/200/d9787403314f564ee587242dc3818f6e_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1734380011&width=560&sig=OJQavI7sS4R6ysR1sw9Qjp5le3Rw%2BIGhd43V3OMjd20%3D",
-            "reason": "Gen N by Nutr: Smart Home Plant-based Milk Maker，在technology/gadgets领域，获得217人支持，筹得$100,459，Kickstarter Staff Pick，达成率1004.6%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 100459.0,
-                "usdPledged": 100459.0,
-                "backersCount": 217,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1004.6,
-                "daysSinceLaunch": 545
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1887207028",
-            "brand": "Aerohart",
-            "category": "design",
-            "title": "The TriAxis",
-            "titleZh": "TriAxis",
-            "desc": "An elegant puzzle. Deceptively hard. Doubles as a stand.",
-            "time": "2025-12-16 11:00",
-            "score": 58.3,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/aerohart/triaxis",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/194/333/98de248688ad3df495db894694a91da9_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1768241787&width=560&sig=UqE6a9AeusktdNv0jkqAb5axxrj8H%2Fbo8p56DYovahM%3D",
-            "reason": "The TriAxis，在design/product/design领域，获得313人支持，筹得$20,133，达成率805.3%",
-            "ksData": {
-                "goal": 2500.0,
-                "pledged": 20133.0,
-                "usdPledged": 20133.0,
-                "backersCount": 313,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 805.3,
-                "daysSinceLaunch": 185
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2074530214",
-            "brand": "FaSuH@outlook.com",
-            "category": "gadget",
-            "title": "FaSuH - The Ultra-Thin Portable Touchscreen Monitor",
-            "titleZh": "FaSuH - 极致版-Thin 便携 触摸屏 监测器",
-            "desc": "16mm Ultra-Thin | Touchscreen | 360° Rotation | Plug and Play | RGB Backlight | Thin & Portable",
-            "time": "2025-05-27 12:01",
-            "score": 58.3,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.7,
-                "transferability": 5.7,
-                "diffusionPotential": 7.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/207440273/fasuh-the-worlds-first-ultra-thin-portable-touchscreen-mo",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/421/714/cc9187e16f29024c8cf7165708d12801_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1748243951&width=560&sig=8ncIaQXHsv5y3yxpNHkiop2kKOfJeQ3sZwVoyrsY3fc%3D",
-            "reason": "FaSuH - The Ultra-Thin Portable Touchscreen Monito，在technology/gadgets领域，获得258人支持，筹得$61,314，达成率2184.2%",
-            "ksData": {
-                "goal": 22000.0,
-                "pledged": 480515.0,
-                "usdPledged": 61314.17048925,
-                "backersCount": 258,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 2184.2,
-                "daysSinceLaunch": 388
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1308571564",
-            "brand": "Gordon C.",
-            "category": "design",
-            "title": "BrewBuddy: Your Complete Coffee Companion",
-            "titleZh": "BrewBuddy: 你的 完整 咖啡 伴侣",
-            "desc": "Experience Café-Quality Coffee Anywhere with Our Sleek, All-in-One Grinder, Drip, and Flask",
-            "time": "2024-09-16 13:04",
-            "score": 58.3,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/mataricoffee/brewbuddy-your-complete-coffee-companion",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/046/866/251/2af5179e17404868885d3a112112ab2e_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1728879788&width=560&sig=OjgmJKJw1WFARFM6S8mdlj92Mu4EpPY5PcDzpcXAGbo%3D",
-            "reason": "BrewBuddy: Your Complete Coffee Companion，在design/product/design领域，获得210人支持，筹得$27,288，达成率536.9%",
-            "ksData": {
-                "goal": 6600.0,
-                "pledged": 35433.0,
-                "usdPledged": 27287.63963721,
-                "backersCount": 210,
-                "currency": "SGD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 536.9,
-                "daysSinceLaunch": 641
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-698229192",
-            "brand": "Leekr Inno",
-            "category": "design",
-            "title": "Zen-Time Guardian of Time's Breath,Ding-ling-ling~",
-            "titleZh": "Zen-Time Guardian 的 Time的 Breath,Ding-ling-ling~",
-            "desc": "A Zen-inspired wind chime electronic clock designed for focused work and mindful living.",
-            "time": "2026-04-10 13:01",
-            "score": 58.3,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/leekr/zen-time-guardian-of-times-breathding-ling-ling",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/863/454/c2bb7204ce3a8617e3828fc455d75db1_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772884117&width=560&sig=MgW3eakejJbz7RYTezhvMnndOQbgQq5AwL8Txblm8Rw%3D",
-            "reason": "Zen-Time Guardian of Time's Breath,Ding-ling-ling~，在design/product/design领域，获得195人支持，筹得$27,764，达成率557.8%",
-            "ksData": {
-                "goal": 39000.0,
-                "pledged": 217527.0,
-                "usdPledged": 27763.84764381,
-                "backersCount": 195,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 557.8,
-                "daysSinceLaunch": 70
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-334539587",
-            "brand": "Spearsmen",
-            "category": "design",
-            "title": "NewtonBar: The Ultimate Organizer",
-            "titleZh": "NewtonBar: 终极 Organizer",
-            "desc": "Effortless organization, elegant design and built to last.",
-            "time": "2026-02-03 15:06",
-            "score": 58.3,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/spearsmen/newtonbar-the-ultimate-organizer",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/332/689/e0c9eae5c96ddc90d3e3e8568fa2859f_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1769271180&width=560&sig=ICqq%2BT9G8nfGC8RcC1X2cDBSFKX10bV4wWzaoYVlkGg%3D",
-            "reason": "NewtonBar: The Ultimate Organizer，在design/product/design领域，获得78人支持，筹得$9,446，达成率1889.2%",
-            "ksData": {
-                "goal": 500.0,
-                "pledged": 9446.0,
-                "usdPledged": 9446.0,
-                "backersCount": 78,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1889.2,
-                "daysSinceLaunch": 135
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-318070650",
-            "brand": "Krayzor",
-            "category": "gadget",
-            "title": "Krayzor: Dual-Screen Beast – Game & Design Domination",
-            "titleZh": "Krayzor: Dual-屏幕 Beast – Game & 设计 Domination",
-            "desc": "Dual-Screen | 2.5K 240Hz | Replaceable GPU | RGB Mechanical Keyboard | Powerful Hardware | Independent Knob | Efficient Cooling",
-            "time": "2025-09-08 13:00",
-            "score": 58.3,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.7,
-                "transferability": 5.7,
-                "diffusionPotential": 7.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/6181520/krayzor-dual-screen-gaming-laptop-with-high-refresh-rate",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/607/202/ae7034be4c4b7d4355d87dfcb5da9161_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1756382120&width=560&sig=JCoJ%2FPUBGuyDAeyPLkJey8SvSBACKdR2YHydN3oqbTg%3D",
-            "reason": "Krayzor: Dual-Screen Beast – Game & Design Dominat，在technology/gadgets领域，获得55人支持，筹得$49,202，达成率7671.7%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 383584.0,
-                "usdPledged": 49202.03582784,
-                "backersCount": 55,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 7671.7,
-                "daysSinceLaunch": 284
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2143147547",
-            "brand": "Qalzy",
-            "category": "gadget",
-            "title": "Qalzy: World’s First AI Scale to Auto-Count Calories",
-            "titleZh": "Qalzy: 世界’s First AI Scale to Auto-Count Calories",
-            "desc": "One Tap Calorie Counting | Weigh, Scan, Log in <4s | OpenAI Powered Camera | Gram Accuracy | 2.9M+ Verified Foods | No Subscription",
-            "time": "2025-05-06 15:47",
-            "score": 58.2,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/calorie-tracking/qalzy-worlds-first-ai-scale-to-automate-calorie-counting",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/754/872/9b438e4af10a878bf3378790f70239b7_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750437700&width=560&sig=y9dLQ3vHLSbgeqKKtk5cvQYn43EK1KsngbvwENCwg20%3D",
-            "reason": "Qalzy: World’s First AI Scale to Auto-Count Calori，在technology/gadgets领域，获得1,282人支持，筹得$243,166，达成率4574.9%",
-            "ksData": {
-                "goal": 4000.0,
-                "pledged": 182997.0,
-                "usdPledged": 243166.31661159,
-                "backersCount": 1282,
-                "currency": "GBP",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 4574.9,
-                "daysSinceLaunch": 408
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2033739753",
-            "brand": "NowMean",
-            "category": "design",
-            "title": "NowMean | Dual-Screen Spectra 6 E-Ink Photo Album",
-            "titleZh": "NowMean | Dual-屏幕 Spectra 6 电子墨水 照片 Album",
-            "desc": "Experience print-like texture with the latest E-Ink tech. A dedicated space for your favorite memories and essential time tracking",
-            "time": "2026-04-28 12:07",
-            "score": 58.2,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/nowmean/nowmean-a-quiet-photo-frame-for-everyday-memories",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/244/580/1db29e48bad87151dfd5be318dba55a6_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1775550006&width=560&sig=SLb%2FtAeC2qarfniVwtRIAHFcg7LOt0ox6SA4OnCiOew%3D",
-            "reason": "NowMean | Dual-Screen Spectra 6 E-Ink Photo Album，在design/product/design领域，获得132人支持，筹得$21,912，达成率730.4%",
-            "ksData": {
-                "goal": 3000.0,
-                "pledged": 21912.0,
-                "usdPledged": 21912.0,
-                "backersCount": 132,
-                "currency": "USD",
-                "state": "live",
-                "staffPick": false,
-                "percentFunded": 730.4,
-                "daysSinceLaunch": 52
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-476383916",
-            "brand": "Hidizs",
-            "category": "audio",
-            "title": "ST2 PRO: Next-Gen DSP Revolution in USB-C DAC HiFi Earphones",
-            "titleZh": "ST2 专业版: 次世代 DSP 革新 于 USB-C DAC HiFi Earphones",
-            "desc": "Next-Gen DSP|2-in-1 Innovation|High-Performance ESS DAC|HiFi Digital In-ear Earphone|Fit any USB-C Device|In-Line Control&HD Microphone",
-            "time": "2024-12-19 15:30",
-            "score": 58.1,
-            "visBreakdown": {
-                "recognition": 7.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/hidizs/st2-nebula-redefining-hi-res-audio-with-usb-c-dac-earphones",
-            "tags": [
-                "technology/sound"
-            ],
-            "image": "https://i.kickstarter.com/assets/047/556/670/1c1da1f3bc5ea0b41a28bf6c4b9b895a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1733992457&width=560&sig=%2Fp0upbSVWOuvLeJlhFmpSihNX5ZkPQRdJbphvQ0iMZ4%3D",
-            "reason": "ST2 PRO: Next-Gen DSP Revolution in USB-C DAC HiFi，在technology/sound领域，获得3,183人支持，筹得$217,800，Kickstarter Staff Pick，达成率4230.5%",
-            "ksData": {
-                "goal": 40000.0,
-                "pledged": 1692183.0,
-                "usdPledged": 217800.40011876,
-                "backersCount": 3183,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 4230.5,
-                "daysSinceLaunch": 546
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1475833186",
-            "brand": "LCMD",
-            "category": "hardware",
-            "title": "LCMD AI-powered MicroServer & Private Cloud",
-            "titleZh": "LCMD AI驱动 MicroServer & Private Cloud",
-            "desc": "Cutting-Edge AI Integration丨64GB DDR5 Memory丨All-SSD Flash Storage(Up to 96 TB)丨2000+ Built-in Applications丨 Intel® Core™ i5-13500H",
-            "time": "2025-08-26 13:45",
-            "score": 58.1,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 7.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/lcmd-microserver/lcmd-ai-powered-micro-server-and-private-cloud",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/602/379/20939c90e3d692b8fdbba7892eaf94db_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1756348204&width=560&sig=Gg3MM7zOb2qPuSgmcaIVr5Zj0Lrm5NHeEd4zJiW9WUA%3D",
-            "reason": "LCMD AI-powered MicroServer & Private Cloud，在technology/hardware领域，获得87人支持，筹得$153,709，Kickstarter Staff Pick，达成率3000.1%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 40000.0,
-                "pledged": 1200034.0,
-                "usdPledged": 153709.01896548,
-                "backersCount": 87,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 3000.1,
-                "daysSinceLaunch": 297
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2082344891",
-            "brand": "Dan Pastusek",
-            "category": "hardware",
-            "title": "PiBox: A Modular Raspberry Pi Storage Server",
-            "titleZh": "PiBox: 模块化 Raspberry Pi Storage Server",
-            "desc": "Raspberry Pi CM4 + 2x SATA SSDs. 1.3\" Display, HDMI, 2 USB ports, and USB-C powered. Plug and Play. Open and hackable.",
-            "time": "2021-10-25 13:08",
-            "score": 57.9,
-            "visBreakdown": {
-                "recognition": 6.9,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 5.2,
-                "diffusionPotential": 7.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/pastudan/pibox-a-modular-raspberry-pi-storage-server",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/035/292/888/8d4a3107ed8297104ff9875cda07dccc_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1634709683&width=560&sig=Z%2BKaIy2QXzS62KNvlocr3kzoMThnnaMM6ZwcnhtEHjo%3D",
-            "reason": "PiBox: A Modular Raspberry Pi Storage Server，在technology/hardware领域，获得792人支持，筹得$200,432，Kickstarter Staff Pick，达成率400.9%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 200432.01,
-                "usdPledged": 200432.01,
-                "backersCount": 792,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 400.9,
-                "daysSinceLaunch": 1698
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-876676839",
-            "brand": "Segai",
-            "category": "hardware",
-            "title": "SyncOne: AI-Powered Pleasure Device for Men",
-            "titleZh": "SyncOne: AI驱动 Pleasure 设备 为 男士",
-            "desc": "Experience the future of immersive wellness powered by real-time Al and smart technology",
-            "time": "2025-10-09 14:03",
-            "score": 57.8,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1195448403/segai",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/179/576/3b71598704289ea831d670ded0326e3f_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1760018338&width=560&sig=6dFNd8w%2FGekDJTuha%2Bb6S2J%2Bqf2apugq9wA8198evnw%3D",
-            "reason": "SyncOne: AI-Powered Pleasure Device for Men，在technology/hardware领域，获得1,471人支持，筹得$478,214，达成率3722.1%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 100000.0,
-                "pledged": 3722144.0,
-                "usdPledged": 478213.95182496,
-                "backersCount": 1471,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 3722.1,
-                "daysSinceLaunch": 252
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1293692671",
-            "brand": "Steve",
-            "category": "design",
-            "title": "FoodTusker: World's first truly smart food container system.",
-            "titleZh": "FoodTusker: 全球首款 真正 智能 食物 container 系统.",
-            "desc": "FoodTusker is a smart food container system that keeps track of your leftovers, so you never forget them.",
-            "time": "2025-10-07 14:58",
-            "score": 57.8,
-            "visBreakdown": {
-                "recognition": 6.8,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 5.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/stevehong/foodtusker-worlds-first-truly-smart-food-container-system",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/718/882/c1f1311751701fe96d590b85d7dbd8d2_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1757112672&width=560&sig=Udq6TJEbkGt3z6byrsrdb3jwM5OASPGEz8WBxV8M7C0%3D",
-            "reason": "FoodTusker: World's first truly smart food contain，在design/product/design领域，获得78人支持，筹得$9,254，达成率185.1%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 9254.0,
-                "usdPledged": 9254.0,
-                "backersCount": 78,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 185.1,
-                "daysSinceLaunch": 254
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-919230115",
-            "brand": "Japan Treasures",
-            "category": "design",
-            "title": "Feel 1400 Years of Japanese Color in a Handcrafted Art Clock",
-            "titleZh": "Feel 1400 年 的 Japanese Color 于 手工 Art Clock",
-            "desc": "A Japanese clock crafted in Kanazawa using a 1,400-year mineral pigment tradition.",
-            "time": "2026-02-19 10:57",
-            "score": 57.8,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/japan-treasures/japanese-art-clock-made-with-1400-years-of-mineral-pigment",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/562/419/03154bea7595d800e65f4a7fa6ab8534_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770798215&width=560&sig=PMDv62DqK3K%2F9gimk4TPMban5XsJpqePL4is0M3DEzY%3D",
-            "reason": "Feel 1400 Years of Japanese Color in a Handcrafted，在design/product/design领域，获得39人支持，筹得$20,337，达成率1041.3%",
-            "ksData": {
-                "goal": 300000.0,
-                "pledged": 3123850.0,
-                "usdPledged": 20337.4193245,
-                "backersCount": 39,
-                "currency": "JPY",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1041.3,
-                "daysSinceLaunch": 120
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1354126488",
-            "brand": "Zakwan Ahmad",
-            "category": "gadget",
-            "title": "The One Smart AI Pen",
-            "titleZh": "One 智能 AI 笔",
-            "desc": "Experience the Future of Smart Writing – AI-Powered Pen with ChatGPT| Translation & Voice Control| Recording & Note Taking!",
-            "time": "2025-03-01 18:00",
-            "score": 57.7,
-            "visBreakdown": {
-                "recognition": 5.6,
-                "paradigmShift": 7.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.5,
-                "diffusionPotential": 6.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/esmecos/the-one-smart-ai-pen",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/351/022/cbda3a508b033e6518761835af701206_original.JPG?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1740772715&width=560&sig=HrgpLUgN18z9w36JQayGf76vgm4XFb1zcQE03N7y%2F1Y%3D",
-            "reason": "The One Smart AI Pen，在technology/gadgets领域，获得311人支持，筹得$20,280，达成率202.8%，视觉亮点：AI驱动、新交互",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 20280.0,
-                "usdPledged": 20280.0,
-                "backersCount": 311,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 202.8,
-                "daysSinceLaunch": 474
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-70909516",
-            "brand": "KeyGo",
-            "category": "hardware",
-            "title": "KeyGo Gen2 Pro: Slim Foldable Keyboard with 4K Touchscreen",
-            "titleZh": "KeyGo Gen2 专业版: Slim 可折叠 Keyboard 配备 4K 触摸屏",
-            "desc": "180° Foldable Keyboard l 4K Touch Display l Speakers l Brightness Control l 2.4G, Bluetooth & Wired l For Windows, macOS, and Linux.",
-            "time": "2026-02-10 12:16",
-            "score": 57.6,
-            "visBreakdown": {
-                "recognition": 6.5,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1794064432/keygo-gen2-ultra-slim-folding-keyboard-with-4k-touch-screen",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/863/585/768e71b17c36afb62d723acbdcee941d_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772886091&width=560&sig=paVEXKFkpoCW54WEFnYl9CArs8DJ3ubhsuPr4c5fR%2BI%3D",
-            "reason": "KeyGo Gen2 Pro: Slim Foldable Keyboard with 4K Tou，在technology/hardware领域，获得1,770人支持，筹得$635,419，达成率16550.0%，视觉亮点：可折叠",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 4965010.0,
-                "usdPledged": 635418.7028934,
-                "backersCount": 1770,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 16550.0,
-                "daysSinceLaunch": 129
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1745021723",
-            "brand": "UNCPROP Modular",
-            "category": "audio",
-            "title": "FamilyTool – a versatile modular synthesizer extension",
-            "titleZh": "FamilyTool – 多功能 模块化 synthesizer extension",
-            "desc": "A unique MULT-OR-SWITCH in a powered 20hp eurorack case designed to accompany DFAM, Mother-32 or any other semi-modular synthesizer.",
-            "time": "2018-12-20 19:17",
-            "score": 57.6,
-            "visBreakdown": {
-                "recognition": 7.3,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 5.2,
-                "diffusionPotential": 5.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/998458864/familytool-a-versatile-modular-synthesizer-extensi",
-            "tags": [
-                "technology/sound"
-            ],
-            "image": "https://i.kickstarter.com/assets/023/380/311/217bbd50c8a2faad27f0789928e95259_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1547032080&width=560&sig=zxt1b2rCw8zlAP%2Fkt%2BgPPQ%2FMwL0IeZBFltt5FP0jJwA%3D",
-            "reason": "FamilyTool – a versatile modular synthesizer exten，在technology/sound领域，获得71人支持，筹得$13,981，Kickstarter Staff Pick，达成率49.1%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 25000.0,
-                "pledged": 12284.0,
-                "usdPledged": 13980.80882008,
-                "backersCount": 71,
-                "currency": "EUR",
-                "state": "failed",
-                "staffPick": true,
-                "percentFunded": 49.1,
-                "daysSinceLaunch": 2737
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1941387897",
-            "brand": "Angie Peters",
-            "category": "design",
-            "title": "Plumber's Daughter: Beautiful Tools for Beautiful Spaces",
-            "titleZh": "Plumber的 Daughter: Beautiful Tools 为 Beautiful Spaces",
-            "desc": "Elevate the Ordinary",
-            "time": "2024-03-26 14:31",
-            "score": 57.6,
-            "visBreakdown": {
-                "recognition": 7.2,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 6.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/plumbersdaughter/plumbers-daughter-beautiful-tools-for-beautiful-spaces",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/044/456/821/4e20a084dedd9134439ed611856cd4f3_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1711308015&width=560&sig=TaNZAfaEpimqWnRFVB6Rn24oNpECXnD7sbQSrX%2BZaWU%3D",
-            "reason": "Plumber's Daughter: Beautiful Tools for Beautiful ，在design/product/design领域，获得51人支持，筹得$14,173，Kickstarter Staff Pick，达成率141.7%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 14173.0,
-                "usdPledged": 14173.0,
-                "backersCount": 51,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 141.7,
-                "daysSinceLaunch": 814
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-767876556",
-            "brand": "initecs",
-            "category": "design",
-            "title": "Mini Bolt Action Pen",
-            "titleZh": "迷你 Bolt Action 笔",
-            "desc": "Smaller and lighter minimalist bolt action pen made with Copper and Brass.",
-            "time": "2026-01-23 17:02",
-            "score": 57.4,
-            "visBreakdown": {
-                "recognition": 6.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/initecs/copper-mini-bolt-action-pen",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/283/209/f1b7ef0ad5472a3d6b86c40b741a0a4f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1768934016&width=560&sig=6JbHBlYPn8cQfOn2gMTuoRtc5f3RHTEnut3t%2Fl%2FV0uE%3D",
-            "reason": "Mini Bolt Action Pen，在design/product/design领域，获得75人支持，筹得$6,530，达成率1306.0%",
-            "ksData": {
-                "goal": 500.0,
-                "pledged": 6530.0,
-                "usdPledged": 6530.0,
-                "backersCount": 75,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1306.0,
-                "daysSinceLaunch": 146
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-163574487",
-            "brand": "TORONTO",
-            "category": "design",
-            "title": "Vacuum & Blower in One — Balanced Massive Suction & Airflow",
-            "titleZh": "Vacuum & Blower 于 One — Balanced Massive Suction & Airflow",
-            "desc": "18,000 Pa suction丨73g wind pressure丨2000 mAh*3 batteries丨LED Light & Screen Display丨9 air nozzles丨Cyberpunk-inspired design",
-            "time": "2025-12-26 13:31",
-            "score": 57.2,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/toronto-blower/vacuum-and-blower-in-one-balanced-massive-suction-and-airflow",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/044/333/dd011cb4e8c7822beb1c1fe19de53ba3_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1766716067&width=560&sig=1%2FA%2Bn5epwx3fXdOwGPNtgwco44xWGZXNd%2FIGspmZFj8%3D",
-            "reason": "Vacuum & Blower in One — Balanced Massive Suction ，在design/product/design领域，获得127人支持，筹得$8,041，达成率312.6%",
-            "ksData": {
-                "goal": 20000.0,
-                "pledged": 62529.0,
-                "usdPledged": 8040.99866799,
-                "backersCount": 127,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 312.6,
-                "daysSinceLaunch": 175
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-591624511",
-            "brand": "Purple Green Golf",
-            "category": "design",
-            "title": "Golf Dart: Bring the Golf Course Home: Practice and Play",
-            "titleZh": "Golf Dart: 带来 Golf Course 家庭: Practice 和 播放",
-            "desc": "Golf Dart! Experience the ultimate blend of fun, art, and practice. Bring the excitement and precision of golf into your living room!",
-            "time": "2024-07-16 15:50",
-            "score": 57.2,
-            "visBreakdown": {
-                "recognition": 7.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/purplegreengolf/golf-dart-bring-the-golf-course-home-practice-and-play",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/045/853/763/145ecc966751499f87f0c52edc92fa4e_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1721968382&width=560&sig=XGJRfzlbr5lBDhDT9kvWPWW2hxDPsMwAXoQmSlICKSI%3D",
-            "reason": "Golf Dart: Bring the Golf Course Home: Practice an，在design/product/design领域，获得126人支持，筹得$17,924，达成率358.5%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 17924.0,
-                "usdPledged": 17924.0,
-                "backersCount": 126,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 358.5,
-                "daysSinceLaunch": 702
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1519622928",
-            "brand": "Artists & Engineers",
-            "category": "audio",
-            "title": "POLYTIK modular synths: playing with graphics and sound (Canceled)",
-            "titleZh": "POLYTIK 模块化 synths: playing 配备 graphics 和 声音 (Canceled)",
-            "desc": "POLYTIK is a collection of beautifully designed hand-held synth modules exploring the border between play and sound.",
-            "time": "2017-01-31 15:06",
-            "score": 57.1,
-            "visBreakdown": {
-                "recognition": 7.3,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 5.2,
-                "diffusionPotential": 5.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/musicofthespheres/polytik-modular-synths-playing-with-graphics-and-s",
-            "tags": [
-                "technology/sound"
-            ],
-            "image": "https://i.kickstarter.com/assets/012/320/737/fda7abd3a5ca67d431c61ea01dfb1a5a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1481718920&width=560&sig=uNpgw5Ro1IExJWuLCOg3YezLWBXFclCeuX05XqfDYUo%3D",
-            "reason": "POLYTIK modular synths: playing with graphics and ，在technology/sound领域，获得36人支持，筹得$6,344，Kickstarter Staff Pick，达成率25.2%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 20000.0,
-                "pledged": 5045.0,
-                "usdPledged": 6343.8532102,
-                "backersCount": 36,
-                "currency": "GBP",
-                "state": "canceled",
-                "staffPick": true,
-                "percentFunded": 25.2,
-                "daysSinceLaunch": 3425
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-984889190",
-            "brand": "Fusion Lab",
-            "category": "gadget",
-            "title": "D01：Visual Soldering Iron: See Clearly, Solder Precisely.",
-            "titleZh": "D01：Visual Soldering Iron: See Clearly, Solder Precisely.",
-            "desc": "The world's first Wi-Fi connected soldering iron with 50x zoom & built-in LED light. Revolutionize your DIY,",
-            "time": "2026-01-29 12:00",
-            "score": 57.0,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/832251555/d01-visual-soldering-iron-see-clearly-solder-precisely",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/562/566/e644afa70d034b9239bd6afee759855a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770799350&width=560&sig=8E%2BYlrNnUwZLuq5Hu%2BxyY6fFf5peEAUcgWTxs93deII%3D",
-            "reason": "D01：Visual Soldering Iron: See Clearly, Solder Pre，在technology/gadgets领域，获得847人支持，筹得$93,507，Kickstarter Staff Pick，达成率2431.4%",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 729428.0,
-                "usdPledged": 93506.63723044,
-                "backersCount": 847,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 2431.4,
-                "daysSinceLaunch": 141
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1479353996",
-            "brand": "MIPOW USA",
-            "category": "hardware",
-            "title": "13 Graphic Editions Slimmest Travel E-Toothbrush, Your Style",
-            "titleZh": "13 Graphic Editions Slimmest 旅行 E-Toothbrush, 你的 风格",
-            "desc": "13 Style Editions, 50g Light Weight, Smart Sonic Vibration, Petite Magnetic Travel Case, Ceramic Holder Dock, 60Days+Use/Rechargeable",
-            "time": "2025-06-25 01:17",
-            "score": 56.9,
-            "visBreakdown": {
-                "recognition": 4.6,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 6.9,
-                "transferability": 6.4,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/mipowusa/10-printed-designs-slim-travel-e-toothbrush-match-your-style",
-            "tags": [
-                "technology/diy electronics"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/809/014/7b88be26b7c43a0944564a7b6e2879c8_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750842562&width=560&sig=E2xJ5mFFrRKjpGV88lgQqAE1x%2Fdj2U8ivwREqaaoVg0%3D",
-            "reason": "13 Graphic Editions Slimmest Travel E-Toothbrush, ，在technology/diy/electronics领域，获得176人支持，筹得$7,772，达成率508.4%，视觉亮点：AI驱动、模块化/磁吸",
-            "ksData": {
-                "goal": 12000.0,
-                "pledged": 61013.0,
-                "usdPledged": 7772.44607,
-                "backersCount": 176,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 508.4,
-                "daysSinceLaunch": 359
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1487958995",
-            "brand": "iGrowPod",
-            "category": "design",
-            "title": "ALITY – Smart Hydroponic Planter with Full-Spectrum LED",
-            "titleZh": "ALITY – 智能 Hydroponic Planter 配备 全-Spectrum LED",
-            "desc": "Future of Planting | Seed to Harvest | Full Spectrum LED Grow Light | Self-Watering | Height Adjust | Timer | NFC |Smart Temp Indicator",
-            "time": "2026-04-24 11:31",
-            "score": 56.9,
-            "visBreakdown": {
-                "recognition": 6.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.9,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1042383/ality-smart-hydroponic-planter-with-full-spectrum-led",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/466/223/cf6ff959de50cd051e68ee80aea0b3df_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1777012133&width=560&sig=hPvRR28WHk69RVLqJjKcRwys3IsA7e8ytrZyKsOzHf0%3D",
-            "reason": "ALITY – Smart Hydroponic Planter with Full-Spectru，在design/product/design领域，获得74人支持，筹得$7,294，达成率729.4%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 1000.0,
-                "pledged": 7294.0,
-                "usdPledged": 7294.0,
-                "backersCount": 74,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 729.4,
-                "daysSinceLaunch": 56
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-339541628",
-            "brand": "Morwie",
-            "category": "gadget",
-            "title": "Magnetic Handwarmer: Winter Magic in Your Hands",
-            "titleZh": "磁吸 Handwarmer: Winter Magic 于 你的 Hands",
-            "desc": "Power Bank | 10000 mAh | 360° Heating | 16h Battery Life | Magnetic | 3 Heat Levels | Intelligent Protection | Temp Battery Display",
-            "time": "2024-10-15 13:00",
-            "score": 56.8,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 5.6,
-                "diffusionPotential": 8.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/morwies1/morwie-s1-360-surround-heating-magnetic-hand-warmer",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/046/873/179/1afb79675cbab6073aa3edf09d456fca_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1728920129&width=560&sig=P5yyWeon7U5B51Lrj1pBxmENKydfMSUXyBMADJHMxC4%3D",
-            "reason": "Magnetic Handwarmer: Winter Magic in Your Hands，在technology/gadgets领域，获得1,538人支持，筹得$95,238，达成率1480.0%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 740024.0,
-                "usdPledged": 95238.18050568,
-                "backersCount": 1538,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1480.0,
-                "daysSinceLaunch": 612
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-881198873",
-            "brand": "Gravilogic",
-            "category": "hardware",
-            "title": "Switchblades: Rail Cover & Kickstand for Nintendo Switch",
-            "titleZh": "Switchblades: Rail 盖子 & Kickstand 为 Nintendo 开关",
-            "desc": "Decorative and protective rail covers with kickstand feature for the Nintendo Switch console, handmade from wood and other materials.",
-            "time": "2018-11-13 19:41",
-            "score": 56.6,
-            "visBreakdown": {
-                "recognition": 5.4,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.9,
-                "transferability": 4.9,
-                "diffusionPotential": 8.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/2102891131/switchblades-rail-cover-and-kickstand-for-nintendo",
-            "tags": [
-                "games/gaming hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/023/249/673/6bacee5146d00025c8ccb7067e416892_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1542134667&width=560&sig=2LTSLQMrm8wPc3yktwEzO%2FBfC27OthgkbYhr%2Bc5Ml7Q%3D",
-            "reason": "Switchblades: Rail Cover & Kickstand for Nintendo ，在games/gaming/hardware领域，获得2,098人支持，筹得$55,286，达成率1105.7%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 55286.0,
-                "usdPledged": 55286.0,
-                "backersCount": 2098,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1105.7,
-                "daysSinceLaunch": 2774
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1991024762",
-            "brand": "AIgoLaser",
-            "category": "hardware",
-            "title": "AlgoLaser Delta 40W: Smart Laser Cutter&Engraver for Wood",
-            "titleZh": "AlgoLaser Delta 40W: 智能 Laser Cutter&Engraver 为 实木",
-            "desc": "Super Easy to Use | Offline Control | Cut Up to 50mm Thickness Wood | 180000㎟ Engraving Area | Colorful Stainless Steel Engraving",
-            "time": "2024-02-06 13:00",
-            "score": 56.6,
-            "visBreakdown": {
-                "recognition": 5.5,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.9,
-                "transferability": 5.7,
-                "diffusionPotential": 6.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/algolaser/algolaser-40w-s-high-power-intelligent-laser-engraver-with",
-            "tags": [
-                "technology/diy electronics"
-            ],
-            "image": "https://i.kickstarter.com/assets/043/890/203/8866df72519ecef7e0acebc54996931c_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1707037835&width=560&sig=H3AN7vftMF9lnLlfrsipYEzcSjahToaj0mfWg7mLsik%3D",
-            "reason": "AlgoLaser Delta 40W: Smart Laser Cutter&Engraver f，在technology/diy/electronics领域，获得100人支持，筹得$115,461，达成率3010.7%，视觉亮点：高端材质、AI驱动",
-            "ksData": {
-                "goal": 30000.0,
-                "pledged": 903220.0,
-                "usdPledged": 115461.1958092,
-                "backersCount": 100,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 3010.7,
-                "daysSinceLaunch": 864
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-98007255",
-            "brand": "Matthieu",
-            "category": "camera",
-            "title": "PROSLIDER: Create professional videos (Canceled)",
-            "titleZh": "PROSLIDER: 创造 专业 videos (Canceled)",
-            "desc": "Designed for content creators, PROSLIDER is the innovative camera slider to make captivating videos and engaging stories!",
-            "time": "2024-11-10 12:58",
-            "score": 56.5,
-            "visBreakdown": {
-                "recognition": 7.7,
-                "paradigmShift": 5.0,
-                "cmfInnovation": 4.5,
-                "transferability": 4.5,
-                "diffusionPotential": 5.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/picardatmatthieu/proslider-create-professional-videos",
-            "tags": [
-                "technology/camera equipment"
-            ],
-            "image": "https://i.kickstarter.com/assets/047/308/201/9b6fbf13acf8e3dff2dabad6bd435fb2_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1731876719&width=560&sig=GE2iyQWyaJcDrAO4krfs2U6m5TEaz4omHlAbc73UF24%3D",
-            "reason": "PROSLIDER: Create professional videos (Canceled)，在technology/camera/equipment领域，获得15人支持，筹得$14,701，Kickstarter Staff Pick，达成率48.6%",
-            "ksData": {
-                "goal": 235000.0,
-                "pledged": 114286.0,
-                "usdPledged": 14700.6767516,
-                "backersCount": 15,
-                "currency": "HKD",
-                "state": "canceled",
-                "staffPick": true,
-                "percentFunded": 48.6,
-                "daysSinceLaunch": 586
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-109589660",
-            "brand": "iNewMe",
-            "category": "hardware",
-            "title": "NanoHydra Pro: World’s First AI Distance-Adaptive Hydrator",
-            "titleZh": "NanoHydra 专业版: 世界’s First AI Distance-Adaptive Hydrator",
-            "desc": "Golden 10µm Droplet Size | 5 Skincare Modes | Travel Friendly | Swap capsules to use your own toner | Pocket-Sized | App Hydration Scan",
-            "time": "2025-11-25 13:49",
-            "score": 56.4,
-            "visBreakdown": {
-                "recognition": 5.6,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 7.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/533611868/nanohydra-pro-worlds-first-dual-pump-skin-hydrator",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/626/305/fb93c59251b644d4707cb5ea78750f5e_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1762922162&width=560&sig=eMbr%2BkL16JqaEzCDJp17Kz2QNJjjxkpmN22ZJwHtP9I%3D",
-            "reason": "NanoHydra Pro: World’s First AI Distance-Adaptive ，在technology/hardware领域，获得383人支持，筹得$118,844，达成率18500.2%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 925011.0,
-                "usdPledged": 118843.85001141,
-                "backersCount": 383,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 18500.2,
-                "daysSinceLaunch": 206
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-978653409",
-            "brand": "Fongdiver",
-            "category": "design",
-            "title": "Fongdiver: The 550W Charging Hub with Smart Display",
-            "titleZh": "Fongdiver: 550W Charging 集线器 配备 智能 显示",
-            "desc": "550W Total Power | Smart Digital Display| 6 High Speed Ports | 2 Wireless Charing Pad | Dual PD140W Output",
-            "time": "2026-05-08 12:03",
-            "score": 56.3,
-            "visBreakdown": {
-                "recognition": 6.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 6.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1775280844/fongdiver-550w-charging-hub-with-smart-display",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/650/792/152295da8231e117374a920b9d0c288d_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1778255522&width=560&sig=LeEUm32LLnPHbehx5ECu3QIP4U3AhzFL%2FPbVVZ1ApBI%3D",
-            "reason": "Fongdiver: The 550W Charging Hub with Smart Displa，在design/product/design领域，获得57人支持，筹得$6,054，达成率474.1%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 47413.0,
-                "usdPledged": 6053.71127933,
-                "backersCount": 57,
-                "currency": "HKD",
-                "state": "live",
-                "staffPick": false,
-                "percentFunded": 474.1,
-                "daysSinceLaunch": 42
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1516041296",
-            "brand": "Charmed Labs",
-            "category": "hardware",
-            "title": "Vizy",
-            "titleZh": "Vizy",
-            "desc": "Based on the Raspberry Pi, Vizy is your little AI camera minion.",
-            "time": "2020-09-30 17:56",
-            "score": 56.1,
-            "visBreakdown": {
-                "recognition": 5.3,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/charmedlabs/vizy",
-            "tags": [
-                "technology/diy electronics"
-            ],
-            "image": "https://i.kickstarter.com/assets/030/993/279/ffbbf0e9d648dee4d116f000d6264a0b_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1602628122&width=560&sig=0qAR0WOj6DaK6UAPtQFpvHC3zE03kXpocpuQHscLCPg%3D",
-            "reason": "Vizy，在technology/diy/electronics领域，获得542人支持，筹得$178,977，Kickstarter Staff Pick，达成率1193.2%",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 178977.0,
-                "usdPledged": 178977.0,
-                "backersCount": 542,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1193.2,
-                "daysSinceLaunch": 2087
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-902431588",
-            "brand": "Serapis",
-            "category": "hardware",
-            "title": "Serapis: The World's First All-In-One Sleep Aid System",
-            "titleZh": "Serapis: 全球首款 一体式 睡眠 Aid 系统",
-            "desc": "Pyramid geometry design, powered by Schumann Resonance, layered white noise, breathing light, Somnofractal™ visuals.",
-            "time": "2025-12-03 12:00",
-            "score": 56.1,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 7.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/serapis/serapis-the-worlds-first-all-in-one-sleep-aid-system",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/969/347/b23fc5dad7928abac542d3793dd03e1f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1765894544&width=560&sig=8LBqNCIlH0iJ4cH1phdmrKeHgJRbb%2F27Kj1dKBiUMtE%3D",
-            "reason": "Serapis: The World's First All-In-One Sleep Aid Sy，在technology/hardware领域，获得423人支持，筹得$61,177，Kickstarter Staff Pick，达成率4078.5%",
-            "ksData": {
-                "goal": 1500.0,
-                "pledged": 61177.0,
-                "usdPledged": 61177.0,
-                "backersCount": 423,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 4078.5,
-                "daysSinceLaunch": 198
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-835513704",
-            "brand": "GEEKOM",
-            "category": "hardware",
-            "title": "GEEKOM A9 Mega-The Most Powerful Mini PC on Earth",
-            "titleZh": "GEEKOM A9 Mega- Most 强大 迷你 PC on Earth",
-            "desc": "AMD Ryzen™ AI Max+ 395 processor | Radeon™ 8060S Graphics|Dual-Fan Architecture|128GB Quad-Channel RAM & Up to 8TB SSD",
-            "time": "2025-09-03 03:04",
-            "score": 56.1,
-            "visBreakdown": {
-                "recognition": 6.0,
-                "paradigmShift": 6.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.5,
-                "diffusionPotential": 6.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1906688106/geekom-a9-mega-the-most-powerful-mini-pc-on-earth",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/679/769/cc54b39b2de1dff7c97499cf29aa35d5_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1756872864&width=560&sig=PIweDLUduSZrPGdE4yWpnGuMDJYpNfEfDNVJ8NZ2X4c%3D",
-            "reason": "GEEKOM A9 Mega-The Most Powerful Mini PC on Earth，在technology/hardware领域，获得268人支持，筹得$462,278，Kickstarter Staff Pick，达成率462.3%",
-            "ksData": {
-                "goal": 100000.0,
-                "pledged": 462278.0,
-                "usdPledged": 462278.0,
-                "backersCount": 268,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 462.3,
-                "daysSinceLaunch": 289
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-117351436",
-            "brand": "SHI FENG ZHANG",
-            "category": "gadget",
-            "title": "LUVIA - Modular 2-in-1 Travel Clothes Dryer & Hairdryer",
-            "titleZh": "LUVIA - 模块化 2-in-1 旅行 Clothes 干燥器 & Hairdryer",
-            "desc": "2-in-1 High-Speed Hair Dryer + Portable Dryer. Designed specifically for travel, its modular design makes it extremely lightweight.",
-            "time": "2026-04-08 11:59",
-            "score": 56.1,
-            "visBreakdown": {
-                "recognition": 6.2,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 5.6,
-                "diffusionPotential": 6.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/luviapro/luvia-the-ultimate-2-in-1-travel-hair-dryer-and-garment-dryer",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/053/160/186/67afea005e41fc790e42b020c482bbfe_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1774947891&width=560&sig=OY%2Fnnt4zdzi49RZ%2FgpbpXKoWYc8Df%2B20T%2FtAqkro7Ik%3D",
-            "reason": "LUVIA - Modular 2-in-1 Travel Clothes Dryer & Hair，在technology/gadgets领域，获得114人支持，筹得$16,332，达成率583.3%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 2800.0,
-                "pledged": 16332.0,
-                "usdPledged": 16332.0,
-                "backersCount": 114,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 583.3,
-                "daysSinceLaunch": 72
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-852787882",
-            "brand": "AutoHeart",
-            "category": "gadget",
-            "title": "PICPAK: A mini e-ink album brings memories and fun content",
-            "titleZh": "PICPAK: 迷你 电子墨水 album brings memories 和 fun content",
-            "desc": "Bring Your Favorite Photos to Life.Stop Burying Them. PICPAK is an e-ink album that brings memories and fun content.",
-            "time": "2025-12-16 14:00",
-            "score": 56.0,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/picpak-offical/picpak-a-mini-e-ink-album-brings-memories-and-content-feeds",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/977/016/7560a1b4d006c0181cdb79513cc5ed34_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1765952429&width=560&sig=jZSFli0wNaC1%2BalJw2V59H%2FECHeGljdfdk4GAxK4p5Q%3D",
-            "reason": "PICPAK: A mini e-ink album brings memories and fun，在technology/gadgets领域，获得8,332人支持，筹得$880,208，Kickstarter Staff Pick，达成率17604.2%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 880208.0,
-                "usdPledged": 880208.0,
-                "backersCount": 8332,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 17604.2,
-                "daysSinceLaunch": 184
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1181485972",
-            "brand": "MOTI, Inc.",
-            "category": "robot",
-            "title": "MOTI | Your Smart Companion for Better Habits (Canceled)",
-            "titleZh": "MOTI | 你的 智能 伴侣 为 更好 Habits (Canceled)",
-            "desc": "MOTI gives you tangible reminders and instant gratification to build a better you. Backed by science, built with design.",
-            "time": "2016-09-13 02:25",
-            "score": 56.0,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 5.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.5,
-                "diffusionPotential": 7.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/habitmoti/moti-your-smart-companion-for-better-habits",
-            "tags": [
-                "technology/robots"
-            ],
-            "image": "https://i.kickstarter.com/assets/013/480/656/0e97a033a6957024c910d893214f95c3_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1474849436&width=560&sig=D9N2Dw3MOHjtm%2BTirdyWQq%2BYPFCOp2H6GCMXA1FdaOw%3D",
-            "reason": "MOTI | Your Smart Companion for Better Habits (Can，在technology/robots领域，获得1,024人支持，筹得$110,103，Kickstarter Staff Pick，达成率220.2%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 50000.0,
-                "pledged": 110103.0,
-                "usdPledged": 110103.0,
-                "backersCount": 1024,
-                "currency": "USD",
-                "state": "canceled",
-                "staffPick": true,
-                "percentFunded": 220.2,
-                "daysSinceLaunch": 3566
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2068445348",
-            "brand": "Tyvok",
-            "category": "hardware",
-            "title": "Tyvok K1: The First Compact 100W Modular CO₂ Laser Engraver",
-            "titleZh": "Tyvok K1: First 紧凑 100W 模块化 CO₂ 激光雕刻机",
-            "desc": "Pre-Aligned | 100W CO₂ | Modular Design | Acrylic + Materials | Auto-Focus Camera | YONGLI & RUIDA DSP | Indoor-Ready |Dual Exhaust",
-            "time": "2025-09-16 14:01",
-            "score": 56.0,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 5.6,
-                "diffusionPotential": 7.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1295051943/tyvok-k1-100w-co2-laser-engraver-for-makers-and-designers",
-            "tags": [
-                "technology/diy electronics"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/192/547/8d23157441239728019aaf241b9e507a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1760090287&width=560&sig=jB59EL%2BX48ZbrwRjO7foJuEVPCbFQGq7tMoXG%2FPmLtA%3D",
-            "reason": "Tyvok K1: The First Compact 100W Modular CO₂ Laser，在technology/diy/electronics领域，获得133人支持，筹得$584,340，Kickstarter Staff Pick，达成率4543.4%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 100000.0,
-                "pledged": 4543353.0,
-                "usdPledged": 584340.34748202,
-                "backersCount": 133,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 4543.4,
-                "daysSinceLaunch": 275
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-309405705",
-            "brand": "Northern Pails",
-            "category": "audio",
-            "title": "The Crown - Bluetooth Design Speaker: Smart Audio Ice Bucket (Canceled)",
-            "titleZh": "Crown - Bluetooth 设计 音箱: 智能 音频 Ice Bucket (Canceled)",
-            "desc": "The Crown: design speaker combining 360 surround sound with Nordic design from Finland. Fitted with RGB sound reactive lights.",
-            "time": "2018-06-06 14:59",
-            "score": 56.0,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.7,
-                "transferability": 5.3,
-                "diffusionPotential": 4.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/northernpails/the-crown-bluetooth-smart-audio-pail",
-            "tags": [
-                "technology/sound"
-            ],
-            "image": "https://i.kickstarter.com/assets/020/247/108/6892290360d0ffd71577753809233663_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1528802420&width=560&sig=hN%2BpAbIjdyHtrVxaIiXeRImUOsjUylEiSw2%2FZyPNOC8%3D",
-            "reason": "The Crown - Bluetooth Design Speaker: Smart Audio ，在technology/sound领域，获得38人支持，筹得$6,326，达成率7.8%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 81000.0,
-                "pledged": 6326.0,
-                "usdPledged": 6326.0,
-                "backersCount": 38,
-                "currency": "USD",
-                "state": "canceled",
-                "staffPick": false,
-                "percentFunded": 7.8,
-                "daysSinceLaunch": 2934
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1263019080",
-            "brand": "Mantapower",
-            "category": "design",
-            "title": "MantaPower: Charge Fast, Hold Strong, Stay Light",
-            "titleZh": "MantaPower: 充电 Fast, 容纳 Strong, Stay 照亮",
-            "desc": "Blazing Speed | Wired&Wireless Charging | Unshakable Grip | Ultra-Slim & Lightweight | Game-Optimized Charging | Hands-Free Versatility",
-            "time": "2025-03-26 13:05",
-            "score": 55.8,
-            "visBreakdown": {
-                "recognition": 6.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 5.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/manta-power/mantapower-charge-fast-hold-strong-stay-light",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/668/311/a8ae51e2fcb00465ec0054b4ae122b53_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1742987651&width=560&sig=uvP8MUeDe2fqgRAYCmQlUSj2FEW9Q%2BJBMHvi0s3d354%3D",
-            "reason": "MantaPower: Charge Fast, Hold Strong, Stay Light，在design/product/design领域，获得78人支持，筹得$6,958，达成率257.6%",
-            "ksData": {
-                "goal": 21000.0,
-                "pledged": 54098.0,
-                "usdPledged": 6958.138858,
-                "backersCount": 78,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 257.6,
-                "daysSinceLaunch": 450
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-948995390",
-            "brand": "Futurizta Tech",
-            "category": "gadget",
-            "title": "Hydra : World's First Triple Type-C 100W LED Cable",
-            "titleZh": "Hydra : 全球首款 Triple Type-C 100W LED 线材",
-            "desc": "Triboost™ Technology | Fast Charge 3 Devices At Once Up To 100W | LED Display | Data Transfer | Optional Watch/Lightning/Micro Adapter",
-            "time": "2024-07-30 12:00",
-            "score": 55.7,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.4
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/futuriztatech/hydra-100w-triple-fast-charging-type-c-cable",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/046/269/157/fefdd58dffed6b7dbb14c3228a140346_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1725002289&width=560&sig=AM13JrrGMz7YbLol9JW%2FoHHvXYP75ZVOvfL3yryE%2FbA%3D",
-            "reason": "Hydra : World's First Triple Type-C 100W LED Cable，在technology/gadgets领域，获得2,428人支持，筹得$159,200，达成率1616.7%",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 242508.0,
-                "usdPledged": 159199.83788016,
-                "backersCount": 2428,
-                "currency": "AUD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1616.7,
-                "daysSinceLaunch": 689
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1042419887",
-            "brand": "Mike Klein",
-            "category": "hardware",
-            "title": "Lens Lizard: A remote controlled backup camera cleaner",
-            "titleZh": "Lens Lizard: remote controlled backup camera 清洁器",
-            "desc": "Your backup camera should clean itself. Now it does. One press clears snow, salt, and grime so you can actually see where you're going.",
-            "time": "2026-02-17 14:00",
-            "score": 55.6,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/lenslizard/lens-lizard-a-remote-controlled-backup-camera-cleaner",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/052/635/806/ec3c40d768c1d90f8865935f90b93413_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1771338008&width=560&sig=kaq%2B5pKiPrVeEb1JAs4XbMxBq6xfoeoYloY0yIhc3pw%3D",
-            "reason": "Lens Lizard: A remote controlled backup camera cle，在technology/hardware领域，获得3,495人支持，筹得$430,171，Kickstarter Staff Pick，达成率8603.4%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 430171.0,
-                "usdPledged": 430171.0,
-                "backersCount": 3495,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 8603.4,
-                "daysSinceLaunch": 121
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-2142947846",
-            "brand": "MAONOCASTER",
-            "category": "hardware",
-            "title": "MAONOCASTER: A Portable All-In-One Podcast Production Studio",
-            "titleZh": "MAONOCASTER: 便携 一体式 Podcast Production Studio",
-            "desc": "Multichannel mixer | Built-in battery | High quality preamp | Voice FX | Record & stream live | No post-editing | Programmable jingles",
-            "time": "2020-05-11 13:59",
-            "score": 55.6,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/maono/maonocaster-a-portable-all-in-one-podcast-production-studio",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/029/038/699/fea020b88367306ccfdc18427b9b9526_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1589189965&width=560&sig=ZKM1A8ndA38Ai0eY8fPGtq0ALXg25P%2Fpa92DuPFGPWk%3D",
-            "reason": "MAONOCASTER: A Portable All-In-One Podcast Product，在technology/hardware领域，获得3,384人支持，筹得$716,088，Kickstarter Staff Pick，达成率14321.8%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 716088.0,
-                "usdPledged": 716088.0,
-                "backersCount": 3384,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 14321.8,
-                "daysSinceLaunch": 2230
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1377285107",
-            "brand": "DWARFLAB",
-            "category": "hardware",
-            "title": "DWARF II : A Portable and Versatile Smart Telescope",
-            "titleZh": "DWARF II : 便携 和 多功能 智能 Telescope",
-            "desc": "Easily stargazing and birdwatching with your smartphone",
-            "time": "2021-11-30 16:00",
-            "score": 55.6,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/645629418/dwarf-ii-a-portable-and-versatile-smart-telescope",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/035/998/223/60f12798d7146d3b763a7b51a5b93346_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1641460815&width=560&sig=ufCN8KbVHylvI9kqDdxI5N2l1Z8gew8zPJ%2Ff7jSP7A4%3D",
-            "reason": "DWARF II : A Portable and Versatile Smart Telescop，在technology/hardware领域，获得2,129人支持，筹得$873,588，Kickstarter Staff Pick，达成率5677.9%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 120000.0,
-                "pledged": 6813434.0,
-                "usdPledged": 873588.32396738,
-                "backersCount": 2129,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 5677.9,
-                "daysSinceLaunch": 1661
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-693517334",
-            "brand": "Fraimic",
-            "category": "hardware",
-            "title": "Fraimic: A Smart E Ink Canvas That Turns Your Voice Into Art",
-            "titleZh": "Fraimic: 智能 电子墨水 Canvas 能 Turns 你的 语音 进入 Art",
-            "desc": "Multi year battery | Color E Ink | No wires | No apps | No subscriptions | Voice to Vision | Fits in ANY frame | Upload any art/photo",
-            "time": "2025-09-23 10:10",
-            "score": 55.6,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/445470967/fraimic-smart-e-ink-canvas-digital-picture-frame-with-ai",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/953/557/87a4c56b68cfba6054fa839a5f992292_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1758656535&width=560&sig=V76XUAmJCCnEihHX9iDLIMYTWpxArDvIWev%2BT4tLCKg%3D",
-            "reason": "Fraimic: A Smart E Ink Canvas That Turns Your Voic，在technology/hardware领域，获得1,825人支持，筹得$1,120,290，Kickstarter Staff Pick，达成率11202.9%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 1120290.0,
-                "usdPledged": 1120290.0,
-                "backersCount": 1825,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 11202.9,
-                "daysSinceLaunch": 269
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1062469746",
-            "brand": "Oukitel Titan",
-            "category": "hardware",
-            "title": "Oukitel WP100 Titan: 33,000mAh Rugged Phone with Projector",
-            "titleZh": "Oukitel WP100 Titan: 33,000mAh Rugged Phone 配备 投影仪",
-            "desc": "Colossal 33,000mAh Battery| 100-lumen Built-in Projector| 1200-lumen Camping Light| 18W Reverse Charging| 5G Global Connectivity",
-            "time": "2025-02-18 14:00",
-            "score": 55.6,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1006830823/oukitel-wp100-titan-33000mah-rugged-phone-with-projector",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/261/394/bacc85ebd7ab80aa042ee9ffe7b9b7f4_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1740135269&width=560&sig=MS%2BSoSQ8JwiuoOCbaQ%2FeaZZsECCdwiZhqRyxeT6w3V8%3D",
-            "reason": "Oukitel WP100 Titan: 33,000mAh Rugged Phone with P，在technology/hardware领域，获得1,636人支持，筹得$1,031,094，Kickstarter Staff Pick，达成率10309.9%",
-            "ksData": {
-                "goal": 77809.0,
-                "pledged": 8022059.0,
-                "usdPledged": 1031094.41599101,
-                "backersCount": 1636,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 10309.9,
-                "daysSinceLaunch": 485
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-32971482",
-            "brand": "Aiper",
-            "category": "hardware",
-            "title": "AIPER Seagull 3000: Wall-Climbing Cordless Pool Cleaner",
-            "titleZh": "AIPER Seagull 3000: Wall-Climbing Cordless Pool 清洁器",
-            "desc": "Trusted By 200,000 Users｜Intelligent Path Planning | App Control ｜Triple-Drive Motors | Wall & Waterline & Floor Cleaning",
-            "time": "2022-03-22 15:42",
-            "score": 55.6,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.1
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/aiper/aiper-seagull-3000-wall-climbing-cordless-pool-cleaner",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/037/378/181/5033a7e49e6cce762c7b5fe113c00016_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1653062477&width=560&sig=XnXylH%2BIxn%2Bx33yd0zVjkJ%2Bd5eR%2FeqcezYckCwG5ugU%3D",
-            "reason": "AIPER Seagull 3000: Wall-Climbing Cordless Pool Cl，在technology/hardware领域，获得1,575人支持，筹得$1,180,571，Kickstarter Staff Pick，达成率11805.7%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 1180571.0,
-                "usdPledged": 1180571.0,
-                "backersCount": 1575,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 11805.7,
-                "daysSinceLaunch": 1549
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-475113455",
-            "brand": "Olight World",
-            "category": "gadget",
-            "title": "Olight: 3-in-1 Smart Battery Charger, Tester & Organizer",
-            "titleZh": "Olight: 3-in-1 智能 电池 充电器, 测试仪 & Organizer",
-            "desc": "For 32/36 Rechargeable AA/AAA Ni-MH Batteries | Automatic Charging & Storage | 2X Charging Speed | Ostation X | 8-Layer Protection",
-            "time": "2024-06-19 13:00",
-            "score": 55.5,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/olight/olight-3-in-1-smart-battery-charger-tester-and-organizer",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/045/949/230/08f30427b284aa77fcd1481049410f2e_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1722686648&width=560&sig=QqsuEALQVvxq8Ksv12Zzexf5fHvRat9BQGRDn%2F3yfF0%3D",
-            "reason": "Olight: 3-in-1 Smart Battery Charger, Tester & Org，在technology/gadgets领域，获得5,845人支持，筹得$1,142,494，Kickstarter Staff Pick，达成率1142.5%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 100000.0,
-                "pledged": 1142494.0,
-                "usdPledged": 1142494.0,
-                "backersCount": 5845,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1142.5,
-                "daysSinceLaunch": 730
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1081338019",
-            "brand": "AOHi",
-            "category": "gadget",
-            "title": "Starship Pro: Pocket-Sized Power Bank with 210W Output",
-            "titleZh": "Starship 专业版: 口袋大小 移动电源 配备 210W Output",
-            "desc": "World’s Most Powerful 10,000mAh Power Bank | 210W max output with 140W single-port fast charging | Compact, fast, and airplane-safe",
-            "time": "2025-02-18 14:59",
-            "score": 55.5,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/aohi/starship-worlds-most-powerful-10000mah-power-bank",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/048/755/025/64283d0efc242553ff2db5f4026f468d_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1743580886&width=560&sig=hYb9W0dNoWaeoeGFaAM4G18d3oottr9k%2B7Gvz8PWE4U%3D",
-            "reason": "Starship Pro: Pocket-Sized Power Bank with 210W Ou，在technology/gadgets领域，获得1,853人支持，筹得$219,147，Kickstarter Staff Pick，达成率4382.9%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 219147.0,
-                "usdPledged": 219147.0,
-                "backersCount": 1853,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 4382.9,
-                "daysSinceLaunch": 485
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-567824297",
-            "brand": "ELO",
-            "category": "gadget",
-            "title": "Sentinel XR Gaming Glasses: Game & Watch Movies Anywhere",
-            "titleZh": "Sentinel XR Gaming Glasses: Game & Watch Movies Anywhere",
-            "desc": "Wearable 180” display | 1080p FHD | 120Hz refresh rate | Switch 2 & Steam Deck | PS & Xbox & Remote Play | Netflix & Multimedia",
-            "time": "2025-06-24 16:37",
-            "score": 55.5,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 9.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/elovagabond/sentinel-xr-glasses",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/366/712/520bb1e1f9052518fcf343dd59654c4c_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1754811681&width=560&sig=KKlfznUUmTaS6SyxzVQiCzf6rE9y1zmwcKuvDFWZcUg%3D",
-            "reason": "Sentinel XR Gaming Glasses: Game & Watch Movies An，在technology/gadgets领域，获得996人支持，筹得$584,851，Kickstarter Staff Pick，达成率5848.5%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 584851.0,
-                "usdPledged": 584851.0,
-                "backersCount": 996,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 5848.5,
-                "daysSinceLaunch": 359
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-422608213",
-            "brand": "OXS",
-            "category": "hardware",
-            "title": "Thunder Duo Max - Dolby Atmos® Studio-Grade Gaming Speaker",
-            "titleZh": "Thunder Duo 至尊版 - Dolby Atmos® Studio-Grade Gaming 音箱",
-            "desc": "True Dolby Atmos® | Studio-Grade Sound | Wireless Connect | Compact Cyberpunk Design | RGB Flame Lighting | Universal Connectivity",
-            "time": "2025-11-20 15:00",
-            "score": 55.5,
-            "visBreakdown": {
-                "recognition": 5.1,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 6.7,
-                "transferability": 5.7,
-                "diffusionPotential": 7.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/oxs/oxs-thunder-duo-series",
-            "tags": [
-                "games/gaming hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/723/618/407ab18c841b27a219db59ee95adffe2_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1763652780&width=560&sig=BUlyPkqlmOCmdfr2hII3xDAvDDs5gUAKEEh6XjVXKa0%3D",
-            "reason": "Thunder Duo Max - Dolby Atmos® Studio-Grade Gaming，在games/gaming/hardware领域，获得165人支持，筹得$91,135，达成率1825.0%",
-            "ksData": {
-                "goal": 38900.0,
-                "pledged": 709938.0,
-                "usdPledged": 91135.11732714,
-                "backersCount": 165,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1825.0,
-                "daysSinceLaunch": 210
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1580677812",
-            "brand": "ADV.SOUND",
-            "category": "audio",
-            "title": "GT-R : Planar Magnetic Headphones",
-            "titleZh": "GT-R : Planar 磁吸 耳机",
-            "desc": "Open-back, Proprietary Planar Magnetic Driver Headphones that Deliver Expansive Sound-stage and Micro-details for Audiophiles",
-            "time": "2018-05-22 13:56",
-            "score": 55.3,
-            "visBreakdown": {
-                "recognition": 6.6,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 5.2,
-                "diffusionPotential": 5.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/adv-/gt-r-planar-magnetic-headphones-0",
-            "tags": [
-                "technology/sound"
-            ],
-            "image": "https://i.kickstarter.com/assets/019/636/524/91980832527e5ce855f2650c64060993_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1525746153&width=560&sig=lwsIbqR3SVZ6Wr%2BJPJYp6k0zCcq5uX%2BC8ppQxOXTgfM%3D",
-            "reason": "GT-R : Planar Magnetic Headphones，在technology/sound领域，获得288人支持，筹得$68,714，达成率85.9%，视觉亮点：模块化/磁吸",
-            "ksData": {
-                "goal": 80000.0,
-                "pledged": 68714.0,
-                "usdPledged": 68714.0,
-                "backersCount": 288,
-                "currency": "USD",
-                "state": "failed",
-                "staffPick": false,
-                "percentFunded": 85.9,
-                "daysSinceLaunch": 2950
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-432536435",
-            "brand": "Elizabeth Skov",
-            "category": "design",
-            "title": "Nora - a poetic cup",
-            "titleZh": "Nora - poetic cup",
-            "desc": "Poetry inspired me to create a cup with an ergonomic handle.",
-            "time": "2026-03-01 07:46",
-            "score": 55.3,
-            "visBreakdown": {
-                "recognition": 6.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 5.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/cupnora/nora-a-poetic-cup",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/046/147/772/43c71f3effca5a45f69f64f3bd06d1ee_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1724163607&width=560&sig=F6PBkFNitD51aZHY8w%2FVGBwNdt1et9ZqxAFxjMXZr0M%3D",
-            "reason": "Nora - a poetic cup，在design/product/design领域，获得40人支持，筹得$18,479，达成率104.3%",
-            "ksData": {
-                "goal": 15000.0,
-                "pledged": 15638.0,
-                "usdPledged": 18479.43492108,
-                "backersCount": 40,
-                "currency": "EUR",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 104.3,
-                "daysSinceLaunch": 110
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-390790324",
-            "brand": "Alexandra Michy",
-            "category": "design",
-            "title": "Designer Dog House & Furniture in One",
-            "titleZh": "Designer 狗 House & Furniture 于 One",
-            "desc": "Beautiful dog houses that double as stylish furniture, perfect for homes and hospitality professionals.",
-            "time": "2025-11-05 14:05",
-            "score": 55.3,
-            "visBreakdown": {
-                "recognition": 6.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 5.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/487663338/designer-dog-house-and-furniture-in-one",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/362/861/5b103d17ce0f04a1bb499562560e6ea3_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1761148245&width=560&sig=Vc4Zkyn1cslrHttrmh6XAvAiguySCT7tqFhY4zabVJM%3D",
-            "reason": "Designer Dog House & Furniture in One，在design/product/design领域，获得23人支持，筹得$30,915，达成率100.1%",
-            "ksData": {
-                "goal": 25000.0,
-                "pledged": 25024.0,
-                "usdPledged": 30915.04798208,
-                "backersCount": 23,
-                "currency": "CHF",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 100.1,
-                "daysSinceLaunch": 225
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-306730627",
-            "brand": "Wizzax",
-            "category": "design",
-            "title": "Wizzax: Pro Microphone Attachment For Singing Guitarists",
-            "titleZh": "Wizzax: 专业版 麦克风 Attachment 为 Singing Guitarists",
-            "desc": "SINGING GUITAR PLAYERS: Break free from the mic stand, & even go completely wireless - without any of the drawbacks of a headset mic",
-            "time": "2024-06-01 11:31",
-            "score": 55.3,
-            "visBreakdown": {
-                "recognition": 6.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 5.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/wizzax/wizzax-vocal-microphone-attachment-for-singing-guitarists",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/045/239/540/d43dda1039f02218dc1e34c875aac0ef_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1717200501&width=560&sig=hTodnXK2hI6%2FlbWihAer1gZrqCx02pmFjLvyd5o6dOY%3D",
-            "reason": "Wizzax: Pro Microphone Attachment For Singing Guit，在design/product/design领域，获得12人支持，筹得$5,969，达成率119.4%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 5969.0,
-                "usdPledged": 5969.0,
-                "backersCount": 12,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 119.4,
-                "daysSinceLaunch": 748
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1826711821",
-            "brand": "JetFly",
-            "category": "design",
-            "title": "JF04 E-surfboard: Pro Performance at Starter Prices",
-            "titleZh": "JF04 E-surfboard: 专业版 Performance at Starter Prices",
-            "desc": "50km/h Speed | 90min Runtime | 10KW Silent Drive | $4299 Game-Changer | EPP Durability | Tri-Mode Smart Control",
-            "time": "2025-06-24 12:29",
-            "score": 55.3,
-            "visBreakdown": {
-                "recognition": 6.8,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 5.2,
-                "transferability": 5.5,
-                "diffusionPotential": 5.0
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/jetfly/jf04-e-surfboard-pro-performance-at-starter-prices",
-            "tags": [
-                "design/product design"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/769/452/784257ff34bb3376864683e2114124a1_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750575027&width=560&sig=EQNSWg1MPL5wxit7zI0HC0b%2B4Hmindxa5pO6qlNd%2FK8%3D",
-            "reason": "JF04 E-surfboard: Pro Performance at Starter Price，在design/product/design领域，获得10人支持，筹得$46,441，达成率464.4%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 78500.0,
-                "pledged": 364555.0,
-                "usdPledged": 46440.66145,
-                "backersCount": 10,
-                "currency": "HKD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 464.4,
-                "daysSinceLaunch": 360
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1912092157",
-            "brand": "Futurizta Tech",
-            "category": "gadget",
-            "title": "Pixy Mini Pro: World's Smallest & Lightest 30W 10k Powerbank",
-            "titleZh": "Pixy 迷你 专业版: 全球最小 & 最轻 30W 10k 移动电源",
-            "desc": "Smaller than your palm, charges your laptop | Built-in Type-C Cable | 30W PD | 10,000mAh | Dual Output | LED Touch Display",
-            "time": "2025-01-28 13:59",
-            "score": 55.2,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 7.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/futuriztatech/pixy-mini-pro-30w-built-in-type-c-cable-10000mah-powerbank",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/047/980/443/1176f66ba29fe50843d4a68811b3cf8c_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1738045169&width=560&sig=SKsCu2aF6aE5PhvjR1UIDSRm0vHKadlVv1lNQRcPAzc%3D",
-            "reason": "Pixy Mini Pro: World's Smallest & Lightest 30W 10k，在technology/gadgets领域，获得1,046人支持，筹得$54,693，达成率869.3%",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 86931.0,
-                "usdPledged": 54692.84815371,
-                "backersCount": 1046,
-                "currency": "AUD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 869.3,
-                "daysSinceLaunch": 507
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-426621014",
-            "brand": "Mokibo",
-            "category": "gadget",
-            "title": "Fusion Keyboard 2.0: 4-in-1 Keyboard with Invisible Touchpad",
-            "titleZh": "Fusion Keyboard 2.0: 4-in-1 Keyboard 配备 Invisible Touchpad",
-            "desc": "Revolutionary Touchpad on Keys | Built-In Kickstand & Case | Pair Up to 3 Devices | Multi-OS Support | Portable |by Mokibo",
-            "time": "2024-05-14 15:17",
-            "score": 55.2,
-            "visBreakdown": {
-                "recognition": 5.9,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 7.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/mokibo-/mokibo-fusion-keyboard-2-0-keyboard-touchpad-stand-cover",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/045/541/275/72ae298080ff1d59e9b81e7fd2246d68_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1719500749&width=560&sig=NlKiKpAyUoal4w%2FJuomkKm%2BEU98%2FYlBeexySWrKmic8%3D",
-            "reason": "Fusion Keyboard 2.0: 4-in-1 Keyboard with Invisibl，在technology/gadgets领域，获得823人支持，筹得$87,812，达成率1756.2%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 87812.0,
-                "usdPledged": 87812.0,
-                "backersCount": 823,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 1756.2,
-                "daysSinceLaunch": 765
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1774324319",
-            "brand": "Lumos Helmet",
-            "category": "hardware",
-            "title": "Lumos Ultra - The New Standard In Bike Helmets",
-            "titleZh": "Lumos 极致版 - 全新 标准版 于 Bike Helmets",
-            "desc": "Integrated LED lighting, turn signals, and smart features to keep you safe in one sleek package.",
-            "time": "2020-05-25 14:57",
-            "score": 55.1,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/lumoshelmet/lumos-ultra-the-new-standard-in-bike-helmets",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/029/594/960/dcd4755b7a6d6e30ec4eba87f43630c9_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1593082659&width=560&sig=1YZxw2ZtVKMEosXVKQAc%2B9vQnsmOpcqx4muFXoh%2B3Ms%3D",
-            "reason": "Lumos Ultra - The New Standard In Bike Helmets，在technology/hardware领域，获得24,943人支持，筹得$2,966,439，Kickstarter Staff Pick，达成率4944.1%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 60000.0,
-                "pledged": 2966439.2,
-                "usdPledged": 2966439.2,
-                "backersCount": 24943,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 4944.1,
-                "daysSinceLaunch": 2215
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-691775145",
-            "brand": "Henrique Olifiers",
-            "category": "hardware",
-            "title": "ZX Spectrum Next Issue 3",
-            "titleZh": "ZX Spectrum Next Issue 3",
-            "desc": "The Sinclair ZX Spectrum Next: the evolution of the Speccy computer, now expanded into the world of the Sinclair QL, C64 and... More!",
-            "time": "2025-07-19 06:59",
-            "score": 55.1,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/spectrumnext/zx-spectrum-next-issue-3-0",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/963/420/624759b601c84ffe5e58e1ed18312ba9_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1751977962&width=560&sig=lYXLPnRk9qay1tB%2FUqVjv9GHBG52aBSVzJHu6JVvQZs%3D",
-            "reason": "ZX Spectrum Next Issue 3，在technology/hardware领域，获得7,524人支持，筹得$3,508,223，Kickstarter Staff Pick，达成率1044.9%",
-            "ksData": {
-                "goal": 250000.0,
-                "pledged": 2612335.0,
-                "usdPledged": 3508222.8535354,
-                "backersCount": 7524,
-                "currency": "GBP",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 1044.9,
-                "daysSinceLaunch": 335
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1202017927",
-            "brand": "OneClock",
-            "category": "hardware",
-            "title": "OneClock: Wake Up Better",
-            "titleZh": "OneClock: 唤醒 Up 更好",
-            "desc": "Minimalist analog timepiece with waking music based in science, composed by Grammy-winning artists, designed for a disconnected bedroom",
-            "time": "2021-02-02 10:56",
-            "score": 55.1,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/oneclock/oneclock-wake-up-better",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/032/493/249/d170e7c9c14a6ac29fa3daa4db7ab226_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1614127808&width=560&sig=fP4uUmFRNJSmAjn8eOEx%2BDvdXC96dW0lClw4JdGiprE%3D",
-            "reason": "OneClock: Wake Up Better，在technology/hardware领域，获得3,103人支持，筹得$781,718，Kickstarter Staff Pick，达成率3908.6%",
-            "ksData": {
-                "goal": 20000.0,
-                "pledged": 781718.1,
-                "usdPledged": 781718.1,
-                "backersCount": 3103,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 3908.6,
-                "daysSinceLaunch": 1963
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1352920213",
-            "brand": "Elfin Fountain",
-            "category": "hardware",
-            "title": "Elfin Fountain: The New Generation of Pumpless™ Dog Fountain",
-            "titleZh": "Elfin Fountain: 全新 Generation 的 Pumpless™ 狗 Fountain",
-            "desc": "Pumpless design | Super easy to clean | No mess in Streams | 30-day battery life | Stainless-steel water tray | Design for all dogs",
-            "time": "2025-05-28 15:00",
-            "score": 55.1,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1719831261/elfin-fountain-the-new-generation-of-pumplesstm-dog-fountain",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/049/753/777/3095a98b6dd3a22e40be5b488e9834e5_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750432064&width=560&sig=xHK%2FadQCZC%2B9RWKNSGEdDL%2BCb3i1fXsEMnB7%2FxzRUHc%3D",
-            "reason": "Elfin Fountain: The New Generation of Pumpless™ Do，在technology/hardware领域，获得1,869人支持，筹得$200,377，Kickstarter Staff Pick，达成率4007.5%",
-            "ksData": {
-                "goal": 5000.0,
-                "pledged": 200377.0,
-                "usdPledged": 200377.0,
-                "backersCount": 1869,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 4007.5,
-                "daysSinceLaunch": 386
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-998272209",
-            "brand": "Band Industries",
-            "category": "hardware",
-            "title": "Roadie Coach: Music Tutor, Smart Recorder & MIDI Controller",
-            "titleZh": "Roadie Coach: 音乐 Tutor, 智能 录音机 & MIDI Controller",
-            "desc": "Learn Guitar Ukulele and Singing • Record your performances and track your progress • Interact with your favorite audio apps",
-            "time": "2022-01-25 16:00",
-            "score": 55.1,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.6
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/roadietuner/roadie-coach-your-personal-music-tutor-and-smart-recorder",
-            "tags": [
-                "technology/hardware"
-            ],
-            "image": "https://i.kickstarter.com/assets/036/097/540/34635793d60eeca37f11aaf9b10a5bf8_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1642500388&width=560&sig=cdC9kMsXz5mpe4GiHcQANMbV9c59pg6ClDm4cJuHGCg%3D",
-            "reason": "Roadie Coach: Music Tutor, Smart Recorder & MIDI C，在technology/hardware领域，获得1,622人支持，筹得$261,276，Kickstarter Staff Pick，达成率2612.8%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 261276.0,
-                "usdPledged": 261276.0,
-                "backersCount": 1622,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 2612.8,
-                "daysSinceLaunch": 1605
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-1727721051",
-            "brand": "HEITSON",
-            "category": "gadget",
-            "title": "HEITSON: The Pain-Relief Air Cushion You’ve Been Waiting For",
-            "titleZh": "HEITSON: Pain-Relief Air Cushion You’ve Been Waiting 为",
-            "desc": "Enhanced with Graphene Heating, Ultra-Light Foldable Design, and Intuitive Wave Support—Surpassing Traditional Airbag Cushions",
-            "time": "2025-10-17 13:59",
-            "score": 55.1,
-            "visBreakdown": {
-                "recognition": 6.2,
-                "paradigmShift": 5.3,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 6.9
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/1367732415/heitson-the-pain-relief-air-cushion-youve-been-waiting-for",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/051/278/470/49ac945f7ce79760f754a90e18e7f677_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1760609617&width=560&sig=0cCmjIrpeXEyKRwgru5MvF1oNrCLSZ39n5ZMtv3k6kw%3D",
-            "reason": "HEITSON: The Pain-Relief Air Cushion You’ve Been W，在technology/gadgets领域，获得225人支持，筹得$32,319，达成率923.4%，视觉亮点：可折叠",
-            "ksData": {
-                "goal": 3500.0,
-                "pledged": 32319.0,
-                "usdPledged": 32319.0,
-                "backersCount": 225,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": false,
-                "percentFunded": 923.4,
-                "daysSinceLaunch": 245
-            },
-            "sourceData": {}
-        },
-        {
-            "id": "ks-812007810",
-            "brand": "Einsen",
-            "category": "gadget",
-            "title": "Einsen: The Future of Ironing. Automated",
-            "titleZh": "Einsen: 未来的 Ironing. 自动化",
-            "desc": "Automated | Patented 3D Ironing System | Superheated Steam | Professional Finish | Smart Control | Safe by Design | Presses and Steams",
-            "time": "2025-07-01 15:23",
-            "score": 55.0,
-            "visBreakdown": {
-                "recognition": 6.3,
-                "paradigmShift": 4.5,
-                "cmfInnovation": 4.5,
-                "transferability": 4.9,
-                "diffusionPotential": 8.5
-            },
-            "source": "kickstarter",
-            "sourceName": "Kickstarter",
-            "url": "https://www.kickstarter.com/projects/249774202/einsen-the-worlds-first-automated-smart-iron",
-            "tags": [
-                "technology/gadgets"
-            ],
-            "image": "https://i.kickstarter.com/assets/050/377/447/82e1d290a834059624a92b08d4a421fe_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1754907109&width=560&sig=mxnd2ucf%2BNY3%2FEp%2Bx2OlK25sOnJGRfUkNy51hq5gvKg%3D",
-            "reason": "Einsen: The Future of Ironing. Automated，在technology/gadgets领域，获得412人支持，筹得$504,731，Kickstarter Staff Pick，达成率5047.3%，视觉亮点：AI驱动",
-            "ksData": {
-                "goal": 10000.0,
-                "pledged": 504731.0,
-                "usdPledged": 504731.0,
-                "backersCount": 412,
-                "currency": "USD",
-                "state": "successful",
-                "staffPick": true,
-                "percentFunded": 5047.3,
-                "daysSinceLaunch": 352
-            },
-            "sourceData": {}
-        }
-    ]
+  "lastUpdated": "2026-06-22",
+  "products": [
+    {
+      "id": "ks-292015878",
+      "brand": "YAT-Design",
+      "category": "wearable",
+      "title": "Y-Glasses Pro: Redefining the Smart Glasses Experience",
+      "titleZh": "Y-Glasses 专业版: 重新定义 智能眼镜 体验",
+      "desc": "Magnetic function/Smart glasses/Bluetooth 5.3/Support customization/Three styles to switch at will/Titanium /Voice control/ TWS",
+      "time": "2024-05-29 12:00",
+      "score": 85.9,
+      "visBreakdown": {
+        "recognition": 9.6,
+        "paradigmShift": 8.5,
+        "cmfInnovation": 8.5,
+        "transferability": 6.9,
+        "diffusionPotential": 8.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/y-glasses/y-glasses-pro",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/045/380/874/32b0605b03e461e2947c9b54573a1698_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1718284482&width=560&sig=tR6cBLZXhHDieGkJMf03XbazaqZ3VSLJp1O33oiKvOQ%3D",
+      "reason": "Y-Glasses Pro: Redefining the Smart Glasses Experi，在technology/wearables领域，获得490人支持，筹得$63,575，Kickstarter Staff Pick，达成率6357.5%，视觉亮点：高端材质、AI驱动、模块化/磁吸",
+      "ksData": {
+        "goal": 1000.0,
+        "pledged": 63575.0,
+        "usdPledged": 63575.0,
+        "backersCount": 490,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 6357.5,
+        "daysSinceLaunch": 754
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-287989584",
+      "brand": "Ascentiz",
+      "category": "wearable",
+      "title": "Ascentiz: The World’s First Modular Exoskeleton",
+      "titleZh": "Ascentiz: 世界’s First 模块化 Exoskeleton",
+      "desc": "Assist Uphill 35%｜2 Modular Designs｜AI Adapts to Motion｜Belt Attachment System｜Patterns for Any Mood｜A4-Sized for Any Mission",
+      "time": "2025-09-25 14:01",
+      "score": 79.6,
+      "visBreakdown": {
+        "recognition": 9.4,
+        "paradigmShift": 9.1,
+        "cmfInnovation": 5.0,
+        "transferability": 6.1,
+        "diffusionPotential": 9.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/ascentiz-bodyos/ascentiz-the-worlds-first-modular-exoskeleton",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/082/780/572fa279a26d07f22cb1c37246037df9_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1767178677&width=560&sig=uZA3V6YTicMJCgQ66IdaO8cLQb7GCElXgLDor%2FBqmys%3D",
+      "reason": "Ascentiz: The World’s First Modular Exoskeleton，在technology/wearables领域，获得2,301人支持，筹得$2,652,450，Kickstarter Staff Pick，达成率5305.4%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 388788.0,
+        "pledged": 20626726.0,
+        "usdPledged": 2652450.30757814,
+        "backersCount": 2301,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 5305.4,
+        "daysSinceLaunch": 270
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1992039377",
+      "brand": "Halliday",
+      "category": "wearable",
+      "title": "Halliday: #1st Proactive AI Glasses with Invisible Display",
+      "titleZh": "Halliday: #1st Proactive AI眼镜 配备 Invisible 显示",
+      "desc": "Lightweight(35g) | Proactive AI Agent | Discreet Display | All-Day Battery | AI Translation | Cheatsheet | Audio Memo | Ring Control",
+      "time": "2025-01-22 15:59",
+      "score": 75.3,
+      "visBreakdown": {
+        "recognition": 9.0,
+        "paradigmShift": 8.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 9.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/halliday-ai-glasses/halliday-proactive-ai-glasses-with-invisible-display",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/444/641/38ab2e0b5774f708d3ce9fb9d4d2a4e4_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1741438038&width=560&sig=HQkd2gah3B5nECtSThPGz%2BXkgB0SZx3ty61Pce2VNKs%3D",
+      "reason": "Halliday: #1st Proactive AI Glasses with Invisible，在technology/wearables领域，获得8,023人支持，筹得$3,305,917，Kickstarter Staff Pick，达成率16529.6%",
+      "ksData": {
+        "goal": 20000.0,
+        "pledged": 3305917.0,
+        "usdPledged": 3305917.0,
+        "backersCount": 8023,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 16529.6,
+        "daysSinceLaunch": 515
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1561318995",
+      "brand": "Everysight",
+      "category": "wearable",
+      "title": "Maverick AI: The Lightest, Full Color AR+AI Glasses",
+      "titleZh": "Maverick AI: 最轻, 全 Color AR+AI眼镜",
+      "desc": "OLED In-Lens Display | Native Eye-Tracking | All-day battery life | Only 47g | Live Translation | Rx Ready | AI-Camera | 22° FOV",
+      "time": "2026-03-31 13:57",
+      "score": 75.3,
+      "visBreakdown": {
+        "recognition": 9.0,
+        "paradigmShift": 8.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 9.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/everysight/maverick-full-color-ai-ar-glasses",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/742/360/e281d1facb84c41ae5f028f6e35a1a97_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1778847798&width=560&sig=mpViXcq2dFYIAl36xFEfTG9DBbzkRTPf1EGyKMzUfpA%3D",
+      "reason": "Maverick AI: The Lightest, Full Color AR+AI Glasse，在technology/wearables领域，获得3,472人支持，筹得$1,412,428，Kickstarter Staff Pick，达成率14124.3%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 1412428.0,
+        "usdPledged": 1412428.0,
+        "backersCount": 3472,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 14124.3,
+        "daysSinceLaunch": 83
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1004116095",
+      "brand": "Relee",
+      "category": "wearable",
+      "title": "Relee M1:World's 1st All-in-1 AI Sports Helmet",
+      "titleZh": "Relee M1:世界的 1st 所有-in-1 AI 运动 Helmet",
+      "desc": "Record Your Adventure, Hands-free Voice Control, Safe and Sound",
+      "time": "2022-03-15 13:45",
+      "score": 75.0,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 9.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 7.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/releem1/relee-m1-worlds-1st-all-in-1-ai-sports-helmet",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/036/999/673/1b55ba98fd260c6c26df6fe43dbe0e95_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1650038522&width=560&sig=y7c5KKwhwrDMx5amrxreFzK8OROTiefCLl8JvgYWTH8%3D",
+      "reason": "Relee M1:World's 1st All-in-1 AI Sports Helmet，在technology/wearables领域，获得729人支持，筹得$122,282，达成率1914.7%，视觉亮点：新交互",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 957363.0,
+        "usdPledged": 122281.54428798,
+        "backersCount": 729,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1914.7,
+        "daysSinceLaunch": 1560
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1782610588",
+      "brand": "MONDOV",
+      "category": "wearable",
+      "title": "MONDOV Mi9-Dual Noise Reduction AI Translation Earphones",
+      "titleZh": "MONDOV Mi9-Dual 降噪 AI Translation Earphones",
+      "desc": "ANC noise reduction 20dB & ENC noise reduction 45dB ▏Cool RGB appearance design ▏Bluetooth 5.4 ▏AI multi-function translation",
+      "time": "2025-04-29 12:00",
+      "score": 74.7,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 8.3,
+        "cmfInnovation": 6.7,
+        "transferability": 6.2,
+        "diffusionPotential": 6.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/165140423/mondov-mi9-dual-noise-reduction-ai-translation-earphones",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/977/594/09cedfbdacbfbb22be40a4d9d631dd0f_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1745205370&width=560&sig=H6ohkw6ZxxBjWf7cPS1dhR3hp5YsRqzw4aOqhS0ckgQ%3D",
+      "reason": "MONDOV Mi9-Dual Noise Reduction AI Translation Ear，在technology/wearables领域，获得165人支持，筹得$16,909，达成率598.9%",
+      "ksData": {
+        "goal": 21900.0,
+        "pledged": 131170.0,
+        "usdPledged": 16908.6721635,
+        "backersCount": 165,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 598.9,
+        "daysSinceLaunch": 419
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-224785324",
+      "brand": "MEZMOGLOBE",
+      "category": "design",
+      "title": "MEZMOPEN LIGHT: Forever Breakable Ti Pen + MezmoStand",
+      "titleZh": "MEZMOPEN 照亮: Forever Breakable Ti 笔 + MezmoStand",
+      "desc": "Unleash the True Power of Magnetic Fidgeting with Grade 5 Titanium + completely New MezmoStand. Break the Pen = Break the Stress!",
+      "time": "2026-03-31 15:53",
+      "score": 73.9,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 7.9,
+        "transferability": 7.4,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/mezmoglobe/mezmopen-light-4ever-breakable-titanium-fidget-pen",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/132/388/5a7507fccd66ec029a1e3202b49bb41b_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1774738638&width=560&sig=UziFAiH2vEv6NtHt8OCydMcfbQ19MUqfsX%2BygNWLJnk%3D",
+      "reason": "MEZMOPEN LIGHT: Forever Breakable Ti Pen + MezmoSt，在design/product/design领域，获得1,678人支持，筹得$200,107，Kickstarter Staff Pick，达成率2512.9%，视觉亮点：高端材质、模块化/磁吸",
+      "ksData": {
+        "goal": 6000.0,
+        "pledged": 150775.0,
+        "usdPledged": 200106.70586675,
+        "backersCount": 1678,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2512.9,
+        "daysSinceLaunch": 82
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1259590757",
+      "brand": "Xedge",
+      "category": "design",
+      "title": "NoxTi: The Tritium Keychain—Carry the Glow. Own the Night.",
+      "titleZh": "NoxTi: Tritium 钥匙扣—携带 Glow. Own 夜间.",
+      "desc": "45mm | 25-Year Glow Core | Gr5 Titanium | Interchangeable Vials | Quartz Protection | Glass Breaker | 10.7g | Keychain Ready",
+      "time": "2026-03-19 14:40",
+      "score": 73.8,
+      "visBreakdown": {
+        "recognition": 8.0,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 8.5,
+        "transferability": 7.4,
+        "diffusionPotential": 8.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/459774293/noxti-a-titanium-glow-tube-light-for-everyday-carry",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/015/498/09df05d948af1f90ab04eb665bb34b34_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1773910954&width=560&sig=RJ9CWSegvJhPcMxeRyVbTcy%2BimfsBMHKIWyI8I0bfIY%3D",
+      "reason": "NoxTi: The Tritium Keychain—Carry the Glow. Own th，在design/product/design领域，获得4,910人支持，筹得$376,877，达成率29541.2%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 2954123.0,
+        "usdPledged": 376877.02740426,
+        "backersCount": 4910,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 29541.2,
+        "daysSinceLaunch": 94
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1079720921",
+      "brand": "Shuhu",
+      "category": "design",
+      "title": "Shuhu Foldable Woodburning Titanium Stove. Set up in seconds",
+      "titleZh": "Shuhu 可折叠 燃木 钛合金 炉. 秒装",
+      "desc": "1-Piece Folding｜Set up in Seconds｜BBQ Grill｜4-Level Vent｜Smoke Seal｜Titanium/Stainless Steel｜Multi-Fuel Support Wood/Coal/Gas",
+      "time": "2025-01-21 13:00",
+      "score": 73.6,
+      "visBreakdown": {
+        "recognition": 8.6,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 8.5,
+        "transferability": 6.7,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/shuhu/shuhu-foldable-woodburning-titanium-stove-set-up-in-seconds",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/259/290/c2fd15a1e1d631982a967d8aa079d80c_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1740121471&width=560&sig=NrYvjrnnUs%2BZpZi%2Bcndnzj07z3Bb72Sh4Mm74RbENPI%3D",
+      "reason": "Shuhu Foldable Woodburning Titanium Stove. Set up ，在design/product/design领域，获得168人支持，筹得$44,768，达成率8951.8%，视觉亮点：高端材质、可折叠",
+      "ksData": {
+        "goal": 3892.0,
+        "pledged": 348405.0,
+        "usdPledged": 44768.1959535,
+        "backersCount": 168,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 8951.8,
+        "daysSinceLaunch": 517
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-419637944",
+      "brand": "EDC Captain",
+      "category": "design",
+      "title": "Vaultik: Magnetic Quick-Release Titanium EDC Capsule",
+      "titleZh": "Vaultik: 磁吸 快拆 钛合金 EDC Capsule",
+      "desc": "A Compact EDC Pill Box With Tritium Slots, Secure Lock, Quick Release, And Full Titanium Build For Rugged, Waterproof, Everyday Utility",
+      "time": "2025-11-24 14:22",
+      "score": 72.9,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 7.9,
+        "transferability": 7.4,
+        "diffusionPotential": 7.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/194219394/vaultik-magnetic-quick-release-titanium-edc-capsule",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/757/285/8132e6d0592249088daded663d7d39cc_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1763973682&width=560&sig=GHiySjESTWn8coGH6JlNOf8hIxFgNVkkyoR0gMVrd6Y%3D",
+      "reason": "Vaultik: Magnetic Quick-Release Titanium EDC Capsu，在design/product/design领域，获得320人支持，筹得$27,544，Kickstarter Staff Pick，达成率2144.4%，视觉亮点：高端材质、模块化/磁吸",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 214437.0,
+        "usdPledged": 27544.36403016,
+        "backersCount": 320,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2144.4,
+        "daysSinceLaunch": 209
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-865872074",
+      "brand": "IRMO",
+      "category": "wearable",
+      "title": "IRMO M1: World's First Vision Perception Exoskeleton",
+      "titleZh": "IRMO M1: 全球首款 Vision Perception Exoskeleton",
+      "desc": "Adapts to the Wild Terrain, Conquer with Your Instinct",
+      "time": "2025-11-20 14:40",
+      "score": 72.2,
+      "visBreakdown": {
+        "recognition": 8.8,
+        "paradigmShift": 7.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 9.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/irmoglobal/irmo-m1-worlds-first-vision-navigate-exoskeleton",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/079/710/dfe9e4f87083b8fc8425d55142356c8c_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1767146192&width=560&sig=RBjK%2B3MhJ8H0WGHX84eKufxjyzgi5c6f1b9iY3QEeF4%3D",
+      "reason": "IRMO M1: World's First Vision Perception Exoskelet，在technology/wearables领域，获得1,228人支持，筹得$1,117,601，Kickstarter Staff Pick，达成率18626.7%",
+      "ksData": {
+        "goal": 6000.0,
+        "pledged": 1117601.0,
+        "usdPledged": 1117601.0,
+        "backersCount": 1228,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 18626.7,
+        "daysSinceLaunch": 213
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1903149230",
+      "brand": "Joseph",
+      "category": "wearable",
+      "title": "HAG-102: The All-Day Audio Glasses with Super Hearing",
+      "titleZh": "HAG-102: 所有-Day 音频 Glasses 配备 Super Hearing",
+      "desc": "12-Hour Battery, Bone Conduction Sound, and AI Voice Enhancement.",
+      "time": "2025-11-03 13:00",
+      "score": 72.1,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 9.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 6.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1666817349/hag-102-the-all-day-audio-glasses-with-super-hearing",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/418/070/ffcd975f06ea6cef234dda7da2a030eb_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1761542578&width=560&sig=H7THbqXACg8x5aXyRidWXMmQr9fpdNTBVNsTcvLjIkk%3D",
+      "reason": "HAG-102: The All-Day Audio Glasses with Super Hear，在technology/wearables领域，获得81人支持，筹得$18,440，达成率922.0%，视觉亮点：开放式音频",
+      "ksData": {
+        "goal": 2000.0,
+        "pledged": 18440.0,
+        "usdPledged": 18440.0,
+        "backersCount": 81,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 922.0,
+        "daysSinceLaunch": 231
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-359365660",
+      "brand": "Predator",
+      "category": "design",
+      "title": "Carbon-based Life Form Ti Alloy Foldable Nail Clipper",
+      "titleZh": "Carbon-based 生活 Form Ti Alloy 可折叠 指甲刀",
+      "desc": "A foldable titanium alloy nail clipper， Designed for precise trimming, safety, long-lasting use, and everyday carry",
+      "time": "2026-05-26 12:00",
+      "score": 71.8,
+      "visBreakdown": {
+        "recognition": 8.6,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 7.9,
+        "transferability": 6.3,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/liangyiding/carbon-based-life-form-ti-alloy-foldable-nail-clipper",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/643/731/72b0c644a344fa9eebf3709b584e5752_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1778210360&width=560&sig=P%2FV5LRQ%2Fq5ymB%2BfGT96jlezZ1%2FzBFdt7mc6BU%2ByI2k0%3D",
+      "reason": "Carbon-based Life Form Ti Alloy Foldable Nail Clip，在design/product/design领域，获得112人支持，筹得$9,028，达成率2357.8%，视觉亮点：高端材质、可折叠",
+      "ksData": {
+        "goal": 3000.0,
+        "pledged": 70733.0,
+        "usdPledged": 9027.99655238,
+        "backersCount": 112,
+        "currency": "HKD",
+        "state": "live",
+        "staffPick": false,
+        "percentFunded": 2357.8,
+        "daysSinceLaunch": 27
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1915670910",
+      "brand": "SELEPU",
+      "category": "wearable",
+      "title": "DreamPilot: AI-Guided Sleep Mask for Deeper Sleep, Faster",
+      "titleZh": "DreamPilot: AI-Guided 睡眠 Mask 为 Deeper 睡眠, Faster",
+      "desc": "4-in-1 Sleep Care: Sound, Heat, EMS, Massage | EEG Monitoring｜Adaptive AI-driven | Tri-mode Control | AI Sleep Report | 100% Blackout",
+      "time": "2025-11-06 13:00",
+      "score": 71.5,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 8.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 7.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/selepu/dreampilot-ai-guided-sleep-mask",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/881/479/cf813d06a0b713130a55f4b8c982b51d_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1765027480&width=560&sig=hhgZi%2B%2BfnOGKQOt2tDPQQ4um7XY9JZ4BBgzD5hRsz0A%3D",
+      "reason": "DreamPilot: AI-Guided Sleep Mask for Deeper Sleep,，在technology/wearables领域，获得387人支持，筹得$67,786，达成率2291.3%",
+      "ksData": {
+        "goal": 23000.0,
+        "pledged": 526993.0,
+        "usdPledged": 67786.24532148,
+        "backersCount": 387,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 2291.3,
+        "daysSinceLaunch": 228
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1847068781",
+      "brand": "Grubsnap",
+      "category": "wearable",
+      "title": "Grubsnap: The AI Wearable That Logs Your Meals Automatically",
+      "titleZh": "Grubsnap: AI 穿戴式 能 Logs 你的 Meals Automatically",
+      "desc": "Automatic Meal Capture | AI Food Detection | Passive All Day Tracking | Gamified Health Insights",
+      "time": "2026-06-02 15:02",
+      "score": 71.2,
+      "visBreakdown": {
+        "recognition": 8.5,
+        "paradigmShift": 8.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/grubsnap/grubsnap-the-ai-wearable-that-logs-your-meals-automatically",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/054/062/967/e205be69c15a85f3a0ce28a6a71ad184_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1781115609&width=560&sig=XA3ydS1Uz5UNFCROM3Wrz%2FmBLrDXlTNMS3IQmaEZeqQ%3D",
+      "reason": "Grubsnap: The AI Wearable That Logs Your Meals Aut，在technology/wearables领域，获得104人支持，筹得$19,832，Kickstarter Staff Pick，达成率396.6%",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 19832.0,
+        "usdPledged": 19832.0,
+        "backersCount": 104,
+        "currency": "USD",
+        "state": "live",
+        "staffPick": true,
+        "percentFunded": 396.6,
+        "daysSinceLaunch": 19
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1450530670",
+      "brand": "Billy Chester",
+      "category": "design",
+      "title": "The WESN Bard | A Titanium Pen for Every Day Carry",
+      "titleZh": "WESN Bard | 钛合金 笔 为 每个 Day 携带",
+      "desc": "Modern & minimalistic in design, the Bard is a timeless tool to write your story. Guaranteed for life.",
+      "time": "2024-07-30 14:57",
+      "score": 70.9,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 7.9,
+        "transferability": 6.7,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/billy-chester/the-wesn-bard-a-titanium-pen-for-every-day-carry",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/425/832/9f450ba48db38fddbdcb72f312ab051d_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1726062211&width=560&sig=ByK6N4kQ%2BY%2FH0JAIwo%2BAiCbPaLbIdVmQhaxMTegT7HI%3D",
+      "reason": "The WESN Bard | A Titanium Pen for Every Day Carry，在design/product/design领域，获得1,599人支持，筹得$207,587，Kickstarter Staff Pick，达成率1383.9%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 15000.0,
+        "pledged": 207587.0,
+        "usdPledged": 207587.0,
+        "backersCount": 1599,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1383.9,
+        "daysSinceLaunch": 691
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-835499287",
+      "brand": "Novamos",
+      "category": "design",
+      "title": "Aerospace Grade Titanium Mechanical Watch: Novamos Shan Hai",
+      "titleZh": "航空级 Grade 钛合金 Mechanical Watch: Novamos Shan Hai",
+      "desc": "Natural Elements|Full Titanium Body|Hollowed-Out Design|Sapphire Crystal Face|Secret Vault|Swiss Luminosity|5ATM|Automatic Winding",
+      "time": "2024-10-08 13:01",
+      "score": 70.6,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 9.1,
+        "transferability": 6.3,
+        "diffusionPotential": 5.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/novamos/aerospace-grade-titanium-mechanical-watch-novamos-shan-hai",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/865/652/3a9de49869d21a1c4994008f73ba5966_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1728874158&width=560&sig=jgyk3P9UMSgJ%2Fytg8FM2HCYNVquJQtvLf%2FBlJKcf3LU%3D",
+      "reason": "Aerospace Grade Titanium Mechanical Watch: Novamos，在design/product/design领域，获得20人支持，筹得$7,368，达成率143.6%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 39857.0,
+        "pledged": 57217.0,
+        "usdPledged": 7368.233609,
+        "backersCount": 20,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 143.6,
+        "daysSinceLaunch": 622
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-24368182",
+      "brand": "Buddie",
+      "category": "wearable",
+      "title": "Buddie: The Discreet AI Earbuds Assistant",
+      "titleZh": "Buddie: Discreet AI 耳机 Assistant",
+      "desc": "Always listening | Ask ChatGPT about your meetings and life | Privacy-first | Open-source | At-cost pricing | 15 Mar '25 shipping",
+      "time": "2024-12-23 21:32",
+      "score": 70.4,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 8.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 6.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/buddieai/buddie-the-discrete-ai-earbuds-assistant",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/047/915/517/062050eaddbfd9baa55640037c297b76_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1737532082&width=560&sig=ttcLQoC%2FEcbijoubesycL8a6CV7Ohj%2F8N%2BdXc8tqJCQ%3D",
+      "reason": "Buddie: The Discreet AI Earbuds Assistant，在technology/wearables领域，获得1,000人支持，筹得$95,089，达成率237.7%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 40000.0,
+        "pledged": 95089.0,
+        "usdPledged": 95089.0,
+        "backersCount": 1000,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 237.7,
+        "daysSinceLaunch": 545
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1587268967",
+      "brand": "Kokoon Technology",
+      "category": "wearable",
+      "title": "Philips x Kokoon Sleep Headphones",
+      "titleZh": "Philips x Kokoon 睡眠 耳机",
+      "desc": "The ultimate sleep earbuds are here - start your journey to better sleep.",
+      "time": "2023-06-14 13:00",
+      "score": 70.2,
+      "visBreakdown": {
+        "recognition": 8.8,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 9.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/kokoon/sleep-headphones",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/041/469/459/48b19e785ac5eb56033c08dab143ae86_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1688143977&width=560&sig=znSXNjmjE8A5rpX%2BC7gWENHeuoWALpz0gFqsJIPXdnk%3D",
+      "reason": "Philips x Kokoon Sleep Headphones，在technology/wearables领域，获得3,582人支持，筹得$687,478，Kickstarter Staff Pick，达成率5485.1%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 548514.0,
+        "usdPledged": 687478.06370502,
+        "backersCount": 3582,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 5485.1,
+        "daysSinceLaunch": 1104
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1550153976",
+      "brand": "Davide Credaro",
+      "category": "wearable",
+      "title": "InvisiMask | Reusable Protective Face Mask",
+      "titleZh": "InvisiMask | Reusable Protective 面容 Mask",
+      "desc": "ECO Friendly | Comfortable fit | Reusable Mask | Washable | Transparent material | Replaceable FFP2 filter",
+      "time": "2020-04-21 07:20",
+      "score": 70.2,
+      "visBreakdown": {
+        "recognition": 9.0,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 6.7,
+        "transferability": 5.8,
+        "diffusionPotential": 4.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/invisimask/invisimask-reusable-protective-face-mask",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/028/779/221/ae568bc22fd72ed4d3ed527437b1aa42_original.JPG?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1587295466&width=560&sig=T2rO0TAF4QfRc55hlfgwE2vQS2zpxy%2BxVqQ7Qkb1hO4%3D",
+      "reason": "InvisiMask | Reusable Protective Face Mask，在technology/wearables领域，获得45人支持，筹得$5,664，达成率17.4%，视觉亮点：透明设计",
+      "ksData": {
+        "goal": 30000.0,
+        "pledged": 5215.0,
+        "usdPledged": 5664.03940025,
+        "backersCount": 45,
+        "currency": "EUR",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 17.4,
+        "daysSinceLaunch": 2253
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-32613895",
+      "brand": "Newton-Rider",
+      "category": "wearable",
+      "title": "Newton-Rider, the bicycle helmet like no other",
+      "titleZh": "Newton-Rider, bicycle helmet like no 其他",
+      "desc": "Sleek, Thin, Semi-soft and Foldable",
+      "time": "2020-11-07 03:34",
+      "score": 70.0,
+      "visBreakdown": {
+        "recognition": 9.1,
+        "paradigmShift": 7.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/newton-rider/newton-rider-the-bicycle-helmet-like-no-other",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/031/129/479/91de58c9cae69d03eddaa502f97831e4_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1603463139&width=560&sig=g5E%2Bgk%2FX%2BAyFzNJZCdFeifKpFo6aY7FNK2fPx2Act9I%3D",
+      "reason": "Newton-Rider, the bicycle helmet like no other，在technology/wearables领域，获得149人支持，筹得$15,635，Kickstarter Staff Pick，达成率222.0%，视觉亮点：可折叠",
+      "ksData": {
+        "goal": 6000.0,
+        "pledged": 13320.0,
+        "usdPledged": 15635.2341816,
+        "backersCount": 149,
+        "currency": "EUR",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 222.0,
+        "daysSinceLaunch": 2053
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1672844282",
+      "brand": "Coman",
+      "category": "camera",
+      "title": "Coman Go! Series T1 Snap-Open Carbon Fiber Tripod",
+      "titleZh": "Coman Go! 系列 T1 Snap-打开 碳纤维 三脚架",
+      "desc": "Snap-Open to Adjust Height | 1750mm | 4 sections | 2.4~3.5KG | Payload 20KG | Easy-release Module",
+      "time": "2025-12-01 13:40",
+      "score": 69.6,
+      "visBreakdown": {
+        "recognition": 8.9,
+        "paradigmShift": 5.0,
+        "cmfInnovation": 6.9,
+        "transferability": 5.7,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/coman/coman-go-series-t1-snap-open-carbon-fiber-tripod",
+      "tags": [
+        "technology/camera equipment"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/827/416/6ae750c07b77cb0d57a2a171b1559537_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1764581117&width=560&sig=WvG6NvhLE1cTXU5qNW93j2UVpWUkFgaF4IxKxPKz2yo%3D",
+      "reason": "Coman Go! Series T1 Snap-Open Carbon Fiber Tripod，在technology/camera/equipment领域，获得473人支持，筹得$176,135，Kickstarter Staff Pick，达成率27424.2%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 1371210.0,
+        "usdPledged": 176134.8726015,
+        "backersCount": 473,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 27424.2,
+        "daysSinceLaunch": 203
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1153811581",
+      "brand": "SNRGY Studios",
+      "category": "design",
+      "title": "Flossr - a better way to floss.",
+      "titleZh": "Flossr - 更好 way to floss.",
+      "desc": "Works with Any Floss | Built to Last a Lifetime | Stainless Steel | Dentist-approved | Zero Plastic",
+      "time": "2026-05-06 16:59",
+      "score": 69.4,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 6.7,
+        "diffusionPotential": 9.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/snrgystudios/flossr",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/980/134/0482078b8f9ad1b12439c91d31cda897_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1780524571&width=560&sig=zZ8RQHIaazipzh81LdrB8%2Fx7zgKfh3R6154sd9OvwcE%3D",
+      "reason": "Flossr - a better way to floss.，在design/product/design领域，获得8,989人支持，筹得$550,501，Kickstarter Staff Pick，达成率5235.2%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 9000.0,
+        "pledged": 471165.0,
+        "usdPledged": 550501.00186395,
+        "backersCount": 8989,
+        "currency": "EUR",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 5235.2,
+        "daysSinceLaunch": 46
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1722336719",
+      "brand": "Aura Circle",
+      "category": "wearable",
+      "title": "Aura Smart Sleep Mask: 100% Blackout & Deep Sleep",
+      "titleZh": "Aura 智能 睡眠 Mask: 100% Blackout & Deep 睡眠",
+      "desc": "The sleep mask with immersive sound and light therapy to help you fall asleep faster and wake up refreshed.",
+      "time": "2023-07-31 12:31",
+      "score": 69.2,
+      "visBreakdown": {
+        "recognition": 8.8,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 8.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/auracircle/aura-smart-sleep-mask-100-blackout-and-deep-sleep",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/042/155/820/961493c15f5495d17c8e880e053028f5_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1693614466&width=560&sig=oaDNtUnObNdBznVFa7GwL2coLclwaBA0Di9Z8vgX95g%3D",
+      "reason": "Aura Smart Sleep Mask: 100% Blackout & Deep Sleep，在technology/wearables领域，获得916人支持，筹得$202,582，Kickstarter Staff Pick，达成率1012.9%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 156000.0,
+        "pledged": 1580088.0,
+        "usdPledged": 202581.88161312,
+        "backersCount": 916,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1012.9,
+        "daysSinceLaunch": 1057
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2104825373",
+      "brand": "KORDIZ",
+      "category": "design",
+      "title": "Titanium TX Pro Apex Edition – The Ultimate Apple Watch Band",
+      "titleZh": "钛合金 TX 专业版 Apex 版本 – 终极 Apple Watch 腕带",
+      "desc": "Grade 4 Titanium · Screw-Link™ Technology · DLC Scratch Resistant · Magnetic Clasp · Made for Apple Watch Ultra",
+      "time": "2026-06-01 15:00",
+      "score": 69.2,
+      "visBreakdown": {
+        "recognition": 7.7,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 7.9,
+        "transferability": 7.0,
+        "diffusionPotential": 6.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/kordiz/titanium-band-tx-pro-apex-max-grade-4-screw-linktm",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/946/233/3d54d2399b6ef069f6915bb22ef8a986_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1780331591&width=560&sig=QC48rKLiQPeR5iXmoACZ5mnW9Rvz%2FJvEaavLD1oLyio%3D",
+      "reason": "Titanium TX Pro Apex Edition – The Ultimate Apple ，在design/product/design领域，获得167人支持，筹得$21,406，达成率214.1%，视觉亮点：高端材质、模块化/磁吸",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 21406.0,
+        "usdPledged": 21406.0,
+        "backersCount": 167,
+        "currency": "USD",
+        "state": "live",
+        "staffPick": false,
+        "percentFunded": 214.1,
+        "daysSinceLaunch": 20
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1479635180",
+      "brand": "Omibo",
+      "category": "wearable",
+      "title": "Omibo Smart Video Pin: Bring Badge to Life.",
+      "titleZh": "Omibo 智能 视频 胸针: 带来 徽章 to 生活.",
+      "desc": "Bring your favorite videos & photos to life. Omibo: The wearable digital album that keeps you in the spotlight, anytime, anywhere.",
+      "time": "2026-02-10 15:02",
+      "score": 68.5,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 8.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/omibo/omibo-a-wearable-digital-album-photos-videos-on-your-badge",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/789/864/b5093900488609abe1f1405110989078_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772434187&width=560&sig=HILK6Dy%2B%2B7p4j%2BVxGBLBaSwlWI8PFtM4yeHqWekLvqY%3D",
+      "reason": "Omibo Smart Video Pin: Bring Badge to Life.，在technology/wearables领域，获得1,061人支持，筹得$81,648，达成率6379.8%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 637977.0,
+        "usdPledged": 81647.87539518,
+        "backersCount": 1061,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 6379.8,
+        "daysSinceLaunch": 131
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1431756083",
+      "brand": "Charles Lethaby",
+      "category": "design",
+      "title": "ION SCIENCE — Precision Instruments for Writing",
+      "titleZh": "ION SCIENCE — Precision Instruments 为 Writing",
+      "desc": "A precision-machined fountain pen in aluminium and titanium, with a companion series of limited metal icons.",
+      "time": "2026-02-03 18:00",
+      "score": 68.1,
+      "visBreakdown": {
+        "recognition": 8.0,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 7.9,
+        "transferability": 6.7,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/ionbp/ion-science-formulas-for-life",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/420/163/5435916f595108a5be7531391cfe8436_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1769876383&width=560&sig=kU7O3i4M%2FIHFpvY4Z4Ibqa%2F6Fu3oDE7q65NLZfYwGpc%3D",
+      "reason": "ION SCIENCE — Precision Instruments for Writing，在design/product/design领域，获得90人支持，筹得$11,259，达成率8229.0%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 100.0,
+        "pledged": 8229.0,
+        "usdPledged": 11259.07645512,
+        "backersCount": 90,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 8229.0,
+        "daysSinceLaunch": 138
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1110566491",
+      "brand": "Ultrahuman",
+      "category": "wearable",
+      "title": "Ultrahuman Home: The Future of Healthy Living",
+      "titleZh": "Ultrahuman 家庭: 未来的 Healthy Living",
+      "desc": "Ultrahuman, a pioneer in wearable tech, launches Ultrahuman Home, a cutting-edge invention that revolutionizes home health.",
+      "time": "2024-05-15 09:39",
+      "score": 67.8,
+      "visBreakdown": {
+        "recognition": 8.5,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 8.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/ultrahuman/ultrahuman-home-the-future-of-healthy-living",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/045/020/430/26293ea2998d171fd5fa4cc97fa75e77_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1715603046&width=560&sig=v74nPA%2BrUmvDoJDoWNxZztcg8xqkNT9OSe4HY%2FNXOSU%3D",
+      "reason": "Ultrahuman Home: The Future of Healthy Living，在technology/wearables领域，获得268人支持，筹得$112,274，Kickstarter Staff Pick，达成率1133.6%",
+      "ksData": {
+        "goal": 7886.0,
+        "pledged": 89394.0,
+        "usdPledged": 112273.5539964,
+        "backersCount": 268,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1133.6,
+        "daysSinceLaunch": 768
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1224461662",
+      "brand": "LLVision",
+      "category": "wearable",
+      "title": "Leion Hey：World’s First & Lightest AR & AI Smart Glasses",
+      "titleZh": "Leion Hey：世界’s First & 最轻 AR & AI 智能眼镜",
+      "desc": "Ultra-Light 79g | All-Conditions | Voice to Text Conversion | Real Time Translation | ChatGPT | The End of Communication Barriers",
+      "time": "2023-07-05 13:00",
+      "score": 67.7,
+      "visBreakdown": {
+        "recognition": 8.0,
+        "paradigmShift": 8.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 5.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/443481057/worlds-first-and-lightest-ar-and-ai-smart-glasses",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/041/489/171/0e6fd1a27b4e69fa09b214e23f1167c7_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1688347201&width=560&sig=9cf2DSipKxsXQk3sM%2BXhZzyfYOqpE9QcqcC1fOyp7hk%3D",
+      "reason": "Leion Hey：World’s First & Lightest AR & AI Smart G，在technology/wearables领域，获得26人支持，筹得$14,421，达成率225.8%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 112917.0,
+        "usdPledged": 14421.41484315,
+        "backersCount": 26,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 225.8,
+        "daysSinceLaunch": 1083
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-282181624",
+      "brand": "Lofree",
+      "category": "design",
+      "title": "Flow 2,the Smoothest Keyboard: Evolved, Redefined, Unleashed",
+      "titleZh": "Flow 2, Smoothest Keyboard: Evolved, Redefined, Unleashed",
+      "desc": "Ultra Sleek Anodized Aluminum | Cloud Series Switches | VIA | 2.4G, Bluetooth & Wired | Gasket Mount | 68/84/100-key Options",
+      "time": "2025-07-10 13:00",
+      "score": 67.6,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 6.7,
+        "diffusionPotential": 9.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/lofree/flow-2the-smoothest-keyboard-evolved-redefined-unleashed",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/050/359/830/d26e39615408a30ed9cd84d41f9f4055_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1754745031&width=560&sig=TFVyk3vy5lnblJ6JIRv%2Bbg3HaDtjo6mdJvljdNUxeX0%3D",
+      "reason": "Flow 2,the Smoothest Keyboard: Evolved, Redefined,，在design/product/design领域，获得8,060人支持，筹得$1,165,504，Kickstarter Staff Pick，达成率11436.4%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 80000.0,
+        "pledged": 9149151.0,
+        "usdPledged": 1165504.03297581,
+        "backersCount": 8060,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 11436.4,
+        "daysSinceLaunch": 347
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1222344982",
+      "brand": "5D Innovation",
+      "category": "design",
+      "title": "Presston: Pressure Brewed Coffee, Perfected.",
+      "titleZh": "Presston: Pressure Brewed 咖啡, Perfected.",
+      "desc": "Stainless steel design, built for life. Rich, low-acidity coffee in seconds. Powered by hand pressure.",
+      "time": "2025-11-11 15:11",
+      "score": 67.5,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 6.7,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/presston/presston-pressure-brewed-coffee-perfected",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/664/211/b1eeda43b26e0a693da6e2a8b44860ea_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1763179886&width=560&sig=YRh%2FgS1361oUioe8tkqZVIvqC4ZXJC39dYejkOe06oU%3D",
+      "reason": "Presston: Pressure Brewed Coffee, Perfected.，在design/product/design领域，获得702人支持，筹得$123,187，Kickstarter Staff Pick，达成率1384.1%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 8900.0,
+        "pledged": 123187.0,
+        "usdPledged": 123187.0,
+        "backersCount": 702,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1384.1,
+        "daysSinceLaunch": 222
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2049044225",
+      "brand": "Xynavo",
+      "category": "wearable",
+      "title": "Xynavo — Lightweight AR Glasses for Cinema-Scale Immersion",
+      "titleZh": "Xynavo — 轻量 AR眼镜 为 Cinema-Scale Immersion",
+      "desc": "70° Wide FOV | Dual 4K | 95g | Zero-Leak Audio | Dual 3D SBS Modes | +2D to -6D Diopter | Expandable Thermal & Night Vision",
+      "time": "2026-01-06 12:53",
+      "score": 67.5,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 7.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/798790151/xynavo-lightweight-ar-glasses-for-cinema-scale-immersion",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/082/383/c4ff8b5128cbb44edc3cee9ec5b0640a_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1767174870&width=560&sig=76%2Bxsk8y%2BNjcwSfhTDknij5enyQhI5ihhMiUTp%2F42v8%3D",
+      "reason": "Xynavo — Lightweight AR Glasses for Cinema-Scale I，在technology/wearables领域，获得665人支持，筹得$209,055，达成率1393.7%",
+      "ksData": {
+        "goal": 15000.0,
+        "pledged": 209055.0,
+        "usdPledged": 209055.0,
+        "backersCount": 665,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1393.7,
+        "daysSinceLaunch": 167
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2017184507",
+      "brand": "SHIBO 5K 3D M-Cinema Glass",
+      "category": "wearable",
+      "title": "SHIBO 5K 3D M-Cinema Glass",
+      "titleZh": "SHIBO 5K 3D M-Cinema Glass",
+      "desc": "Built-in top 4K player | Support Dolby Vision Atmos |Social movie-watching mode| Smart phone PC wireless cast screen  | HDMI interface|",
+      "time": "2021-06-16 13:01",
+      "score": 67.5,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 7.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/shibo/shibo-5k-mini-3d-imax-glass",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/034/284/914/35e5806548989dd39a1eae8df2b1367f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1626933629&width=560&sig=ZRcBQEtOd%2FSx0hCkrloGd5aKXCvDO%2FlfRfq6WXa9Jy0%3D",
+      "reason": "SHIBO 5K 3D M-Cinema Glass，在technology/wearables领域，获得509人支持，筹得$273,007，达成率2752.0%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 77000.0,
+        "pledged": 2119052.69,
+        "usdPledged": 273007.1997424395,
+        "backersCount": 509,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 2752.0,
+        "daysSinceLaunch": 1832
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1881311411",
+      "brand": "INMO",
+      "category": "design",
+      "title": "INMO GO3: Powerful AI Translation Glasses for All Day Wear",
+      "titleZh": "INMO GO3: 强大 AI Translation Glasses 为 所有 Day Wear",
+      "desc": "98+Languages Translation|Two-Way Translation|Photo Translation|AR Navigation|Teleprompter|AI Notes|All-Day Battery|ChatGPT&Gemini",
+      "time": "2026-04-28 14:04",
+      "score": 67.4,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 9.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/inmo-go3-ai-glasses/everyday-wear-ai-glasses",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/870/744/ef6feb231c9cf27e9e039c39ff6b90f7_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1779791657&width=560&sig=WTpc77qZodazEopJS2ZzVDMHdT1Y%2FO9%2FyPm7McMSMO8%3D",
+      "reason": "INMO GO3: Powerful AI Translation Glasses for All ，在design/product/design领域，获得1,342人支持，筹得$750,106，Kickstarter Staff Pick，达成率5877.9%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 100000.0,
+        "pledged": 5877941.0,
+        "usdPledged": 750105.74061229,
+        "backersCount": 1342,
+        "currency": "HKD",
+        "state": "live",
+        "staffPick": true,
+        "percentFunded": 5877.9,
+        "daysSinceLaunch": 55
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1262936444",
+      "brand": "Novel Carry",
+      "category": "design",
+      "title": "Novel Carry Axial | Titanium Bolt-Action Fidget Pen",
+      "titleZh": "Novel 携带 Axial | 钛合金 Bolt-Action Fidget 笔",
+      "desc": "A bolt-action titanium pen with a precision spinner top. Built for writers, makers, and anyone who fidgets while they think.",
+      "time": "2026-01-21 12:59",
+      "score": 67.4,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 7.9,
+        "transferability": 6.3,
+        "diffusionPotential": 6.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/novel-carry/novel-carry-axial-titanium-bolt-action-fidget-pen",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/702/414/e8d90b4e749851dfc7e3003a36b856e3_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1771852705&width=560&sig=iUxWcKbSvMsskU%2BQ3omvhJuudvBPQ1XQIHjJlcHByYQ%3D",
+      "reason": "Novel Carry Axial | Titanium Bolt-Action Fidget Pe，在design/product/design领域，获得177人支持，筹得$23,509，Kickstarter Staff Pick，达成率313.5%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 7500.0,
+        "pledged": 23509.0,
+        "usdPledged": 23509.0,
+        "backersCount": 177,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 313.5,
+        "daysSinceLaunch": 152
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-279318956",
+      "brand": "Luke Pickett",
+      "category": "wearable",
+      "title": "EVOLVE MVMT: Analyze Shock Absorption, Optimize Your Run.",
+      "titleZh": "EVOLVE MVMT: Analyze Shock Absorption, Optimize 你的 Run.",
+      "desc": "World-first wearable to analyze the shock absorption of every step to run smarter, reduce injury risk, and optimize performance.",
+      "time": "2025-09-23 12:55",
+      "score": 67.3,
+      "visBreakdown": {
+        "recognition": 8.5,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/evolvemvmt/evolve-mvmt-the-next-generation-in-wearable-technology",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/050/963/728/21062e735372d65af6c8506388d2efd1_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1758715052&width=560&sig=0N8LDe%2Bj7cX9N930QZxC%2BieEh%2BU153ocOQo5%2FnUu81o%3D",
+      "reason": "EVOLVE MVMT: Analyze Shock Absorption, Optimize Yo，在technology/wearables领域，获得130人支持，筹得$66,625，Kickstarter Staff Pick，达成率658.4%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 15347.0,
+        "pledged": 101038.0,
+        "usdPledged": 66624.59663244,
+        "backersCount": 130,
+        "currency": "AUD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 658.4,
+        "daysSinceLaunch": 272
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-64484217",
+      "brand": "Theodots",
+      "category": "design",
+      "title": "Holoneo — A Next-Generation Air-Imaging Display",
+      "titleZh": "Holoneo — Next-Generation Air-Imaging 显示",
+      "desc": "Experience floating visuals, gesture control, and AI-powered interactions — no screens, no headsets.",
+      "time": "2025-11-18 15:33",
+      "score": 67.2,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 7.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/theodots/holoneo-a-next-generation-air-imaging-display",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/686/174/b3c9de225165bc21f56e58e3adef5825_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1763397776&width=560&sig=P%2BX8IP2yGbicd7vy34RmavK6oemX%2FmwsLTlQ5%2FvbQEw%3D",
+      "reason": "Holoneo — A Next-Generation Air-Imaging Display，在design/product/design领域，获得362人支持，筹得$44,512，达成率3459.9%，视觉亮点：AI驱动、新交互",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 345987.0,
+        "usdPledged": 44512.01986023,
+        "backersCount": 362,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 3459.9,
+        "daysSinceLaunch": 215
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-429500095",
+      "brand": "TrailSense",
+      "category": "wearable",
+      "title": "TrailSense - Capturing the Essence of Mountain Biking",
+      "titleZh": "TrailSense - Capturing Essence 的 Mountain Biking",
+      "desc": "TrailSense = sensor + app designed to measure what matters to Mountain Bikers. You ride, we track and analyze (almost) everything.",
+      "time": "2019-06-19 10:03",
+      "score": 67.2,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 6.7,
+        "transferability": 5.8,
+        "diffusionPotential": 5.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/trailsense/trailsense-capturing-the-essence-of-mountain-biking",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/025/300/832/e5933ad0c6bad11e44b1306d4b711314_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1559116371&width=560&sig=IlGM2txmaqzK42Ybxv%2F5BhhgEPtaUVEcJAQXWqFjYJY%3D",
+      "reason": "TrailSense - Capturing the Essence of Mountain Bik，在technology/wearables领域，获得57人支持，筹得$7,515，达成率25.0%",
+      "ksData": {
+        "goal": 200000.0,
+        "pledged": 49971.17,
+        "usdPledged": 7515.2087306413,
+        "backersCount": 57,
+        "currency": "DKK",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 25.0,
+        "daysSinceLaunch": 2560
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-262525109",
+      "brand": "Hushme",
+      "category": "wearable",
+      "title": "Hushme AIR: A Breath Of Fresh Air Among The Smart Masks",
+      "titleZh": "Hushme AIR: Breath 的 Fresh Air 之中 智能 Masks",
+      "desc": "Speech privacy mask for a smartphone | Voice muffling | Dust and smoke FFP2 air filtration | External speaker with RGB lighting",
+      "time": "2022-08-03 20:49",
+      "score": 67.2,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 6.7,
+        "transferability": 5.8,
+        "diffusionPotential": 5.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1322999047/hushme-air-a-breath-of-fresh-air-among-the-smart-masks",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/037/742/427/6a2025fbfe590bdbab54b263b3ebd2ef_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1656012555&width=560&sig=5fmagj4VNQQxoycb69tyJWF7JE8jOtcDY%2BRoP0Ay%2FPA%3D",
+      "reason": "Hushme AIR: A Breath Of Fresh Air Among The Smart ，在technology/wearables领域，获得54人支持，筹得$6,585，达成率13.4%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 49000.0,
+        "pledged": 6585.0,
+        "usdPledged": 6585.0,
+        "backersCount": 54,
+        "currency": "USD",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 13.4,
+        "daysSinceLaunch": 1418
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2033523871",
+      "brand": "UIXOO",
+      "category": "wearable",
+      "title": "UIXOO-The World’s First Wearable Power Supply for AirPods",
+      "titleZh": "UIXOO- 世界’s First 穿戴式 供电 Supply 为 AirPods",
+      "desc": "Uixoo Hi16 fits all AirPods, provides an extra power supply, protects your AirPods from anti-lost",
+      "time": "2022-04-26 12:02",
+      "score": 67.0,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 7.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/uixoo/uixoo-the-worlds-first-wearable-power-supply-for-airpods",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/036/994/245/653745637b50be6a60760625daa24e0f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1649991655&width=560&sig=IpCQYruPaKWAVqBCSZVE45LIJMx7clJDylbyseKj%2FVI%3D",
+      "reason": "UIXOO-The World’s First Wearable Power Supply for ，在technology/wearables领域，获得518人支持，筹得$29,046，达成率949.6%",
+      "ksData": {
+        "goal": 24000.0,
+        "pledged": 227906.0,
+        "usdPledged": 29045.73998284,
+        "backersCount": 518,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 949.6,
+        "daysSinceLaunch": 1518
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-516480096",
+      "brand": "RINGO",
+      "category": "wearable",
+      "title": "RINGO: Master Wellness and Media with Your Fingertips",
+      "titleZh": "RINGO: Master Wellness 和 Media 配备 你的 Fingertips",
+      "desc": "Smart Touch Control|24/7 Wellness Monitoring |Fitness Tracker | Sleep Analysis | Event Reminders | 5ATM Waterproof | 7-Day Battery Life",
+      "time": "2024-04-29 13:01",
+      "score": 67.0,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.4,
+        "diffusionPotential": 7.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/ringoofficial/ringo-master-wellness-and-media-with-your-fingertips",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/045/109/730/12f40f018bde980e3246a47ad2588559_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1716263389&width=560&sig=LCb1Uyk9SvB9c7LG4eDWwIK3rSR4gj%2B4bFdSGzZgQIY%3D",
+      "reason": "RINGO: Master Wellness and Media with Your Fingert，在technology/wearables领域，获得428人支持，筹得$105,101，达成率2102.0%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 105101.0,
+        "usdPledged": 105101.0,
+        "backersCount": 428,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 2102.0,
+        "daysSinceLaunch": 784
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-122290634",
+      "brand": "Matt - Modern Fuel",
+      "category": "design",
+      "title": "The Modular, Minimalist Machined Fountain Pen for Every Day",
+      "titleZh": "模块化, 极简 Machined Fountain 笔 为 每个 Day",
+      "desc": "Every Modern Fuel Fountain Pen is machined, finished, and assembled in the USA and is built to last a lifetime.",
+      "time": "2024-05-03 16:58",
+      "score": 66.8,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 6.6,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/modern-fuel/the-modular-minimalist-machined-fountain-pen-for-every-day",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/044/810/678/cd74cc0d7e3340add6bf17bcc1e7d833_original.JPG?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1713997289&width=560&sig=KhtwJHjyP7RmSQ%2Fo4xWstwE8cFpj3WZiJ1sv0FPDots%3D",
+      "reason": "The Modular, Minimalist Machined Fountain Pen for ，在design/product/design领域，获得717人支持，筹得$123,826，Kickstarter Staff Pick，达成率2063.8%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 6000.0,
+        "pledged": 123826.0,
+        "usdPledged": 123826.0,
+        "backersCount": 717,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2063.8,
+        "daysSinceLaunch": 779
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1812809836",
+      "brand": "DOJO Air",
+      "category": "wearable",
+      "title": "DOJO Air: A Portable Data Driven Breath Trainer",
+      "titleZh": "DOJO Air: 便携 Data Driven Breath Trainer",
+      "desc": "Improve your breathing and track your results using guided training exercises, precise volumetric measurement, and real time data.",
+      "time": "2026-05-12 12:53",
+      "score": 66.8,
+      "visBreakdown": {
+        "recognition": 8.5,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/irahayes/dojo-air-smarter-breathwork-with-real-time-volume-feedback",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/836/061/b09e5dd16af1fb72538cb83098b6720a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1779489966&width=560&sig=nqEk%2BXfBGTDjHKHd1MKgEVbawNnopngAIr1%2F1fgDWjc%3D",
+      "reason": "DOJO Air: A Portable Data Driven Breath Trainer，在technology/wearables领域，获得475人支持，筹得$98,435，Kickstarter Staff Pick，达成率393.7%",
+      "ksData": {
+        "goal": 25000.0,
+        "pledged": 98435.0,
+        "usdPledged": 98435.0,
+        "backersCount": 475,
+        "currency": "USD",
+        "state": "live",
+        "staffPick": true,
+        "percentFunded": 393.7,
+        "daysSinceLaunch": 41
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1974790843",
+      "brand": "VFIP",
+      "category": "design",
+      "title": "TACS AVL3 Titanium Automatic watch - Camera Lens Inspired",
+      "titleZh": "TACS AVL3 钛合金 自动 watch - Camera Lens Inspired",
+      "desc": "The 3rd generation of TACS’ lens-inspired watch - now lighter than ever in titanium. Made in Japan.",
+      "time": "2026-03-05 15:00",
+      "score": 66.7,
+      "visBreakdown": {
+        "recognition": 7.7,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 7.9,
+        "transferability": 6.7,
+        "diffusionPotential": 6.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/242671304/tacs-avl3-titanium",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/853/613/2dc23bb6180429c396a72d41f449ea33_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772808921&width=560&sig=fXnfNuZGZmBm2Iv1ARqDfn%2FVQnrdq25JSUHG%2BJ7jnhs%3D",
+      "reason": "TACS AVL3 Titanium Automatic watch - Camera Lens I，在design/product/design领域，获得122人支持，筹得$65,017，达成率642.9%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 79000.0,
+        "pledged": 507907.0,
+        "usdPledged": 65017.35791652,
+        "backersCount": 122,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 642.9,
+        "daysSinceLaunch": 108
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-370850741",
+      "brand": "Kuushy",
+      "category": "wearable",
+      "title": "Kuushy Smart Cushion",
+      "titleZh": "Kuushy 智能 Cushion",
+      "desc": "Coaching right at your desk. AI Smart Cushion to eliminate back pain. We've got your back!",
+      "time": "2023-08-28 11:09",
+      "score": 66.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 8.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 4.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/kuushy/kuushy-smart-cushion",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/042/167/809/bf90a6f9a98f4bfe855b3c4bc097fe3c_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1693758581&width=560&sig=TmaeXht7KdT1FbQb1bRxbTtH7U%2Bp70F8xDHnWzOJP78%3D",
+      "reason": "Kuushy Smart Cushion，在technology/wearables领域，获得42人支持，筹得$15,590，达成率42.3%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 21143.0,
+        "usdPledged": 15590.45832308,
+        "backersCount": 42,
+        "currency": "SGD",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 42.3,
+        "daysSinceLaunch": 1029
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-783708855",
+      "brand": "Pulse Mindfulness",
+      "category": "wearable",
+      "title": "The Mindfulness Ring",
+      "titleZh": "Mindfulness 戒指",
+      "desc": "Customised vibrations | Positive reminders | Habit forming | Improve your state of mind | Reduce anxiety | Improve Focus | Conditioning",
+      "time": "2024-09-02 13:53",
+      "score": 66.2,
+      "visBreakdown": {
+        "recognition": 8.5,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/pulsemindfulness/pulse-the-mindfulness-ring",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/329/379/e1747dbdaa3f018384ba19cc866c73d4_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1725442652&width=560&sig=jtHbZnv6A7PDlGTYdaUsdkodvi9bmUoHA5HnJhVBJMU%3D",
+      "reason": "The Mindfulness Ring，在technology/wearables领域，获得202人支持，筹得$27,381，Kickstarter Staff Pick，达成率273.8%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 27381.0,
+        "usdPledged": 27381.0,
+        "backersCount": 202,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 273.8,
+        "daysSinceLaunch": 658
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-403603195",
+      "brand": "SideSleeperZ",
+      "category": "design",
+      "title": "SideSleeperZ® The Ultimate Modular Sleep Mask",
+      "titleZh": "SideSleeperZ® 终极 模块化 睡眠 Mask",
+      "desc": "Sleep mask falling off, or uncomfortable? Introducing a low-profile & tailored-fit solution! Detachable, Comfy Ears, Patent Pending",
+      "time": "2024-07-31 13:57",
+      "score": 65.5,
+      "visBreakdown": {
+        "recognition": 8.0,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 6.6,
+        "diffusionPotential": 8.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/sidesleeperz/sidesleeperz-the-ultimate-modular-sleep-mask",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/047/968/705/8f4234995bf99ea603e45fb5c1b3b2c6_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1737964929&width=560&sig=Yd3rUSDlCpjjCGs5ZPOb%2B4OQ2FH%2BN7Xd1W2%2FiBJ0s%2BU%3D",
+      "reason": "SideSleeperZ® The Ultimate Modular Sleep Mask，在design/product/design领域，获得1,797人支持，筹得$102,427，达成率2731.4%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 3750.0,
+        "pledged": 102427.0,
+        "usdPledged": 102427.0,
+        "backersCount": 1797,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 2731.4,
+        "daysSinceLaunch": 691
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-520860480",
+      "brand": "George Engelmayr",
+      "category": "wearable",
+      "title": "The World's First Harmless Cultivated Leather",
+      "titleZh": "全球首款 Harmless Cultivated Leather",
+      "desc": "First-of-a-kind cultivated leather harmlessly grown from the cells of a living, sanctuary grazing cow",
+      "time": "2025-09-09 14:00",
+      "score": 65.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 7.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 5.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1687452435/angelry-the-worlds-first-cultivated-leather-jewelry",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/271/793/2556e8f56c0ad8b61a6ef2a27de148ea_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1760565225&width=560&sig=Vte%2FMVQsaz76Y%2FISA%2BDx%2BAuJr%2BjLpmoLaarmHiq5xv4%3D",
+      "reason": "The World's First Harmless Cultivated Leather，在technology/wearables领域，获得78人支持，筹得$21,821，达成率109.1%",
+      "ksData": {
+        "goal": 20000.0,
+        "pledged": 21821.0,
+        "usdPledged": 21821.0,
+        "backersCount": 78,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 109.1,
+        "daysSinceLaunch": 286
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-216285587",
+      "brand": "Arrowmax",
+      "category": "gadget",
+      "title": "World's First Carbon Fiber Electric Drill Pen Benchtop Press",
+      "titleZh": "全球首款 碳纤维 电动 Drill 笔 Benchtop Press",
+      "desc": "Carbon fiber body /5-Speed /900RPM /OLED Display /Multi-purpose fixed bracket /CNC machining /20 HSS Bits /LED Lights /500mAh /Cordless",
+      "time": "2024-11-05 11:57",
+      "score": 64.8,
+      "visBreakdown": {
+        "recognition": 6.9,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 6.9,
+        "transferability": 5.7,
+        "diffusionPotential": 8.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/arrowmax/dc5-plus-carbon-fiber-electric-drill-pen-and-benchtop-press",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/047/200/508/5d581714ab385c993ddf7aafe90bb080_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1731052873&width=560&sig=l1c6WwZKSqJ23Ej1OavIqPQS27Viae9PrINcoFIQWPs%3D",
+      "reason": "World's First Carbon Fiber Electric Drill Pen Benc，在technology/gadgets领域，获得995人支持，筹得$156,594，Kickstarter Staff Pick，达成率2434.3%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 1217127.0,
+        "usdPledged": 156593.75847204,
+        "backersCount": 995,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2434.3,
+        "daysSinceLaunch": 594
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1246014512",
+      "brand": "Jason Harrelson",
+      "category": "design",
+      "title": "Bravura Trumpet - Incredibly Vibrant Resonance!",
+      "titleZh": "Bravura Trumpet - Incredibly Vibrant Resonance!",
+      "desc": "Transforming trumpet players into better musicians with Modern Materials & Old World Craftsmanship",
+      "time": "2025-04-28 23:52",
+      "score": 64.8,
+      "visBreakdown": {
+        "recognition": 8.4,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/momentum1/bravura-every-trumpet-players-dream-instrument",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/291/050/7903511e9729d60a985973c30bebfbc4_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1747324271&width=560&sig=BD9d6LY77TmmV3BrkX9502ocOAzzaE64%2Fy0CwkTvuLw%3D",
+      "reason": "Bravura Trumpet - Incredibly Vibrant Resonance!，在design/product/design领域，获得46人支持，筹得$108,339，Kickstarter Staff Pick，达成率21667.8%",
+      "ksData": {
+        "goal": 500.0,
+        "pledged": 108339.0,
+        "usdPledged": 108339.0,
+        "backersCount": 46,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 21667.8,
+        "daysSinceLaunch": 419
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1682670511",
+      "brand": "Jimmy Olmes",
+      "category": "design",
+      "title": "Grater Rain : World's First One Touch Electric Cheese Grater",
+      "titleZh": "Grater Rain : 全球首款 One Touch 电动 Cheese Grater",
+      "desc": "Transform grating with the first one-touch, handheld cheese grater. No pre-wash needed, stores in fridge, dishwasher-safe.",
+      "time": "2024-06-04 12:08",
+      "score": 64.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/grater-rain/grater-rain-worlds-first-one-touch-electric-cheese-grater",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/045/439/790/872bd416c45232cfa4f8ab152eed5755_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1718745874&width=560&sig=6CcAoE%2B2jkG%2F88dICU%2Fh34H2GJihhmQDOZVKyIgRwcQ%3D",
+      "reason": "Grater Rain : World's First One Touch Electric Che，在design/product/design领域，获得1,039人支持，筹得$188,271，Kickstarter Staff Pick，达成率2353.4%",
+      "ksData": {
+        "goal": 8000.0,
+        "pledged": 188271.0,
+        "usdPledged": 188271.0,
+        "backersCount": 1039,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2353.4,
+        "daysSinceLaunch": 748
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1691281775",
+      "brand": "Citius Systems",
+      "category": "wearable",
+      "title": "qCharge 2.0: Your Portable Apple Watch Charger",
+      "titleZh": "qCharge 2.0: 你的 便携 Apple Watch 充电器",
+      "desc": "Cordless Apple Watch charger that's well designed, easy to use, and electronically advanced. Take it with you - anywhere!",
+      "time": "2022-10-18 03:00",
+      "score": 64.5,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 6.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/qcharge/qcharge-20-your-portable-apple-watch-charger",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/038/809/224/1230a5247d00bb57e42566af81898daa_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1664986004&width=560&sig=uDz3GEB6U%2FRW917%2BS0IlI5KmTMvyNRyhz9eTbh9lIk0%3D",
+      "reason": "qCharge 2.0: Your Portable Apple Watch Charger，在technology/wearables领域，获得358人支持，筹得$25,519，达成率127.6%",
+      "ksData": {
+        "goal": 20000.0,
+        "pledged": 25519.0,
+        "usdPledged": 25519.0,
+        "backersCount": 358,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 127.6,
+        "daysSinceLaunch": 1343
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1781238234",
+      "brand": "Blux",
+      "category": "wearable",
+      "title": "VIZOR ™️ | Blue Light Gaming Glasses",
+      "titleZh": "VIZOR ™️ | Blue 照亮 Gaming Glasses",
+      "desc": "Cutting edge blue light glasses from Blux customized for gaming. Developed with insights from gamers worldwide & Astralis!",
+      "time": "2021-06-08 14:52",
+      "score": 64.5,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 6.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/blux-vizor/vizor-envision-your-game",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/033/906/124/5e7adc8851931bbe5fc473422c2526c6_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1623832739&width=560&sig=RV16FafzttH42fs%2FbZwH7hXux7%2BTcAdDZLzYcReCLxs%3D",
+      "reason": "VIZOR ™️ | Blue Light Gaming Glasses，在technology/wearables领域，获得278人支持，筹得$30,815，达成率253.3%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 25325.0,
+        "usdPledged": 30814.58806025,
+        "backersCount": 278,
+        "currency": "EUR",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 253.3,
+        "daysSinceLaunch": 1839
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-398338474",
+      "brand": "Luke Perkins",
+      "category": "wearable",
+      "title": "Disc Sense - A Sensor Adaptable to Any Disc and Every Throw",
+      "titleZh": "Disc Sense - 传感器 适应性 to Any Disc 和 每个 Throw",
+      "desc": "Paired with our intuitive app, our lightweight sensor delivers comprehensive data on every throw—velocity, spin, angles & more.",
+      "time": "2026-05-05 13:44",
+      "score": 64.5,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 6.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/luke-perkins/disc-sense-a-sensor-adaptable-to-any-disc-and-every-throw",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/092/370/7708afb996a7a8a89b3cea07612586b2_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1767306125&width=560&sig=%2BOATVpE9WBl44t22dfkWjAz%2FDHdsjj7qtq2urISJ1%2Fc%3D",
+      "reason": "Disc Sense - A Sensor Adaptable to Any Disc and Ev，在technology/wearables领域，获得256人支持，筹得$45,848，达成率152.8%",
+      "ksData": {
+        "goal": 30000.0,
+        "pledged": 45848.0,
+        "usdPledged": 45848.0,
+        "backersCount": 256,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 152.8,
+        "daysSinceLaunch": 48
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1608111322",
+      "brand": "Human Interaction, Inc",
+      "category": "wearable",
+      "title": "KEEPY: Extra safety connection in case of a loss",
+      "titleZh": "KEEPY: Extra safety connection 于 保护壳 的 loss",
+      "desc": "State-of-the-Art Lost and Found ID Tag",
+      "time": "2023-09-19 13:30",
+      "score": 64.5,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 6.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/mykeepy/keepy-extra-safety-connection-in-case-of-a-loss",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/042/325/922/414d2afa9e981f155e0ba66a99575702_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1694883395&width=560&sig=lqMCRhwJ5SVjCl3PfIRHfCYyMIPXEmsH69JfSPsRMj8%3D",
+      "reason": "KEEPY: Extra safety connection in case of a loss，在technology/wearables领域，获得242人支持，筹得$13,273，达成率132.7%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 13273.0,
+        "usdPledged": 13273.0,
+        "backersCount": 242,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 132.7,
+        "daysSinceLaunch": 1007
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1918936334",
+      "brand": "Abrace.ai",
+      "category": "wearable",
+      "title": "Abrace: smart bracelet for autistic kids",
+      "titleZh": "Abrace: 智能 手环 为 autistic 儿童",
+      "desc": "Monitor your child’s stress level in an app and be notified of the oncoming sensory meltdown",
+      "time": "2022-11-01 09:56",
+      "score": 64.5,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 6.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/abrace-ai/abrace-the-worlds-first-smart-ai-bracelet-for-autism",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/039/394/255/9a8f39e54435914b66a062ef29e01a10_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1670245109&width=560&sig=Lehdipm15MvZQILkyFyT12bYLIytDZvr00GPBsJHq8A%3D",
+      "reason": "Abrace: smart bracelet for autistic kids，在technology/wearables领域，获得216人支持，筹得$22,351，达成率223.5%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 22351.0,
+        "usdPledged": 22351.0,
+        "backersCount": 216,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 223.5,
+        "daysSinceLaunch": 1329
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1387528120",
+      "brand": "Rollingbox",
+      "category": "wearable",
+      "title": "Plasma Mask Support: Best Sidekick for Wearing Masks",
+      "titleZh": "Plasma Mask 支撑: 最佳 Sidekick 为 Wearing Masks",
+      "desc": "An active air purification mask support/ Releases 80 million negative oxygen ions/  can be reused for 500 times",
+      "time": "2021-05-26 12:36",
+      "score": 64.5,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 6.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/masksupport/plasma-mask-support-best-sidekick-for-wearing-masks",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/033/873/049/859deda7c151a89d28c3c9a20b33755d_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1623594370&width=560&sig=%2Bi8%2F8EQ1S8NGoXDyjrJiSL0qCsKq74dvQxPctj16UMs%3D",
+      "reason": "Plasma Mask Support: Best Sidekick for Wearing Mas，在technology/wearables领域，获得122人支持，筹得$7,171，达成率143.4%",
+      "ksData": {
+        "goal": 38811.0,
+        "pledged": 55674.0,
+        "usdPledged": 7171.48095822,
+        "backersCount": 122,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 143.4,
+        "daysSinceLaunch": 1853
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-654028328",
+      "brand": "General Neuro",
+      "category": "wearable",
+      "title": "NeuroLingo: Neurotech for Language Learning",
+      "titleZh": "NeuroLingo: Neurotech 为 Language Learning",
+      "desc": "NeuroLingo is a non-invasive headset developed by Yale neuroscientists to enhance foreign language acquisition.",
+      "time": "2025-10-26 21:40",
+      "score": 64.5,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 6.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/generalneuro/neurolingo-neurotech-for-your-second-language",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/349/737/1301a9216cfc6176b15654513ce2530a_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1761073658&width=560&sig=kWVQyo2BqzyHI8Fqc55vOVKMjTUSS%2BGuYYp1ACK%2BFQs%3D",
+      "reason": "NeuroLingo: Neurotech for Language Learning，在technology/wearables领域，获得120人支持，筹得$21,338，达成率118.5%",
+      "ksData": {
+        "goal": 18000.0,
+        "pledged": 21338.0,
+        "usdPledged": 21338.0,
+        "backersCount": 120,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 118.5,
+        "daysSinceLaunch": 238
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1865816291",
+      "brand": "Gabriel Rochet",
+      "category": "wearable",
+      "title": "Le kit du Paxophone, téléphone open-source a monter soi même",
+      "titleZh": "Le 套件 du Paxophone, téléphone 开源 monter soi même",
+      "desc": "Le kit permet de facilement construire son paxophone a partir des composants sans avoir a commander en grande quantité soi même",
+      "time": "2025-03-24 07:26",
+      "score": 64.5,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 6.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/paxophone/le-kit-du-paxophone-telephone-open-source-a-monter-soi-meme",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/047/884/147/b7aab208929997cf3149f5f15c1968ff_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1737311798&width=560&sig=dov4rymWB7%2BVq7LdSkK2uly%2FR%2FS2PXO9BOFvPT6dr%2BM%3D",
+      "reason": "Le kit du Paxophone, téléphone open-source a monte，在technology/wearables领域，获得111人支持，筹得$12,596，达成率178.2%",
+      "ksData": {
+        "goal": 6500.0,
+        "pledged": 11583.0,
+        "usdPledged": 12595.92663186,
+        "backersCount": 111,
+        "currency": "EUR",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 178.2,
+        "daysSinceLaunch": 455
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-690865217",
+      "brand": "Spatial Sleep",
+      "category": "wearable",
+      "title": "Spatial Sleep headband - Sound Sleep, Reimagined.",
+      "titleZh": "Spatial 睡眠 headband - 声音 睡眠, 重新构想.",
+      "desc": "Personalized, Drug-free, Clinically Proven, Works Quickly.",
+      "time": "2025-09-08 18:15",
+      "score": 64.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 7.3,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 5.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/spatialsleep/spatial-sleep-headband-sound-sleep-reimagined",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/050/076/463/526453da32cf4574157cc350a62685ab_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1752763618&width=560&sig=R3w5Mufmw0mA7Vye6OrnuSmstQlFoeQZPed2aLzJuXA%3D",
+      "reason": "Spatial Sleep headband - Sound Sleep, Reimagined.，在technology/wearables领域，获得24人支持，筹得$5,411，达成率108.2%",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 5411.0,
+        "usdPledged": 5411.0,
+        "backersCount": 24,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 108.2,
+        "daysSinceLaunch": 286
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1978092727",
+      "brand": "CHENGSHE.design",
+      "category": "gadget",
+      "title": "ONE BOX 2.0/ Ancient craft wooden storage box",
+      "titleZh": "ONE BOX 2.0/ Ancient craft wooden storage box",
+      "desc": "Storage box/magnetic/infinite pens/stationery box/natural wood/lightweight and portable/modular/EDC",
+      "time": "2024-04-29 13:00",
+      "score": 64.2,
+      "visBreakdown": {
+        "recognition": 6.9,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 6.9,
+        "transferability": 5.6,
+        "diffusionPotential": 8.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/chengshedesign/one-box-20-ancient-craft-wooden-storage-box",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/044/995/636/ca1702a52dce76076ab03a8dd6833a2c_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1715354119&width=560&sig=VOY5QdHTNAX2DY1u%2FJKoY%2BdT3rzJGa1fkGiA3hdZ6Ho%3D",
+      "reason": "ONE BOX 2.0/ Ancient craft wooden storage box，在technology/gadgets领域，获得484人支持，筹得$46,860，Kickstarter Staff Pick，达成率4686.0%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 1000.0,
+        "pledged": 46860.0,
+        "usdPledged": 46860.0,
+        "backersCount": 484,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 4686.0,
+        "daysSinceLaunch": 784
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1824425396",
+      "brand": "METAPROI",
+      "category": "design",
+      "title": "Chill Your Wine to Perfection with Porta: the AI Wine Cooler",
+      "titleZh": "Chill 你的 Wine to Perfection 配备 Porta: AI Wine 冷却器",
+      "desc": "No ice needed. Keep your wine at the perfect temperature for the entire evening with your very own chargeable, cordless wine cooler.",
+      "time": "2026-04-07 12:00",
+      "score": 64.2,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/metapori/porta-your-personal-smart-wine-chiller",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/260/999/0aa27b5e9ddc7826769c7fcf71ea88c0_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1775646431&width=560&sig=bstLzQe3qa1uTCc7VgxZJK2L6TZZdhOQUIvJg%2FlC%2FzM%3D",
+      "reason": "Chill Your Wine to Perfection with Porta: the AI W，在design/product/design领域，获得208人支持，筹得$68,508，达成率3425.4%",
+      "ksData": {
+        "goal": 2000.0,
+        "pledged": 68508.0,
+        "usdPledged": 68508.0,
+        "backersCount": 208,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 3425.4,
+        "daysSinceLaunch": 76
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1088439590",
+      "brand": "Voyage Bladeworks",
+      "category": "design",
+      "title": "Waypoint Kit: Titanium Bit Driver + Caravel Carabiner (REDO)",
+      "titleZh": "Waypoint 套件: 钛合金 Bit Driver + Caravel Carabiner (REDO)",
+      "desc": "A compact titanium EDC kit built for people who actually use their gear — from knife maintenance to daily carry.",
+      "time": "2026-04-20 18:00",
+      "score": 64.2,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 7.9,
+        "transferability": 6.3,
+        "diffusionPotential": 5.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/voyagebladeworks/waypoint-kit-titanium-bit-driver-caravel-carabiner-redo",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/400/021/dd66299169e0a90001bbb664498eb32d_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776602370&width=560&sig=VuWYIMMFQaYpNXX1OsHCwKHzIzCuUmyiw%2B5ig3LO9GE%3D",
+      "reason": "Waypoint Kit: Titanium Bit Driver + Caravel Carabi，在design/product/design领域，获得95人支持，筹得$7,230，达成率131.5%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 5500.0,
+        "pledged": 7230.0,
+        "usdPledged": 7230.0,
+        "backersCount": 95,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 131.5,
+        "daysSinceLaunch": 62
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1846564272",
+      "brand": "ECLAT GROVE",
+      "category": "design",
+      "title": "Full Grade 5 Titanium Watch: Automatic & Tourbillon Series",
+      "titleZh": "全 Grade 5 钛合金 Watch: 自动 & Tourbillon 系列",
+      "desc": "Forest Guardian Automatic — \"200 Pieces\" Edition from $339–399 • Forest Guardian Tourbillon — Limited Edition of \"3 pieces\" at $4999",
+      "time": "2026-05-05 13:07",
+      "score": 64.2,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 7.9,
+        "transferability": 6.3,
+        "diffusionPotential": 5.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1930736251/forest-guardian-octagonal-grade-5-titanium-automatic-watch",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/255/785/fb616df60da848f50af1f3e0d8feb475_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1775603262&width=560&sig=G1fU7cpBBkgQ%2BLxNL7YNNfliawHTDDU4abXN2e%2BrZ%2FY%3D",
+      "reason": "Full Grade 5 Titanium Watch: Automatic & Tourbillo，在design/product/design领域，获得72人支持，筹得$29,795，达成率270.9%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 11000.0,
+        "pledged": 29795.0,
+        "usdPledged": 29795.0,
+        "backersCount": 72,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 270.9,
+        "daysSinceLaunch": 48
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-570570906",
+      "brand": "Fun-Tech-Lab",
+      "category": "design",
+      "title": "Parksible: The World's First Smart Garage for Model Cars",
+      "titleZh": "Parksible: 全球首款 智能 Garage 为 Model Cars",
+      "desc": "Auto Vertical Parking ｜ 1:64 Universal Fit ｜ In-App Digital Garage ｜ Adjustable Ambient Lighting ｜ Temp & Humidity Monitoring",
+      "time": "2026-04-07 14:00",
+      "score": 64.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1053593589/parkable-automatic-parking-garage-for-64-scale-model-cars",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/346/355/01aad43a25bb4caf47910fbdf27680a1_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776234449&width=560&sig=ztQ2GeppZov8lU6YcOXRheRx9TjT0YglQEYecJx3QSQ%3D",
+      "reason": "Parksible: The World's First Smart Garage for Mode，在design/product/design领域，获得818人支持，筹得$436,585，Kickstarter Staff Pick，达成率3849.6%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 88888.0,
+        "pledged": 3421816.0,
+        "usdPledged": 436585.02086104,
+        "backersCount": 818,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 3849.6,
+        "daysSinceLaunch": 76
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-664926494",
+      "brand": "Bjorn Kartomten",
+      "category": "wearable",
+      "title": "WorldWatch - The Soul of the Sun and the Moon on your Wrist.",
+      "titleZh": "WorldWatch - Soul 的 Sun 和 Moon on 你的 Wrist.",
+      "desc": "For the curious, the aficionado and the professional who are looking for the natural cycles and exact timing of the sun and the moon.",
+      "time": "2019-03-18 17:09",
+      "score": 63.9,
+      "visBreakdown": {
+        "recognition": 8.1,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 5.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/yeswatch/worldwatch-the-soul-of-the-sun-and-the-moon-on-you",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/024/599/869/1b9e16018f44fe83a59e6cf9b2d31daa_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1553981118&width=560&sig=4z%2FHz7rH%2BZBMDAvWfjE%2BbxPuW0eL3wS65RJ3zGpcdfQ%3D",
+      "reason": "WorldWatch - The Soul of the Sun and the Moon on y，在technology/wearables领域，获得114人支持，筹得$62,812，达成率41.9%",
+      "ksData": {
+        "goal": 150000.0,
+        "pledged": 62812.0,
+        "usdPledged": 62812.0,
+        "backersCount": 114,
+        "currency": "USD",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 41.9,
+        "daysSinceLaunch": 2652
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-924740003",
+      "brand": "O NEST",
+      "category": "gadget",
+      "title": "O NEST:One Hub. Infinite Scenarios.",
+      "titleZh": "O NEST:One 集线器. Infinite Scenarios.",
+      "desc": "Bluetooth Speaker | Wireless Charging | Outdoor Power | RGB Light | Foldable/Detachable | Customizable Height | Expandable Spaces",
+      "time": "2026-04-21 12:00",
+      "score": 63.6,
+      "visBreakdown": {
+        "recognition": 6.5,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 6.7,
+        "transferability": 5.7,
+        "diffusionPotential": 8.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/o-nest/o-nest-furnitureandoutdoor-gear-redefined",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/348/400/e633411154a1905e1e17ec0ec2945abb_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776246936&width=560&sig=1du8EFojtgdFN4I2I7qbUD7GIPdbPnTfpsnmhlN5HII%3D",
+      "reason": "O NEST:One Hub. Infinite Scenarios.，在technology/gadgets领域，获得1,692人支持，筹得$402,831，达成率8056.6%，视觉亮点：可折叠",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 402831.0,
+        "usdPledged": 402831.0,
+        "backersCount": 1692,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 8056.6,
+        "daysSinceLaunch": 62
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-94361693",
+      "brand": "Womier INC",
+      "category": "hardware",
+      "title": "Womier DUO87: Modular Mechanical Keyboard with Smart Deck",
+      "titleZh": "Womier DUO87: 模块化 机械键盘 配备 智能 Deck",
+      "desc": "A customizable keyboard with a detachable touch display, hot-swappable switches, and full RGB control for a smarter workspace",
+      "time": "2026-05-12 13:02",
+      "score": 63.1,
+      "visBreakdown": {
+        "recognition": 6.5,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 6.7,
+        "transferability": 6.0,
+        "diffusionPotential": 8.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/womier/womier-duo87",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/270/379/497f168728a363f56f4baee8dae33d6a_original.gif?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1775703745&width=560&sig=yznplGuQJvgOdWNh%2BIv9UoYC6BO8sToOYY%2B5uZFNQdQ%3D",
+      "reason": "Womier DUO87: Modular Mechanical Keyboard with Sma，在technology/hardware领域，获得547人支持，筹得$66,426，达成率1040.2%，视觉亮点：AI驱动、模块化/磁吸",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 520092.0,
+        "usdPledged": 66426.3842814,
+        "backersCount": 547,
+        "currency": "HKD",
+        "state": "live",
+        "staffPick": false,
+        "percentFunded": 1040.2,
+        "daysSinceLaunch": 41
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1756933130",
+      "brand": "PouraVida",
+      "category": "design",
+      "title": "PouraVida: Enhancing Premium Wine & Spirits",
+      "titleZh": "PouraVida: Enhancing 高级 Wine & Spirits",
+      "desc": "Unleash your spirit's true potential with our innovative magnetic filter design.",
+      "time": "2024-09-10 13:53",
+      "score": 63.1,
+      "visBreakdown": {
+        "recognition": 7.5,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 6.6,
+        "diffusionPotential": 7.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/pouravida/pouravida-democratizing-premium-wine-and-spirits",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/311/932/639d5361567b0312a38f715f43a638fe_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1725342409&width=560&sig=yNLtFeEsf4diEqbv1dNQzGZD7dR5J1huZPL9aUMIAos%3D",
+      "reason": "PouraVida: Enhancing Premium Wine & Spirits，在design/product/design领域，获得464人支持，筹得$53,290，Kickstarter Staff Pick，达成率532.9%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 53290.0,
+        "usdPledged": 53290.0,
+        "backersCount": 464,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 532.9,
+        "daysSinceLaunch": 650
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-695853734",
+      "brand": "Craighill",
+      "category": "design",
+      "title": "The Sidewinder Knife Mini",
+      "titleZh": "Sidewinder Knife 迷你",
+      "desc": "A sharp little totem to the magic of movement.",
+      "time": "2024-09-24 14:58",
+      "score": 63.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 9.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/craighill/sidewinder-knife",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/552/484/8286c35216a1becdd40ac18ef8d7e38b_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1726850254&width=560&sig=1i2zC8LO7z6d9w%2FhdZsy2SttlVybHgKvY3XZQeq4kH8%3D",
+      "reason": "The Sidewinder Knife Mini，在design/product/design领域，获得4,198人支持，筹得$678,649，Kickstarter Staff Pick，达成率6786.5%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 678649.0,
+        "usdPledged": 678649.0,
+        "backersCount": 4198,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 6786.5,
+        "daysSinceLaunch": 635
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-221470993",
+      "brand": "ToneWoodAmp",
+      "category": "audio",
+      "title": "ToneWoodAmp2: NEW Generation of Acoustic Effects Unplugged",
+      "titleZh": "ToneWoodAmp2: 全新 Generation 的 Acoustic Effects Unplugged",
+      "desc": "Powerful Acoustic Guitar Multi-Effects Processor. Smaller | Rechargeable | Wireless | Free App | & MORE!",
+      "time": "2024-10-02 19:18",
+      "score": 62.9,
+      "visBreakdown": {
+        "recognition": 7.3,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 4.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/tonewoodamp/tonewoodamp2-smaller-rechargeable-wireless-and-much-more",
+      "tags": [
+        "technology/sound"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/711/548/287c5a7c392f05da0992144c5f3863ee_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1727837191&width=560&sig=v%2FpEiRGkCL%2FnOmqe7Zi8jnlrh%2FUig9ZL%2BLEdcHiMjkY%3D",
+      "reason": "ToneWoodAmp2: NEW Generation of Acoustic Effects U，在technology/sound领域，获得1,264人支持，筹得$293,844，Kickstarter Staff Pick，达成率2938.4%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 293844.0,
+        "usdPledged": 293844.0,
+        "backersCount": 1264,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2938.4,
+        "daysSinceLaunch": 627
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-446778061",
+      "brand": "MagMate",
+      "category": "gadget",
+      "title": "ChargeMax丨Ultra-slim Magnetic Wireless Charging Power Bank",
+      "titleZh": "ChargeMax丨超薄 磁吸 无线充电 移动电源",
+      "desc": "10000mAh/15W Wireless Output/MagSafe & Qi compatible/Aluminum Alloy Shell/Phone Stand/Multi-device Charging/Fast charging",
+      "time": "2024-04-30 04:02",
+      "score": 62.8,
+      "visBreakdown": {
+        "recognition": 5.9,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 6.9,
+        "transferability": 6.4,
+        "diffusionPotential": 8.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1718984321/chargemaxultra-slim-magnetic-wireless-charging-power-bank",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/044/799/898/ac6415379392cf928b85f420845347c2_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1713930303&width=560&sig=H5Uh2hSezYF2uxRPoo2Yj%2BsrIcdEkaQmQWZ%2BPJ9Ag%2BM%3D",
+      "reason": "ChargeMax丨Ultra-slim Magnetic Wireless Charging Po，在technology/gadgets领域，获得609人支持，筹得$48,389，达成率7573.0%，视觉亮点：高端材质、模块化/磁吸",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 378649.0,
+        "usdPledged": 48389.06651951,
+        "backersCount": 609,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 7573.0,
+        "daysSinceLaunch": 783
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1177745288",
+      "brand": "Voltiva Go",
+      "category": "design",
+      "title": "Voltiva GO: 4-in-1 Foldable Wireless 10000mAh Power Bank",
+      "titleZh": "Voltiva GO: 4-in-1 可折叠 Wireless 10000mAh 移动电源",
+      "desc": "Charge your Phone, Watch, and Buds simultaneously. 10000mAh capacity, 27W PD, digital power display & a sleek zinc alloy hidden stand.",
+      "time": "2026-04-14 13:57",
+      "score": 62.6,
+      "visBreakdown": {
+        "recognition": 7.7,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/voltivago/voltiva-go-4-in-1-wireless-charger-and-10000mah-power-bank",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/330/141/8dd14c4c50be5914ea6050a0b74f3476_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776139324&width=560&sig=5LWfzHSJxnSGPUvxIe5vwz9qsZXwYGYXCUUW7Ls4e8k%3D",
+      "reason": "Voltiva GO: 4-in-1 Foldable Wireless 10000mAh Powe，在design/product/design领域，获得259人支持，筹得$22,490，达成率1499.2%，视觉亮点：可折叠",
+      "ksData": {
+        "goal": 11750.0,
+        "pledged": 176153.0,
+        "usdPledged": 22490.4399668,
+        "backersCount": 259,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1499.2,
+        "daysSinceLaunch": 69
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-270310055",
+      "brand": "AKEEYO",
+      "category": "camera",
+      "title": "EYES: Your AI Driving Assistant for Safer, Smarter Journeys",
+      "titleZh": "EYES: 你的 AI 驾驶 Assistant 为 Safer, Smarter Journeys",
+      "desc": "2K HD Triple-Lens | Voice Control | Parking Monitoring | Proactive Alerts | ADAS & BSD | 5G WI-FI | App | OTA Updates",
+      "time": "2024-09-03 14:01",
+      "score": 62.6,
+      "visBreakdown": {
+        "recognition": 7.3,
+        "paradigmShift": 8.0,
+        "cmfInnovation": 4.5,
+        "transferability": 4.5,
+        "diffusionPotential": 5.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/akeeyo/bionic-ai-dashcam-adas-and-bsd-dual-assistance-systems",
+      "tags": [
+        "technology/camera equipment"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/270/644/c604debea03973dd8e3ff50f8f46c574_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1725012707&width=560&sig=RYwcbyvm%2B2nZ%2BQKQIXKYkP3Bhi1C5%2BjW6D%2FspUsfJbg%3D",
+      "reason": "EYES: Your AI Driving Assistant for Safer, Smarter，在technology/camera/equipment领域，获得35人支持，筹得$9,162，达成率343.1%，视觉亮点：AI驱动、新交互",
+      "ksData": {
+        "goal": 20821.0,
+        "pledged": 71439.0,
+        "usdPledged": 9161.84171934,
+        "backersCount": 35,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 343.1,
+        "daysSinceLaunch": 657
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-586315214",
+      "brand": "Polari Labs",
+      "category": "design",
+      "title": "Polari Labs | A-BALL The First Alternative To Douching",
+      "titleZh": "Polari Labs | -BALL First Alternative To Douching",
+      "desc": "This is your pre-sale moment. Early access, better pricing, limited tiers.",
+      "time": "2026-03-19 08:00",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1776521915/polari-labs-a-ball",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/390/941/1f989beb7cbe3b49366664e891e8151e_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776498965&width=560&sig=kXqWQPJWrtX1xYlfHO6CftkH%2BnZTGeQ62iTi2OX4cU8%3D",
+      "reason": "Polari Labs | A-BALL The First Alternative To Douc，在design/product/design领域，获得5,199人支持，筹得$504,961，Kickstarter Staff Pick，达成率3780.0%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 377998.0,
+        "usdPledged": 504961.47267204,
+        "backersCount": 5199,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 3780.0,
+        "daysSinceLaunch": 95
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-725416800",
+      "brand": "BARE Cookware",
+      "category": "design",
+      "title": "The BARE Dutch Oven",
+      "titleZh": "BARE Dutch Oven",
+      "desc": "All the cooking performance. None of the drawbacks. Perfect heat distribution. Dramatically lighter. Completely maintenance-free.",
+      "time": "2025-05-19 11:50",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/barecookware/the-bare-dutch-oven",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/103/974/78ff16dfc9e0cfd7d21c3fa8d5d052f6_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1746024009&width=560&sig=9t%2BXmSN%2FeCQeWCPupCQR0HeCaJ0P8Du%2FS4jp38xOmBA%3D",
+      "reason": "The BARE Dutch Oven，在design/product/design领域，获得5,172人支持，筹得$822,088，Kickstarter Staff Pick，达成率3682.5%",
+      "ksData": {
+        "goal": 20000.0,
+        "pledged": 736501.0,
+        "usdPledged": 822087.73373722,
+        "backersCount": 5172,
+        "currency": "EUR",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 3682.5,
+        "daysSinceLaunch": 399
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-214441792",
+      "brand": "Kody Lukens",
+      "category": "design",
+      "title": "Stimagz Dubz - Stress Support at Your Fingertips",
+      "titleZh": "Stimagz Dubz - Stress 支撑 at 你的 Fingertips",
+      "desc": "The next evolution of our best-selling therapeutic fidget tool - seamless support for your anxiety and focus.",
+      "time": "2025-04-15 16:00",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/stimagz/stimagz-dubz-double-your-focus",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/917/684/4c96b4a36ce56a85b0066796793c761a_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1744733717&width=560&sig=p8t3OVL45OGw8x5ub4vBmXGrhHaxEj2zGoL7N4ffx0w%3D",
+      "reason": "Stimagz Dubz - Stress Support at Your Fingertips，在design/product/design领域，获得2,830人支持，筹得$250,355，Kickstarter Staff Pick，达成率2086.3%",
+      "ksData": {
+        "goal": 12000.0,
+        "pledged": 250355.0,
+        "usdPledged": 250355.0,
+        "backersCount": 2830,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2086.3,
+        "daysSinceLaunch": 432
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-275569353",
+      "brand": "OASIS BIOFORM",
+      "category": "design",
+      "title": "Oasis Planter: Self-Sustaining Moss Air System",
+      "titleZh": "Oasis Planter: Self-Sustaining Moss Air 系统",
+      "desc": "Natural Moss | Low Maintenance | Gentle Humidifying Mist | Fresher Air | Safe for Pets & Kids | Sustainable Design",
+      "time": "2026-02-24 14:59",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1599414873/oasis-planter-self-sustaining-moss-air-system",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/484/852/ce6676a4e1aa3ac1e5ea1f3620c8f3bb_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770292743&width=560&sig=eMiIW1wT8Gqb%2BCtkYUHbuLP1GuvCJo%2FZH7LNKd4Ia%2Fc%3D",
+      "reason": "Oasis Planter: Self-Sustaining Moss Air System，在design/product/design领域，获得1,448人支持，筹得$201,292，Kickstarter Staff Pick，达成率3354.9%",
+      "ksData": {
+        "goal": 6000.0,
+        "pledged": 201292.0,
+        "usdPledged": 201292.0,
+        "backersCount": 1448,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 3354.9,
+        "daysSinceLaunch": 117
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-379577794",
+      "brand": "Focusaur",
+      "category": "design",
+      "title": "Focusaur: The Phone-Free Focus Device for Deep Work & Habits",
+      "titleZh": "Focusaur: Phone-Free 聚焦 设备 为 Deep Work & Habits",
+      "desc": "Turn the dial. Begin without opening your phone — for deep work, study, and hard-to-start days. Turn effort into visible rewards.",
+      "time": "2026-04-14 15:00",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/focusaur/focusaur-the-ai-focus-console-for-deep-work-and-habits",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/525/844/1aef34134aacf6759897577133cd320c_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1777430752&width=560&sig=J5fUv%2Bmjzz7CcxYwkhVXKArRSCWLS5Fh3NoiFweFuy0%3D",
+      "reason": "Focusaur: The Phone-Free Focus Device for Deep Wor，在design/product/design领域，获得1,380人支持，筹得$180,480，Kickstarter Staff Pick，达成率1804.8%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 180480.0,
+        "usdPledged": 180480.0,
+        "backersCount": 1380,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1804.8,
+        "daysSinceLaunch": 68
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-420145084",
+      "brand": "Xeric",
+      "category": "design",
+      "title": "Retrograde + Jump Hour = Xeric Retroscope",
+      "titleZh": "Retrograde + Jump Hour = Xeric Retroscope",
+      "desc": "The Retroscope is a unique jump hour retrograde watch. Like car dashboards, minutes go 0-60. Resetting to the zero as the hour jumps",
+      "time": "2025-06-17 16:59",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/watchismo/xeric-retroscope-jump-hour-retrograde-watch",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/714/595/482aa96838f9c13087a36265a67c5c05_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750180001&width=560&sig=qK4nFuK2cwCvgNfUfzhsNFFdc5gtCDXwd2GKgldPOS4%3D",
+      "reason": "Retrograde + Jump Hour = Xeric Retroscope，在design/product/design领域，获得1,289人支持，筹得$281,286，Kickstarter Staff Pick，达成率2812.9%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 281286.0,
+        "usdPledged": 281286.0,
+        "backersCount": 1289,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2812.9,
+        "daysSinceLaunch": 369
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-892333433",
+      "brand": "Somni",
+      "category": "design",
+      "title": "SomniBuds™ - Battery-Free Sleep Earbuds",
+      "titleZh": "SomniBuds™ - 电池-Free 睡眠 耳机",
+      "desc": "SomniBuds™ are the world’s smallest and most comfortable earbuds designed for sleep—with limitless streaming and zero recharging",
+      "time": "2025-09-09 15:02",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/somnibuds/somnibuds-battery-free-sleep-earbuds",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/069/409/f6f606d7e4adde185f0bc34122187d92_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1759327584&width=560&sig=u7cUT%2BfDpwxgvc9akOKrLT5aU2JykQPjwU7MQ0oX8uU%3D",
+      "reason": "SomniBuds™ - Battery-Free Sleep Earbuds，在design/product/design领域，获得1,181人支持，筹得$270,102，Kickstarter Staff Pick，达成率2001.4%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 200142.0,
+        "usdPledged": 270101.90429028,
+        "backersCount": 1181,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2001.4,
+        "daysSinceLaunch": 285
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-592682846",
+      "brand": "Clevetura Devices LLC",
+      "category": "design",
+      "title": "Clevetura CLVX S. Touch On Keys Keyboard.",
+      "titleZh": "Clevetura CLVX S. Touch On Keys Keyboard.",
+      "desc": "Type, swipe, scroll on one surface.",
+      "time": "2025-10-16 20:00",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/clevetura/clevetura-clvx-s-touch-on-keys-keyboard",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/050/928/969/b27faa3c17bd2dbdf5961554b829bd15_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1758541277&width=560&sig=8APA8NvGcOxzk%2BVJFoFhkukn7y6mGLo0zD12Z%2FTZmK0%3D",
+      "reason": "Clevetura CLVX S. Touch On Keys Keyboard.，在design/product/design领域，获得1,146人支持，筹得$194,486，Kickstarter Staff Pick，达成率3889.7%",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 194486.0,
+        "usdPledged": 194486.0,
+        "backersCount": 1146,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 3889.7,
+        "daysSinceLaunch": 248
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1998816995",
+      "brand": "COOLGEEK",
+      "category": "design",
+      "title": "CoolGeek TS-01 – Ultra-Slim Fully Automatic Turntable",
+      "titleZh": "CoolGeek TS-01 – 超薄 Fully 自动 Turntable",
+      "desc": "Press play. We handle the rest. A fully automatic turntable with modern features.",
+      "time": "2026-04-09 14:59",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1147931066/coolgeek-ts01-ultra-slim-fully-automatic-turntable",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/242/873/e6e2a3c2694d673bf737ea130adaa8b9_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1775541975&width=560&sig=ZeJUUaHTZWtylERqiFSdBwdDgESAPo3G0G4NdUs4f3o%3D",
+      "reason": "CoolGeek TS-01 – Ultra-Slim Fully Automatic Turnta，在design/product/design领域，获得1,033人支持，筹得$226,437，Kickstarter Staff Pick，达成率1773.8%",
+      "ksData": {
+        "goal": 100000.0,
+        "pledged": 1773778.0,
+        "usdPledged": 226436.82775954,
+        "backersCount": 1033,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1773.8,
+        "daysSinceLaunch": 73
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2051184936",
+      "brand": "Max Melia",
+      "category": "wearable",
+      "title": "VybPro: Helping Prevent Face Touching",
+      "titleZh": "VybPro: Helping Prevent 面容 Touching",
+      "desc": "Get out and about with VybPro! A smart wristband that senses and vibrates before you subconsciously touch your face.",
+      "time": "2020-06-24 07:04",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 5.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/maxmel/vybpro-helping-prevent-face-touching-and-germ-transmission",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/029/365/662/cf2c4118c501bf4218f61c65ecfbb5fd_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1591457276&width=560&sig=zKZzpCJb4NlCREEktOukt8QdAIsc1q%2Fg7KcslULPPiE%3D",
+      "reason": "VybPro: Helping Prevent Face Touching，在technology/wearables领域，获得91人支持，筹得$24,657，达成率32.9%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 60000.0,
+        "pledged": 19765.0,
+        "usdPledged": 24656.8129914,
+        "backersCount": 91,
+        "currency": "GBP",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 32.9,
+        "daysSinceLaunch": 2189
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1618509156",
+      "brand": "Todd Dailey",
+      "category": "wearable",
+      "title": "The Eternize Cross: Deliverance from distraction ✝️",
+      "titleZh": "Eternize Cross: Deliverance 来自 distraction ✝️",
+      "desc": "The Eternize Cross is a screenless tool that beats technology at its own game, keeping you present, and helping you win the moment.",
+      "time": "2025-04-29 13:39",
+      "score": 62.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 5.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/myeternize/the-eternize-cross-deliverance-from-distraction",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/024/406/72ad52ae2f256170983fb4b67766fe62_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1745496575&width=560&sig=9nISr20hTr0V6VDKeduDcYJcmK%2BMVVI4kJmLEwrPOa4%3D",
+      "reason": "The Eternize Cross: Deliverance from distraction ✝，在technology/wearables领域，获得63人支持，筹得$5,363，达成率21.5%",
+      "ksData": {
+        "goal": 25000.0,
+        "pledged": 5363.0,
+        "usdPledged": 5363.0,
+        "backersCount": 63,
+        "currency": "USD",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 21.5,
+        "daysSinceLaunch": 419
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-253723220",
+      "brand": "Haus of Dog",
+      "category": "design",
+      "title": "TROOPER | The Ball Your Dog’s Been Waiting For.",
+      "titleZh": "TROOPER | Ball 你的 狗’s Been Waiting 为.",
+      "desc": "Relentlessly engineered with 7 dog-focused features to outperform everything that's come before.",
+      "time": "2026-06-02 14:00",
+      "score": 62.4,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 9.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/610086504/trooper-dog-ball",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/932/250/220eb19942d7fb84ac7ee8b50e7bf9a3_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1780233840&width=560&sig=1U17lvq7%2FFPg6L43hkzjT0LUQcfjgSPacFaYPiUg3Lo%3D",
+      "reason": "TROOPER | The Ball Your Dog’s Been Waiting For.，在design/product/design领域，获得1,706人支持，筹得$100,342，Kickstarter Staff Pick，达成率1433.5%",
+      "ksData": {
+        "goal": 7000.0,
+        "pledged": 100342.0,
+        "usdPledged": 100342.0,
+        "backersCount": 1706,
+        "currency": "USD",
+        "state": "live",
+        "staffPick": true,
+        "percentFunded": 1433.5,
+        "daysSinceLaunch": 20
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-690988067",
+      "brand": "Lume Cube",
+      "category": "design",
+      "title": "Lume Cube Edge Light Go: The Task Light, Reinvented",
+      "titleZh": "Lume Cube Edge 照亮 Go: Task 照亮, Reinvented",
+      "desc": "The ultimate portable task light for productivity and creativity - perfect lighting wherever you need it",
+      "time": "2025-02-18 14:50",
+      "score": 62.4,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 7.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/edge-light-go/the-task-light-reinvented",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/133/010/c9496a68c8acfa7b13919661324b196a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1739216206&width=560&sig=tl0qd0tnolYNVyRB05UA9K7k4s%2FQhKd6bTXcp4aqEz4%3D",
+      "reason": "Lume Cube Edge Light Go: The Task Light, Reinvente，在design/product/design领域，获得680人支持，筹得$83,047，Kickstarter Staff Pick，达成率415.2%",
+      "ksData": {
+        "goal": 20000.0,
+        "pledged": 83047.0,
+        "usdPledged": 83047.0,
+        "backersCount": 680,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 415.2,
+        "daysSinceLaunch": 488
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1846783444",
+      "brand": "Cody Sandzimier",
+      "category": "design",
+      "title": "LoopTimer: A Visual Timer For All. Timekeeping Reimagined",
+      "titleZh": "LoopTimer: Visual Timer 为 所有. Timekeeping 重新构想",
+      "desc": "Looptimer is a visual timer that transforms time into a bright, progressing light that flashes when time ends.",
+      "time": "2024-09-16 14:45",
+      "score": 62.2,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/looptimer/looptimer",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/499/913/9f1bb9621b7e3717a4bb7180594145b6_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1726553258&width=560&sig=LlcN5kBYNz10KUn6bXaYojhb4Q%2FsrwzOG5YzQzAituE%3D",
+      "reason": "LoopTimer: A Visual Timer For All. Timekeeping Rei，在design/product/design领域，获得1,128人支持，筹得$55,763，达成率557.6%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 55763.0,
+        "usdPledged": 55763.0,
+        "backersCount": 1128,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 557.6,
+        "daysSinceLaunch": 643
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-470386952",
+      "brand": "Tipperary Watches",
+      "category": "design",
+      "title": "Tipperary Watches: Series 01 - Swiss Movement Timepieces",
+      "titleZh": "Tipperary Watches: 系列 01 - Swiss Movement Timepieces",
+      "desc": "Classic design meets precision. Sapphire crystal, 10ATM resistance, and a quality Swiss movement at an accessible price. Explore now.",
+      "time": "2025-03-18 14:51",
+      "score": 62.2,
+      "visBreakdown": {
+        "recognition": 7.2,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 6.3,
+        "diffusionPotential": 6.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/728218256/tipperary-watches-series-01-0",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/424/191/af236eebc91bf64697775b603ad28e4b_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1741280686&width=560&sig=Ye3Fh3usiEXPlsjH0DOYRauSTaOWE8c1hByCLglwFuc%3D",
+      "reason": "Tipperary Watches: Series 01 - Swiss Movement Time，在design/product/design领域，获得84人支持，筹得$24,815，Kickstarter Staff Pick，达成率496.3%",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 24815.0,
+        "usdPledged": 24815.0,
+        "backersCount": 84,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 496.3,
+        "daysSinceLaunch": 460
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1005358701",
+      "brand": "Oukitel Titan",
+      "category": "hardware",
+      "title": "Oukitel WP300 Industrial-grade Modular Rugged Phone",
+      "titleZh": "Oukitel WP300 Industrial-grade 模块化 Rugged Phone",
+      "desc": "Modular Detachable Earbud| Modular Camping Light| 16,000mAh Battery| 108MP AI Camera| 5G Global Connectivity| Android 15",
+      "time": "2025-05-20 12:59",
+      "score": 62.1,
+      "visBreakdown": {
+        "recognition": 6.5,
+        "paradigmShift": 7.1,
+        "cmfInnovation": 4.5,
+        "transferability": 5.6,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1006830823/oukitel-wp300-industrial-grade-modular-rugged-phone",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/257/660/17135ddb612aa565c96dc9ab26412a63_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1747128728&width=560&sig=ROE3TCG4uUqrNuhWtWZciZq%2FXdhLzgw86ShzNoTf5Lc%3D",
+      "reason": "Oukitel WP300 Industrial-grade Modular Rugged Phon，在technology/hardware领域，获得226人支持，筹得$87,552，达成率6848.1%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 684811.0,
+        "usdPledged": 87552.25772869,
+        "backersCount": 226,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 6848.1,
+        "daysSinceLaunch": 398
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-597327388",
+      "brand": "Planto",
+      "category": "design",
+      "title": "Planto – The World’s First Water-Powered Smart Lamp",
+      "titleZh": "Planto – 世界’s First 水-Powered 智能灯",
+      "desc": "Illuminate your space and grow your plants with a smart, cordless lamp powered entirely by water—no plugs, no batteries.",
+      "time": "2025-07-22 12:57",
+      "score": 62.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/planto/planto-the-worlds-first-water-powered-smart-lamp",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/050/266/843/f60d3571262afa864f7987ebafba17b3_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1754114427&width=560&sig=Ow8ouJTWwQmLr3WdCxBsgXccJDVwWhmEUIAfu4Yb16A%3D",
+      "reason": "Planto – The World’s First Water-Powered Smart Lam，在design/product/design领域，获得956人支持，筹得$196,582，Kickstarter Staff Pick，达成率3086.1%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 1543054.0,
+        "usdPledged": 196582.44097766,
+        "backersCount": 956,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 3086.1,
+        "daysSinceLaunch": 335
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1426313714",
+      "brand": "Drip Design",
+      "category": "design",
+      "title": "Grizzie 247 | Travel Wear That Doesn't Smell or Wrinkle ✈️",
+      "titleZh": "Grizzie 247 | 旅行 Wear 能 Doesn't Smell 或 Wrinkle ✈️",
+      "desc": "120 Hour Odor Control | Anti Pilling & Wrinkle Free Fibers | 230GSM Water/Stain-Proof Shell | 6 XL Pockets | 4X Performance Stretch.",
+      "time": "2026-04-14 15:45",
+      "score": 62.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/grizzie/grizzie-247-travel-wear-that-doesnt-smell-or-wrinkle",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/060/452/99076be5ee7976637ca615f7a8594a8a_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1774271710&width=560&sig=EtT%2F8ppfprP7LQaInqrVBX%2BOPJQbOzuJizR8w4GVQf4%3D",
+      "reason": "Grizzie 247 | Travel Wear That Doesn't Smell or Wr，在design/product/design领域，获得912人支持，筹得$145,922，Kickstarter Staff Pick，达成率2084.6%",
+      "ksData": {
+        "goal": 7000.0,
+        "pledged": 145922.0,
+        "usdPledged": 145922.0,
+        "backersCount": 912,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2084.6,
+        "daysSinceLaunch": 68
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2085946660",
+      "brand": "Delivered, Inc.",
+      "category": "design",
+      "title": "Flagship Golden Pan: turn any skillet into a cast iron grill",
+      "titleZh": "Flagship Golden Pan: 转化 any skillet 进入 cast iron grill",
+      "desc": "The lightest cast iron pan ever. Unique golden coating. Healthier food that tastes better. Fat-reducing & dry-heat cooking technologies",
+      "time": "2026-03-19 15:08",
+      "score": 62.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/outdoor-home-fitness/flagship-pan-gold-kitchen-frying-skillet-to-cast-iron-grill",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/776/127/73980b0fdcb5a4cff5943fcd72a1a8cc_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772317488&width=560&sig=dRrTLUF5vpAoA%2F7qELAPgKY%2BOwPpYZuCpbmuRvw4YTw%3D",
+      "reason": "Flagship Golden Pan: turn any skillet into a cast ，在design/product/design领域，获得706人支持，筹得$57,605，Kickstarter Staff Pick，达成率2304.2%",
+      "ksData": {
+        "goal": 2500.0,
+        "pledged": 57605.0,
+        "usdPledged": 57605.0,
+        "backersCount": 706,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 2304.2,
+        "daysSinceLaunch": 94
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1848722520",
+      "brand": "Zike",
+      "category": "design",
+      "title": "Zike Vault – 40Gbps Portable SSD with Apple Find My",
+      "titleZh": "Zike Vault – 40Gbps 便携 固态硬盘 配备 Apple Find 我的",
+      "desc": "Apple Find My Worldwide Tracking - Fingerprint Lock - 40Gbps USB4 - Max 16TB - Active Cooling Fan - Built-in Cable - Smart Display",
+      "time": "2026-04-14 13:58",
+      "score": 62.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/zike/zike-vault-40gbps-portable-ssd-with-apple-find-my",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/320/074/cc1b9494873e01cefd204f78d6d16f19_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776084306&width=560&sig=ExEpy30HAbMSFBYDb%2Fbt2PkxbBODEU%2BpzTdYt3ofkoc%3D",
+      "reason": "Zike Vault – 40Gbps Portable SSD with Apple Find M，在design/product/design领域，获得570人支持，筹得$110,854，Kickstarter Staff Pick，达成率1108.5%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 110854.0,
+        "usdPledged": 110854.0,
+        "backersCount": 570,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1108.5,
+        "daysSinceLaunch": 69
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-883142289",
+      "brand": "camperig",
+      "category": "design",
+      "title": "Carry 3: The All-in-One Telescopic Light for Every Adventure",
+      "titleZh": "携带 3: 一体式 Telescopic 照亮 为 每个 冒险",
+      "desc": "Telescopic Light | 2000 lm Camping Light | Spotlight + Floodlight | Color Filters | 23,400 mAh Battery | Aluminum Body | Wind-Resistant",
+      "time": "2026-01-14 05:08",
+      "score": 62.0,
+      "visBreakdown": {
+        "recognition": 6.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 6.7,
+        "diffusionPotential": 6.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/camperig/carry-3-the-all-in-one-telescopic-light-for-every-adventure",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/496/510/cf3bf8c2b0f1e6caa1f222650653a906_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770363987&width=560&sig=Y2gj24uczMsxwl7ZdIGuJhGVfxkKKmkBcfLOZve7bRE%3D",
+      "reason": "Carry 3: The All-in-One Telescopic Light for Every，在design/product/design领域，获得254人支持，筹得$50,153，达成率501.5%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 50153.0,
+        "usdPledged": 50153.0,
+        "backersCount": 254,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 501.5,
+        "daysSinceLaunch": 159
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1557992799",
+      "brand": "Agelocer watch",
+      "category": "design",
+      "title": "AGELOCER｜Free-sprung Balance Manta Tourbillon Watch",
+      "titleZh": "AGELOCER｜Free-sprung Balance Manta Tourbillon Watch",
+      "desc": "Original manta design concept｜Double barrel｜3D surface carving｜Extreme hollowing｜60-hour power reserve",
+      "time": "2025-12-12 13:00",
+      "score": 62.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/agelocerwatch/agelocer-free-sprung-balance-manta-tourbillon",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/188/597/b6885fc680185e71c74523b3bf68469c_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1760062567&width=560&sig=%2FsxSdlE6%2FZPTeiQ1iwAbOfTHj46kA0Ug%2FYTm1%2Fd1F3g%3D",
+      "reason": "AGELOCER｜Free-sprung Balance Manta Tourbillon Watc，在design/product/design领域，获得231人支持，筹得$306,569，Kickstarter Staff Pick，达成率23628.8%",
+      "ksData": {
+        "goal": 10093.0,
+        "pledged": 2384859.0,
+        "usdPledged": 306568.87858059,
+        "backersCount": 231,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 23628.8,
+        "daysSinceLaunch": 192
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1976604084",
+      "brand": "PiMouse",
+      "category": "design",
+      "title": "PiMouse: Brick-Compatible Modular Ergonomic Mouse",
+      "titleZh": "PiMouse: Brick-Compatible 模块化 人体工学 鼠标",
+      "desc": "A modular, brick-compatible mouse designed for ergonomic comfort. Create, build, and customize your way.Your mouse, your canvas.",
+      "time": "2026-04-21 12:55",
+      "score": 62.0,
+      "visBreakdown": {
+        "recognition": 7.7,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 6.2,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/pimouse/pimouse-brick-compatible-modular-ergonomic-mouse",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/932/996/bb3263de790e7867d726c62092856489_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1780239675&width=560&sig=lKQR6cq3sqEDbA51H15nxdwmQZRGQD8a0Q8nAwjvG1w%3D",
+      "reason": "PiMouse: Brick-Compatible Modular Ergonomic Mouse，在design/product/design领域，获得105人支持，筹得$7,747，达成率121.4%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 60679.0,
+        "usdPledged": 7746.74290719,
+        "backersCount": 105,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 121.4,
+        "daysSinceLaunch": 62
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1926162987",
+      "brand": "Air Cycle Systems",
+      "category": "wearable",
+      "title": "Penguin-Air 99+ | Reusable Air-Powered Mask with Cool Relief",
+      "titleZh": "Penguin-Air 99+ | Reusable Air-Powered Mask 配备 凉爽 Relief",
+      "desc": "Filters Particulates & Pollution | Comfort All Day | No Leakage Means Max Protection | No Heat or Moisture Build-Up",
+      "time": "2021-01-12 20:09",
+      "score": 62.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 4.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1722561231/the-penguin-air-99-personal-air-powered-respirator-papr",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/031/765/330/b28dba1a49fc4f6920797d044fbecf6b_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1608161294&width=560&sig=qNr5e53W%2BXK%2FkzH1K5CmEOUp%2FD0EUu55nnMZS60ALp4%3D",
+      "reason": "Penguin-Air 99+ | Reusable Air-Powered Mask with C，在technology/wearables领域，获得47人支持，筹得$22,453，达成率74.8%",
+      "ksData": {
+        "goal": 30000.0,
+        "pledged": 22453.0,
+        "usdPledged": 22453.0,
+        "backersCount": 47,
+        "currency": "USD",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 74.8,
+        "daysSinceLaunch": 1986
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1843728534",
+      "brand": "HIT",
+      "category": "wearable",
+      "title": "HIT Impact",
+      "titleZh": "HIT Impact",
+      "desc": "HIT is a wearable tech and app, that measures and tracks head impact force in sport and recreational activities.",
+      "time": "2021-03-02 09:01",
+      "score": 62.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 4.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/hit-recognition/hit-impact",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/032/397/166/fcd063d9069d85555ac60cd22c025f97_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1613498776&width=560&sig=ZJ3UWYnFELJWjCanqJSSI8sv%2BHDffhL9r2Oo3e8JBAk%3D",
+      "reason": "HIT Impact，在technology/wearables领域，获得35人支持，筹得$10,138，达成率15.8%",
+      "ksData": {
+        "goal": 45900.0,
+        "pledged": 7258.0,
+        "usdPledged": 10137.8201675,
+        "backersCount": 35,
+        "currency": "GBP",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 15.8,
+        "daysSinceLaunch": 1938
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-925873193",
+      "brand": "Cudi",
+      "category": "wearable",
+      "title": "Cudi",
+      "titleZh": "Cudi",
+      "desc": "Sleep well, Cudi is here to watch over you and your dreams.",
+      "time": "2021-10-26 08:17",
+      "score": 62.0,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 6.5,
+        "cmfInnovation": 5.0,
+        "transferability": 5.0,
+        "diffusionPotential": 4.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/cudi/cudi",
+      "tags": [
+        "technology/wearables"
+      ],
+      "image": "https://i.kickstarter.com/assets/035/481/378/b72b4e229ebc470bc0feffbb7b6576ba_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1636111881&width=560&sig=yShfltNiViMqE3xL0AQ0twK5BBZldJ%2BFj0DrA7%2FQThw%3D",
+      "reason": "Cudi，在technology/wearables领域，获得22人支持，筹得$5,589，达成率5.2%",
+      "ksData": {
+        "goal": 92000.0,
+        "pledged": 4792.0,
+        "usdPledged": 5589.45282112,
+        "backersCount": 22,
+        "currency": "EUR",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 5.2,
+        "daysSinceLaunch": 1700
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1226664000",
+      "brand": "BIHE",
+      "category": "design",
+      "title": "Magnetic Card Stand – Built for More Than One Setup",
+      "titleZh": "磁吸 卡片 底座 – 打造 为 More Than One Setup",
+      "desc": "A magnetic stand for phones, tablets, daily use, and lightweight creator workflows.",
+      "time": "2026-03-31 10:38",
+      "score": 61.8,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 6.6,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/bihe/magnetic-card-stand-pocket-sized-stand-for-phone-and-tablet",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/101/708/c3c76c7d83d43a90b347679979659147_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1774507258&width=560&sig=KeXLT9d7wzlGWoczmWAm69khCJckNqwEzuSTnj70%2F8w%3D",
+      "reason": "Magnetic Card Stand – Built for More Than One Setu，在design/product/design领域，获得328人支持，筹得$11,871，达成率1187.1%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 1000.0,
+        "pledged": 11871.0,
+        "usdPledged": 11871.0,
+        "backersCount": 328,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1187.1,
+        "daysSinceLaunch": 83
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1127593408",
+      "brand": "NOVA",
+      "category": "design",
+      "title": "NOVA – Multi-Function Outdoor Light for Any Adventure",
+      "titleZh": "NOVA – Multi-Function 户外 照亮 为 Any 冒险",
+      "desc": "COB Floodlight | XPE Spotlight | Red/Blue/Yellow Modes | Magnetic Base | 48H Runtime | USB-C Rechargeable | Pocket-Sized",
+      "time": "2026-06-01 11:31",
+      "score": 61.8,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 6.2,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/669664943/nova-multi-function-outdoor-light-for-any-adventure",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/772/205/b25a7bd57aa5b1404cfe260b53569e9f_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1779108587&width=560&sig=P6bm5KCPum6cL%2Bad4fKu6BLn5IZwawDOBJKiHaWoab0%3D",
+      "reason": "NOVA – Multi-Function Outdoor Light for Any Advent，在design/product/design领域，获得108人支持，筹得$5,686，达成率1421.5%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 400.0,
+        "pledged": 5686.0,
+        "usdPledged": 5686.0,
+        "backersCount": 108,
+        "currency": "USD",
+        "state": "live",
+        "staffPick": false,
+        "percentFunded": 1421.5,
+        "daysSinceLaunch": 21
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1908432470",
+      "brand": "ENKO",
+      "category": "design",
+      "title": "MooN | Precision-Crafted Japanese Cutlery",
+      "titleZh": "MooN | Precision-精工 Japanese Cutlery",
+      "desc": "Engineered in 18-8 Steel. Finished with Aerospace-Grade PVD Black. Premium Knife | Fork | Spoon",
+      "time": "2026-05-26 14:02",
+      "score": 61.8,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 6.3,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1624793579/moon-premium-japanese-cutlery",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/046/590/cec7a383918a249f6da0d9e6e63a12fb_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1774141951&width=560&sig=m0SPHI8G5mYRFgc1evFCxwN4nwLL3xJXbz0LlBjEkWI%3D",
+      "reason": "MooN | Precision-Crafted Japanese Cutlery，在design/product/design领域，获得14人支持，筹得$5,108，达成率811.6%",
+      "ksData": {
+        "goal": 100000.0,
+        "pledged": 811600.0,
+        "usdPledged": 5108.04808,
+        "backersCount": 14,
+        "currency": "JPY",
+        "state": "live",
+        "staffPick": false,
+        "percentFunded": 811.6,
+        "daysSinceLaunch": 27
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1752066944",
+      "brand": "A|P BRAND",
+      "category": "design",
+      "title": "A|P THE LEGEND AFFORDABLE SWISS CHRONOGRAPH A CLASS A PART",
+      "titleZh": "|P LEGEND AFFORDABLE SWISS CHRONOGRAPH CLASS PART",
+      "desc": "ITALIAN DESIGN SINCE 1991 UNIQUE WATCH! FULL REAL CARBON FIBER or BRONZE FEAT SWISS MADE ETA/VALJOUX 7750 THE DREAM BECOMES REALTY.",
+      "time": "2025-11-13 12:00",
+      "score": 61.7,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 6.3,
+        "diffusionPotential": 5.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/385239623/ap-the-legend-affordable-swiss-chronograph-a-class-a-part",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/695/301/2500ccc6c2cdc8a365098e35901ebbc6_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1763454738&width=560&sig=1bKBKfh4fKSJUsYQOs%2F6hrjx424ION1KfobWJ%2FOfRMU%3D",
+      "reason": "A|P THE LEGEND AFFORDABLE SWISS CHRONOGRAPH A CLAS，在design/product/design领域，获得34人支持，筹得$23,470，达成率233.8%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 78000.0,
+        "pledged": 182391.0,
+        "usdPledged": 23469.98815623,
+        "backersCount": 34,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 233.8,
+        "daysSinceLaunch": 221
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1534865415",
+      "brand": "J-Wa International",
+      "category": "design",
+      "title": "The A-BONSAI Moyogi Slight: Bonsai Art That Transcends Time",
+      "titleZh": "-BONSAI Moyogi Slight: Bonsai Art 能 Transcends Time",
+      "desc": "Handcrafted bonsai that brings lasting peace with no watering required, just pure Japanese greenery for everyday life.",
+      "time": "2026-02-10 10:45",
+      "score": 61.6,
+      "visBreakdown": {
+        "recognition": 7.2,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 5.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/j-wa-international/the-a-bonsai-moyogi-slight-bonsai-art-that-transcends-time",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/015/442/0029b7ef383840a89f89b8fed27099b3_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1773910544&width=560&sig=DswJ2x%2FhIekD%2FwjpiBbsro8cNUynoBDpYt55uFU1C1E%3D",
+      "reason": "The A-BONSAI Moyogi Slight: Bonsai Art That Transc，在design/product/design领域，获得17人支持，筹得$6,034，Kickstarter Staff Pick，达成率472.7%",
+      "ksData": {
+        "goal": 200000.0,
+        "pledged": 945456.0,
+        "usdPledged": 6033.7111008,
+        "backersCount": 17,
+        "currency": "JPY",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 472.7,
+        "daysSinceLaunch": 132
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2066270797",
+      "brand": "Agelocer watch",
+      "category": "design",
+      "title": "AGELOCER | In-House Movement Premium Petite Seconde Watch",
+      "titleZh": "AGELOCER | In-House Movement 高级 Petite Seconde Watch",
+      "desc": "Premium Original Design｜In House Movement｜Metal engraved｜3D Sand Gold Dial｜Large Date｜Salmon Fumé",
+      "time": "2026-04-15 13:00",
+      "score": 61.5,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/agelocerwatch/agelocer-in-house-premium-independent-horology-watch",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/286/884/52f5f9bd53629e4b4bf141e9790e00ea_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1775809026&width=560&sig=ZwXtbQR4iNBFB6PmbTMmUtCl2bBfyruitAvHoAVQRj0%3D",
+      "reason": "AGELOCER | In-House Movement Premium Petite Second，在design/product/design领域，获得368人支持，筹得$144,058，Kickstarter Staff Pick，达成率3906.8%",
+      "ksData": {
+        "goal": 28880.0,
+        "pledged": 1128292.0,
+        "usdPledged": 144057.56952752,
+        "backersCount": 368,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 3906.8,
+        "daysSinceLaunch": 68
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1722324902",
+      "brand": "HooRii",
+      "category": "robot",
+      "title": "ClawStage: The real-world physical playground for OpenClaw",
+      "titleZh": "ClawStage: real-世界 physical playground 为 OpenClaw",
+      "desc": "IoT Connectivity Hub | Smart Interaction | Companion Robot | Raspberry Pi | Configurable AI | Persona Customization | Privacy by Design",
+      "time": "2026-03-17 14:00",
+      "score": 61.3,
+      "visBreakdown": {
+        "recognition": 6.3,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 5.1,
+        "transferability": 4.9,
+        "diffusionPotential": 9.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/hoorii/hoorii-stage-your-proactive-smart-personalized-companion-hub",
+      "tags": [
+        "technology/robots"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/560/166/e4009ab8c453e5d7c5abaaf33bd82e6c_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1777643763&width=560&sig=i417UIZ0E9%2FFUMYZiuOFZEIalDD2ilgplf8H3%2F8YBU8%3D",
+      "reason": "ClawStage: The real-world physical playground for ，在technology/robots领域，获得1,509人支持，筹得$605,481，Kickstarter Staff Pick，达成率12107.9%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 39150.0,
+        "pledged": 4740248.0,
+        "usdPledged": 605481.357536,
+        "backersCount": 1509,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 12107.9,
+        "daysSinceLaunch": 97
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-511374686",
+      "brand": "XGIMI Tech",
+      "category": "hardware",
+      "title": "XGIMI TITAN Noir Series: A Dual Iris 4K RGB Laser Projector",
+      "titleZh": "XGIMI TITAN Noir 系列: Dual Iris 4K RGB Laser 投影仪",
+      "desc": "Dual Intelligent Iris System | 10,000:1 Native Contrast | 7000 ISO Lumens | Anti-RBE(2D & 3D) | VRR supported",
+      "time": "2026-04-23 14:55",
+      "score": 61.2,
+      "visBreakdown": {
+        "recognition": 6.3,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.7,
+        "transferability": 5.7,
+        "diffusionPotential": 9.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/xgimititannoir/xgimi-titan-noir-series-4k-projector",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/054/045/061/14e79c7fa0814fe4c725086e4eae0654_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1781009802&width=560&sig=CSr2AcfZvps5xJ3Ey1iixz11rw%2FUHzEGeYC7KDjQXDs%3D",
+      "reason": "XGIMI TITAN Noir Series: A Dual Iris 4K RGB Laser ，在technology/hardware领域，获得5,996人支持，筹得$18,842,264，Kickstarter Staff Pick，达成率18842.3%",
+      "ksData": {
+        "goal": 100000.0,
+        "pledged": 18842264.0,
+        "usdPledged": 18842264.0,
+        "backersCount": 5996,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 18842.3,
+        "daysSinceLaunch": 59
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-265243498",
+      "brand": "Jakemy-ks",
+      "category": "design",
+      "title": "2 In 1 Powerful Ultrasonic Cutter & Polisher for Handworker",
+      "titleZh": "二合一 强大 超声波 Cutter & Polisher 为 Handworker",
+      "desc": "True 40KHz, 1-12mm Cutting, Precision Grinding, 5 Types of Blades, Light, OLED, Portable, Professional, DIYer, Hand Tool, Gift Choice",
+      "time": "2025-02-04 04:00",
+      "score": 61.2,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/jakemy/2-in-1-powerful-ultrasonic-cutter-and-polisher-for-handworker",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/030/466/51b9e1e1ec3f20cd85ea8adf27befcdb_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1738431033&width=560&sig=11JEfjtIZRjYWBQ625nKaCcuzuHuaLDfPZV1%2FNX%2FXY0%3D",
+      "reason": "2 In 1 Powerful Ultrasonic Cutter & Polisher for H，在design/product/design领域，获得3,149人支持，筹得$321,287，达成率6425.7%",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 321287.0,
+        "usdPledged": 321287.0,
+        "backersCount": 3149,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 6425.7,
+        "daysSinceLaunch": 503
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1812821495",
+      "brand": "yuyeung",
+      "category": "design",
+      "title": "Walking Perfume: Natural Aged Buried sandalwood",
+      "titleZh": "Walking Perfume: Natural Aged Buried sandalwood",
+      "desc": "Even ten thousand taels of gold are not worth a piece of ebony! Zen|Meditation|Precious|Sustainable|Natural|Unique",
+      "time": "2026-03-25 12:26",
+      "score": 61.2,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 5.9,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/js-studio/walking-perfume-natural-aged-buried-sandalwood",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/838/458/e1d340f8387196953e1cf5367901b627_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772709300&width=560&sig=azNShwHyUmREWmdfN20PR3G7ENpGeGu9Omd9TMZ8dVI%3D",
+      "reason": "Walking Perfume: Natural Aged Buried sandalwood，在design/product/design领域，获得14人支持，筹得$8,328，达成率3262.6%",
+      "ksData": {
+        "goal": 2000.0,
+        "pledged": 65251.0,
+        "usdPledged": 8328.10062427,
+        "backersCount": 14,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 3262.6,
+        "daysSinceLaunch": 89
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-790744455",
+      "brand": "Unitooth",
+      "category": "design",
+      "title": "UniTooth: The World's First Counter-Rotating Toothbrush",
+      "titleZh": "UniTooth: 全球首款 Counter-Rotating Toothbrush",
+      "desc": "Dual counter-rotating heads automate the perfect Bass Method. IPX8. 120-day battery.",
+      "time": "2026-03-31 12:17",
+      "score": 60.8,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/unitooth/unitooth-the-worlds-first-counter-rotating-toothbrush",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/181/532/d9ea14a6d5166ffc3814d68574c74128_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1775061365&width=560&sig=uYIpP%2FEoKlcu319sutJg8k3lNkgzVLLoBV%2FRhIPxfz0%3D",
+      "reason": "UniTooth: The World's First Counter-Rotating Tooth，在design/product/design领域，获得230人支持，筹得$31,517，达成率1050.6%",
+      "ksData": {
+        "goal": 3000.0,
+        "pledged": 31517.0,
+        "usdPledged": 31517.0,
+        "backersCount": 230,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1050.6,
+        "daysSinceLaunch": 83
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-462811958",
+      "brand": "MOGICS",
+      "category": "design",
+      "title": "Roam Ducky — All-in-One Travel Adapter, Fits In Your Pocket",
+      "titleZh": "Roam Ducky — 一体式 旅行 转接头, Fits 于 你的 Pocket",
+      "desc": "Breakthrough folding mechanism. Works in 150+ countries, flat-wall stability, 65W GaN fast charging. Pick the design for your travel.",
+      "time": "2026-04-22 14:00",
+      "score": 60.7,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 8.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/mogics/roam-ducky-all-in-one-travel-adapter-fits-in-your-pocket",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/423/035/b7de4255f0d8c1678e12628ac5fd90ae_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776758451&width=560&sig=SKo5uU6RhF0yUb5ICkGCaFqj%2BwOt1znvnxmcjpP6dEo%3D",
+      "reason": "Roam Ducky — All-in-One Travel Adapter, Fits In Yo，在design/product/design领域，获得2,105人支持，筹得$130,007，达成率1083.4%",
+      "ksData": {
+        "goal": 12000.0,
+        "pledged": 130007.0,
+        "usdPledged": 130007.0,
+        "backersCount": 2105,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1083.4,
+        "daysSinceLaunch": 61
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1159886848",
+      "brand": "Martin Design Watches",
+      "category": "design",
+      "title": "The Nuada — Jump Hour Watch Reimagined",
+      "titleZh": "Nuada — Jump Hour Watch 重新构想",
+      "desc": "A watch defined by contemporary simplicity.",
+      "time": "2026-06-09 16:56",
+      "score": 60.7,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/martindesignwatches/the-nuada-the-jump-hour-watch-reimagined",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/876/221/c2d582f5587386f06e32497753696197_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1779818388&width=560&sig=UQ5dYi%2Fu3CiM7KBa0dsiaNVu6GB4J4B4%2Ff1IlipnzaQ%3D",
+      "reason": "The Nuada — Jump Hour Watch Reimagined，在design/product/design领域，获得234人支持，筹得$172,748，达成率1552.3%",
+      "ksData": {
+        "goal": 9650.0,
+        "pledged": 149793.0,
+        "usdPledged": 172747.51749087,
+        "backersCount": 234,
+        "currency": "EUR",
+        "state": "live",
+        "staffPick": false,
+        "percentFunded": 1552.3,
+        "daysSinceLaunch": 12
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1873694827",
+      "brand": "ANGLES WATCHES",
+      "category": "design",
+      "title": "The Triscope | Redefining Jump Hour Watches by Angles",
+      "titleZh": "Triscope | 重新定义 Jump Hour Watches by Angles",
+      "desc": "Breaking Time’s Boundaries: Instant Hour Shifts and Dynamic Minute Movement",
+      "time": "2026-02-10 15:02",
+      "score": 60.6,
+      "visBreakdown": {
+        "recognition": 7.5,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/angles/the-triscope-redefining-jump-hour-watches-by-angles",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/590/415/762242a82c1299c558f9517ce75f8e4c_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770968426&width=560&sig=SU4r75CQaLzlz7KaLWhIEXCCjN%2BfKYGUGOR4WB%2B%2BoxI%3D",
+      "reason": "The Triscope | Redefining Jump Hour Watches by Ang，在design/product/design领域，获得257人支持，筹得$177,675，Kickstarter Staff Pick，达成率1388.3%",
+      "ksData": {
+        "goal": 100000.0,
+        "pledged": 1388310.0,
+        "usdPledged": 177674.9975154,
+        "backersCount": 257,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1388.3,
+        "daysSinceLaunch": 131
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-570403768",
+      "brand": "Critit.co.uk",
+      "category": "hardware",
+      "title": "The 'Spirit Of' Dice Range Series 2 by Critit",
+      "titleZh": "'Spirit 的' Dice 系列 系列 2 by Critit",
+      "desc": "Spirits trapped inside a 2 tone swirl translucent polyhedral Dice set. Which spirit will you choose?",
+      "time": "2018-02-17 20:15",
+      "score": 60.5,
+      "visBreakdown": {
+        "recognition": 6.6,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.7,
+        "transferability": 5.7,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/critit/the-spirit-of-dice-range-series-2-by-critit",
+      "tags": [
+        "games/gaming hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/020/260/521/c43180428b798131afa821e6967ad562_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1520003931&width=560&sig=X7madB2yYiPnidF1Gvq5QCmqkYN1Rwmd7G2KT7QLS1A%3D",
+      "reason": "The 'Spirit Of' Dice Range Series 2 by Critit，在games/gaming/hardware领域，获得1,558人支持，筹得$83,074，达成率587.6%，视觉亮点：透明设计",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 58759.25,
+        "usdPledged": 83073.5485435625,
+        "backersCount": 1558,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 587.6,
+        "daysSinceLaunch": 3046
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-26853947",
+      "brand": "Tobenone",
+      "category": "gadget",
+      "title": "TobenONE: Ultra-Slim Magnetic Hub with Modular Design",
+      "titleZh": "TobenONE: 超薄 磁吸 集线器 配备 模块化 设计",
+      "desc": "A next-gen modular 4-in-1 hub for ultimate efficiency. Customize your setup with six swappable modules—upgrade anytime, your way.",
+      "time": "2025-10-29 08:48",
+      "score": 60.4,
+      "visBreakdown": {
+        "recognition": 6.9,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 5.6,
+        "diffusionPotential": 9.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1451952642/tobenone-modular-multi-diy-ports-magnetic-charging-hub",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/904/112/244539dcd31df29b8eba374895b3cdb7_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1765262111&width=560&sig=KlvKqqHGNZLMbE6r7HcPN9UywYyRV9AfkI9VZoKkg0Q%3D",
+      "reason": "TobenONE: Ultra-Slim Magnetic Hub with Modular Des，在technology/gadgets领域，获得1,346人支持，筹得$169,942，Kickstarter Staff Pick，达成率4400.3%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 30000.0,
+        "pledged": 1320103.0,
+        "usdPledged": 169942.44322569,
+        "backersCount": 1346,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 4400.3,
+        "daysSinceLaunch": 236
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-556717713",
+      "brand": "Tom G",
+      "category": "design",
+      "title": "Reach Bar - Adjustable Pull-Up & Suspension Exercise Bar",
+      "titleZh": "Reach Bar - 可调 Pull-Up & Suspension 锻炼 Bar",
+      "desc": "Adjustable exercise bar, turns any standard doorway into a versatile platform for full-body strength, functionality & decompression.",
+      "time": "2026-02-24 11:55",
+      "score": 60.4,
+      "visBreakdown": {
+        "recognition": 7.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 7.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/reachbar/reach-bar-adjustable-exercise-bar-for-new-levels-of-fitnes",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/760/230/ee68eb18fc6297a46b6ad7c9a3cdd1b4_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772202334&width=560&sig=A7J%2BCxrk6uZg2N7pTF6v9tZQk14io8MfC3TbfkokHlQ%3D",
+      "reason": "Reach Bar - Adjustable Pull-Up & Suspension Exerci，在design/product/design领域，获得537人支持，筹得$38,886，Kickstarter Staff Pick，达成率388.9%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 38886.0,
+        "usdPledged": 38886.0,
+        "backersCount": 537,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 388.9,
+        "daysSinceLaunch": 118
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1458019798",
+      "brand": "Linne International Limited",
+      "category": "design",
+      "title": "LinnéGarden: Auto Water-Circulating Vertical hydro Plant Box",
+      "titleZh": "LinnéGarden: Auto 水-Circulating Vertical hydro Plant Box",
+      "desc": "7–10 Days Auto Watering Cycle｜DIY plant for personalized garden｜Saving and sleek for room wall｜Minimalist Design & Vertical Planting",
+      "time": "2024-10-15 12:58",
+      "score": 60.2,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/fernsnapgrowlight/linne-box-your-personal-indoor-garden-0",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/919/884/91a5c65309dd4ca71c194d66ed77ac34_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1729172977&width=560&sig=usSb%2F9Wyyv86ITqO5x5gDekkx3DYmomM7JanNrh0Gs0%3D",
+      "reason": "LinnéGarden: Auto Water-Circulating Vertical hydro，在design/product/design领域，获得142人支持，筹得$24,127，达成率6249.1%",
+      "ksData": {
+        "goal": 3000.0,
+        "pledged": 187474.0,
+        "usdPledged": 24127.16702718,
+        "backersCount": 142,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 6249.1,
+        "daysSinceLaunch": 615
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-321239174",
+      "brand": "SYKO FIT",
+      "category": "design",
+      "title": "SYKO Magnetic Phone Mount: Elevate Your Performance",
+      "titleZh": "SYKO 磁吸 Phone 支架: Elevate 你的 Performance",
+      "desc": "Compact, Versatile, 360° Adjustment, Low-Profile, Detachable Remote, Powerful Magnetic Grip",
+      "time": "2024-09-17 13:06",
+      "score": 60.2,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 6.2,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/sykomount/the-syko-magnetic-phone-mount-elevate-your-gym-experience",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/516/750/42a415c324bc8c5a696ea4037db7adf9_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1726648971&width=560&sig=d63zAXX1Q1x9Rb9Z5rjhozyq7d29AqBT9tpSft8vmM4%3D",
+      "reason": "SYKO Magnetic Phone Mount: Elevate Your Performanc，在design/product/design领域，获得123人支持，筹得$10,872，达成率108.7%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 10872.0,
+        "usdPledged": 10872.0,
+        "backersCount": 123,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 108.7,
+        "daysSinceLaunch": 643
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1643302340",
+      "brand": "RSVR Hydration",
+      "category": "design",
+      "title": "RSVR Hydration: Athlete driven hydration system",
+      "titleZh": "RSVR Hydration: Athlete driven hydration 系统",
+      "desc": "RSVR takes a fundamentally different approach to hydration. This isn’t an iteration. It’s a redesign from the ground up.",
+      "time": "2026-05-06 12:59",
+      "score": 60.1,
+      "visBreakdown": {
+        "recognition": 7.5,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/rsvrhydration/rsvr-hydration-athlete-driven-hydration-system",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/592/234/b1e2a5bcd95c85b50b038f9a3d763053_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1777916592&width=560&sig=tJOkWCTt0587EY01x6fptW5kRw%2BKbZNpu6jVA1JISzo%3D",
+      "reason": "RSVR Hydration: Athlete driven hydration system，在design/product/design领域，获得493人支持，筹得$61,630，Kickstarter Staff Pick，达成率513.6%",
+      "ksData": {
+        "goal": 12000.0,
+        "pledged": 61630.0,
+        "usdPledged": 61630.0,
+        "backersCount": 493,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 513.6,
+        "daysSinceLaunch": 47
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1875720025",
+      "brand": "NINM Lab",
+      "category": "design",
+      "title": "PLAYDISC™ - A Music Survival Kit",
+      "titleZh": "PLAYDISC™ - 音乐 Survival 套件",
+      "desc": "The New Generation Mixtape - A Physical Playlist You Can Give to Others",
+      "time": "2024-04-25 11:59",
+      "score": 60.1,
+      "visBreakdown": {
+        "recognition": 7.5,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/ninmlab/playdisc-a-music-survival-kit",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/044/786/733/41f680815390259ac84722d106f5ddf7_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1713852789&width=560&sig=j%2F5l5w2YOReDn5gm%2Fm%2BUfaJw1Pr81FTDQpUPAiBVEHg%3D",
+      "reason": "PLAYDISC™ - A Music Survival Kit，在design/product/design领域，获得195人支持，筹得$17,533，Kickstarter Staff Pick，达成率686.8%",
+      "ksData": {
+        "goal": 20000.0,
+        "pledged": 137358.0,
+        "usdPledged": 17533.38195414,
+        "backersCount": 195,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 686.8,
+        "daysSinceLaunch": 788
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1967027413",
+      "brand": "Curieous",
+      "category": "design",
+      "title": "The Curieous Mind",
+      "titleZh": "Curieous Mind",
+      "desc": "Inspired by Science to spark Curiosity.",
+      "time": "2025-01-28 11:00",
+      "score": 60.1,
+      "visBreakdown": {
+        "recognition": 7.5,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/curieous/curieousmind",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/047/719/816/a7c99fc904c4d53abfd2136c87011a46_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1735909744&width=560&sig=AZX4lPE4JUA2nJ7%2BHva1NwtM73au8KIQAM1nZ%2BjdfYI%3D",
+      "reason": "The Curieous Mind，在design/product/design领域，获得71人支持，筹得$5,841，Kickstarter Staff Pick，达成率1947.0%",
+      "ksData": {
+        "goal": 300.0,
+        "pledged": 5841.0,
+        "usdPledged": 5841.0,
+        "backersCount": 71,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1947.0,
+        "daysSinceLaunch": 510
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1823605283",
+      "brand": "Rich Byrne",
+      "category": "design",
+      "title": "Goplay: Heirloom Toy Cars Built to Last",
+      "titleZh": "Goplay: Heirloom Toy Cars 打造 to Last",
+      "desc": "Locally crafted wooden toy cars designed for generations of enjoyment.",
+      "time": "2025-05-01 18:00",
+      "score": 60.0,
+      "visBreakdown": {
+        "recognition": 7.2,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 5.5,
+        "diffusionPotential": 5.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/goplaystudio/goplay-heirloom-toy-cars-built-to-last",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/047/870/166/f7b835ab735f09f71c2e048ae7e8a5b9_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1737158652&width=560&sig=u%2BgzR9Rt0fcBq%2BbKlGGTWOM3GdYGXBqxqQiWiZjhas8%3D",
+      "reason": "Goplay: Heirloom Toy Cars Built to Last，在design/product/design领域，获得30人支持，筹得$5,908，Kickstarter Staff Pick，达成率11.8%",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 5908.0,
+        "usdPledged": 5908.0,
+        "backersCount": 30,
+        "currency": "USD",
+        "state": "failed",
+        "staffPick": true,
+        "percentFunded": 11.8,
+        "daysSinceLaunch": 416
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-602241875",
+      "brand": "Raynaks",
+      "category": "hardware",
+      "title": "Raynaks RN350H: Hands-Free 3500 Lumens Gesture Headlamp",
+      "titleZh": "Raynaks RN350H: 免提 3500 Lumens Gesture 头灯",
+      "desc": "3500LM Output | 250m Throw | 160° Wide Flood | Smart Gesture Control | 5000mAh 21700 Battery | 90H Runtime | Pro-Grade Aluminum Build",
+      "time": "2026-03-11 12:53",
+      "score": 59.8,
+      "visBreakdown": {
+        "recognition": 5.4,
+        "paradigmShift": 5.7,
+        "cmfInnovation": 6.9,
+        "transferability": 5.7,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/raynaks/raynaks-rn350h-hands-free-3500-lumens-gesture-headlamp",
+      "tags": [
+        "technology/makerspaces"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/938/727/a340d5437b16fbbdb41b33757ab17729_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1773395224&width=560&sig=7Ki1zrIG04cqBqeufTFBE5BAXLEMxFl%2BUjEIm2ZvQ9U%3D",
+      "reason": "Raynaks RN350H: Hands-Free 3500 Lumens Gesture Hea，在technology/makerspaces领域，获得328人支持，筹得$39,486，达成率3948.6%，视觉亮点：高端材质、AI驱动、新交互",
+      "ksData": {
+        "goal": 1000.0,
+        "pledged": 39486.0,
+        "usdPledged": 39486.0,
+        "backersCount": 328,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 3948.6,
+        "daysSinceLaunch": 103
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-869817078",
+      "brand": "MEMDock",
+      "category": "gadget",
+      "title": "Memdock: 13-in-1 Docking Station - Redefining Your Workspace",
+      "titleZh": "Memdock: 13-in-1 扩展坞 - 重新定义 你的 Workspace",
+      "desc": "A Sleek All-in-One Dock with Dual 4K@60Hz HDMI・100W PD Fast Charge・3*10Gbps Ports・2*USB-A ・RJ45 Ethernet・Aluminum Body・Volume Knob",
+      "time": "2026-04-23 09:03",
+      "score": 59.7,
+      "visBreakdown": {
+        "recognition": 5.9,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 5.7,
+        "diffusionPotential": 8.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/758873559/memdock-13-in-1-docking-station-redefining-your-workspace",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/612/729/cd6dde797d003cdb8efcc42d2382c35f_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1778031804&width=560&sig=cMe%2FTGaHHz2%2FT8Gp2ckF2weSSd%2FRvSHjnHHKn%2FUjnD0%3D",
+      "reason": "Memdock: 13-in-1 Docking Station - Redefining Your，在technology/gadgets领域，获得538人支持，筹得$63,297，达成率6196.1%，视觉亮点：高端材质",
+      "ksData": {
+        "goal": 8000.0,
+        "pledged": 495692.0,
+        "usdPledged": 63296.94877412,
+        "backersCount": 538,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 6196.1,
+        "daysSinceLaunch": 60
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1475302541",
+      "brand": "TAVAKER",
+      "category": "design",
+      "title": "TAVAKER-Your Ultimate Survival & Tactical Gear",
+      "titleZh": "TAVAKER-你的 终极 Survival & Tactical 装备",
+      "desc": "The Ultimate Outdoor Survival Multi-Tool丨Metal material | High hardness | Daily maintenance | Small knife | EDC | Easy to carry",
+      "time": "2025-11-10 12:18",
+      "score": 59.7,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/-t1/tavaker-outdoor-multi-function-camping-edc-gear",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/654/858/51fd19ba34543ff4c82864eea21d9504_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1763112463&width=560&sig=15g2fHrFHx%2F71%2Bl7rbXQv2Afcdq6RnlB7RL6UycYM4Q%3D",
+      "reason": "TAVAKER-Your Ultimate Survival & Tactical Gear，在design/product/design领域，获得340人支持，筹得$44,886，达成率4488.6%",
+      "ksData": {
+        "goal": 1000.0,
+        "pledged": 44886.0,
+        "usdPledged": 44886.0,
+        "backersCount": 340,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 4488.6,
+        "daysSinceLaunch": 224
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1551853757",
+      "brand": "Aura",
+      "category": "design",
+      "title": "Aura: E-Ink Tracker, Your Items, Your Identity",
+      "titleZh": "Aura: 电子墨水 追踪器, 你的 Items, 你的 Identity",
+      "desc": "Custom E-Ink Display | Digital Profile Card | iOS & Android Ready | 10-Month Power | Live Location | Quick Find & Grab | IP67 Rated",
+      "time": "2026-04-27 11:29",
+      "score": 59.7,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1727471052/aura-e-ink-tracker-your-items-your-identity",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/455/400/8d3671b88e7ef0fb05e236f8665f3f11_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776947866&width=560&sig=13YTwN7%2BfTK4JtK%2FEVSO3%2F5oD50FmELymoeEXzB%2FptY%3D",
+      "reason": "Aura: E-Ink Tracker, Your Items, Your Identity，在design/product/design领域，获得193人支持，筹得$18,716，达成率2444.1%",
+      "ksData": {
+        "goal": 6000.0,
+        "pledged": 146648.0,
+        "usdPledged": 18716.0829832,
+        "backersCount": 193,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 2444.1,
+        "daysSinceLaunch": 56
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-94550855",
+      "brand": "AirEnergy",
+      "category": "design",
+      "title": "AirEnergy| Wireless Charging, Finally Unleashed.",
+      "titleZh": "AirEnergy| 无线充电, 终于 Unleashed.",
+      "desc": "16 ft radius wireless charging system. Walk into range and your iPhone, Android, earbuds charge automatically. Truly cut the cord.",
+      "time": "2025-11-06 10:08",
+      "score": 59.7,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1190077393/airenergy-wireless-charging-finally-unleashed",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/804/179/81c1371337e53f0a8b500a4da4488d48_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1764330384&width=560&sig=CUEm%2BTmA6wqVOPKltoRImf44HNlTZB%2BN37iP0MeLAOo%3D",
+      "reason": "AirEnergy| Wireless Charging, Finally Unleashed.，在design/product/design领域，获得137人支持，筹得$32,073，达成率4986.9%",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 249344.0,
+        "usdPledged": 32072.70979584,
+        "backersCount": 137,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 4986.9,
+        "daysSinceLaunch": 228
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-552801880",
+      "brand": "M5Stack",
+      "category": "robot",
+      "title": "StackChan: Kawaii Co-Created Open-Source AI Desktop Robot",
+      "titleZh": "StackChan: Kawaii Co-Created 开源 AI 桌面 Robot",
+      "desc": "Open‑Source Hardware & Software | Cute, Animated Face | AI Voice Assistant | Smart‑Home & IoT Control | Maker-Ready | Co-created",
+      "time": "2026-01-13 13:00",
+      "score": 59.6,
+      "visBreakdown": {
+        "recognition": 6.3,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/m5stack/stackchan-the-first-co-created-open-source-ai-desktop-robot",
+      "tags": [
+        "technology/robots"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/578/921/78c7669d0341d2332ad1ba1e7c4191e1_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770900638&width=560&sig=%2Fp0v2l3cnR2PvaNMZLqJIJzY%2FEwzWDj1pc4q4V3z3XE%3D",
+      "reason": "StackChan: Kawaii Co-Created Open-Source AI Deskto，在technology/robots领域，获得4,142人支持，筹得$459,580，Kickstarter Staff Pick，达成率4592.6%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 78000.0,
+        "pledged": 3582197.0,
+        "usdPledged": 459579.79103547,
+        "backersCount": 4142,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 4592.6,
+        "daysSinceLaunch": 160
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1832671655",
+      "brand": "BQEYZ®",
+      "category": "camera",
+      "title": "CAMIO: 19 grams Wearable Spy Cam With FHD 2.7K for Multi-Use",
+      "titleZh": "CAMIO: 19 grams 穿戴式 Spy Cam 配备 FHD 2.7K 为 Multi-使用",
+      "desc": "Weight 19 Grams | Filming, Photo and Voice Recording Modes | APP Remote Control | Up to 2.7K/30fps | Loop Recording | IPS Screen",
+      "time": "2025-06-24 12:59",
+      "score": 59.6,
+      "visBreakdown": {
+        "recognition": 7.9,
+        "paradigmShift": 5.0,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/camio/camio-wearable-spy-camcorder-with-fhd-27k-for-multi-use",
+      "tags": [
+        "technology/camera equipment"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/769/694/c4ccaa231df08c85334e6c2c0c530f3b_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750578872&width=560&sig=wD%2F%2BDJRTXSQFpctVTl2xSzCQPyba7%2FMSZvIM19WiqMw%3D",
+      "reason": "CAMIO: 19 grams Wearable Spy Cam With FHD 2.7K for，在technology/camera/equipment领域，获得295人支持，筹得$29,955，达成率2351.5%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 235147.0,
+        "usdPledged": 29955.37633,
+        "backersCount": 295,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 2351.5,
+        "daysSinceLaunch": 363
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-343777841",
+      "brand": "VersaCarve",
+      "category": "hardware",
+      "title": "VersaCarve - The All-in-One Micro Workshop for Makers",
+      "titleZh": "VersaCarve - 一体式 Micro Workshop 为 Makers",
+      "desc": "A modular workshop for makers. Carve, drill, saw, sand, solder and much more!",
+      "time": "2025-07-30 15:00",
+      "score": 59.5,
+      "visBreakdown": {
+        "recognition": 6.9,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 5.6,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/versacarve/versacarve-the-all-in-one-micro-workshop-for-makers",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/050/226/191/f21e7dc0712efb044f7544adcb3e8238_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1753860323&width=560&sig=RJQs2j0nRyfpNNTrVy8xASMGlJ%2F%2Fxl6uQPdDxxor%2BO4%3D",
+      "reason": "VersaCarve - The All-in-One Micro Workshop for Mak，在technology/hardware领域，获得880人支持，筹得$150,940，Kickstarter Staff Pick，达成率1519.1%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 78000.0,
+        "pledged": 1184872.0,
+        "usdPledged": 150940.0739132,
+        "backersCount": 880,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1519.1,
+        "daysSinceLaunch": 326
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1970097224",
+      "brand": "anthro.co",
+      "category": "design",
+      "title": "FANCI — The Watch That Smiles Back",
+      "titleZh": "FANCI — Watch 能 Smiles Back",
+      "desc": "Not just timekeeping — but a little joy on your wrist.",
+      "time": "2026-03-18 13:00",
+      "score": 59.3,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1867950960/fanci-the-watch-that-smiles-back",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/030/392/139f9cfa725123e3cad082280848ad1c_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1774005026&width=560&sig=jNxfNV6UoxYrT2Q0OmGe0PHjq728BzgFMbwuKPPg15k%3D",
+      "reason": "FANCI — The Watch That Smiles Back，在design/product/design领域，获得276人支持，筹得$70,514，达成率7082.6%",
+      "ksData": {
+        "goal": 7800.0,
+        "pledged": 552439.0,
+        "usdPledged": 70514.43541117,
+        "backersCount": 276,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 7082.6,
+        "daysSinceLaunch": 96
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-417614120",
+      "brand": "Raycon",
+      "category": "hardware",
+      "title": "Raycon AI Notetaker",
+      "titleZh": "Raycon AI Notetaker",
+      "desc": "Record Calls & Conversations｜ChatGPT-Powered Summaries｜Smart Topic Tagging | 60-Hour Battery | MagSafe Compatible",
+      "time": "2026-02-17 15:32",
+      "score": 59.2,
+      "visBreakdown": {
+        "recognition": 6.0,
+        "paradigmShift": 7.1,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 7.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/raycon/raycon-ai-notetaker",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/580/501/e04739d2ce0321e82a9a1ee4484d967b_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770909370&width=560&sig=RWu0AMx2Ma9TD%2FyPTSEIUaGvDMJBCpHiPMtJ9Tmgk0M%3D",
+      "reason": "Raycon AI Notetaker，在technology/hardware领域，获得408人支持，筹得$49,056，Kickstarter Staff Pick，达成率981.1%，视觉亮点：AI驱动、模块化/磁吸",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 49056.0,
+        "usdPledged": 49056.0,
+        "backersCount": 408,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 981.1,
+        "daysSinceLaunch": 124
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1661245685",
+      "brand": "Mandy Ferdman",
+      "category": "design",
+      "title": "Bath Haus: World's First Filtered Tub Spout",
+      "titleZh": "Bath Haus: 全球首款 Filtered Tub Spout",
+      "desc": "Purify your bathwater by removing chlorine, heavy metals, & other carcinogenic contaminants with our state-of-the-art built-in filter.",
+      "time": "2024-09-24 13:03",
+      "score": 59.2,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/bathhaus/bath-haus-worlds-first-filtered-tub-spout",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/833/432/1034dd751434ad72d873016b69bf7c8e_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1728605578&width=560&sig=EuIXkWaB20Cx3WQhc2FxZiH9yDq1YW%2FD07MoHRAvHzg%3D",
+      "reason": "Bath Haus: World's First Filtered Tub Spout，在design/product/design领域，获得117人支持，筹得$19,550，达成率244.4%",
+      "ksData": {
+        "goal": 8000.0,
+        "pledged": 19550.0,
+        "usdPledged": 19550.0,
+        "backersCount": 117,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 244.4,
+        "daysSinceLaunch": 636
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1452565995",
+      "brand": "Michel Holper-Bos",
+      "category": "design",
+      "title": "MERIVIAN - Time As Nature Intended",
+      "titleZh": "MERIVIAN - Time As Nature Intended",
+      "desc": "The first analog watch designed to sync your life with the rhythm of your biological clock.",
+      "time": "2026-03-24 11:03",
+      "score": 59.2,
+      "visBreakdown": {
+        "recognition": 6.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 5.5,
+        "diffusionPotential": 5.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/merivian/merivian-time-as-nature-intended",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/672/985/eb007ae7a9bc07482f19ffe69493fc08_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1771600901&width=560&sig=EdSpbEMAsn3Wit6ZjqGQu%2BWPfuYpmv0NZRlMeKDIJyc%3D",
+      "reason": "MERIVIAN - Time As Nature Intended，在design/product/design领域，获得87人支持，筹得$23,686，达成率136.7%",
+      "ksData": {
+        "goal": 15000.0,
+        "pledged": 20512.0,
+        "usdPledged": 23686.07631392,
+        "backersCount": 87,
+        "currency": "EUR",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 136.7,
+        "daysSinceLaunch": 90
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1170261350",
+      "brand": "HOMETOP",
+      "category": "camera",
+      "title": "S86 Dual-Lens Thumb Camera – Capture Photos & Videos Easily",
+      "titleZh": "S86 Dual-Lens Thumb Camera – 捕捉 Photos & Videos Easily",
+      "desc": "Tiny, portable & playful: one lens for zoom photos, one for 78° horizontal video. Instant mode switch & magnetic wearable mount.",
+      "time": "2026-06-04 12:01",
+      "score": 59.2,
+      "visBreakdown": {
+        "recognition": 7.3,
+        "paradigmShift": 5.8,
+        "cmfInnovation": 4.5,
+        "transferability": 5.2,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/kf20/s86-dual-lens-thumb-camera-capture-photos-and-videos-easily",
+      "tags": [
+        "technology/camera equipment"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/881/083/abc814488fdeacaca19529283975432d_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1779849583&width=560&sig=ZF7unStFj0p3YTeQPEC67QBsQPWazGUpKzE45fH6LOM%3D",
+      "reason": "S86 Dual-Lens Thumb Camera – Capture Photos & Vide，在technology/camera/equipment领域，获得68人支持，筹得$7,272，达成率190.0%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 30000.0,
+        "pledged": 56987.0,
+        "usdPledged": 7272.17261596,
+        "backersCount": 68,
+        "currency": "HKD",
+        "state": "live",
+        "staffPick": false,
+        "percentFunded": 190.0,
+        "daysSinceLaunch": 18
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1389314558",
+      "brand": "Orange Yew Curios",
+      "category": "design",
+      "title": "Earring Adapters for Stretched Ears | by Orange Yew Curios",
+      "titleZh": "Earring Adapters 为 Stretched Ears | by Orange Yew Curios",
+      "desc": "A soft, comfortable, silicone plug for wearing ANY earring hardware with a stretched ear piercing.",
+      "time": "2024-07-30 13:06",
+      "score": 59.1,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/orangeyewcurios/earring-adapters-for-stretched-ears-by-orange-yew-curios",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/045/898/778/0edea5a04b351263b02460ea521450d8_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1722344759&width=560&sig=%2FZudMzKJAF4%2F18PPW5l%2FUieRER0QeDv%2B07qHQgSd6%2B0%3D",
+      "reason": "Earring Adapters for Stretched Ears | by Orange Ye，在design/product/design领域，获得1,409人支持，筹得$58,436，达成率167.0%",
+      "ksData": {
+        "goal": 35000.0,
+        "pledged": 58436.0,
+        "usdPledged": 58436.0,
+        "backersCount": 1409,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 167.0,
+        "daysSinceLaunch": 692
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-16712195",
+      "brand": "Nosh",
+      "category": "robot",
+      "title": "Nosh One-The AI Robot Chef for Fresh & Healthy Meals at Home",
+      "titleZh": "Nosh One- AI Robot Chef 为 Fresh & Healthy Meals at 家庭",
+      "desc": "Last Day! Save $500 and unlock 1-tap Instacart grocery automation before the campaign ends.",
+      "time": "2026-02-24 14:08",
+      "score": 59.1,
+      "visBreakdown": {
+        "recognition": 6.3,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/noshone/noshone-ai-robo-chef-get-fresh-and-healthy-meals-effortlessly",
+      "tags": [
+        "technology/robots"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/879/371/b42b198ba49d1c106e53672fc7757b66_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1773038394&width=560&sig=lH6A2ni6iFAIwDzUXpCsuZSl%2FgWkbWMZGu5DiLg1wAU%3D",
+      "reason": "Nosh One-The AI Robot Chef for Fresh & Healthy Mea，在technology/robots领域，获得729人支持，筹得$845,792，Kickstarter Staff Pick，达成率1691.6%",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 845792.0,
+        "usdPledged": 845792.0,
+        "backersCount": 729,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1691.6,
+        "daysSinceLaunch": 118
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-25544835",
+      "brand": "Robera",
+      "category": "hardware",
+      "title": "Robera Neo Smarter Golf Cart with AI Vision & GPS Navigation",
+      "titleZh": "Robera Neo Smarter Golf Cart 配备 AI Vision & GPS Navigation",
+      "desc": "Al Vision Auto Follow | GPS Navigation | Smart Obstacle Avoidance | IPX5 Waterproof | Lightweight Design | Swing Analysis",
+      "time": "2025-05-22 13:48",
+      "score": 59.1,
+      "visBreakdown": {
+        "recognition": 6.3,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/robera/robera-neo-smarter-golf-cart-with-ai-vision-and-gps-navigation",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/381/962/b33badb83fba73c1362abe433e9c9b8c_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1747921534&width=560&sig=dXf2ddiWjx3XOTRobxcXKLLOhDoVZo9%2FaMKW9BLgCDQ%3D",
+      "reason": "Robera Neo Smarter Golf Cart with AI Vision & GPS ，在technology/hardware领域，获得160人支持，筹得$315,433，Kickstarter Staff Pick，达成率6308.7%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 315433.0,
+        "usdPledged": 315433.0,
+        "backersCount": 160,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 6308.7,
+        "daysSinceLaunch": 396
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-994740514",
+      "brand": "Robonova.World",
+      "category": "robot",
+      "title": "Eva.i-Not just a robot. A Bionic Embodied AI Companion+App",
+      "titleZh": "Eva.i-Not 只需 robot. Bionic Embodied AI 伴侣+App",
+      "desc": "Eva.i is a fusion of bionic embodied robotics and an intelligent companion App, designed for real-time interaction and deep engagement.",
+      "time": "2026-02-27 06:52",
+      "score": 59.1,
+      "visBreakdown": {
+        "recognition": 5.6,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 6.9,
+        "transferability": 4.5,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/robonovaworld/evai-not-just-a-robot-a-bionic-embodied-ai-companion-app",
+      "tags": [
+        "technology/robots"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/902/059/5a9f8fb930887a635e49914ff89800fb_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1765244922&width=560&sig=C62AOAi6Ikq9JTCf2WyGOchI7IH2TXmFMwEhzgBhmCg%3D",
+      "reason": "Eva.i-Not just a robot. A Bionic Embodied AI Compa，在technology/robots领域，获得128人支持，筹得$160,414，达成率160.9%",
+      "ksData": {
+        "goal": 780000.0,
+        "pledged": 1254822.0,
+        "usdPledged": 160413.64622694,
+        "backersCount": 128,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 160.9,
+        "daysSinceLaunch": 115
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-25283662",
+      "brand": "Doggie Bath Box",
+      "category": "design",
+      "title": "Doggie Bath Box™ Professional-Grade Countertop Dog Wash Box",
+      "titleZh": "Doggie Bath Box™ 专业-Grade Countertop 狗 洗 Box",
+      "desc": "A foldable, countertop dog wash system designed to eliminate the mess, reduce stress, and save your back.",
+      "time": "2026-05-19 14:00",
+      "score": 59.1,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 5.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/doggiebathbox/doggie-bath-boxtm-professional-grade-countertop-dog-wash-box",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/545/535/85a334a5247d3c4c4c0c8c967d38847e_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1777548423&width=560&sig=haKgAliVXaFNqnrnORElDngVYWYhmeIld%2B4WFTimLaQ%3D",
+      "reason": "Doggie Bath Box™ Professional-Grade Countertop Dog，在design/product/design领域，获得47人支持，筹得$6,661，达成率33.3%，视觉亮点：可折叠",
+      "ksData": {
+        "goal": 20000.0,
+        "pledged": 6661.0,
+        "usdPledged": 6661.0,
+        "backersCount": 47,
+        "currency": "USD",
+        "state": "live",
+        "staffPick": false,
+        "percentFunded": 33.3,
+        "daysSinceLaunch": 34
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1164940940",
+      "brand": "Quasar Watches",
+      "category": "design",
+      "title": "Quasar Astrograph fully rotating automatic watch",
+      "titleZh": "Quasar Astrograph fully rotating 自动 watch",
+      "desc": "Explore space & time with the Quasar Astrograph, where the planets, minutes & hours all rotate around each other",
+      "time": "2025-07-31 18:00",
+      "score": 59.1,
+      "visBreakdown": {
+        "recognition": 7.5,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 6.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/quasar-watches/quasar-astrograph-fully-rotating-automatic-watch",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/050/390/991/a0769f6a61db80e044f743b3f6cdc783_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1754983726&width=560&sig=89ogURvaPrUipNqvjKT7PW5VPSCsMizO2x4jVPJqSMc%3D",
+      "reason": "Quasar Astrograph fully rotating automatic watch，在design/product/design领域，获得34人支持，筹得$23,096，Kickstarter Staff Pick，达成率864.4%",
+      "ksData": {
+        "goal": 2000.0,
+        "pledged": 17288.0,
+        "usdPledged": 23096.08892736,
+        "backersCount": 34,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 864.4,
+        "daysSinceLaunch": 325
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1378241222",
+      "brand": "Crave",
+      "category": "design",
+      "title": "Tease Vibrator Necklace",
+      "titleZh": "Tease Vibrator 项链",
+      "desc": "An enduring statement of pleasure and agency.",
+      "time": "2025-05-22 23:22",
+      "score": 59.0,
+      "visBreakdown": {
+        "recognition": 7.5,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/lovecrave/tease-necklace",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/166/585/f9c11f8fd3671d4d53b82bcccd5d7f93_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1746490588&width=560&sig=ULM%2FffAuQi%2BUonIJamkHVvEUOQQ%2Bd7RIjbRhEcYyBRs%3D",
+      "reason": "Tease Vibrator Necklace，在design/product/design领域，获得230人支持，筹得$40,268，Kickstarter Staff Pick，达成率161.1%",
+      "ksData": {
+        "goal": 25000.0,
+        "pledged": 40268.0,
+        "usdPledged": 40268.0,
+        "backersCount": 230,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 161.1,
+        "daysSinceLaunch": 395
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2056675383",
+      "brand": "Phillip Paul Smith",
+      "category": "design",
+      "title": "Elysian Scripts: A Marked Alphabet Deck for Incredible Magic",
+      "titleZh": "Elysian Scripts: Marked Alphabet Deck 为 难以置信 Magic",
+      "desc": "A 52-letter alphabet deck for magicians. OMS-marked, stacked, and built for real-world miracles.",
+      "time": "2025-06-14 15:01",
+      "score": 59.0,
+      "visBreakdown": {
+        "recognition": 7.5,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/phillsmith/elysian-scripts-a-marked-alphabet-deck-for-incredible-magic",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/624/648/14a1bbb8643eb8287f43571e85b13e33_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1749574267&width=560&sig=YQ8PY8o09mpP%2B3%2BYLUra4Qcv%2FF2UWuTQMTh%2BdFi6JSw%3D",
+      "reason": "Elysian Scripts: A Marked Alphabet Deck for Incred，在design/product/design领域，获得149人支持，筹得$12,912，Kickstarter Staff Pick，达成率158.8%",
+      "ksData": {
+        "goal": 6000.0,
+        "pledged": 9527.0,
+        "usdPledged": 12911.80343418,
+        "backersCount": 149,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 158.8,
+        "daysSinceLaunch": 372
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1016729077",
+      "brand": "Sarah",
+      "category": "design",
+      "title": "Teapot REEDesigned: Controls the brew so you don't have to",
+      "titleZh": "Teapot REEDesigned: Controls brew so you don't have to",
+      "desc": "Automatically extracts the tea leaves from the brew",
+      "time": "2025-11-20 11:50",
+      "score": 59.0,
+      "visBreakdown": {
+        "recognition": 7.5,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/teapot-reedesigned/teapot-reedesigned-controls-the-brew-so-you-dont-have-to",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/946/372/f46cfd8cdc7972b6c8f3ebe759a2ea90_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1765637089&width=560&sig=2Pz06a9idqvT%2BszVHx6tjPX3K3ZByJYxVS8gkkh6ETY%3D",
+      "reason": "Teapot REEDesigned: Controls the brew so you don't，在design/product/design领域，获得128人支持，筹得$17,825，Kickstarter Staff Pick，达成率113.0%",
+      "ksData": {
+        "goal": 12000.0,
+        "pledged": 13565.0,
+        "usdPledged": 17824.7849366,
+        "backersCount": 128,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 113.0,
+        "daysSinceLaunch": 214
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1540530474",
+      "brand": "LIT",
+      "category": "camera",
+      "title": "LIT Flash: Take Your Mobile Photos to the Next Level (Canceled)",
+      "titleZh": "LIT 闪光灯: 带走 你的 Mobile Photos to Next Level (Canceled)",
+      "desc": "The first truly intelligent Xenon Flash for smartphone photography. Your most loyal camera just became your ultimate one. With LIT.",
+      "time": "2019-04-16 12:59",
+      "score": 58.9,
+      "visBreakdown": {
+        "recognition": 8.0,
+        "paradigmShift": 5.0,
+        "cmfInnovation": 4.5,
+        "transferability": 4.5,
+        "diffusionPotential": 6.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/shotwithlit/lit-flash-take-your-mobile-photos-to-the-next-leve",
+      "tags": [
+        "technology/camera equipment"
+      ],
+      "image": "https://i.kickstarter.com/assets/024/562/261/f0665ef27d0501570a6f465e48e62513_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1553708655&width=560&sig=%2F4q8nwHupxiO70bdN17403fs5488S7EgSGE14oI73NQ%3D",
+      "reason": "LIT Flash: Take Your Mobile Photos to the Next Lev，在technology/camera/equipment领域，获得367人支持，筹得$65,088，Kickstarter Staff Pick，达成率162.7%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 40000.0,
+        "pledged": 65088.0,
+        "usdPledged": 65088.0,
+        "backersCount": 367,
+        "currency": "USD",
+        "state": "canceled",
+        "staffPick": true,
+        "percentFunded": 162.7,
+        "daysSinceLaunch": 2624
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1823751649",
+      "brand": "Xebec",
+      "category": "hardware",
+      "title": "Xebec: Stack a Monitor, Light & Phone Charger on your laptop",
+      "titleZh": "Xebec: 堆叠 监测器, 照亮 & Phone 充电器 on 你的 laptop",
+      "desc": "13.3\" Full-HD Screens | Portrait, Landscape, & Stacked Mode | RGB video light | Wireless phone charger | Mac, PC, Chromebook Compatible",
+      "time": "2024-07-23 13:56",
+      "score": 58.8,
+      "visBreakdown": {
+        "recognition": 6.0,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.7,
+        "transferability": 5.7,
+        "diffusionPotential": 7.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/thexebec/xebec-stack-a-monitor-light-and-phone-charger-on-your-laptop",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/045/823/982/c40284cf82578dd6cc6a5fa8ca322923_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1721752698&width=560&sig=hiGwKsMhrP4LttMLa73zZeUU%2BGvBQjP4dq80ycXvF6A%3D",
+      "reason": "Xebec: Stack a Monitor, Light & Phone Charger on y，在technology/hardware领域，获得481人支持，筹得$137,096，Kickstarter Staff Pick，达成率1371.0%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 137096.0,
+        "usdPledged": 137096.0,
+        "backersCount": 481,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 1371.0,
+        "daysSinceLaunch": 699
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1844009869",
+      "brand": "Aerohart",
+      "category": "design",
+      "title": "The Rotary Loupe",
+      "titleZh": "Rotary Loupe",
+      "desc": "An aviation-inspired pocket magnifier. A serviceable tool to last generations.",
+      "time": "2026-04-14 10:00",
+      "score": 58.8,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/aerohart/rotary-loupe",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/324/523/c490cac37eee574918fead6954b6a1a0_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776107178&width=560&sig=2iRTjGbJPdzjK7CnubmbLGiOyLoTwAIJbWZrNtPNNbM%3D",
+      "reason": "The Rotary Loupe，在design/product/design领域，获得443人支持，筹得$34,950，达成率1398.0%",
+      "ksData": {
+        "goal": 2500.0,
+        "pledged": 34950.0,
+        "usdPledged": 34950.0,
+        "backersCount": 443,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1398.0,
+        "daysSinceLaunch": 69
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-895661669",
+      "brand": "LINGSHICHA",
+      "category": "design",
+      "title": "Pocket Umbrella — 12cm Ultra-Compact Protection",
+      "titleZh": "Pocket Umbrella — 12cm 极致版-紧凑 Protection",
+      "desc": "A 12cm ultra-compact umbrella weighing just 7oz — designed to disappear in your pocket, ready when rain strikes.",
+      "time": "2026-02-10 11:30",
+      "score": 58.8,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/pocketumbrella/pocket-umbrella-12cm-ultra-compact-protection",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/473/080/cf97cb169e4a4cbd9fd02b21906517b6_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770218459&width=560&sig=WcurocOdCR6YiQmqwvu4ECnhjxHy9D7IDFoqSYDaUPs%3D",
+      "reason": "Pocket Umbrella — 12cm Ultra-Compact Protection，在design/product/design领域，获得330人支持，筹得$19,215，达成率1501.4%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 150140.0,
+        "usdPledged": 19214.8181076,
+        "backersCount": 330,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1501.4,
+        "daysSinceLaunch": 132
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2034852071",
+      "brand": "IT GLOWS INC.",
+      "category": "design",
+      "title": "Handmade Glow In The Dark Pebbles — A New Glow Experience",
+      "titleZh": "Handmade Glow 于 暗 Pebbles — 全新 Glow 体验",
+      "desc": "Introducing a deeper, more luxurious Purple glow in our handmade pebbles collection. Crafted for refined outdoor and décor spaces.",
+      "time": "2026-03-26 18:16",
+      "score": 58.8,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/itglows/handmade-glow-in-the-dark-pebbles-a-new-glow-experience",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/931/816/98c19040ce7ce9fc79c2d3f4e58bb59d_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1765483491&width=560&sig=SWRaRIm2WFOZO3qUMMKVMVcxMq%2B6YjdR8YNa5hH5R0Q%3D",
+      "reason": "Handmade Glow In The Dark Pebbles — A New Glow Exp，在design/product/design领域，获得214人支持，筹得$31,548，达成率1737.6%",
+      "ksData": {
+        "goal": 2500.0,
+        "pledged": 43440.0,
+        "usdPledged": 31547.665776,
+        "backersCount": 214,
+        "currency": "CAD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1737.6,
+        "daysSinceLaunch": 87
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1697626044",
+      "brand": "Aquus",
+      "category": "design",
+      "title": "The World’s First Water Softener and Filter for Apartments",
+      "titleZh": "世界’s First 水 Softener 和 过滤器 为 Apartments",
+      "desc": "Most filters just filter. Aquus One is the only bathroom system to filter and soften the water, resulting in impeccable hair and skin.",
+      "time": "2025-11-04 14:54",
+      "score": 58.8,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/aquus/aquus-one-renter-friendly-water-filter-and-softener",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/535/568/bb8e04559640ebb4bb532a75dcd6600d_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1762282197&width=560&sig=3XyDn6zGMb3b%2FC9ggtM%2BBdSUAoP1dA%2FSoGPgNZ4PYKo%3D",
+      "reason": "The World’s First Water Softener and Filter for Ap，在design/product/design领域，获得177人支持，筹得$51,506，达成率1030.1%",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 51506.0,
+        "usdPledged": 51506.0,
+        "backersCount": 177,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1030.1,
+        "daysSinceLaunch": 229
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2107320743",
+      "brand": "DOQAUS",
+      "category": "design",
+      "title": "DOQAUS: 3D Smart Sleep Mask with App & Built-in White Noise",
+      "titleZh": "DOQAUS: 3D 智能 睡眠 Mask 配备 App & 打造-in White Noise",
+      "desc": "Block 100% light. Sync with our App for personalized white noise & relaxation. The ultimate ergonomic solution for insomnia and travel.",
+      "time": "2026-04-15 08:54",
+      "score": 58.8,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/2002050087/doqaus-3d-smart-sleep-mask-with-app-and-built-in-white-noise",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/977/516/31d8f599b53fff7aec1f205598c79d64_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1765958425&width=560&sig=LVK9Zcnm55i0CldRAki8Jh16kXxOfHU57kwWNQzE62U%3D",
+      "reason": "DOQAUS: 3D Smart Sleep Mask with App & Built-in Wh，在design/product/design领域，获得104人支持，筹得$5,775，达成率1507.7%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 3000.0,
+        "pledged": 45231.0,
+        "usdPledged": 5774.98371636,
+        "backersCount": 104,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1507.7,
+        "daysSinceLaunch": 68
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1924598098",
+      "brand": "Fosi Audio",
+      "category": "audio",
+      "title": "Fosi Audio V3 Mono Home Audio Power Amplifier with PFFB",
+      "titleZh": "Fosi 音频 V3 Mono 家庭 音频 供电 放大器 配备 PFFB",
+      "desc": "Engineered for Audiophiles - A New Era of Miniature Single-Channel Amplification",
+      "time": "2024-04-20 15:00",
+      "score": 58.6,
+      "visBreakdown": {
+        "recognition": 7.3,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 9.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/fosiaudio/fosi-audio-v3-mono-power-amplifier",
+      "tags": [
+        "technology/sound"
+      ],
+      "image": "https://i.kickstarter.com/assets/044/632/824/dc2263c9a138e87b13189bea11e63ffb_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1712659815&width=560&sig=wTd6dUNfgjYRzkV3MYaXdhuf2yM70ylXDaVDbdhicyI%3D",
+      "reason": "Fosi Audio V3 Mono Home Audio Power Amplifier with，在technology/sound领域，获得1,860人支持，筹得$525,835，Kickstarter Staff Pick，达成率8234.8%",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 4117397.0,
+        "usdPledged": 525835.36483011,
+        "backersCount": 1860,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 8234.8,
+        "daysSinceLaunch": 792
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1435272391",
+      "brand": "Sven Long",
+      "category": "design",
+      "title": "Successfully Funded! IntoFlow | A Lick Pad Designed for Dogs",
+      "titleZh": "Successfully Funded! IntoFlow | Lick Pad 专为 为 Dogs",
+      "desc": "Turns everyday licking into a richly layered sensory ritual. 184 sculpted grooves bring more joy, calm, and wellbeing.",
+      "time": "2026-02-10 15:00",
+      "score": 58.6,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/fxw/intoflowtm-a-lick-pad-designed-for-dogs",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/926/532/790206d68659d2068dea7b4bbc558e07_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1773324631&width=560&sig=g%2Bji9slXtQ0O4V86Txy2wl0bcaayrluuIEG4V0Lg0rI%3D",
+      "reason": "Successfully Funded! IntoFlow | A Lick Pad Designe，在design/product/design领域，获得705人支持，筹得$31,778，达成率211.9%",
+      "ksData": {
+        "goal": 15000.0,
+        "pledged": 31778.0,
+        "usdPledged": 31778.0,
+        "backersCount": 705,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 211.9,
+        "daysSinceLaunch": 131
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-60085061",
+      "brand": "Amsterdam Dynamics",
+      "category": "design",
+      "title": "ST-01 - A multifunctional desk toy that helps you unwind",
+      "titleZh": "ST-01 - multifunctional desk toy 能 helps you unwind",
+      "desc": "A tactile, precision-machined object designed to break the scroll and help you pause.",
+      "time": "2026-03-17 13:14",
+      "score": 58.6,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/amsterdamdynamics/st-01-a-multifunctional-desk-toy-that-helps-you-unwind",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/836/751/5e4167d15d6c51e218026e3e074f84fe_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772699905&width=560&sig=%2Fxv%2BsbnXNwb5lLLucV%2BX0yYiDd4u3FEy7ALij2iSsQA%3D",
+      "reason": "ST-01 - A multifunctional desk toy that helps you ，在design/product/design领域，获得637人支持，筹得$34,380，达成率428.9%",
+      "ksData": {
+        "goal": 7000.0,
+        "pledged": 30024.0,
+        "usdPledged": 34379.58378168,
+        "backersCount": 637,
+        "currency": "EUR",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 428.9,
+        "daysSinceLaunch": 97
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1271358973",
+      "brand": "Apexel",
+      "category": "camera",
+      "title": "Apexel 20-60X: Turn Your Phone into a Professional Camera",
+      "titleZh": "Apexel 20-60X: 转化 你的 Phone 进入 专业 Camera",
+      "desc": "Shoot Stunning Wildlife, Concerts & Moon Photos – No DSLR Needed!",
+      "time": "2025-01-16 13:00",
+      "score": 58.6,
+      "visBreakdown": {
+        "recognition": 7.6,
+        "paradigmShift": 5.0,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/apexel/apexel-20-60x-unveil-the-new-horizon-of-photography",
+      "tags": [
+        "technology/camera equipment"
+      ],
+      "image": "https://i.kickstarter.com/assets/047/777/900/2d2ee051d10565ee6006e18acb97fd8f_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1736414497&width=560&sig=8okK1y0vvugUMN1M2e%2F5HX8jTrXimgdOtOKRkDVuPuM%3D",
+      "reason": "Apexel 20-60X: Turn Your Phone into a Professional，在technology/camera/equipment领域，获得286人支持，筹得$47,142，达成率1572.6%",
+      "ksData": {
+        "goal": 23350.0,
+        "pledged": 367209.0,
+        "usdPledged": 47142.35384553,
+        "backersCount": 286,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1572.6,
+        "daysSinceLaunch": 522
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2076583077",
+      "brand": "DECOKEE",
+      "category": "gadget",
+      "title": "DECOKEE Quake: The Ultimate Desktop AI Copilot",
+      "titleZh": "DECOKEE Quake: 终极 桌面 AI Copilot",
+      "desc": "AI Meeting Summary & Desktop Control | Compatible with OpenClaw | Instant Answers Without Prompting | Build Shortcuts by Voice",
+      "time": "2026-01-27 12:01",
+      "score": 58.2,
+      "visBreakdown": {
+        "recognition": 5.9,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 8.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/decokee/decokee-quake-the-ultimate-desktop-ai-copilot",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/881/965/5b543e9f65b87da0a786f8456c941eb4_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1773056786&width=560&sig=A0kOqzsgudF8H5PBEe8sZeDvtXmNhQGAWDt6oebS04A%3D",
+      "reason": "DECOKEE Quake: The Ultimate Desktop AI Copilot，在technology/gadgets领域，获得879人支持，筹得$296,437，达成率5928.7%",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 296437.0,
+        "usdPledged": 296437.0,
+        "backersCount": 879,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 5928.7,
+        "daysSinceLaunch": 146
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-262755806",
+      "brand": "CraftEasyTools",
+      "category": "design",
+      "title": "Craft Easy Tools Safety Eye Snappers",
+      "titleZh": "Craft 简便 Tools Safety Eye Snappers",
+      "desc": "We are here to help you make Crochet Plushies and Amigurumi easier than ever.",
+      "time": "2024-06-06 13:01",
+      "score": 58.1,
+      "visBreakdown": {
+        "recognition": 7.4,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/crafteasytools/craft-easy-tools-safety-eye-snappers",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/045/296/430/ca70a21b5021b39830d8488af758f2fe_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1717644906&width=560&sig=f0r%2Bn9OXQZDNe46KNm6S%2FBkIkPwUHwByATZU8PkICuQ%3D",
+      "reason": "Craft Easy Tools Safety Eye Snappers，在design/product/design领域，获得720人支持，筹得$31,648，达成率29.8%",
+      "ksData": {
+        "goal": 106300.0,
+        "pledged": 31648.0,
+        "usdPledged": 31648.0,
+        "backersCount": 720,
+        "currency": "USD",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 29.8,
+        "daysSinceLaunch": 746
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-136061188",
+      "brand": "Randomwaves",
+      "category": "audio",
+      "title": "Drumboy Pro: Beatmaking Redefined",
+      "titleZh": "Drumboy 专业版: Beatmaking Redefined",
+      "desc": "Engineered with an upgraded DSP engine to deliver 32-bit studio sound and tactile control.",
+      "time": "2026-03-15 16:00",
+      "score": 58.1,
+      "visBreakdown": {
+        "recognition": 7.3,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/randomwaves/drumboy-pro-beatmaking-redefined",
+      "tags": [
+        "technology/sound"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/993/950/bb6eac94acf4ece80da6f0dee3680bf0_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1773775302&width=560&sig=FzU9%2BzjtlnVQLNhd8GcLL7bPgX9pHOzoMvGDrZxD1BA%3D",
+      "reason": "Drumboy Pro: Beatmaking Redefined，在technology/sound领域，获得578人支持，筹得$192,717，Kickstarter Staff Pick，达成率19271.7%",
+      "ksData": {
+        "goal": 1000.0,
+        "pledged": 192717.0,
+        "usdPledged": 192717.0,
+        "backersCount": 578,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 19271.7,
+        "daysSinceLaunch": 98
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1482498356",
+      "brand": "SUMEO",
+      "category": "design",
+      "title": "Skincare-Grade Bubble Maker: A Happier Way to Shower",
+      "titleZh": "Skincare-Grade Bubble Maker: Happier Way to Shower",
+      "desc": "Turning skincare into floating bubbles. Powered by the SUMEO Bubble Serum + Bubble Maker system.",
+      "time": "2026-06-09 13:30",
+      "score": 58.1,
+      "visBreakdown": {
+        "recognition": 7.2,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/sumeo/the-floating-ritual-skincare-that-flies",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/054/045/285/901f1ef2e5f274aa4c6c123af63d5f78_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1781011065&width=560&sig=mSRYucWy8ZTjJLhn2YdfkwUw6mCYZ72NdpkLBStmNpI%3D",
+      "reason": "Skincare-Grade Bubble Maker: A Happier Way to Show，在design/product/design领域，获得95人支持，筹得$7,160，Kickstarter Staff Pick，达成率143.2%",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 7160.0,
+        "usdPledged": 7160.0,
+        "backersCount": 95,
+        "currency": "USD",
+        "state": "live",
+        "staffPick": true,
+        "percentFunded": 143.2,
+        "daysSinceLaunch": 13
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-436692097",
+      "brand": "Volta Charger",
+      "category": "gadget",
+      "title": "VoltaGo MAX: 27,000 mAh Multi-Charging Portable PowerHouse",
+      "titleZh": "VoltaGo 至尊版: 27,000 mAh Multi-Charging 便携 PowerHouse",
+      "desc": "5 Devices at Once | 27,000mAH (99Wh) | Qi2 15W Wireless Fast Charging | Multi-port 223W Max Output | USB 3.1 PD 140W | MagSafe",
+      "time": "2025-01-21 15:28",
+      "score": 58.0,
+      "visBreakdown": {
+        "recognition": 6.3,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 9.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/voltamagneticcharger/voltago-max-27000-mah-of-fast-charging-portable-powerhouse",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/744/226/6bfe00617913ce6cb365a665554faf54_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1763832614&width=560&sig=4gXGKua%2F4FHGiSAsHl3ddsU15A5LftRl3HKJWe3YNco%3D",
+      "reason": "VoltaGo MAX: 27,000 mAh Multi-Charging Portable Po，在technology/gadgets领域，获得1,586人支持，筹得$261,283，Kickstarter Staff Pick，达成率5225.7%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 261283.0,
+        "usdPledged": 261283.0,
+        "backersCount": 1586,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 5225.7,
+        "daysSinceLaunch": 516
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1200498559",
+      "brand": "Openhagen",
+      "category": "gadget",
+      "title": "LightBoks: Perhaps the Smartest Projector on Earth 🌏",
+      "titleZh": "LightBoks: Perhaps Smartest 投影仪 on Earth 🌏",
+      "desc": "And the world's only wooden projector 🌳",
+      "time": "2024-05-24 11:53",
+      "score": 57.9,
+      "visBreakdown": {
+        "recognition": 6.0,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.9,
+        "transferability": 4.9,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/openhagen/lightboks-perhaps-the-smartest-projector-on-earth",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/045/245/311/8d1c4f1e96a56db4670cb34cc872cf47_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1717262837&width=560&sig=rf7PlE8pA4j470csRCzWWSA7Tc0rf31iY9tq1c4k1SA%3D",
+      "reason": "LightBoks: Perhaps the Smartest Projector on Earth，在technology/gadgets领域，获得160人支持，筹得$84,874，Kickstarter Staff Pick，达成率979.6%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 8000.0,
+        "pledged": 78367.0,
+        "usdPledged": 84874.03770696,
+        "backersCount": 160,
+        "currency": "EUR",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 979.6,
+        "daysSinceLaunch": 759
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-2053744295",
+      "brand": "MMI WATCHES",
+      "category": "design",
+      "title": "MMI HERITAGE 38 | Classic Watch Design, Recrafted For Today.",
+      "titleZh": "MMI HERITAGE 38 | Classic Watch 设计, Recrafted 为 Today.",
+      "desc": "Heritage-inspired, masterfully reimagined with modern precision and timeless style - driven by today's refined Micro-Rotor Movement.",
+      "time": "2025-06-20 14:56",
+      "score": 57.8,
+      "visBreakdown": {
+        "recognition": 6.8,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 5.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/mmiwatches/mmi-heritage-38-classic-watch-design-recrafted-for-today",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/764/582/6125d4dae315ac6d365ad81ab0cc13a7_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1750522370&width=560&sig=BFJWD8o%2F%2BJdJdra79IOCxhqjQEm2CIQTd005GHMuyJ8%3D",
+      "reason": "MMI HERITAGE 38 | Classic Watch Design, Recrafted ，在design/product/design领域，获得72人支持，筹得$31,980，达成率205.8%",
+      "ksData": {
+        "goal": 20000.0,
+        "pledged": 41159.0,
+        "usdPledged": 31979.70541435,
+        "backersCount": 72,
+        "currency": "SGD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 205.8,
+        "daysSinceLaunch": 366
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1660850683",
+      "brand": "Power Panda",
+      "category": "design",
+      "title": "Inception of Time - Wandering Hour Watch",
+      "titleZh": "Inception 的 Time - Wandering Hour Watch",
+      "desc": "A Timepiece Beyond Measure, Inviting You to Dance with Eternity.",
+      "time": "2024-03-27 12:31",
+      "score": 57.8,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/powerpanda/inception-of-time-a-symphony-of-time",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/044/642/789/2b9323c8e68f9f84a89662a2a4df961b_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1712715947&width=560&sig=aU0kTMkzV1S0tpkJmJm0WPyp5lhcyqMBTaSh3MFjKcU%3D",
+      "reason": "Inception of Time - Wandering Hour Watch，在design/product/design领域，获得62人支持，筹得$27,745，达成率542.6%",
+      "ksData": {
+        "goal": 40000.0,
+        "pledged": 217038.0,
+        "usdPledged": 27744.70112844,
+        "backersCount": 62,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 542.6,
+        "daysSinceLaunch": 817
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-230999867",
+      "brand": "Randomwaves",
+      "category": "audio",
+      "title": "Drumboy & Synthgirl: A Novel Approach to Sound Creation",
+      "titleZh": "Drumboy & Synthgirl: Novel Approach to 声音 Creation",
+      "desc": "24-bit Drum Machine & Wavetable Synthesizer",
+      "time": "2024-09-19 19:16",
+      "score": 57.6,
+      "visBreakdown": {
+        "recognition": 7.3,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 8.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/randomwaves/drumboy-and-synthgirl",
+      "tags": [
+        "technology/sound"
+      ],
+      "image": "https://i.kickstarter.com/assets/045/606/763/e7b9e32282caa179c0eb12a731e0bf97_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1720021192&width=560&sig=Ufy8n%2FkSf%2FGXw8JQOLUn8H7la7s13WSeU2eVOpNkEVI%3D",
+      "reason": "Drumboy & Synthgirl: A Novel Approach to Sound Cre，在technology/sound领域，获得202人支持，筹得$53,383，Kickstarter Staff Pick，达成率5338.3%",
+      "ksData": {
+        "goal": 1000.0,
+        "pledged": 53383.0,
+        "usdPledged": 53383.0,
+        "backersCount": 202,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 5338.3,
+        "daysSinceLaunch": 640
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-624330297",
+      "brand": "Read with Me",
+      "category": "design",
+      "title": "Read with Me: Learn to Read in Just 15 Minutes a Day!",
+      "titleZh": "Read 配备 Me: Learn to Read 于 只需 15 分钟 Day!",
+      "desc": "A fun, teacher-made system that helps your child hit a 1st grade reading level in 60 days—just 15 minutes a day, no experience needed.",
+      "time": "2025-06-03 11:47",
+      "score": 57.6,
+      "visBreakdown": {
+        "recognition": 7.2,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/readwithmeprogram/read-with-me-learn-to-read-in-just-15-minutes-a-day",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/704/720/155e5436040c6dc7c11ae5713a9489fe_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1743210197&width=560&sig=NOHzZAzDhK9DVtXwyISJluUiYdVOfNw5OktRNH6apdc%3D",
+      "reason": "Read with Me: Learn to Read in Just 15 Minutes a D，在design/product/design领域，获得99人支持，筹得$10,247，Kickstarter Staff Pick，达成率409.9%",
+      "ksData": {
+        "goal": 2500.0,
+        "pledged": 10247.0,
+        "usdPledged": 10247.0,
+        "backersCount": 99,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 409.9,
+        "daysSinceLaunch": 384
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1258729738",
+      "brand": "Tammy Banks",
+      "category": "design",
+      "title": "A Watch That Changes How You Experience Time - FORTE 24 HOUR",
+      "titleZh": "Watch 能 Changes How You 体验 Time - FORTE 24 HOUR",
+      "desc": "Top Quality Special Design, Limited Edition 24 Hour Watch. Safety Inspired. Swiss Movement. 00, 12 or 24 at Dial TOP. Date. 20 ATM W/R",
+      "time": "2024-05-24 00:32",
+      "score": 57.6,
+      "visBreakdown": {
+        "recognition": 7.2,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/alpha-sx/a-watch-that-changes-how-you-experience-time-forte-24-hour",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/039/600/067/de35dd96c7f5fae01ca9c131070069f3_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1672951863&width=560&sig=XqreU52gx0yJuZH%2FZODpWpFJ8odPSelcJpfvajCdM5o%3D",
+      "reason": "A Watch That Changes How You Experience Time - FOR，在design/product/design领域，获得95人支持，筹得$16,390，Kickstarter Staff Pick，达成率252.2%",
+      "ksData": {
+        "goal": 6500.0,
+        "pledged": 16390.0,
+        "usdPledged": 16390.0,
+        "backersCount": 95,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 252.2,
+        "daysSinceLaunch": 759
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-660767589",
+      "brand": "Laura Rogers",
+      "category": "design",
+      "title": "The Daymaker - by Common Tiger",
+      "titleZh": "Daymaker - by Common Tiger",
+      "desc": "Performance seating built to transform life under the open sky.",
+      "time": "2025-02-25 21:55",
+      "score": 57.6,
+      "visBreakdown": {
+        "recognition": 7.2,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/commontiger/the-daymaker-by-common-tiger",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/578/946/bec8d281b2eae3b88136f996d4e8f225_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1742355151&width=560&sig=5AYXOWpDjAik4Zca591EJeIed0zhSTRGQ2c5Qu8xNy0%3D",
+      "reason": "The Daymaker - by Common Tiger，在design/product/design领域，获得76人支持，筹得$19,230，Kickstarter Staff Pick，达成率165.9%",
+      "ksData": {
+        "goal": 11592.0,
+        "pledged": 19230.0,
+        "usdPledged": 19230.0,
+        "backersCount": 76,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 165.9,
+        "daysSinceLaunch": 481
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1538983759",
+      "brand": "Leman Watches",
+      "category": "design",
+      "title": "Leman Watches: Panama’s Mark on Modern Timepieces",
+      "titleZh": "Leman Watches: Panama’s Mark on 现代 Timepieces",
+      "desc": "Elegance and innovation, designed in Panama for the discerning wearer.",
+      "time": "2024-10-15 10:00",
+      "score": 57.6,
+      "visBreakdown": {
+        "recognition": 7.2,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/lemanwatches/leman-watches-your-time-our-craft",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/047/255/880/60c077ff744ffe3e3800c82ba7032c17_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1731470902&width=560&sig=zR5cSAr55eQ5bugqm%2B09URNFlWqbhcvVMnkQQkS%2BKCU%3D",
+      "reason": "Leman Watches: Panama’s Mark on Modern Timepieces，在design/product/design领域，获得75人支持，筹得$21,525，Kickstarter Staff Pick，达成率113.3%",
+      "ksData": {
+        "goal": 19000.0,
+        "pledged": 21525.0,
+        "usdPledged": 21525.0,
+        "backersCount": 75,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 113.3,
+        "daysSinceLaunch": 615
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-545647156",
+      "brand": "OpenMV",
+      "category": "hardware",
+      "title": "OpenMV N6 & AE3 - Low Power, Python Programmable AI Cameras",
+      "titleZh": "OpenMV N6 & AE3 - Low 供电, Python Programmable AI Cameras",
+      "desc": "Embed AI into anything, anywhere, running on batteries for years with the OpenMV N6 and AE3.",
+      "time": "2025-03-17 07:06",
+      "score": 57.5,
+      "visBreakdown": {
+        "recognition": 6.3,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.5,
+        "diffusionPotential": 7.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/openmv/openmv-n6-and-ae3-low-power-python-programmable-ai-cameras",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/530/786/c7b15343ac85782bc4a93ffd868d2263_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1742017969&width=560&sig=fGNjQATMTMEZOwmNmRYKHDVLw5T1obfqIpKcQg7%2BdY0%3D",
+      "reason": "OpenMV N6 & AE3 - Low Power, Python Programmable A，在technology/hardware领域，获得718人支持，筹得$183,523，Kickstarter Staff Pick，达成率367.0%",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 183523.0,
+        "usdPledged": 183523.0,
+        "backersCount": 718,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 367.0,
+        "daysSinceLaunch": 462
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1697620540",
+      "brand": "FerroBeat",
+      "category": "audio",
+      "title": "FerroBeat: Ferrofluid Speaker & Audio Visualizer",
+      "titleZh": "FerroBeat: Ferrofluid 音箱 & 音频 Visualizer",
+      "desc": "Experience sound through mesmerizing magnetic fluid. A fusion of Hi-Fi audio and liquid physics for your modern workspace.",
+      "time": "2026-01-20 12:00",
+      "score": 57.4,
+      "visBreakdown": {
+        "recognition": 6.6,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 5.6,
+        "diffusionPotential": 7.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/ferrobeat/ferrobeat-watch-music-come-alive",
+      "tags": [
+        "technology/sound"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/126/490/184de78858d8e81315f6ae0a21d62439_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1767664571&width=560&sig=2Q8xCtM56ZDngadw0MuuOV9J2g39TlNCfJ3EUCO%2FSU4%3D",
+      "reason": "FerroBeat: Ferrofluid Speaker & Audio Visualizer，在technology/sound领域，获得362人支持，筹得$42,627，达成率1420.9%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 3000.0,
+        "pledged": 42627.0,
+        "usdPledged": 42627.0,
+        "backersCount": 362,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1420.9,
+        "daysSinceLaunch": 153
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1835998658",
+      "brand": "REETLE",
+      "category": "hardware",
+      "title": "REETLE SmartInk I: World’s First AI E-Ink Hub for Smartphone",
+      "titleZh": "REETLE SmartInk I: 世界’s First AI 电子墨水 集线器 为 Smartphone",
+      "desc": "Portable E-Ink Reader | AI Transcription & Summaries | One-Press Record | Smart To-Do Display | Military-Grade Protection",
+      "time": "2025-11-25 14:38",
+      "score": 57.3,
+      "visBreakdown": {
+        "recognition": 5.9,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/707454302/reetle-smartink-i-worlds-first-ai-e-ink-hub-for-iphone",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/042/172/75cd01c1de28dcafc494ad78f2c2647b_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1766673993&width=560&sig=%2FWMK2AxzW69Of4ETaQrGvaemtAtXDwmkEtGxDuzYSOU%3D",
+      "reason": "REETLE SmartInk I: World’s First AI E-Ink Hub for ，在technology/hardware领域，获得731人支持，筹得$93,118，达成率1846.6%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 39249.0,
+        "pledged": 724774.0,
+        "usdPledged": 93117.73865194,
+        "backersCount": 731,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1846.6,
+        "daysSinceLaunch": 208
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-462649936",
+      "brand": "Ainest",
+      "category": "hardware",
+      "title": "Meet FRIDAY — The AI Storage Agent for Your Digital Life",
+      "titleZh": "Meet FRIDAY — AI Storage Agent 为 你的 数字 生活",
+      "desc": "Smarter, Faster, Safer: The AI Storage Hub that Understands, Organizes, and Protects Your Digital Life.",
+      "time": "2025-12-18 12:55",
+      "score": 57.3,
+      "visBreakdown": {
+        "recognition": 5.9,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 7.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/ainest-friday/meet-friday-the-ai-storage-agent-for-your-digital-life",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/389/973/5a81cdf15d32442e820d429ff76aeb9f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1769657302&width=560&sig=o3G%2FHnYpXA5GrzvQKOsOGU7wu58neCd2%2B14IlxBKBVI%3D",
+      "reason": "Meet FRIDAY — The AI Storage Agent for Your Digita，在technology/hardware领域，获得466人支持，筹得$349,132，达成率9021.3%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 451063.0,
+        "usdPledged": 349132.13057851,
+        "backersCount": 466,
+        "currency": "SGD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 9021.3,
+        "daysSinceLaunch": 186
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-360270441",
+      "brand": "Frame Your Feline",
+      "category": "design",
+      "title": "Frame Your Feline: The Cat Shelf Reimagined",
+      "titleZh": "框架 你的 Feline: 猫 Shelf 重新构想",
+      "desc": "Goodbye ugly carpeted cat trees! So long boring cat shelves! Combine your love of art with your cat's love of vertical space!",
+      "time": "2024-08-09 19:35",
+      "score": 57.3,
+      "visBreakdown": {
+        "recognition": 6.8,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 5.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/frameyourfeline/frame-your-feline",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/045/099/053d44d5b987b17fc85bda65879c9e92_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1723411234&width=560&sig=XubNb1BPJ32TCsTS2pM1OVVow55bd7NODfjrg1nnABA%3D",
+      "reason": "Frame Your Feline: The Cat Shelf Reimagined，在design/product/design领域，获得50人支持，筹得$11,163，达成率111.6%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 11163.0,
+        "usdPledged": 11163.0,
+        "backersCount": 50,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 111.6,
+        "daysSinceLaunch": 681
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1789535940",
+      "brand": "Japan Treasures",
+      "category": "design",
+      "title": "Japanese the Light of Hand-Cut Abalone Glassware",
+      "titleZh": "Japanese 照亮 的 Hand-切割 Abalone Glassware",
+      "desc": "Pour, and the light awakens — Raden glassware crafted from 130 years of tradition",
+      "time": "2026-03-31 11:00",
+      "score": 57.3,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 5.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/japantreasures/experience-the-light-of-hand-cut-abalone-craft",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/838/103/c01217be56f1c021aaa49624ea40a367_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1772707134&width=560&sig=JS0IKRcCTay3XP1PWi4II05ZXo0h300UWSmiAx0U5Ps%3D",
+      "reason": "Japanese the Light of Hand-Cut Abalone Glassware，在design/product/design领域，获得12人支持，筹得$10,117，达成率538.8%",
+      "ksData": {
+        "goal": 300000.0,
+        "pledged": 1616500.0,
+        "usdPledged": 10116.881415,
+        "backersCount": 12,
+        "currency": "JPY",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 538.8,
+        "daysSinceLaunch": 83
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-211331051",
+      "brand": "Ruggie",
+      "category": "design",
+      "title": "Ruggie 2.0 - Transform Your Wake Up Experience",
+      "titleZh": "Ruggie 2.0 - 变身 你的 唤醒 Up 体验",
+      "desc": "An innovative alarm clock that helps you wake up better, freeing you from the daily struggles of getting out of bed.",
+      "time": "2024-09-09 13:59",
+      "score": 57.2,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/961424878/ruggie-20-transform-your-wake-up-experience",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/411/735/0033cfba28e3dafedf8f42f3a1bbd115_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1725981135&width=560&sig=kb1XI9UZRzEZO8bX7D4biLUR5R0cTg7lfz3iV2AdAWo%3D",
+      "reason": "Ruggie 2.0 - Transform Your Wake Up Experience，在design/product/design领域，获得361人支持，筹得$33,446，达成率334.3%",
+      "ksData": {
+        "goal": 78000.0,
+        "pledged": 260717.0,
+        "usdPledged": 33446.0542733,
+        "backersCount": 361,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 334.3,
+        "daysSinceLaunch": 651
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1848024400",
+      "brand": "Jacob",
+      "category": "design",
+      "title": "CacheBlade: Unlock Your Innovative Edge in the Wild",
+      "titleZh": "CacheBlade: 解锁 你的 创新 Edge 于 Wild",
+      "desc": "Adventure-ready outdoor utility with tool-less access to the essentials, all in a compact, ergonomic carry.",
+      "time": "2024-10-29 13:59",
+      "score": 57.2,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/cacheblade/cacheblade-unlock-your-innovative-edge-in-the-wild",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/957/880/77dfed4e3c38bdb66085c3ffba2acb38_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1729470233&width=560&sig=fySKWGAGO%2B9FVtKUkTNLuRneCPGbkY0OQx6BHbe4%2FzI%3D",
+      "reason": "CacheBlade: Unlock Your Innovative Edge in the Wil，在design/product/design领域，获得141人支持，筹得$35,854，达成率108.6%",
+      "ksData": {
+        "goal": 33000.0,
+        "pledged": 35854.0,
+        "usdPledged": 35854.0,
+        "backersCount": 141,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 108.6,
+        "daysSinceLaunch": 601
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-146390569",
+      "brand": "Igor Mileshin",
+      "category": "design",
+      "title": "ESP32 IoT Relay Board: Credit Card Size Automation Board",
+      "titleZh": "ESP32 IoT Relay Board: Credit 卡片 Size Automation Board",
+      "desc": "Compact Automation Board with 4-Channel High-Quality Relays, USB Type-C, Compatible with Alexa & Google Assistant.",
+      "time": "2025-01-23 19:36",
+      "score": 57.2,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/moowow/esp32-iot-relay-board-credit-card-size-automation-board",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/048/319/576/496336f36ef84b4e561b5d3e578fa5c1_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1740565627&width=560&sig=5Dj%2BNUE9PlSysnE8OefJK5zFzQtQNcRlv97c0tplgnM%3D",
+      "reason": "ESP32 IoT Relay Board: Credit Card Size Automation，在design/product/design领域，获得109人支持，筹得$9,152，达成率457.6%",
+      "ksData": {
+        "goal": 2000.0,
+        "pledged": 9152.0,
+        "usdPledged": 9152.0,
+        "backersCount": 109,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 457.6,
+        "daysSinceLaunch": 514
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1515089668",
+      "brand": "AlwayStart",
+      "category": "hardware",
+      "title": "AlwayStart: Never Worry About A Dead Battery Again",
+      "titleZh": "AlwayStart: 再也不 Worry 关于 Dead 电池 Again",
+      "desc": "The world's first smart battery protector that automatically preserves starting power, so your car always starts.",
+      "time": "2026-04-28 13:54",
+      "score": 57.1,
+      "visBreakdown": {
+        "recognition": 6.3,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/alwaystart/no-more-dead-batteries-proactive-and-automatic-protection",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/742/999/51c745dcc1a987a4349285d2dff638b3_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1778852098&width=560&sig=pznGjthe3bsNrDDsWrbdsR8euJauxgIPwqLuhRYtm2w%3D",
+      "reason": "AlwayStart: Never Worry About A Dead Battery Again，在technology/hardware领域，获得1,222人支持，筹得$353,846，Kickstarter Staff Pick，达成率3538.5%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 353846.0,
+        "usdPledged": 353846.0,
+        "backersCount": 1222,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 3538.5,
+        "daysSinceLaunch": 55
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1144758450",
+      "brand": "VitaLink",
+      "category": "hardware",
+      "title": "VitaLink: 20mm Thin 180° Foldable Keyboard & 4K Touchscreen",
+      "titleZh": "VitaLink: 20mm Thin 180° 可折叠 Keyboard & 4K 触摸屏",
+      "desc": "Sleek CNC foldable keyboard with a 4K touch display & speakers. 8 layout options available. Universal for Mac, Win, Linux, PC & iPad.",
+      "time": "2026-04-16 11:47",
+      "score": 57.1,
+      "visBreakdown": {
+        "recognition": 6.5,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 8.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/vitalink/vitalink-20mm-thin-180-foldable-keyboard-and-4k-touchscreen",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/757/832/6b9bda1a8811152e2b9b4f423d737e51_original.jpeg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1778984655&width=560&sig=8i6onWwO4NVb9E4NJPfGd5wGp4I2iS7irZ%2BbeadJZ7s%3D",
+      "reason": "VitaLink: 20mm Thin 180° Foldable Keyboard & 4K To，在technology/hardware领域，获得991人支持，筹得$323,117，达成率8441.7%，视觉亮点：可折叠",
+      "ksData": {
+        "goal": 30000.0,
+        "pledged": 2532509.0,
+        "usdPledged": 323116.84658876,
+        "backersCount": 991,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 8441.7,
+        "daysSinceLaunch": 67
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-188656261",
+      "brand": "Fosi Audio",
+      "category": "audio",
+      "title": "Fosi Audio IM4 Open-Back In-Ear Monitor",
+      "titleZh": "Fosi 音频 IM4 打开-Back In-Ear 监测器",
+      "desc": "Long-Lasting Comfort in Sound and Fit|Hear the Unheard Details|Single Dynamic Driver|For Music Lovers, for Gamers",
+      "time": "2025-09-30 12:59",
+      "score": 57.1,
+      "visBreakdown": {
+        "recognition": 7.3,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 7.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/fosiaudio/fosi-audio-im4-open-back-in-ear-monitor",
+      "tags": [
+        "technology/sound"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/029/123/c97f57f77d5b32a64c8217fe8a85df3a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1759141957&width=560&sig=%2Fq1hDMxOvnpV3n0I8ffa2LSctC%2FDosc2wymGjVLAx5A%3D",
+      "reason": "Fosi Audio IM4 Open-Back In-Ear Monitor，在technology/sound领域，获得741人支持，筹得$97,052，Kickstarter Staff Pick，达成率943.9%",
+      "ksData": {
+        "goal": 80000.0,
+        "pledged": 755102.0,
+        "usdPledged": 97052.42189678,
+        "backersCount": 741,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 943.9,
+        "daysSinceLaunch": 265
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1468826527",
+      "brand": "InkJoy",
+      "category": "hardware",
+      "title": "InkJoy Frame: The True ePaper Canvas",
+      "titleZh": "InkJoy 框架: True ePaper Canvas",
+      "desc": "World's First Home-Ready ePaper Frame: ISFR Vision Engine| Paper-Like | Instant Photo Sharing | Mini App | Cordless | Endless Art",
+      "time": "2025-11-25 14:45",
+      "score": 57.1,
+      "visBreakdown": {
+        "recognition": 6.3,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 8.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/inkjoy/inkjoy-finally-a-true-paper-like-matte-finish-epaper-canvas",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/051/772/325/3b8aab6df59c74c3e7c8caa7389b9839_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1764080520&width=560&sig=ZuElvbqGlOxD6DynJzh64JqZBh2QzS684Kzq7iCdl7g%3D",
+      "reason": "InkJoy Frame: The True ePaper Canvas，在technology/hardware领域，获得676人支持，筹得$415,340，Kickstarter Staff Pick，达成率8312.6%",
+      "ksData": {
+        "goal": 38890.0,
+        "pledged": 3232767.0,
+        "usdPledged": 415340.44078377,
+        "backersCount": 676,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 8312.6,
+        "daysSinceLaunch": 208
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1519622928",
+      "brand": "Artists & Engineers",
+      "category": "audio",
+      "title": "POLYTIK modular synths: playing with graphics and sound (Canceled)",
+      "titleZh": "POLYTIK 模块化 synths: playing 配备 graphics 和 声音 (Canceled)",
+      "desc": "POLYTIK is a collection of beautifully designed hand-held synth modules exploring the border between play and sound.",
+      "time": "2017-01-31 15:06",
+      "score": 57.1,
+      "visBreakdown": {
+        "recognition": 7.3,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 5.2,
+        "diffusionPotential": 5.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/musicofthespheres/polytik-modular-synths-playing-with-graphics-and-s",
+      "tags": [
+        "technology/sound"
+      ],
+      "image": "https://i.kickstarter.com/assets/012/320/737/fda7abd3a5ca67d431c61ea01dfb1a5a_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1481718920&width=560&sig=uNpgw5Ro1IExJWuLCOg3YezLWBXFclCeuX05XqfDYUo%3D",
+      "reason": "POLYTIK modular synths: playing with graphics and ，在technology/sound领域，获得36人支持，筹得$6,344，Kickstarter Staff Pick，达成率25.2%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 20000.0,
+        "pledged": 5045.0,
+        "usdPledged": 6343.8532102,
+        "backersCount": 36,
+        "currency": "GBP",
+        "state": "canceled",
+        "staffPick": true,
+        "percentFunded": 25.2,
+        "daysSinceLaunch": 3428
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-779055193",
+      "brand": "Twelve Twenty-Two Bags",
+      "category": "design",
+      "title": "Twelve Twenty-Two",
+      "titleZh": "Twelve Twenty-Two",
+      "desc": "Travel Duffels with Modern-Day Features",
+      "time": "2024-11-29 06:00",
+      "score": 57.1,
+      "visBreakdown": {
+        "recognition": 7.2,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 5.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1222bags/twelve-twenty-two",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/047/350/409/38f8f37ec8d8bb88da070f1d780702c5_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1732163936&width=560&sig=dkkjcI3T4y%2BME8dCDZAbKnRJ3dPZoObbkCHWYXHXI%2B0%3D",
+      "reason": "Twelve Twenty-Two，在design/product/design领域，获得22人支持，筹得$5,057，Kickstarter Staff Pick，达成率101.1%",
+      "ksData": {
+        "goal": 5000.0,
+        "pledged": 5057.0,
+        "usdPledged": 5057.0,
+        "backersCount": 22,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 101.1,
+        "daysSinceLaunch": 570
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-950503024",
+      "brand": "Lumashot",
+      "category": "camera",
+      "title": "LUMASHOT | The all-in-one kit to make videos the easy way (Canceled)",
+      "titleZh": "LUMASHOT | 一体式 套件 to 制作 videos 简便 way (Canceled)",
+      "desc": "Instant tripod, one-button mic, remote Autocue, and a faster video editing app, all in one portable kit.",
+      "time": "2021-10-05 07:25",
+      "score": 57.0,
+      "visBreakdown": {
+        "recognition": 7.6,
+        "paradigmShift": 5.0,
+        "cmfInnovation": 4.5,
+        "transferability": 4.5,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/lumashot/the-all-in-one-smartphone-video-kit",
+      "tags": [
+        "technology/camera equipment"
+      ],
+      "image": "https://i.kickstarter.com/assets/035/213/549/e4b4dfbfb8eac4d400c0348740f5d226_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1634123978&width=560&sig=la1FWdi2%2FKnbvb9mi1v0EIHxeBxHuGooo1K0gmal2%2BE%3D",
+      "reason": "LUMASHOT | The all-in-one kit to make videos the e，在technology/camera/equipment领域，获得190人支持，筹得$27,348，达成率269.0%",
+      "ksData": {
+        "goal": 14000.0,
+        "pledged": 37659.32,
+        "usdPledged": 27347.5056291052,
+        "backersCount": 190,
+        "currency": "AUD",
+        "state": "canceled",
+        "staffPick": false,
+        "percentFunded": 269.0,
+        "daysSinceLaunch": 1721
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-75659339",
+      "brand": "Siren Cameras Pty Ltd",
+      "category": "camera",
+      "title": "Siren® X-1. Dual Facing HD Action Camera (Canceled)",
+      "titleZh": "Siren® X-1. Dual Facing HD 运动相机 (Canceled)",
+      "desc": "See what you've been missing with the Siren® X-1! \nThere's Two Sides to the Fight. Capture Both.",
+      "time": "2022-08-31 09:01",
+      "score": 57.0,
+      "visBreakdown": {
+        "recognition": 7.7,
+        "paradigmShift": 5.0,
+        "cmfInnovation": 4.5,
+        "transferability": 4.5,
+        "diffusionPotential": 5.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/sirencameras/siren-x-1-dual-facing-hd-action-camera",
+      "tags": [
+        "technology/camera equipment"
+      ],
+      "image": "https://i.kickstarter.com/assets/038/474/489/11c947610614666eb0f1be2ff5cc4ad9_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1662175626&width=560&sig=ZKXmBS9DrFGdxtrs1MrP%2FnIfapSvWa7fJELmN1pHJUg%3D",
+      "reason": "Siren® X-1. Dual Facing HD Action Camera (Canceled，在technology/camera/equipment领域，获得48人支持，筹得$70,306，Kickstarter Staff Pick，达成率118.0%",
+      "ksData": {
+        "goal": 86500.0,
+        "pledged": 102094.32,
+        "usdPledged": 70305.9201161808,
+        "backersCount": 48,
+        "currency": "AUD",
+        "state": "canceled",
+        "staffPick": true,
+        "percentFunded": 118.0,
+        "daysSinceLaunch": 1391
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1799423471",
+      "brand": "Party Robotics",
+      "category": "robot",
+      "title": "Bartendro - A Cocktail Dispensing Robot",
+      "titleZh": "Bartendro - Cocktail Dispensing Robot",
+      "desc": "Bartendro is a modular and open-source cocktail dispensing robot!",
+      "time": "2013-03-01 14:08",
+      "score": 56.9,
+      "visBreakdown": {
+        "recognition": 6.6,
+        "paradigmShift": 5.5,
+        "cmfInnovation": 4.5,
+        "transferability": 5.2,
+        "diffusionPotential": 6.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/partyrobotics/bartendro-a-cocktail-dispensing-robot",
+      "tags": [
+        "technology/robots"
+      ],
+      "image": "https://i.kickstarter.com/assets/011/478/176/9a3fc1957486c37ef42a4f88bce99ff6_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1463683286&width=560&sig=2w5YC2PMxuvv%2B6KEQCCMhvjiPL9%2Fx1i1hMtxPOc5Q6A%3D",
+      "reason": "Bartendro - A Cocktail Dispensing Robot，在technology/robots领域，获得486人支持，筹得$197,465，Kickstarter Staff Pick，达成率146.3%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 135000.0,
+        "pledged": 197464.69,
+        "usdPledged": 197464.69,
+        "backersCount": 486,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 146.3,
+        "daysSinceLaunch": 4861
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-333517001",
+      "brand": "PHYSCE",
+      "category": "gadget",
+      "title": "PHYSCE :World’s First RGB Eco Charger 140W/100W/67W/45W/35W",
+      "titleZh": "PHYSCE :世界’s First RGB Eco 充电器 140W/100W/67W/45W/35W",
+      "desc": "Protection For Batteries | 3D RGB Lighting | Dynamic Power Allocation | Full GaN | Universal Compatibility | Portable | Eco-friendly",
+      "time": "2025-09-29 10:37",
+      "score": 56.9,
+      "visBreakdown": {
+        "recognition": 5.6,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 6.7,
+        "transferability": 5.7,
+        "diffusionPotential": 6.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/physce/physce-rgb-eco-fast-charger",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/050/992/078/b2900690539700fa961f27ef50fcf64f_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1758870809&width=560&sig=rFPe4qUxiTuSJPs1ZlGktxFRM57ugxMFfe%2FAL4jRg5Q%3D",
+      "reason": "PHYSCE :World’s First RGB Eco Charger 140W/100W/67，在technology/gadgets领域，获得90人支持，筹得$7,897，达成率1181.0%",
+      "ksData": {
+        "goal": 100000.0,
+        "pledged": 1181014.0,
+        "usdPledged": 7896.54304736,
+        "backersCount": 90,
+        "currency": "JPY",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1181.0,
+        "daysSinceLaunch": 266
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1487958995",
+      "brand": "iGrowPod",
+      "category": "design",
+      "title": "ALITY – Smart Hydroponic Planter with Full-Spectrum LED",
+      "titleZh": "ALITY – 智能 Hydroponic Planter 配备 全-Spectrum LED",
+      "desc": "Future of Planting | Seed to Harvest | Full Spectrum LED Grow Light | Self-Watering | Height Adjust | Timer | NFC |Smart Temp Indicator",
+      "time": "2026-04-24 11:31",
+      "score": 56.9,
+      "visBreakdown": {
+        "recognition": 6.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/1042383/ality-smart-hydroponic-planter-with-full-spectrum-led",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/466/223/cf6ff959de50cd051e68ee80aea0b3df_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1777012133&width=560&sig=hPvRR28WHk69RVLqJjKcRwys3IsA7e8ytrZyKsOzHf0%3D",
+      "reason": "ALITY – Smart Hydroponic Planter with Full-Spectru，在design/product/design领域，获得74人支持，筹得$7,294，达成率729.4%，视觉亮点：AI驱动",
+      "ksData": {
+        "goal": 1000.0,
+        "pledged": 7294.0,
+        "usdPledged": 7294.0,
+        "backersCount": 74,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 729.4,
+        "daysSinceLaunch": 59
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-547210614",
+      "brand": "motto carpe diem",
+      "category": "design",
+      "title": "G Fold : Ulta Slim Wallet｜Full Bills Unfolded",
+      "titleZh": "G 折叠 : Ulta Slim 钱包｜全 Bills Unfolded",
+      "desc": "Italian Epsom Pattern Leather｜Quick-Cash System｜Initials That Last｜Dual-Side Functionality: RFID/Pay-wave",
+      "time": "2026-05-11 12:00",
+      "score": 56.9,
+      "visBreakdown": {
+        "recognition": 6.8,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.9,
+        "diffusionPotential": 6.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/mottocarpediem/g-fold-ulta-slim-wallet-full-bills-unfolded",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/070/594/e6f27490281e1abd7b064f6a611a2c70_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1774321720&width=560&sig=ydrlNlEsBhN1dwOL3gTM0W%2B%2BQPrTpaRXnsJYhc2K6Nk%3D",
+      "reason": "G Fold : Ulta Slim Wallet｜Full Bills Unfolded，在design/product/design领域，获得72人支持，筹得$7,801，达成率610.9%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 61092.0,
+        "usdPledged": 7800.65481492,
+        "backersCount": 72,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 610.9,
+        "daysSinceLaunch": 42
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-339541628",
+      "brand": "Morwie",
+      "category": "gadget",
+      "title": "Magnetic Handwarmer: Winter Magic in Your Hands",
+      "titleZh": "磁吸 Handwarmer: Winter Magic 于 你的 Hands",
+      "desc": "Power Bank | 10000 mAh | 360° Heating | 16h Battery Life | Magnetic | 3 Heat Levels | Intelligent Protection | Temp Battery Display",
+      "time": "2024-10-15 13:00",
+      "score": 56.8,
+      "visBreakdown": {
+        "recognition": 5.9,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 5.6,
+        "diffusionPotential": 8.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/morwies1/morwie-s1-360-surround-heating-magnetic-hand-warmer",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/046/873/179/1afb79675cbab6073aa3edf09d456fca_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1728920129&width=560&sig=P5yyWeon7U5B51Lrj1pBxmENKydfMSUXyBMADJHMxC4%3D",
+      "reason": "Magnetic Handwarmer: Winter Magic in Your Hands，在technology/gadgets领域，获得1,538人支持，筹得$95,238，达成率1480.0%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 740024.0,
+        "usdPledged": 95238.18050568,
+        "backersCount": 1538,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 1480.0,
+        "daysSinceLaunch": 615
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-798328234",
+      "brand": "Matt Chang",
+      "category": "gadget",
+      "title": "IVYCable P6- Fast-Charging Magnetic Cable & Power Bank",
+      "titleZh": "IVYCable P6- Fast-Charging 磁吸 线材 & 移动电源",
+      "desc": "PD 60W Fast Charging | Pass-Through-Charging Power Bank| One Cable Charges All Your Devices | Self-Folding Magnetic Cable",
+      "time": "2025-01-21 13:56",
+      "score": 56.8,
+      "visBreakdown": {
+        "recognition": 5.9,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 5.6,
+        "diffusionPotential": 8.4
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/azurbit/ivycable-p6-fast-charging-magnetic-cable-and-power-bank",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/047/853/404/3f4265a75dcec475496c6f08699cdae1_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1737034500&width=560&sig=l7QNssWcP2OWpKs0gtSxDCDsvE3S%2B6V%2FRqm6iuyElZ0%3D",
+      "reason": "IVYCable P6- Fast-Charging Magnetic Cable & Power ，在technology/gadgets领域，获得657人支持，筹得$56,183，达成率5618.3%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 1000.0,
+        "pledged": 56183.0,
+        "usdPledged": 56183.0,
+        "backersCount": 657,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 5618.3,
+        "daysSinceLaunch": 517
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-130448845",
+      "brand": "asap Technologies",
+      "category": "gadget",
+      "title": "Miko- 30W GaN Fast Charger That Lives On Your Keyring",
+      "titleZh": "Miko- 30W GaN Fast 充电器 能 Lives On 你的 钥匙圈",
+      "desc": "Key fob sized 30W GaN charger | Fast charges your phone | Foldable prongs | USB-C cable included | Always on your keys",
+      "time": "2026-06-09 14:48",
+      "score": 56.8,
+      "visBreakdown": {
+        "recognition": 6.6,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.5,
+        "diffusionPotential": 8.0
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/asaptechnologies/miko",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/054/029/849/8474798b9b4886e9cbe67b6065ddd9cf_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1780919873&width=560&sig=OFG1BvgEcZcGirsJx3Mp69XgVSfDyYHjeGyzjDhqMHo%3D",
+      "reason": "Miko- 30W GaN Fast Charger That Lives On Your Keyr，在technology/gadgets领域，获得519人支持，筹得$31,301，Kickstarter Staff Pick，达成率313.0%，视觉亮点：可折叠",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 31301.0,
+        "usdPledged": 31301.0,
+        "backersCount": 519,
+        "currency": "USD",
+        "state": "live",
+        "staffPick": true,
+        "percentFunded": 313.0,
+        "daysSinceLaunch": 12
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-458493322",
+      "brand": "BOOZOOKA",
+      "category": "design",
+      "title": "BOOZOOKA — The Future of Drinking",
+      "titleZh": "BOOZOOKA — 未来的 Drinking",
+      "desc": "Dual-Loaded. Fully Insulated. Ready for Action.",
+      "time": "2025-05-05 18:02",
+      "score": 56.7,
+      "visBreakdown": {
+        "recognition": 7.1,
+        "paradigmShift": 4.5,
+        "cmfInnovation": 5.2,
+        "transferability": 5.5,
+        "diffusionPotential": 5.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/gagegotcher/boozooka-the-future-of-drinking",
+      "tags": [
+        "design/product design"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/062/063/ee20fbfaecc5379b53b66fcfe447572f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1745778394&width=560&sig=DIfXRbNxWCQjElmIqSwCktflJfXDTdBaYkdfmInsNfE%3D",
+      "reason": "BOOZOOKA — The Future of Drinking，在design/product/design领域，获得472人支持，筹得$24,201，达成率69.1%",
+      "ksData": {
+        "goal": 35000.0,
+        "pledged": 24201.0,
+        "usdPledged": 24201.0,
+        "backersCount": 472,
+        "currency": "USD",
+        "state": "failed",
+        "staffPick": false,
+        "percentFunded": 69.1,
+        "daysSinceLaunch": 412
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1475574495",
+      "brand": "Vinabot",
+      "category": "hardware",
+      "title": "Vinabot AI Talking Frame: AI Magic. Alive in a Frame.",
+      "titleZh": "Vinabot AI Talking 框架: AI Magic. Alive 于 框架.",
+      "desc": "Photos Come Alive & Conversation | Personal Memory | Voice Cloning | Custom Personality & Intelligence | 40+ Language Support",
+      "time": "2026-02-10 14:00",
+      "score": 56.7,
+      "visBreakdown": {
+        "recognition": 6.0,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 6.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/vinabotaiframe/vinabot-ai-talking-frame-ai-magic-alive-in-a-frame",
+      "tags": [
+        "technology/hardware"
+      ],
+      "image": "https://i.kickstarter.com/assets/052/562/594/8433f706d4b2f47991b216c930a5262f_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1770799558&width=560&sig=meRRmUNljLa%2BrpiYwDidFTJu%2FmaO4CmWhfbm%2BPbvNrI%3D",
+      "reason": "Vinabot AI Talking Frame: AI Magic. Alive in a Fra，在technology/hardware领域，获得99人支持，筹得$60,277，Kickstarter Staff Pick，达成率602.5%",
+      "ksData": {
+        "goal": 78177.0,
+        "pledged": 470989.0,
+        "usdPledged": 60276.86136726,
+        "backersCount": 99,
+        "currency": "HKD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 602.5,
+        "daysSinceLaunch": 132
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1853716525",
+      "brand": "LingoYak",
+      "category": "gadget",
+      "title": "LingoBook & LingoYak: The Language Learning Revolution",
+      "titleZh": "LingoBook & LingoYak: Language Learning 革新",
+      "desc": "The Future of Language Learning is Here | Driven by AI & Machine Learning | Learn 10x Faster",
+      "time": "2024-05-28 13:00",
+      "score": 56.7,
+      "visBreakdown": {
+        "recognition": 5.9,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 6.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/lingoyak/lingobook-and-lingoyak-the-language-learning-revolution",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/045/500/443/189fc6875d0451792f1931893e96bcce_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1719240047&width=560&sig=POh01w7Iw%2F01by2KD0KuOMDsjdkWEhKZcNAacDx9%2FcU%3D",
+      "reason": "LingoBook & LingoYak: The Language Learning Revolu，在technology/gadgets领域，获得74人支持，筹得$8,072，达成率4487.6%",
+      "ksData": {
+        "goal": 3000.0,
+        "pledged": 134628.0,
+        "usdPledged": 8072.23968252,
+        "backersCount": 74,
+        "currency": "MXN",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 4487.6,
+        "daysSinceLaunch": 755
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1066121212",
+      "brand": "LingoYak",
+      "category": "gadget",
+      "title": "LingoYak: The Future of Language Learning",
+      "titleZh": "LingoYak: 未来的 Language Learning",
+      "desc": "Get 1 FREE Lifetime Subscription - Learn and Practice any Language Your Way with AI Chat Technology - Built for Progress for All Levels",
+      "time": "2025-07-01 20:00",
+      "score": 56.7,
+      "visBreakdown": {
+        "recognition": 5.9,
+        "paradigmShift": 6.3,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 6.9
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/lingoyak/lingoyak-the-chatgpt-ai-powered-language-learning-shortcut",
+      "tags": [
+        "technology/gadgets"
+      ],
+      "image": "https://i.kickstarter.com/assets/049/238/951/25b9ffa68e4831616317277972d1aa12_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1747017706&width=560&sig=nSD6D%2F0xSbFA7u0csPClvUef2B7J%2F5wmWdNfq3Orp1U%3D",
+      "reason": "LingoYak: The Future of Language Learning，在technology/gadgets领域，获得47人支持，筹得$8,985，达成率8455.0%",
+      "ksData": {
+        "goal": 2000.0,
+        "pledged": 169100.0,
+        "usdPledged": 8985.270544,
+        "backersCount": 47,
+        "currency": "MXN",
+        "state": "successful",
+        "staffPick": false,
+        "percentFunded": 8455.0,
+        "daysSinceLaunch": 355
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1251255417",
+      "brand": "Mime Industries",
+      "category": "robot",
+      "title": "MeArm Pi - A robot arm anyone can build",
+      "titleZh": "MeArm Pi - robot arm anyone can 构建",
+      "desc": "A robot kit for all ages, that's easy to make and control. Powered by Raspberry Pi. Learn robotics, learn to code, build the future.",
+      "time": "2017-02-07 12:01",
+      "score": 56.6,
+      "visBreakdown": {
+        "recognition": 6.3,
+        "paradigmShift": 5.5,
+        "cmfInnovation": 4.5,
+        "transferability": 4.9,
+        "diffusionPotential": 7.6
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/mime/mearm-pi-build-your-own-raspberry-pi-powered-robot",
+      "tags": [
+        "technology/robots"
+      ],
+      "image": "https://i.kickstarter.com/assets/013/990/124/3d689377845d99a9e1cff70d13ac84d0_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1486381139&width=560&sig=cXvykG6tucqvzXHbVMUWLizFe9qcLbvy%2FG%2FN%2Fe5Z0vY%3D",
+      "reason": "MeArm Pi - A robot arm anyone can build，在technology/robots领域，获得852人支持，筹得$70,383，Kickstarter Staff Pick，达成率563.8%",
+      "ksData": {
+        "goal": 10000.0,
+        "pledged": 56376.0,
+        "usdPledged": 70382.63749536,
+        "backersCount": 852,
+        "currency": "GBP",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 563.8,
+        "daysSinceLaunch": 3422
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-868423793",
+      "brand": "EagleLive Systems GmbH",
+      "category": "camera",
+      "title": "follow X - Wireless Follow Focus, Aperture and Cameracontrol (Canceled)",
+      "titleZh": "follow X - Wireless Follow 聚焦, Aperture 和 Cameracontrol (Canceled)",
+      "desc": "EagleLive Systems follow X: First Revolutionary Follow Focus to  control Focus, Aperture and Camera together at same time - WIRELESS.",
+      "time": "2017-06-16 09:50",
+      "score": 56.6,
+      "visBreakdown": {
+        "recognition": 7.3,
+        "paradigmShift": 5.8,
+        "cmfInnovation": 4.5,
+        "transferability": 4.5,
+        "diffusionPotential": 4.5
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/eaglelive/follow-x-wireless-follow-focus-aperture-and-camera",
+      "tags": [
+        "technology/camera equipment"
+      ],
+      "image": "https://i.kickstarter.com/assets/014/719/146/0dd6d1606d741d1fd460af77b395b96b_original.jpg?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1498043346&width=560&sig=QGHj2CCJbLLGX1D0vtJp57NcJJNELtv5OH7%2F7PKKrog%3D",
+      "reason": "follow X - Wireless Follow Focus, Aperture and Cam，在technology/camera/equipment领域，获得14人支持，筹得$16,469，达成率29.3%",
+      "ksData": {
+        "goal": 50000.0,
+        "pledged": 14675.0,
+        "usdPledged": 16469.01977725,
+        "backersCount": 14,
+        "currency": "EUR",
+        "state": "canceled",
+        "staffPick": false,
+        "percentFunded": 29.3,
+        "daysSinceLaunch": 3293
+      },
+      "sourceData": {}
+    },
+    {
+      "id": "ks-1233155853",
+      "brand": "3D Printing Builds",
+      "category": "hardware",
+      "title": "Link-A-Link | The 3D Printable Modular Arm Mounting System",
+      "titleZh": "链接--链接 | 3D Printable 模块化 Arm Mounting 系统",
+      "desc": "Mount cameras, phones, tablets, microphones, lights, and more — exactly where you need them.",
+      "time": "2026-04-15 16:59",
+      "score": 56.5,
+      "visBreakdown": {
+        "recognition": 5.6,
+        "paradigmShift": 5.3,
+        "cmfInnovation": 4.5,
+        "transferability": 5.6,
+        "diffusionPotential": 9.1
+      },
+      "source": "kickstarter",
+      "sourceName": "Kickstarter",
+      "url": "https://www.kickstarter.com/projects/3dprintingbuilds/link-a-link-a-3d-printable-modular-boom-arm-system",
+      "tags": [
+        "technology/3d printing"
+      ],
+      "image": "https://i.kickstarter.com/assets/053/357/043/2654fb52aac193616ff526826cccea66_original.png?anim=false&fit=cover&gravity=auto&height=315&origin=ugc&q=92&v=1776291556&width=560&sig=1JY7TfdfzFUkokVFROqRg4zHbo%2F%2FVdiCtepfRdwLzrQ%3D",
+      "reason": "Link-A-Link | The 3D Printable Modular Arm Mountin，在technology/3d/printing领域，获得2,469人支持，筹得$156,600，Kickstarter Staff Pick，达成率15660.0%，视觉亮点：模块化/磁吸",
+      "ksData": {
+        "goal": 1000.0,
+        "pledged": 156600.0,
+        "usdPledged": 156600.0,
+        "backersCount": 2469,
+        "currency": "USD",
+        "state": "successful",
+        "staffPick": true,
+        "percentFunded": 15660.0,
+        "daysSinceLaunch": 67
+      },
+      "sourceData": {}
+    }
+  ]
 };
