@@ -1,5 +1,64 @@
 [
   {
+    "id": "no-signal-20260627",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-06-27)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。7批次搜索覆盖14品类44品牌。小米YU7 GT（5/21发布, 6/22纽北圈速纪录）运动化强化设计已于5月收录；微软Surface Pro/Laptop 2026（6/16发布）属常规升级；Nothing Phone 3（2025/7发布）已收录不重复；Ulefone Armor系列（Armor 33/34 Pro）属常规三防工艺演进。连续7天无信号（6/19-6/24、6/26、6/27），6月下半月消费电子CMF创新节奏持续放缓。",
+    "constraintChange": "无",
+    "time": "2026-06-27 22:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共7批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "小米YU7 GT（5/21发布）：纽北圈速10:29.483纪录（6/22公布），运动化强化外观，售价38.99万，已在5月新品周期关注",
+      "微软Surface Pro/Laptop 2026（6/16发布）：骁龙X2换代+沙漫金/翡翠绿配色+100%再生铝，属常规配置升级和配色扩展，非CMF范式突破",
+      "Nothing Phone 3（2025/7发布）：透明设计再进化，但已属历史信号不重复收录",
+      "Ulefone Armor 33/34 Pro系列（2026上半年发布）：22500mAh电池+三防工艺演进，工艺层面未突破",
+      "618促销收尾：价格战非CMF创新",
+      "连续7天无信号（6/19-6/24、6/26、6/27），6月下半月消费电子CMF创新节奏持续放缓"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。6月下半月监控品牌列表内无显著CMF范式突破，行业焦点在618促销收尾、AI端侧化演进和非监控品牌的折叠屏发布（vivo X Fold6 6/26已发布但不在监控列表）。小米YU7 GT纽北纪录6/22公布但产品5/21已发布，工艺层面属既有产品运动化套件升级。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-06-27T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-06-27T22:00:00+08:00",
+    "updatedAt": "2026-06-27T22:00:00+08:00",
+    "url": ""
+  },
+  {
     "id": "no-signal-20260626",
     "brand": "无",
     "category": "none",
