@@ -1,5 +1,5 @@
 {
-    "lastUpdated": "2026-06-27",
+    "lastUpdated": "2026-06-28",
     "sourceDate": "2026-06-11",
     "source": "crowd-pulse/products/ks-recent.json",
     "ingestPolicy": "多平台来源（kickstarter），过滤非视觉产品，usdPledged >= 5000（众筹）/ 视觉信号过滤（销售平台）",
@@ -75,7 +75,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 5305.4,
-                "daysSinceLaunch": 274
+                "daysSinceLaunch": 275
             },
             "sourceData": {}
         },
@@ -112,7 +112,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 16529.6,
-                "daysSinceLaunch": 520
+                "daysSinceLaunch": 521
             },
             "sourceData": {}
         },
@@ -149,7 +149,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 14124.3,
-                "daysSinceLaunch": 87
+                "daysSinceLaunch": 88
             },
             "sourceData": {}
         },
@@ -260,7 +260,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2512.9,
-                "daysSinceLaunch": 87
+                "daysSinceLaunch": 88
             },
             "sourceData": {}
         },
@@ -297,7 +297,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 29541.2,
-                "daysSinceLaunch": 99
+                "daysSinceLaunch": 100
             },
             "sourceData": {}
         },
@@ -371,7 +371,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2144.4,
-                "daysSinceLaunch": 214
+                "daysSinceLaunch": 215
             },
             "sourceData": {}
         },
@@ -408,7 +408,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 18626.7,
-                "daysSinceLaunch": 218
+                "daysSinceLaunch": 219
             },
             "sourceData": {}
         },
@@ -556,7 +556,7 @@
                 "state": "live",
                 "staffPick": true,
                 "percentFunded": 396.6,
-                "daysSinceLaunch": 24
+                "daysSinceLaunch": 25
             },
             "sourceData": {}
         },
@@ -593,7 +593,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1383.9,
-                "daysSinceLaunch": 696
+                "daysSinceLaunch": 697
             },
             "sourceData": {}
         },
@@ -667,7 +667,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 237.7,
-                "daysSinceLaunch": 550
+                "daysSinceLaunch": 551
             },
             "sourceData": {}
         },
@@ -852,7 +852,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 5235.2,
-                "daysSinceLaunch": 51
+                "daysSinceLaunch": 52
             },
             "sourceData": {}
         },
@@ -926,7 +926,7 @@
                 "state": "live",
                 "staffPick": false,
                 "percentFunded": 214.1,
-                "daysSinceLaunch": 25
+                "daysSinceLaunch": 26
             },
             "sourceData": {}
         },
@@ -963,7 +963,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 6379.8,
-                "daysSinceLaunch": 136
+                "daysSinceLaunch": 137
             },
             "sourceData": {}
         },
@@ -1000,7 +1000,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 8229.0,
-                "daysSinceLaunch": 143
+                "daysSinceLaunch": 144
             },
             "sourceData": {}
         },
@@ -1148,7 +1148,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1384.1,
-                "daysSinceLaunch": 227
+                "daysSinceLaunch": 228
             },
             "sourceData": {}
         },
@@ -1259,7 +1259,7 @@
                 "state": "live",
                 "staffPick": true,
                 "percentFunded": 5877.9,
-                "daysSinceLaunch": 59
+                "daysSinceLaunch": 60
             },
             "sourceData": {}
         },
@@ -1370,7 +1370,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 3459.9,
-                "daysSinceLaunch": 220
+                "daysSinceLaunch": 221
             },
             "sourceData": {}
         },
@@ -1444,7 +1444,7 @@
                 "state": "failed",
                 "staffPick": false,
                 "percentFunded": 13.4,
-                "daysSinceLaunch": 1423
+                "daysSinceLaunch": 1424
             },
             "sourceData": {}
         },
@@ -1555,7 +1555,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2063.8,
-                "daysSinceLaunch": 784
+                "daysSinceLaunch": 785
             },
             "sourceData": {}
         },
@@ -1629,7 +1629,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 642.9,
-                "daysSinceLaunch": 113
+                "daysSinceLaunch": 114
             },
             "sourceData": {}
         },
@@ -1740,7 +1740,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 2731.4,
-                "daysSinceLaunch": 695
+                "daysSinceLaunch": 696
             },
             "sourceData": {}
         },
@@ -1777,7 +1777,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 109.1,
-                "daysSinceLaunch": 290
+                "daysSinceLaunch": 291
             },
             "sourceData": {}
         },
@@ -1851,7 +1851,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 21667.8,
-                "daysSinceLaunch": 424
+                "daysSinceLaunch": 425
             },
             "sourceData": {}
         },
@@ -1962,7 +1962,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 253.3,
-                "daysSinceLaunch": 1844
+                "daysSinceLaunch": 1845
             },
             "sourceData": {}
         },
@@ -2147,7 +2147,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 118.5,
-                "daysSinceLaunch": 243
+                "daysSinceLaunch": 244
             },
             "sourceData": {}
         },
@@ -2221,7 +2221,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 108.2,
-                "daysSinceLaunch": 291
+                "daysSinceLaunch": 292
             },
             "sourceData": {}
         },
@@ -2332,7 +2332,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 131.5,
-                "daysSinceLaunch": 67
+                "daysSinceLaunch": 68
             },
             "sourceData": {}
         },
@@ -2406,7 +2406,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 3849.6,
-                "daysSinceLaunch": 80
+                "daysSinceLaunch": 81
             },
             "sourceData": {}
         },
@@ -2443,7 +2443,7 @@
                 "state": "failed",
                 "staffPick": false,
                 "percentFunded": 41.9,
-                "daysSinceLaunch": 2657
+                "daysSinceLaunch": 2658
             },
             "sourceData": {}
         },
@@ -2591,7 +2591,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 6786.5,
-                "daysSinceLaunch": 640
+                "daysSinceLaunch": 641
             },
             "sourceData": {}
         },
@@ -2628,7 +2628,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2938.4,
-                "daysSinceLaunch": 632
+                "daysSinceLaunch": 633
             },
             "sourceData": {}
         },
@@ -2702,7 +2702,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1499.2,
-                "daysSinceLaunch": 73
+                "daysSinceLaunch": 74
             },
             "sourceData": {}
         },
@@ -2739,7 +2739,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 343.1,
-                "daysSinceLaunch": 661
+                "daysSinceLaunch": 662
             },
             "sourceData": {}
         },
@@ -2850,7 +2850,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2086.3,
-                "daysSinceLaunch": 437
+                "daysSinceLaunch": 438
             },
             "sourceData": {}
         },
@@ -2887,7 +2887,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 3354.9,
-                "daysSinceLaunch": 122
+                "daysSinceLaunch": 123
             },
             "sourceData": {}
         },
@@ -2924,7 +2924,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1804.8,
-                "daysSinceLaunch": 73
+                "daysSinceLaunch": 74
             },
             "sourceData": {}
         },
@@ -2961,7 +2961,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2812.9,
-                "daysSinceLaunch": 374
+                "daysSinceLaunch": 375
             },
             "sourceData": {}
         },
@@ -2998,7 +2998,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2001.4,
-                "daysSinceLaunch": 290
+                "daysSinceLaunch": 291
             },
             "sourceData": {}
         },
@@ -3035,7 +3035,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 3889.7,
-                "daysSinceLaunch": 253
+                "daysSinceLaunch": 254
             },
             "sourceData": {}
         },
@@ -3072,7 +3072,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1773.8,
-                "daysSinceLaunch": 78
+                "daysSinceLaunch": 79
             },
             "sourceData": {}
         },
@@ -3183,7 +3183,7 @@
                 "state": "live",
                 "staffPick": true,
                 "percentFunded": 1433.5,
-                "daysSinceLaunch": 24
+                "daysSinceLaunch": 25
             },
             "sourceData": {}
         },
@@ -3220,7 +3220,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 415.2,
-                "daysSinceLaunch": 493
+                "daysSinceLaunch": 494
             },
             "sourceData": {}
         },
@@ -3257,7 +3257,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 557.6,
-                "daysSinceLaunch": 648
+                "daysSinceLaunch": 649
             },
             "sourceData": {}
         },
@@ -3294,7 +3294,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 496.3,
-                "daysSinceLaunch": 465
+                "daysSinceLaunch": 466
             },
             "sourceData": {}
         },
@@ -3405,7 +3405,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2084.6,
-                "daysSinceLaunch": 73
+                "daysSinceLaunch": 74
             },
             "sourceData": {}
         },
@@ -3442,7 +3442,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 2304.2,
-                "daysSinceLaunch": 99
+                "daysSinceLaunch": 100
             },
             "sourceData": {}
         },
@@ -3479,7 +3479,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1108.5,
-                "daysSinceLaunch": 73
+                "daysSinceLaunch": 74
             },
             "sourceData": {}
         },
@@ -3627,7 +3627,7 @@
                 "state": "failed",
                 "staffPick": false,
                 "percentFunded": 74.8,
-                "daysSinceLaunch": 1991
+                "daysSinceLaunch": 1992
             },
             "sourceData": {}
         },
@@ -3812,7 +3812,7 @@
                 "state": "live",
                 "staffPick": false,
                 "percentFunded": 811.6,
-                "daysSinceLaunch": 31
+                "daysSinceLaunch": 32
             },
             "sourceData": {}
         },
@@ -3960,7 +3960,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 12107.9,
-                "daysSinceLaunch": 101
+                "daysSinceLaunch": 102
             },
             "sourceData": {}
         },
@@ -3997,7 +3997,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 18842.3,
-                "daysSinceLaunch": 64
+                "daysSinceLaunch": 65
             },
             "sourceData": {}
         },
@@ -4145,7 +4145,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1083.4,
-                "daysSinceLaunch": 65
+                "daysSinceLaunch": 66
             },
             "sourceData": {}
         },
@@ -4182,7 +4182,7 @@
                 "state": "live",
                 "staffPick": false,
                 "percentFunded": 1552.3,
-                "daysSinceLaunch": 17
+                "daysSinceLaunch": 18
             },
             "sourceData": {}
         },
@@ -4219,7 +4219,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1388.3,
-                "daysSinceLaunch": 136
+                "daysSinceLaunch": 137
             },
             "sourceData": {}
         },
@@ -4256,7 +4256,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 587.6,
-                "daysSinceLaunch": 3051
+                "daysSinceLaunch": 3052
             },
             "sourceData": {}
         },
@@ -4552,7 +4552,7 @@
                 "state": "failed",
                 "staffPick": true,
                 "percentFunded": 11.8,
-                "daysSinceLaunch": 421
+                "daysSinceLaunch": 422
             },
             "sourceData": {}
         },
@@ -4848,7 +4848,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1519.1,
-                "daysSinceLaunch": 331
+                "daysSinceLaunch": 332
             },
             "sourceData": {}
         },
@@ -4922,7 +4922,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 981.1,
-                "daysSinceLaunch": 129
+                "daysSinceLaunch": 130
             },
             "sourceData": {}
         },
@@ -5107,7 +5107,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1691.6,
-                "daysSinceLaunch": 122
+                "daysSinceLaunch": 123
             },
             "sourceData": {}
         },
@@ -5218,7 +5218,7 @@
                 "state": "live",
                 "staffPick": false,
                 "percentFunded": 33.3,
-                "daysSinceLaunch": 38
+                "daysSinceLaunch": 39
             },
             "sourceData": {}
         },
@@ -5255,7 +5255,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 864.4,
-                "daysSinceLaunch": 330
+                "daysSinceLaunch": 331
             },
             "sourceData": {}
         },
@@ -5292,7 +5292,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 161.1,
-                "daysSinceLaunch": 400
+                "daysSinceLaunch": 401
             },
             "sourceData": {}
         },
@@ -5329,7 +5329,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 158.8,
-                "daysSinceLaunch": 377
+                "daysSinceLaunch": 378
             },
             "sourceData": {}
         },
@@ -5440,7 +5440,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 1371.0,
-                "daysSinceLaunch": 703
+                "daysSinceLaunch": 704
             },
             "sourceData": {}
         },
@@ -5551,7 +5551,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1737.6,
-                "daysSinceLaunch": 92
+                "daysSinceLaunch": 93
             },
             "sourceData": {}
         },
@@ -5588,7 +5588,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1030.1,
-                "daysSinceLaunch": 234
+                "daysSinceLaunch": 235
             },
             "sourceData": {}
         },
@@ -5662,7 +5662,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 8234.8,
-                "daysSinceLaunch": 797
+                "daysSinceLaunch": 798
             },
             "sourceData": {}
         },
@@ -5699,7 +5699,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 211.9,
-                "daysSinceLaunch": 136
+                "daysSinceLaunch": 137
             },
             "sourceData": {}
         },
@@ -5884,7 +5884,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 19271.7,
-                "daysSinceLaunch": 103
+                "daysSinceLaunch": 104
             },
             "sourceData": {}
         },
@@ -5958,7 +5958,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 5225.7,
-                "daysSinceLaunch": 521
+                "daysSinceLaunch": 522
             },
             "sourceData": {}
         },
@@ -6032,7 +6032,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 205.8,
-                "daysSinceLaunch": 371
+                "daysSinceLaunch": 372
             },
             "sourceData": {}
         },
@@ -6106,7 +6106,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 5338.3,
-                "daysSinceLaunch": 645
+                "daysSinceLaunch": 646
             },
             "sourceData": {}
         },
@@ -6180,7 +6180,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 252.2,
-                "daysSinceLaunch": 764
+                "daysSinceLaunch": 765
             },
             "sourceData": {}
         },
@@ -6217,7 +6217,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 165.9,
-                "daysSinceLaunch": 486
+                "daysSinceLaunch": 487
             },
             "sourceData": {}
         },
@@ -6365,7 +6365,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 1846.6,
-                "daysSinceLaunch": 213
+                "daysSinceLaunch": 214
             },
             "sourceData": {}
         },
@@ -6439,7 +6439,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 111.6,
-                "daysSinceLaunch": 686
+                "daysSinceLaunch": 687
             },
             "sourceData": {}
         },
@@ -6513,7 +6513,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 334.3,
-                "daysSinceLaunch": 655
+                "daysSinceLaunch": 656
             },
             "sourceData": {}
         },
@@ -6550,7 +6550,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 108.6,
-                "daysSinceLaunch": 605
+                "daysSinceLaunch": 606
             },
             "sourceData": {}
         },
@@ -6587,7 +6587,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 457.6,
-                "daysSinceLaunch": 519
+                "daysSinceLaunch": 520
             },
             "sourceData": {}
         },
@@ -6735,7 +6735,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 8312.6,
-                "daysSinceLaunch": 213
+                "daysSinceLaunch": 214
             },
             "sourceData": {}
         },
@@ -6772,7 +6772,7 @@
                 "state": "canceled",
                 "staffPick": true,
                 "percentFunded": 25.2,
-                "daysSinceLaunch": 3433
+                "daysSinceLaunch": 3434
             },
             "sourceData": {}
         },
@@ -6920,7 +6920,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 146.3,
-                "daysSinceLaunch": 4865
+                "daysSinceLaunch": 4866
             },
             "sourceData": {}
         },
@@ -7105,7 +7105,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 5618.3,
-                "daysSinceLaunch": 521
+                "daysSinceLaunch": 522
             },
             "sourceData": {}
         },
@@ -7142,7 +7142,7 @@
                 "state": "live",
                 "staffPick": true,
                 "percentFunded": 313.0,
-                "daysSinceLaunch": 17
+                "daysSinceLaunch": 18
             },
             "sourceData": {}
         },
@@ -7179,7 +7179,7 @@
                 "state": "failed",
                 "staffPick": false,
                 "percentFunded": 69.1,
-                "daysSinceLaunch": 417
+                "daysSinceLaunch": 418
             },
             "sourceData": {}
         },
@@ -7216,7 +7216,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 602.5,
-                "daysSinceLaunch": 136
+                "daysSinceLaunch": 137
             },
             "sourceData": {}
         },
@@ -7290,7 +7290,7 @@
                 "state": "successful",
                 "staffPick": false,
                 "percentFunded": 8455.0,
-                "daysSinceLaunch": 360
+                "daysSinceLaunch": 361
             },
             "sourceData": {}
         },
@@ -7401,7 +7401,7 @@
                 "state": "successful",
                 "staffPick": true,
                 "percentFunded": 15660.0,
-                "daysSinceLaunch": 72
+                "daysSinceLaunch": 73
             },
             "sourceData": {}
         }
