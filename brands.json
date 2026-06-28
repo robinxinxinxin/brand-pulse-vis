@@ -1,0 +1,741 @@
+{
+  "lastUpdated": "2026-06-28",
+  "sourcePriority": {
+    "tier0_official": "品牌官网、官方微博、公众号、新闻稿",
+    "tier1_media": "36氪、爱范儿、IT之家、The Verge 等权威科技媒体",
+    "tier2_vertical": "充电头网、音频应用、无人机之家等垂直媒体",
+    "blockList": [
+      "今日头条自媒体",
+      "百家号",
+      "搜狐号",
+      "网易号",
+      "企鹅号"
+    ]
+  },
+  "categories": {
+    "car": "汽车",
+    "phone": "手机/平板",
+    "wearable": "可穿戴",
+    "audio": "音频",
+    "smart": "智能家居",
+    "robot": "扫地机器人",
+    "lawn": "割草机器人",
+    "pool": "泳池设备",
+    "power": "便携储能",
+    "projector": "智能投影",
+    "gaming": "电竞设备",
+    "mobility": "出行工具",
+    "accessory": "充电配件",
+    "camera": "影像设备",
+    "laptop": "笔记本电脑",
+    "ai_hardware": "AI原生硬件"
+  },
+  "brands": [
+    {
+      "name": "小米汽车",
+      "nameEn": "Xiaomi Auto",
+      "category": "car",
+      "type": "智能电动车",
+      "monitored": true,
+      "officialSources": [
+        "https://www.mi.com/auto"
+      ]
+    },
+    {
+      "name": "特斯拉",
+      "nameEn": "Tesla",
+      "category": "car",
+      "type": "智能电动车",
+      "monitored": true,
+      "officialSources": [
+        "https://www.tesla.cn"
+      ]
+    },
+    {
+      "name": "享界",
+      "nameEn": "Stelato",
+      "category": "car",
+      "type": "智能电动车",
+      "monitored": true,
+      "officialSources": [],
+      "monitorTier": "D",
+      "monitorFrequency": "monthly",
+      "role": "risk_case",
+      "whyMonitor": "officialSources 为空，汽车品牌信息噪音高，降级为月度观察",
+      "signalTypes": ["CMF"],
+      "dropCondition": "补源前维持 D 层，连续 90 天无有效信号则暂停"
+    },
+    {
+      "name": "华为",
+      "nameEn": "Huawei",
+      "category": "phone",
+      "type": "手机/笔记本/可穿戴",
+      "monitored": true,
+      "officialSources": [
+        "https://consumer.huawei.com/cn/"
+      ]
+    },
+    {
+      "name": "OPPO",
+      "nameEn": "OPPO",
+      "category": "phone",
+      "type": "智能手机",
+      "monitored": true,
+      "officialSources": [
+        "https://www.oppo.com/cn/"
+      ]
+    },
+    {
+      "name": "三星",
+      "nameEn": "Samsung",
+      "category": "phone",
+      "type": "智能手机",
+      "monitored": true,
+      "officialSources": [
+        "https://www.samsung.com/cn/"
+      ]
+    },
+    {
+      "name": "联想moto",
+      "nameEn": "Motorola",
+      "category": "phone",
+      "type": "折叠屏手机",
+      "monitored": true,
+      "officialSources": [
+        "https://www.motorola.com.cn/"
+      ]
+    },
+    {
+      "name": "Nothing",
+      "nameEn": "Nothing",
+      "category": "phone",
+      "type": "透明设计手机/耳机",
+      "monitored": true,
+      "officialSources": [
+        "https://nothing.tech/"
+      ]
+    },
+    {
+      "name": "Ulefone",
+      "nameEn": "Ulefone",
+      "category": "phone",
+      "type": "三防手机",
+      "monitored": true,
+      "officialSources": [
+        "https://www.ulefone.com/"
+      ]
+    },
+    {
+      "name": "Oura",
+      "nameEn": "Oura",
+      "category": "wearable",
+      "type": "智能戒指",
+      "monitored": true,
+      "officialSources": [
+        "https://ouraring.com/"
+      ]
+    },
+    {
+      "name": "WHOOP",
+      "nameEn": "WHOOP",
+      "category": "wearable",
+      "type": "无屏健康穿戴",
+      "monitored": true,
+      "officialSources": [
+        "https://www.whoop.com/"
+      ]
+    },
+    {
+      "name": "佳明Garmin",
+      "nameEn": "Garmin",
+      "category": "wearable",
+      "type": "运动手表",
+      "monitored": true,
+      "officialSources": [
+        "https://www.garmin.com.cn/"
+      ]
+    },
+    {
+      "name": "索尼",
+      "nameEn": "Sony",
+      "category": "audio",
+      "type": "音频/影像设备",
+      "monitored": true,
+      "officialSources": [
+        "https://www.sony.com.cn/"
+      ]
+    },
+    {
+      "name": "韶音Shokz",
+      "nameEn": "Shokz",
+      "category": "audio",
+      "type": "开放式耳机",
+      "monitored": true,
+      "officialSources": [
+        "https://shokz.com/"
+      ]
+    },
+    {
+      "name": "微软Surface",
+      "nameEn": "Microsoft Surface",
+      "category": "smart",
+      "type": "二合一电脑",
+      "monitored": true,
+      "officialSources": [
+        "https://www.microsoft.com/zh-cn/surface"
+      ]
+    },
+    {
+      "name": "追觅Dreame",
+      "nameEn": "Dreame",
+      "category": "robot",
+      "type": "清洁机器人/智能家居",
+      "monitored": true,
+      "officialSources": [
+        "https://www.dreametech.com/"
+      ]
+    },
+    {
+      "name": "石头Roborock",
+      "nameEn": "Roborock",
+      "category": "robot",
+      "type": "扫地机器人",
+      "monitored": true,
+      "officialSources": [
+        "https://www.roborock.com/"
+      ]
+    },
+    {
+      "name": "科沃斯Ecovacs",
+      "nameEn": "Ecovacs",
+      "category": "robot",
+      "type": "扫地机器人",
+      "monitored": true,
+      "officialSources": [
+        "https://www.ecovacs.cn/"
+      ]
+    },
+    {
+      "name": "云鲸Narwal",
+      "nameEn": "Narwal",
+      "category": "robot",
+      "type": "扫地机器人",
+      "monitored": true,
+      "officialSources": [
+        "https://www.narwal.com/"
+      ]
+    },
+    {
+      "name": "库犸Mammotion",
+      "nameEn": "Mammotion",
+      "category": "lawn",
+      "type": "割草机器人",
+      "monitored": true,
+      "officialSources": [
+        "https://mammotion.com/"
+      ]
+    },
+    {
+      "name": "Segway Navimow",
+      "nameEn": "Segway Navimow",
+      "category": "lawn",
+      "type": "割草机器人",
+      "monitored": true,
+      "officialSources": [
+        "https://navimow.segway.com/"
+      ]
+    },
+    {
+      "name": "Worx Landroid",
+      "nameEn": "Worx Landroid",
+      "category": "lawn",
+      "type": "割草机器人",
+      "monitored": true,
+      "officialSources": [
+        "https://www.worx.com/landroid"
+      ],
+      "monitorTier": "D",
+      "monitorFrequency": "monthly",
+      "role": "market_validator",
+      "whyMonitor": "保留为割草机器人类观察，但设计节奏信号弱于 Mammotion / Segway Navimow",
+      "signalTypes": ["structure"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 event"
+    },
+    {
+      "name": "Beatbot",
+      "nameEn": "Beatbot",
+      "category": "pool",
+      "type": "泳池清洁机器人",
+      "monitored": true,
+      "officialSources": [
+        "https://beatbot.com/"
+      ]
+    },
+    {
+      "name": "Aiper",
+      "nameEn": "Aiper",
+      "category": "pool",
+      "type": "泳池清洁机器人",
+      "monitored": true,
+      "officialSources": [
+        "https://aiper.com/"
+      ]
+    },
+    {
+      "name": "Bluetti",
+      "nameEn": "Bluetti",
+      "category": "power",
+      "type": "便携储能",
+      "monitored": true,
+      "officialSources": [
+        "https://www.bluettipower.com/"
+      ]
+    },
+    {
+      "name": "正浩EcoFlow",
+      "nameEn": "EcoFlow",
+      "category": "power",
+      "type": "便携储能",
+      "monitored": true,
+      "officialSources": [
+        "https://www.ecoflow.com/"
+      ]
+    },
+    {
+      "name": "极米XGIMI",
+      "nameEn": "XGIMI",
+      "category": "projector",
+      "type": "智能投影",
+      "monitored": true,
+      "officialSources": [
+        "https://www.xgimi.com/"
+      ]
+    },
+    {
+      "name": "坚果JMGO",
+      "nameEn": "JMGO",
+      "category": "projector",
+      "type": "智能投影",
+      "monitored": true,
+      "officialSources": [
+        "https://www.jmgo.com/"
+      ]
+    },
+    {
+      "name": "玩家国度ROG",
+      "nameEn": "ROG",
+      "category": "gaming",
+      "type": "电竞设备",
+      "monitored": true,
+      "officialSources": [
+        "https://rog.asus.com.cn/"
+      ]
+    },
+    {
+      "name": "九号Ninebot",
+      "nameEn": "Ninebot",
+      "category": "mobility",
+      "type": "两轮出行",
+      "monitored": true,
+      "officialSources": [
+        "https://www.ninebot.com/"
+      ]
+    },
+    {
+      "name": "小牛NIU",
+      "nameEn": "NIU",
+      "category": "mobility",
+      "type": "两轮出行",
+      "monitored": true,
+      "officialSources": [
+        "https://www.niu.com/"
+      ]
+    },
+    {
+      "name": "安克Anker",
+      "nameEn": "Anker",
+      "category": "accessory",
+      "type": "充电配件",
+      "monitored": true,
+      "officialSources": [
+        "https://www.anker.com/"
+      ]
+    },
+    {
+      "name": "倍思Baseus",
+      "nameEn": "Baseus",
+      "category": "accessory",
+      "type": "充电配件",
+      "monitored": true,
+      "officialSources": [
+        "https://www.baseus.com/"
+      ]
+    },
+    {
+      "name": "绿联UGREEN",
+      "nameEn": "UGREEN",
+      "category": "accessory",
+      "type": "充电配件",
+      "monitored": true,
+      "officialSources": [
+        "https://www.ugreen.com/"
+      ]
+    },
+    {
+      "name": "贝尔金Belkin",
+      "nameEn": "Belkin",
+      "category": "accessory",
+      "type": "充电配件",
+      "monitored": true,
+      "officialSources": [
+        "https://www.belkin.com/"
+      ]
+    },
+    {
+      "name": "酷态科CUKTECH",
+      "nameEn": "CUKTECH",
+      "category": "accessory",
+      "type": "充电配件",
+      "monitored": true,
+      "officialSources": [
+        "https://www.cuktech.com/"
+      ]
+    },
+    {
+      "name": "罗马仕ROMOSS",
+      "nameEn": "ROMOSS",
+      "category": "accessory",
+      "type": "充电配件",
+      "monitored": true,
+      "officialSources": [
+        "https://www.romoss.com/"
+      ],
+      "monitorTier": "D",
+      "monitorFrequency": "monthly",
+      "role": "risk_case",
+      "whyMonitor": "低价充电配件为主，外观溢价信号弱，降级为月度观察",
+      "signalTypes": ["CMF"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 event"
+    },
+    {
+      "name": "闪极Sharge",
+      "nameEn": "Sharge",
+      "category": "accessory",
+      "type": "充电配件",
+      "monitored": true,
+      "officialSources": [
+        "https://sharge.com/"
+      ]
+    },
+    {
+      "name": "优越者UNITEK",
+      "nameEn": "UNITEK",
+      "category": "accessory",
+      "type": "充电配件",
+      "monitored": true,
+      "officialSources": [
+        "https://www.unitek-products.com/"
+      ],
+      "monitorTier": "D",
+      "monitorFrequency": "monthly",
+      "role": "risk_case",
+      "whyMonitor": "配件工具属性强，设计节奏源头价值弱，降级为月度观察",
+      "signalTypes": ["structure"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 event"
+    },
+    {
+      "name": "维奥技术VEOUT",
+      "nameEn": "VEOUT",
+      "category": "accessory",
+      "type": "便携显示/配件",
+      "monitored": true,
+      "officialSources": [],
+      "monitorTier": "D",
+      "monitorFrequency": "monthly",
+      "role": "risk_case",
+      "whyMonitor": "officialSources 为空，信号来源不稳定，暂停后补源再判断",
+      "signalTypes": [],
+      "dropCondition": "补源前维持 D 层，连续 90 天无有效信号则暂停"
+    },
+    {
+      "name": "艾欧提iOttie",
+      "nameEn": "iOttie",
+      "category": "accessory",
+      "type": "车载配件",
+      "monitored": true,
+      "officialSources": [
+        "https://www.iottie.com/"
+      ]
+    },
+    {
+      "name": "大疆DJI",
+      "nameEn": "DJI",
+      "category": "camera",
+      "type": "无人机/影像设备",
+      "monitored": true,
+      "officialSources": [
+        "https://www.dji.com/cn"
+      ]
+    },
+    {
+      "name": "影石Insta360",
+      "nameEn": "Insta360",
+      "category": "camera",
+      "type": "运动相机/全景相机",
+      "monitored": true,
+      "officialSources": [
+        "https://www.insta360.com/"
+      ]
+    },
+    {
+      "name": "GoPro",
+      "nameEn": "GoPro",
+      "category": "camera",
+      "type": "运动相机",
+      "monitored": true,
+      "officialSources": [
+        "https://gopro.com/"
+      ]
+    },
+    {
+      "name": "Framework",
+      "nameEn": "Framework",
+      "category": "laptop",
+      "type": "模块化笔记本电脑",
+      "monitored": true,
+      "officialSources": [
+        "https://frame.work/"
+      ],
+      "monitorTier": "A",
+      "monitorFrequency": "weekly",
+      "role": "design_source",
+      "whyMonitor": "可维修、模块化、彩色外壳，代表可维修产品语言，已在 v1.2 验证中出现",
+      "signalTypes": ["structure", "CMF", "modular"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层"
+    },
+    {
+      "name": "Teenage Engineering",
+      "nameEn": "Teenage Engineering",
+      "category": "audio",
+      "type": "高设计感音频/创作者设备",
+      "monitored": true,
+      "officialSources": [
+        "https://teenage.engineering/"
+      ],
+      "monitorTier": "A",
+      "monitorFrequency": "weekly",
+      "role": "design_source",
+      "whyMonitor": "极强工业设计语言，影响桌搭、音频、创作者设备审美，设计节奏源头",
+      "signalTypes": ["CMF", "structure", "desk_setup"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层"
+    },
+    {
+      "name": "Ray-Ban Meta",
+      "nameEn": "Ray-Ban Meta",
+      "category": "wearable",
+      "type": "AI智能眼镜",
+      "monitored": true,
+      "officialSources": [
+        "https://www.ray-ban.com/usa/ray-ban-meta"
+      ],
+      "monitorTier": "A",
+      "monitorFrequency": "weekly",
+      "role": "design_source",
+      "whyMonitor": "AI 眼镜少数商业化成功样本，适合观察低存在感 AI 硬件设计语言",
+      "signalTypes": ["wearable", "ai_hardware", "structure"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层"
+    },
+    {
+      "name": "PLAUD",
+      "nameEn": "PLAUD",
+      "category": "wearable",
+      "type": "AI录音卡/可穿戴录音设备",
+      "monitored": true,
+      "officialSources": [
+        "https://plaud.ai/"
+      ],
+      "monitorTier": "A",
+      "monitorFrequency": "weekly",
+      "role": "design_source",
+      "whyMonitor": "AI 录音硬件里专业工具+可穿戴低存在感信号明显，已进入完整判断候选",
+      "signalTypes": ["wearable", "ai_hardware", "structure"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层"
+    },
+    {
+      "name": "Dyson",
+      "nameEn": "Dyson",
+      "category": "smart",
+      "type": "高溢价生活科技/智能家居",
+      "monitored": true,
+      "officialSources": [
+        "https://www.dyson.com/"
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "高溢价生活科技代表，外观、功能、品牌溢价绑定强，验证设计语言大众接受度",
+      "signalTypes": ["CMF", "structure"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层"
+    },
+    {
+      "name": "Logitech",
+      "nameEn": "Logitech",
+      "category": "accessory",
+      "type": "鼠标/键盘/办公外设",
+      "monitored": true,
+      "officialSources": [
+        "https://www.logitech.com/"
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "鼠标、键盘、办公外设商业反馈充分，可验证设计语言大众接受度",
+      "signalTypes": ["CMF", "structure", "desk_setup"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层"
+    },
+    {
+      "name": "Keychron",
+      "nameEn": "Keychron",
+      "category": "accessory",
+      "type": "机械键盘/桌搭设备",
+      "monitored": true,
+      "officialSources": [
+        "https://www.keychron.com/"
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "机械键盘和桌搭设备强相关，用户愿意为外观和手感付费，商业验证样本",
+      "signalTypes": ["CMF", "structure", "desk_setup"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层"
+    },
+    {
+      "name": "Fairphone",
+      "nameEn": "Fairphone",
+      "category": "phone",
+      "type": "可维修/可持续手机",
+      "monitored": true,
+      "officialSources": [
+        "https://www.fairphone.com/"
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "monthly",
+      "role": "market_validator",
+      "whyMonitor": "可维修、可持续价值的商业验证品牌，可与 Framework 互证可维修产品语言",
+      "signalTypes": ["structure", "modular", "CMF"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层"
+    },
+    {
+      "name": "Lofree",
+      "nameEn": "Lofree",
+      "category": "accessory",
+      "type": "复古桌搭键盘/鼠标",
+      "monitored": true,
+      "officialSources": [
+        "https://lofree.co/"
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "复古桌搭、键盘、鼠标、低饱和 CMF，适合观察审美扩散趋势",
+      "signalTypes": ["CMF", "desk_setup"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层"
+    },
+    {
+      "name": "Elgato",
+      "nameEn": "Elgato",
+      "category": "accessory",
+      "type": "创作者桌面设备",
+      "monitored": true,
+      "officialSources": [
+        "https://www.elgato.com/"
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "创作者桌面设备，强场景化和展示属性，前置信号强",
+      "signalTypes": ["structure", "desk_setup"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层"
+    },
+    {
+      "name": "Flipper Zero",
+      "nameEn": "Flipper Zero",
+      "category": "accessory",
+      "type": "小众工具设备",
+      "monitored": true,
+      "officialSources": [
+        "https://flipperzero.one/"
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "monthly",
+      "role": "fringe_signal",
+      "whyMonitor": "小众工具设备，具备强身份符号和工具感审美，圈层扩散潜力",
+      "signalTypes": ["structure", "wearable"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层"
+    },
+    {
+      "name": "Ultrahuman",
+      "nameEn": "Ultrahuman",
+      "category": "wearable",
+      "type": "智能戒指/健康穿戴",
+      "monitored": true,
+      "officialSources": [
+        "https://www.ultrahuman.com/"
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "monthly",
+      "role": "fringe_signal",
+      "whyMonitor": "智能戒指与健康穿戴，补充 Oura 之外的低存在感穿戴信号",
+      "signalTypes": ["wearable", "CMF"],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层"
+    },
+    {
+      "name": "Rabbit",
+      "nameEn": "Rabbit",
+      "category": "ai_hardware",
+      "type": "AI硬件/Rabbit r1",
+      "monitored": true,
+      "officialSources": [
+        "https://www.rabbit.tech/"
+      ],
+      "monitorTier": "D",
+      "monitorFrequency": "event",
+      "role": "risk_case",
+      "whyMonitor": "AI 硬件概念强但争议大，用于判断外观叙事与实际体验落差，风险反例",
+      "signalTypes": ["ai_hardware", "wearable", "CMF"],
+      "dropCondition": "产品停更或连续 180 天无新动态则暂停"
+    },
+    {
+      "name": "Humane",
+      "nameEn": "Humane",
+      "category": "ai_hardware",
+      "type": "AI硬件/AI Pin",
+      "monitored": true,
+      "officialSources": [
+        "https://www.humane.com/"
+      ],
+      "monitorTier": "D",
+      "monitorFrequency": "event",
+      "role": "risk_case",
+      "whyMonitor": "AI Pin 失败样本，适合沉淀佩戴尴尬/价格/体验风险规则，失败边界反例",
+      "signalTypes": ["ai_hardware", "wearable"],
+      "dropCondition": "产品停更或连续 180 天无新动态则暂停"
+    },
+    {
+      "name": "Limitless",
+      "nameEn": "Limitless",
+      "category": "wearable",
+      "type": "AI pendant/记录型可穿戴",
+      "monitored": true,
+      "officialSources": [
+        "https://www.limitless.ai/"
+      ],
+      "monitorTier": "D",
+      "monitorFrequency": "monthly",
+      "role": "risk_case",
+      "whyMonitor": "AI pendant 类设备，用于观察记录型可穿戴的接受边界",
+      "signalTypes": ["ai_hardware", "wearable"],
+      "dropCondition": "产品停更或连续 180 天无新动态则暂停"
+    }
+  ]
+}
