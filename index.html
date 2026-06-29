@@ -8,7 +8,7 @@
 <script src="./products/ks-recent.js"></script>
 <script>
   // 最后更新时间 - 每次更新时修改这个值
-  window.lastUpdated = '2026-06-28 22:00';
+  window.lastUpdated = '2026-06-29 22:00';
 </script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230f1419'/%3E%3Ccircle cx='50' cy='50' r='22' fill='none' stroke='%2322d3ee' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='8' fill='%2322d3ee'/%3E%3Cline x1='50' y1='28' x2='50' y2='38' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='50' y1='62' x2='50' y2='72' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='28' y1='50' x2='38' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3Cline x1='62' y1='50' x2='72' y2='50' stroke='%2322d3ee' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1838,7 +1838,7 @@
 // ==================== 全局数据 ====================
 // <BRANDPULSE-DATA-BRANDS-START>
 let brandsData = {
-  "lastUpdated": "2026-06-28",
+  "lastUpdated": "2026-06-29",
   "sourcePriority": {
     "tier0_official": "品牌官网、官方微博、公众号、新闻稿",
     "tier1_media": "36氪、爱范儿、IT之家、The Verge 等权威科技媒体",
@@ -1878,7 +1878,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.mi.com/auto"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "汽车商业验证强，但外观节奏不宜日更",
+      "signalTypes": [
+        "CMF",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "特斯拉",
@@ -1888,7 +1899,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.tesla.cn"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "全球默认审美/极简汽车语言对照",
+      "signalTypes": [
+        "CMF",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "享界",
@@ -1904,7 +1926,9 @@ let brandsData = {
       "signalTypes": [
         "CMF"
       ],
-      "dropCondition": "补源前维持 D 层，连续 90 天无有效信号则暂停"
+      "dropCondition": "补源前维持 D 层，连续 90 天无有效信号则暂停",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "华为",
@@ -1914,7 +1938,19 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://consumer.huawei.com/cn/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "大众验证强，手机/穿戴/折叠生态有参考",
+      "signalTypes": [
+        "CMF",
+        "structure",
+        "wearable"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "OPPO",
@@ -1924,7 +1960,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.oppo.com/cn/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "CMF 和旗舰工艺探索较多",
+      "signalTypes": [
+        "CMF",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "三星",
@@ -1934,7 +1981,19 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.samsung.com/cn/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "全球主流验证强，外观突破频率中等",
+      "signalTypes": [
+        "CMF",
+        "structure",
+        "wearable"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "联想moto",
@@ -1944,7 +2003,17 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.motorola.com.cn/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "event",
+      "role": "fringe_signal",
+      "whyMonitor": "折叠屏形态可观察，但非稳定源头",
+      "signalTypes": [
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Nothing",
@@ -1954,7 +2023,20 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://nothing.tech/"
-      ]
+      ],
+      "monitorTier": "A",
+      "monitorFrequency": "daily",
+      "role": "design_source",
+      "whyMonitor": "透明科技感、系统视觉和硬件识别强，是外观语言源头",
+      "signalTypes": [
+        "CMF",
+        "structure",
+        "phone",
+        "audio"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Ulefone",
@@ -1964,7 +2046,17 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.ulefone.com/"
-      ]
+      ],
+      "monitorTier": "D",
+      "monitorFrequency": "monthly",
+      "role": "risk_case",
+      "whyMonitor": "三防形态观察，但常规堆料较多，最终拍板为 D",
+      "signalTypes": [
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 event",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Oura",
@@ -1974,7 +2066,19 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://ouraring.com/"
-      ]
+      ],
+      "monitorTier": "A",
+      "monitorFrequency": "weekly",
+      "role": "design_source",
+      "whyMonitor": "智能戒指和低存在感穿戴的重要源头",
+      "signalTypes": [
+        "wearable",
+        "CMF",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "WHOOP",
@@ -1984,7 +2088,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.whoop.com/"
-      ]
+      ],
+      "monitorTier": "A",
+      "monitorFrequency": "weekly",
+      "role": "design_source",
+      "whyMonitor": "无屏健康穿戴、订阅制硬件、低干扰佩戴信号强",
+      "signalTypes": [
+        "wearable",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "佳明Garmin",
@@ -1994,7 +2109,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.garmin.com.cn/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "运动穿戴商业验证强",
+      "signalTypes": [
+        "wearable",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "索尼",
@@ -2004,7 +2130,20 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.sony.com.cn/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "音频/影像设计资产强，但新品频率低，更适合低频追踪",
+      "signalTypes": [
+        "CMF",
+        "structure",
+        "audio",
+        "camera"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "韶音Shokz",
@@ -2014,7 +2153,19 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://shokz.com/"
-      ]
+      ],
+      "monitorTier": "A",
+      "monitorFrequency": "weekly",
+      "role": "design_source",
+      "whyMonitor": "开放式耳机形态和运动佩戴语言重要，最终拍板为 A",
+      "signalTypes": [
+        "wearable",
+        "audio",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "微软Surface",
@@ -2024,7 +2175,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.microsoft.com/zh-cn/surface"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "event",
+      "role": "fringe_signal",
+      "whyMonitor": "二合一/PC 形态验证参考，低频观察",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "追觅Dreame",
@@ -2034,7 +2196,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.dreametech.com/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "清洁机器人外观和家居化验证",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "石头Roborock",
@@ -2044,7 +2217,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.roborock.com/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "扫地机器人商业验证",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "科沃斯Ecovacs",
@@ -2054,7 +2238,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.ecovacs.cn/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "扫地机器人商业验证",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "云鲸Narwal",
@@ -2064,7 +2259,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.narwal.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "家居清洁机器人形态/品牌语言可观察，偏前置信号",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "库犸Mammotion",
@@ -2074,7 +2280,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://mammotion.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "庭院机器人新场景形态",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Segway Navimow",
@@ -2084,7 +2301,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://navimow.segway.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "庭院机器人对照",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Worx Landroid",
@@ -2102,7 +2330,9 @@ let brandsData = {
       "signalTypes": [
         "structure"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 event"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 event",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Beatbot",
@@ -2112,7 +2342,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://beatbot.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "泳池机器人新场景形态",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Aiper",
@@ -2122,7 +2363,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://aiper.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "泳池机器人对照",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Bluetti",
@@ -2132,7 +2384,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.bluettipower.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "便携储能形态和户外场景",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "正浩EcoFlow",
@@ -2142,7 +2405,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.ecoflow.com/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "户外储能商业验证强",
+      "signalTypes": [
+        "structure",
+        "CMF"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "极米XGIMI",
@@ -2152,7 +2426,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.xgimi.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "投影家居化设计验证，与坚果JMGO形成对照",
+      "signalTypes": [
+        "CMF",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "坚果JMGO",
@@ -2162,7 +2447,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.jmgo.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "投影形态与家居化对照",
+      "signalTypes": [
+        "CMF",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "玩家国度ROG",
@@ -2172,7 +2468,19 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://rog.asus.com.cn/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "电竞设计语言强，最终拍板为 B",
+      "signalTypes": [
+        "CMF",
+        "structure",
+        "gaming"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "九号Ninebot",
@@ -2182,7 +2490,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.ninebot.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "两轮出行形态和年轻化验证",
+      "signalTypes": [
+        "CMF",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "小牛NIU",
@@ -2192,7 +2511,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.niu.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "两轮出行设计语言对照",
+      "signalTypes": [
+        "CMF",
+        "structure"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "安克Anker",
@@ -2202,7 +2532,19 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.anker.com/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "配件商业验证强",
+      "signalTypes": [
+        "CMF",
+        "structure",
+        "accessory"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "倍思Baseus",
@@ -2212,7 +2554,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.baseus.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "配件市场验证，需防低价噪音",
+      "signalTypes": [
+        "CMF",
+        "accessory"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "绿联UGREEN",
@@ -2222,7 +2575,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.ugreen.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "配件商业验证",
+      "signalTypes": [
+        "CMF",
+        "accessory"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "贝尔金Belkin",
@@ -2232,7 +2596,19 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.belkin.com/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "Apple 生态配件商业验证",
+      "signalTypes": [
+        "CMF",
+        "structure",
+        "accessory"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "酷态科CUKTECH",
@@ -2242,7 +2618,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.cuktech.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "配件新锐信号",
+      "signalTypes": [
+        "CMF",
+        "accessory"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "罗马仕ROMOSS",
@@ -2260,7 +2647,9 @@ let brandsData = {
       "signalTypes": [
         "CMF"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 event"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 event",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "闪极Sharge",
@@ -2270,7 +2659,19 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://sharge.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "小众透明科技感信号",
+      "signalTypes": [
+        "CMF",
+        "structure",
+        "accessory"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "优越者UNITEK",
@@ -2288,7 +2689,9 @@ let brandsData = {
       "signalTypes": [
         "structure"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 event"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 event",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "维奥技术VEOUT",
@@ -2297,12 +2700,14 @@ let brandsData = {
       "type": "便携显示/配件",
       "monitored": true,
       "officialSources": [],
-      "monitorTier": "D",
-      "monitorFrequency": "monthly",
+      "monitorTier": "paused",
+      "monitorFrequency": "event",
       "role": "risk_case",
-      "whyMonitor": "officialSources 为空，信号来源不稳定，暂停后补源再判断",
+      "whyMonitor": "官方源不足，最终拍板为暂停，补 source 后再启用",
       "signalTypes": [],
-      "dropCondition": "补源前维持 D 层，连续 90 天无有效信号则暂停"
+      "dropCondition": "补源前保持暂停状态",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "艾欧提iOttie",
@@ -2312,7 +2717,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.iottie.com/"
-      ]
+      ],
+      "monitorTier": "C",
+      "monitorFrequency": "monthly",
+      "role": "fringe_signal",
+      "whyMonitor": "车载配件，可低频观察",
+      "signalTypes": [
+        "structure",
+        "accessory"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "大疆DJI",
@@ -2322,7 +2738,20 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.dji.com/cn"
-      ]
+      ],
+      "monitorTier": "A",
+      "monitorFrequency": "weekly",
+      "role": "design_source",
+      "whyMonitor": "影像/无人机/运动设备形态迭代强，专业工具审美影响大",
+      "signalTypes": [
+        "structure",
+        "CMF",
+        "camera",
+        "wearable"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "影石Insta360",
@@ -2332,7 +2761,20 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://www.insta360.com/"
-      ]
+      ],
+      "monitorTier": "A",
+      "monitorFrequency": "weekly",
+      "role": "design_source",
+      "whyMonitor": "影像设备形态、模块化、运动场景外观迭代快",
+      "signalTypes": [
+        "structure",
+        "CMF",
+        "camera",
+        "modular"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "GoPro",
@@ -2342,7 +2784,18 @@ let brandsData = {
       "monitored": true,
       "officialSources": [
         "https://gopro.com/"
-      ]
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "event",
+      "role": "market_validator",
+      "whyMonitor": "运动相机默认品类对照",
+      "signalTypes": [
+        "structure",
+        "camera"
+      ],
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Framework",
@@ -2362,7 +2815,9 @@ let brandsData = {
         "CMF",
         "modular"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Teenage Engineering",
@@ -2382,7 +2837,9 @@ let brandsData = {
         "structure",
         "desk_setup"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Ray-Ban Meta",
@@ -2402,7 +2859,9 @@ let brandsData = {
         "ai_hardware",
         "structure"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "PLAUD",
@@ -2422,7 +2881,9 @@ let brandsData = {
         "ai_hardware",
         "structure"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 B 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Dyson",
@@ -2441,7 +2902,9 @@ let brandsData = {
         "CMF",
         "structure"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Logitech",
@@ -2461,7 +2924,9 @@ let brandsData = {
         "structure",
         "desk_setup"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Keychron",
@@ -2472,16 +2937,18 @@ let brandsData = {
       "officialSources": [
         "https://www.keychron.com/"
       ],
-      "monitorTier": "B",
+      "monitorTier": "C",
       "monitorFrequency": "weekly",
-      "role": "market_validator",
-      "whyMonitor": "机械键盘和桌搭设备强相关，用户愿意为外观和手感付费，商业验证样本",
+      "role": "fringe_signal",
+      "whyMonitor": "桌搭/键盘社群审美信号",
       "signalTypes": [
         "CMF",
         "structure",
         "desk_setup"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Fairphone",
@@ -2501,7 +2968,9 @@ let brandsData = {
         "modular",
         "CMF"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Lofree",
@@ -2520,7 +2989,9 @@ let brandsData = {
         "CMF",
         "desk_setup"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Elgato",
@@ -2534,12 +3005,14 @@ let brandsData = {
       "monitorTier": "C",
       "monitorFrequency": "weekly",
       "role": "fringe_signal",
-      "whyMonitor": "创作者桌面设备，强场景化和展示属性，前置信号强",
+      "whyMonitor": "创作者桌面设备，强场景化和展示属性",
       "signalTypes": [
         "structure",
         "desk_setup"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Flipper Zero",
@@ -2558,7 +3031,9 @@ let brandsData = {
         "structure",
         "wearable"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Ultrahuman",
@@ -2569,15 +3044,17 @@ let brandsData = {
       "officialSources": [
         "https://www.ultrahuman.com/"
       ],
-      "monitorTier": "C",
-      "monitorFrequency": "monthly",
-      "role": "fringe_signal",
-      "whyMonitor": "智能戒指与健康穿戴，补充 Oura 之外的低存在感穿戴信号",
+      "monitorTier": "B",
+      "monitorFrequency": "weekly",
+      "role": "market_validator",
+      "whyMonitor": "智能戒指与健康穿戴对照，补充 Oura 商业验证视角",
       "signalTypes": [
         "wearable",
         "CMF"
       ],
-      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 C 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Rabbit",
@@ -2597,7 +3074,9 @@ let brandsData = {
         "wearable",
         "CMF"
       ],
-      "dropCondition": "产品停更或连续 180 天无新动态则暂停"
+      "dropCondition": "产品停更或连续 180 天无新动态则暂停",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Humane",
@@ -2616,7 +3095,9 @@ let brandsData = {
         "ai_hardware",
         "wearable"
       ],
-      "dropCondition": "产品停更或连续 180 天无新动态则暂停"
+      "dropCondition": "产品停更或连续 180 天无新动态则暂停",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
     },
     {
       "name": "Limitless",
@@ -2627,15 +3108,41 @@ let brandsData = {
       "officialSources": [
         "https://www.limitless.ai/"
       ],
-      "monitorTier": "D",
-      "monitorFrequency": "monthly",
-      "role": "risk_case",
-      "whyMonitor": "AI pendant 类设备，用于观察记录型可穿戴的接受边界",
+      "monitorTier": "C",
+      "monitorFrequency": "weekly",
+      "role": "fringe_signal",
+      "whyMonitor": "AI pendant/记忆型可穿戴信号",
       "signalTypes": [
         "ai_hardware",
         "wearable"
       ],
-      "dropCondition": "产品停更或连续 180 天无新动态则暂停"
+      "dropCondition": "连续 90 天无有效视觉信号则降级为 D 层",
+      "lastSignalAt": null,
+      "signalQuality": "unknown"
+    },
+    {
+      "name": "苹果Apple",
+      "nameEn": "Apple",
+      "category": "phone",
+      "type": "手机/电脑/穿戴/配件生态",
+      "monitored": true,
+      "officialSources": [
+        "https://www.apple.com/"
+      ],
+      "monitorTier": "B",
+      "monitorFrequency": "event",
+      "role": "market_validator",
+      "whyMonitor": "作为全球默认审美、主流商业接受度和生态配件设计基准，用于判断差异化外观是否真的有机会",
+      "signalTypes": [
+        "default_aesthetic",
+        "ecosystem_accessory",
+        "wearable",
+        "materials",
+        "market_validation"
+      ],
+      "dropCondition": "不删除；如果无新品则只作为竞品基准，不进入每日候选",
+      "lastSignalAt": null,
+      "signalQuality": "high"
     }
   ]
 };
@@ -2643,6 +3150,65 @@ let brandsData = {
 
 // <BRANDPULSE-DATA-PRODUCTS-START>
 let productsData = [
+  {
+    "id": "no-signal-20260629",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-06-29)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。12批次搜索覆盖14品类44品牌。联想moto razr 70 Ultra实木背板虽在MWC上海(6/24-26)展出但产品已于5/19正式发布非6月新品；Nothing Phone(4b)单摄透明设计仅为6/22预告且属成本驱动的设计回归而非CMF创新。连续9天无信号(6/19-6/29)，6月下半月消费电子CMF创新节奏持续放缓。",
+    "constraintChange": "无",
+    "time": "2026-06-29 22:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共12批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "联想moto razr 70 Ultra：实木背板(檀棕椴木配色)+Alcantara材质，MWC上海(6/24-26)重点展出，但产品已于5/19在「联想天禧AI一体多端全场景新品超能之夜」正式发布，非6月新品，不收录",
+      "Nothing Phone(4b)（6/22预告）：透明后盖+单摄设计，系CMF Phone 2 Pro取消后填补入门价位空缺的成本驱动策略，透明设计为Nothing既有品牌语言，单摄属BOM砍配而非CMF创新，不收录",
+      "MWC上海2026(6/24-26)：联想/moto/荣耀等品牌参展，多数产品为前期已发布产品的重展，无监控品牌列表内的新CMF信号",
+      "影石Insta360（6/29腾讯新闻报道）：Luna Ultra（6/10开售）大疆专利诉讼、限售股解禁、国补定价争议，为法律/金融事件非新品，Luna Ultra已收录不重复",
+      "华为nova16系列(6/1发布)/大疆Osmo Pocket 4P(6/15发布)/影石Luna Ultra(6/10开售)/ROG Edition 20(COMPUTEX 2026)/华为FreeClip 2典藏版(6/15开售)：均已收录不重复",
+      "连续9天无信号(6/19-6/29)，6月下半月消费电子CMF创新节奏持续放缓，7月返校季新品潮窗口即将开启"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。6月下半月连续9天无信号说明监控品牌列表内CMF创新节奏显著放缓。联想moto razr 70 Ultra实木背板虽为重要CMF信号但属5月发布周期未能在当时收录；Nothing Phone(4b)单摄透明设计是内存危机下的成本妥协而非美学意图。行业焦点集中于MWC上海重展、618促销收尾、大疆vs影石专利博弈，以及即将到来的7月返校季新品潮。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-06-29T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-06-29T22:00:00+08:00",
+    "updatedAt": "2026-06-29T22:00:00+08:00",
+    "url": ""
+  },
   {
     "id": "no-signal-20260628",
     "brand": "无",
