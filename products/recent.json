@@ -1,5 +1,64 @@
 [
   {
+    "id": "no-signal-20260704",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-07-04)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。8批次搜索覆盖14品类44品牌。Nothing Phone(4b)7月7日海外发布仍处预热阶段，透明后盖+单摄设计属成本驱动策略非CMF创新；倍思卡片磁吸Air 6.9mm(4/8发布)为旧品不重复；安克Prime 300W/绿联超能卡/酷态科15号Ultra均为上半年已发布产品；三星Galaxy Z Fold8 Wide已于7/2收录；充电配件/储能/投影/机器人/出行等品类7月初无显著CMF新品。",
+    "constraintChange": "无",
+    "time": "2026-07-04 22:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共8批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "Nothing Phone(4b)：7月7日海外发布，当前仍处预热阶段非正式发布；透明后盖+单摄设计系CMF Phone 2 Pro取消后填补入门价位空缺的成本驱动策略，CMF创新信号弱，不收录",
+      "三星Galaxy Z Fold8 Wide：7/3海外博主曝光黑色实体机模实拍图，但已于7/2收录(id: samsung-galaxy-z-fold8-wide-20260702)，不重复",
+      "倍思卡片磁吸Air 6.9mm：4/8发布(IT之家报道)，非7月新品不收录",
+      "安克Prime 300W/绿联超能卡磁吸系列/酷态科15号Ultra/小米金沙江磁吸系列：均为上半年已发布产品，7/3 IT168充电宝大盘点属综合回顾非新品发布",
+      "充电配件/储能/投影/扫地机器人/割草机器人/出行工具/泳池设备/影像设备等品类：7月初无显著CMF/范式突破新品",
+      "华为nova16系列(6/1)/大疆Osmo Pocket 4P(6/15)/影石Luna Ultra(6/10)/ROG Edition 20(COMPUTEX 2026)/华为FreeClip 2典藏版(6/15)：均已收录不重复"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。7月初消费电子CMF创新仍处间歇期，监控品牌列表内无新品落地。Nothing Phone(4b)7/7正式发布是7月首周反弹观察点(透明后盖+单摄的成本驱动设计)，三星Galaxy Z Fold8 Wide预计7/22正式发布。充电配件行业因GB 47372-2026新国标进入合规洗牌期(超300家中小品牌出局)，但合规门槛本身不构成视觉约束变化信号。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-07-04T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-07-04T22:00:00+08:00",
+    "updatedAt": "2026-07-04T22:00:00+08:00",
+    "url": ""
+  },
+  {
     "id": "samsung-galaxy-z-fold8-wide-20260702",
     "brand": "三星",
     "category": "phone",
