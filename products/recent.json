@@ -1,5 +1,64 @@
 [
   {
+    "id": "no-signal-20260706",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-07-06)",
+    "summary": "经8批次搜索覆盖14品类44品牌，未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。OPPO Bubble自拍屏7月6日正式发售但属磁吸小屏配件，无材料/工艺/范式创新；Garmin epix星耀白相关页面为旧文 resurfaced；Nothing Phone(4b)/Ear(3a)定档7月7日尚未发布；三星Galaxy Z Fold8系列已定档7月22日且Fold8 Wide已于7/2收录。",
+    "constraintChange": "无",
+    "time": "2026-07-06 22:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共8批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "OPPO Bubble自拍屏：7月6日正式发售，磁吸设计、可换壁纸/动图，属潮玩小屏配件，无材料/工艺/范式创新，不收录",
+      "Garmin epix星耀白：相关页面为2022年评测内容 resurfaced，非2026年7月新品，不收录",
+      "Nothing Phone(4b)/Ear(3a)：官方定档7月7日发布，当前尚未正式推出，不收录",
+      "三星Galaxy Z Fold8系列：已公布7月22日伦敦发布，Galaxy Z Fold8 Wide已于7月2日收录(id: samsung-galaxy-z-fold8-wide-20260702)，不重复",
+      "华为Pura 90系列：4月20日发布会已结束，非7月新品",
+      "7月6日监控品牌列表内无显著视觉约束变化信号"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。7月首周前半段消费电子CMF创新仍处间歇期，行业焦点在7月7日Nothing Phone(4b)与7月22日三星Galaxy Z Fold8系列等预约发布节点。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-07-06T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-07-06T22:00:00+08:00",
+    "updatedAt": "2026-07-06T22:00:00+08:00",
+    "url": ""
+  },
+  {
     "id": "no-signal-20260704",
     "brand": "无",
     "category": "none",
