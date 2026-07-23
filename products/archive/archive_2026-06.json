@@ -1,5 +1,66 @@
 [
   {
+    "id": "no-signal-20260622",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-06-22)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。8批次搜索覆盖全部44品牌。vivo X Fold6（6/26发布）四款配色（蓝洞/盐湖/极夜/黑金）已公布官图但处于预热阶段；小米MIX Fold 5（6/17入网）阔折叠+UWB+玄戒O3但工艺细节未公开；6月下半月消费电子CMF创新节奏持续放缓，vivo X Fold6 6/26正式发布是下一个重要观察点。",
+    "constraintChange": "无",
+    "time": "2026-06-22 22:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共8次批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "vivo X Fold6（6/26发布）：6/18官方放出四款配色（蓝洞/盐湖/极夜/黑金）官图，蓝洞采用AG磨砂玻璃+深海渐变工艺，但6/26才正式发布，处于预热阶段不收录",
+      "小米MIX Fold 5（6/17工信部入网，型号2608BPX34C）：阔折叠形态+UWB超宽带+自研玄戒O3芯片，Q3/8月才发布，工艺/材质细节未公开",
+      "三星Galaxy Z Fold8 Wide：2026年7月发布爆料，非当前新品",
+      "华为nova16 Ultra（6/1发布）/ 大疆Osmo Pocket 4P（6/15发布）/ 影石Luna Ultra（6/10开售）/ ROG Edition 20（COMPUTEX 2026）：均已收录不重复",
+      "索尼6月新品：4K PTZ摄像机（6/2）、数字资产平台（6/5）均为B2B/软件产品，无消费电子CMF信号",
+      "618促销季：价格战非CMF创新",
+      "深圳消费电子展（6/24-26）：展会类非具体产品信号",
+      "连续4天无信号（6/19、6/20、6/21、6/22），6月下半月消费电子CMF创新节奏持续放缓，vivo X Fold6 6/26正式发布是首个反弹观察点"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。6月下半月消费电子CMF创新持续放缓，连续4天无信号。vivo X Fold6的蓝洞AG磨砂渐变玻璃有望在6/26正式发布时成为重要信号，小米MIX Fold 5阔折叠新形态预计8月才能兑现。行业焦点仍在618促销收尾、深圳消费电子展（6/24-26）和AI端侧化演进。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-06-22T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-06-22T22:00:00+08:00",
+    "updatedAt": "2026-06-22T22:00:00+08:00",
+    "url": ""
+  },
+  {
     "id": "no-signal-20260619",
     "brand": "无",
     "category": "none",
