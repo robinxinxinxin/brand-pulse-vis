@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-07-23",
+  "scoringModel": "weighted",
+  "target": "market-validated-hit",
+  "source": "market",
+  "description": "市场爆品链路评分体系：京东热销榜 TOP20 + 视觉差异化双门槛",
+  "dimensions": [
+    {
+      "name": "salesHeat",
+      "cnName": "销量热度",
+      "weight": 0.3,
+      "maxScore": 10,
+      "priority": 6,
+      "logic": "市场验证核心。榜单排名+销量级+上升幅度综合评定。TOP3=10, TOP5=8, TOP10=6, TOP20=4"
+    },
+    {
+      "name": "visualDiff",
+      "cnName": "视觉差异化",
+      "weight": 0.3,
+      "maxScore": 10,
+      "priority": 5,
+      "logic": "视觉约束变化核心。外观/材质/形态/CMF 任一维度显著创新。非视觉差异化产品直接 0 分淘汰"
+    },
+    {
+      "name": "brandNovelty",
+      "cnName": "品牌新锐度",
+      "weight": 0.2,
+      "maxScore": 10,
+      "priority": 4,
+      "logic": "新锐品牌加分。已知大品牌(小米/华为/苹果等)=2, 知名但非头部=5, 新锐/小众品牌=8, 首次上榜=10"
+    },
+    {
+      "name": "transferability",
+      "cnName": "可迁移性",
+      "weight": 0.2,
+      "maxScore": 10,
+      "priority": 3,
+      "logic": "设计语言可复用性。能否影响其他品类或被模仿"
+    }
+  ],
+  "thresholds": {
+    "inclusion": 60,
+    "strongSignal": 75,
+    "coreDimensionMin": 6,
+    "visualDiffMinimum": 5,
+    "note": "visualDiff < 5 直接淘汰，不论总分多高"
+  },
+  "calculation": {
+    "maxTotalScore": 100,
+    "formula": "sum(dimensionScore × weight) × 10",
+    "visTotalFormula": "sum(dimensionScore × weight)",
+    "scoreFormula": "visTotal × 10"
+  },
+  "gatingRules": {
+    "mustHaveVisualDiff": true,
+    "visualDiffFloor": 5,
+    "description": "visualDiff 维度低于 5 分的产品不收录，即使总分超过阈值。这是市场爆品链路与普通热销榜的核心区别"
+  }
+}
