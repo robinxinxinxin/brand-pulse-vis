@@ -1,5 +1,183 @@
 [
   {
+    "id": "no-signal-20260629",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-06-29)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。12批次搜索覆盖14品类44品牌。联想moto razr 70 Ultra实木背板虽在MWC上海(6/24-26)展出但产品已于5/19正式发布非6月新品；Nothing Phone(4b)单摄透明设计仅为6/22预告且属成本驱动的设计回归而非CMF创新。连续9天无信号(6/19-6/29)，6月下半月消费电子CMF创新节奏持续放缓。",
+    "constraintChange": "无",
+    "time": "2026-06-29 22:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共12批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "联想moto razr 70 Ultra：实木背板(檀棕椴木配色)+Alcantara材质，MWC上海(6/24-26)重点展出，但产品已于5/19在「联想天禧AI一体多端全场景新品超能之夜」正式发布，非6月新品，不收录",
+      "Nothing Phone(4b)（6/22预告）：透明后盖+单摄设计，系CMF Phone 2 Pro取消后填补入门价位空缺的成本驱动策略，透明设计为Nothing既有品牌语言，单摄属BOM砍配而非CMF创新，不收录",
+      "MWC上海2026(6/24-26)：联想/moto/荣耀等品牌参展，多数产品为前期已发布产品的重展，无监控品牌列表内的新CMF信号",
+      "影石Insta360（6/29腾讯新闻报道）：Luna Ultra（6/10开售）大疆专利诉讼、限售股解禁、国补定价争议，为法律/金融事件非新品，Luna Ultra已收录不重复",
+      "华为nova16系列(6/1发布)/大疆Osmo Pocket 4P(6/15发布)/影石Luna Ultra(6/10开售)/ROG Edition 20(COMPUTEX 2026)/华为FreeClip 2典藏版(6/15开售)：均已收录不重复",
+      "连续9天无信号(6/19-6/29)，6月下半月消费电子CMF创新节奏持续放缓，7月返校季新品潮窗口即将开启"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。6月下半月连续9天无信号说明监控品牌列表内CMF创新节奏显著放缓。联想moto razr 70 Ultra实木背板虽为重要CMF信号但属5月发布周期未能在当时收录；Nothing Phone(4b)单摄透明设计是内存危机下的成本妥协而非美学意图。行业焦点集中于MWC上海重展、618促销收尾、大疆vs影石专利博弈，以及即将到来的7月返校季新品潮。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-06-29T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-06-29T22:00:00+08:00",
+    "updatedAt": "2026-06-29T22:00:00+08:00",
+    "url": "",
+    "source": "vis"
+  },
+  {
+    "id": "no-signal-20260628",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-06-28)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。8批次搜索覆盖14品类44品牌。vivo X Fold6(6/26发布)蓝洞AG磨砂渐变玻璃属于工艺演进而非范式突破，且vivo不在监控品牌列表中；正浩EcoFlow(6/23发布)OASIS 3.0为AI软件生态升级而非视觉创新；华为nova16系列(6/1发布)已收录不重复；九号/小牛/库犸等无6月新品发布。连续8天无信号(6/19-6/24、6/26-6/28)，6月下半月消费电子CMF创新节奏持续放缓。",
+    "constraintChange": "无",
+    "time": "2026-06-28 22:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共8批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "vivo X Fold6(6/26发布)：蓝洞配色采用AG磨砂玻璃+深海渐变工艺，但vivo不在监控品牌列表中，且AG磨砂渐变属于工艺演进而非范式突破，不收录",
+      "正浩EcoFlow(6/23发布)：OASIS 3.0为AI软件生态升级，STREAM 2/OCEAN 2为储能产品常规迭代，无视觉/材质/工艺创新，不收录",
+      "华为nova16系列(6/1发布)/大疆Osmo Pocket 4P(6/15发布)/影石Luna Ultra(6/10开售)/ROG Edition 20(COMPUTEX 2026)/华为FreeClip 2典藏版(6/15开售)：均已收录不重复",
+      "九号/小牛2026款为常规配置升级(固态电池技术)，无外观范式突破",
+      "连续8天无信号(6/19-6/24、6/26-6/28)，6月下半月消费电子CMF创新节奏持续放缓"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。连续8天无信号说明6月下半月监控品牌列表内无显著CMF范式突破。vivo X Fold6蓝洞AG磨砂渐变玻璃是重要行业观察点但vivo不在监控品牌列表。小米MIX Fold 5阔折叠新形态预计7-8月兑现。行业焦点仍在618促销收尾、AI端侧化演进和下半年新品预热。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-06-28T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-06-28T22:00:00+08:00",
+    "updatedAt": "2026-06-28T22:00:00+08:00",
+    "url": "",
+    "source": "vis"
+  },
+  {
+    "id": "no-signal-20260627",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-06-27)",
+    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。7批次搜索覆盖14品类44品牌。小米YU7 GT（5/21发布, 6/22纽北圈速纪录）运动化强化设计已于5月收录；微软Surface Pro/Laptop 2026（6/16发布）属常规升级；Nothing Phone 3（2025/7发布）已收录不重复；Ulefone Armor系列（Armor 33/34 Pro）属常规三防工艺演进。连续7天无信号（6/19-6/24、6/26、6/27），6月下半月消费电子CMF创新节奏持续放缓。",
+    "constraintChange": "无",
+    "time": "2026-06-27 22:00",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖品牌列表中全部44个品牌，共7批次搜索",
+      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
+      "过滤标准：材料/工艺创新、范式转变、供应链异动",
+      "小米YU7 GT（5/21发布）：纽北圈速10:29.483纪录（6/22公布），运动化强化外观，售价38.99万，已在5月新品周期关注",
+      "微软Surface Pro/Laptop 2026（6/16发布）：骁龙X2换代+沙漫金/翡翠绿配色+100%再生铝，属常规配置升级和配色扩展，非CMF范式突破",
+      "Nothing Phone 3（2025/7发布）：透明设计再进化，但已属历史信号不重复收录",
+      "Ulefone Armor 33/34 Pro系列（2026上半年发布）：22500mAh电池+三防工艺演进，工艺层面未突破",
+      "618促销收尾：价格战非CMF创新",
+      "连续7天无信号（6/19-6/24、6/26、6/27），6月下半月消费电子CMF创新节奏持续放缓"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。6月下半月监控品牌列表内无显著CMF范式突破，行业焦点在618促销收尾、AI端侧化演进和非监控品牌的折叠屏发布（vivo X Fold6 6/26已发布但不在监控列表）。小米YU7 GT纽北纪录6/22公布但产品5/21已发布，工艺层面属既有产品运动化套件升级。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-06-27T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-06-27T22:00:00+08:00",
+    "updatedAt": "2026-06-27T22:00:00+08:00",
+    "url": "",
+    "source": "vis"
+  },
+  {
     "id": "no-signal-20260626",
     "brand": "无",
     "category": "none",
