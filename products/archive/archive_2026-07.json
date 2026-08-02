@@ -1,0 +1,83 @@
+[
+  {
+    "id": "samsung-galaxy-z-fold8-wide-20260702",
+    "brand": "三星",
+    "category": "phone",
+    "title": "三星Galaxy Z Fold8 Wide：安卓首款阔折叠旗舰",
+    "summary": "三星推出安卓阵营首款阔折叠形态旗舰，内屏7.6英寸、外屏5.4英寸，展开厚度仅4.5毫米，折痕控制看齐OPPO Find N6",
+    "constraintChange": "将传统大折叠的内屏比例从狭长的22:9/21:9改为阔折叠形态，外屏更修长，播放16:9/16:10视频时有效显示面积显著提升，单手展开后获得近小平板的横向信息密度，改变了折叠屏产品的屏幕比例约束与握持形态",
+    "time": "2026-07-02 22:00",
+    "score": 73,
+    "confidence": 85,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 7,
+      "recognition": 8,
+      "transferability": 7,
+      "cmfInnovation": 6,
+      "paradigmShift": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.1,
+      "recognition": 2,
+      "transferability": 1.4,
+      "cmfInnovation": 0.9,
+      "paradigmShift": 0.9
+    },
+    "visTotal": 7.3,
+    "facts": [
+      "安卓阵营首款阔折叠形态旗舰机型",
+      "内屏7.6英寸，外屏5.4英寸，展开后单边厚度4.5毫米",
+      "折痕控制达到OPPO Find N6同一梯队水平",
+      "预计2026年7月22日正式发布，8月5日全球同步上市",
+      "搭载高通第五代骁龙8至尊版移动平台，后置5000万像素主摄+超广角双摄"
+    ],
+    "analysis": {
+      "whyItMatters": "阔折叠形态打破三星自Z Fold以来沿用多代的狭长内屏比例，将折叠屏从手机变平板转向手机变宽屏信息终端。作为安卓阵营首款量产阔折叠旗舰，三星的加入意味着这一由华为Pura X Max率先探索的形态将获得更广泛的供应链与市场教育，可能推动折叠屏比例向16:10/18:18等办公与影音友好型演进。",
+      "transferability": "铰链折痕控制工艺、超薄机身堆叠方案可向三星后续折叠产品线迁移；阔折叠的屏幕比例与UI适配经验也可被其他安卓厂商借鉴。但阔折叠形态对应用生态、配件保护和单手操作提出新要求，迁移速度取决于市场接受度。",
+      "risk": "阔折叠在影音场景有优势，但打字、单手操作和App分屏体验需重新验证；5.4英寸外屏比例可能让部分用户不适应；若定价过高且软件适配不足，可能沦为小众秀肌肉产品。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "中关村在线",
+      "url": "https://mobile.zol.com.cn/1205/12057747.html",
+      "capturedAt": "2026-07-02T22:00:00+08:00"
+    },
+    "evidence": [
+      {
+        "tier": "tier1_media",
+        "name": "中关村在线",
+        "url": "https://mobile.zol.com.cn/1185/11852585.html",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials"
+        ]
+      },
+      {
+        "tier": "tier1_media",
+        "name": "TechWeb/腾讯新闻",
+        "url": "https://news.qq.com/rain/a/20260530A02XPD00",
+        "supports": [
+          "product_exists",
+          "design",
+          "materials"
+        ]
+      }
+    ],
+    "tags": [
+      "foldable",
+      "wide-fold",
+      "paradigm-shift",
+      "hinge",
+      "samsung",
+      "2026-q3"
+    ],
+    "image": "https://doc-fd.zol-img.com.cn/t_s2000x2000/g8/M00/0F/0D/ChMkLWpAX-GIQdVqAACB16U9uOwAAI-xgJwbKoAAIHv884.jpg",
+    "duplicateOf": null,
+    "createdAt": "2026-07-02T22:00:00+08:00",
+    "updatedAt": "2026-07-02T22:00:00+08:00",
+    "url": "https://mobile.zol.com.cn/1205/12057747.html",
+    "source": "vis"
+  }
+]
