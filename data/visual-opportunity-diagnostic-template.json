@@ -1,0 +1,99 @@
+{
+  "version": "0.1",
+  "stage": "stage_5_reusable_diagnostic_template",
+  "updatedAt": "2026-06-19",
+  "templateName": "高溢价人群外观设计机会诊断模板",
+  "purpose": "把单个案例判断沉淀成可复用流程，用于判断新品外观是否值得正式追踪或收费诊断。",
+  "minimumInputs": [
+    "产品线索",
+    "可核验证据来源",
+    "审美信号",
+    "目标高溢价人群",
+    "用户表达或媒体传播证据",
+    "竞品对比"
+  ],
+  "diagnosticSteps": [
+    {
+      "step": 1,
+      "name": "确认产品真实存在",
+      "question": "这个产品是否有官方、媒体、众筹、电商或多源用户证据？",
+      "passRule": "至少 1 个强证据源，或 3 个独立弱证据源。"
+    },
+    {
+      "step": 2,
+      "name": "识别审美信号",
+      "question": "它的外观变化是否能被明确命名，而不是泛泛地说好看？",
+      "passRule": "必须能落到一个审美信号，例如半透明科技感、柔和渐变 CMF、专业工具感升级。"
+    },
+    {
+      "step": 3,
+      "name": "匹配高溢价人群",
+      "question": "是否存在一个愿意为这种外观表达付费的人群？",
+      "passRule": "人群必须有平台、场景、价格带和表达动机，不能只写泛人群。"
+    },
+    {
+      "step": 4,
+      "name": "判断外观是否参与购买",
+      "question": "用户或媒体是否把外观当作购买、传播、展示或身份表达理由？",
+      "passRule": "有直接用户评论最好；没有时，只能写成传播信号，不写成购买信号。"
+    },
+    {
+      "step": 5,
+      "name": "做竞品差异判断",
+      "question": "它和主流竞品相比，外观差异是否足够明显？",
+      "passRule": "必须指出它比 Anker、UGREEN、Baseus、DJI 等同类产品强在哪里。"
+    },
+    {
+      "step": 6,
+      "name": "给出商业动作",
+      "question": "下一步应该观望、正式追踪、做深度报告，还是排除？",
+      "passRule": "必须输出一个动作，不只输出分析。"
+    }
+  ],
+  "scorecard": {
+    "productReality": "0-5",
+    "aestheticClarity": "0-5",
+    "audienceFit": "0-5",
+    "userIntentEvidence": "0-5",
+    "competitiveDifference": "0-5",
+    "commercialActionability": "0-5"
+  },
+  "decisionRules": [
+    {
+      "score": "24-30",
+      "decision": "formal_tracking_or_paid_diagnosis",
+      "meaning": "可进入正式追踪，必要时可包装成收费诊断样本。"
+    },
+    {
+      "score": "18-23",
+      "decision": "continue_observing",
+      "meaning": "方向有价值，但还缺关键证据。"
+    },
+    {
+      "score": "12-17",
+      "decision": "weak_signal_pool",
+      "meaning": "留在弱信号池，不投入太多精力。"
+    },
+    {
+      "score": "0-11",
+      "decision": "reject",
+      "meaning": "排除，不再追。"
+    }
+  ],
+  "shargeek300ExampleScore": {
+    "productReality": 5,
+    "aestheticClarity": 5,
+    "audienceFit": 4,
+    "userIntentEvidence": 3,
+    "competitiveDifference": 4,
+    "commercialActionability": 4,
+    "total": 25,
+    "decision": "formal_tracking_or_paid_diagnosis",
+    "note": "分数足够进入正式追踪，但用户购买意愿证据仍需补强。"
+  },
+  "stageCompletion": {
+    "completed": true,
+    "completedStage": "第 5 阶段：沉淀成可复用的视觉机会诊断模板",
+    "nextStage": "第 6 阶段：做品类闭环，判断这个方向是否能迁移到同类产品"
+  }
+}

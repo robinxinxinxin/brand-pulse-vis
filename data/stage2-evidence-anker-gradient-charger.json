@@ -1,0 +1,53 @@
+{
+  "version": "0.1",
+  "stage": "stage_2_evidence_validation",
+  "updatedAt": "2026-06-19",
+  "decisionId": "decision-anker-gradient-charger-20260619",
+  "sourceLeadId": "lead-xiaohongshu-anker-20260615",
+  "targetQuestion": "Anker 737 薄荷绿渐变磨砂氮化镓充电器线索，是否具备转入正式追踪的证据？",
+  "evidenceChecks": [
+    {
+      "type": "xiaohongshu_cross_validation",
+      "target": "至少3条不同账号的实拍或讨论",
+      "status": "not_verified",
+      "result": "未找到可公开核验的独立小红书交叉证据。",
+      "impact": "不能从 S3 提升到 S2。"
+    },
+    {
+      "type": "official_or_ecommerce_listing",
+      "target": "天猫、京东、安克官方或其他官方渠道出现同款配色",
+      "status": "not_verified",
+      "result": "未找到同款“薄荷绿渐变 Anker 737 氮化镓充电器”的官方或电商上架证据。",
+      "impact": "不能进入正式新品日报候选。"
+    },
+    {
+      "type": "purchase_intent",
+      "target": "用户明确因为外观、配色、桌搭或通勤场景表达想买",
+      "status": "not_verified",
+      "result": "未找到足够评论或讨论支撑外观驱动购买意愿。",
+      "impact": "暂不能支撑高溢价人群判断继续升级。"
+    }
+  ],
+  "negativeSignals": [
+    {
+      "signal": "product_name_ambiguity",
+      "detail": "公开资料中 Anker 737 更常见指向 140W 移动电源，而不是薄荷绿渐变氮化镓充电器；该线索存在产品命名混淆风险。"
+    },
+    {
+      "signal": "single_source_risk",
+      "detail": "原始线索仍停留在单一小红书来源，且 sourceUrl 是占位式链接，无法作为可信证据。"
+    }
+  ],
+  "decision": {
+    "result": "keep_in_weak_signal_pool",
+    "label": "继续留在弱信号池，不转正",
+    "reason": "第 2 阶段 3 类证据均未命中，且出现产品命名混淆风险；不满足进入正式追踪的最低标准。",
+    "priority": "low_to_medium",
+    "nextAction": "如果后续自动化再次捕捉到同款配色，应优先验证产品型号和官方/电商上架，而不是继续扩展审美判断。"
+  },
+  "stageCompletion": {
+    "completed": true,
+    "completedStage": "第 2 阶段：补 3 类真实证据",
+    "nextStage": "第 2B 阶段：换一条更强证据的线索跑同样流程，优先选择 Sharge 或 DJI"
+  }
+}

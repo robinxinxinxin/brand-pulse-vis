@@ -1,0 +1,57 @@
+{
+  "version": "2.0",
+  "updatedAt": "2026-05-28",
+  "scoringModel": "weighted",
+  "target": "mass-market-hit",
+  "dimensions": [
+    {
+      "name": "diffusionPotential",
+      "cnName": "扩散潜力",
+      "weight": 0.3,
+      "maxScore": 10,
+      "priority": 6,
+      "logic": "一票决定权。能否下放到大众市场是核心考核指标"
+    },
+    {
+      "name": "recognition",
+      "cnName": "识别度",
+      "weight": 0.25,
+      "maxScore": 10,
+      "priority": 5,
+      "logic": "爆款的加速器。形成品牌资产，让大众一眼认出"
+    },
+    {
+      "name": "transferability",
+      "cnName": "可迁移性",
+      "weight": 0.2,
+      "maxScore": 10,
+      "priority": 4,
+      "logic": "成本控制的护城河。跨品类复用分摊成本"
+    },
+    {
+      "name": "cmfInnovation",
+      "cnName": "CMF创新",
+      "weight": 0.15,
+      "maxScore": 10,
+      "priority": 3,
+      "logic": "戴着镣铐跳舞。用成熟工艺做新质感，控制成本"
+    },
+    {
+      "name": "paradigmShift",
+      "cnName": "范式转变",
+      "weight": 0.1,
+      "maxScore": 10,
+      "priority": 2,
+      "logic": "战略性让步。避免颠覆性改变，降低用户教育成本"
+    }
+  ],
+  "thresholds": {
+    "inclusion": 60,
+    "strongSignal": 75,
+    "coreDimensionMin": 6
+  },
+  "calculation": {
+    "maxTotalScore": 100,
+    "formula": "sum(dimensionScore × weight)"
+  }
+}

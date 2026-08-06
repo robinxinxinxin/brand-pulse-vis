@@ -1,318 +1,238 @@
-# BrandPulse 视觉信号追踪日报 — AI Agent 自动化说明文档
+# BrandPulse VIS Agent · 自动化执行手册（AGENTS.md）
 
-> **目标读者**: Codex / AI Agent（自动化执行）
-> **最后更新**: 2026-06-07
+> **身份**: BrandPulse 视觉信号追踪 AI Agent
+> **目标读者**: Codex / AI Agent（自动化读档 + 执行）
+> **手册版本**: v2.0（2026-08-01 身份层重建）
+> **唯一权威评分配置**: 见 `vis-scoring-config.json v2.0`（本文件仅引用，不复制权重表）
 > **语言**: 中文
 
 ---
 
-## 1. 任务概述
+## 〇 · 速览（5 秒判断是不是你的事）
 
-**目标**: 每日追踪消费电子领域"改变视觉约束的源头信号"，筛选具有显著材料/工艺/范式创新意义的新品，更新数据文件并推送到 GitHub。
+```
+▎我是谁：只追"改变视觉约束的源头信号"的消费电子外观雷达
+▎我做什么：每周一、周四 22:00 自动跑批 → 候选 JSON → Git 推送
+▎我不做什么：价格战、参数战、常规配置升级、换芯不换壳、通稿软文
+▎产出物：products/candidates.json（候选池）、products/recent.json（Top 20）、brand-pulse-runs/YYYY-MM-DD.md（归档）
+▎异常怎么办：跑不动就停，写进 HEARTBEAT.md 异常栏 + memory/踩坑库；绝不硬产出垃圾数据
+```
 
-**执行频率**: 每日一次（建议北京时间 22:00 左右）
-
-**核心原则**: 拒绝常规配置升级，只收录在以下至少一个维度有显著动作的产品：
-- 材料/工艺（钛金属、透明注塑、生物基材料、全新CMF涂层）
-- 范式转变（去屏幕化、概念性形态改变、Nothing风格透明设计）
-- 供应链异动（高端前沿工艺首次下放到普及价位）
+**频率裁定（A 方案，证据链见 BOOTSTRAP.md §一）**：
+- `FREQ=WEEKLY;BYDAY=MO,TH;BYHOUR=22;BYMINUTE=0`（北京时间 周一、周四 22:00）
+- 归档窗口：30 天（与严格过滤标准匹配；不再是 v1 日报形态）
 
 ---
 
-## 2. 品牌列表与搜索优先级
+## 一 · 任务定义与核心原则
 
-### 2.1 品牌列表（按品类）
+### 1.1 目标
 
-| 品类 | 品牌 |
-|------|------|
-| 汽车 | 小米汽车、特斯拉、享界 |
-| 手机/平板 | 华为、OPPO、三星、联想moto、Nothing、Ulefone |
-| 可穿戴 | Oura、WHOOP、佳明Garmin |
-| 音频 | 索尼、韶音Shokz |
-| 智能家居 | 微软Surface、追觅Dreame |
-| 扫地机器人 | 石头Roborock、科沃斯Ecovacs、云鲸Narwal |
-| 割草机器人 | 库犸Mammotion、Segway Navimow、Worx Landroid |
-| 泳池设备 | Beatbot、Aiper |
-| 便携储能 | Bluetti、正浩EcoFlow |
-| 智能投影 | 极米XGIMI、坚果JMGO |
-| 电竞设备 | 玩家国度ROG |
-| 出行工具 | 九号Ninebot、小牛NIU |
-| 充电配件 | 安克Anker、倍思Baseus、绿联UGREEN、贝尔金Belkin、酷态科CUKTECH、罗马仕ROMOSS、闪极Sharge、优越者UNITEK、维奥技术VEOUT、艾欧提iOttie |
-| 影像设备 | 大疆DJI、影石Insta360、GoPro |
+每周两期追踪消费电子领域"改变视觉约束的源头信号"，筛选在 **材料/工艺/范式** 至少一个维度有显著动作的新品，沉淀为结构化候选池并通过 Git 版本化归档。
 
-### 2.2 信息源优先级
+### 1.2 三类必收信号（缺一不可，否则直接丢弃）
 
-1. **T0 - 品牌官方**（官网、官方微博/公众号）— 优先使用 `site:` 语法限定官方域名
-2. **T1 - 权威科技媒体**（36氪、爱范儿、IT之家、The Verge）
-3. **T2 - 行业垂直媒体**（充电头网、音频应用、无人机之家）
+| 类型 | 定义 | 典型触发词 |
+|---|---|---|
+| 材料创新 | 高端材料首次下放 / 生物基 / 透明注塑 / 新涂层 | 钛金属、生物基、液态金属、陶瓷一体、透明 PC |
+| 工艺创新 | 新制造工艺显著改变外观约束 | 一体化压铸、纳米注塑 2.0、无合模线、玻璃金属融合 |
+| 范式转变 | 去屏幕化 / 概念性形态改变 / 跨品类融合 | 透明科技感（Nothing 风）、可穿戴 AI 硬件、模块化外壳 |
 
-**屏蔽**: 今日头条自媒体、百家号、搜狐号、网易号、企鹅号
+### 1.3 七类必丢噪音（踩到任一直接丢）
+
+1. 常规配置升级（换芯不换壳：处理器/内存/电池提升，外壳 ID 完全沿用）
+2. 纯价格战、降价促销、618/双 11 通稿
+3. 自媒体标题党、无官方产品页外链佐证
+4. 信源命中 `blockList`（今日头条自媒体、百家号、搜狐号、网易号、企鹅号）
+5. 无高清产品图 + 无 `og:image` + 无任何官方渲染图的"口头爆料"
+6. 概念车/概念原型距量产 18 个月以上
+7. KOL 主观评测、用户口碑，非官方发布信息
+
+### 1.4 唯一权威权重与评分入口
+
+**权重来源**：`./vis-scoring-config.json`（`version: "2.0"`，`updatedAt: "2026-05-28"`）。
+本手册 **不复制权重表**，避免分裂。任何与 v2.0 冲突的文档（含本手册旧版注释、KS 脚本旧注释、第三方 `.py` 自报版本）一律以 `vis-scoring-config.json` 为最终解释源。
+
+| 维度 id | v2.0 权重 | 10 分制系数 | 典型高分锚点 |
+|---|---|---|---|
+| diffusionPotential | 0.30 | ×3.0 | 跨品类扩散（如透明风从手机→音频→桌搭） |
+| recognition | 0.25 | ×2.5 | 路人 3 秒识别独特外观语言 |
+| transferability | 0.20 | ×2.0 | 我方未来 3 款产品能直接借鉴 |
+| cmfInnovation | 0.15 | ×1.5 | 新材质/工艺首次或首批使用 |
+| paradigmShift | 0.10 | ×1.0 | 形态/交互范式根本改变 |
+
+**阈值**（来自 config.json thresholds）：入池门槛 `totalScore ≥ 60`，强信号 `≥ 75`，每维度最低 `≥ 6` 分。
 
 ---
 
-## 3. 执行流程（每日必做）
+## 二 · 品牌池（60 品牌 · 16 品类 · 4 层分级）
 
-### 步骤0: 自检脚本（必须执行）
+> 完整数据本体：`brands.json`（`lastUpdated: 2026-06-29`）。以下按 Tiers + 品类摘录，供人工审计；自动化执行一律读 `brands.json.brands[]`。
 
-```powershell
-cd D:\robin-skills\trae solo\brand-pulse-vis
-powershell -ExecutionPolicy Bypass -File ".\scripts\validate-brandpulse.ps1"
+### 2.1 Tiers 定义
+
+| Tier | 角色 | 含义 | 默认追频 | 数量 |
+|---|---|---|---|---|
+| **A** | 设计源 design_source | 视觉语言源头，行业审美风向标 | weekly | 10 |
+| **B** | 大众验证 market_validator | 商业验证强，大众审美接受度标尺 | weekly | 22 |
+| **C** | 前置信号 fringe_signal | 新锐/圈层/前置观察 | weekly | 19 |
+| **D** | 风险反例 risk_case | 失败边界、噪音高发、外观溢价弱 | monthly/event | 7 |
+| paused | 暂停 | 官方源不足，待补源后启用 | — | 1（维奥技术VEOUT） |
+
+### 2.2 A 层设计源（10 个，核心雷达）
+
+```
+1. Nothing             phone/audio     透明科技感 + 系统视觉
+2. Oura                wearable        智能戒指 · 低存在感穿戴
+3. WHOOP               wearable        无屏健康穿戴 · 订阅制硬件
+4. 韶音 Shokz          audio           开放式耳机形态
+5. 大疆 DJI            camera          无人机/影像 · 专业工具审美
+6. 影石 Insta360       camera          运动/全景 · 模块化外观
+7. Framework           laptop          模块化笔记本 · 彩色外壳
+8. Teenage Engineering audio           高设计感音频/创作者设备
+9. Ray-Ban Meta        wearable        AI 眼镜商业化样本
+10. PLAUD              wearable        AI 录音卡 · 专业工具+可穿戴
 ```
 
-- 如果自检 **PASSED**: 继续执行
-- 如果自检 **FAILED**: 先修复问题，修复完成后再继续
+### 2.3 品类 × 品牌数（共 60）
 
-### 步骤1: 搜索新品
+| 品类 key | 中文名 | 品牌数 | 典型品牌 |
+|---|---|---|---|
+| car | 汽车 | 3 | 小米汽车 / 特斯拉 / 享界 |
+| phone | 手机/平板 | 7 | 华为 / OPPO / 三星 / Nothing / 联想moto / Ulefone / Fairphone / 苹果（Apple 归入 phone） |
+| wearable | 可穿戴 | 7 | Oura / WHOOP / Garmin / Ray-Ban Meta / PLAUD / Ultrahuman / Limitless |
+| audio | 音频 | 4 | 索尼 / 韶音 / Teenage Engineering / （其他分散） |
+| smart | 智能家居 | 2 | 微软Surface / Dyson |
+| robot | 扫地机器人 | 4 | 追觅 / 石头 / 科沃斯 / 云鲸 |
+| lawn | 割草机器人 | 3 | 库犸 Mammotion / Segway Navimow / Worx Landroid |
+| pool | 泳池设备 | 2 | Beatbot / Aiper |
+| power | 便携储能 | 2 | Bluetti / 正浩 EcoFlow |
+| projector | 智能投影 | 2 | 极米 XGIMI / 坚果 JMGO |
+| gaming | 电竞设备 | 1 | ROG 玩家国度 |
+| mobility | 出行工具 | 2 | 九号 Ninebot / 小牛 NIU |
+| accessory | 充电/外设配件 | 15 | Anker / Baseus / UGREEN / Belkin / CUKTECH / ROMOSS / Sharge / UNITEK / VEOUT(暂停) / iOttie / Logitech / Keychron / Lofree / Elgato / Flipper Zero |
+| camera | 影像设备 | 3 | 大疆 / 影石 / GoPro |
+| laptop | 笔记本电脑 | 1 | Framework |
+| ai_hardware | AI 原生硬件 | 2 | Rabbit / Humane |
 
-- 按品牌列表搜索，优先使用 `site:` 语法限定官方域名
-- 搜索关键词示例: `"品牌名" 新品发布 2026年6月 设计 材质 工艺`
-- 重点关注: 外观设计、工业设计创新、配色、材质、工艺
-- **严格过滤**: 常规配置升级、仅换芯不换壳的产品 **不收录**
+**注意**：`brands.json` 为 60 品牌权威源。如果本表格有遗漏/冲突（如 Apple 归属品类），以 `brands.json` 为准并在下一周期跑批前提交 PR 修正本手册。
 
-### 步骤2: 提取图片URL
+---
 
-- 访问每个新品的新闻页面或官方产品页
-- 提取页面中的 `og:image` 标签内容（Open Graph封面图）
-- 如果没有 `og:image`，提取页面中第一张产品高清图的URL
-- 优先选择: 官方渲染图 > 媒体实拍图 > 任何高清产品图
+## 三 · 信息源优先级与搜索语法
 
-**占位图兜底机制**: 如果遇到极高质量的源头信号但页面确实无图或抓取失败，允许使用占位图或留空。绝对不能因为找不到图片而丢弃高质量源头信号！
+来源：`brands.json.sourcePriority`。
 
-### 步骤3: 更新数据文件
+| 层级 | 信源 | 搜索策略 |
+|---|---|---|
+| T0 官方 | 品牌官网、官方微博/公众号、官方新闻稿 | `site:官方域名 品牌名 新品 设计 材质 工艺 发布月份` |
+| T1 权威媒体 | 36氪、爱范儿、IT之家、The Verge | `品牌名 新品 site:36kr.com OR site:ifanr.com OR site:ithome.com` |
+| T2 垂直媒体 | 充电头网、音频应用、无人机之家等 | 按品类加入垂直域名限定 |
 
-#### 3.1 数据安全 — HTML实体转义
+**屏蔽**：`blockList` 五家自媒体号平台（今日头条自媒体/百家号/搜狐号/网易号/企鹅号），命中任一直接丢弃。
 
-在将抓取到的 title 和 desc 写入 JSON 之前，必须进行标准 HTML 实体转义：
-- `<` → `&lt;`
-- `>` → `&gt;`
-- `&` → `&amp;`
-- `"` → `&quot;`
+**配额**：WebSearch 每周跑批 ≤ 10 次。超出则写入 HEARTBEAT 风险区并推迟到下一批次，禁止刷配额。
 
-**中文引号处理**: 如果产品描述中包含中文引号（如 `"一镜双目"`），必须替换为转义的英文双引号 `\"`，否则会导致 JSON 解析失败！
+**site: 失效降级链**：`site:官方域名` 无结果 → `(官网 OR 官方) 品牌名 新品` → T1 权威媒体 → T2 垂直媒体。每一步最多 1 次查询，用完配额立即停。
 
-#### 3.2 文件A: `products/recent.json`
+---
 
-- 读取现有 `recent.json`
-- 将新品追加到数组 **开头**
-- 检查是否有超过30天的旧数据（比较 `createdAt` 字段与当前日期）
-- 将超过30天的条目移入 `products/archive/archive_YYYY-MM.json`
-- **注意**: 归档路径是 `products/archive/archive_YYYY-MM.json`，不是 `products/archive-YYYY-MM.json`
+## 四 · Session Startup（每次跑批前必走 7 项）
 
-#### 3.3 文件B: 同步 HTML 嵌入数据
+1. **切目录**：`cd D:\robin-skills\trae solo\brand-pulse-vis`
+2. **自检脚本**：`powershell -ExecutionPolicy Bypass -File .\scripts\validate-brandpulse.ps1` → 必须 `ALL CHECKS PASSED`，否则停
+3. **拉最新**：`git pull --rebase`（避免与上一批次归档冲突）
+4. **读权重**：校验 `vis-scoring-config.json.version === "2.0"`，否则退出并报错
+5. **读品牌池**：加载 `brands.json`，校验 `brands.length === 60`（暂停品牌不计入跑批数量，但仍计入总数）
+6. **写心跳 START**：更新 `heartbeat-state.json.lastRunAt = 当期时间戳`，`lastStatus = "RUNNING"`
+7. **频率闸门**：若今天不是周一/周四且不是 `--force` 强制模式 → 写一条 "SKIP_NOT_SCHEDULED" 到 heartbeat 并退出（防 cron 误触发、防人工重复跑）
 
-使用同步脚本更新两个 HTML 文件中的嵌入数据和 `window.lastUpdated`：
+---
 
-```powershell
-cd D:\robin-skills\trae solo\brand-pulse-vis
-node scripts/sync-last-updated.js --date YYYY-MM-DD --time HH:MM
+## 五 · 评分算法（6 步，对应 WORKFLOWS.md 第 3 步）
+
+> 详细 6 步闸门：见 `WORKFLOWS.md §二`。此处只给算法公式与代码入口。
+
+### 5.1 评分公式（v2.0 唯一权威）
+
+```
+totalScore = Σ ( dimensionScore[i] × weight[i] × 10 )
+
+dimensionScore ∈ [0..10]
+weights = 从 vis-scoring-config.json 读取，禁止在 AGENTS / 脚本 / md 注释硬编码
 ```
 
-该脚本会：
-1. 读取 `products/recent.json` 和 `brands.json`
-2. 通过标记区 `// <BRANDPULSE-DATA-...>` 替换两个 HTML 文件中的嵌入数据
-3. 更新 `window.lastUpdated` 时间戳
-4. **两个文件必须同时更新**，确保时间戳一致
+**代码入口**（自动化优先）：
+- JS 主路径：`node scripts/score-candidates.js`（读 `vis-scoring-config.json` → 产出 `products/recent.json`）
+- KS 辅助路径：`py -3 scripts/ks_vis_scoring.py`（**注意**：脚本头部注释的权重系数已同步修正为 v2.0，实际系数以 `vis-scoring-config.json` 为回归基准。脚本注释仅供人类读档，计算仍读 config.json）
 
-**不要手动编辑 HTML 中的嵌入数据**，始终通过同步脚本更新。
+### 5.2 三道硬性闸门（不过直接丢，不进候选池）
 
-### 步骤4: 再次执行自检脚本（必须执行）
+1. **入池门槛**：`totalScore ≥ 60`（thresholds.inclusion）
+2. **维度底线**：5 个维度 **每一个** 都 `≥ 6`（thresholds.coreDimensionMin）
+3. **强信号标记**：`totalScore ≥ 75` 标记 `strongSignal: true`（thresholds.strongSignal）
+
+丢档必须写 `discardReason`（7 类噪音 + 3 类低分），可审计。
+
+---
+
+## 六 · 数据输出规范（5 类产物写哪）
+
+| 产物 | 路径 | 说明 |
+|---|---|---|
+| 候选池 JSON | `products/candidates.json` | 当期全部通过 60 分的产品（含 discardReason） |
+| 近期 Top20 | `products/recent.json` | 最近 8 条中的强信号 + 当期 Top20（UI 读取，HTML 页面默认读这个路径） |
+| 跑批归档 | `brand-pulse-runs/YYYY-MM-DD.md` | 每周两期人工可读报告（MO/TH 各一份） |
+| 记忆写入 | `memory/YYYY-MM-DD.md` | 踩坑库条目：新增信源映射、失败案例、品牌分层异动 |
+| 心跳状态 | `heartbeat-state.json` | 字段：`lastRunAt / lastStatus / lastRunType / errors[] / quotaUsed / quotaMax` |
+
+**命名规范**：日期一律 `YYYY-MM-DD`（ISO 8601），文件名英文小写、空格换 `-`、中文允许作为目录内容但不得作为文件名。
+
+**归档清理**：`brand-pulse-runs/` 超 30 天自动移至 `archive/`（手动或脚本）；`memory/` 永久保留，作为长期学习资产。
+
+---
+
+## 七 · Git 推送与心跳收尾（7 步收尾）
 
 ```powershell
-cd D:\robin-skills\trae solo\brand-pulse-vis
-powershell -ExecutionPolicy Bypass -File ".\scripts\validate-brandpulse.ps1"
-```
+# 1. 查看改动（人工核对新增 JSON / md 条目是否符合信号定义）
+git status
+git diff --stat
 
-- 如果自检 **PASSED**: 继续执行 Git 推送
-- 如果自检 **FAILED**: 修复问题后重新执行步骤4
+# 2. 自检重跑（必须 PASSED）
+powershell -ExecutionPolicy Bypass -File .\scripts\validate-brandpulse.ps1
 
-### 步骤5: Git 推送
+# 3. 加文件（黑名单：绝不提交 .env、临时产物 ~、node_modules）
+git add AGENTS.md data/*.json brand-pulse-runs/ memory/ heartbeat-state.json
 
-```powershell
-cd D:\robin-skills\trae solo\brand-pulse-vis
-git add products/recent.json products/archive/archive_YYYY-MM.json brand-pulse-vis.html index.html
-git commit -m "auto: 每日新品追踪更新 YYYY-MM-DD"
-git config --global http.proxy http://127.0.0.1:10808
-git config --global https.proxy http://127.0.0.1:10808
+# 4. 提交（commit message 格式：pulse(YYYY-MM-DD): N candidates · Top=<name>@<score>）
+git commit -m "pulse(2026-07-29): 5 candidates · Top=三星Galaxy Z Fold8@73"
+
+# 5. 推送
 git push origin main
+
+# 6. 心跳 OK
+# heartbeat-state.json.lastStatus = "SUCCESS"
+
+# 7. 若 BOOTSTRAP.md 仍存在且本次是首次全流程 PASSED + Git push 成功
+#    → 自动删除 BOOTSTRAP.md（不再需要引导文件）
 ```
 
-**注意**:
-- PowerShell 使用 `;` 分隔命令，不能用 `&&`
-- 如果推送被拒绝（non-fast-forward），先执行 `git pull origin main --rebase` 再推送
+---
+
+## 八 · 异常熔断与回滚
+
+| 异常类型 | 触发条件 | 动作 |
+|---|---|---|
+| 自检 FAILED | validate-brandpulse.ps1 非 0 退出 | 停跑，写 errors[]，不产出任何 JSON |
+| 权重版本不匹配 | config.json.version ≠ "2.0" | 立即 exit 1，拒绝评分 |
+| 搜索配额用尽 | quotaUsed ≥ quotaMax（10） | 停搜索，已搜到数据正常评分；剩余品牌顺延下一批次 |
+| Git 冲突 | git pull 冲突 | 人工介入，绝不自动 `--force` 推送 |
+| 非跑批日触发 | 今天不是 MO/TH 且无 `--force` | 写 SKIP_NOT_SCHEDULED，exit 0（静默跳过） |
+| 连续 3 次失败 | lastStatus 连续 3 个 "FAILED" | 下次启动自动发告警（若有渠道）+ 暂停自动推送 1 期 |
+
+**回滚**：发现某批次误收噪音 → 用 `git revert <commit-hash>` 生成反向提交，**绝不用 `reset --hard` 改历史**，并在 `memory/` 写一条回滚复盘。
 
 ---
 
-## 4. 数据格式规范
-
-### 4.1 产品条目 JSON 结构
-
-```json
-{
-  "id": "brand-product-YYYYMMDD",
-  "brand": "品牌中文名",
-  "category": "phone|wearable|gaming|charger|camera|vehicle|laptop|audio|robot|projector|energy|smart_home",
-  "title": "产品标题 — 核心视觉约束变化",
-  "summary": "一句话概括产品核心视觉/材质/工艺创新",
-  "constraintChange": "具体描述改变了什么视觉约束",
-  "time": "YYYY-MM-DD HH:MM",
-  "score": 70.0,
-  "confidence": 85,
-  "reviewStatus": "verified",
-  "visBreakdown": {
-    "recognition": 20,
-    "paradigmShift": 18,
-    "cmfInnovation": 22,
-    "transferability": 14,
-    "diffusionPotential": 14
-  },
-  "visWeighted": {
-    "diffusionPotential": 1.68,
-    "recognition": 2.0,
-    "transferability": 1.12,
-    "cmfInnovation": 1.32,
-    "paradigmShift": 0.72
-  },
-  "visTotal": 6.84,
-  "facts": ["事实1", "事实2"],
-  "analysis": {
-    "whyItMatters": "为什么这个信号重要",
-    "transferability": "可迁移性分析",
-    "risk": "潜在风险"
-  },
-  "primarySource": {
-    "tier": "tier0_official|tier1_media|tier2_ec",
-    "name": "来源名称",
-    "url": "https://...",
-    "capturedAt": "YYYY-MM-DDTHH:MM:SS+08:00"
-  },
-  "evidence": [
-    {
-      "tier": "tier1_media",
-      "name": "证据来源",
-      "url": "https://...",
-      "supports": ["product_exists", "design", "materials"]
-    }
-  ],
-  "tags": ["标签1", "标签2"],
-  "image": "https://...",
-  "duplicateOf": null,
-  "createdAt": "YYYY-MM-DDTHH:MM:SS+08:00",
-  "updatedAt": "YYYY-MM-DDTHH:MM:SS+08:00",
-  "url": "https://..."
-}
-```
-
-### 4.2 精选口径（页面与校验脚本统一）
-
-**精选条件**: `score >= 75` **OR** `visTotal >= 7`
-
-页面和校验脚本使用相同口径，确保数字一致。
-
-### 4.3 评分标准（VIS 视觉影响评分）
-
-| 维度 | 权重 | 说明 |
-|------|------|------|
-| recognition | 0.10 | 视觉辨识度 |
-| paradigmShift | 0.04 | 范式转变程度 |
-| cmfInnovation | 0.06 | CMF创新程度 |
-| transferability | 0.08 | 可迁移性 |
-| diffusionPotential | 0.12 | 扩散潜力 |
-
-**总分计算公式**: `visTotal = recognition*0.1 + paradigmShift*0.04 + cmfInnovation*0.06 + transferability*0.08 + diffusionPotential*0.12`
-
----
-
-## 5. 自检脚本检查项
-
-`validate-brandpulse.ps1` 执行以下检查：
-
-| 检查项 | 说明 |
-|--------|------|
-| 必需文件存在 | SKILL.md, AGENTS.md, brands.json, vis-scoring-config.json, recent.json, 两个 HTML |
-| brands.json 合法性 | 至少10个品牌 |
-| 时间戳一致性 | 两个 HTML 的 `window.lastUpdated` 必须相同 |
-| 前端 JS 语法 | 提取所有 `<script>` 块，通过 `node --check` 验证（需安装 Node.js） |
-| 必需函数存在 | switchSection, initializeDashboard, renderBrandList, applyViewStateAndRender |
-| 数据标记区 | 4个 `// <BRANDPULSE-DATA-...>` 标记在两个 HTML 中都存在 |
-| 产品字段完整 | 17个必需字段 |
-| ID唯一性 | 无重复 id |
-| visBreakdown 完整 | 非零产品必须有完整评分 |
-| 30天过期检查 | 超过30天的产品需归档 |
-| 未来数据检查 | 不允许 createdAt 晚于 lastUpdated |
-| 静态数字检查 | stat 元素必须使用 `-` 占位符，不能写死数字 |
-| 精选口径 | score >= 75 OR visTotal >= 7 |
-
----
-
-## 6. 特殊情况处理
-
-### 6.1 今日无信号
-
-如果某天搜索后没有发现任何符合严格过滤原则的新品，输出 `no-signal-YYYYMMDD` 条目（score=0, visTotal=0）。
-
-### 6.2 Git 仓库异常
-
-如果 `brand-pulse-vis` 目录下没有 `.git` 目录：
-
-```powershell
-cd D:\robin-skills\trae solo\brand-pulse-vis
-git init
-git remote add origin https://github.com/robinxinxinxin/brand-pulse-vis.git
-git fetch origin main
-git reset origin/main
-```
-
-### 6.3 图片抓取失败
-
-允许使用占位图或留空 `image: ""`。**绝对不能因为找不到图片而丢弃高质量源头信号**。
-
----
-
-## 7. 关键文件路径
-
-| 文件 | 路径 | 说明 |
-|------|------|------|
-| 主页面 | `brand-pulse-vis.html` | 展示页（GitHub Pages） |
-| 入口页 | `index.html` | 本地入口页 |
-| 近期数据 | `products/recent.json` | 近30天产品数据 |
-| 归档数据 | `products/archive/archive_YYYY-MM.json` | 按月归档 |
-| 品牌配置 | `brands.json` | 监控品牌池 |
-| 评分配置 | `vis-scoring-config.json` | VIS评分权重 |
-| 同步脚本 | `scripts/sync-last-updated.js` | 同步数据到HTML（标记区替换） |
-| 校验脚本 | `scripts/validate-brandpulse.ps1` | 全链路自检 |
-| 本说明 | `AGENTS.md` | AI Agent自动化说明 |
-
----
-
-## 8. 代理交接记录
-
-| 日期 | 执行代理 | 收录信号数 | 备注 |
-|------|----------|-----------|------|
-| 2026-06-04 | SOLO | 3 | 华为nova16 Ultra、ROG COMPUTEX 2026 20周年系列、九号2026四款新车 |
-| 2026-06-06 | SOLO | 1 | ROG Edition 20系列（Crystal Lens透明材质+Radiant Gold金色工艺） |
-| 2026-06-07 | SOLO | 0 | 自动化链路优化：标记区同步、前端语法检查、精选口径统一、静态数字修复 |
-| 2026-06-12 | 人工 | — | 修复一级菜单切换刷新契约：①「今日更新」不再被品牌监控过滤误杀（shouldApplyMonitoredBrandFilter 仅精选生效）；②切换菜单时 resetSectionTransientState 清空搜索词+品类筛选；③众筹加载失败显示 crowdfundingLoadError 明确文案；④allCount/todayCount 统计逻辑修正（改用 defaultProductsData.length）；⑤提取 getTodayKey/matchesMonitoredBrand/getEmptyStateMessage 等辅助函数 |
-
----
-
-## 9. 常见错误与修复
-
-### 9.1 JSON 解析失败
-- **原因**: 中文引号 `"` 未替换为转义的英文双引号 `\"`
-- **修复**: 全局替换中文引号为 `\"`
-
-### 9.2 Git 推送被拒绝
-- **原因**: 远程分支有本地没有的提交
-- **修复**: `git pull origin main --rebase` 后再推送
-
-### 9.3 同步脚本破坏 HTML 结构
-- **原因**: 正则替换误匹配（已通过标记区机制修复）
-- **修复**: 确保 HTML 中包含 `// <BRANDPULSE-DATA-...>` 标记区
-
-### 9.4 校验报 "Static number found"
-- **原因**: HTML 中 stat 元素写死了数字而非 `-` 占位符
-- **修复**: 将对应元素的数字改为 `-`，页面加载时 JS 会自动填充
-
----
-
-> **提示**: 本任务的核心价值在于"严格过滤"。宁可少收录，也不要降低标准。如果某天没有符合条件的信号，如实输出"今日无视觉约束变化信号"即可。
+> 本文档与 `vis-scoring-config.json v2.0`、`brands.json`、`WORKFLOWS.md`、`MEMORY.md` 共同构成 Agent 身份层的四件套。任何单文件修改必须同步审查其余三者的一致性。

@@ -1,0 +1,166 @@
+{
+  "version": "0.1",
+  "stage": "stage_9_user_comments_and_competitor_comparison",
+  "updatedAt": "2026-06-19",
+  "subject": {
+    "brand": "闪极Sharge",
+    "productName": "Shargeek 300",
+    "category": "高功率移动电源",
+    "aestheticSignal": "半透明科技感"
+  },
+  "stageConclusion": {
+    "result": "evidence_strengthened_but_direct_user_comments_still_missing",
+    "label": "竞品差异成立，直接用户评论仍需补采",
+    "summary": "Shargeek 300 相比 Anker、UGREEN、Baseus 的视觉识别度明显更强；但目前可公开核验的普通用户评论不足，不能把“用户已因外观购买”写成已证实。"
+  },
+  "userEvidence": [
+    {
+      "type": "hands_on_reviewer_as_power_user",
+      "source": "Android Central",
+      "url": "https://www.androidcentral.com/accessories/power-charging/these-three-features-make-the-shargeek-300-the-ultimate-24-000mah-power-bank",
+      "whatItSupports": [
+        "长期实测者把 Shargeek 300 作为旅行主力移动电源",
+        "透明结构、RGB、LCD 和铝合金机身被作为突出体验点",
+        "产品在机场安检和休息室场景中会吸引他人注意"
+      ],
+      "evidenceStrength": "medium",
+      "limitation": "这是媒体/实测者反馈，不等同于大规模普通用户评论。"
+    },
+    {
+      "type": "media_attention_signal",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/876432/sharge-shargeek-300w-power-bank-rgb-lighting-kickstarter",
+      "whatItSupports": [
+        "透明窗口、内部元件、RGB、屏幕被报道为核心差异点",
+        "早鸟价 149 美元、预计零售价 199 美元，处于可观察溢价价格带"
+      ],
+      "evidenceStrength": "medium",
+      "limitation": "媒体传播信号强，但不是直接购买评论。"
+    },
+    {
+      "type": "direct_user_comments",
+      "source": "public_search",
+      "url": "",
+      "whatItSupports": [],
+      "evidenceStrength": "not_enough_data",
+      "limitation": "当前未采集到足够可公开核验的 Kickstarter、YouTube、Reddit、电商评论样本。"
+    }
+  ],
+  "competitors": [
+    {
+      "brand": "Anker",
+      "representativeProduct": "Anker 737 / Anker 25K Laptop Power Bank",
+      "positioning": "高信任、高实用、高性能",
+      "visualLanguage": "功能型、稳重、屏幕信息化、集成线缆便利性",
+      "strengthAgainstShargeek300": [
+        "品牌信任更强",
+        "渠道和售后更成熟",
+        "设计更大众、更稳妥",
+        "价格更容易被主流用户接受"
+      ],
+      "weaknessAgainstShargeek300": [
+        "视觉展示感弱",
+        "不像 Shargeek 300 那样具备强科技物件识别度",
+        "更像可靠工具，不像可晒的桌搭/EDC 物件"
+      ],
+      "sourceUrls": [
+        "https://www.theverge.com/2025/1/6/24332180/anker-wall-charger-140w-power-bank-retractable-cables-price",
+        "https://www.techradar.com/best/best-power-banks-australia"
+      ]
+    },
+    {
+      "brand": "UGREEN",
+      "representativeProduct": "UGREEN Nexode Power Bank",
+      "positioning": "高性价比、高功率、实用功能",
+      "visualLanguage": "深灰、磨砂、显示屏、内置/伸缩线缆，偏工具型高级感",
+      "strengthAgainstShargeek300": [
+        "价格更低",
+        "功能实用性强",
+        "品牌在充电配件中认知度高"
+      ],
+      "weaknessAgainstShargeek300": [
+        "外观差异不够强",
+        "显示屏和线缆是便利功能，不是强视觉符号",
+        "缺少透明结构、RGB、内部结构展示等传播点"
+      ],
+      "sourceUrls": [
+        "https://www.techradar.com/phones/phone-accessories/ugreen-nexode-power-bank-20000mah-165w-review",
+        "https://www.creativebloq.com/features/best-power-bank"
+      ]
+    },
+    {
+      "brand": "Baseus",
+      "representativeProduct": "Baseus EnerGeek / Baseus Blade",
+      "positioning": "功能整合、便携、价格友好",
+      "visualLanguage": "集成线缆、移动热点、显示屏、磁吸/无线等功能组合，视觉表达偏克制",
+      "strengthAgainstShargeek300": [
+        "功能组合有差异，例如移动热点、二合一、磁吸无线",
+        "价格通常更低",
+        "更适合大众便利场景"
+      ],
+      "weaknessAgainstShargeek300": [
+        "高功率和展示型科技感不足",
+        "缺少透明结构带来的强识别",
+        "更像功能创新，不像高溢价视觉设计样本"
+      ],
+      "sourceUrls": [
+        "https://www.theverge.com/2025/1/7/24334550/baseus-energeek-mifi-power-bank-mobile-hotspot-charging-enercore-battery",
+        "https://www.gamesradar.com/i-take-my-steam-deck-everywhere-heres-what-i-keep-in-my-backpack/"
+      ]
+    }
+  ],
+  "visualComparisonScore": [
+    {
+      "dimension": "视觉识别度",
+      "shargeek300": 5,
+      "anker": 3,
+      "ugreen": 3,
+      "baseus": 3,
+      "note": "Shargeek 300 的透明窗口、RGB 和内部结构可视化最强。"
+    },
+    {
+      "dimension": "功能可信度",
+      "shargeek300": 4,
+      "anker": 5,
+      "ugreen": 4,
+      "baseus": 3,
+      "note": "Anker 的信任感最强，Sharge 需要继续证明可靠性。"
+    },
+    {
+      "dimension": "桌搭/EDC 展示价值",
+      "shargeek300": 5,
+      "anker": 3,
+      "ugreen": 3,
+      "baseus": 3,
+      "note": "Shargeek 300 更适合被展示和讨论。"
+    },
+    {
+      "dimension": "价格承接能力",
+      "shargeek300": 4,
+      "anker": 5,
+      "ugreen": 4,
+      "baseus": 4,
+      "note": "Anker 更容易让大众接受高价，Sharge 的高价需要靠差异化解释。"
+    },
+    {
+      "dimension": "可复制风险",
+      "shargeek300": 3,
+      "anker": 4,
+      "ugreen": 4,
+      "baseus": 4,
+      "note": "半透明科技感容易被模仿，Sharge 需要继续迭代结构和材料细节。"
+    }
+  ],
+  "decisionImpact": {
+    "previousScore": 25,
+    "updatedScore": 26,
+    "reason": "竞品对比加强了 Shargeek 300 的视觉差异判断，但直接用户评论不足仍然限制上限。",
+    "currentDecision": "继续作为收费诊断样本，但报告中必须保留用户评论待补的风险提示。"
+  },
+  "nextEvidenceTasks": [
+    "抓取 Kickstarter 评论区或更新区的支持者反馈",
+    "抓取 YouTube 评测评论中关于外观、RGB、透明结构的表达",
+    "抓取 Reddit / X / 电商评论中关于想买、太花哨、可靠性担忧的表达",
+    "至少收集 20 条评论，按外观驱动、性能驱动、价格驱动、可靠性担忧分类"
+  ]
+}

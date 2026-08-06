@@ -1,5 +1,67 @@
 [
   {
+    "id": "no-signal-20260805",
+    "brand": "无",
+    "category": "none",
+    "title": "今日无视觉约束变化信号 (2026-08-05)",
+    "summary": "经8批次搜索覆盖手机/音频/影像/笔记本/游戏设备/扫地机器人/小家电等品类，未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。REDMI K100 Pro系列(8/11正式发布)处于预热阶段，8580mAh电池+26%硅碳含量+赤霞珠红配色+悬浮灯环+四曲金属中框属强CMF信号但未正式发布，待8/11发布后再收录；三星折叠屏Z Fold8系列(7/22发布)钛缓震层技术已随7/2 Fold8 Wide收录不重复；韶音OpenDots 2落樱粉配色(8/12首发)为既有产品配色变化非材料/范式突破；CMF Clip Pro耳夹耳机(8/4发布)J形桥设计+钛合金丝材质属形态创新但未发现重大材料/工艺突破；华硕天选Air 2026/微星Claw 8 EX AI+为配置性能升级；苹果iPhone 18系列(9月发布)为预告阶段。",
+    "constraintChange": "无",
+    "time": "2026-08-05 23:27",
+    "score": 0,
+    "confidence": 100,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0,
+      "cmfInnovation": 0,
+      "paradigmShift": 0
+    },
+    "visTotal": 0,
+    "facts": [
+      "搜索覆盖手机/音频/影像/笔记本/游戏设备/扫地机器人/小家电等核心品类，共8批次搜索",
+      "REDMI K100 Pro系列（8/11正式发布）：8580mAh超大电池+26%超高硅碳含量+945Wh/L能量密度+赤霞珠红配色+悬浮灯环设计+四曲包裹式金属中框+一体化金属DECO通体同色，为强CMF信号但当前处于预热阶段未正式发布，待8/11正式发布后再收录",
+      "三星Galaxy Z Fold8系列（7/22伦敦Unpacked正式发布）：钛缓震层技术（钛合金薄膜+钛合金支撑板，20倍刚度，发丝1/3厚度）已随7/2 Fold8 Wide收录，Fold8 Ultra/Flip8为工程精进，不重复",
+      "韶音OpenDots 2落樱粉配色（8/12首发）：定价1598元，首发价1168.2元，不对称弧形设计+动钛弧9g预紧力+11.8mm对称双单元+杜比音效，属既有产品的配色变化非材料/范式突破，不收录",
+      "CMF Clip Pro耳夹耳机（8/4发布）：定价549元，灰色哑光涂层+J形桥设计+钛合金丝C桥连接+10.8mm双磁体动圈单元+Ultra Bass超重低音技术+LDAC高清音频+Hi-Res认证，属耳夹形态创新但未发现重大材料/工艺突破，不收录",
+      "华硕天选Air 2026（8/5评测）：性能小钢炮轻薄新旗舰，属笔记本配置性能升级非CMF创新，不收录",
+      "微星Claw 8 EX AI+（8/5报道）：1800美元高性能掌机，5小时玩《暗黑4》，属掌机配置性能升级非CMF创新，不收录",
+      "苹果iPhone 18系列（9月发布预告）：iPhone 18 Pro/Pro Max搭载A20 Pro芯片(2nm工艺)，iPhone Ultra折叠屏7.8英寸内屏/5.5英寸外屏，当前为预告阶段非正式发布，不收录",
+      "华为Mate 90系列（9月中下旬发布预告）：首发基于\"韬定律\"及逻辑折叠技术的全新麒麟芯片(预计命名麒麟9050 Pro)+首发预装HarmonyOS 7+6.9英寸双层OLED屏幕+2亿像素大底主摄+7000mAh超大容量电池，当前为预告阶段非正式发布，不收录",
+      "中国扫地机器人占全球超七成市场份额：石头科技研发可爬楼梯机型，追觅布局机械臂整理功能，科沃斯迭代全能基站扫拖一体方案，属技术能力报道非新品发布，不收录",
+      "8月5日监控品类内无显著视觉约束变化信号"
+    ],
+    "analysis": {
+      "whyItMatters": "无信号本身也是信号。8月首周消费电子CMF创新持续处于间歇期，行业焦点集中在8月11日REDMI K100 Pro系列正式发布。该产品的赤霞珠红配色+悬浮灯环+四曲金属中框是本月最强CMF观察点，若正式发布时确认材料工艺细节将是高价值信号。韶音OpenDots 2落樱粉配色、CMF Clip Pro耳夹耳机虽已发布但CMF创新强度不足。苹果iPhone 18系列、华为Mate 90系列均为9月发布预告，需等待正式发布节点。",
+      "transferability": "不适用",
+      "risk": "不适用"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "系统",
+      "url": "",
+      "capturedAt": "2026-08-05T23:27:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "no-signal",
+      "daily-check"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-08-05T23:27:00+08:00",
+    "updatedAt": "2026-08-05T23:27:00+08:00",
+    "url": "",
+    "source": "vis"
+  },
+  {
     "id": "no-signal-20260802",
     "brand": "无",
     "category": "none",
@@ -314,13 +376,13 @@
     "source": "vis"
   },
   {
-    "id": "no-signal-20260706",
+    "id": "no-signal-20260806",
     "brand": "无",
     "category": "none",
-    "title": "今日无视觉约束变化信号 (2026-07-06)",
-    "summary": "经8批次搜索覆盖14品类44品牌，未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。OPPO Bubble自拍屏7月6日正式发售但属磁吸小屏配件，无材料/工艺/范式创新；Garmin epix星耀白相关页面为旧文 resurfaced；Nothing Phone(4b)/Ear(3a)定档7月7日尚未发布；三星Galaxy Z Fold8系列已定档7月22日且Fold8 Wide已于7/2收录。",
+    "title": "今日无视觉约束变化信号 (2026-08-06)",
+    "summary": "本轮搜索覆盖A层10个设计源品牌（Nothing/Oura/WHOOP/韶音/大疆/影石/Framework/Teenage Engineering/Ray-Ban Meta/PLAUD），WebSearch配额10次全部用尽。搜索结果 predominantly 命中blockList（今日头条/搜狐号），非blockList信源极少且多为旧闻或KOL评测。0候选通过60分入池门槛。",
     "constraintChange": "无",
-    "time": "2026-07-06 22:00",
+    "time": "2026-08-06 22:00",
     "score": 0,
     "confidence": 100,
     "reviewStatus": "verified",
@@ -331,105 +393,21 @@
       "cmfInnovation": 0,
       "paradigmShift": 0
     },
-    "visWeighted": {
-      "diffusionPotential": 0,
-      "recognition": 0,
-      "transferability": 0,
-      "cmfInnovation": 0,
-      "paradigmShift": 0
-    },
     "visTotal": 0,
-    "facts": [
-      "搜索覆盖品牌列表中全部44个品牌，共8批次搜索",
-      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
-      "过滤标准：材料/工艺创新、范式转变、供应链异动",
-      "OPPO Bubble自拍屏：7月6日正式发售，磁吸设计、可换壁纸/动图，属潮玩小屏配件，无材料/工艺/范式创新，不收录",
-      "Garmin epix星耀白：相关页面为2022年评测内容 resurfaced，非2026年7月新品，不收录",
-      "Nothing Phone(4b)/Ear(3a)：官方定档7月7日发布，当前尚未正式推出，不收录",
-      "三星Galaxy Z Fold8系列：已公布7月22日伦敦发布，Galaxy Z Fold8 Wide已于7月2日收录(id: samsung-galaxy-z-fold8-wide-20260702)，不重复",
-      "华为Pura 90系列：4月20日发布会已结束，非7月新品",
-      "7月6日监控品牌列表内无显著视觉约束变化信号"
-    ],
-    "analysis": {
-      "whyItMatters": "无信号本身也是信号。7月首周前半段消费电子CMF创新仍处间歇期，行业焦点在7月7日Nothing Phone(4b)与7月22日三星Galaxy Z Fold8系列等预约发布节点。",
-      "transferability": "不适用",
-      "risk": "不适用"
-    },
     "primarySource": {
       "tier": "tier0_official",
       "name": "系统",
       "url": "",
-      "capturedAt": "2026-07-06T22:00:00+08:00"
+      "capturedAt": "2026-08-06T22:00:00+08:00"
     },
     "evidence": [],
     "tags": [
       "no-signal",
-      "daily-check"
+      "weekly-check"
     ],
     "image": "",
-    "duplicateOf": null,
-    "createdAt": "2026-07-06T22:00:00+08:00",
-    "updatedAt": "2026-07-06T22:00:00+08:00",
-    "url": "",
-    "source": "vis"
-  },
-  {
-    "id": "no-signal-20260704",
-    "brand": "无",
-    "category": "none",
-    "title": "今日无视觉约束变化信号 (2026-07-04)",
-    "summary": "经全品牌列表搜索与严格过滤，今日未发现符合材料/工艺创新、范式转变或供应链异动标准的消费电子新品信号。8批次搜索覆盖14品类44品牌。Nothing Phone(4b)7月7日海外发布仍处预热阶段，透明后盖+单摄设计属成本驱动策略非CMF创新；倍思卡片磁吸Air 6.9mm(4/8发布)为旧品不重复；安克Prime 300W/绿联超能卡/酷态科15号Ultra均为上半年已发布产品；三星Galaxy Z Fold8 Wide已于7/2收录；充电配件/储能/投影/机器人/出行等品类7月初无显著CMF新品。",
-    "constraintChange": "无",
-    "time": "2026-07-04 22:00",
-    "score": 0,
-    "confidence": 100,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "diffusionPotential": 0,
-      "recognition": 0,
-      "transferability": 0,
-      "cmfInnovation": 0,
-      "paradigmShift": 0
-    },
-    "visWeighted": {
-      "diffusionPotential": 0,
-      "recognition": 0,
-      "transferability": 0,
-      "cmfInnovation": 0,
-      "paradigmShift": 0
-    },
-    "visTotal": 0,
-    "facts": [
-      "搜索覆盖品牌列表中全部44个品牌，共8批次搜索",
-      "信息源优先级：品牌官方 > 权威科技媒体(T0-T1) > 行业垂直媒体",
-      "过滤标准：材料/工艺创新、范式转变、供应链异动",
-      "Nothing Phone(4b)：7月7日海外发布，当前仍处预热阶段非正式发布；透明后盖+单摄设计系CMF Phone 2 Pro取消后填补入门价位空缺的成本驱动策略，CMF创新信号弱，不收录",
-      "三星Galaxy Z Fold8 Wide：7/3海外博主曝光黑色实体机模实拍图，但已于7/2收录(id: samsung-galaxy-z-fold8-wide-20260702)，不重复",
-      "倍思卡片磁吸Air 6.9mm：4/8发布(IT之家报道)，非7月新品不收录",
-      "安克Prime 300W/绿联超能卡磁吸系列/酷态科15号Ultra/小米金沙江磁吸系列：均为上半年已发布产品，7/3 IT168充电宝大盘点属综合回顾非新品发布",
-      "充电配件/储能/投影/扫地机器人/割草机器人/出行工具/泳池设备/影像设备等品类：7月初无显著CMF/范式突破新品",
-      "华为nova16系列(6/1)/大疆Osmo Pocket 4P(6/15)/影石Luna Ultra(6/10)/ROG Edition 20(COMPUTEX 2026)/华为FreeClip 2典藏版(6/15)：均已收录不重复"
-    ],
-    "analysis": {
-      "whyItMatters": "无信号本身也是信号。7月初消费电子CMF创新仍处间歇期，监控品牌列表内无新品落地。Nothing Phone(4b)7/7正式发布是7月首周反弹观察点(透明后盖+单摄的成本驱动设计)，三星Galaxy Z Fold8 Wide预计7/22正式发布。充电配件行业因GB 47372-2026新国标进入合规洗牌期(超300家中小品牌出局)，但合规门槛本身不构成视觉约束变化信号。",
-      "transferability": "不适用",
-      "risk": "不适用"
-    },
-    "primarySource": {
-      "tier": "tier0_official",
-      "name": "系统",
-      "url": "",
-      "capturedAt": "2026-07-04T22:00:00+08:00"
-    },
-    "evidence": [],
-    "tags": [
-      "no-signal",
-      "daily-check"
-    ],
-    "image": "",
-    "duplicateOf": null,
-    "createdAt": "2026-07-04T22:00:00+08:00",
-    "updatedAt": "2026-07-04T22:00:00+08:00",
+    "createdAt": "2026-08-06T22:00:00+08:00",
+    "updatedAt": "2026-08-06T22:00:00+08:00",
     "url": "",
     "source": "vis"
   }

@@ -1,0 +1,802 @@
+{
+  "date": "2026-06-06",
+  "generatedAt": "2026-06-06T14:08:40.954Z",
+  "mode": "scripted-keyword-plan",
+  "notes": [
+    "These queries provide stable coverage. Let the model add only incremental, brand-specific queries.",
+    "Prioritize official site: queries before general media searches."
+  ],
+  "brands": [
+    {
+      "name": "小米汽车",
+      "nameEn": "Xiaomi Auto",
+      "category": "car",
+      "type": "智能电动车",
+      "queries": [
+        "site:www.mi.com 小米汽车 新品 设计 材质",
+        "site:www.mi.com Xiaomi Auto new product design",
+        "小米汽车 新品发布 6月 设计 材质 工艺",
+        "小米汽车 外观设计 CMF 配色 材质 2026",
+        "小米汽车 工业设计 创新 透明 钛 折叠 2026",
+        "Xiaomi Auto new product 2026 design material CMF",
+        "Xiaomi Auto industrial design material process 2026",
+        "小米汽车 外观设计 新品 2026-06",
+        "小米汽车 车身颜色 新品 2026-06",
+        "小米汽车 座舱材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "特斯拉",
+      "nameEn": "Tesla",
+      "category": "car",
+      "type": "智能电动车",
+      "queries": [
+        "site:www.tesla.cn 特斯拉 新品 设计 材质",
+        "site:www.tesla.cn Tesla new product design",
+        "特斯拉 新品发布 6月 设计 材质 工艺",
+        "特斯拉 外观设计 CMF 配色 材质 2026",
+        "特斯拉 工业设计 创新 透明 钛 折叠 2026",
+        "Tesla new product 2026 design material CMF",
+        "Tesla industrial design material process 2026",
+        "特斯拉 外观设计 新品 2026-06",
+        "特斯拉 车身颜色 新品 2026-06",
+        "特斯拉 座舱材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "享界",
+      "nameEn": "Stelato",
+      "category": "car",
+      "type": "智能电动车",
+      "queries": [
+        "享界 新品发布 6月 设计 材质 工艺",
+        "享界 外观设计 CMF 配色 材质 2026",
+        "享界 工业设计 创新 透明 钛 折叠 2026",
+        "Stelato new product 2026 design material CMF",
+        "Stelato industrial design material process 2026",
+        "享界 外观设计 新品 2026-06",
+        "享界 车身颜色 新品 2026-06",
+        "享界 座舱材质 新品 2026-06",
+        "享界 concept design 新品 2026-06"
+      ]
+    },
+    {
+      "name": "华为",
+      "nameEn": "Huawei",
+      "category": "phone",
+      "type": "手机/笔记本/可穿戴",
+      "queries": [
+        "site:consumer.huawei.com 华为 新品 设计 材质",
+        "site:consumer.huawei.com Huawei new product design",
+        "华为 新品发布 6月 设计 材质 工艺",
+        "华为 外观设计 CMF 配色 材质 2026",
+        "华为 工业设计 创新 透明 钛 折叠 2026",
+        "Huawei new product 2026 design material CMF",
+        "Huawei industrial design material process 2026",
+        "华为 工业设计 新品 2026-06",
+        "华为 CMF 新品 2026-06",
+        "华为 材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "OPPO",
+      "nameEn": "OPPO",
+      "category": "phone",
+      "type": "智能手机",
+      "queries": [
+        "site:www.oppo.com OPPO 新品 设计 材质",
+        "site:www.oppo.com OPPO new product design",
+        "OPPO 新品发布 6月 设计 材质 工艺",
+        "OPPO 外观设计 CMF 配色 材质 2026",
+        "OPPO 工业设计 创新 透明 钛 折叠 2026",
+        "OPPO new product 2026 design material CMF",
+        "OPPO industrial design material process 2026",
+        "OPPO 工业设计 新品 2026-06",
+        "OPPO CMF 新品 2026-06",
+        "OPPO 材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "三星",
+      "nameEn": "Samsung",
+      "category": "phone",
+      "type": "智能手机",
+      "queries": [
+        "site:www.samsung.com 三星 新品 设计 材质",
+        "site:www.samsung.com Samsung new product design",
+        "三星 新品发布 6月 设计 材质 工艺",
+        "三星 外观设计 CMF 配色 材质 2026",
+        "三星 工业设计 创新 透明 钛 折叠 2026",
+        "Samsung new product 2026 design material CMF",
+        "Samsung industrial design material process 2026",
+        "三星 工业设计 新品 2026-06",
+        "三星 CMF 新品 2026-06",
+        "三星 材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "联想moto",
+      "nameEn": "Motorola",
+      "category": "phone",
+      "type": "折叠屏手机",
+      "queries": [
+        "site:www.motorola.com.cn 联想moto 新品 设计 材质",
+        "site:www.motorola.com.cn Motorola new product design",
+        "联想moto 新品发布 6月 设计 材质 工艺",
+        "联想moto 外观设计 CMF 配色 材质 2026",
+        "联想moto 工业设计 创新 透明 钛 折叠 2026",
+        "Motorola new product 2026 design material CMF",
+        "Motorola industrial design material process 2026",
+        "联想moto 工业设计 新品 2026-06",
+        "联想moto CMF 新品 2026-06",
+        "联想moto 材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "Nothing",
+      "nameEn": "Nothing",
+      "category": "phone",
+      "type": "透明设计手机/耳机",
+      "queries": [
+        "site:nothing.tech Nothing 新品 设计 材质",
+        "site:nothing.tech Nothing new product design",
+        "Nothing 新品发布 6月 设计 材质 工艺",
+        "Nothing 外观设计 CMF 配色 材质 2026",
+        "Nothing 工业设计 创新 透明 钛 折叠 2026",
+        "Nothing new product 2026 design material CMF",
+        "Nothing industrial design material process 2026",
+        "Nothing 工业设计 新品 2026-06",
+        "Nothing CMF 新品 2026-06",
+        "Nothing 材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "Ulefone",
+      "nameEn": "Ulefone",
+      "category": "phone",
+      "type": "三防手机",
+      "queries": [
+        "site:www.ulefone.com Ulefone 新品 设计 材质",
+        "site:www.ulefone.com Ulefone new product design",
+        "Ulefone 新品发布 6月 设计 材质 工艺",
+        "Ulefone 外观设计 CMF 配色 材质 2026",
+        "Ulefone 工业设计 创新 透明 钛 折叠 2026",
+        "Ulefone new product 2026 design material CMF",
+        "Ulefone industrial design material process 2026",
+        "Ulefone 工业设计 新品 2026-06",
+        "Ulefone CMF 新品 2026-06",
+        "Ulefone 材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "Oura",
+      "nameEn": "Oura",
+      "category": "wearable",
+      "type": "智能戒指",
+      "queries": [
+        "site:ouraring.com Oura 新品 设计 材质",
+        "site:ouraring.com Oura new product design",
+        "Oura 新品发布 6月 设计 材质 工艺",
+        "Oura 外观设计 CMF 配色 材质 2026",
+        "Oura 工业设计 创新 透明 钛 折叠 2026",
+        "Oura new product 2026 design material CMF",
+        "Oura industrial design material process 2026",
+        "Oura 无屏 新品 2026-06",
+        "Oura 材料 新品 2026-06",
+        "Oura 佩戴形态 新品 2026-06"
+      ]
+    },
+    {
+      "name": "WHOOP",
+      "nameEn": "WHOOP",
+      "category": "wearable",
+      "type": "无屏健康穿戴",
+      "queries": [
+        "site:www.whoop.com WHOOP 新品 设计 材质",
+        "site:www.whoop.com WHOOP new product design",
+        "WHOOP 新品发布 6月 设计 材质 工艺",
+        "WHOOP 外观设计 CMF 配色 材质 2026",
+        "WHOOP 工业设计 创新 透明 钛 折叠 2026",
+        "WHOOP new product 2026 design material CMF",
+        "WHOOP industrial design material process 2026",
+        "WHOOP 无屏 新品 2026-06",
+        "WHOOP 材料 新品 2026-06",
+        "WHOOP 佩戴形态 新品 2026-06"
+      ]
+    },
+    {
+      "name": "佳明Garmin",
+      "nameEn": "Garmin",
+      "category": "wearable",
+      "type": "运动手表",
+      "queries": [
+        "site:www.garmin.com.cn 佳明Garmin 新品 设计 材质",
+        "site:www.garmin.com.cn Garmin new product design",
+        "佳明Garmin 新品发布 6月 设计 材质 工艺",
+        "佳明Garmin 外观设计 CMF 配色 材质 2026",
+        "佳明Garmin 工业设计 创新 透明 钛 折叠 2026",
+        "Garmin new product 2026 design material CMF",
+        "Garmin industrial design material process 2026",
+        "佳明Garmin 无屏 新品 2026-06",
+        "佳明Garmin 材料 新品 2026-06",
+        "佳明Garmin 佩戴形态 新品 2026-06"
+      ]
+    },
+    {
+      "name": "索尼",
+      "nameEn": "Sony",
+      "category": "audio",
+      "type": "音频/影像设备",
+      "queries": [
+        "site:www.sony.com.cn 索尼 新品 设计 材质",
+        "site:www.sony.com.cn Sony new product design",
+        "索尼 新品发布 6月 设计 材质 工艺",
+        "索尼 外观设计 CMF 配色 材质 2026",
+        "索尼 工业设计 创新 透明 钛 折叠 2026",
+        "Sony new product 2026 design material CMF",
+        "Sony industrial design material process 2026",
+        "索尼 开放式 新品 2026-06",
+        "索尼 佩戴形态 新品 2026-06",
+        "索尼 透明外壳 新品 2026-06"
+      ]
+    },
+    {
+      "name": "韶音Shokz",
+      "nameEn": "Shokz",
+      "category": "audio",
+      "type": "开放式耳机",
+      "queries": [
+        "site:shokz.com 韶音Shokz 新品 设计 材质",
+        "site:shokz.com Shokz new product design",
+        "韶音Shokz 新品发布 6月 设计 材质 工艺",
+        "韶音Shokz 外观设计 CMF 配色 材质 2026",
+        "韶音Shokz 工业设计 创新 透明 钛 折叠 2026",
+        "Shokz new product 2026 design material CMF",
+        "Shokz industrial design material process 2026",
+        "韶音Shokz 开放式 新品 2026-06",
+        "韶音Shokz 佩戴形态 新品 2026-06",
+        "韶音Shokz 透明外壳 新品 2026-06"
+      ]
+    },
+    {
+      "name": "微软Surface",
+      "nameEn": "Microsoft Surface",
+      "category": "smart",
+      "type": "二合一电脑",
+      "queries": [
+        "site:www.microsoft.com 微软Surface 新品 设计 材质",
+        "site:www.microsoft.com Microsoft Surface new product design",
+        "微软Surface 新品发布 6月 设计 材质 工艺",
+        "微软Surface 外观设计 CMF 配色 材质 2026",
+        "微软Surface 工业设计 创新 透明 钛 折叠 2026",
+        "Microsoft Surface new product 2026 design material CMF",
+        "Microsoft Surface industrial design material process 2026",
+        "微软Surface 工业设计 新品 2026-06",
+        "微软Surface 新形态 新品 2026-06",
+        "微软Surface 材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "追觅Dreame",
+      "nameEn": "Dreame",
+      "category": "robot",
+      "type": "清洁机器人/智能家居",
+      "queries": [
+        "site:www.dreametech.com 追觅Dreame 新品 设计 材质",
+        "site:www.dreametech.com Dreame new product design",
+        "追觅Dreame 新品发布 6月 设计 材质 工艺",
+        "追觅Dreame 外观设计 CMF 配色 材质 2026",
+        "追觅Dreame 工业设计 创新 透明 钛 折叠 2026",
+        "Dreame new product 2026 design material CMF",
+        "Dreame industrial design material process 2026",
+        "追觅Dreame 结构设计 新品 2026-06",
+        "追觅Dreame 基站形态 新品 2026-06",
+        "追觅Dreame 材料工艺 新品 2026-06"
+      ]
+    },
+    {
+      "name": "石头Roborock",
+      "nameEn": "Roborock",
+      "category": "robot",
+      "type": "扫地机器人",
+      "queries": [
+        "site:www.roborock.com 石头Roborock 新品 设计 材质",
+        "site:www.roborock.com Roborock new product design",
+        "石头Roborock 新品发布 6月 设计 材质 工艺",
+        "石头Roborock 外观设计 CMF 配色 材质 2026",
+        "石头Roborock 工业设计 创新 透明 钛 折叠 2026",
+        "Roborock new product 2026 design material CMF",
+        "Roborock industrial design material process 2026",
+        "石头Roborock 结构设计 新品 2026-06",
+        "石头Roborock 基站形态 新品 2026-06",
+        "石头Roborock 材料工艺 新品 2026-06"
+      ]
+    },
+    {
+      "name": "科沃斯Ecovacs",
+      "nameEn": "Ecovacs",
+      "category": "robot",
+      "type": "扫地机器人",
+      "queries": [
+        "site:www.ecovacs.cn 科沃斯Ecovacs 新品 设计 材质",
+        "site:www.ecovacs.cn Ecovacs new product design",
+        "科沃斯Ecovacs 新品发布 6月 设计 材质 工艺",
+        "科沃斯Ecovacs 外观设计 CMF 配色 材质 2026",
+        "科沃斯Ecovacs 工业设计 创新 透明 钛 折叠 2026",
+        "Ecovacs new product 2026 design material CMF",
+        "Ecovacs industrial design material process 2026",
+        "科沃斯Ecovacs 结构设计 新品 2026-06",
+        "科沃斯Ecovacs 基站形态 新品 2026-06",
+        "科沃斯Ecovacs 材料工艺 新品 2026-06"
+      ]
+    },
+    {
+      "name": "云鲸Narwal",
+      "nameEn": "Narwal",
+      "category": "robot",
+      "type": "扫地机器人",
+      "queries": [
+        "site:www.narwal.com 云鲸Narwal 新品 设计 材质",
+        "site:www.narwal.com Narwal new product design",
+        "云鲸Narwal 新品发布 6月 设计 材质 工艺",
+        "云鲸Narwal 外观设计 CMF 配色 材质 2026",
+        "云鲸Narwal 工业设计 创新 透明 钛 折叠 2026",
+        "Narwal new product 2026 design material CMF",
+        "Narwal industrial design material process 2026",
+        "云鲸Narwal 结构设计 新品 2026-06",
+        "云鲸Narwal 基站形态 新品 2026-06",
+        "云鲸Narwal 材料工艺 新品 2026-06"
+      ]
+    },
+    {
+      "name": "库犸Mammotion",
+      "nameEn": "Mammotion",
+      "category": "lawn",
+      "type": "割草机器人",
+      "queries": [
+        "site:mammotion.com 库犸Mammotion 新品 设计 材质",
+        "site:mammotion.com Mammotion new product design",
+        "库犸Mammotion 新品发布 6月 设计 材质 工艺",
+        "库犸Mammotion 外观设计 CMF 配色 材质 2026",
+        "库犸Mammotion 工业设计 创新 透明 钛 折叠 2026",
+        "Mammotion new product 2026 design material CMF",
+        "Mammotion industrial design material process 2026",
+        "库犸Mammotion 无边界 新品 2026-06",
+        "库犸Mammotion 结构设计 新品 2026-06",
+        "库犸Mammotion 户外材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "Segway Navimow",
+      "nameEn": "Segway Navimow",
+      "category": "lawn",
+      "type": "割草机器人",
+      "queries": [
+        "site:navimow.segway.com Segway Navimow 新品 设计 材质",
+        "site:navimow.segway.com Segway Navimow new product design",
+        "Segway Navimow 新品发布 6月 设计 材质 工艺",
+        "Segway Navimow 外观设计 CMF 配色 材质 2026",
+        "Segway Navimow 工业设计 创新 透明 钛 折叠 2026",
+        "Segway Navimow new product 2026 design material CMF",
+        "Segway Navimow industrial design material process 2026",
+        "Segway Navimow 无边界 新品 2026-06",
+        "Segway Navimow 结构设计 新品 2026-06",
+        "Segway Navimow 户外材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "Worx Landroid",
+      "nameEn": "Worx Landroid",
+      "category": "lawn",
+      "type": "割草机器人",
+      "queries": [
+        "site:www.worx.com Worx Landroid 新品 设计 材质",
+        "site:www.worx.com Worx Landroid new product design",
+        "Worx Landroid 新品发布 6月 设计 材质 工艺",
+        "Worx Landroid 外观设计 CMF 配色 材质 2026",
+        "Worx Landroid 工业设计 创新 透明 钛 折叠 2026",
+        "Worx Landroid new product 2026 design material CMF",
+        "Worx Landroid industrial design material process 2026",
+        "Worx Landroid 无边界 新品 2026-06",
+        "Worx Landroid 结构设计 新品 2026-06",
+        "Worx Landroid 户外材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "Beatbot",
+      "nameEn": "Beatbot",
+      "category": "pool",
+      "type": "泳池清洁机器人",
+      "queries": [
+        "site:beatbot.com Beatbot 新品 设计 材质",
+        "site:beatbot.com Beatbot new product design",
+        "Beatbot 新品发布 6月 设计 材质 工艺",
+        "Beatbot 外观设计 CMF 配色 材质 2026",
+        "Beatbot 工业设计 创新 透明 钛 折叠 2026",
+        "Beatbot new product 2026 design material CMF",
+        "Beatbot industrial design material process 2026",
+        "Beatbot 泳池机器人 新品 2026-06",
+        "Beatbot 结构设计 新品 2026-06",
+        "Beatbot 防水材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "Aiper",
+      "nameEn": "Aiper",
+      "category": "pool",
+      "type": "泳池清洁机器人",
+      "queries": [
+        "site:aiper.com Aiper 新品 设计 材质",
+        "site:aiper.com Aiper new product design",
+        "Aiper 新品发布 6月 设计 材质 工艺",
+        "Aiper 外观设计 CMF 配色 材质 2026",
+        "Aiper 工业设计 创新 透明 钛 折叠 2026",
+        "Aiper new product 2026 design material CMF",
+        "Aiper industrial design material process 2026",
+        "Aiper 泳池机器人 新品 2026-06",
+        "Aiper 结构设计 新品 2026-06",
+        "Aiper 防水材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "Bluetti",
+      "nameEn": "Bluetti",
+      "category": "power",
+      "type": "便携储能",
+      "queries": [
+        "site:www.bluettipower.com Bluetti 新品 设计 材质",
+        "site:www.bluettipower.com Bluetti new product design",
+        "Bluetti 新品发布 6月 设计 材质 工艺",
+        "Bluetti 外观设计 CMF 配色 材质 2026",
+        "Bluetti 工业设计 创新 透明 钛 折叠 2026",
+        "Bluetti new product 2026 design material CMF",
+        "Bluetti industrial design material process 2026",
+        "Bluetti 便携储能 新品 2026-06",
+        "Bluetti 外观设计 新品 2026-06",
+        "Bluetti 模块化 新品 2026-06"
+      ]
+    },
+    {
+      "name": "正浩EcoFlow",
+      "nameEn": "EcoFlow",
+      "category": "power",
+      "type": "便携储能",
+      "queries": [
+        "site:www.ecoflow.com 正浩EcoFlow 新品 设计 材质",
+        "site:www.ecoflow.com EcoFlow new product design",
+        "正浩EcoFlow 新品发布 6月 设计 材质 工艺",
+        "正浩EcoFlow 外观设计 CMF 配色 材质 2026",
+        "正浩EcoFlow 工业设计 创新 透明 钛 折叠 2026",
+        "EcoFlow new product 2026 design material CMF",
+        "EcoFlow industrial design material process 2026",
+        "正浩EcoFlow 便携储能 新品 2026-06",
+        "正浩EcoFlow 外观设计 新品 2026-06",
+        "正浩EcoFlow 模块化 新品 2026-06"
+      ]
+    },
+    {
+      "name": "极米XGIMI",
+      "nameEn": "XGIMI",
+      "category": "projector",
+      "type": "智能投影",
+      "queries": [
+        "site:www.xgimi.com 极米XGIMI 新品 设计 材质",
+        "site:www.xgimi.com XGIMI new product design",
+        "极米XGIMI 新品发布 6月 设计 材质 工艺",
+        "极米XGIMI 外观设计 CMF 配色 材质 2026",
+        "极米XGIMI 工业设计 创新 透明 钛 折叠 2026",
+        "XGIMI new product 2026 design material CMF",
+        "XGIMI industrial design material process 2026",
+        "极米XGIMI 光机结构 新品 2026-06",
+        "极米XGIMI 家居化设计 新品 2026-06",
+        "极米XGIMI 投影形态 新品 2026-06"
+      ]
+    },
+    {
+      "name": "坚果JMGO",
+      "nameEn": "JMGO",
+      "category": "projector",
+      "type": "智能投影",
+      "queries": [
+        "site:www.jmgo.com 坚果JMGO 新品 设计 材质",
+        "site:www.jmgo.com JMGO new product design",
+        "坚果JMGO 新品发布 6月 设计 材质 工艺",
+        "坚果JMGO 外观设计 CMF 配色 材质 2026",
+        "坚果JMGO 工业设计 创新 透明 钛 折叠 2026",
+        "JMGO new product 2026 design material CMF",
+        "JMGO industrial design material process 2026",
+        "坚果JMGO 光机结构 新品 2026-06",
+        "坚果JMGO 家居化设计 新品 2026-06",
+        "坚果JMGO 投影形态 新品 2026-06"
+      ]
+    },
+    {
+      "name": "玩家国度ROG",
+      "nameEn": "ROG",
+      "category": "gaming",
+      "type": "电竞设备",
+      "queries": [
+        "site:rog.asus.com.cn 玩家国度ROG 新品 设计 材质",
+        "site:rog.asus.com.cn ROG new product design",
+        "玩家国度ROG 新品发布 6月 设计 材质 工艺",
+        "玩家国度ROG 外观设计 CMF 配色 材质 2026",
+        "玩家国度ROG 工业设计 创新 透明 钛 折叠 2026",
+        "ROG new product 2026 design material CMF",
+        "ROG industrial design material process 2026",
+        "玩家国度ROG 电竞设计 新品 2026-06",
+        "玩家国度ROG 散热结构 新品 2026-06",
+        "玩家国度ROG 透明 新品 2026-06"
+      ]
+    },
+    {
+      "name": "九号Ninebot",
+      "nameEn": "Ninebot",
+      "category": "mobility",
+      "type": "两轮出行",
+      "queries": [
+        "site:www.ninebot.com 九号Ninebot 新品 设计 材质",
+        "site:www.ninebot.com Ninebot new product design",
+        "九号Ninebot 新品发布 6月 设计 材质 工艺",
+        "九号Ninebot 外观设计 CMF 配色 材质 2026",
+        "九号Ninebot 工业设计 创新 透明 钛 折叠 2026",
+        "Ninebot new product 2026 design material CMF",
+        "Ninebot industrial design material process 2026",
+        "九号Ninebot 电动车 新品 2026-06",
+        "九号Ninebot 外观设计 新品 2026-06",
+        "九号Ninebot 车身材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "小牛NIU",
+      "nameEn": "NIU",
+      "category": "mobility",
+      "type": "两轮出行",
+      "queries": [
+        "site:www.niu.com 小牛NIU 新品 设计 材质",
+        "site:www.niu.com NIU new product design",
+        "小牛NIU 新品发布 6月 设计 材质 工艺",
+        "小牛NIU 外观设计 CMF 配色 材质 2026",
+        "小牛NIU 工业设计 创新 透明 钛 折叠 2026",
+        "NIU new product 2026 design material CMF",
+        "NIU industrial design material process 2026",
+        "小牛NIU 电动车 新品 2026-06",
+        "小牛NIU 外观设计 新品 2026-06",
+        "小牛NIU 车身材质 新品 2026-06"
+      ]
+    },
+    {
+      "name": "安克Anker",
+      "nameEn": "Anker",
+      "category": "accessory",
+      "type": "充电配件",
+      "queries": [
+        "site:www.anker.com 安克Anker 新品 设计 材质",
+        "site:www.anker.com Anker new product design",
+        "安克Anker 新品发布 6月 设计 材质 工艺",
+        "安克Anker 外观设计 CMF 配色 材质 2026",
+        "安克Anker 工业设计 创新 透明 钛 折叠 2026",
+        "Anker new product 2026 design material CMF",
+        "Anker industrial design material process 2026",
+        "安克Anker Qi2 新品 2026-06",
+        "安克Anker 折叠 新品 2026-06",
+        "安克Anker 透明 新品 2026-06"
+      ]
+    },
+    {
+      "name": "倍思Baseus",
+      "nameEn": "Baseus",
+      "category": "accessory",
+      "type": "充电配件",
+      "queries": [
+        "site:www.baseus.com 倍思Baseus 新品 设计 材质",
+        "site:www.baseus.com Baseus new product design",
+        "倍思Baseus 新品发布 6月 设计 材质 工艺",
+        "倍思Baseus 外观设计 CMF 配色 材质 2026",
+        "倍思Baseus 工业设计 创新 透明 钛 折叠 2026",
+        "Baseus new product 2026 design material CMF",
+        "Baseus industrial design material process 2026",
+        "倍思Baseus Qi2 新品 2026-06",
+        "倍思Baseus 折叠 新品 2026-06",
+        "倍思Baseus 透明 新品 2026-06"
+      ]
+    },
+    {
+      "name": "绿联UGREEN",
+      "nameEn": "UGREEN",
+      "category": "accessory",
+      "type": "充电配件",
+      "queries": [
+        "site:www.ugreen.com 绿联UGREEN 新品 设计 材质",
+        "site:www.ugreen.com UGREEN new product design",
+        "绿联UGREEN 新品发布 6月 设计 材质 工艺",
+        "绿联UGREEN 外观设计 CMF 配色 材质 2026",
+        "绿联UGREEN 工业设计 创新 透明 钛 折叠 2026",
+        "UGREEN new product 2026 design material CMF",
+        "UGREEN industrial design material process 2026",
+        "绿联UGREEN Qi2 新品 2026-06",
+        "绿联UGREEN 折叠 新品 2026-06",
+        "绿联UGREEN 透明 新品 2026-06"
+      ]
+    },
+    {
+      "name": "贝尔金Belkin",
+      "nameEn": "Belkin",
+      "category": "accessory",
+      "type": "充电配件",
+      "queries": [
+        "site:www.belkin.com 贝尔金Belkin 新品 设计 材质",
+        "site:www.belkin.com Belkin new product design",
+        "贝尔金Belkin 新品发布 6月 设计 材质 工艺",
+        "贝尔金Belkin 外观设计 CMF 配色 材质 2026",
+        "贝尔金Belkin 工业设计 创新 透明 钛 折叠 2026",
+        "Belkin new product 2026 design material CMF",
+        "Belkin industrial design material process 2026",
+        "贝尔金Belkin Qi2 新品 2026-06",
+        "贝尔金Belkin 折叠 新品 2026-06",
+        "贝尔金Belkin 透明 新品 2026-06"
+      ]
+    },
+    {
+      "name": "酷态科CUKTECH",
+      "nameEn": "CUKTECH",
+      "category": "accessory",
+      "type": "充电配件",
+      "queries": [
+        "site:www.cuktech.com 酷态科CUKTECH 新品 设计 材质",
+        "site:www.cuktech.com CUKTECH new product design",
+        "酷态科CUKTECH 新品发布 6月 设计 材质 工艺",
+        "酷态科CUKTECH 外观设计 CMF 配色 材质 2026",
+        "酷态科CUKTECH 工业设计 创新 透明 钛 折叠 2026",
+        "CUKTECH new product 2026 design material CMF",
+        "CUKTECH industrial design material process 2026",
+        "酷态科CUKTECH Qi2 新品 2026-06",
+        "酷态科CUKTECH 折叠 新品 2026-06",
+        "酷态科CUKTECH 透明 新品 2026-06"
+      ]
+    },
+    {
+      "name": "罗马仕ROMOSS",
+      "nameEn": "ROMOSS",
+      "category": "accessory",
+      "type": "充电配件",
+      "queries": [
+        "site:www.romoss.com 罗马仕ROMOSS 新品 设计 材质",
+        "site:www.romoss.com ROMOSS new product design",
+        "罗马仕ROMOSS 新品发布 6月 设计 材质 工艺",
+        "罗马仕ROMOSS 外观设计 CMF 配色 材质 2026",
+        "罗马仕ROMOSS 工业设计 创新 透明 钛 折叠 2026",
+        "ROMOSS new product 2026 design material CMF",
+        "ROMOSS industrial design material process 2026",
+        "罗马仕ROMOSS Qi2 新品 2026-06",
+        "罗马仕ROMOSS 折叠 新品 2026-06",
+        "罗马仕ROMOSS 透明 新品 2026-06"
+      ]
+    },
+    {
+      "name": "闪极Sharge",
+      "nameEn": "Sharge",
+      "category": "accessory",
+      "type": "充电配件",
+      "queries": [
+        "site:sharge.com 闪极Sharge 新品 设计 材质",
+        "site:sharge.com Sharge new product design",
+        "闪极Sharge 新品发布 6月 设计 材质 工艺",
+        "闪极Sharge 外观设计 CMF 配色 材质 2026",
+        "闪极Sharge 工业设计 创新 透明 钛 折叠 2026",
+        "Sharge new product 2026 design material CMF",
+        "Sharge industrial design material process 2026",
+        "闪极Sharge Qi2 新品 2026-06",
+        "闪极Sharge 折叠 新品 2026-06",
+        "闪极Sharge 透明 新品 2026-06"
+      ]
+    },
+    {
+      "name": "优越者UNITEK",
+      "nameEn": "UNITEK",
+      "category": "accessory",
+      "type": "充电配件",
+      "queries": [
+        "site:www.unitek-products.com 优越者UNITEK 新品 设计 材质",
+        "site:www.unitek-products.com UNITEK new product design",
+        "优越者UNITEK 新品发布 6月 设计 材质 工艺",
+        "优越者UNITEK 外观设计 CMF 配色 材质 2026",
+        "优越者UNITEK 工业设计 创新 透明 钛 折叠 2026",
+        "UNITEK new product 2026 design material CMF",
+        "UNITEK industrial design material process 2026",
+        "优越者UNITEK Qi2 新品 2026-06",
+        "优越者UNITEK 折叠 新品 2026-06",
+        "优越者UNITEK 透明 新品 2026-06"
+      ]
+    },
+    {
+      "name": "维奥技术VEOUT",
+      "nameEn": "VEOUT",
+      "category": "accessory",
+      "type": "便携显示/配件",
+      "queries": [
+        "维奥技术VEOUT 新品发布 6月 设计 材质 工艺",
+        "维奥技术VEOUT 外观设计 CMF 配色 材质 2026",
+        "维奥技术VEOUT 工业设计 创新 透明 钛 折叠 2026",
+        "VEOUT new product 2026 design material CMF",
+        "VEOUT industrial design material process 2026",
+        "维奥技术VEOUT Qi2 新品 2026-06",
+        "维奥技术VEOUT 折叠 新品 2026-06",
+        "维奥技术VEOUT 透明 新品 2026-06",
+        "维奥技术VEOUT CMF 新品 2026-06",
+        "维奥技术VEOUT charging station design 新品 2026-06"
+      ]
+    },
+    {
+      "name": "艾欧提iOttie",
+      "nameEn": "iOttie",
+      "category": "accessory",
+      "type": "车载配件",
+      "queries": [
+        "site:www.iottie.com 艾欧提iOttie 新品 设计 材质",
+        "site:www.iottie.com iOttie new product design",
+        "艾欧提iOttie 新品发布 6月 设计 材质 工艺",
+        "艾欧提iOttie 外观设计 CMF 配色 材质 2026",
+        "艾欧提iOttie 工业设计 创新 透明 钛 折叠 2026",
+        "iOttie new product 2026 design material CMF",
+        "iOttie industrial design material process 2026",
+        "艾欧提iOttie Qi2 新品 2026-06",
+        "艾欧提iOttie 折叠 新品 2026-06",
+        "艾欧提iOttie 透明 新品 2026-06"
+      ]
+    },
+    {
+      "name": "大疆DJI",
+      "nameEn": "DJI",
+      "category": "camera",
+      "type": "无人机/影像设备",
+      "queries": [
+        "site:www.dji.com 大疆DJI 新品 设计 材质",
+        "site:www.dji.com DJI new product design",
+        "大疆DJI 新品发布 6月 设计 材质 工艺",
+        "大疆DJI 外观设计 CMF 配色 材质 2026",
+        "大疆DJI 工业设计 创新 透明 钛 折叠 2026",
+        "DJI new product 2026 design material CMF",
+        "DJI industrial design material process 2026",
+        "大疆DJI 模块化 新品 2026-06",
+        "大疆DJI 云台 新品 2026-06",
+        "大疆DJI 影像形态 新品 2026-06"
+      ]
+    },
+    {
+      "name": "影石Insta360",
+      "nameEn": "Insta360",
+      "category": "camera",
+      "type": "运动相机/全景相机",
+      "queries": [
+        "site:www.insta360.com 影石Insta360 新品 设计 材质",
+        "site:www.insta360.com Insta360 new product design",
+        "影石Insta360 新品发布 6月 设计 材质 工艺",
+        "影石Insta360 外观设计 CMF 配色 材质 2026",
+        "影石Insta360 工业设计 创新 透明 钛 折叠 2026",
+        "Insta360 new product 2026 design material CMF",
+        "Insta360 industrial design material process 2026",
+        "影石Insta360 模块化 新品 2026-06",
+        "影石Insta360 云台 新品 2026-06",
+        "影石Insta360 影像形态 新品 2026-06"
+      ]
+    },
+    {
+      "name": "GoPro",
+      "nameEn": "GoPro",
+      "category": "camera",
+      "type": "运动相机",
+      "queries": [
+        "site:gopro.com GoPro 新品 设计 材质",
+        "site:gopro.com GoPro new product design",
+        "GoPro 新品发布 6月 设计 材质 工艺",
+        "GoPro 外观设计 CMF 配色 材质 2026",
+        "GoPro 工业设计 创新 透明 钛 折叠 2026",
+        "GoPro new product 2026 design material CMF",
+        "GoPro industrial design material process 2026",
+        "GoPro 模块化 新品 2026-06",
+        "GoPro 云台 新品 2026-06",
+        "GoPro 影像形态 新品 2026-06"
+      ]
+    }
+  ]
+}

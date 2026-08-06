@@ -1,0 +1,648 @@
+[
+  {
+    "brand": "Nothing",
+    "category": "phone",
+    "title": "Nothing Phone (4b) 完整外观曝光",
+    "summary": "透明设计下放到入门价位，精简灯带，配色针对年轻人",
+    "url": "http://m.toutiao.com/group/7656447917712081408",
+    "sourceName": "今日头条",
+    "discardReason": "blockList",
+    "score": 40,
+    "confidence": 62,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 24,
+      "specPenalty": 0,
+      "matchedSignals": [
+        "透明",
+        "下放",
+        "入门"
+      ],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 3,
+        "recognition": 0,
+        "transferability": 2,
+        "cmfInnovation": 0,
+        "paradigmShift": 3
+      },
+      "weighted": {
+        "diffusionPotential": 0.9,
+        "recognition": 0,
+        "transferability": 0.4,
+        "cmfInnovation": 0,
+        "paradigmShift": 0.3
+      },
+      "shouldReview": false,
+      "reasons": [
+        "matched signal terms: 透明, 下放, 入门",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "nothing-nothing-phone-4b-完整外观曝光-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "Nothing",
+    "category": "phone",
+    "title": "Nothing Phone(4a)系列正式发布",
+    "summary": "透明美学再进化，3299元起售，首次国内举办手机新品展示",
+    "url": "http://m.toutiao.com/group/7619291472860398080",
+    "sourceName": "今日头条",
+    "discardReason": "blockList",
+    "score": 11,
+    "confidence": 54,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 8,
+      "specPenalty": 0,
+      "matchedSignals": [
+        "透明"
+      ],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 3
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0.3
+      },
+      "shouldReview": false,
+      "reasons": [
+        "matched signal terms: 透明",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "nothing-nothing-phone-4a-系列正式发布-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "Nothing",
+    "category": "audio",
+    "title": "Nothing Headphone (a) 预算款耳机",
+    "summary": "更注重预算，预计售价149英镑，3月12日上市",
+    "url": "https://m.sohu.com/a/983465051_122413768",
+    "sourceName": "搜狐号",
+    "discardReason": "blockList",
+    "score": 0,
+    "confidence": 30,
+    "reviewStatus": "rejected",
+    "ruleScore": {
+      "sourceTier": "blocked",
+      "sourceBonus": -40,
+      "signalTermBonus": 0,
+      "specPenalty": 0,
+      "matchedSignals": [],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "no strong visual-signal terms",
+        "no spec-only penalty",
+        "source tier: blocked"
+      ]
+    },
+    "candidateId": "nothing-nothing-headphone-a-预算款耳机-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "Oura",
+    "category": "wearable",
+    "title": "Oura Ring 5 技术深度解析",
+    "summary": "体积缩减40%，重量仅2-2.6g，钛合金材质，2026年5月发布",
+    "url": "https://blog.csdn.net/ting9452000/article/details/161594563",
+    "sourceName": "CSDN博客",
+    "discardReason": "NO_SOURCE",
+    "score": 13,
+    "confidence": 54,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 8,
+      "specPenalty": 0,
+      "matchedSignals": [
+        "钛"
+      ],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 3,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0.45,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "matched signal terms: 钛",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "oura-oura-ring-5-技术深度解析-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "Oura",
+    "category": "wearable",
+    "title": "Oura Ring 5智能戒指预售",
+    "summary": "钛合金材质，重量仅3.5g，厚度2.5mm，全球最小智能戒指",
+    "url": "http://m.toutiao.com/group/7645515391988515370",
+    "sourceName": "今日头条",
+    "discardReason": "blockList",
+    "score": 13,
+    "confidence": 54,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 8,
+      "specPenalty": 0,
+      "matchedSignals": [
+        "钛"
+      ],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 3,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0.45,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "matched signal terms: 钛",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "oura-oura-ring-5智能戒指预售-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "WHOOP",
+    "category": "wearable",
+    "title": "WHOOP 4.0拆解报告",
+    "summary": "硅碳电池技术，电池能量密度提升17%，无外观信号",
+    "url": "http://m.toutiao.com/group/7142381744711270950",
+    "sourceName": "今日头条",
+    "discardReason": "blockList",
+    "score": 0,
+    "confidence": 50,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 0,
+      "specPenalty": 0,
+      "matchedSignals": [],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "no strong visual-signal terms",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "whoop-whoop-4-0拆解报告-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "韶音Shokz",
+    "category": "audio",
+    "title": "韶音OpenDots 2耳夹耳机拆解",
+    "summary": "延续家族式设计，环保材质，白金缮配色，耳夹形态",
+    "url": "http://m.toutiao.com/group/7654398940170961471",
+    "sourceName": "今日头条",
+    "discardReason": "blockList",
+    "score": 0,
+    "confidence": 50,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 0,
+      "specPenalty": 0,
+      "matchedSignals": [],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "no strong visual-signal terms",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "韶音shokz-韶音opendots-2耳夹耳机拆解-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "韶音Shokz",
+    "category": "audio",
+    "title": "2026 Shokz Day三款开放式耳机发布",
+    "summary": "OpenDots 2、OpenSwim Pro 2、OpenDots Air，2026年5月15日",
+    "url": "http://m.toutiao.com/group/7641173083474248211",
+    "sourceName": "今日头条",
+    "discardReason": "blockList",
+    "score": 0,
+    "confidence": 50,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 0,
+      "specPenalty": 0,
+      "matchedSignals": [],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "no strong visual-signal terms",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "韶音shokz-2026-shokz-day三款开放式耳机发布-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "大疆DJI",
+    "category": "camera",
+    "title": "大疆2026新品最全盘点",
+    "summary": "Flip、Neo2、Lito、Pocket4P、RS 4 Pro套装",
+    "url": "http://m.toutiao.com/group/7664836455147946537",
+    "sourceName": "今日头条",
+    "discardReason": "blockList",
+    "score": 0,
+    "confidence": 50,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 0,
+      "specPenalty": 0,
+      "matchedSignals": [],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "no strong visual-signal terms",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "大疆dji-大疆2026新品最全盘点-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "影石Insta360",
+    "category": "camera",
+    "title": "影石Insta360 X6定档8月12日发布",
+    "summary": "十年里程碑之作，索尼定制双方形传感器，升级4nm AI三芯架构",
+    "url": "http://m.toutiao.com/group/7670764813219332643",
+    "sourceName": "今日头条",
+    "discardReason": "blockList",
+    "score": 0,
+    "confidence": 50,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 0,
+      "specPenalty": 0,
+      "matchedSignals": [],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "no strong visual-signal terms",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "影石insta360-影石insta360-x6定档8月12日发布-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "影石Insta360",
+    "category": "camera",
+    "title": "影石官宣Cameraman摄影机器人",
+    "summary": "11周年预告概念产品，向AI机器人领域扩张",
+    "url": "http://m.toutiao.com/group/7669833781720711734",
+    "sourceName": "今日头条",
+    "discardReason": "blockList",
+    "score": 11,
+    "confidence": 54,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 8,
+      "specPenalty": 0,
+      "matchedSignals": [
+        "概念"
+      ],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 3
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0.3
+      },
+      "shouldReview": false,
+      "reasons": [
+        "matched signal terms: 概念",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "影石insta360-影石官宣cameraman摄影机器人-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "Framework",
+    "category": "laptop",
+    "title": "Framework 16 模块化笔记本电脑",
+    "summary": "2026款，极致模块化设计，可更换显卡、内存",
+    "url": "https://post.m.smzdm.com/p/akovoz3e",
+    "sourceName": "什么值得买",
+    "discardReason": "NO_SIGNAL",
+    "score": 0,
+    "confidence": 46,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 8,
+      "specPenalty": 12,
+      "matchedSignals": [
+        "模块化"
+      ],
+      "negativeMatches": [
+        "内存"
+      ],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 3
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0.3
+      },
+      "shouldReview": false,
+      "reasons": [
+        "matched signal terms: 模块化",
+        "negative spec-only terms: 内存",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "framework-framework-16-模块化笔记本电脑-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "Teenage Engineering",
+    "category": "audio",
+    "title": "Teenage Engineering OP-XY音序合成器",
+    "summary": "黑色铝制材料，OLED显示屏，极简风格",
+    "url": "https://m.sohu.com/a/827297459_121798711",
+    "sourceName": "搜狐号",
+    "discardReason": "blockList",
+    "score": 0,
+    "confidence": 30,
+    "reviewStatus": "rejected",
+    "ruleScore": {
+      "sourceTier": "blocked",
+      "sourceBonus": -40,
+      "signalTermBonus": 0,
+      "specPenalty": 0,
+      "matchedSignals": [],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "no strong visual-signal terms",
+        "no spec-only penalty",
+        "source tier: blocked"
+      ]
+    },
+    "candidateId": "teenage-engineering-teenage-engineering-op-xy音序合成器-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "Ray-Ban Meta",
+    "category": "wearable",
+    "title": "Meta Ray-Ban Display智能眼镜百科",
+    "summary": "2025年9月推出，LCoS技术，新增显示屏，重量约70克",
+    "url": "https://m.baike.com/wiki/Meta%20Ray-Ban%20Display/7551303471204876339",
+    "sourceName": "百科",
+    "discardReason": "NO_SIGNAL",
+    "score": 0,
+    "confidence": 50,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 0,
+      "specPenalty": 0,
+      "matchedSignals": [],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "no strong visual-signal terms",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "ray-ban-meta-meta-ray-ban-display智能眼镜百科-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  },
+  {
+    "brand": "PLAUD",
+    "category": "wearable",
+    "title": "Plaud NotePin S可穿戴AI记录设备",
+    "summary": "CES 2026推出，可夹领子/戴手腕/挂脖子/磁铁贴衣",
+    "url": "http://m.toutiao.com/group/7592234188158386728",
+    "sourceName": "今日头条",
+    "discardReason": "blockList",
+    "score": 0,
+    "confidence": 50,
+    "reviewStatus": "needs_review",
+    "ruleScore": {
+      "sourceTier": "unknown",
+      "sourceBonus": 0,
+      "signalTermBonus": 0,
+      "specPenalty": 0,
+      "matchedSignals": [],
+      "negativeMatches": [],
+      "dimensions": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "weighted": {
+        "diffusionPotential": 0,
+        "recognition": 0,
+        "transferability": 0,
+        "cmfInnovation": 0,
+        "paradigmShift": 0
+      },
+      "shouldReview": false,
+      "reasons": [
+        "no strong visual-signal terms",
+        "no spec-only penalty",
+        "source tier: unknown"
+      ]
+    },
+    "candidateId": "plaud-plaud-notepin-s可穿戴ai记录设备-20260806",
+    "capturedAt": "2026-08-06T22:00:00+08:00"
+  }
+]

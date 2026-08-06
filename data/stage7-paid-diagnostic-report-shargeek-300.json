@@ -1,0 +1,75 @@
+{
+  "version": "0.1",
+  "stage": "stage_7_paid_diagnostic_report",
+  "updatedAt": "2026-06-19",
+  "reportId": "paid-diagnostic-shargeek-300-v0-1",
+  "title": "Shargeek 300 高溢价外观设计机会诊断报告 v0.1",
+  "subject": {
+    "brand": "闪极Sharge",
+    "productName": "Shargeek 300",
+    "category": "高功率移动电源",
+    "aestheticSignal": "半透明科技感",
+    "targetAudience": "全球桌搭与轻 EDC 科技用户"
+  },
+  "deliverableType": "minimal_paid_diagnostic_report",
+  "oneLineConclusion": "Shargeek 300 值得进入正式追踪，也可以作为第一份最小收费诊断样本。",
+  "sellableQuestion": "你的充电设备是否适合做半透明科技感外观，以及这种外观是否真的值得开模、改 CMF、做高溢价定位？",
+  "buyerProfiles": [
+    "做高功率移动电源、桌面充电站、扩展坞的硬件品牌",
+    "想进入桌搭、EDC、创作者设备场景的配件品牌",
+    "正在考虑改外观、改 CMF、重新开模的硬件团队"
+  ],
+  "notFor": [
+    "低价充电宝品牌",
+    "只拼参数和价格的白牌团队",
+    "没有安全信任基础但想靠透明壳快速显得高级的品牌"
+  ],
+  "score": {
+    "productReality": 5,
+    "aestheticClarity": 5,
+    "audienceFit": 4,
+    "userIntentEvidence": 3,
+    "competitiveDifference": 4,
+    "commercialActionability": 4,
+    "total": 25,
+    "max": 30,
+    "decision": "formal_tracking_and_minimal_paid_diagnostic_sample"
+  },
+  "keyJudgments": [
+    "产品真实存在，多源公开报道和实测支撑。",
+    "半透明科技感审美信号清楚，不是简单换色。",
+    "目标人群应聚焦桌搭、轻 EDC、移动办公和创作者设备用户。",
+    "外观传播信号成立，但用户购买意愿仍需补评论证据。",
+    "该方向有品类迁移机会，但只适合高功率、高展示、高技术复杂度产品。"
+  ],
+  "paidDeliverableBoundary": {
+    "included": [
+      "1 个目标产品诊断",
+      "1 个目标人群判断",
+      "1 个审美信号判断",
+      "3 个竞品视觉对比",
+      "1 份风险清单",
+      "1 个是否值得改外观/改 CMF/开模的建议"
+    ],
+    "excluded": [
+      "不承诺销量预测",
+      "不承诺用户一定愿意付费",
+      "不替代真实用户调研",
+      "不做完整品牌战略"
+    ]
+  },
+  "nextStage": {
+    "stage": "stage_8_packaging",
+    "name": "把报告变成可展示页面或 PDF",
+    "recommendedOrder": [
+      "先做 PDF 或 Markdown 交付版",
+      "再考虑放进网站页面",
+      "最后再扩展到第二个样本"
+    ]
+  },
+  "stageCompletion": {
+    "completed": true,
+    "completedStage": "第 7 阶段：做一个可展示、可交付、可收费的最小诊断报告",
+    "nextStage": "第 8 阶段：把这份报告变成可展示页面或 PDF"
+  }
+}

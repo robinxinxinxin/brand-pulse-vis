@@ -1,0 +1,50 @@
+{
+  "version": "0.1",
+  "scope": "minimal_mvp",
+  "updatedAt": "2026-06-19",
+  "purpose": "只保留3个审美信号，用于验证高溢价人群判断链路。",
+  "mvpRule": "标签必须能解释现有产品线索；不能解释线索的标签暂不加入。",
+  "signals": [
+    {
+      "id": "soft-gradient-cmf",
+      "name": "柔和渐变 CMF",
+      "definition": "低攻击性、生活方式化的渐变配色、柔和色、磨砂或细腻表面处理。",
+      "linkedLeadIds": [
+        "lead-xiaohongshu-anker-20260615"
+      ],
+      "bestFitAudienceIds": [
+        "cn-xhs-refined-commuter-digital-accessory-users",
+        "global-desk-setup-edc-tech-users"
+      ],
+      "premiumLogic": "把功能性配件变成可展示、可搭配、可表达个人审美的随身物。",
+      "risk": "如果只是换颜色，没有材料、工艺或使用场景支撑，容易变成普通配色。"
+    },
+    {
+      "id": "semi-transparent-tech",
+      "name": "半透明科技感",
+      "definition": "通过半透明外壳、结构可视化、内部层次或模块感，强化产品的技术识别度。",
+      "linkedLeadIds": [
+        "lead-ecommerce-sharge-20260610"
+      ],
+      "bestFitAudienceIds": [
+        "global-desk-setup-edc-tech-users",
+        "cn-xhs-refined-commuter-digital-accessory-users"
+      ],
+      "premiumLogic": "让用户感觉产品不只是工具，而是具有收藏感、桌面展示价值和品牌辨识度的科技物件。",
+      "risk": "半透明风格已经被部分品牌用滥，必须判断是否仍有差异化。"
+    },
+    {
+      "id": "professional-tool-upgrade",
+      "name": "专业工具感升级",
+      "definition": "通过更稳重的颜色、材质、模块比例或结构强化，让产品看起来更可靠、更专业、更适合严肃场景。",
+      "linkedLeadIds": [
+        "lead-store-dji-20260613"
+      ],
+      "bestFitAudienceIds": [
+        "global-mobile-creator-action-camera-users"
+      ],
+      "premiumLogic": "把外观从消费电子玩具感拉向专业装备感，帮助用户把购买理由从参数升级扩展到身份和场景升级。",
+      "risk": "这类人群优先看性能，外观只能加分，不能替代真实功能优势。"
+    }
+  ]
+}

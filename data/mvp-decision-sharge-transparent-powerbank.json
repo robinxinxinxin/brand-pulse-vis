@@ -1,0 +1,88 @@
+{
+  "version": "0.1",
+  "stage": "stage_2b_stronger_signal_validation",
+  "updatedAt": "2026-06-19",
+  "decisionId": "decision-sharge-transparent-powerbank-20260619",
+  "sourceLeadId": "lead-ecommerce-sharge-20260610",
+  "productSignal": {
+    "brand": "闪极Sharge",
+    "originalProductName": "Sharge 200W 移动电源",
+    "correctedPublicEvidenceProduct": "Shargeek 300",
+    "signalSummary": "公开资料更强地指向 Shargeek 300：高功率移动电源、透明/半透明结构窗口、内部元件可见、RGB 灯效、屏幕显示功率信息。",
+    "evidenceLevel": "S1方向成立，但原始样例型号需修正",
+    "leadStatus": "validated_with_correction",
+    "confidence": 82
+  },
+  "externalEvidence": [
+    {
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/876432/sharge-shargeek-300w-power-bank-rgb-lighting-kickstarter",
+      "evidence": "报道 Shargeek 300 已开放 Kickstarter 预订，并描述透明窗口、内部电子元件、屏幕和 RGB 灯效。",
+      "supports": ["product_exists", "transparent_design", "premium_visual_signal"]
+    },
+    {
+      "source": "Android Central",
+      "url": "https://www.androidcentral.com/accessories/power-charging/these-three-features-make-the-shargeek-300-the-ultimate-24-000mah-power-bank",
+      "evidence": "实测文章强调该产品设计突出，具备前后亚克力窗口、可见内部结构、RGB 灯效，并提到作者已使用一个月。",
+      "supports": ["hands_on_validation", "purchase_intent_proxy", "design_differentiation"]
+    },
+    {
+      "source": "The Verge CES 2025",
+      "url": "https://www.theverge.com/2025/1/9/24339370/ces-2025-best-chargers-power-bank",
+      "evidence": "CES 报道称 Shargeek 300 是透明设计和铝壳的醒目移动电源，最高 300W 输出。",
+      "supports": ["early_public_signal", "category_context", "high_power_positioning"]
+    }
+  ],
+  "aestheticSignal": {
+    "id": "semi-transparent-tech",
+    "name": "半透明科技感",
+    "fitReason": "Shargeek 300 的透明窗口、内部结构可视化、屏幕和 RGB 灯效，不只是装饰，而是把高功率移动电源包装成可展示的科技物件。"
+  },
+  "targetAudience": {
+    "id": "global-desk-setup-edc-tech-users",
+    "name": "全球桌搭与轻 EDC 科技用户",
+    "fitReason": "该人群关注设备识别度、桌面展示价值、EDC 搭配和性能冗余。Shargeek 300 同时满足高功率功能和强视觉识别。"
+  },
+  "decision": {
+    "result": "promote_to_formal_tracking",
+    "label": "可以进入正式追踪",
+    "reason": "与 Anker 弱信号不同，Sharge 方向已有多源公开报道、媒体实测、预订/众筹信息和清晰视觉差异。它能有效验证“半透明科技感”与“桌搭/EDC 高溢价用户”的连接。",
+    "priority": "high",
+    "conditions": [
+      "正式记录时需要把原始样例中的 200W/天猫预上架修正为公开可核验的 Shargeek 300/300W/Kickstarter 线索。",
+      "如果后续继续保留 200W 天猫说法，必须补充真实天猫链接或官方页面。"
+    ]
+  },
+  "whyItMayMatter": [
+    "Sharge 把移动电源从纯功能设备转成可展示的科技物件，符合高溢价视觉设计机会。",
+    "透明结构、RGB、屏幕和高功率参数叠加，说明外观不是孤立换壳，而是和产品定位一起形成差异化。",
+    "媒体描述中反复出现设计、独特、吸引注意力等信号，可作为购买意愿和传播意愿的间接证据。"
+  ],
+  "mainRisks": [
+    "透明科技感已有同质化风险，必须判断 Sharge 是否仍有足够差异化。",
+    "高功率移动电源用户仍然重视性能和可靠性，外观只能增强溢价，不能替代功能。",
+    "当前本地样例的 200W/天猫预上架信息与公开资料不完全一致，需要修正数据源。"
+  ],
+  "nextValidationTasks": [
+    {
+      "task": "数据源修正",
+      "successCriteria": "把正式追踪对象统一为 Shargeek 300，或补齐 200W 天猫预上架的真实链接。",
+      "decisionImpact": "避免后续系统把不同产品混在一起。"
+    },
+    {
+      "task": "用户评论验证",
+      "successCriteria": "收集 Kickstarter、YouTube、Reddit、Android Central 评论中关于外观、透明结构、RGB、桌搭展示的表达。",
+      "decisionImpact": "确认外观是否真实影响购买和传播。"
+    },
+    {
+      "task": "竞品对比",
+      "successCriteria": "对比 Anker、UGREEN、Baseus 高功率移动电源，看 Sharge 的视觉差异是否足够强。",
+      "decisionImpact": "判断这是不是可收费的视觉机会诊断样本。"
+    }
+  ],
+  "stageCompletion": {
+    "completed": true,
+    "completedStage": "第 2B 阶段：用更强证据线索复跑判断链路",
+    "nextStage": "第 3 阶段：把 Sharge 线索转成正式追踪样本，并修正原始数据中的型号/来源"
+  }
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "brand": "Marshall 马歇尔",
+    "nameEn": "Marshall",
+    "category": "audio",
+    "type": "音频/复古工业设计语言标杆",
+    "reason": "Marshall 将吉他音箱的复古皮革纹理、黄铜手写体Logo、仿吉他箱体造型成功迁移到便携蓝牙音箱和头戴耳机。其CMF策略极其稳定——皮革+金属+编织网，形成强家族化识别度。产品线从Emberton便携音箱到Monitor头戴耳机，结构拆件逻辑成熟。",
+    "whyRelevant": "ROBIN的灵感来源包括耳机配色和跨品类借鉴。Marshall展示了如何把一个品类的经典视觉元素（吉他音箱）提炼为跨产品线的统一设计语言。其皮革纹理CMF、金属与编织材料对比、家族化造型逻辑对ROBIN做音频类和充电宝类产品的CMF决策有直接迁移价值。结构上，便携音箱的内外壳拆件方式和防水密封设计也值得参考。",
+    "signals": [
+      "CMF",
+      "皮革纹理",
+      "家族化设计",
+      "设计语言",
+      "跨品类迁移",
+      "结构拆件",
+      "编织材料"
+    ],
+    "officialSources": [
+      "https://www.marshallheadphones.com/"
+    ],
+    "r1Scoring": {
+      "version": "v2",
+      "designScore": 3.5,
+      "designSubScores": [
+        {
+          "id": "premiumFeel",
+          "name": "高级感/精致克制",
+          "score": 3,
+          "weight": 0.3
+        },
+        {
+          "id": "designIdentity",
+          "name": "设计识别度",
+          "score": 3.5,
+          "weight": 0.2
+        },
+        {
+          "id": "proportionControl",
+          "name": "比例与形体控制",
+          "score": 3.6,
+          "weight": 0.167
+        },
+        {
+          "id": "cmfQuality",
+          "name": "材质与CMF质感",
+          "score": 3.5,
+          "weight": 0.133
+        },
+        {
+          "id": "structuralDetail",
+          "name": "结构表达与细节完成度",
+          "score": 3.5,
+          "weight": 0.117
+        },
+        {
+          "id": "timelessness",
+          "name": "长期耐看性/可沉淀性",
+          "score": 5.1,
+          "weight": 0.083
+        }
+      ],
+      "regionScore": 0,
+      "audienceScore": 0,
+      "commercialScore": 0,
+      "weightedTotal": 20
+    },
+    "r1Decision": {
+      "version": "v2",
+      "action": "observe",
+      "trackLine": "observe",
+      "existingBrand": false,
+      "hardNegatives": [],
+      "requiresRobinFinalReview": true,
+      "explanation": "设计感 3.5/10 达到观察门槛，但证据不够充分，建议先观察。参考维度：长期耐看性/可沉淀性(5.1)、比例与形体控制(3.6)"
+    }
+  },
+  {
+    "brand": "Teenage Engineering",
+    "nameEn": "Teenage Engineering",
+    "category": "audio",
+    "type": "小众音频/极致设计语言",
+    "reason": "Teenage Engineering以极其克制的产品线（OP-1、Pocket Operator、OD-11）和极致的工业设计著称。每个产品都是秩序感、视觉焦点和CMF创新的教科书。透明外壳版本展示内部PCB布局，将工程结构美学化。产品体积小巧，结构精密。",
+    "whyRelevant": "ROBIN追求秩序感、清晰视觉焦点和高曲率曲面。Teenage Engineering是小型消费电子设计语言的标杆——如何在极小体积内实现完整功能、清晰交互和高级CMF。其透明版本的结构可视化、按键布局逻辑、材料选择（铝合金+工程塑料+硅胶）对ROBIN做小型产品有极高参考价值。品牌虽小众但设计影响力巨大。",
+    "signals": [
+      "秩序感",
+      "视觉焦点",
+      "CMF",
+      "结构可视化",
+      "小型消费电子",
+      "按键布局",
+      "铝合金"
+    ],
+    "officialSources": [
+      "https://teenage.engineering/"
+    ],
+    "r1Scoring": {
+      "version": "v2",
+      "designScore": 4,
+      "designSubScores": [
+        {
+          "id": "premiumFeel",
+          "name": "高级感/精致克制",
+          "score": 4.8,
+          "weight": 0.3
+        },
+        {
+          "id": "designIdentity",
+          "name": "设计识别度",
+          "score": 3.7,
+          "weight": 0.2
+        },
+        {
+          "id": "proportionControl",
+          "name": "比例与形体控制",
+          "score": 3.2,
+          "weight": 0.167
+        },
+        {
+          "id": "cmfQuality",
+          "name": "材质与CMF质感",
+          "score": 3.9,
+          "weight": 0.133
+        },
+        {
+          "id": "structuralDetail",
+          "name": "结构表达与细节完成度",
+          "score": 4.6,
+          "weight": 0.117
+        },
+        {
+          "id": "timelessness",
+          "name": "长期耐看性/可沉淀性",
+          "score": 2.7,
+          "weight": 0.083
+        }
+      ],
+      "regionScore": 0,
+      "audienceScore": 0,
+      "commercialScore": 0,
+      "weightedTotal": 20
+    },
+    "r1Decision": {
+      "version": "v2",
+      "action": "add_to_watchlist",
+      "trackLine": "design_inspiration",
+      "existingBrand": false,
+      "hardNegatives": [],
+      "requiresRobinFinalReview": true,
+      "explanation": "设计感 4/10 较强，但地域(0)或商业(0)验证不足 → 设计启发线，录入为设计参考。核心设计价值：高级感/精致克制(4.8)、结构表达与细节完成度(4.6)"
+    }
+  },
+  {
+    "brand": "Native Union",
+    "nameEn": "Native Union",
+    "category": "accessory",
+    "type": "高端充电配件/CMF精致化",
+    "reason": "Native Union以高端充电线和配件著称，CMF策略远超普通配件品牌——编织线缆、皮革缠绕、金属接头、织物纹理。把低价值的充电配件做出了高级感。",
+    "whyRelevant": "ROBIN追踪安克、倍思、绿联等充电配件品牌。Native Union展示了充电配件的CMF升级方向——如何通过编织、皮革、金属等材料提升配件的触感和视觉层次。对ROBIN做充电类产品的CMF差异化有直接参考。其线缆编织工艺和接头结构设计也值得研究。",
+    "signals": [
+      "CMF",
+      "编织线缆",
+      "皮革",
+      "金属接头",
+      "材料对比",
+      "充电配件",
+      "触感设计"
+    ],
+    "officialSources": [
+      "https://nativeunion.com/"
+    ],
+    "r1Scoring": {
+      "version": "v2",
+      "designScore": 2.2,
+      "designSubScores": [
+        {
+          "id": "premiumFeel",
+          "name": "高级感/精致克制",
+          "score": 3.5,
+          "weight": 0.3
+        },
+        {
+          "id": "designIdentity",
+          "name": "设计识别度",
+          "score": 1.2,
+          "weight": 0.2
+        },
+        {
+          "id": "proportionControl",
+          "name": "比例与形体控制",
+          "score": 0,
+          "weight": 0.167
+        },
+        {
+          "id": "cmfQuality",
+          "name": "材质与CMF质感",
+          "score": 4.1,
+          "weight": 0.133
+        },
+        {
+          "id": "structuralDetail",
+          "name": "结构表达与细节完成度",
+          "score": 2.1,
+          "weight": 0.117
+        },
+        {
+          "id": "timelessness",
+          "name": "长期耐看性/可沉淀性",
+          "score": 1.8,
+          "weight": 0.083
+        }
+      ],
+      "regionScore": 0,
+      "audienceScore": 0,
+      "commercialScore": 0,
+      "weightedTotal": 10
+    },
+    "r1Decision": {
+      "version": "v2",
+      "action": "observe",
+      "trackLine": "observe",
+      "existingBrand": false,
+      "hardNegatives": [],
+      "requiresRobinFinalReview": true,
+      "explanation": "设计感 2.2/10 达到观察门槛，但证据不够充分，建议先观察。参考维度：材质与CMF质感(4.1)、高级感/精致克制(3.5)"
+    }
+  },
+  {
+    "brand": "Nitecore 奈特科尔",
+    "nameEn": "Nitecore",
+    "category": "accessory",
+    "type": "手电筒/便携照明/三防结构",
+    "reason": "Nitecore是专业手电筒和便携照明品牌，产品以极致的三防结构（IP68防水、抗跌落）、精密铝合金CNC加工、模块化电池系统著称。其结构设计和材料工艺在小型产品中属于顶级水平。",
+    "whyRelevant": "ROBIN深度熟悉三防手持和行车记录仪品类。Nitecore展示了三防结构在极小体积内的极致实现——铝合金CNC外壳、O型密封圈、模块化电池仓。其拆件逻辑（头+筒身+尾盖+电池）对ROBIN做三防产品的结构优化有直接参考。CNC铝合金加工工艺和表面处理（HAIII硬质阳极氧化）也值得研究。",
+    "signals": [
+      "三防结构",
+      "铝合金CNC",
+      "模块化电池",
+      "O型密封",
+      "拆件逻辑",
+      "表面处理",
+      "硬质阳极氧化"
+    ],
+    "officialSources": [
+      "https://www.nitecore.com/"
+    ],
+    "r1Scoring": {
+      "version": "v2",
+      "designScore": 2.2,
+      "designSubScores": [
+        {
+          "id": "premiumFeel",
+          "name": "高级感/精致克制",
+          "score": 1.2,
+          "weight": 0.3
+        },
+        {
+          "id": "designIdentity",
+          "name": "设计识别度",
+          "score": 1.8,
+          "weight": 0.2
+        },
+        {
+          "id": "proportionControl",
+          "name": "比例与形体控制",
+          "score": 2,
+          "weight": 0.167
+        },
+        {
+          "id": "cmfQuality",
+          "name": "材质与CMF质感",
+          "score": 3.2,
+          "weight": 0.133
+        },
+        {
+          "id": "structuralDetail",
+          "name": "结构表达与细节完成度",
+          "score": 4.5,
+          "weight": 0.117
+        },
+        {
+          "id": "timelessness",
+          "name": "长期耐看性/可沉淀性",
+          "score": 1.8,
+          "weight": 0.083
+        }
+      ],
+      "regionScore": 0,
+      "audienceScore": 0.6,
+      "commercialScore": 0,
+      "weightedTotal": 10
+    },
+    "r1Decision": {
+      "version": "v2",
+      "action": "observe",
+      "trackLine": "observe",
+      "existingBrand": false,
+      "hardNegatives": [],
+      "requiresRobinFinalReview": true,
+      "explanation": "设计感 2.2/10 达到观察门槛，但证据不够充分，建议先观察。参考维度：结构表达与细节完成度(4.5)、材质与CMF质感(3.2)"
+    }
+  }
+]

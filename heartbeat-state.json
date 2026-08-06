@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "lastRunAt": "2026-08-06T22:00:00+08:00",
+  "lastStatus": "SUCCESS",
+  "lastRunType": "scheduled",
+  "consecutiveFailures": 0,
+  "quotaUsed": 10,
+  "quotaMax": 10,
+  "postponedBrands": [],
+  "errors": [],
+  "notes": "2026-08-06 周四跑批完成。0入池/0强信号。blockList过滤主导。"
+}

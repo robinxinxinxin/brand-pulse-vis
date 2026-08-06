@@ -1,0 +1,22 @@
+[
+  {
+    "brand": "Nothing",
+    "category": "phone",
+    "title": "Nothing Phone concept transparent back with Glyph interface",
+    "summary": "Transparent rear structure and upgraded Glyph visual interface create a recognizable product language beyond logo placement.",
+    "url": "https://nothing.tech/",
+    "sourceName": "Nothing official",
+    "image": "",
+    "publishedAt": "2026-06-06"
+  },
+  {
+    "brand": "华为",
+    "category": "phone",
+    "title": "华为新机处理器升级，跑分提升",
+    "summary": "主要升级芯片与性能，外观和材质延续上一代。",
+    "url": "https://consumer.huawei.com/cn/",
+    "sourceName": "华为官方",
+    "image": "",
+    "publishedAt": "2026-06-06"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "brand": "Teenage Engineering",
+    "nameEn": "Teenage Engineering",
+    "category": "audio",
+    "type": "小众消费电子/音频/设计语言参考",
+    "reason": "品牌长期以清晰视觉焦点、强秩序感、跨品类设计语言和结构化 CMF 形成高识别度。",
+    "whyRelevant": "适合作为 ROBIN 的跨品类灵感源，用来观察小型消费电子的外观秩序、按键、开孔和结构表达。",
+    "signals": ["设计语言", "秩序感", "CMF", "跨品类", "结构"],
+    "officialSources": ["https://teenage.engineering/"]
+  },
+  {
+    "brand": "Generic Spec Phone",
+    "category": "phone",
+    "type": "参数导向手机资讯",
+    "reason": "主要报道处理器升级、跑分提升、续航提升。",
+    "whyRelevant": "缺少外观、结构、CMF 或供应链价值。",
+    "signals": ["处理器", "跑分", "续航提升"],
+    "officialSources": []
+  }
+]

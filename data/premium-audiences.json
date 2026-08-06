@@ -1,0 +1,85 @@
+{
+  "version": "0.1",
+  "scope": "minimal_mvp",
+  "updatedAt": "2026-06-19",
+  "purpose": "先跑通产品信号到高溢价人群判断，不追求覆盖面。",
+  "mvpRule": "最多保留3个人群；验证不成立前不扩展成人群库。",
+  "audiences": [
+    {
+      "id": "cn-xhs-refined-commuter-digital-accessory-users",
+      "name": "中国小红书精致通勤数码配件用户",
+      "mvpRole": "primary",
+      "regionScope": ["中国一线城市", "中国新一线城市"],
+      "corePlatforms": ["xiaohongshu", "tmall", "jd"],
+      "linkedLeadIds": [
+        "lead-xiaohongshu-anker-20260615",
+        "lead-ecommerce-sharge-20260610"
+      ],
+      "aestheticSignalIds": [
+        "soft-gradient-cmf",
+        "semi-transparent-tech"
+      ],
+      "commercialHypothesis": "这类人群愿意为随身数码配件的配色、材质和桌面统一感支付小额溢价。",
+      "decisionQuestion": "柔和渐变或半透明科技感，是否能让充电器、移动电源、线材收纳等低决策成本配件产生溢价？",
+      "mvpScore": {
+        "aestheticTolerance": 4,
+        "willingnessToPay": 3,
+        "communityDensity": 4,
+        "identityExpression": 3,
+        "commercialScale": 4,
+        "transferability": 4
+      },
+      "nextValidation": "先从小红书和电商评论各找10条真实证据，确认是否有人主动提到外观、配色、材质、想买或已买。"
+    },
+    {
+      "id": "global-desk-setup-edc-tech-users",
+      "name": "全球桌搭与轻 EDC 科技用户",
+      "mvpRole": "secondary",
+      "regionScope": ["北美", "欧洲", "东亚"],
+      "corePlatforms": ["youtube", "reddit", "instagram", "xiaohongshu"],
+      "linkedLeadIds": [
+        "lead-ecommerce-sharge-20260610",
+        "lead-xiaohongshu-anker-20260615"
+      ],
+      "aestheticSignalIds": [
+        "semi-transparent-tech",
+        "soft-gradient-cmf"
+      ],
+      "commercialHypothesis": "这类人群把设备当作桌面和随身系统的一部分，愿意为识别度和材料表达付费。",
+      "decisionQuestion": "半透明外壳、结构可视化和统一色系，是否能提升桌搭/EDC 用户的购买优先级？",
+      "mvpScore": {
+        "aestheticTolerance": 5,
+        "willingnessToPay": 4,
+        "communityDensity": 4,
+        "identityExpression": 5,
+        "commercialScale": 3,
+        "transferability": 4
+      },
+      "nextValidation": "先观察3个桌搭/EDC社区，看外观差异是否能带来收藏、转发、询价和购买讨论。"
+    },
+    {
+      "id": "global-mobile-creator-action-camera-users",
+      "name": "全球移动影像创作者",
+      "mvpRole": "secondary",
+      "regionScope": ["全球"],
+      "corePlatforms": ["youtube", "instagram", "bilibili", "xiaohongshu"],
+      "linkedLeadIds": [
+        "lead-store-dji-20260613"
+      ],
+      "aestheticSignalIds": [
+        "professional-tool-upgrade"
+      ],
+      "commercialHypothesis": "这类人群更看重工具可信度，但当外观强化专业感、耐用感和场景感时，仍可能形成高端溢价。",
+      "decisionQuestion": "专业工具感升级，是否能帮助运动相机和创作者设备从参数竞争转向身份与场景竞争？",
+      "mvpScore": {
+        "aestheticTolerance": 3,
+        "willingnessToPay": 4,
+        "communityDensity": 5,
+        "identityExpression": 3,
+        "commercialScale": 5,
+        "transferability": 3
+      },
+      "nextValidation": "先看DJI、GoPro、Insta360新品评论，确认用户是否把外观变化和专业感、可靠感、升级欲望关联起来。"
+    }
+  ]
+}

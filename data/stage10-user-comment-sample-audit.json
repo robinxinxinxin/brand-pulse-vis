@@ -1,0 +1,159 @@
+{
+  "version": "0.1",
+  "stage": "stage_10_user_comment_sample_audit",
+  "updatedAt": "2026-06-20",
+  "subject": {
+    "brand": "闪极Sharge",
+    "productName": "Shargeek 300",
+    "category": "高功率移动电源",
+    "aestheticSignal": "半透明科技感"
+  },
+  "target": {
+    "requiredSamples": 20,
+    "requiredVisualDrivenRatio": 0.25,
+    "upgradeRule": "外观驱动评论不少于 5 条，且总样本达到 20 条，才允许从可收费样本升级为强商业验证样本。"
+  },
+  "stageConclusion": {
+    "result": "not_enough_direct_user_comments",
+    "label": "未达到强商业验证",
+    "summary": "公开渠道目前没有采集到 20 条可核验的普通用户评论。已有证据主要来自媒体实测、专业评测者和 Sharge 相邻透明产品的市场反馈，只能证明外观传播价值，不能证明普通用户已因外观大规模购买。",
+    "currentDecision": "继续保留为可收费诊断样本，但不能升级为强商业验证样本。"
+  },
+  "evidenceSamples": [
+    {
+      "id": "ev-shargeek300-androidcentral-001",
+      "source": "Android Central",
+      "url": "https://www.androidcentral.com/accessories/power-charging/these-three-features-make-the-shargeek-300-the-ultimate-24-000mah-power-bank",
+      "sampleType": "professional_reviewer_usage",
+      "classification": "外观驱动",
+      "summary": "实测者认为 Shargeek 300 的设计明显突出，透明亚克力面板、内部结构、RGB 和大屏幕构成强识别。",
+      "strength": "medium",
+      "limitation": "专业评测者反馈，不是普通用户评论。"
+    },
+    {
+      "id": "ev-shargeek300-androidcentral-002",
+      "source": "Android Central",
+      "url": "https://www.androidcentral.com/accessories/power-charging/these-three-features-make-the-shargeek-300-the-ultimate-24-000mah-power-bank",
+      "sampleType": "professional_reviewer_usage",
+      "classification": "外观驱动",
+      "summary": "实测者记录到 Shargeek 300 在机场安检和休息室会吸引注意，RGB 打开时注意力更强。",
+      "strength": "medium",
+      "limitation": "证明展示价值，不等于购买意愿。"
+    },
+    {
+      "id": "ev-shargeek300-androidcentral-003",
+      "source": "Android Central",
+      "url": "https://www.androidcentral.com/accessories/power-charging/these-three-features-make-the-shargeek-300-the-ultimate-24-000mah-power-bank",
+      "sampleType": "professional_reviewer_usage",
+      "classification": "性能驱动",
+      "summary": "实测者强调双 140W USB-C、总 300W 输出、可同时给两台笔记本补电。",
+      "strength": "high",
+      "limitation": "这是性能驱动，不是外观驱动。"
+    },
+    {
+      "id": "ev-shargeek300-androidcentral-004",
+      "source": "Android Central",
+      "url": "https://www.androidcentral.com/accessories/power-charging/these-three-features-make-the-shargeek-300-the-ultimate-24-000mah-power-bank",
+      "sampleType": "professional_reviewer_usage",
+      "classification": "可靠性验证",
+      "summary": "实测者在一个月和多次循环后认为可靠性可推荐，补足了高功率透明设计的信任缺口。",
+      "strength": "medium",
+      "limitation": "仍需普通用户长期评论验证。"
+    },
+    {
+      "id": "ev-shargeek300-theverge-001",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/876432/sharge-shargeek-300w-power-bank-rgb-lighting-kickstarter",
+      "sampleType": "media_attention",
+      "classification": "外观驱动",
+      "summary": "报道把透明窗口、内部电子元件、RGB、屏幕列为产品差异点，并给出 149 美元早鸟价和 199 美元零售价。",
+      "strength": "medium",
+      "limitation": "媒体关注不等于普通用户购买。"
+    },
+    {
+      "id": "ev-shargeek170-theverge-001",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/654590/shargeek-170-power-bank-elder-scrolls-oblivion-remastered-deal-sale",
+      "sampleType": "adjacent_product_signal",
+      "classification": "外观驱动",
+      "summary": "相邻产品 Shargeek 170 的透明外壳被描述为对喜欢看内部结构的科技用户有吸引力。",
+      "strength": "medium",
+      "limitation": "相邻产品证据，只能作为 Sharge 透明设计路线的旁证。"
+    },
+    {
+      "id": "ev-shargeek170-wired-001",
+      "source": "WIRED",
+      "url": "https://www.wired.com/story/power-bank-deals-february-2026/",
+      "sampleType": "adjacent_product_signal",
+      "classification": "外观驱动",
+      "summary": "WIRED 将 Shargeek 170 称为他们试过的最好看的移动电源，透明外壳和三角形态被视为亮点。",
+      "strength": "medium",
+      "limitation": "是编辑评测观点，不是普通用户评论。"
+    },
+    {
+      "id": "ev-icemag3-androidcentral-001",
+      "source": "Android Central",
+      "url": "https://www.androidcentral.com/accessories/power-charging/sharge-icemag-3-only-qi-2-2-power-bank-i-use-now",
+      "sampleType": "adjacent_product_signal",
+      "classification": "外观驱动",
+      "summary": "相邻产品 Icemag 3 被认为有独特设计，白色版本更好看，适合想要吸引注意的用户。",
+      "strength": "medium",
+      "limitation": "相邻产品证据，不直接等同于 Shargeek 300。"
+    }
+  ],
+  "sampleCount": {
+    "totalCollected": 8,
+    "directOrdinaryUserComments": 0,
+    "professionalReviewerOrMedia": 5,
+    "adjacentProductSignals": 3,
+    "visualDriven": 6,
+    "performanceDriven": 1,
+    "reliabilityDriven": 1,
+    "priceDriven": 0,
+    "negativeRgbOrTooFlashy": 0
+  },
+  "classificationResult": {
+    "visualDrivenRatioInCollectedEvidence": 0.75,
+    "visualDrivenRatioInQualifiedUserComments": 0,
+    "qualifiedForStrongValidation": false,
+    "reason": "已采样证据中外观信号占比高，但合格样本不是普通用户评论，不能用于强商业验证。"
+  },
+  "nextCollectionPlan": [
+    {
+      "source": "Kickstarter",
+      "target": "支持者评论、更新区、问答区",
+      "needed": 8,
+      "preferredSignals": ["外观驱动", "价格驱动", "可靠性担忧"]
+    },
+    {
+      "source": "YouTube",
+      "target": "Shargeek 300 评测评论区",
+      "needed": 5,
+      "preferredSignals": ["外观驱动", "反感 RGB / 太花哨", "性能驱动"]
+    },
+    {
+      "source": "Reddit / X",
+      "target": "EDC、desk setup、power bank、USB-C 社群讨论",
+      "needed": 5,
+      "preferredSignals": ["外观驱动", "可靠性担忧", "价格驱动"]
+    },
+    {
+      "source": "电商评论",
+      "target": "Amazon、Sharge 官方商城、其他零售页面",
+      "needed": 2,
+      "preferredSignals": ["购买后评价", "外观是否符合预期", "重量/安全/发热反馈"]
+    }
+  ],
+  "decisionImpact": {
+    "beforeStage10": "可收费诊断样本，评分 26/30",
+    "afterStage10": "仍为可收费诊断样本，暂不升级为强商业验证样本",
+    "scoreChange": 0,
+    "recommendedScore": 26,
+    "reason": "未取得 20 条普通用户评论，无法提高用户意愿证据分。"
+  },
+  "stageCompletion": {
+    "completed": true,
+    "completedStage": "第 10 阶段：用户评论样本审计",
+    "nextStage": "第 11 阶段：决定是否需要人工/半自动采集评论，或先把报告作为弱验证收费样本销售"
+  }
+}

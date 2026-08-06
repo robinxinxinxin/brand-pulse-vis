@@ -1,0 +1,68 @@
+{
+  "version": "0.1",
+  "stage": "stage_1_single_chain_validation",
+  "updatedAt": "2026-06-19",
+  "decisionId": "decision-anker-gradient-charger-20260619",
+  "sourceLeadId": "lead-xiaohongshu-anker-20260615",
+  "productSignal": {
+    "brand": "安克Anker",
+    "productName": "Anker 737 氮化镓充电器",
+    "signalSummary": "小红书出现疑似新款到店实拍，核心变化是薄荷绿到奶白的柔和渐变配色，以及疑似磨砂注塑外壳。",
+    "evidenceLevel": "S3",
+    "leadStatus": "pending_verify",
+    "confidence": 45
+  },
+  "aestheticSignal": {
+    "id": "soft-gradient-cmf",
+    "name": "柔和渐变 CMF",
+    "fitReason": "该线索的核心变化不是性能参数，而是配色、表面质感和生活方式化表达，符合柔和渐变 CMF 的定义。"
+  },
+  "targetAudience": {
+    "id": "cn-xhs-refined-commuter-digital-accessory-users",
+    "name": "中国小红书精致通勤数码配件用户",
+    "fitReason": "线索来自小红书，产品属于低决策成本的随身数码配件；这类用户更容易把充电器、移动电源、线材等工具当作通勤和桌面审美的一部分。"
+  },
+  "decision": {
+    "result": "watch_and_validate",
+    "label": "值得继续追，但不能转正",
+    "reason": "这条线索能清楚连接到一个审美信号和一个高溢价人群，但当前只有单一小红书来源，且链接未验证，证据不足以进入正式新品日报或商业结论。",
+    "priority": "medium",
+    "doNotDoYet": [
+      "不要写成已确认新品",
+      "不要立刻扩展成新的大标签",
+      "不要把这条线索直接当成安克战略转向"
+    ]
+  },
+  "whyItMayMatter": [
+    "充电器通常是功能优先品类，如果 Anker 对成熟型号做生活方式化 CMF，说明配件品类可能在尝试外观溢价。",
+    "柔和渐变和磨砂质感更适合小红书语境，容易被包装成通勤、桌搭、礼物和女性数码配件场景。",
+    "如果后续出现电商上架、更多实拍或用户评论提到想买，说明这类外观改动可能有真实商业牵引。"
+  ],
+  "mainRisks": [
+    "当前证据只有1篇小红书笔记，可能是假图、误传、旧款改色或非官方渠道款。",
+    "即使产品真实存在，也可能只是常规配色补充，不代表高溢价机会。",
+    "渐变配色如果没有材料和工艺支撑，容易被用户视为普通换色。"
+  ],
+  "nextValidationTasks": [
+    {
+      "task": "小红书交叉验证",
+      "successCriteria": "找到至少3条不同账号发布的实拍或讨论，且内容不是互相搬运。",
+      "decisionImpact": "如果成立，证据等级可从 S3 提升到 S2。"
+    },
+    {
+      "task": "电商上架验证",
+      "successCriteria": "在天猫、京东或安克官方渠道发现同款配色、预售页或客服确认。",
+      "decisionImpact": "如果成立，可进入正式新品日报候选。"
+    },
+    {
+      "task": "用户购买意愿验证",
+      "successCriteria": "评论区出现明确的外观驱动表达，例如想买、好看、适合桌搭、适合通勤、愿意为配色买单。",
+      "decisionImpact": "如果成立，才支持高溢价人群判断继续推进。"
+    }
+  ],
+  "stageCompletion": {
+    "completed": true,
+    "completedStage": "第 1 阶段：跑通 1 条真实判断链路",
+    "nextStage": "第 2 阶段：为这条链路补 3 类真实证据，然后决定是否转入正式追踪"
+  }
+}

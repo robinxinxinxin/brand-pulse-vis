@@ -1,0 +1,77 @@
+{
+  "version": "0.1",
+  "stage": "stage_4_user_visual_intent_validation",
+  "updatedAt": "2026-06-19",
+  "formalTrackingId": "formal-shargeek-300-20260619",
+  "productName": "Shargeek 300",
+  "targetQuestion": "用户是否真的被 Shargeek 300 的半透明科技感外观驱动？",
+  "evidenceSummary": {
+    "result": "partially_validated",
+    "label": "外观传播信号成立，用户付费动机仍需补证据",
+    "confidence": 68,
+    "reason": "公开媒体和实测内容反复强调透明结构、RGB、屏幕和设计差异；但当前还没有足够直接的用户评论样本证明购买主要由外观驱动。"
+  },
+  "evidenceChecks": [
+    {
+      "type": "media_design_attention",
+      "status": "passed",
+      "evidence": "The Verge 报道把产品的透明窗口、内部元件、RGB 灯效、1.9 英寸屏幕作为核心卖点之一。",
+      "sourceUrl": "https://www.theverge.com/tech/876432/sharge-shargeek-300w-power-bank-rgb-lighting-kickstarter",
+      "decisionImpact": "说明外观已经具备传播价值。"
+    },
+    {
+      "type": "hands_on_attention_signal",
+      "status": "passed",
+      "evidence": "Android Central 实测强调 Shargeek 300 外观突出、前后亚克力窗口、RGB 灯效，并提到在机场和休息室会吸引注意。",
+      "sourceUrl": "https://www.androidcentral.com/accessories/power-charging/these-three-features-make-the-shargeek-300-the-ultimate-24-000mah-power-bank",
+      "decisionImpact": "说明外观不只是媒体图好看，而是在真实使用场景里有展示和社交注意力。"
+    },
+    {
+      "type": "price_and_preorder_signal",
+      "status": "passed",
+      "evidence": "The Verge 和 Android Central 均提到 Kickstarter 预订价约 149 美元，零售价约 199 美元。",
+      "sourceUrl": "https://www.theverge.com/tech/876432/sharge-shargeek-300w-power-bank-rgb-lighting-kickstarter",
+      "decisionImpact": "说明产品处在可观察溢价的价格带，但还不能单独证明用户为外观付费。"
+    },
+    {
+      "type": "direct_user_purchase_intent",
+      "status": "not_enough_data",
+      "evidence": "当前没有收集到足够直接的 Kickstarter、YouTube、Reddit 或电商评论样本。",
+      "sourceUrl": "",
+      "decisionImpact": "不能把外观驱动购买写成已证实，只能写成待验证。"
+    }
+  ],
+  "judgment": {
+    "result": "continue_tracking",
+    "summary": "Shargeek 300 已经证明了外观传播价值，但还没有证明外观是用户购买的主因。继续追踪是合理的，但不能过早包装成确定的高溢价结论。",
+    "whatCanBeSaid": [
+      "半透明科技感对媒体传播和场景展示有明显加成。",
+      "Shargeek 300 是一个值得继续观察的高溢价视觉设计样本。",
+      "该产品适合验证桌搭/EDC 用户是否愿意为视觉识别度付费。"
+    ],
+    "whatCannotBeSaidYet": [
+      "不能说用户已经明确因为外观大量购买。",
+      "不能说半透明科技感在移动电源品类已经被商业验证。",
+      "不能说这个方向可以直接复制到所有充电配件。"
+    ]
+  },
+  "nextTasks": [
+    {
+      "task": "收集 20 条用户评论",
+      "source": "Kickstarter、YouTube、Reddit、媒体评论区、X",
+      "classification": ["外观驱动", "性能驱动", "价格驱动", "品牌驱动", "负面顾虑"],
+      "successCriteria": "外观驱动评论占比达到 25% 以上，才可升级为强用户信号。"
+    },
+    {
+      "task": "拆分外观词",
+      "source": "用户评论",
+      "classification": ["透明", "RGB", "屏幕", "桌搭", "未来感", "太花哨", "重量/安全担忧"],
+      "successCriteria": "确认哪些视觉元素加分，哪些元素反而降低信任。"
+    }
+  ],
+  "stageCompletion": {
+    "completed": true,
+    "completedStage": "第 4 阶段：验证用户是否真的被外观驱动",
+    "nextStage": "第 5 阶段：沉淀成可复用的视觉机会诊断模板"
+  }
+}

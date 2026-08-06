@@ -1,0 +1,448 @@
+[
+  {
+    "brand": "AIAIAI",
+    "nameEn": "AIAIAI",
+    "category": "audio",
+    "type": "模块化耳机/哥本哈根设计",
+    "reason": "AIAIAI的TMA-2模块化耳机系统允许用户自由组合耳罩、头梁、线缆、驱动单元。这种模块化拆件逻辑在消费电子中非常罕见。品牌来自哥本哈根，设计语言极简克制，CMF以纯色+磨砂质感为主。",
+    "whyRelevant": "ROBIN的核心壁垒是模具结构和拆件逻辑。AIAIAI的模块化系统直接展示了如何把产品拆分为可独立更换的标准化模块——这对ROBIN思考拆件方式、公模复用、降低开模成本有重要启发。其极简CMF策略（不依赖渐变色，纯色磨砂）也与ROBIN的审美偏好一致。",
+    "signals": [
+      "模块化",
+      "拆件逻辑",
+      "公模复用",
+      "不开模优先",
+      "极简CMF",
+      "标准化模块",
+      "结构创新"
+    ],
+    "officialSources": [
+      "https://aiaiai.dk/"
+    ],
+    "r1Scoring": {
+      "version": "v2",
+      "designScore": 0.8,
+      "designSubScores": [
+        {
+          "id": "premiumFeel",
+          "name": "高级感/精致克制",
+          "score": 1.2,
+          "weight": 0.3
+        },
+        {
+          "id": "designIdentity",
+          "name": "设计识别度",
+          "score": 0,
+          "weight": 0.2
+        },
+        {
+          "id": "proportionControl",
+          "name": "比例与形体控制",
+          "score": 0,
+          "weight": 0.167
+        },
+        {
+          "id": "cmfQuality",
+          "name": "材质与CMF质感",
+          "score": 0.2,
+          "weight": 0.133
+        },
+        {
+          "id": "structuralDetail",
+          "name": "结构表达与细节完成度",
+          "score": 3.5,
+          "weight": 0.117
+        },
+        {
+          "id": "timelessness",
+          "name": "长期耐看性/可沉淀性",
+          "score": 0,
+          "weight": 0.083
+        }
+      ],
+      "regionScore": 0,
+      "audienceScore": 0,
+      "commercialScore": 0,
+      "weightedTotal": 0
+    },
+    "r1Decision": {
+      "version": "v2",
+      "action": "reject",
+      "trackLine": "reject",
+      "existingBrand": false,
+      "hardNegatives": [],
+      "requiresRobinFinalReview": false,
+      "explanation": "设计感 0.8/10 未达准入门槛（≥6），剔除。最强维度：结构表达与细节完成度(3.5)、高级感/精致克制(1.2)"
+    }
+  },
+  {
+    "brand": "Sonos",
+    "nameEn": "Sonos",
+    "category": "audio",
+    "type": "智能音箱/家居音频",
+    "reason": "Sonos以极简外形、高品质音质和无缝多房间音频体验著称。产品CMF以哑光白/黑为主，造型克制，交互通过触控+旋转按键实现。结构上，音箱的声学腔体设计与外观造型高度统一。",
+    "whyRelevant": "ROBIN熟悉音频品类（已有索尼、韶音）。Sonos展示了如何在极简造型内解决声学结构问题——腔体形状、材料厚度、开孔位置的工程约束如何转化为外观语言。其触控+旋转交互方式对小型产品的交互设计有参考。CMF克制策略（哑光纯色，无渐变）与ROBIN审美一致。",
+    "signals": [
+      "极简造型",
+      "声学结构",
+      "腔体设计",
+      "触控交互",
+      "CMF克制",
+      "材料厚度",
+      "开孔位置"
+    ],
+    "officialSources": [
+      "https://www.sonos.com/"
+    ],
+    "r1Scoring": {
+      "version": "v2",
+      "designScore": 1.9,
+      "designSubScores": [
+        {
+          "id": "premiumFeel",
+          "name": "高级感/精致克制",
+          "score": 2.1,
+          "weight": 0.3
+        },
+        {
+          "id": "designIdentity",
+          "name": "设计识别度",
+          "score": 0,
+          "weight": 0.2
+        },
+        {
+          "id": "proportionControl",
+          "name": "比例与形体控制",
+          "score": 2.9,
+          "weight": 0.167
+        },
+        {
+          "id": "cmfQuality",
+          "name": "材质与CMF质感",
+          "score": 2.4,
+          "weight": 0.133
+        },
+        {
+          "id": "structuralDetail",
+          "name": "结构表达与细节完成度",
+          "score": 3.2,
+          "weight": 0.117
+        },
+        {
+          "id": "timelessness",
+          "name": "长期耐看性/可沉淀性",
+          "score": 0.6,
+          "weight": 0.083
+        }
+      ],
+      "regionScore": 0,
+      "audienceScore": 0.9,
+      "commercialScore": 0,
+      "weightedTotal": 10
+    },
+    "r1Decision": {
+      "version": "v2",
+      "action": "reject",
+      "trackLine": "reject",
+      "existingBrand": false,
+      "hardNegatives": [],
+      "requiresRobinFinalReview": false,
+      "explanation": "设计感 1.9/10 未达准入门槛（≥6），剔除。最强维度：结构表达与细节完成度(3.2)、比例与形体控制(2.9)"
+    }
+  },
+  {
+    "brand": "Solgaard",
+    "nameEn": "Solgaard",
+    "category": "accessory",
+    "type": "旅行配件/集成结构创新",
+    "reason": "Solgaard以集成充电功能的行李箱和便携充电配件著称。其产品展示了如何在传统品类（行李箱、钱包、充电宝）中嵌入电子功能，同时保持外观的简洁和结构完整性。",
+    "whyRelevant": "ROBIN的核心品类包括充电宝和配件（已有安克、倍思、绿联等）。Solgaard展示了充电配件的跨界创新方向——如何把充电功能集成到非电子品类中。其结构拆件逻辑（外壳+电子模块+储能单元的分层设计）对ROBIN做充电类产品的结构优化有参考。",
+    "signals": [
+      "结构集成",
+      "充电配件",
+      "拆件逻辑",
+      "跨界创新",
+      "储能单元",
+      "分层设计"
+    ],
+    "officialSources": [
+      "https://solgaard.co/"
+    ],
+    "r1Scoring": {
+      "version": "v2",
+      "designScore": 0.3,
+      "designSubScores": [
+        {
+          "id": "premiumFeel",
+          "name": "高级感/精致克制",
+          "score": 0,
+          "weight": 0.3
+        },
+        {
+          "id": "designIdentity",
+          "name": "设计识别度",
+          "score": 0,
+          "weight": 0.2
+        },
+        {
+          "id": "proportionControl",
+          "name": "比例与形体控制",
+          "score": 0,
+          "weight": 0.167
+        },
+        {
+          "id": "cmfQuality",
+          "name": "材质与CMF质感",
+          "score": 0,
+          "weight": 0.133
+        },
+        {
+          "id": "structuralDetail",
+          "name": "结构表达与细节完成度",
+          "score": 2,
+          "weight": 0.117
+        },
+        {
+          "id": "timelessness",
+          "name": "长期耐看性/可沉淀性",
+          "score": 0.6,
+          "weight": 0.083
+        }
+      ],
+      "regionScore": 0,
+      "audienceScore": 0,
+      "commercialScore": 0,
+      "weightedTotal": 0
+    },
+    "r1Decision": {
+      "version": "v2",
+      "action": "reject",
+      "trackLine": "reject",
+      "existingBrand": false,
+      "hardNegatives": [],
+      "requiresRobinFinalReview": false,
+      "explanation": "设计感 0.3/10 未达准入门槛（≥6），剔除。最强维度：结构表达与细节完成度(2)、长期耐看性/可沉淀性(0.6)"
+    }
+  },
+  {
+    "brand": "Mobvoi 出门问问",
+    "nameEn": "Mobvoi",
+    "category": "wearable",
+    "type": "AI穿戴/智能手表耳机",
+    "reason": "Mobvoi在CES 2026发布AI录音耳机Tic Note Pods和Tic Note Watch，探索AI硬件的新形态。品牌在智能手表（TicWatch系列）和AI可穿戴领域持续创新，产品体积小巧，交互方式新颖。",
+    "whyRelevant": "ROBIN的灵感来源包括穿戴设备（已有Oura、WHOOP、佳明）。Mobvoi展示了AI穿戴设备的新形态探索——如何在极小体积内集成AI录音、健康监测等功能。其手表产品的曲面玻璃、表壳过渡、传感器布局对ROBIN做穿戴类产品的结构思考有参考。",
+    "signals": [
+      "AI穿戴",
+      "小型智能硬件",
+      "曲面玻璃",
+      "传感器布局",
+      "交互创新",
+      "穿戴设备"
+    ],
+    "officialSources": [
+      "https://www.mobvoi.com/"
+    ],
+    "r1Scoring": {
+      "version": "v2",
+      "designScore": 1.1,
+      "designSubScores": [
+        {
+          "id": "premiumFeel",
+          "name": "高级感/精致克制",
+          "score": 0,
+          "weight": 0.3
+        },
+        {
+          "id": "designIdentity",
+          "name": "设计识别度",
+          "score": 0,
+          "weight": 0.2
+        },
+        {
+          "id": "proportionControl",
+          "name": "比例与形体控制",
+          "score": 4,
+          "weight": 0.167
+        },
+        {
+          "id": "cmfQuality",
+          "name": "材质与CMF质感",
+          "score": 0,
+          "weight": 0.133
+        },
+        {
+          "id": "structuralDetail",
+          "name": "结构表达与细节完成度",
+          "score": 2.4,
+          "weight": 0.117
+        },
+        {
+          "id": "timelessness",
+          "name": "长期耐看性/可沉淀性",
+          "score": 1.5,
+          "weight": 0.083
+        }
+      ],
+      "regionScore": 0,
+      "audienceScore": 0,
+      "commercialScore": 0,
+      "weightedTotal": 10
+    },
+    "r1Decision": {
+      "version": "v2",
+      "action": "reject",
+      "trackLine": "reject",
+      "existingBrand": false,
+      "hardNegatives": [],
+      "requiresRobinFinalReview": false,
+      "explanation": "设计感 1.1/10 未达准入门槛（≥6），剔除。最强维度：比例与形体控制(4)、结构表达与细节完成度(2.4)"
+    }
+  },
+  {
+    "brand": "Jackery 电小二",
+    "nameEn": "Jackery",
+    "category": "power",
+    "type": "便携储能/户外电源",
+    "reason": "Jackery是便携储能领域的头部品牌之一，产品线覆盖户外电源和便携充电站。产品结构以折叠太阳能板+储能主机为主，CMF以户外风格（黑+橙/绿点缀）为特色，结构设计注重便携性和防护性。",
+    "whyRelevant": "ROBIN追踪正浩EcoFlow和Bluetti两个储能品牌。Jackery作为第三极，展示了便携储能的另一个方向——更轻量化、更消费化的设计。其折叠太阳能板的结构逻辑（铰链+防水连接）和户外CMF策略对ROBIN做户外电源类产品有参考。",
+    "signals": [
+      "便携储能",
+      "折叠结构",
+      "铰链设计",
+      "户外CMF",
+      "防护结构",
+      "太阳能板"
+    ],
+    "officialSources": [
+      "https://www.jackery.com/"
+    ],
+    "r1Scoring": {
+      "version": "v2",
+      "designScore": 0.5,
+      "designSubScores": [
+        {
+          "id": "premiumFeel",
+          "name": "高级感/精致克制",
+          "score": 0,
+          "weight": 0.3
+        },
+        {
+          "id": "designIdentity",
+          "name": "设计识别度",
+          "score": 0,
+          "weight": 0.2
+        },
+        {
+          "id": "proportionControl",
+          "name": "比例与形体控制",
+          "score": 0,
+          "weight": 0.167
+        },
+        {
+          "id": "cmfQuality",
+          "name": "材质与CMF质感",
+          "score": 1.2,
+          "weight": 0.133
+        },
+        {
+          "id": "structuralDetail",
+          "name": "结构表达与细节完成度",
+          "score": 2.1,
+          "weight": 0.117
+        },
+        {
+          "id": "timelessness",
+          "name": "长期耐看性/可沉淀性",
+          "score": 1.5,
+          "weight": 0.083
+        }
+      ],
+      "regionScore": 0,
+      "audienceScore": 0,
+      "commercialScore": 0,
+      "weightedTotal": 0
+    },
+    "r1Decision": {
+      "version": "v2",
+      "action": "reject",
+      "trackLine": "reject",
+      "existingBrand": false,
+      "hardNegatives": [],
+      "requiresRobinFinalReview": false,
+      "explanation": "设计感 0.5/10 未达准入门槛（≥6），剔除。最强维度：结构表达与细节完成度(2.1)、长期耐看性/可沉淀性(1.5)"
+    }
+  },
+  {
+    "brand": "Shokz 韶音（补充评估）",
+    "nameEn": "Shokz",
+    "category": "audio",
+    "type": "开放式耳机/骨传导",
+    "reason": "韶音已在追踪池中，但作为骨传导/开放式耳机的开创者，其结构创新（骨传导振子+钛合金后挂+硅胶贴合）在消费电子中独树一帜。值得评估是否需要提升追踪优先级或扩展追踪维度。",
+    "whyRelevant": "ROBIN的核心壁垒是结构思考。韶音的骨传导结构展示了如何在非传统声学路径上实现音质——振子结构、钛合金后挂的弹性、硅胶贴合的人体工学。这种非传统结构路径对ROBIN突破结构思考瓶颈有启发。建议评估是否从普通追踪升级为高优先级追踪。",
+    "signals": [
+      "骨传导结构",
+      "钛合金",
+      "硅胶贴合",
+      "人体工学",
+      "非传统结构",
+      "振子设计"
+    ],
+    "officialSources": [
+      "https://shokz.com/"
+    ],
+    "r1Scoring": {
+      "version": "v2",
+      "designScore": 0.7,
+      "designSubScores": [
+        {
+          "id": "premiumFeel",
+          "name": "高级感/精致克制",
+          "score": 0,
+          "weight": 0.3
+        },
+        {
+          "id": "designIdentity",
+          "name": "设计识别度",
+          "score": 1.2,
+          "weight": 0.2
+        },
+        {
+          "id": "proportionControl",
+          "name": "比例与形体控制",
+          "score": 0,
+          "weight": 0.167
+        },
+        {
+          "id": "cmfQuality",
+          "name": "材质与CMF质感",
+          "score": 1.8,
+          "weight": 0.133
+        },
+        {
+          "id": "structuralDetail",
+          "name": "结构表达与细节完成度",
+          "score": 2,
+          "weight": 0.117
+        },
+        {
+          "id": "timelessness",
+          "name": "长期耐看性/可沉淀性",
+          "score": 0,
+          "weight": 0.083
+        }
+      ],
+      "regionScore": 0,
+      "audienceScore": 0,
+      "commercialScore": 0,
+      "weightedTotal": 0
+    },
+    "r1Decision": {
+      "version": "v2",
+      "action": "reject",
+      "trackLine": "reject",
+      "existingBrand": false,
+      "hardNegatives": [],
+      "requiresRobinFinalReview": false,
+      "explanation": "设计感 0.7/10 未达准入门槛（≥6），剔除。最强维度：结构表达与细节完成度(2)、材质与CMF质感(1.8)"
+    }
+  }
+]
