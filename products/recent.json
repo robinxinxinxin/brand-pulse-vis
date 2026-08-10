@@ -1,5 +1,94 @@
 [
   {
+    "id": "iqoo-neo11-ultimate-20260810",
+    "brand": "iQOO",
+    "category": "phone",
+    "title": "iQOO Neo11 至尊版：全球首发F2发光材料+埃米级蒸镀工艺，2K直屏新标杆",
+    "summary": "iQOO Neo11 至尊版将于8月18日19:00正式发布。核心突破：全球首发国产F2发光材料，配合埃米级蒸镀工艺，将发光材料蒸镀精度控制在埃米级（约一根头发丝直径的六十万分之一），大幅提升发光效率。6.83英寸2K物理分辨率直屏，是行业唯一同时具备2K屏与9100mAh超大电池的性能旗舰。外观采用横向Deco设计（家族悬浮舷窗改为横向双摄），哑光金属中框+磨砂后盖工艺，边缘大R角过渡，三款配色：乘风/疾影黑/驰光白。",
+    "constraintChange": "埃米级蒸镀工艺应用于手机屏幕发光材料制造。制造精度从纳米级推进至埃米级，发光效率显著提升的同时功耗低于1.5K屏，是屏幕制造工艺的范式转变。",
+    "time": "2026-08-10 19:51",
+    "score": 74,
+    "confidence": 88,
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": 8,
+      "recognition": 7,
+      "transferability": 7,
+      "cmfInnovation": 8,
+      "paradigmShift": 7
+    },
+    "visWeighted": {
+      "diffusionPotential": 8,
+      "recognition": 10.5,
+      "transferability": 7,
+      "cmfInnovation": 12,
+      "paradigmShift": 10.5
+    },
+    "visTotal": 48,
+    "facts": [
+      "iQOO Neo11 至尊版定档2026年8月18日19:00正式发布，发布会结束即开售",
+      "全球首发国产F2发光材料，配合埃米级蒸镀工艺",
+      "埃米级蒸镀工艺：将发光材料的高低差控制在埃米级，约为一根头发丝直径的六十万分之一",
+      "屏幕：6.83英寸 2K 物理分辨率护眼超冠屏，行业唯一2K+9100mAh组合",
+      "F2发光材料发光效率显著提升，功耗低于部分1.5K屏方案",
+      "外观：横向Deco设计（家族悬浮舷窗改为横向双摄排布），优化横向握持手感",
+      "材质：哑光金属中框，磨砂工艺后盖，防滑且不易沾染指纹",
+      "边缘：大R角设计，整体视觉效果圆润流畅",
+      "三款配色：乘风（渐变花纹）、疾影黑、驰光白",
+      "电池：9100mAh超大电池",
+      "芯片：定制天玑9500",
+      "定位：行业唯一 \"2K屏与9100mAh大电池\" 性能旗舰"
+    ],
+    "analysis": {
+      "whyItMatters": "埃米级蒸镀工艺是屏幕制造从纳米级向埃米级跃迁的范式转变。传统蒸镀工艺精度在纳米级，埃米级精度可将发光材料膜层厚度差异控制在亚纳米级别，直接提升发光效率和色彩均匀性。F2发光材料是国产屏幕供应链自主工艺的重要突破，打破了高端发光材料依赖海外供应的局面。2K物理分辨率在中高端性能旗舰中的首次标配，将推动屏幕分辨率门槛上移。横向Deco设计是iQOO设计语言的重要迭代，从竖排悬浮舷窗改为横向双摄，更符合游戏场景横握人体工学。",
+      "transferability": "埃米级蒸镀工艺可推广至OLED电视、显示器、平板等中大尺寸显示面板。F2发光材料体系可应用于智能手表、AR眼镜等小尺寸高 PPI 屏幕。横向Deco设计趋势可影响游戏手机、性能旗舰的产品ID方向。",
+      "risk": "2K分辨率屏幕与9100mAh电池的组合对机身散热提出更高要求。埃米级蒸镀工艺良率尚待市场验证。国产F2发光材料稳定性需长期使用确认。天玑9500芯片的实际能效表现待发布后验证。"
+    },
+    "primarySource": {
+      "tier": "tier1_tech_media",
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/987/745.htm",
+      "capturedAt": "2026-08-10T19:51:00+08:00"
+    },
+    "evidence": [
+      {
+        "type": "article",
+        "title": "iQOO Neo11 至尊版图赏：横向 Deco + 驰光白清爽配色",
+        "source": "IT之家",
+        "url": "https://www.ithome.com/0/987/745.htm",
+        "capturedAt": "2026-08-10T10:46:00+08:00"
+      },
+      {
+        "type": "article",
+        "title": "iQOO Neo11 至尊版屏幕参数公布：全球首发国产 F2 发光材料，6.83 英寸 2K 分辨率",
+        "source": "IT之家",
+        "url": "https://www.ithome.com/0/987/884.htm",
+        "capturedAt": "2026-08-10T15:32:00+08:00"
+      },
+      {
+        "type": "article",
+        "title": "iQOO Neo11 至尊版全球首发F2发光材料 2K6.83英寸",
+        "source": "快科技",
+        "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_9986a796a8256552",
+        "capturedAt": "2026-08-10T14:06:58+08:00"
+      }
+    ],
+    "tags": [
+      "f2-emission-material",
+      "angstrom-evaporation",
+      "2k-display",
+      "horizontal-deco",
+      "9100mah-battery",
+      "custom-tegment9500"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-08-10T19:51:00+08:00",
+    "updatedAt": "2026-08-10T19:51:00+08:00",
+    "url": "https://www.iqoo.com/neo11",
+    "source": "vis"
+  },
+  {
     "id": "dji-osmo-360-ii-20260809",
     "brand": "DJI",
     "category": "camera",
