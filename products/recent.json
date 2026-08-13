@@ -1,5 +1,253 @@
 [
   {
+    "id": "dji-dji-osmo-360-ii-8k全景相机-1英寸传感器-183克-20260813",
+    "brand": "DJI",
+    "category": "camera",
+    "title": "DJI Osmo 360 II: 8K全景相机，1英寸全景影像，183克超轻，可换镜头",
+    "summary": "DJI于2026年8月13日发布Osmo 360 II全景相机，定价3299元起。搭载双1/1.1英寸方形CMOS传感器，实现原生1英寸全景影像，动态范围14.5级。首次引入可更换镜头模组和二代光学超硬金刚膜，支持NFC一碰快连，内置105GB存储，裸机183克。8K/60fps录像，AI超级夜景2.0，2150mAh电池。183克超轻机身与可换镜头模组将全景相机便携性与可修复性提升至新高度。1英寸全景影像使画质首次达到旗舰智能手机级别。",
+    "constraintChange": "183克超轻全景相机 + 可换镜头模组：便携性与可修复性双重突破。1英寸全景影像传感器使画质首次达到旗舰智能手机级别。",
+    "time": "2026-08-13 20:00",
+    "score": 69,
+    "confidence": 88,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 7,
+      "recognition": 8,
+      "transferability": 6,
+      "cmfInnovation": 7,
+      "paradigmShift": 5
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.1,
+      "recognition": 2,
+      "transferability": 1.2,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.5
+    },
+    "visTotal": 6.85,
+    "facts": [
+      "DJI于2026年8月13日发布Osmo 360 II，定价3299元起。",
+      "双1/1.1英寸方形CMOS传感器，实现原生1英寸全景影像。",
+      "动态范围14.5级，8K/60fps全景视频。",
+      "首次引入可更换镜头模组和二代光学超硬金刚膜。",
+      "支持NFC一碰快连，内置105GB存储。",
+      "裸机仅183克，2150mAh电池。",
+      "AI超级夜景2.0，主角跟随，AI一键成片。",
+      "183克超轻全景相机将便携性推至新高度，可换镜头设计重新定义可修复性标准。"
+    ],
+    "analysis": {
+      "whyItMatters": "183克超轻全景相机将便携性推至新高度。1英寸全景影像使画质首次达到旗舰智能手机级别。可更换镜头模组是品类首创，有望成为后续行业标配。",
+      "transferability": "可换镜头模组设计可推广至其他运动/全景相机品类；NFC一碰快连可成为配件标配。",
+      "risk": "全景相机仍属小众市场；1英寸传感器成本高，定价3299元起对大众用户有门槛。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "腾讯新闻/色影无忌",
+      "url": "https://new.qq.com/rain/a/20260813A0D2AN00",
+      "capturedAt": "2026-08-13T20:03:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "panorama",
+      "8k",
+      "1-inch-sensor",
+      "replaceable-lens",
+      "ultralight",
+      "dji"
+    ],
+    "image": "",
+    "url": "https://new.qq.com/rain/a/20260813A0D2AN00",
+    "source": "vis",
+    "createdAt": "2026-08-13",
+    "updatedAt": "2026-08-13"
+  },
+  {
+    "id": "insta360-insta360-x6-8k全景相机-4nm-ai三芯-196克-20260812",
+    "brand": "Insta360",
+    "category": "camera",
+    "title": "Insta360 X6: 8K全景相机，4nm AI三芯架构，196克，3DGS时光舱",
+    "summary": "影石Insta360于2026年8月12日发布十年旗舰全景相机X6，定价3999元起。搭载索尼联合定制双1/1.1英寸方形传感器，升级4nm AI三芯架构，算力提升500%，功耗降低35%。8K 50fps全景视频，10-bit色深，原生杜比视界，全景模式+云台模式2.0+平面模式三合一。3D高斯泼溅（3DGS）技术实现3D时光舱重建，196克轻量机身。零剪辑功能（充电时自动AI成片）。全景相机从参数竞争转向AI创作智能化，3DGS技术开辟全新回忆形态。",
+    "constraintChange": "4nm AI三芯架构让全景相机实现零剪辑自动化（充电即成片），3DGS时光舱将2D影像重建为3D立体回忆。196克轻量机身实现旗舰性能与便携兼得。",
+    "time": "2026-08-12 20:00",
+    "score": 66,
+    "confidence": 90,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 7,
+      "recognition": 7,
+      "transferability": 5,
+      "cmfInnovation": 7,
+      "paradigmShift": 6
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.1,
+      "recognition": 1.75,
+      "transferability": 1,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.6
+    },
+    "visTotal": 6.5,
+    "facts": [
+      "影石Insta360于2026年8月12日发布X6全景相机，定价3999元起。",
+      "索尼联合定制双1/1.1英寸方形传感器，4nm AI三芯架构，算力提升500%。",
+      "8K 50fps全景视频，10-bit色深，原生杜比视界。",
+      "全景模式+云台模式2.0+平面模式，一机三用。",
+      "3D高斯泼溅（3DGS）技术实现3D时光舱重建。",
+      "零剪辑功能：充电时自动AI选片、剪辑、配乐成片。",
+      "196克轻量机身，全新可拆换镜片2.0。",
+      "全景相机从参数竞争转向AI创作智能化，3DGS开辟全新回忆形态。"
+    ],
+    "analysis": {
+      "whyItMatters": "4nm AI三芯实现零剪辑自动化（充电即成片），AI从辅助工具升级为创作主体。3DGS时光舱将2D影像重建为可自由穿梭的3D立体回忆，开辟新形态。",
+      "transferability": "4nm AI三芯架构可迁移至其他影像设备；3DGS技术可应用于手机、运动相机等；零剪辑功能可成为影像设备AI标准配置。",
+      "risk": "3DGS内容分享平台支持有限，用户习惯培养需要时间；AI成片质量待验证；定价3999元起。"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "腾讯新闻/界面新闻",
+      "url": "https://new.qq.com/rain/a/20260812A0DI3H00",
+      "capturedAt": "2026-08-12T20:59:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "panorama",
+      "8k",
+      "ai-chip",
+      "3dgs",
+      "zero-edit",
+      "inst360"
+    ],
+    "image": "",
+    "url": "https://new.qq.com/rain/a/20260812A0DI3H00",
+    "source": "vis",
+    "createdAt": "2026-08-13",
+    "updatedAt": "2026-08-13"
+  },
+  {
+    "id": "plaud-plaud-notepin-s-多形态佩戴ai录音设备-if-design-award-2026获奖-202",
+    "brand": "PLAUD",
+    "category": "wearable",
+    "title": "PLAUD NotePin S: 多形态佩戴AI录音设备，iF Design Award 2026获奖",
+    "summary": "PLAUD推出NotePin S可穿戴AI录音设备。多形态佩戴夹领子戴手腕挂脖子磁铁贴衣服。新增实体按键。AI摘要行动项提取112种语言转写。获iF Design Award 2026 Red Dot 2025等设计大奖。全球超100万用户。可穿戴AI硬件的多形态佩戴范式将AI从手机解放到身体是交互范式转变。多形态佩戴设计可跨品类扩散至其他AI硬件设备。已量产普及。",
+    "constraintChange": "多形态佩戴设计将AI硬件从手机解放到身体。夹领子/戴手腕/挂脖子/磁铁贴衣，交互范式转变。",
+    "time": "2026-08-10 22:00",
+    "score": 68,
+    "confidence": 86,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 2,
+      "transferability": 8,
+      "cmfInnovation": 0,
+      "paradigmShift": 3
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0.5,
+      "transferability": 1.6,
+      "cmfInnovation": 0,
+      "paradigmShift": 0.3
+    },
+    "visTotal": 2.4,
+    "facts": [
+      "PLAUD推出NotePin S可穿戴AI录音设备。",
+      "多形态佩戴夹领子戴手腕挂脖子磁铁贴衣服。",
+      "新增实体按键。",
+      "AI摘要行动项提取112种语言转写。",
+      "获iF Design Award 2026 Red Dot 2025等设计大奖。",
+      "全球超100万用户。",
+      "可穿戴AI硬件的多形态佩戴范式将AI从手机解放到身体是交互范式转变。",
+      "多形态佩戴设计可跨品类扩散至其他AI硬件设备。",
+      "已量产普及。"
+    ],
+    "analysis": {
+      "whyItMatters": "多形态佩戴范式将AI从手机解放到身体，是交互范式转变。已量产普及说明市场验证通过，多形态佩戴设计可跨品类扩散至其他AI硬件设备。",
+      "transferability": "多形态佩戴设计可推广至其他AI硬件设备（AI眼镜、智能徽章、健康监测贴片等）。",
+      "risk": "AI录音设备隐私合规风险。品类较新，大众市场认知度有限。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "PLAUD Official",
+      "url": "https://www.plaud.ai",
+      "capturedAt": "2026-08-10T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "ai-wearable",
+      "multi-mode",
+      "design-award",
+      "note-taking"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-08-10T22:00:00+08:00",
+    "updatedAt": "2026-08-10T22:00:00+08:00",
+    "url": "https://www.plaud.ai",
+    "source": "vis"
+  },
+  {
+    "id": "oura-oura-ring-5-世界最小智能戒指-钛合金无缝一体-2克重量2-28mm厚度-20260810",
+    "brand": "Oura",
+    "category": "wearable",
+    "title": "Oura Ring 5: 世界最小智能戒指，钛合金无缝一体，2克重量2.28mm厚度",
+    "summary": "Oura Ring 5发布，号称世界最小智能戒指。高性能钛合金外壳加无缝钛合金内壁，重量仅2克起，厚度2.28mm，比前代薄40%。防水100米IP68。50+健康指标，99%心率精度。新增Deep Rose和Brushed Silver饰面，Gold饰面重新设计。6-9天续航。钛合金材料与极致微型化工艺将智能戒指的存在感降至新低，是可穿戴设备去存在感设计的范式转变。钛合金无缝一体成型工艺可跨品类扩散至其他微型穿戴设备。",
+    "constraintChange": "钛合金无缝一体成型工艺应用于智能戒指。重量降至2克、厚度2.28mm比前代薄40%，将可穿戴设备存在感降至新低。",
+    "time": "2026-08-10 22:00",
+    "score": 64,
+    "confidence": 82,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 4,
+      "cmfInnovation": 6,
+      "paradigmShift": 3
+    },
+    "visWeighted": {
+      "diffusionPotential": 0,
+      "recognition": 0,
+      "transferability": 0.8,
+      "cmfInnovation": 0.9,
+      "paradigmShift": 0.3
+    },
+    "visTotal": 2,
+    "facts": [
+      "Oura Ring 5发布，号称世界最小智能戒指。",
+      "高性能钛合金外壳加无缝钛合金内壁，重量仅2克起，厚度2.28mm，比前代薄40%。",
+      "防水100米IP68。",
+      "50+健康指标，99%心率精度。",
+      "新增Deep Rose和Brushed Silver饰面，Gold饰面重新设计。",
+      "6-9天续航。",
+      "钛合金材料与极致微型化工艺将智能戒指的存在感降至新低，是可穿戴设备去存在感设计的范式转变。",
+      "钛合金无缝一体成型工艺可跨品类扩散至其他微型穿戴设备。"
+    ],
+    "analysis": {
+      "whyItMatters": "钛合金无缝一体成型工艺将智能戒指的存在感降至新低。2克重量和2.28mm厚度是可穿戴设备去存在感设计的范式转变，钛合金材料工艺可跨品类扩散至其他微型穿戴设备。",
+      "transferability": "钛合金无缝一体成型工艺可推广至其他微型穿戴设备（耳夹耳机、AI徽章、智能眼镜等）。",
+      "risk": "智能戒指品类市场规模有限，钛合金加工成本较高。健康监测精度待长期验证。"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "Oura Official",
+      "url": "https://ouraring.com/store/rings/oura-ring-5",
+      "capturedAt": "2026-08-10T22:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "titanium",
+      "smart-ring",
+      "miniaturization",
+      "seamless",
+      "wearable"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "createdAt": "2026-08-10T22:00:00+08:00",
+    "updatedAt": "2026-08-10T22:00:00+08:00",
+    "url": "https://ouraring.com/store/rings/oura-ring-5",
+    "source": "vis"
+  },
+  {
     "id": "iqoo-neo11-ultimate-20260810",
     "brand": "iQOO",
     "category": "phone",
@@ -86,85 +334,6 @@
     "createdAt": "2026-08-10T19:51:00+08:00",
     "updatedAt": "2026-08-10T19:51:00+08:00",
     "url": "https://www.iqoo.com/neo11",
-    "source": "vis"
-  },
-  {
-    "id": "dji-osmo-360-ii-20260809",
-    "brand": "DJI",
-    "category": "camera",
-    "title": "大疆Osmo 360 II：8K60fps全景相机，1英寸方形传感器",
-    "summary": "大疆新一代全景相机Osmo 360 II定档8月13日正式发布。核心升级：8K60fps全景视频(前代8K50fps)、1英寸方形传感器、1.2亿像素全景照片、14.5档动态范围、IP68防水、NFC一碰互联。电池从1950mAh升级到2150mAh(容量提升10.26%)。外观延续初代方正机身造型，细节精简调整，屏幕下方按键改为一红一黑双色。",
-    "constraintChange": "方形影像传感器应用于消费级全景相机。方形传感器贴合全景成像圆形像场，提升利用率的同时兼顾机身体积与功耗控制。",
-    "time": "2026-08-09 22:43",
-    "score": 72,
-    "confidence": 90,
-    "reviewStatus": "verified",
-    "visBreakdown": {
-      "diffusionPotential": 6,
-      "recognition": 7,
-      "transferability": 6,
-      "cmfInnovation": 7,
-      "paradigmShift": 7
-    },
-    "visWeighted": {
-      "diffusionPotential": 6,
-      "recognition": 10.5,
-      "transferability": 6,
-      "cmfInnovation": 10.5,
-      "paradigmShift": 10.5
-    },
-    "visTotal": 43.5,
-    "facts": [
-      "大疆Osmo 360 II定档2026年8月13日20:00正式发布",
-      "影像规格：8K60fps全景视频(前代8K50fps)，1.2亿像素全景照片",
-      "传感器：1英寸方形传感器，14.5档动态范围，支持10bit D-Log M色彩格式",
-      "外观：延续初代方正机身造型，镜头布局未改动，屏幕下方按键改为一红一黑双色",
-      "电池：2150mAh(前代1950mAh)，容量提升约10.26%",
-      "防护：IP68防水，四麦克风立体收音，2英寸触控屏",
-      "交互：新增NFC一碰互联功能，手机贴近机身快速配对",
-      "方形传感器首次应用于消费级全景相机(Osmo 360初代2025年上市)",
-      "预约渠道：大疆官方商城、天猫、京东、线下门店已开启预约",
-      "价格：待8月13日正式公布"
-    ],
-    "analysis": {
-      "whyItMatters": "方形传感器是全景相机的范式转变。传统矩形传感器两侧存在冗余面积，方形传感器贴合全景成像圆形像场，提升利用率的同时兼顾机身体积与功耗控制。Osmo 360 II延续方形传感器方案并升级至8K60fps，验证了该技术路线的可行性。NFC一碰互联简化配对流程，IP68防水+四麦克风提升户外实用性。",
-      "transferability": "方形传感器方案可延伸至运动相机、无人机全景影像、VR设备。NFC一碰互联可借鉴至智能音箱、可穿戴设备等IoT品类。",
-      "risk": "无重大风险。大疆在运动相机市场已建立品牌认知，Osmo 360系列具备市场基础。"
-    },
-    "primarySource": {
-      "tier": "tier1_tech_media",
-      "name": "快科技",
-      "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8066a75d47509052",
-      "capturedAt": "2026-08-09T22:43:00+08:00"
-    },
-    "evidence": [
-      {
-        "type": "article",
-        "title": "大疆Osmo 360 II正式官宣：8月13日发布 重塑全景影像上限",
-        "source": "快科技",
-        "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8066a75d47509052",
-        "capturedAt": "2026-08-09T22:43:00+08:00"
-      },
-      {
-        "type": "article",
-        "title": "大疆全新8K全景相机Osmo 360 Ⅱ开启预约",
-        "source": "上游新闻",
-        "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6456a771cb572052",
-        "capturedAt": "2026-08-09T22:43:00+08:00"
-      }
-    ],
-    "tags": [
-      "panoramic-camera",
-      "square-sensor",
-      "8k-video",
-      "nfc-pairing",
-      "ip68-waterproof"
-    ],
-    "image": "",
-    "duplicateOf": null,
-    "createdAt": "2026-08-09T22:43:00+08:00",
-    "updatedAt": "2026-08-09T22:43:00+08:00",
-    "url": "https://www.dji.com/cn/osmo-360-ii",
     "source": "vis"
   },
   {
