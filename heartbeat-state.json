@@ -1,12 +1,16 @@
 {
-  "schemaVersion": "1.0",
-  "lastRunAt": "2026-08-06T22:00:00+08:00",
-  "lastStatus": "SUCCESS",
-  "lastRunType": "scheduled",
-  "consecutiveFailures": 0,
-  "quotaUsed": 10,
-  "quotaMax": 10,
-  "postponedBrands": [],
-  "errors": [],
-  "notes": "2026-08-06 周四跑批完成。0入池/0强信号。blockList过滤主导。"
+    "lastRunType": "scheduled",
+    "consecutiveFailures": 0,
+    "lastRunAt": "2026-08-20T22:00:00+08:00",
+    "quotaMax": 10,
+    "postponedBrands": [
+        "B层22品牌",
+        "C层19品牌",
+        "D层7品牌（含paused VEOUT跳过）"
+    ],
+    "quotaUsed": 10,
+    "errors": [],
+    "lastStatus": "SUCCESS",
+    "schemaVersion": "1.0",
+    "notes": "2026-08-20 周四跑批完成。5入池/5强信号。Top=Nothing Phone (3)@100。A层10品牌全覆盖，配额10/10用尽。自检PASSED（5 products, 60 brands）。Git 2.53可用，执行commit+push。G3.2全维度>=6连续第3批次无候选通过。新增信源：gizmochina/thetechoutlook/wemedia/rtings/ixbt/otticasm待补入MEDIA_TIERS。3个本周新品：DJI Osmo 360 II(8/13)、Insta360 Luna Pro(8/20)、Framework Laptop 12更新(8/19)。BOOTSTRAP.md不存在无需删除。"
 }

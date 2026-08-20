@@ -1,137 +1,79 @@
 [
   {
+    "title": "Nothing Phone (3): 回收铝材透明设计，UV涂层工艺，Gorilla Glass",
     "brand": "Nothing",
     "category": "phone",
-    "title": "Nothing Phone (4b) 完整外观曝光",
-    "summary": "透明设计下放到入门价位，精简灯带，配色针对年轻人",
-    "url": "http://m.toutiao.com/group/7656447917712081408/",
-    "sourceName": "今日头条",
-    "discardReason": "blockList"
+    "summary": "Nothing发布Phone (3)，100%回收铝中框、按钮和SIM托盘。Corning Gorilla Glass前后玻璃。透明背盖设计展示主板电路，工业机械之美。特殊UV哑光涂层工艺提供深邃质感。IP68防尘防水。100%回收锡用于9块电路板，80%回收钢用于27个钢件，100%回收铜箔用于主板。100%塑料无包装，100%可再生能源总装。透明设计语言和Glyph视觉系统持续进化，材料可持续性创新从入门向主流扩散。",
+    "url": "https://us.nothing.tech/products/phone-3",
+    "sourceUrl": "https://us.nothing.tech/products/phone-3",
+    "sourceName": "Nothing Official",
+    "releaseDate": "2026-08-20",
+    "tags": ["transparent", "recycled-aluminum", "uv-coating", "sustainable", "design-language", "mass-market"]
   },
   {
-    "brand": "Nothing",
-    "category": "phone",
-    "title": "Nothing Phone(4a)系列正式发布",
-    "summary": "透明美学再进化，3299元起售，首次国内举办手机新品展示",
-    "url": "http://m.toutiao.com/group/7619291472860398080/",
-    "sourceName": "今日头条",
-    "discardReason": "blockList"
-  },
-  {
-    "brand": "Nothing",
-    "category": "audio",
-    "title": "Nothing Headphone (a) 预算款耳机",
-    "summary": "更注重预算，预计售价149英镑，3月12日上市",
-    "url": "https://m.sohu.com/a/983465051_122413768/",
-    "sourceName": "搜狐号",
-    "discardReason": "blockList"
-  },
-  {
-    "brand": "Oura",
-    "category": "wearable",
-    "title": "Oura Ring 5 技术深度解析",
-    "summary": "体积缩减40%，重量仅2-2.6g，钛合金材质，2026年5月发布",
-    "url": "https://blog.csdn.net/ting9452000/article/details/161594563",
-    "sourceName": "CSDN博客",
-    "discardReason": "NO_SOURCE"
-  },
-  {
-    "brand": "Oura",
-    "category": "wearable",
-    "title": "Oura Ring 5智能戒指预售",
-    "summary": "钛合金材质，重量仅3.5g，厚度2.5mm，全球最小智能戒指",
-    "url": "http://m.toutiao.com/group/7645515391988515370/",
-    "sourceName": "今日头条",
-    "discardReason": "blockList"
-  },
-  {
-    "brand": "WHOOP",
-    "category": "wearable",
-    "title": "WHOOP 4.0拆解报告",
-    "summary": "硅碳电池技术，电池能量密度提升17%，无外观信号",
-    "url": "http://m.toutiao.com/group/7142381744711270950/",
-    "sourceName": "今日头条",
-    "discardReason": "blockList"
-  },
-  {
-    "brand": "韶音Shokz",
-    "category": "audio",
-    "title": "韶音OpenDots 2耳夹耳机拆解",
-    "summary": "延续家族式设计，环保材质，白金缮配色，耳夹形态",
-    "url": "http://m.toutiao.com/group/7654398940170961471/",
-    "sourceName": "今日头条",
-    "discardReason": "blockList"
-  },
-  {
-    "brand": "韶音Shokz",
-    "category": "audio",
-    "title": "2026 Shokz Day三款开放式耳机发布",
-    "summary": "OpenDots 2、OpenSwim Pro 2、OpenDots Air，2026年5月15日",
-    "url": "http://m.toutiao.com/group/7641173083474248211/",
-    "sourceName": "今日头条",
-    "discardReason": "blockList"
-  },
-  {
+    "title": "DJI Osmo 360 II: 可换镜头全景相机，1英寸方形传感器，8K/60fps",
     "brand": "大疆DJI",
     "category": "camera",
-    "title": "大疆2026新品最全盘点",
-    "summary": "Flip、Neo2、Lito、Pocket4P、RS 4 Pro套装",
-    "url": "http://m.toutiao.com/group/7664836455147946537/",
-    "sourceName": "今日头条",
-    "discardReason": "blockList"
+    "summary": "大疆发布Osmo 360 II全景相机。首款可换镜头设计，二代光学超硬涂层提升抗刮性。1英寸方形传感器专为全景设计，传感器利用率提升25%。8K/60fps原生全景视频，14.5档动态范围。183g轻量，10米裸机防水。磁吸快拆系统配合1/4螺纹接口。AI主体追踪和一键成像。冷抗压电池。模块化可换镜头概念可跨品类扩散至运动相机和VR设备。大疆设计语言和辨识度强的专业工具审美。已量产，面向大众市场。",
+    "url": "https://www.gizmochina.com/2026/08/13/djis-osmo-360-ii-brings-native-8k-60fps-video-to-a-1-inch-panoramic-sensor/",
+    "sourceUrl": "https://www.gizmochina.com/2026/08/13/djis-osmo-360-ii-brings-native-8k-60fps-video-to-a-1-inch-panoramic-sensor/",
+    "sourceName": "Gizmochina",
+    "releaseDate": "2026-08-13",
+    "tags": ["interchangeable-lens", "panoramic", "modular", "coating", "design-language", "mass-market"]
   },
   {
+    "title": "Insta360 Luna Pro: 徕卡联名手持云台相机，可拆卸OLED遥控屏",
     "brand": "影石Insta360",
     "category": "camera",
-    "title": "影石Insta360 X6定档8月12日发布",
-    "summary": "十年里程碑之作，索尼定制双方形传感器，升级4nm AI三芯架构",
-    "url": "http://m.toutiao.com/group/7670764813219332643/",
-    "sourceName": "今日头条",
-    "discardReason": "blockList"
+    "summary": "影石Insta360发布Luna Pro手持云台相机，徕卡品牌联名设计。单镜头云台设计比Ultra更紧凑。可拆卸2英寸OLED触摸遥控屏，模块化分离设计。全包式保护壳创新覆盖云台和镜头。1/4螺纹手柄。徕卡联名是跨品牌设计语言融合概念，从专业摄影向消费级云台相机扩散。影石设计语言和辨识度。模块化可拆卸遥控屏可跨品类扩散至其他影像设备。已量产面向大众市场。",
+    "url": "https://www.thetechoutlook.com/new-release/insta360-luna-pro-officially-confirmed-to-launch-on-20th-august-2026-in-china-leica-branding-and-design-teased/",
+    "sourceUrl": "https://www.thetechoutlook.com/new-release/insta360-luna-pro-officially-confirmed-to-launch-on-20th-august-2026-in-china-leica-branding-and-design-teased/",
+    "sourceName": "The Tech Outlook",
+    "releaseDate": "2026-08-20",
+    "tags": ["leica", "gimbal-camera", "modular", "detachable-screen", "design-language", "mass-market"]
   },
   {
-    "brand": "影石Insta360",
-    "category": "camera",
-    "title": "影石官宣Cameraman摄影机器人",
-    "summary": "11周年预告概念产品，向AI机器人领域扩张",
-    "url": "http://m.toutiao.com/group/7669833781720711734/",
-    "sourceName": "今日头条",
-    "discardReason": "blockList"
-  },
-  {
+    "title": "Framework Laptop 12 (2026): Thunderbolt 4模块化扩展，续航提升70%",
     "brand": "Framework",
     "category": "laptop",
-    "title": "Framework 16 模块化笔记本电脑",
-    "summary": "2026款，极致模块化设计，可更换显卡、内存",
-    "url": "https://post.m.smzdm.com/p/akovoz3e/",
-    "sourceName": "什么值得买",
-    "discardReason": "NO_SIGNAL"
+    "summary": "Framework深度更新Laptop 12，Intel Core Series 3处理器。2个Expansion Card插槽支持Thunderbolt 4和4K视频输出。Wi-Fi 7连接。续航提升70%。指纹读取器标准化。背光键盘。12.2寸触摸屏。4个可定制扩展槽，内存可升至64GB。模块化可维修设计理念延续，开源表面CAD支持3D打印配件皮肤。模块化设计可跨品类扩散至更多PC产品。面向大众市场入门，起步价$699。",
+    "url": "https://www.wemedia.it/news/framework_rinnova_il_laptop_12_per_sfidare_davvero_il_macbook_neo-20963.html",
+    "sourceUrl": "https://www.wemedia.it/news/framework_rinnova_il_laptop_12_per_sfidare_davvero_il_macbook_neo-20963.html",
+    "sourceName": "WeMedia",
+    "releaseDate": "2026-08-19",
+    "tags": ["modular", "thunderbolt-4", "repairable", "design-language", "mass-market", "affordable"]
   },
   {
-    "brand": "Teenage Engineering",
-    "category": "audio",
-    "title": "Teenage Engineering OP-XY音序合成器",
-    "summary": "黑色铝制材料，OLED显示屏，极简风格",
-    "url": "https://m.sohu.com/a/827297459_121798711/",
-    "sourceName": "搜狐号",
-    "discardReason": "blockList"
+    "title": "Framework Laptop 16 (2026): 模块化键鼠一体设计，RTX 5070可选",
+    "brand": "Framework",
+    "category": "laptop",
+    "summary": "Framework更新Laptop 16，键盘和触控板改为一体化模块设计简化组装。AMD Ryzen AI 300处理器，NVIDIA RTX 5070或AMD RX 7700独显可选。模块化输入设备是可维修产品语言的范式进化。Expansion Bay模块化接口系统，磁吸卡扣锁定。USB-C、HDMI、DisplayPort、MicroSD、Ethernet等多种扩展卡可选。模块化设计理念可跨品类扩散。面向大众市场。",
+    "url": "https://www.rtings.com/laptop/reviews/framework/laptop-16-2026",
+    "sourceUrl": "https://www.rtings.com/laptop/reviews/framework/laptop-16-2026",
+    "sourceName": "RTINGS",
+    "releaseDate": "2026-08-19",
+    "tags": ["modular", "modular-keyboard", "repairable", "design-language", "mass-market"]
   },
   {
+    "title": "Ray-Ban Meta 2026春夏: 透明灰框架展示内部组件，Transitions镜片",
     "brand": "Ray-Ban Meta",
     "category": "wearable",
-    "title": "Meta Ray-Ban Display智能眼镜百科",
-    "summary": "2025年9月推出，LCoS技术，新增显示屏，重量约70克",
-    "url": "https://m.baike.com/wiki/Meta%20Ray-Ban%20Display/7551303471204876339",
-    "sourceName": "百科",
-    "discardReason": "NO_SIGNAL"
+    "summary": "Ray-Ban Meta 2026春夏新色透明灰框架，展示内部组件创造技术视觉冲击。Transitions Gen S蓝宝石镜片。透明设计语言从Nothing风扩散至AI眼镜品类，跨品类审美渗透验证。Blayzer Optics和Scriber Optics处方镜片兼容型号，可换鼻托和铰链设计更纤薄。AI眼镜走向大众市场主流化，处方镜片兼容降低入门门槛。已量产。",
+    "url": "https://www.otticasm.com/blog/nuovi-colori-ray-ban-meta-ai-per-la-primavera-estate-2026.html",
+    "sourceUrl": "https://www.otticasm.com/blog/nuovi-colori-ray-ban-meta-ai-per-la-primavera-estate-2026.html",
+    "sourceName": "OtticaSM",
+    "releaseDate": "2026-08-20",
+    "tags": ["transparent", "transitions-lens", "design-language", "mass-market", "prescription"]
   },
   {
-    "brand": "PLAUD",
-    "category": "wearable",
-    "title": "Plaud NotePin S可穿戴AI记录设备",
-    "summary": "CES 2026推出，可夹领子/戴手腕/挂脖子/磁铁贴衣",
-    "url": "http://m.toutiao.com/group/7592234188158386728/",
-    "sourceName": "今日头条",
-    "discardReason": "blockList"
+    "title": "Shokz OpenFit 2 AI: 开放式耳机集成Qwen神经网络，钛合金丝设计",
+    "brand": "韶音Shokz",
+    "category": "audio",
+    "summary": "韶音Shokz发布OpenFit 2 AI开放式耳机，首次集成阿里Qwen神经网络。0.7mm柔性钛合金丝耳挂，硅胶包裹，9.4g轻量。延续韶音设计语言和辨识度强的运动佩戴审美。钛合金材料工艺可跨品类扩散至其他穿戴设备。AI与开放耳形态结合是交互范式概念创新。已量产普及，大众市场可及。镍钛合金从后挂扩展至耳挂全链路应用。",
+    "url": "https://www.ixbt.com/live/digs/shokz-predstavila-umnye-otkrytye-naushniki-openfit-2-ai-s-neyrosetyu-qwen.html",
+    "sourceUrl": "https://www.ixbt.com/live/digs/shokz-predstavila-umnye-otkrytye-naushniki-openfit-2-ai-s-neyrosetyu-qwen.html",
+    "sourceName": "iXBT",
+    "releaseDate": "2026-06-01",
+    "tags": ["titanium", "ai-integration", "open-ear", "design-language", "mass-market"]
   }
 ]
