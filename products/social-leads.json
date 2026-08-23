@@ -22,7 +22,9 @@
     ],
     "possibleDuplicateOf": null,
     "convertedToProductId": null,
-    "notes": "仅1篇小红书笔记，需要更多交叉验证。用户称在门店看到。"
+    "notes": "仅1篇小红书笔记，需要更多交叉验证。用户称在门店看到。",
+    "linkVerified": false,
+    "_verifyReason": "placeholder:xhs-explore-numeric"
   },
   {
     "id": "lead-weibo-oppo-20260614",
@@ -47,7 +49,9 @@
     ],
     "possibleDuplicateOf": null,
     "convertedToProductId": null,
-    "notes": "博主有较高可信度，但仅有1张模糊图。需等待更多证据。"
+    "notes": "博主有较高可信度，但仅有1张模糊图。需等待更多证据。",
+    "linkVerified": false,
+    "_verifyReason": "placeholder:weibo-placeholder"
   },
   {
     "id": "lead-store-dji-20260613",
@@ -72,7 +76,9 @@
     ],
     "possibleDuplicateOf": null,
     "convertedToProductId": null,
-    "notes": "多个独立门店均出现相同海报，交叉验证充分。"
+    "notes": "多个独立门店均出现相同海报，交叉验证充分。",
+    "linkVerified": false,
+    "_verifyReason": "empty"
   },
   {
     "id": "lead-xiaohongshu-nothing-20260612",
@@ -97,31 +103,59 @@
     ],
     "possibleDuplicateOf": null,
     "convertedToProductId": null,
-    "notes": "来源可信度低，只有1张图且用户描述模糊。已标记为排除。"
+    "notes": "来源可信度低，只有1张图且用户描述模糊。已标记为排除。",
+    "linkVerified": false,
+    "_verifyReason": "placeholder:xhs-explore-numeric"
   },
   {
     "id": "lead-ecommerce-sharge-20260610",
     "brand": "闪极Sharge",
-    "productName": "Sharge 200W 移动电源",
-    "leadTitle": "闪极天猫店预上架200W移动电源，新外观泄露",
-    "summary": "闪极天猫旗舰店出现200W移动电源的预售页面，产品外观与此前100W版本完全不同：采用半透明磨砂外壳，内部电路板可见，有蓝色LED指示灯带。",
-    "platform": "ecommerce",
-    "sourceType": "ecommerce_listing",
-    "sourceUrl": "https://detail.tmall.com/item.htm?id=123456789",
-    "sourceName": "闪极天猫旗舰店",
+    "productName": "Shargeek 300",
+    "leadTitle": "Shargeek 300 公开亮相：300W 高功率透明移动电源",
+    "summary": "Shargeek 300 已在公开媒体和众筹渠道出现，产品采用透明/半透明结构窗口，可见内部电子元件，并配有 RGB 灯效、状态屏幕和最高 300W 输出能力。",
+    "platform": "media",
+    "sourceType": "media_report",
+    "sourceUrl": "https://www.theverge.com/tech/876432/sharge-shargeek-300w-power-bank-rgb-lighting-kickstarter",
+    "sourceName": "The Verge",
     "capturedAt": "2026-06-10T16:45:00+08:00",
     "discoveredAt": "2026-06-10T16:45:00+08:00",
     "evidenceLevel": "S1",
     "leadStatus": "confirmed",
-    "confidence": 90,
-    "visualChange": "半透明磨砂外壳，内部电路板可见，蓝色LED灯带，全新工业设计语言",
-    "whyItMatters": "闪极此前产品为不透明金属/塑料壳，这次半透明设计是明显的视觉语言转变，且出现在官方电商渠道。",
-    "nextAction": "准备转正：产品已官方上架，可转入正式日报。需要等官方新闻稿或确认是否为新系列。",
+    "confidence": 88,
+    "visualChange": "透明/半透明结构窗口，内部元件可见，RGB 灯效，状态屏幕，高功率移动电源的展示型工业设计语言",
+    "whyItMatters": "Shargeek 300 把移动电源从纯功能设备转成可展示的科技物件，适合验证“半透明科技感”是否能打中桌搭与轻 EDC 高溢价人群。",
+    "nextAction": "进入正式追踪：补充 Kickstarter、媒体实测和用户评论，判断外观是否带来购买意愿或传播意愿。",
     "relatedImages": [
-      "https://example.com/placeholder-lead-5.jpg"
+      "https://cdn.vox-cdn.com/thumbor/7l0aYGlbFv0aMk3-1GkEzIsFNA0=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/74066230/257477_Shargeek_300_power_bank_JTuohy_0001.0.jpg"
     ],
     "possibleDuplicateOf": null,
     "convertedToProductId": null,
-    "notes": "官方电商渠道预上架，可信度极高。需确认是否正式发售还是预售。"
+    "notes": "原样例写作 Sharge 200W 天猫预上架，但公开可核验证据更强地指向 Shargeek 300。已将正式追踪对象修正为 Shargeek 300。",
+    "linkVerified": true,
+    "aestheticSignalIds": [
+      "semi-transparent-tech"
+    ],
+    "targetAudienceIds": [
+      "global-desk-setup-edc-tech-users"
+    ],
+    "commercialDecision": "promote_to_formal_tracking",
+    "evidenceSources": [
+      {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/876432/sharge-shargeek-300w-power-bank-rgb-lighting-kickstarter",
+        "type": "media_report"
+      },
+      {
+        "name": "Android Central",
+        "url": "https://www.androidcentral.com/accessories/power-charging/these-three-features-make-the-shargeek-300-the-ultimate-24-000mah-power-bank",
+        "type": "hands_on_review"
+      },
+      {
+        "name": "The Verge CES 2025",
+        "url": "https://www.theverge.com/2025/1/9/24339370/ces-2025-best-chargers-power-bank",
+        "type": "event_report"
+      }
+    ],
+    "_verifyReason": "verified:public-media-and-hands-on-sources"
   }
 ]

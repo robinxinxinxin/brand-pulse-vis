@@ -151,9 +151,12 @@ foreach ($product in $recent) {
       Fail "Product $($product.id) has incomplete visBreakdown (market source requires visualDiff)"
     }
   } else {
-    # VIS chain requires recognition in visBreakdown
-    if (-not $product.visBreakdown.recognition -and $product.score -ne 0) {
-      Fail "Product $($product.id) has incomplete visBreakdown"
+    # VIS chain requires recognition and diffusionPotential in visBreakdown (0 is valid)
+    if ($null -eq $product.visBreakdown.recognition -and $product.score -ne 0) {
+      Fail "Product $($product.id) has incomplete visBreakdown (missing recognition)"
+    }
+    if ($null -eq $product.visBreakdown.diffusionPotential -and $product.score -ne 0) {
+      Fail "Product $($product.id) has incomplete visBreakdown (missing diffusionPotential)"
     }
   }
 

@@ -1,5 +1,118 @@
 [
   {
+    "id": "honor-honor-robot-phone-机械云台钛合金-arri色彩-具身智能-20260823",
+    "brand": "荣耀Honor",
+    "category": "phone",
+    "title": "荣耀Robot Phone: 机械云台钛合金结构，ARRI色彩科学，具身智能交互",
+    "summary": "荣耀发布全球首款机器人手机Robot Phone，8月18日正式开售。首创四自由度钛合金灵巧云台，0.8秒快速弹出，360°/s极致转速，集成100余个精密零件60余项工艺，自研专利100余项。携手百年电影工业ARRI，首次将Log-C编码、ARRI Look和AWG3广色域引入移动端，院线级色彩工作流下放消费级。搭载YOYO Pro模式，支持多模态具身感知、手势识别、随音而舞情感交互。星轨银（高亮金属）、月影灰（哑光磨砂）双色，骁龙8 Elite Gen5，7060mAh电池，9999元起。钛合金精密机械结构+电影级色彩科学+具身智能，从形态、材料到交互范式全面重构。",
+    "constraintChange": "荣耀Robot Phone首创四自由度钛合金灵巧云台，100余个精密零件60余项工艺，钛合金精密机械结构从形态到交互范式全面重构。携手ARRI引入电影级色彩科学工作流，院线级色彩下放消费级。",
+    "time": "2026-08-23 19:00",
+    "score": 100,
+    "confidence": 98,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 10,
+      "recognition": 6,
+      "transferability": 8,
+      "cmfInnovation": 8,
+      "paradigmShift": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 3,
+      "recognition": 1.5,
+      "transferability": 1.6,
+      "cmfInnovation": 1.2,
+      "paradigmShift": 1
+    },
+    "visTotal": 8.3,
+    "facts": [
+      "matched signal terms: 钛, titanium, 概念, 设计语言, 辨识度, 量产, 跨品类, 入门, 主流, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "荣耀Robot Phone将四自由度钛合金机械云台、ARRI电影级色彩科学与具身智能交互三者合一，是手机形态、CMF材料和交互范式的三重 paradigm shift。钛合金精密机械结构量产、院线级色彩工作流下放消费级、AI从被动执行变具身伙伴。",
+      "transferability": "钛, titanium, 概念, 设计语言, 辨识度, 量产, 跨品类, 入门, 主流, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "荣耀官网",
+      "url": "https://www.honor.com/cn/m/product/10086696810671.html",
+      "capturedAt": "2026-08-23T11:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "titanium",
+      "gimbal",
+      "arri",
+      "embodied-ai",
+      "paradigm-shift",
+      "design-language",
+      "mass-market"
+    ],
+    "image": "",
+    "url": "https://www.honor.com/global/phones/honor-robot-phone",
+    "source": "vis",
+    "createdAt": "2026-08-23T19:00:00+08:00",
+    "updatedAt": "2026-08-23T19:00:00+08:00"
+  },
+  {
+    "id": "sony-sony-wh-1000xm6-olive-gray-橄榄绿新色自然灵感-硬核沉静-20260823",
+    "brand": "索尼Sony",
+    "category": "audio",
+    "title": "索尼WH-1000XM6 Olive Gray: 橄榄绿新色，自然灵感设计语言",
+    "summary": "索尼WH-1000XM6推出全新橄榄绿配色，8月4日正式上市。橄榄绿源自自然意象——晨雾中的橄榄枝叶，柔和灰调与静谧绿意交融，呈现沉稳而平和的质感，传达沉静、松弛的生活态度。该色是索尼1000X系列设计语言的色彩延展，以自然灵感为叙事，色彩从科技冷峻向有机温暖转变。254克轻量化，加宽头梁+减压皮革耳罩，约30小时续航。降噪处理器QN3，12麦克风，30mm碳纤维驱动单元，格莱美级调音。橄榄绿是1000X系列第六个配色色系，标志着头戴式降噪耳机色彩线趋于成熟和完整。",
+    "constraintChange": "索尼WH-1000XM6橄榄绿新色，源自自然意象，柔和灰调与静谧绿意交融。色彩叙事从科技冷峻向有机温暖转变，1000X系列色彩设计语言持续进化。",
+    "time": "2026-08-23 19:00",
+    "score": 88,
+    "confidence": 94,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 9,
+      "recognition": 4,
+      "transferability": 6,
+      "cmfInnovation": 3,
+      "paradigmShift": 0
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.7,
+      "recognition": 1,
+      "transferability": 1.2,
+      "cmfInnovation": 0.45,
+      "paradigmShift": 0
+    },
+    "visTotal": 5.35,
+    "facts": [
+      "matched signal terms: 概念, 设计语言, 辨识度, 量产, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "索尼WH-1000XM6橄榄绿新色以自然意象为叙事，将科技产品色彩从功能表达推向情感叙事，色彩叙事转变是设计语言扩散的体现。",
+      "transferability": "概念, 设计语言, 辨识度, 量产, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "索尼中国",
+      "url": "https://www.csdn.net/article/2026-08-05/163503135",
+      "capturedAt": "2026-08-23T11:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "olive-gray",
+      "color-trend",
+      "design-language",
+      "mass-market"
+    ],
+    "image": "",
+    "url": "https://www.sony.com.tw/en/headphones/products/wh-1000xm6",
+    "source": "vis",
+    "createdAt": "2026-08-23T19:00:00+08:00",
+    "updatedAt": "2026-08-23T19:00:00+08:00"
+  },
+  {
     "id": "nothing-nothing-phone-3-回收铝材透明设计-uv涂层工艺-gorilla-glass-20260820",
     "brand": "Nothing",
     "category": "phone",
@@ -10,14 +123,46 @@
     "score": 100,
     "confidence": 95,
     "reviewStatus": "needs_review",
-    "visBreakdown": { "diffusionPotential": 9, "recognition": 6, "transferability": 0, "cmfInnovation": 6, "paradigmShift": 6 },
-    "visWeighted": { "diffusionPotential": 2.7, "recognition": 1.5, "transferability": 0, "cmfInnovation": 0.9, "paradigmShift": 0.6 },
+    "visBreakdown": {
+      "diffusionPotential": 9,
+      "recognition": 6,
+      "transferability": 0,
+      "cmfInnovation": 6,
+      "paradigmShift": 6
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.7,
+      "recognition": 1.5,
+      "transferability": 0,
+      "cmfInnovation": 0.9,
+      "paradigmShift": 0.6
+    },
     "visTotal": 5.7,
-    "facts": ["matched signal terms: 涂层, coating, 透明, transparent, 设计语言, glyph, 视觉系统, 入门, 主流, mass-market", "no spec-only penalty", "source tier: tier0_official"],
-    "analysis": { "whyItMatters": "Nothing Phone (3)将100%回收铝材应用于中框、按钮和SIM托盘，透明背盖展示主板电路。UV哑光涂层工艺和Gorilla Glass提供深邃质感。", "transferability": "涂层, coating, 透明, transparent, 设计语言, glyph, 视觉系统, 入门, 主流, mass-market", "risk": "needs human review" },
-    "primarySource": { "tier": "tier0_official", "name": "Nothing Official", "url": "https://us.nothing.tech/products/phone-3", "capturedAt": "2026-08-20T22:00:00+08:00" },
+    "facts": [
+      "matched signal terms: 涂层, coating, 透明, transparent, 设计语言, glyph, 视觉系统, 入门, 主流, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "Nothing Phone (3)将100%回收铝材应用于中框、按钮和SIM托盘，透明背盖展示主板电路。UV哑光涂层工艺和Gorilla Glass提供深邃质感。",
+      "transferability": "涂层, coating, 透明, transparent, 设计语言, glyph, 视觉系统, 入门, 主流, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "Nothing Official",
+      "url": "https://us.nothing.tech/products/phone-3",
+      "capturedAt": "2026-08-20T22:00:00+08:00"
+    },
     "evidence": [],
-    "tags": ["transparent", "recycled-aluminum", "uv-coating", "sustainable", "design-language", "mass-market"],
+    "tags": [
+      "transparent",
+      "recycled-aluminum",
+      "uv-coating",
+      "sustainable",
+      "design-language",
+      "mass-market"
+    ],
     "image": "",
     "url": "https://us.nothing.tech/products/phone-3",
     "source": "vis",
@@ -35,14 +180,46 @@
     "score": 86,
     "confidence": 94,
     "reviewStatus": "needs_review",
-    "visBreakdown": { "diffusionPotential": 6, "recognition": 4, "transferability": 4, "cmfInnovation": 6, "paradigmShift": 9 },
-    "visWeighted": { "diffusionPotential": 1.8, "recognition": 1.0, "transferability": 0.8, "cmfInnovation": 0.9, "paradigmShift": 0.9 },
+    "visBreakdown": {
+      "diffusionPotential": 6,
+      "recognition": 4,
+      "transferability": 4,
+      "cmfInnovation": 6,
+      "paradigmShift": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.8,
+      "recognition": 1,
+      "transferability": 0.8,
+      "cmfInnovation": 0.9,
+      "paradigmShift": 0.9
+    },
     "visTotal": 5.4,
-    "facts": ["matched signal terms: 涂层, coating, 模块化, modular, 概念, 设计语言, 辨识度, 量产, 跨品类, 大众, mass-market", "no spec-only penalty", "source tier: unknown"],
-    "analysis": { "whyItMatters": "DJI Osmo 360 II首款可换镜头全景相机，二代光学超硬涂层。磁吸快拆模块化系统。", "transferability": "涂层, coating, 模块化, modular, 概念, 设计语言, 辨识度, 量产, 跨品类, 大众, mass-market", "risk": "needs human review" },
-    "primarySource": { "tier": "unknown", "name": "Gizmochina", "url": "https://www.gizmochina.com/2026/08/13/djis-osmo-360-ii-brings-native-8k-60fps-video-to-a-1-inch-panoramic-sensor/", "capturedAt": "2026-08-20T22:00:00+08:00" },
+    "facts": [
+      "matched signal terms: 涂层, coating, 模块化, modular, 概念, 设计语言, 辨识度, 量产, 跨品类, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: unknown"
+    ],
+    "analysis": {
+      "whyItMatters": "DJI Osmo 360 II首款可换镜头全景相机，二代光学超硬涂层。磁吸快拆模块化系统。",
+      "transferability": "涂层, coating, 模块化, modular, 概念, 设计语言, 辨识度, 量产, 跨品类, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "unknown",
+      "name": "Gizmochina",
+      "url": "https://www.gizmochina.com/2026/08/13/djis-osmo-360-ii-brings-native-8k-60fps-video-to-a-1-inch-panoramic-sensor/",
+      "capturedAt": "2026-08-20T22:00:00+08:00"
+    },
     "evidence": [],
-    "tags": ["interchangeable-lens", "panoramic", "modular", "coating", "design-language", "mass-market"],
+    "tags": [
+      "interchangeable-lens",
+      "panoramic",
+      "modular",
+      "coating",
+      "design-language",
+      "mass-market"
+    ],
     "image": "",
     "url": "https://www.gizmochina.com/2026/08/13/djis-osmo-360-ii-brings-native-8k-60fps-video-to-a-1-inch-panoramic-sensor/",
     "source": "vis",
@@ -60,14 +237,45 @@
     "score": 84,
     "confidence": 90,
     "reviewStatus": "needs_review",
-    "visBreakdown": { "diffusionPotential": 6, "recognition": 4, "transferability": 6, "cmfInnovation": 6, "paradigmShift": 3 },
-    "visWeighted": { "diffusionPotential": 1.8, "recognition": 1.0, "transferability": 1.2, "cmfInnovation": 0.9, "paradigmShift": 0.3 },
+    "visBreakdown": {
+      "diffusionPotential": 6,
+      "recognition": 4,
+      "transferability": 6,
+      "cmfInnovation": 6,
+      "paradigmShift": 3
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.8,
+      "recognition": 1,
+      "transferability": 1.2,
+      "cmfInnovation": 0.9,
+      "paradigmShift": 0.3
+    },
     "visTotal": 5.2,
-    "facts": ["matched signal terms: 钛, titanium, 概念, 设计语言, 辨识度, 普及, 量产, 跨品类, 大众, mass-market", "no spec-only penalty", "source tier: unknown"],
-    "analysis": { "whyItMatters": "Shokz OpenFit 2 AI首次集成阿里Qwen神经网络。0.7mm柔性钛合金丝耳挂，镍钛合金从后挂扩展至耳挂全链路应用。", "transferability": "钛, titanium, 概念, 设计语言, 辨识度, 普及, 量产, 跨品类, 大众, mass-market", "risk": "needs human review" },
-    "primarySource": { "tier": "unknown", "name": "iXBT", "url": "https://www.ixbt.com/live/digs/shokz-predstavila-umnye-otkrytye-naushniki-openfit-2-ai-s-neyrosetyu-qwen.html", "capturedAt": "2026-08-20T22:00:00+08:00" },
+    "facts": [
+      "matched signal terms: 钛, titanium, 概念, 设计语言, 辨识度, 普及, 量产, 跨品类, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: unknown"
+    ],
+    "analysis": {
+      "whyItMatters": "Shokz OpenFit 2 AI首次集成阿里Qwen神经网络。0.7mm柔性钛合金丝耳挂，镍钛合金从后挂扩展至耳挂全链路应用。",
+      "transferability": "钛, titanium, 概念, 设计语言, 辨识度, 普及, 量产, 跨品类, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "unknown",
+      "name": "iXBT",
+      "url": "https://www.ixbt.com/live/digs/shokz-predstavila-umnye-otkrytye-naushniki-openfit-2-ai-s-neyrosetyu-qwen.html",
+      "capturedAt": "2026-08-20T22:00:00+08:00"
+    },
     "evidence": [],
-    "tags": ["titanium", "ai-integration", "open-ear", "design-language", "mass-market"],
+    "tags": [
+      "titanium",
+      "ai-integration",
+      "open-ear",
+      "design-language",
+      "mass-market"
+    ],
     "image": "",
     "url": "https://www.ixbt.com/live/digs/shokz-predstavila-umnye-otkrytye-naushniki-openfit-2-ai-s-neyrosetyu-qwen.html",
     "source": "vis",
@@ -85,14 +293,45 @@
     "score": 81,
     "confidence": 86,
     "reviewStatus": "needs_review",
-    "visBreakdown": { "diffusionPotential": 10, "recognition": 2, "transferability": 4, "cmfInnovation": 0, "paradigmShift": 6 },
-    "visWeighted": { "diffusionPotential": 3.0, "recognition": 0.5, "transferability": 0.8, "cmfInnovation": 0, "paradigmShift": 0.6 },
+    "visBreakdown": {
+      "diffusionPotential": 10,
+      "recognition": 2,
+      "transferability": 4,
+      "cmfInnovation": 0,
+      "paradigmShift": 6
+    },
+    "visWeighted": {
+      "diffusionPotential": 3,
+      "recognition": 0.5,
+      "transferability": 0.8,
+      "cmfInnovation": 0,
+      "paradigmShift": 0.6
+    },
     "visTotal": 4.9,
-    "facts": ["matched signal terms: 透明, transparent, 设计语言, 量产, 跨品类, 入门, 主流, 大众, mass-market", "no spec-only penalty", "source tier: unknown"],
-    "analysis": { "whyItMatters": "Ray-Ban Meta 2026春夏透明灰框架展示内部组件。透明设计语言从Nothing风扩散至AI眼镜品类。", "transferability": "透明, transparent, 设计语言, 量产, 跨品类, 入门, 主流, 大众, mass-market", "risk": "needs human review" },
-    "primarySource": { "tier": "unknown", "name": "OtticaSM", "url": "https://www.otticasm.com/blog/nuovi-colori-ray-ban-meta-ai-per-la-primavera-estate-2026.html", "capturedAt": "2026-08-20T22:00:00+08:00" },
+    "facts": [
+      "matched signal terms: 透明, transparent, 设计语言, 量产, 跨品类, 入门, 主流, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: unknown"
+    ],
+    "analysis": {
+      "whyItMatters": "Ray-Ban Meta 2026春夏透明灰框架展示内部组件。透明设计语言从Nothing风扩散至AI眼镜品类。",
+      "transferability": "透明, transparent, 设计语言, 量产, 跨品类, 入门, 主流, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "unknown",
+      "name": "OtticaSM",
+      "url": "https://www.otticasm.com/blog/nuovi-colori-ray-ban-meta-ai-per-la-primavera-estate-2026.html",
+      "capturedAt": "2026-08-20T22:00:00+08:00"
+    },
     "evidence": [],
-    "tags": ["transparent", "transitions-lens", "design-language", "mass-market", "prescription"],
+    "tags": [
+      "transparent",
+      "transitions-lens",
+      "design-language",
+      "mass-market",
+      "prescription"
+    ],
     "image": "",
     "url": "https://www.otticasm.com/blog/nuovi-colori-ray-ban-meta-ai-per-la-primavera-estate-2026.html",
     "source": "vis",
@@ -110,14 +349,46 @@
     "score": 77,
     "confidence": 86,
     "reviewStatus": "needs_review",
-    "visBreakdown": { "diffusionPotential": 6, "recognition": 4, "transferability": 4, "cmfInnovation": 0, "paradigmShift": 9 },
-    "visWeighted": { "diffusionPotential": 1.8, "recognition": 1.0, "transferability": 0.8, "cmfInnovation": 0, "paradigmShift": 0.9 },
+    "visBreakdown": {
+      "diffusionPotential": 6,
+      "recognition": 4,
+      "transferability": 4,
+      "cmfInnovation": 0,
+      "paradigmShift": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.8,
+      "recognition": 1,
+      "transferability": 0.8,
+      "cmfInnovation": 0,
+      "paradigmShift": 0.9
+    },
     "visTotal": 4.5,
-    "facts": ["matched signal terms: 模块化, modular, 概念, 设计语言, 辨识度, 量产, 跨品类, 大众, mass-market", "no spec-only penalty", "source tier: unknown"],
-    "analysis": { "whyItMatters": "Insta360 Luna Pro徕卡品牌联名设计。可拆卸2英寸OLED触摸遥控屏，模块化分离设计。", "transferability": "模块化, modular, 概念, 设计语言, 辨识度, 量产, 跨品类, 大众, mass-market", "risk": "needs human review" },
-    "primarySource": { "tier": "unknown", "name": "The Tech Outlook", "url": "https://www.thetechoutlook.com/new-release/insta360-luna-pro-officially-confirmed-to-launch-on-20th-august-2026-in-china-leica-branding-and-design-teased/", "capturedAt": "2026-08-20T22:00:00+08:00" },
+    "facts": [
+      "matched signal terms: 模块化, modular, 概念, 设计语言, 辨识度, 量产, 跨品类, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: unknown"
+    ],
+    "analysis": {
+      "whyItMatters": "Insta360 Luna Pro徕卡品牌联名设计。可拆卸2英寸OLED触摸遥控屏，模块化分离设计。",
+      "transferability": "模块化, modular, 概念, 设计语言, 辨识度, 量产, 跨品类, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "unknown",
+      "name": "The Tech Outlook",
+      "url": "https://www.thetechoutlook.com/new-release/insta360-luna-pro-officially-confirmed-to-launch-on-20th-august-2026-in-china-leica-branding-and-design-teased/",
+      "capturedAt": "2026-08-20T22:00:00+08:00"
+    },
     "evidence": [],
-    "tags": ["leica", "gimbal-camera", "modular", "detachable-screen", "design-language", "mass-market"],
+    "tags": [
+      "leica",
+      "gimbal-camera",
+      "modular",
+      "detachable-screen",
+      "design-language",
+      "mass-market"
+    ],
     "image": "",
     "url": "https://www.thetechoutlook.com/new-release/insta360-luna-pro-officially-confirmed-to-launch-on-20th-august-2026-in-china-leica-branding-and-design-teased/",
     "source": "vis",
@@ -135,14 +406,45 @@
     "score": 100,
     "confidence": 95,
     "reviewStatus": "needs_review",
-    "visBreakdown": { "diffusionPotential": 10, "recognition": 6, "transferability": 4, "cmfInnovation": 6, "paradigmShift": 6 },
-    "visWeighted": { "diffusionPotential": 3, "recognition": 1.5, "transferability": 0.8, "cmfInnovation": 0.9, "paradigmShift": 0.6 },
+    "visBreakdown": {
+      "diffusionPotential": 10,
+      "recognition": 6,
+      "transferability": 4,
+      "cmfInnovation": 6,
+      "paradigmShift": 6
+    },
+    "visWeighted": {
+      "diffusionPotential": 3,
+      "recognition": 1.5,
+      "transferability": 0.8,
+      "cmfInnovation": 0.9,
+      "paradigmShift": 0.6
+    },
     "visTotal": 6.8,
-    "facts": ["matched signal terms: 涂层, coating, 透明, transparent, 设计语言, glyph, 视觉系统, 量产, 跨品类, 入门, 主流, 大众, affordable, mass-market", "no spec-only penalty", "source tier: unknown"],
-    "analysis": { "whyItMatters": "Nothing推出Phone (4b)系列开拓大众入门市场。透明一体成形机背设计，表面UV柔触涂层。", "transferability": "涂层, coating, 透明, transparent, 设计语言, glyph, 视觉系统, 量产, 跨品类, 入门, 主流, 大众, affordable, mass-market", "risk": "needs human review" },
-    "primarySource": { "tier": "unknown", "name": "Hypebeast", "url": "https://hypebeast.com/2026/7/nothing-ear-3a-phone-4b-release-info-announcement", "capturedAt": "2026-08-17T22:00:00+08:00" },
+    "facts": [
+      "matched signal terms: 涂层, coating, 透明, transparent, 设计语言, glyph, 视觉系统, 量产, 跨品类, 入门, 主流, 大众, affordable, mass-market",
+      "no spec-only penalty",
+      "source tier: unknown"
+    ],
+    "analysis": {
+      "whyItMatters": "Nothing推出Phone (4b)系列开拓大众入门市场。透明一体成形机背设计，表面UV柔触涂层。",
+      "transferability": "涂层, coating, 透明, transparent, 设计语言, glyph, 视觉系统, 量产, 跨品类, 入门, 主流, 大众, affordable, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "unknown",
+      "name": "Hypebeast",
+      "url": "https://hypebeast.com/2026/7/nothing-ear-3a-phone-4b-release-info-announcement",
+      "capturedAt": "2026-08-17T22:00:00+08:00"
+    },
     "evidence": [],
-    "tags": ["transparent", "uv-coating", "glyph", "mass-market", "design-language"],
+    "tags": [
+      "transparent",
+      "uv-coating",
+      "glyph",
+      "mass-market",
+      "design-language"
+    ],
     "image": "",
     "url": "https://hypebeast.com/2026/7/nothing-ear-3a-phone-4b-release-info-announcement",
     "source": "vis",
@@ -160,14 +462,45 @@
     "score": 99,
     "confidence": 95,
     "reviewStatus": "needs_review",
-    "visBreakdown": { "diffusionPotential": 9, "recognition": 4, "transferability": 4, "cmfInnovation": 0, "paradigmShift": 10 },
-    "visWeighted": { "diffusionPotential": 2.7, "recognition": 1, "transferability": 0.8, "cmfInnovation": 0, "paradigmShift": 1 },
+    "visBreakdown": {
+      "diffusionPotential": 9,
+      "recognition": 4,
+      "transferability": 4,
+      "cmfInnovation": 0,
+      "paradigmShift": 10
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.7,
+      "recognition": 1,
+      "transferability": 0.8,
+      "cmfInnovation": 0,
+      "paradigmShift": 1
+    },
     "visTotal": 5.5,
-    "facts": ["matched signal terms: 模块化, modular, 概念, concept, 设计语言, 辨识度, 量产, 跨品类, 入门, 大众, mass-market", "no spec-only penalty", "source tier: tier0_official"],
-    "analysis": { "whyItMatters": "大疆正式发布首款8K全景旗舰无人机DJI Avata 360。碳纤维复材桨叶。首款全景无人机形态创新。", "transferability": "模块化, modular, 概念, concept, 设计语言, 辨识度, 量产, 跨品类, 入门, 大众, mass-market", "risk": "needs human review" },
-    "primarySource": { "tier": "tier0_official", "name": "DJI Official", "url": "https://www.dji.com/cn/media-center/announcements/dji-release-avata-360", "capturedAt": "2026-08-17T22:00:00+08:00" },
+    "facts": [
+      "matched signal terms: 模块化, modular, 概念, concept, 设计语言, 辨识度, 量产, 跨品类, 入门, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "大疆正式发布首款8K全景旗舰无人机DJI Avata 360。碳纤维复材桨叶。首款全景无人机形态创新。",
+      "transferability": "模块化, modular, 概念, concept, 设计语言, 辨识度, 量产, 跨品类, 入门, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "DJI Official",
+      "url": "https://www.dji.com/cn/media-center/announcements/dji-release-avata-360",
+      "capturedAt": "2026-08-17T22:00:00+08:00"
+    },
     "evidence": [],
-    "tags": ["panoramic", "drone", "carbon-fiber", "modular", "paradigm-shift"],
+    "tags": [
+      "panoramic",
+      "drone",
+      "carbon-fiber",
+      "modular",
+      "paradigm-shift"
+    ],
     "image": "",
     "url": "https://www.dji.com/cn/media-center/announcements/dji-release-avata-360",
     "source": "vis",
@@ -185,14 +518,45 @@
     "score": 93,
     "confidence": 95,
     "reviewStatus": "needs_review",
-    "visBreakdown": { "diffusionPotential": 9, "recognition": 2, "transferability": 4, "cmfInnovation": 0, "paradigmShift": 9 },
-    "visWeighted": { "diffusionPotential": 2.7, "recognition": 0.5, "transferability": 0.8, "cmfInnovation": 0, "paradigmShift": 0.9 },
+    "visBreakdown": {
+      "diffusionPotential": 9,
+      "recognition": 2,
+      "transferability": 4,
+      "cmfInnovation": 0,
+      "paradigmShift": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.7,
+      "recognition": 0.5,
+      "transferability": 0.8,
+      "cmfInnovation": 0,
+      "paradigmShift": 0.9
+    },
     "visTotal": 4.9,
-    "facts": ["matched signal terms: 模块化, modular, 概念, 设计语言, 量产, 跨品类, 入门, 大众, mass-market", "no spec-only penalty", "source tier: tier0_official"],
-    "analysis": { "whyItMatters": "Framework发布Laptop 13 Pro，全新Graphite石墨色阳极氧化处理。模块化可维修设计。", "transferability": "模块化, modular, 概念, 设计语言, 量产, 跨品类, 入门, 大众, mass-market", "risk": "needs human review" },
-    "primarySource": { "tier": "tier0_official", "name": "Framework Official", "url": "https://frame.work/blog/introducing-framework-laptop-13-pro", "capturedAt": "2026-08-17T22:00:00+08:00" },
+    "facts": [
+      "matched signal terms: 模块化, modular, 概念, 设计语言, 量产, 跨品类, 入门, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "Framework发布Laptop 13 Pro，全新Graphite石墨色阳极氧化处理。模块化可维修设计。",
+      "transferability": "模块化, modular, 概念, 设计语言, 量产, 跨品类, 入门, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "Framework Official",
+      "url": "https://frame.work/blog/introducing-framework-laptop-13-pro",
+      "capturedAt": "2026-08-17T22:00:00+08:00"
+    },
     "evidence": [],
-    "tags": ["modular", "graphite", "anodization", "repairable", "colorful"],
+    "tags": [
+      "modular",
+      "graphite",
+      "anodization",
+      "repairable",
+      "colorful"
+    ],
     "image": "",
     "url": "https://frame.work/blog/introducing-framework-laptop-13-pro",
     "source": "vis",
