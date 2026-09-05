@@ -1,11 +1,123 @@
 [
   {
+    "id": "sonos-sonos-beam-ultra-7-1-2-杜比全景声soundbar-9单元物理天空声道-20260901",
+    "brand": "Sonos",
+    "category": "audio",
+    "title": "Sonos Beam Ultra: 9单元物理天空声道，7.1.2真实杜比全景声，Soundbar品类结构重设计",
+    "summary": "Sonos于2026年9月1日发布Beam Ultra中尺寸回音壁，首次在紧凑机身中实现物理7.1.2杜比全景声。新增两个物理向上发声单元（不依赖天花板反射软件模拟），九定制驱动单元阵列（五高音+四低音）。AI语音增强四级调节，Trueplay房间调音。Sonos定位技术支持将兼容便携音响自动组为后环绕。设计语言延续Sonos极简白立方美学，织物网布+磨砂质感，与Sonos Arc/Sonos One家族视觉一致。Soundbar品类从软件模拟全景声→物理天空声道单元，结构设计语言转变。已量产，$699，9月29日上市。",
+    "constraintChange": "Sonos Beam Ultra首次在紧凑Soundbar中实现物理7.1.2杜比全景声，新增两个物理向上发声单元。九定制驱动单元阵列，从软件模拟全景声→物理天空声道单元，Soundbar品类结构设计语言转变。",
+    "time": "2026-09-01 08:00",
+    "score": 82,
+    "confidence": 90,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 8,
+      "recognition": 4,
+      "transferability": 6,
+      "cmfInnovation": 4,
+      "paradigmShift": 6
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.4,
+      "recognition": 1,
+      "transferability": 1.2,
+      "cmfInnovation": 0.6,
+      "paradigmShift": 0.6
+    },
+    "visTotal": 5.8,
+    "facts": [
+      "matched signal terms: 概念, 设计语言, 辨识度, 量产, 主流, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier1_authoritative"
+    ],
+    "analysis": {
+      "whyItMatters": "Sonos Beam Ultra从软件模拟Dolby Atmos→物理天空声道单元，Soundbar品类结构设计语言转变。九单元阵列重新设计，首次在紧凑soundbar中实现真实7.1.2全景声。",
+      "transferability": "概念, 设计语言, 辨识度, 量产, 主流, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier1_authoritative",
+      "name": "CNET/Zonaintegritas",
+      "url": "https://www.zonaintegritas.news/sonos-launches-beam-ultra-soundbar-dolby-atmos",
+      "capturedAt": "2026-09-01T08:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "dolby-atmos",
+      "upfiring-driver",
+      "soundbar-redesign",
+      "design-language",
+      "mass-market"
+    ],
+    "image": "",
+    "url": "https://www.zonaintegritas.news/sonos-launches-beam-ultra-soundbar-dolby-atmos",
+    "source": "vis",
+    "createdAt": "2026-09-01T08:00:00+08:00",
+    "updatedAt": "2026-09-05T09:43:00+08:00"
+  },
+  {
+    "id": "sony-sony-ult-tower-7-派对塔式音箱-led灯效同步-设计语言-20260901",
+    "brand": "索尼Sony",
+    "category": "audio",
+    "title": "Sony ULT Tower 7: 派对塔式音箱，LED灯效与音频同步，设计语言进化",
+    "summary": "Sony于2026年9月1日发布ULT Tower 7塔式派对音箱，ULT Power Sound系列新成员。塔式直立设计，大面积LED灯带系统与音频播放实时同步，营造派对视觉氛围。多个280mm低音单元实现高输出重低音。USB-C、RCA、XLR多端口设计。延续ULT Power Sound设计语言——派对风格、视觉冲击力强、欧美市场导向。塔式音箱+LED同步设计语言将音频产品视觉从被动装饰→主动互动，音响品类设计语言创新。已量产，$1499.99，2026年秋季上市。",
+    "constraintChange": "Sony ULT Tower 7塔式派对音箱，LED灯带系统与音频实时同步。音响品类视觉从被动装饰→主动互动，设计语言创新。",
+    "time": "2026-09-01 08:00",
+    "score": 78,
+    "confidence": 88,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 7,
+      "recognition": 3,
+      "transferability": 5,
+      "cmfInnovation": 4,
+      "paradigmShift": 3
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.1,
+      "recognition": 0.75,
+      "transferability": 1,
+      "cmfInnovation": 0.6,
+      "paradigmShift": 0.3
+    },
+    "visTotal": 4.75,
+    "facts": [
+      "matched signal terms: 概念, 设计语言, 量产, 主流, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier1_authoritative"
+    ],
+    "analysis": {
+      "whyItMatters": "Sony ULT Tower 7塔式派对音箱，LED灯带与音频同步，音响品类视觉从被动装饰→主动互动。",
+      "transferability": "概念, 设计语言, 量产, 主流, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier1_authoritative",
+      "name": "Sony UK Press Centre/FRNT",
+      "url": "https://frnt.com/story/55305/sony-sonos-and-jbl-unveil-new-wireless-audio-hardware-in-competitive-market-push",
+      "capturedAt": "2026-09-01T08:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "led-sync",
+      "party-speaker",
+      "design-language",
+      "tower-form",
+      "mass-market"
+    ],
+    "image": "",
+    "url": "https://frnt.com/story/55305/sony-sonos-and-jbl-unveil-new-wireless-audio-hardware-in-competitive-market-push",
+    "source": "vis",
+    "createdAt": "2026-09-01T08:00:00+08:00",
+    "updatedAt": "2026-09-05T09:43:00+08:00"
+  },
+  {
     "id": "honor-honor-robot-phone-机械云台钛合金-arri色彩-具身智能-20260823",
     "brand": "荣耀Honor",
     "category": "phone",
     "title": "荣耀Robot Phone: 机械云台钛合金结构，ARRI色彩科学，具身智能交互",
     "summary": "荣耀发布全球首款机器人手机Robot Phone，8月18日正式开售。首创四自由度钛合金灵巧云台，0.8秒快速弹出，360°/s极致转速，集成100余个精密零件60余项工艺，自研专利100余项。携手百年电影工业ARRI，首次将Log-C编码、ARRI Look和AWG3广色域引入移动端，院线级色彩工作流下放消费级。搭载YOYO Pro模式，支持多模态具身感知、手势识别、随音而舞情感交互。星轨银（高亮金属）、月影灰（哑光磨砂）双色，骁龙8 Elite Gen5，7060mAh电池，9999元起。钛合金精密机械结构+电影级色彩科学+具身智能，从形态、材料到交互范式全面重构。",
-    "constraintChange": "荣耀Robot Phone首创四自由度钛合金灵巧云台，100余个精密零件60余项工艺，钛合金精密机械结构从形态到交互范式全面重构。携手ARRI引入电影级色彩科学工作流，院线级色彩下放消费级。",
+    "constraintChange": "荣耀Robot Phone首创四自由度钛合金灵巧云台，100余个精密零件60余项工艺，钛合金精密机械结构从形态到交互范式全面重构。携手ARRI引入电影级色彩科学工作流，院线级色彩工作流下放消费级。",
     "time": "2026-08-23 19:00",
     "score": 100,
     "confidence": 98,
