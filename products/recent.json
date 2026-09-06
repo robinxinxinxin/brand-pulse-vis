@@ -1,5 +1,173 @@
 [
   {
+    "id": "apple-apple-iphone-ultra-首款折叠屏iphone-钛合金铰链-20260909",
+    "brand": "Apple",
+    "category": "phone",
+    "title": "Apple iPhone Ultra：首款折叠屏iPhone，钛合金铰链，7.8英寸展开屏，Touch ID侧边按键",
+    "summary": "苹果于2026年9月10日凌晨1点（北京时间）发布首款折叠屏iPhone（命名可能为iPhone Ultra）。书本式折叠设计，外屏5.5英寸，展开后7.8英寸。钛合金机身配液态金属铰链，折痕控制在0.15毫米以下。配备双48MP后置摄像头，Touch ID侧边按键（因空间限制未采用Face ID），A20芯片+12GB内存。5,400-5,800mAh电池，256GB/512GB/1TB存储。预计定价$1,999-$2,299。苹果首次进入折叠屏市场，钛合金+液态金属铰链的材料工艺选择将为折叠屏品类设立新的结构工艺标杆。",
+    "constraintChange": "Apple iPhone Ultra为苹果首款折叠屏手机，钛合金机身+液态金属铰链，折痕<0.15mm。苹果进入折叠屏赛道将重新定义该品类的材料与工艺标准。Touch ID侧边按键替代Face ID，体现空间约束下的设计权衡。",
+    "time": "2026-09-10 01:00",
+    "score": 85,
+    "confidence": 88,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 10,
+      "recognition": 8,
+      "transferability": 8,
+      "cmfInnovation": 6,
+      "paradigmShift": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 3,
+      "recognition": 2,
+      "transferability": 1.6,
+      "cmfInnovation": 0.9,
+      "paradigmShift": 0.9
+    },
+    "visTotal": 8.4,
+    "facts": [
+      "matched signal terms: 概念, 设计语言, 辨识度, 量产, 主流, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier1_authoritative"
+    ],
+    "analysis": {
+      "whyItMatters": "Apple iPhone Ultra首款折叠屏iPhone，钛合金+液态金属铰链，苹果进入折叠屏赛道将重新定义该品类的材料与工艺标准。Touch ID替代Face ID体现折叠形态空间约束下的设计权衡。",
+      "transferability": "概念, 设计语言, 辨识度, 量产, 主流, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier1_authoritative",
+      "name": "腾讯新闻/Beebom Gadgets",
+      "url": "https://news.qq.com/rain/a/20260904A0B87I00",
+      "capturedAt": "2026-09-06T01:51:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "foldable",
+      "titanium",
+      "liquid-metal-hinge",
+      "apple",
+      "new-form-factor"
+    ],
+    "image": "",
+    "url": "https://news.qq.com/rain/a/20260904A0B87I00",
+    "source": "vis",
+    "createdAt": "2026-09-06T09:51:00+08:00",
+    "updatedAt": "2026-09-06T09:51:00+08:00"
+  },
+  {
+    "id": "dji-dji-osmo-360-ii-方形cmos传感器-8k60fps-360全景-20260903",
+    "brand": "DJI大疆",
+    "category": "camera",
+    "title": "DJI Osmo 360 II：方形CMOS传感器格式，8K/60fps 360°全景，14.5级动态范围",
+    "summary": "大疆于2026年9月3日在IFA 2026全球发布Osmo 360 II第二代全景相机（国内8月13日上市）。核心技术突破：采用双1/1.1英寸方形CMOS传感器（原生4:3方形画幅），全域等效一英寸成像规格。8K/60fps全景视频录制（行业首批），静态照片最高1.2亿像素。动态范围扩展至14.5级，搭配AI超级夜景2.0算法。可更换抗刮镀膜镜头设计，IP68裸机10米防水，内置105GB存储。方形CMOS传感器格式在运动相机品类中前所未有——等效一英寸成像的同时保持紧凑形态，传感器面积利用率提升25%，动态范围翻倍。这是消费级全景相机领域首次出现方形传感器格式，重新定义运动相机/全景相机的视觉约束边界。€589起，9月15日全球上市（美国除外）。",
+    "constraintChange": "DJI Osmo 360 II首次在消费级全景相机中采用方形CMOS传感器格式（4:3等效一英寸）。全域等效一英寸成像、14.5级动态范围、8K/60fps全景视频，可更换镜头设计。方形传感器面积利用率提升25%，重新定义运动相机/全景相机的视觉约束边界。",
+    "time": "2026-09-03 20:00",
+    "score": 87,
+    "confidence": 93,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 8,
+      "recognition": 5,
+      "transferability": 7,
+      "cmfInnovation": 6,
+      "paradigmShift": 7
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.4,
+      "recognition": 1.25,
+      "transferability": 1.4,
+      "cmfInnovation": 0.9,
+      "paradigmShift": 0.7
+    },
+    "visTotal": 6.65,
+    "facts": [
+      "matched signal terms: 概念, 设计语言, 辨识度, 量产, 主流, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier1_authoritative"
+    ],
+    "analysis": {
+      "whyItMatters": "Osmo 360 II方形CMOS传感器在消费级全景相机中前所未有。4:3方形画幅全域等效一英寸，14.5级动态范围，可更换镜头，重新定义运动相机/全景相机的视觉约束边界。",
+      "transferability": "概念, 设计语言, 辨识度, 量产, 主流, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier1_authoritative",
+      "name": "DJI官方/The Verge",
+      "url": "https://www.dji.com/lv/media-center/announcements/dji-release-osmo-360-2",
+      "capturedAt": "2026-09-06T01:52:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "square-sensor",
+      "360-camera",
+      "8k-panorama",
+      "new-form-factor",
+      "dji"
+    ],
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/dji360_1.jpg",
+    "url": "https://www.dji.com/lv/media-center/announcements/dji-release-osmo-360-2",
+    "source": "vis",
+    "createdAt": "2026-09-06T09:51:00+08:00",
+    "updatedAt": "2026-09-06T09:51:00+08:00"
+  },
+  {
+    "id": "huawei-huawei-mate-xt-2-u形双折三折叠手机全新形态-20260907",
+    "brand": "华为Huawei",
+    "category": "phone",
+    "title": "华为 Mate XT 2：第三代三折叠，U形双内折结构，10.2英寸展开屏，重新定义折叠形态",
+    "summary": "华为于2026年9月7日发布Mate XT 2第三代三折叠旗舰。采用全新U形双内折结构——两块副屏同步向内收拢，将柔性内屏完整包裹于机身内部，降低屏幕刮擦风险，同时配备独立外屏供日常使用。展开后屏幕尺寸达10.2英寸，接近小平板规格。机身厚度仅3.5mm（最薄处），八边形镜头模组设计，多款素皮配色。搭载麒麟9050系列旗舰芯片，HarmonyOS 7首发，全系标配16GB内存。支持手写笔与隐私屏。华为从Z字形折叠→U形双内折，折叠屏结构设计语言重大转变。三折叠形态将大屏便携性提升至新维度。",
+    "constraintChange": "华为Mate XT 2从Z字形折叠→U形双内折，三折叠结构重新设计。屏幕向内完整包裹，机身薄至3.5mm，三折叠将大屏便携性提升至新维度，折叠屏结构设计语言重大转变。",
+    "time": "2026-09-07 14:30",
+    "score": 88,
+    "confidence": 95,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 9,
+      "recognition": 5,
+      "transferability": 7,
+      "cmfInnovation": 5,
+      "paradigmShift": 8
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.7,
+      "recognition": 1.25,
+      "transferability": 1.4,
+      "cmfInnovation": 0.75,
+      "paradigmShift": 0.8
+    },
+    "visTotal": 6.9,
+    "facts": [
+      "matched signal terms: 概念, 设计语言, 辨识度, 量产, 主流, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier1_authoritative"
+    ],
+    "analysis": {
+      "whyItMatters": "华为Mate XT 2从Z字形→U形双内折，屏幕完整包裹于机身内部，三折叠结构重大转变，折叠屏结构设计语言重大转变。",
+      "transferability": "概念, 设计语言, 辨识度, 量产, 主流, 大众, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier1_authoritative",
+      "name": "腾讯新闻/36氪",
+      "url": "https://news.qq.com/rain/a/20260904A0B87I00",
+      "capturedAt": "2026-09-06T01:51:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "trifold",
+      "foldable",
+      "design-language",
+      "harmonyos7",
+      "new-form-factor"
+    ],
+    "image": "",
+    "url": "https://news.qq.com/rain/a/20260904A0B87I00",
+    "source": "vis",
+    "createdAt": "2026-09-06T09:51:00+08:00",
+    "updatedAt": "2026-09-06T09:51:00+08:00"
+  },
+  {
     "id": "sonos-sonos-beam-ultra-7-1-2-杜比全景声soundbar-9单元物理天空声道-20260901",
     "brand": "Sonos",
     "category": "audio",
