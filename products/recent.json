@@ -1,5 +1,119 @@
 [
   {
+    "id": "ray-ban-meta-ray-ban-meta-display-内置单片全彩显示-神经腕带emg-20260905",
+    "brand": "Ray-Ban Meta",
+    "category": "wearable",
+    "title": "Ray-Ban Meta Display: 首款内置单片全彩显示片的常规镜架AI眼镜，配Neural Band神经腕带",
+    "summary": "Meta在Meta Connect 2026发布Ray-Ban Meta Display，首款量产的常规镜架AI眼镜，右镜片内侧集成全彩显示片（约5000尼特），仅在佩戴者视野内可见、外部不可见，配摄像头指示灯。显示片可呈现消息、实时字幕翻译、步行导航与Meta AI视觉回答。配套Meta Neural Band神经腕带，通过前臂肌电（EMG）信号识别捏、滑动、旋转等细微手势，无需触屏即可操控镜片内界面。常规Wayfarer外观延续Ray-Ban Meta设计语言，将AR显示与AI交互隐藏于日常镜架之中，重新定义低存在感AI硬件的视觉约束边界。售价799美元起，9月30日美国上市；同期发布Oakley Meta Vanguard运动版（66克，Garmin联动，499美元）与Ray-Ban Meta二代（续航翻倍、摄像升级，379美元）。",
+    "constraintChange": "Ray-Ban Meta Display将全彩显示片集成于常规Wayfarer镜架右镜片内侧，仅佩戴者可见、外部不可见，配Neural Band肌电腕带手势控制。AI眼镜从无屏音频交互跃迁至隐蔽式单片显示加神经手势交互，低存在感形态首次承载AR视觉信息，重新定义AI眼镜的视觉约束。",
+    "time": "2026-09-05 10:00",
+    "score": 90,
+    "confidence": 88,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 8,
+      "recognition": 9,
+      "transferability": 8,
+      "cmfInnovation": 7,
+      "paradigmShift": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.4,
+      "recognition": 2.25,
+      "transferability": 1.6,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.9
+    },
+    "visTotal": 8.2,
+    "facts": [
+      "matched signal terms: 形态, 设计语言, 辨识度, 量产, 主流, 概念, 交互范式, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "Ray-Ban Meta Display首款量产常规镜架AI眼镜内置全彩显示片，仅佩戴者可见，配Neural Band肌电腕带。低存在感形态首次承载AR视觉，重新定义AI眼镜视觉约束。",
+      "transferability": "形态, 设计语言, 辨识度, 量产, 主流, 概念, 交互范式, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "Meta官方",
+      "url": "https://www.meta.com/in/ai-glasses/meta-ray-ban-display/",
+      "capturedAt": "2026-09-06T19:07:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "ar-glasses",
+      "in-lens-display",
+      "neural-band",
+      "emg",
+      "low-presence",
+      "new-form-factor"
+    ],
+    "image": "",
+    "url": "https://www.meta.com/in/ai-glasses/meta-ray-ban-display/",
+    "source": "vis",
+    "createdAt": "2026-09-06T19:07:00+08:00",
+    "updatedAt": "2026-09-06T19:07:00+08:00"
+  },
+  {
+    "id": "belkin-belkin-ultracharge-pro-半固态电池-boostsolid-cell-8.8mm信用卡尺寸-20260904",
+    "brand": "贝尔金Belkin",
+    "category": "accessory",
+    "title": "Belkin UltraCharge Pro: 半固态电池（BoostSolid Cell）充电宝，8.8mm信用卡尺寸，寿命3倍",
+    "summary": "Belkin在IFA 2026发布UltraCharge Pro系列，首批采用半固态电池技术（BoostSolid Cell）的便携电源。半固态电池在液态电解质旁增加凝胶层，抑制鼓包与热失控，寿命达传统产品3倍（1000次循环容量保持约80%）。UltraCharge Pro 5K仅8.8mm厚、信用卡大小、5000mAh，较同类薄40%，磁吸Qi2 15W无线充电，金属加软触饰面；UltraCharge Pro 10K为10000mAh、尺寸缩小27%、60W PD、带智能显示屏实时显示电量、功率与温度。半固态电池化学将充电宝形态从厚砖块推向超薄卡片，重新定义便携电源的材质与结构约束。黑、沙两色，2026年9月全球上市，69.99美元起。",
+    "constraintChange": "Belkin UltraCharge Pro采用半固态电池（BoostSolid Cell），凝胶电解质抑制鼓包，寿命3倍。5K仅8.8mm信用卡尺寸，较同类薄40%。电池化学革新将便携电源从厚砖块形态推向超薄卡片，重新定义配件品类的材质与结构视觉约束。",
+    "time": "2026-09-04 13:40",
+    "score": 82,
+    "confidence": 92,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 6,
+      "recognition": 4,
+      "transferability": 6,
+      "cmfInnovation": 7,
+      "paradigmShift": 5
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.8,
+      "recognition": 1,
+      "transferability": 1.2,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.5
+    },
+    "visTotal": 5.55,
+    "facts": [
+      "matched signal terms: 材质, 工艺, 形态, 结构, CMF, 量产, 主流, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "Belkin UltraCharge Pro半固态电池充电宝，8.8mm信用卡尺寸，寿命3倍。电池化学革新将便携电源推向超薄卡片形态，重新定义配件材质与结构约束。",
+      "transferability": "材质, 工艺, 形态, 结构, CMF, 量产, 主流, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "Belkin官方/Business Wire",
+      "url": "https://www.businesswirechina.com/zh/news/63901.html",
+      "capturedAt": "2026-09-06T19:07:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "semi-solid-state",
+      "power-bank",
+      "boostsolid",
+      "ultra-thin",
+      "cmf",
+      "battery-chemistry"
+    ],
+    "image": "",
+    "url": "https://www.businesswirechina.com/zh/news/63901.html",
+    "source": "vis",
+    "createdAt": "2026-09-06T19:07:00+08:00",
+    "updatedAt": "2026-09-06T19:07:00+08:00"
+  },
+  {
     "id": "apple-apple-iphone-ultra-首款折叠屏iphone-钛合金铰链-20260909",
     "brand": "Apple",
     "category": "phone",
