@@ -1,5 +1,291 @@
 [
   {
+    "id": "huawei-mate-xt-2-tri-fold-u-shape-hongmeng7-star-diamond-20260907",
+    "brand": "华为",
+    "category": "phone",
+    "title": "华为Mate XT 2非凡大师：第二代三折叠旗舰，U型双内折结构+星钻凝光设计+鸿蒙7",
+    "summary": "华为于2026年9月7日发布Mate XT 2非凡大师，采用全新U型双内折结构（上一代为Z字形折叠），两块副屏同步向内收拢，柔性内屏被金属框架完整包裹，显著降低屏幕刮擦风险。机身右侧配备独立外屏，日常通话与支付无需展开。设计层面延续星钻凝光美学，以钇晶宝石焕新重塑，经8道工序精细抛光、精雕33个切面；锦紫配色搭配织金云锦工艺，融入东方美学韵味。第二代天工铰链系统业界首发连杆同步机构，无齿轮设计双轨联动，铰链抗冲击能力提升90%；内屏采用超韧多重复合叠层+UTG玻璃，玄武昆仑玻璃外屏抗跌能力提升30倍。首发预装HarmonyOS 7（纯血鸿蒙），彻底移除安卓兼容层。第三代红枫原色摄像头，还原万物自然色泽。¥19999起。",
+    "constraintChange": "华为Mate XT 2采用全新U型双内折结构，柔性面板被金属框架完整包裹，解决折叠屏易刮伤痛点。星钻凝光设计以钇晶宝石经8道工序33面精雕，织金云锦工艺融入锦紫配色，三折叠的材质语言从功能器件进化为工艺品。鸿蒙7彻底移除安卓兼容层，实现软硬件自研闭环。",
+    "time": "2026-09-07 14:30",
+    "score": 92,
+    "confidence": 95,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 8,
+      "recognition": 9,
+      "transferability": 7,
+      "cmfInnovation": 9,
+      "paradigmShift": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.4,
+      "recognition": 2.25,
+      "transferability": 1.4,
+      "cmfInnovation": 1.35,
+      "paradigmShift": 0.9
+    },
+    "visTotal": 8.3,
+    "facts": [
+      "matched signal terms: 材质, 工艺, 形态, 结构, 设计语言, 量产, 主流, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "华为Mate XT 2以U型双内折+星钻凝光+织金云锦重新定义三折叠的材质与工艺语言，将折叠屏从功能器件升格为工艺品。鸿蒙7实现纯血自研闭环。",
+      "transferability": "材质, 工艺, 形态, 结构, 设计语言, 量产, 主流, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "华为官网",
+      "url": "https://consumer.huawei.com/cn/phones/mate-xt-2-ultimate-design",
+      "capturedAt": "2026-09-07T13:30:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "tri-fold",
+      "u-shape",
+      "star-diamond",
+      "zhejin-yunji",
+      "tian-gong-hinge",
+      "hongmeng7",
+      "cmf"
+    ],
+    "image": "https://consumer.huawei.com/cn/content/dam/huawei/cbg-event/2026-harmonyos7/img/phone-mate-xt2.jpg",
+    "url": "https://consumer.huawei.com/cn/phones/mate-xt-2-ultimate-design",
+    "source": "vis",
+    "createdAt": "2026-09-07T21:29:00+08:00",
+    "updatedAt": "2026-09-07T21:29:00+08:00"
+  },
+  {
+    "id": "dji-osmo-360-ii-1-inch-8k60fps-145-stops-20260903",
+    "brand": "大疆DJI",
+    "category": "camera",
+    "title": "大疆Osmo 360 II：首款1英寸方形CMOS全景相机，8K/60fps，14.5级动态范围，AI超级夜景2.0",
+    "summary": "大疆于2026年9月3日IFA正式发布Osmo 360 II，搭载业界首款1英寸方形高动态影像传感器（传感器利用率较前代提升25%），实现原生8K/60fps全景视频，动态范围扩展至14.5级（较前代翻倍）。配合f/1.9大光圈与AI超级夜景2.0降噪算法，暗光下画面纯净明亮。全规格视频支持10-bit色深与D-Log M色彩模式。全新主角跟随功能通过AI算法智能追踪并锁定目标，无需二次构图。超硬防刮可更换镜片设计（业界首创），搭配105GB内置存储与10米防水（裸机）。1.2亿像素全景照片、16K全景延时、8K/120fps时空凝固、后期最高64倍慢动作。DJI Mimo新增音频高光自动打标与一键成片，DJI Studio支持多角度预览剪辑与DaVinci Resolve插件直连。",
+    "constraintChange": "大疆Osmo 360 II以1英寸方形CMOS重新定义全景相机传感器规格，14.5级动态范围大幅超越前代。超硬防刮可更换镜片（业界首创）将运动相机耐用性推向新品类标准。全景相机从功能型记录工具升级为专业级影像设备，同时通过AI主角跟随与一键成片降低专业创作门槛。",
+    "time": "2026-09-03 10:00",
+    "score": 86,
+    "confidence": 92,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 7,
+      "recognition": 8,
+      "transferability": 7,
+      "cmfInnovation": 8,
+      "paradigmShift": 7
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.1,
+      "recognition": 2,
+      "transferability": 1.4,
+      "cmfInnovation": 1.2,
+      "paradigmShift": 0.7
+    },
+    "visTotal": 7.4,
+    "facts": [
+      "matched signal terms: 材质, 工艺, 形态, 设计语言, 量产, 主流, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "大疆Osmo 360 II以1英寸方形CMOS+14.5级动态范围+可更换防刮镜片重新定义全景相机的传感器与耐用性标准。AI主角跟随降低专业创作门槛，全景相机进入专业级影像设备行列。",
+      "transferability": "材质, 工艺, 形态, 设计语言, 量产, 主流, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "大疆官方",
+      "url": "https://www.dji.com/fi/media-center/announcements/dji-release-osmo-360-2",
+      "capturedAt": "2026-09-07T13:32:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "360-camera",
+      "1-inch-sensor",
+      "8k",
+      "14.5-stops-dynamic-range",
+      "replaceable-lens",
+      "ai-follow"
+    ],
+    "image": "https://www.dji.com/fi/media-center/announcements/dji-release-osmo-360-2/og-image.jpg",
+    "url": "https://www.dji.com/fi/media-center/announcements/dji-release-osmo-360-2",
+    "source": "vis",
+    "createdAt": "2026-09-07T21:29:00+08:00",
+    "updatedAt": "2026-09-07T21:29:00+08:00"
+  },
+  {
+    "id": "xiaomi-18-fold-xuanjie-o3-7-6-inch-6000mah-200mp-20260907",
+    "brand": "小米",
+    "category": "phone",
+    "title": "小米18 Fold：玄戒O3芯片首发，7.6英寸2:1折叠屏，6000mAh+徕卡三摄，中折叠定义者",
+    "summary": "小米于2026年9月7日晚7点发布18 Fold，定位\"中折叠\"新形态（区别于传统内折）。外屏5.38英寸，展开后7.58英寸2:1长宽比全RGB排列内屏。首发自研玄戒O3 AI旗舰处理器（安兔兔超500万分），搭配LPDDR6内存与长鑫存储UFS5.0闪存。内置6000mAh电池、67W有线+50W无线快充。徕卡三摄：2亿像素主摄、5000W像素潜望长焦、5000W像素超广角；内置MiMo端侧大模型。机身采用AG磨砂玻璃+航空级铝合金中框，提供黑、白、蓝三色。2:1比例内屏与玄戒O3芯片组合打造差异化的\"中折叠\"视觉体验。",
+    "constraintChange": "小米18 Fold以7.58英寸2:1长宽比内屏（区别于传统16:9折叠屏）重新定义折叠屏比例约束。玄戒O3芯片（安兔兔500万+）是首款突破500万分大关的国产手机芯片，搭载长鑫LPDDR6内存，展示国产供应链在旗舰手机领域的完整突破。\"中折叠\"定位为折叠屏品类开辟新的形态分支。",
+    "time": "2026-09-07 19:00",
+    "score": 83,
+    "confidence": 88,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 8,
+      "recognition": 7,
+      "transferability": 7,
+      "cmfInnovation": 6,
+      "paradigmShift": 7
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.4,
+      "recognition": 1.75,
+      "transferability": 1.4,
+      "cmfInnovation": 0.9,
+      "paradigmShift": 0.7
+    },
+    "visTotal": 7.15,
+    "facts": [
+      "matched signal terms: 概念, 设计语言, 形态, 结构, 量产, 主流, mass-market",
+      "no spec-only penalty",
+      "source tier: tier1_authoritative"
+    ],
+    "analysis": {
+      "whyItMatters": "小米18 Fold以2:1比例内屏+玄戒O3芯片+长鑫LPDDR6定义\"中折叠\"新品类，国产芯片与内存首次在旗舰手机上实现完整突破。2:1屏幕比例重新定义折叠屏内容显示约束。",
+      "transferability": "概念, 设计语言, 形态, 结构, 量产, 主流, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier1_authoritative",
+      "name": "腾讯新闻/小米官方",
+      "url": "https://news.qq.com/rain/a/20260906A0BMDL00",
+      "capturedAt": "2026-09-07T13:30:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "foldable",
+      "xuanjie-o3",
+      "2-1-aspect",
+      "200mp",
+      "leica",
+      "domestic-chip"
+    ],
+    "image": "",
+    "url": "https://news.qq.com/rain/a/20260906A0BMDL00",
+    "source": "vis",
+    "createdAt": "2026-09-07T21:29:00+08:00",
+    "updatedAt": "2026-09-07T21:29:00+08:00"
+  },
+  {
+    "id": "apple-iphone-18-pro-variable-aperture-a20-pro-2nm-sky-blue-20260909",
+    "brand": "Apple",
+    "category": "phone",
+    "title": "Apple iPhone 18 Pro：物理可变光圈主摄+A20 Pro 2nm芯片+天蓝色钛金属，影像旗舰换代",
+    "summary": "苹果iPhone 18 Pro系列（6.3英寸/6.9英寸）搭载全新A20 Pro芯片（台积电2nm制程，WMCM封装），性能较A19 Pro提升18%，功耗降低30%。iPhone 18 Pro Max主摄首次配备物理可变光圈（机械光圈叶片），用户可自主调节进光量与景深，突破纯算法计算摄影边界。前置摄像头升级至2400万像素。灵动岛面积缩小（传感器移至屏下），Pro Max电池容量提升至5200-5567mAh（较前代+10%）。新增天蓝色（Sky Blue）钛金属配色，另有暗樱桃色、深灰色与银色，取消了太空黑色。搭载iOS 27+Apple Intelligence全新Siri AI交互体验。物理可变光圈是智能手机影像系统近年最具突破性的光学硬件创新，将专业相机控制逻辑首次引入旗舰智能手机。",
+    "constraintChange": "Apple iPhone 18 Pro Max首次在智能手机上引入物理机械可变光圈，将专业相机的光学景深控制逻辑引入手机。这是从\"计算摄影\"到\"光学+计算融合\"的标志性转变，突破了过去几年纯靠算法模拟虚化的影像约束边界，重新定义旗舰手机影像系统的硬件标准。",
+    "time": "2026-09-09 01:00",
+    "score": 87,
+    "confidence": 90,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 10,
+      "recognition": 9,
+      "transferability": 8,
+      "cmfInnovation": 7,
+      "paradigmShift": 9
+    },
+    "visWeighted": {
+      "diffusionPotential": 3,
+      "recognition": 2.25,
+      "transferability": 1.6,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.9
+    },
+    "visTotal": 8.8,
+    "facts": [
+      "matched signal terms: 概念, 设计语言, 形态, 材质, 量产, 主流, 大众, mass-market",
+      "no spec-only penalty",
+      "source tier: tier1_authoritative"
+    ],
+    "analysis": {
+      "whyItMatters": "iPhone 18 Pro Max机械可变光圈是手机影像近年最具突破性的光学硬件创新，将专业相机景深控制引入手机，标志从计算摄影到光学+计算融合的转折点。天蓝色钛金属是苹果在色彩工艺上的新探索。",
+      "transferability": "概念, 设计语言, 形态, 材质, 量产, 主流, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier1_authoritative",
+      "name": "Smartprix/Mashable",
+      "url": "https://us.smartprix.com/bytes/apple-september-9-2026-event-iphone-18-pro-max-mechanical-aperture-foldable-ultra",
+      "capturedAt": "2026-09-07T13:33:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "variable-aperture",
+      "a20-pro",
+      "2nm",
+      "sky-blue",
+      "titanium",
+      "optical-imaging"
+    ],
+    "image": "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2026/08/apple-invite-for-fold-1.jpg?ssl=1",
+    "url": "https://us.smartprix.com/bytes/apple-september-9-2026-event-iphone-18-pro-max-mechanical-aperture-foldable-ultra",
+    "source": "vis",
+    "createdAt": "2026-09-07T21:29:00+08:00",
+    "updatedAt": "2026-09-07T21:29:00+08:00"
+  },
+  {
+    "id": "insta360-x6-1-inch-cmos-8k60fps-diamond-grip-202608",
+    "brand": "影石Insta360",
+    "category": "camera",
+    "title": "Insta360 X6：1英寸堆栈式CMOS全景相机，8K 60fps，菱形防滑握持结构，AI超级夜景",
+    "summary": "影石Insta360 X6搭载1英寸级堆栈式CMOS传感器，实现8K 60fps全景视频录制（较X5的8K 30fps大幅提升），支持10-bit色深与高规格HDR夜景算法。机身外观采用全新菱形防滑握持结构（区别于X5的圆润设计），优化散热风道，长时间高规格录制下机身过热降频问题得到改善。双鱼眼镜头光学结构重新调校，边缘画质畸变更均衡。机身侧面新增小屏幕，方便戴手套时快速切换模式与查看电量。连续录制时长提升至220分钟，快充30分钟可满足大半天拍摄。AI防抖、自动追踪等功能反应速度提升；麦克风防风结构升级，可自动过滤风噪。新一代AI智能剪辑引擎支持全景素材二次构图、延时自动合成、子弹时间等功能加速响应。保留全规格防水、外接麦克风接口，兼容影石全系列配件。",
+    "constraintChange": "Insta360 X6以1英寸堆栈式CMOS+8K 60fps将全景相机画质提升至专业级门槛。全新菱形防滑握持结构+侧边小屏幕（戴手套可操作）将户外运动相机的操控交互设计推向更严苛场景标准。侧面小屏幕改变了运动相机的操控范式，从纯依赖手机App到设备端独立操控。",
+    "time": "2026-08-13 10:00",
+    "score": 78,
+    "confidence": 85,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 6,
+      "recognition": 7,
+      "transferability": 6,
+      "cmfInnovation": 7,
+      "paradigmShift": 5
+    },
+    "visWeighted": {
+      "diffusionPotential": 1.8,
+      "recognition": 1.75,
+      "transferability": 1.2,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.5
+    },
+    "visTotal": 6.3,
+    "facts": [
+      "matched signal terms: 材质, 工艺, 形态, 设计语言, 量产, mass-market",
+      "no spec-only penalty",
+      "source tier: tier1_authoritative"
+    ],
+    "analysis": {
+      "whyItMatters": "Insta360 X6以1英寸CMOS+8K 60fps+菱形防滑握持+侧边小屏幕将全景相机推向专业级画质与全天候操控标准。侧边屏幕改变了运动相机的交互范式。",
+      "transferability": "材质, 工艺, 形态, 设计语言, 量产, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier1_authoritative",
+      "name": "Geekspin/FirstQuadcopter",
+      "url": "https://geekspin.co/insta360-unveils-new-8k-camera-that-edits-video-for-you/",
+      "capturedAt": "2026-09-07T13:30:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "360-camera",
+      "1-inch-cmos",
+      "8k60fps",
+      "diamond-grip",
+      "side-screen",
+      "ai-editing"
+    ],
+    "image": "",
+    "url": "https://geekspin.co/insta360-unveils-new-8k-camera-that-edits-video-for-you/",
+    "source": "vis",
+    "createdAt": "2026-09-07T21:29:00+08:00",
+    "updatedAt": "2026-09-07T21:29:00+08:00"
+  },
+  {
     "id": "ray-ban-meta-ray-ban-meta-display-内置单片全彩显示-神经腕带emg-20260905",
     "brand": "Ray-Ban Meta",
     "category": "wearable",
