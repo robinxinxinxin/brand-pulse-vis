@@ -1,5 +1,97 @@
 [
   {
+    "id": "samsung-galaxy-z-fold8-flextitanium",
+    "brand": "三星 | Samsung",
+    "category": "phone",
+    "title": "三星 Galaxy Z Fold8：Flex Titanium 双层钛金属显示结构，把折叠屏折痕“做没”",
+    "summary": "三星在 Galaxy Z Fold8 系列引入 Flex Titanium 显示架构：在 OLED 面板下方叠加钛合金薄膜 + 微孔钛金属支撑板，将聚合物支撑层替换为约 20 倍机械刚度、厚度仅头发丝 1/3 的金属层，显著消除中缝折痕，并把整机压到 201g（号称最轻 Fold）。这是材料科学而非堆料对折叠屏形态的重定义。",
+    "constraintChange": "将折叠屏的“支撑/抗折”从聚合物薄膜升级为钛合金薄膜+微孔钛板双层结构，直接消除可见折痕并提升整机刚度与轻薄度；钛金属从外框首次进入显示层内部，可能带动华为/小米等竞品跟进，改写折叠屏外观与耐久标准。",
+    "time": "2026-07-22",
+    "score": 92,
+    "confidence": "high",
+    "reviewStatus": "verified",
+    "visBreakdown": {
+      "diffusionPotential": {
+        "score": 9,
+        "weight": 0.3,
+        "weighted": 2.7
+      },
+      "recognition": {
+        "score": 9,
+        "weight": 0.25,
+        "weighted": 2.25
+      },
+      "transferability": {
+        "score": 8,
+        "weight": 0.2,
+        "weighted": 1.6
+      },
+      "cmfInnovation": {
+        "score": 9,
+        "weight": 0.15,
+        "weighted": 1.35
+      },
+      "paradigmShift": {
+        "score": 9,
+        "weight": 0.1,
+        "weighted": 0.9
+      }
+    },
+    "visWeighted": [
+      2.7,
+      2.25,
+      1.6,
+      1.35,
+      0.9
+    ],
+    "visTotal": 8.8,
+    "facts": [
+      "三星于 2026-07-15 发布 Flex Titanium 显示技术，2026-07-22 Galaxy Unpacked（伦敦）随 Galaxy Z Fold8 / Z Fold8 Ultra / Z Flip8 首发。",
+      "结构：OLED 面板下钛合金薄膜（刚度约为聚合物 20 倍，厚度约头发丝 1/3）+ 底部微孔钛支撑板，闭合层间气隙、均匀分散折叠应力。",
+      "Galaxy Z Fold8 整机 201g，号称“最轻 Fold”；外屏 10:16、内屏 4:3，双屏 120Hz、最高 3000 nits（部分资料 2600 nits），抗反射涂层。",
+      "三星称该结构同时降低功耗、提升分辨率；钛金属此前多用于航天/火星车，柔性显示内部应用为工艺突破。"
+    ],
+    "analysis": "折叠屏的显性短板——中缝折痕与耐久——长期靠铰链与软膜缓解，治标不治本。三星用材料科学把“刚性金属”压进柔性显示层：钛合金薄膜提供平面刚度，微孔钛板在折叠区保持柔性与支撑，二者结合几乎抹平折痕。意义有三：(1) 视觉约束改变——折痕这一折叠屏标志性缺陷被弱化，整机外观语言从“可折叠”转向“似无缝板”；(2) 供应链扩散——钛从外框进入显示层，工艺若成熟将向中端折叠与竞品外溢；(3) 范式信号——旗舰机以材料而非堆料定义轻薄耐久，可能重塑 2026+ 折叠屏设计基线。需观察点：量产良率、成本下探速度，以及华为/小米是否以类似金属显示结构跟进。",
+    "primarySource": {
+      "name": "Samsung Newsroom / Samsung.com 官方",
+      "url": "https://www.samsung.com/ie/smartphones/galaxy-z-fold8/",
+      "type": "official",
+      "accessedAt": "2026-09-08T23:08:00+08:00"
+    },
+    "evidence": [
+      {
+        "source": "Samsung 官方 Galaxy Z Fold8 页面（Flex Titanium 章节）",
+        "url": "https://www.samsung.com/ie/smartphones/galaxy-z-fold8/",
+        "excerpt": "A dual layer of titanium has been applied to the shock-absorbing layer underneath the display, strengthening the screen."
+      },
+      {
+        "source": "Beebom：Samsung Announces Flex Titanium Display for Galaxy Z Fold 8",
+        "url": "https://gadgets.beebom.com/news/samsung-announces-flex-titanium-display-for-galaxy-z-fold-8-ahead-of-launch",
+        "excerpt": "uses a titanium-alloy film and plate to reduce the visible crease"
+      },
+      {
+        "source": "Perplexity AI Magazine：Samsung's Flex Titanium Finally Solves the Foldable Crease",
+        "url": "https://perplexityaimagazine.com/ai-news/samsung-flex-titanium-foldable-display-2026",
+        "excerpt": "20 times the mechanical stiffness of the polymer film it replaces"
+      }
+    ],
+    "tags": [
+      "折叠屏",
+      "钛金属",
+      "显示结构",
+      "Flex Titanium",
+      "无折痕",
+      "三星",
+      "材料创新"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "url": "https://www.samsung.com/ie/smartphones/galaxy-z-fold8/",
+    "source": "official",
+    "createdAt": "2026-09-08T23:08:00+08:00",
+    "updatedAt": "2026-09-08T23:08:00+08:00"
+  },
+  {
     "id": "huawei-mate-xt-2-tri-fold-u-shape-hongmeng7-star-diamond-20260907",
     "brand": "华为",
     "category": "phone",
