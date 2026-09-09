@@ -1,5 +1,64 @@
 [
   {
+    "id": "anker-2026-ifa-smart-display-charging-lineup-20260903",
+    "brand": "安克Anker",
+    "category": "accessory",
+    "title": "Anker 2026 IFA充电矩阵：充电器首次内置智能屏，把隐形供电变为可见状态",
+    "summary": "安克于2026年9月3日IFA 2026发布2026充电矩阵，六款新品将充电品类从比拼功率推向「可识别设备、可管理热量、可实时可见」。MagGo Power Bank 2 Pro为全球最快最冷静的磁吸无线充电宝（SGS认证），True 25W Qi2.2磁吸无线充，专利风扇算法加三重复合石墨烯导热系统将背面温度控制在36°C以下，智能屏显示实时功率、温度、电量与剩余时间；Laptop Charger Pro为全球首款保护电池健康的智能笔记本充电器，100W GaN加设备识别，Care模式可延长电池寿命最高40%；MagStand充电站为3合1床头充电站，25W Qi2加主动散热加护眼隔夜充电；Desktop USB-C Hub为行业唯一带智能屏的双显高刷扩展坞；Nano Universal Charger为适配200加国家的一体旅行充电器，圆形屏显示温度电压。充电器从「隐形黑盒」变为「可见状态设备」，重新定义充电配件的视觉语言。",
+    "constraintChange": "Anker 2026充电矩阵以集成智能屏加设备识别加石墨烯导热，将充电器从「隐形黑盒」升级为「可见状态设备」：功率、温度、电量、设备信息实时显示在机身屏幕上，充电配件首次拥有可被用户直接读取的视觉状态层。这把充电品类从纯功率竞赛拉向「可见化、智能化」的视觉语言，重新定义了配件类产品的形态约束。",
+    "time": "2026-09-03 15:39",
+    "score": 79,
+    "confidence": 85,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 8,
+      "recognition": 6,
+      "transferability": 7,
+      "cmfInnovation": 7,
+      "paradigmShift": 5
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.4,
+      "recognition": 1.5,
+      "transferability": 1.4,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.5
+    },
+    "visTotal": 6.85,
+    "facts": [
+      "matched signal terms: 材质, 工艺, 形态, 设计语言, 量产, 主流, mass-market",
+      "no spec-only penalty",
+      "source tier: tier1_authoritative"
+    ],
+    "analysis": {
+      "whyItMatters": "Anker将智能屏与设备识别引入充电器，使充电配件从隐形黑盒变为可见状态设备，把配件品类的视觉语言从纯功率竞赛推向可见化与智能化，是消费电子配件设计语言的一次源头性扩展。",
+      "transferability": "材质, 工艺, 形态, 设计语言, 量产, 主流, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier1_authoritative",
+      "name": "Anker官方/EIN Presswire",
+      "url": "https://www.einpresswire.com/article/939305437/anker-unveils-2026-charging-lineup-at-ifa-adding-intelligence-to-a-category-built-on-speed",
+      "capturedAt": "2026-09-09T19:44:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "charger",
+      "smart-display",
+      "gan",
+      "accessory",
+      "status-visible",
+      "anker",
+      "ifa2026"
+    ],
+    "image": "",
+    "duplicateOf": null,
+    "url": "https://www.einpresswire.com/article/939305437/anker-unveils-2026-charging-lineup-at-ifa-adding-intelligence-to-a-category-built-on-speed",
+    "source": "vis",
+    "createdAt": "2026-09-09T19:44:00+08:00",
+    "updatedAt": "2026-09-09T19:44:00+08:00"
+  },
+  {
     "id": "samsung-galaxy-z-fold8-flextitanium",
     "brand": "三星 | Samsung",
     "category": "phone",
