@@ -1,5 +1,71 @@
 [
   {
+    "id": "framework-framework-laptop-12-five-colorways-tpu-overmold-modular-2in1-20260819",
+    "brand": "Framework",
+    "category": "laptop",
+    "title": "Framework Laptop 12: 五色双色调 + TPU 包覆机身，模块化可维修 2 合 1 形态",
+    "summary": "Framework 发布 Laptop 12 第二代，搭载 Intel Core Series 3 处理器，首次提供预装 Fedora Linux 版本。机身采用五种表达色双色调设计，外壳为减震 TPU 包覆 PC/ABS 塑料、内嵌金属骨架，通过 MIL-STD-810 耐用标准。12.2 英寸触控屏支持 360 度铰链与 USI 2.0 触控笔，模块化 Expansion Card 接口与可维修设计延续品牌理念。",
+    "constraintChange": "Laptop 12 将 Framework 一贯的中性金属与石墨色调，首次拓展为五种高饱和双色调配色，并以减震 TPU 包覆加内嵌金属骨架的可维修耐用 CMF 替代传统脆性塑料，模糊了消费电子耐用性与色彩表达之间的边界；模块化 2 合 1 形态进一步把可维修设计语言下沉到入门市场。",
+    "time": "2026-08-19 18:14",
+    "score": 89,
+    "confidence": "high",
+    "source": "vis",
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 8,
+      "recognition": 8,
+      "transferability": 7,
+      "cmfInnovation": 8,
+      "paradigmShift": 6
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.4,
+      "recognition": 2,
+      "transferability": 1.4,
+      "cmfInnovation": 1.2,
+      "paradigmShift": 0.6
+    },
+    "visTotal": 7.6,
+    "primarySource": {
+      "name": "Framework Official",
+      "type": "official",
+      "url": "https://www.frame.work/laptop12",
+      "capturedAt": "2026-09-11T21:50:00+08:00"
+    },
+    "evidence": [
+      {
+        "source": "Framework Official",
+        "type": "official",
+        "url": "https://community.frame.work/t/framework-laptop-12-now-with-core-series-3/84179",
+        "excerpt": "Framework Laptop 12 is our colorful, little, durable 12.2 inch convertible laptop with all five fun colorways and touchscreen with stylus support.",
+        "capturedAt": "2026-09-11T21:50:00+08:00",
+        "image": ""
+      },
+      {
+        "source": "The Verge",
+        "type": "media",
+        "url": "https://www.theverge.com/gadgets/981894/framework-laptop-12-update-intel-core-linux-availability",
+        "excerpt": "Framework launched a second-generation of its colorful 2-in-1 convertible laptop with Intel Core Series 3, a pre-built Fedora Linux option, fingerprint reader and backlit keyboard.",
+        "capturedAt": "2026-09-11T21:50:00+08:00",
+        "image": ""
+      }
+    ],
+    "tags": [
+      "colorful",
+      "two-tone",
+      "tpu-overmold",
+      "convertible-2in1",
+      "modular",
+      "repairable",
+      "student",
+      "durable"
+    ],
+    "image": "",
+    "url": "https://www.frame.work/laptop12",
+    "createdAt": "2026-08-19T18:14:00+08:00",
+    "updatedAt": "2026-09-11T21:50:00+08:00"
+  },
+  {
     "id": "apple-watch-s12-ceramic-return-20260910",
     "brand": "Apple",
     "category": "wearable",
