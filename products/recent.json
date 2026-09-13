@@ -1,5 +1,62 @@
 [
   {
+    "id": "sony-fe-8-14mm-fisheye-g-first-fisheye-zoom-g-lens-20260908",
+    "brand": "索尼Sony",
+    "category": "lens",
+    "title": "索尼 FE 8-14mm F3.5 Fisheye G：索尼首款鱼眼变焦G镜头，小型轻量+高分辨率+多焦段鱼眼表现",
+    "summary": "索尼于2026年9月8日发布FE 8-14mm F3.5 Fisheye G（型号SEL8F14G），这是索尼G镜头系列首款鱼眼变焦镜头。采用10组15片光学结构，包含1枚XA（超级非球面）镜片与4枚非球面镜片，有效抑制广角端的像差与色散。焦段覆盖8-14mm，变焦全程保持F3.5恒定光圈，支持从圆形鱼眼到对角线鱼眼的多种鱼眼表现方式。镜头重量约340克，82mm滤镜口径，尺寸紧凑，可安装在α全画幅微单上。镜头设计语言延续索尼G镜头标志性的哑光黑+银环特征，光学性能与便携性兼顾。这是索尼首次将鱼眼镜头纳入G镜头产品线，鱼眼镜头此前多见于专业天文/科研或运动相机附件，如今G镜头化标志着鱼眼光学正式进入索尼消费级影像体系。",
+    "constraintChange": "索尼FE 8-14mm F3.5 Fisheye G将鱼眼镜头首次纳入G镜头产品线，光学设计从小众专业镜头→索尼消费级主力镜头序列。XA镜片+非球面镜片组合在小体积内实现高分辨率鱼眼成像，8-14mm连续变焦覆盖圆形鱼眼与对角线鱼眼两种主流鱼眼构图方式。鱼眼镜头的G镜头化意味着索尼在光学产品线上补齐了最后一个缺失的广角品类，也是鱼眼光学设计语言正式进入消费级影像主流叙事的标志事件。",
+    "time": "2026-09-08 10:00",
+    "score": 83,
+    "confidence": 90,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 7,
+      "recognition": 6,
+      "transferability": 6,
+      "cmfInnovation": 5,
+      "paradigmShift": 7
+    },
+    "visWeighted": {
+      "diffusionPotential": 2.1,
+      "recognition": 1.5,
+      "transferability": 1.2,
+      "cmfInnovation": 0.75,
+      "paradigmShift": 0.7
+    },
+    "visTotal": 6.25,
+    "facts": [
+      "matched signal terms: 材质, 工艺, 形态, 设计语言, 量产, 主流, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "索尼FE 8-14mm F3.5 Fisheye G将鱼眼镜头首次纳入G镜头产品线，XA镜片+非球面镜片组合在小体积内实现高分辨率鱼眼成像。鱼眼镜头的G镜头化标志着鱼眼光学正式进入消费级影像主流叙事。",
+      "transferability": "材质, 工艺, 形态, 设计语言, 量产, 主流, mass-market",
+      "risk": "needs human review"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "索尼日本官方新闻发布",
+      "url": "https://www.sony.jp/CorporateCruise/Press",
+      "capturedAt": "2026-09-08T10:00:00+08:00"
+    },
+    "evidence": [],
+    "tags": [
+      "fisheye",
+      "g-lens",
+      "wide-angle",
+      "xa-element",
+      "sony",
+      "optical-innovation"
+    ],
+    "image": "",
+    "url": "https://www.sony.jp/CorporateCruise/Press",
+    "source": "vis",
+    "createdAt": "2026-09-13T10:52:00+08:00",
+    "updatedAt": "2026-09-13T10:52:00+08:00"
+  },
+  {
     "id": "framework-framework-laptop-12-five-colorways-tpu-overmold-modular-2in1-20260819",
     "brand": "Framework",
     "category": "laptop",
