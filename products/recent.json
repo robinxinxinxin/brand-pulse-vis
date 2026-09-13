@@ -1,5 +1,221 @@
 [
   {
+    "id": "rog-edition-20-translucent-24k-gold-pg27aqwp-g-20260828",
+    "brand": "ROG",
+    "category": "gaming",
+    "title": "ROG EDITION 20：半透明黑机身 + 24K 镀金装饰，纪念 ROG 二十周年的通透奢华 CMF 语言",
+    "summary": "华硕 ROG 在 2026 年 Gamescom 与二十周年推出 EDITION 20 纪念系列，旗舰 ROG Swift OLED PG27AQWP-G EDITION 20 电竞显示器采用半透明黑色机身搭配 24K 镀金装饰，搭载第四代 Tandem WOLED 面板，QHD 下最高 540Hz、FHD 等效 720Hz，峰值 1500nits，99.5% DCI-P3。同系列 ROG Azoth Extreme Edition 20 键盘以铝合金 chassis、碳纤维定位板、半透明键帽与 24K 镀金纪念铭牌呈现相同通透加贵金属语言。",
+    "constraintChange": "ROG EDITION 20 把半透明外壳与 24K 镀金工艺结合，形成通透加贵金属的周年纪念 CMF 语言。半透明展示内部结构的思路延续了近年硬件去封闭化趋势，而镀金装饰将电竞外设从纯机能黑红推向轻奢展示件，是透明化设计语言在高性能外设上的又一次材质表达。",
+    "time": "2026-08-28 00:00",
+    "score": 64,
+    "confidence": 80,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 6,
+      "recognition": 7,
+      "transferability": 6,
+      "cmfInnovation": 7,
+      "paradigmShift": 6
+    },
+    "facts": [
+      "matched signal terms: 材质, 工艺, 设计语言, 量产",
+      "translucent + 24K gold plating anniversary CMF",
+      "source tier: tier1_media + tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "ROG EDITION 20 以半透明黑机身加 24K 镀金装饰，展示透明化与轻奢贵金属结合的电竞外设 CMF 方向。",
+      "transferability": "材质, 工艺, 设计语言",
+      "risk": "anniversary-limited edition; diffusion potential moderate"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "NikkTech / ASUS ROG 官方",
+      "url": "https://www.nikktech.com/main/news/16717-asus-republic-of-gamers-announces-an-arsenal-of-new-gaming-gear-and-peripherals-for-competitive-players-and-esports-pros-at-gamescom-2026",
+      "capturedAt": "2026-09-13T19:02:00+08:00"
+    },
+    "evidence": [
+      {
+        "source": "NikkTech",
+        "type": "media",
+        "url": "https://www.nikktech.com/main/news/16717-asus-republic-of-gamers-announces-an-arsenal-of-new-gaming-gear-and-peripherals-for-competitive-players-and-esports-pros-at-gamescom-2026",
+        "excerpt": "ROG Swift OLED PG27AQWP-G EDITION 20 features a translucent black chassis accented with 24K gold plating; 4th-gen Tandem WOLED, up to 720Hz.",
+        "capturedAt": "2026-09-13T19:02:00+08:00",
+        "image": ""
+      }
+    ],
+    "tags": [
+      "translucent",
+      "24k-gold",
+      "rog",
+      "gaming",
+      "cmf",
+      "anniversary",
+      "asus"
+    ],
+    "image": "",
+    "url": "https://www.nikktech.com/main/news/16717-asus-republic-of-gamers-announces-an-arsenal-of-new-gaming-gear-and-peripherals-for-competitive-players-and-esports-pros-at-gamescom-2026",
+    "source": "vis",
+    "createdAt": "2026-09-13T19:02:00+08:00",
+    "updatedAt": "2026-09-13T19:02:00+08:00",
+    "visWeighted": {
+      "diffusionPotential": 1.8,
+      "recognition": 1.75,
+      "transferability": 1.2,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.6
+    },
+    "visTotal": 6.4
+  },
+  {
+    "id": "garmin-fenix-9-pro-first-all-titanium-case-20260907",
+    "brand": "Garmin",
+    "category": "wearable",
+    "title": "Garmin fēnix 9 Pro：fēnix 系列首款全钛金属表壳，1.5 英寸最大 AMOLED + 蓝宝石镜面",
+    "summary": "Garmin 于 2026 年 9 月 7 日（台湾 9 月 15 日上市）发布新一代 fēnix 9 与 fēnix 9 Pro，其中 fēnix 9 Pro 首次采用全钛金属表壳，是 fēnix 系列史上第一款钛合金表壳，搭配历代表款最大的 1.5 英寸 AMOLED 屏幕与蓝宝石镜面。全系内存提升 50%、效能提升 30%，新增 Garmin Epic 功能整合最长 92 天运动记录，部分版本内置 inReach 双向卫星通讯。",
+    "constraintChange": "fēnix 9 Pro 将 Garmin 旗舰户外腕表的表壳材质从聚合物与不锈钢首次升级为全钛金属，在坚固与轻量之间进一步靠近航空级材质语言。钛金属进入 fēnix 这种前代量产的户外旗舰，意味着高端钛合金工艺正从奢侈腕表向专业运动穿戴扩散，是可穿戴 CMF 的又一次主流化下沉。",
+    "time": "2026-09-07 10:00",
+    "score": 72,
+    "confidence": 85,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 7,
+      "recognition": 8,
+      "transferability": 7,
+      "cmfInnovation": 7,
+      "paradigmShift": 6
+    },
+    "facts": [
+      "matched signal terms: 材质, 工艺, 形态, 量产, 主流",
+      "first titanium case in fēnix line",
+      "source tier: tier0_official"
+    ],
+    "analysis": {
+      "whyItMatters": "fēnix 9 Pro 是 fēnix 系列首款全钛金属表壳，把高端钛合金工艺带入专业户外穿戴量产线。",
+      "transferability": "材质, 工艺, 量产, 主流",
+      "risk": "needs human review on exact titanium grade"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "Garmin 官方",
+      "url": "https://www.garmin.com/en-ZA/p/pn/010-04336-01/",
+      "capturedAt": "2026-09-13T19:02:00+08:00"
+    },
+    "evidence": [
+      {
+        "source": "Garmin 官方",
+        "type": "official",
+        "url": "https://www.garmin.com/en-ZA/p/pn/010-04336-01/",
+        "excerpt": "fēnix 9 Pro is made with a titanium case for lightweight durability and a premium design; first-ever titanium fēnix case.",
+        "capturedAt": "2026-09-13T19:02:00+08:00",
+        "image": "https://res.garmin.com/en_ZA/products/010-04336-01/v/cf-lg.jpg"
+      },
+      {
+        "source": "GQ Taiwan",
+        "type": "media",
+        "url": "https://www.gq.com.tw/special/garmini-fenix9",
+        "excerpt": "fēnix 9 Pro 首款全钛金属表壳搭配历届最大 1.5 英寸 AMOLED 屏幕，效能提升 30%。",
+        "capturedAt": "2026-09-13T19:02:00+08:00",
+        "image": ""
+      }
+    ],
+    "tags": [
+      "titanium",
+      "fenix",
+      "outdoor",
+      "wearable",
+      "cmf",
+      "garmin"
+    ],
+    "image": "https://res.garmin.com/en_ZA/products/010-04336-01/v/cf-lg.jpg",
+    "url": "https://www.garmin.com/en-ZA/p/pn/010-04336-01/",
+    "source": "vis",
+    "createdAt": "2026-09-13T19:02:00+08:00",
+    "updatedAt": "2026-09-13T19:02:00+08:00",
+    "visWeighted": {
+      "diffusionPotential": 2.1,
+      "recognition": 2,
+      "transferability": 1.4,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.6
+    },
+    "visTotal": 7.15
+  },
+  {
+    "id": "huawei-watch-6-pro-ceramic-white-first-all-ceramic-smartwatch-20260907",
+    "brand": "华为",
+    "category": "wearable",
+    "title": "华为 WATCH 6 Pro 陶瓷白：WATCH 系列首款全陶瓷智能手表，纳米微晶陶瓷表壳表带一体 + 18K 真金点缀",
+    "summary": "华为在 2026 年 9 月 7 日 HarmonyOS 7 全场景发布会上推出 WATCH 6 Pro 陶瓷白，这是华为 WATCH 系列史上第一款全陶瓷智能手表。表壳与表带采用纳米微晶陶瓷一体成型，经 1400°C 高温烧制七日，温润通透；表冠、按键与 X-TAP 位置以 18K 真金点缀，打造高智小白瓷质感。提供 42/43/46mm 三种表径，球面蓝宝石表镜，峰值亮度最高 3500nits，并首发鸿蒙 AI 微体检。",
+    "constraintChange": "WATCH 6 Pro 陶瓷白将智能手表材质从金属/素皮/复合材质首次推进到全陶瓷一体成型，以纳米微晶陶瓷 + 18K 真金把智能手表重新定义为腕间珠宝配饰。它直面女性与商务人群佩戴痛点，用温润高光陶瓷替代传统大黑表的塑料与金属感，标志着消费级可穿戴在材质语言上向高端珠宝赛道跨越，是可穿戴 CMF 的一次范式级突破。",
+    "time": "2026-09-07 14:30",
+    "score": 86,
+    "confidence": 90,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 9,
+      "recognition": 9,
+      "transferability": 8,
+      "cmfInnovation": 9,
+      "paradigmShift": 7
+    },
+    "facts": [
+      "matched signal terms: 材质, 工艺, 形态, 设计语言, 量产, 主流, mass-market",
+      "no spec-only penalty",
+      "source tier: tier0_official + tier1_media"
+    ],
+    "analysis": {
+      "whyItMatters": "华为 WATCH 6 Pro 陶瓷白是 WATCH 系列首款全陶瓷智能手表，纳米微晶陶瓷 + 18K 真金把智能手表带入腕间珠宝赛道。",
+      "transferability": "材质, 工艺, 形态, 设计语言, 量产, 主流, mass-market",
+      "risk": "needs human review on exact ceramic firing spec"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "华为终端官方 / 华为官网",
+      "url": "https://consumer.huawei.com/cn/wearables/watch-6/",
+      "capturedAt": "2026-09-13T19:02:00+08:00"
+    },
+    "evidence": [
+      {
+        "source": "华为官网",
+        "type": "official",
+        "url": "https://consumer.huawei.com/cn/wearables/watch-6/",
+        "excerpt": "HUAWEI WATCH 6 系列，WATCH 6 Pro 陶瓷白为 WATCH 系列首款全陶瓷智能手表。",
+        "capturedAt": "2026-09-13T19:02:00+08:00",
+        "image": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/wearables/watch-6/list/46mm/blue.png"
+      },
+      {
+        "source": "凤凰网 / 天极网",
+        "type": "media",
+        "url": "https://i.ifeng.com/c/8w8pimwr3EY",
+        "excerpt": "WATCH 系列首款全陶瓷手表，从表壳到表带均采用纳米微晶陶瓷材质，表冠以 18K 真金点缀，被称为高智小白瓷。",
+        "capturedAt": "2026-09-13T19:02:00+08:00",
+        "image": ""
+      }
+    ],
+    "tags": [
+      "all-ceramic",
+      "nano-crystalline-ceramic",
+      "18k-gold",
+      "wearable",
+      "cmf",
+      "jewelry-language",
+      "huawei"
+    ],
+    "image": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/wearables/watch-6/list/46mm/blue.png",
+    "url": "https://consumer.huawei.com/cn/wearables/watch-6/",
+    "source": "vis",
+    "createdAt": "2026-09-13T19:02:00+08:00",
+    "updatedAt": "2026-09-13T19:02:00+08:00",
+    "visWeighted": {
+      "diffusionPotential": 2.7,
+      "recognition": 2.25,
+      "transferability": 1.6,
+      "cmfInnovation": 1.35,
+      "paradigmShift": 0.7
+    },
+    "visTotal": 8.6
+  },
+  {
     "id": "sony-fe-8-14mm-fisheye-g-first-fisheye-zoom-g-lens-20260908",
     "brand": "索尼Sony",
     "category": "lens",
