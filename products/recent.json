@@ -1,5 +1,156 @@
 [
   {
+    "id": "dyson-camerajet-ai-toothbrush-with-camera-20260901",
+    "brand": "Dyson",
+    "category": "personal-care",
+    "title": "戴森 CameraJet：首款内置摄像头的电动牙刷，把口腔清洁变成「看得见」",
+    "summary": "戴森于 2026 年 9 月 1 日在巴黎、9 月 3 日 IFA Berlin 发布 CameraJet，是其首款电动牙刷，也是全球首款在刷头下方集成 100K 像素微距摄像头的牙刷。Gap Optical Targeting 机器学习算法每秒分析 28 张实时口腔影像，识别牙缝后在约 100 毫秒内触发锥形漱口水喷射，实现「刷牙同时自动牙线」。配合可变幅声波震动（最高约 58,000 次/分）、12.5ml 防重力漱口水箱、RFID 刷头识别与 MyDyson App 实时直播口腔画面。售价 499 美元，Ceramic Ultra Blue 与 Ceramic Pink 两色，9 月 1 日开售。",
+    "constraintChange": "CameraJet 把一颗摄像头塞进牙刷刷头，让用户首次能「看见」自己口腔内部、实时看到牙缝与清洁覆盖。口腔护理从「凭感觉盲刷」跃迁为「可视化、可引导、可纠正」——这是个人护理品类一次标志性的视觉约束改变：肉眼不可见的清洁盲区被成像系统显影。戴森用计算机视觉 + 机器学习 + 精密流体，把医疗级口内成像下放为消费级日常硬件，重新定义了牙刷这一品类的形态与交互边界。",
+    "time": "2026-09-01 10:30",
+    "score": 84,
+    "confidence": 90,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 7,
+      "recognition": 8,
+      "transferability": 6,
+      "cmfInnovation": 7,
+      "paradigmShift": 9
+    },
+    "facts": [
+      "matched signal terms: 形态, 设计语言, 交互范式, 量产, 主流, mass-market",
+      "first toothbrush with integrated 100K-pixel intraoral camera",
+      "source tier: tier0_official + tier1_media"
+    ],
+    "analysis": {
+      "whyItMatters": "CameraJet 是首款在牙刷内置摄像头的量产消费硬件，把口腔内部从不可见变为可见、可引导。计算机视觉 + 锥形喷射重新定义了牙刷的形态与交互约束，是可穿戴/个人护理影像化的源头信号。",
+      "transferability": "形态, 设计语言, 交互范式, 量产, 主流, mass-market",
+      "risk": "needs human review on camera privacy claims and final retail availability"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "Dyson 官方",
+      "url": "https://www.dyson.com/discover/news/latest/introducing-camerajet",
+      "capturedAt": "2026-09-19T19:04:00+08:00"
+    },
+    "evidence": [
+      {
+        "source": "Dyson 官方",
+        "type": "official",
+        "url": "https://www.dyson.com/discover/news/latest/introducing-camerajet",
+        "excerpt": "Dyson CameraJet is the only toothbrush with a camera powered by Gap Optical Targeting to identify gaps between teeth and precision-floss while you brush.",
+        "capturedAt": "2026-09-19T19:04:00+08:00",
+        "image": ""
+      },
+      {
+        "source": "PR Newswire",
+        "type": "media",
+        "url": "https://www.prnewswire.com/news-releases/dyson-camerajet-the-first-toothbrush-with-a-camera-and-a-jet-to-target-the-gaps-and-remove-plaque-between-your-teeth-302865389.html",
+        "excerpt": "Gap Optical Targeting analyzes 28 live images per second to identify and target gaps between teeth in real time, triggering a precision jet burst of mouthrinse where it is needed.",
+        "capturedAt": "2026-09-19T19:04:00+08:00",
+        "image": ""
+      }
+    ],
+    "tags": [
+      "camera",
+      "toothbrush",
+      "gap-optical-targeting",
+      "intraoral-camera",
+      "see-invisible",
+      "paradigm-shift",
+      "dyson"
+    ],
+    "image": "",
+    "url": "https://www.dyson.com/discover/news/latest/introducing-camerajet",
+    "source": "vis",
+    "createdAt": "2026-09-19T19:04:00+08:00",
+    "updatedAt": "2026-09-19T19:04:00+08:00",
+    "visWeighted": {
+      "diffusionPotential": 2.1,
+      "recognition": 2,
+      "transferability": 1.2,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.9
+    },
+    "visTotal": 7.25
+  },
+  {
+    "id": "roborock-saros-rover-wheel-leg-stair-climbing-robot-vacuum-20260903",
+    "brand": "Roborock",
+    "category": "robot",
+    "title": "石头 Saros Rover：全球首款轮腿结构扫地机器人，能爬楼梯、逐级清扫台阶",
+    "summary": "石头科技在 IFA 2026（9 月 3-4 日，柏林）欧洲首发展示 Saros Rover，是全球首款采用轮腿（wheel-leg）混合架构的扫地机器人。左右各一套车轮与机械腿一体化机构，双腿可独立伸缩，配合运动传感器与 3D 空间数据，让机器人能够逐级攀爬楼梯并在攀爬过程中逐阶清扫台阶，无需人工搬运。它突破了扫地机器人长期被圆形扁平机身束缚、遇到台阶即停的品类天花板。目前仍为展示/开发阶段产品，价格与发售日期未公布（最早于 CES 2026 全球首秀）。",
+    "constraintChange": "Saros Rover 放弃圆形机身下方固定车轮的传统结构，改用可独立伸缩的轮腿机构，让扫地机器人第一次具备跨越楼层、逐级清扫台阶的能力。它把该品类的形态约束从「只能在单一平面移动的圆盘」改写为「可适应立体家居结构的腿式机器人」，是家用机器人形态语言的一次范式级突破——机器人开始适应房屋结构，而非要求房屋为机器人改造。",
+    "time": "2026-09-03 00:00",
+    "score": 78,
+    "confidence": 70,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 6,
+      "recognition": 7,
+      "transferability": 7,
+      "cmfInnovation": 8,
+      "paradigmShift": 9
+    },
+    "facts": [
+      "matched signal terms: 形态, 结构, 设计语言, 交互范式, 概念",
+      "world's first robot vacuum with wheel-leg architecture that climbs stairs",
+      "source tier: tier1_media; currently concept/demo, not yet priced or shipped",
+      "first European debut at IFA 2026; global unveiling at CES 2026"
+    ],
+    "analysis": {
+      "whyItMatters": "Saros Rover 以轮腿结构打破扫地机器人圆形扁平机身的形态天花板，首次实现自主爬楼与逐阶清扫。即便仍处展示阶段，它把家用机器人的形态约束从平面圆盘改写为立体腿式，是可跨品类扩散的源头形态信号。",
+      "transferability": "形态, 结构, 设计语言, 交互范式, 概念",
+      "risk": "concept/demo stage — no price or ship date yet; review before promoting to verified"
+    },
+    "primarySource": {
+      "tier": "tier1_media",
+      "name": "Basic Tutorials / Roborock IFA 2026",
+      "url": "https://basic-tutorials.com/news/ifa-2026-roborock-saros-20-flow-complete-saros-20-neo-and-saros-rover-unveiled",
+      "capturedAt": "2026-09-19T19:04:00+08:00"
+    },
+    "evidence": [
+      {
+        "source": "Basic Tutorials",
+        "type": "media",
+        "url": "https://basic-tutorials.com/news/ifa-2026-roborock-saros-20-flow-complete-saros-20-neo-and-saros-rover-unveiled",
+        "excerpt": "The Saros Rover is the world's first robot vacuum with a wheel-leg hybrid architecture that can autonomously climb stairs and clean multiple floors.",
+        "capturedAt": "2026-09-19T19:04:00+08:00",
+        "image": ""
+      },
+      {
+        "source": "Futura-Sciences (IFA 2026)",
+        "type": "media",
+        "url": "https://www.futura-sciences.com/en/after-years-of-waiting-your-robot-vacuum-can-finally-conquer-the-stairs-alone_39373/",
+        "excerpt": "The new Saros Rover isn't your stereotypical, squat disc: it has articulated legs. Two arms ending in wheels that can independently adjust their height and tilt, giving the Rover the ability to scale uneven surfaces.",
+        "capturedAt": "2026-09-19T19:04:00+08:00",
+        "image": ""
+      }
+    ],
+    "tags": [
+      "wheel-leg",
+      "stair-climbing",
+      "robot-vacuum",
+      "form-factor",
+      "paradigm-shift",
+      "roborock",
+      "saros-rover"
+    ],
+    "image": "",
+    "url": "https://basic-tutorials.com/news/ifa-2026-roborock-saros-20-flow-complete-saros-20-neo-and-saros-rover-unveiled",
+    "source": "vis",
+    "createdAt": "2026-09-19T19:04:00+08:00",
+    "updatedAt": "2026-09-19T19:04:00+08:00",
+    "visWeighted": {
+      "diffusionPotential": 1.8,
+      "recognition": 1.75,
+      "transferability": 1.4,
+      "cmfInnovation": 1.2,
+      "paradigmShift": 0.9
+    },
+    "visTotal": 7.05
+  },
+  {
     "id": "rog-edition-20-translucent-24k-gold-pg27aqwp-g-20260828",
     "brand": "ROG",
     "category": "gaming",
