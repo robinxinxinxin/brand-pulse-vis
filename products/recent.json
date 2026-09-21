@@ -1,5 +1,84 @@
 [
   {
+    "id": "ray-ban-meta-display-ar-lens-display-neural-band-20260905",
+    "brand": "Ray-Ban Meta",
+    "category": "wearable",
+    "title": "Ray-Ban Meta Display：首款把全彩显示屏藏进日常墨镜镜片、用肌电腕带操控的 AR 眼镜",
+    "summary": "Meta 在 2026 年 9 月 Meta Connect 发布 Ray-Ban Meta Display，是其首款在镜片内集成显示器的 AR 眼镜。右镜片通过几何（反射式）光波导投射全彩单眼显示器（LCoS，600×600，42 PPD，峰值约 5000 nits，漏光仅约 2% 故无可见 eye-glow），旁人看不到屏幕内容，只有佩戴者可见消息、导航、实时字幕/翻译、视频通话与 Meta AI。配套 Meta Neural Band 肌电（sEMG）腕带通过前臂微电信号识别捏合、滑动、旋转等手势操控界面，未来将支持空中手写，腕带随眼镜附赠、IPX7 防水、续航约 18 小时。整机 12MP 摄像头、开放耳音频、混合使用约 6 小时续航＋充电盒约 30 小时，重约 69g，黑/沙两色，外观与普通 Wayfarer 墨镜几乎一致，没有 Google Glass 式的突兀科技感。售价 799 美元（含 Neural Band），9 月 30 日美国首发，加拿大/法/意/英于 2026 年初跟进；同日还发布第二代 Ray-Ban Meta（379 美元）与 Oakley Meta Vanguard（549 美元）。",
+    "constraintChange": "Ray-Ban Meta Display 把显示器直接做进日常墨镜的镜片里，且只有佩戴者自己能看到——屏幕从一块独立的设备/玻璃，下沉为眼镜本身的一部分，视觉界面与镜片合一。交互也随之脱离手机与语音：用腕部肌电（sEMG）识别细微手势来操控，界面在指尖与视线之间完成。这改写了可穿戴品类的「屏幕在哪里」约束：视觉表面即镜片，交互是近乎无声的肌电＋手势。它是自 2017 年 Google Glass 以来，真正把 AR 显示融进日常墨镜形态的范式级信号，让「隐形显示器＋低存在感交互」成为消费级 AI 眼镜的新的视觉语言起点。",
+    "time": "2026-09-05 10:00",
+    "score": 84,
+    "confidence": 90,
+    "reviewStatus": "needs_review",
+    "visBreakdown": {
+      "diffusionPotential": 8,
+      "recognition": 9,
+      "transferability": 9,
+      "cmfInnovation": 7,
+      "paradigmShift": 9
+    },
+    "facts": [
+      "matched signal terms: 形态, 结构, 交互范式, 量产, 主流, mass-market",
+      "first AR glasses with full-color monocular lens display (geometric waveguide + LCoS, 600x600, 42 PPD, up to 5000 nits) + sEMG Neural Band",
+      "source tier: tier0_official + tier1_media",
+      "Meta Connect 2026 launch; $799 incl. Neural Band; US Sept 30, EU/Canada early 2026"
+    ],
+    "analysis": {
+      "whyItMatters": "Ray-Ban Meta Display 把全彩显示器藏进日常墨镜镜片、旁人不可见，并用肌电腕带取代语音/触屏操控，是自 Google Glass 以来首次把 AR 显示真正融入大众墨镜形态的范式级信号。",
+      "transferability": "形态, 结构, 交互范式, 量产, 主流, mass-market",
+      "risk": "needs human review on exact waveguide vendor, display brightness in direct sunlight, and real-world app ecosystem size"
+    },
+    "primarySource": {
+      "tier": "tier0_official",
+      "name": "Meta 官方 / Ray-Ban (EssilorLuxottica)",
+      "url": "https://www.meta.com/smart-glasses/ray-ban-display/",
+      "capturedAt": "2026-09-21T21:17:00+08:00"
+    },
+    "evidence": [
+      {
+        "source": "Meta 官方 / Counterpoint Research",
+        "type": "official",
+        "url": "https://www.counterpointresearch.com/en/reports/meta-unveils-its-first-ar-smart-glasses-ray-ban-meta-display",
+        "excerpt": "Ray-Ban Meta Display features a full-color monocular display projected through a geometric (reflective) waveguide on the right lens; LCoS display, 600x600, 42 PPD, up to 5,000 nits, ~2% light leakage (no eye-glow). Controlled by Meta Neural Band sEMG wristband.",
+        "capturedAt": "2026-09-21T21:17:00+08:00",
+        "image": ""
+      },
+      {
+        "source": "Engadget",
+        "type": "media",
+        "url": "https://engadget.com/wearables/meta-ray-ban-display-glasses-offer-an-ar-display-for-799-002921925.html",
+        "excerpt": "Meta's first AR glasses with a built-in screen: full-color HUD in the right lens shows messages, directions, captions, video calls; Neural Band sEMG gestures; $799, US Sept 30.",
+        "capturedAt": "2026-09-21T21:17:00+08:00",
+        "image": ""
+      }
+    ],
+    "tags": [
+      "ar-glasses",
+      "lens-display",
+      "waveguide",
+      "neural-band",
+      "semg",
+      "invisible-display",
+      "paradigm-shift",
+      "wearable",
+      "ray-ban-meta",
+      "meta"
+    ],
+    "image": "",
+    "url": "https://www.meta.com/smart-glasses/ray-ban-display/",
+    "source": "vis",
+    "createdAt": "2026-09-21T21:17:00+08:00",
+    "updatedAt": "2026-09-21T21:17:00+08:00",
+    "visWeighted": {
+      "diffusionPotential": 2.4,
+      "recognition": 2.25,
+      "transferability": 1.8,
+      "cmfInnovation": 1.05,
+      "paradigmShift": 0.9
+    },
+    "visTotal": 8.4
+  },
+  {
     "id": "dji-osmo-pocket-4p-pearl-white-mica-pearlescent-20260916",
     "brand": "大疆DJI",
     "category": "camera",
